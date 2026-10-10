@@ -1,0 +1,74 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ VOC | Voice and vocal technique
+voice_type | Voice types |  | Voice classification by range and ensemble. |  | 
+  male_vocals | Male vocals |  |  | male vocals | 
+  female_vocals | Female vocals |  |  | female vocals | 
+  duet | Duet |  | Two singers alternating or singing together. | duet; male and female vocals | 
+  soprano | Soprano |  | Highest female voice. | soprano | 
+  mezzo_soprano | Mezzo-soprano |  |  |  | 
+  contralto | Contralto | alto | Lowest female voice. |  | 
+  countertenor | Countertenor |  | Male voice in the alto range. |  | 
+  tenor | Tenor |  | High male voice. | tenor | 
+  baritone_voice | Baritone |  | Middle male voice. | baritone vocals | 
+  bass_voice | Bass voice |  | Lowest male voice. | deep bass vocals | 
+  child_voice | Child voice |  |  | children's choir | 
+  choir | Choir |  | Large vocal ensemble. | choir; choral | chorale
+    gospel_choir | Gospel choir |  | Gospel-style choir with handclaps and call and response. | gospel choir | 
+    gang_vocals | Gang vocals |  | Several voices shouting in unison; punk and hardcore. | gang vocals | 
+    chant | Chant |  | Collective singing recited on few notes. | chanting; gregorian chant | 
+singing_technique | Singing techniques |  | Techniques of sung vocal production. |  | 
+  chest_voice | Chest voice |  | Low, resonant register. |  | 
+  head_voice | Head voice |  | High, light register. |  | 
+  falsetto | Falsetto |  | High, airy register above the natural voice. | falsetto | head_voice
+  belting | Belting |  | Chest register pushed high with great power. | belting; powerful vocals | 
+  mixed_voice | Mixed voice | mix | Blend of chest and head. |  | 
+  vocal_vibrato | Vocal vibrato |  | Periodic pitch oscillation. | vibrato | 
+  breathy_vocals | Breathy vocals |  | Delivery with lots of air. | breathy vocals | whisper
+  whisper | Whisper |  | Voice without vocal-fold vibration. | whispered vocals | 
+  vocal_fry | Vocal fry |  | Crackly delivery in the lowest register. | vocal fry | 
+  raspy_vocals | Raspy vocals | rasp | Light, rough distortion; rock and soul. | raspy vocals; gritty vocals | 
+  twang | Twang |  | Bright, nasal timbre; country. | country twang | 
+  yodel | Yodel |  | Rapid jumps between chest voice and falsetto. | yodeling | 
+  vocal_hiccup | Vocal hiccup |  | Clipped breaks in the voice; rockabilly. | hiccup vocals | 
+  crooning | Crooning |  | Soft singing close to the microphone. | crooner vocals | 
+  operatic | Operatic singing | bel canto | Classical technique projecting without a microphone. | operatic vocals | opera
+  melismatic_singing | Melismatic singing |  | Style rich in melismas. |  | melisma
+  vocal_runs | Vocal runs |  | Fast passages of notes on one syllable; R&B and gospel. | vocal runs | melisma
+  cante_jondo | Cante jondo |  | Melismatic, raw flamenco singing. | flamenco vocals | 
+  overtone_singing | Overtone singing | throat singing; khöömei | One voice producing a note and its overtones at once. | throat singing | 
+  humming | Humming |  | Singing with the mouth closed. | humming | 
+  whistling | Whistling |  | Whistled melody. | whistling | 
+  vocalise | Vocalise | oohs; aahs | Singing on vowels without text. | oohs and aahs; wordless vocals | 
+  scat | Scat singing |  | Vocal improvisation with nonsense syllables; jazz. | scat singing | 
+  ululation | Ululation | zaghrouta | High tongue trill, typical of North Africa and the Middle East. |  | 
+harsh_vocals | Harsh vocals | extreme vocals | Distorted vocal techniques of metal and hardcore. | harsh vocals; screamed vocals | 
+  growl | Growl | death growl | Low guttural voice of death metal. | death growl; guttural vocals | 
+  scream | Scream |  | Mid-to-high distorted scream. | screaming vocals | 
+    fry_scream | Fry scream |  | High scream based on vocal fry. |  | 
+    false_chord | False chord scream |  | Scream using the false vocal folds. |  | 
+    high_shriek | Shriek |  | High shriek of black metal. | black metal shrieks | 
+  pig_squeal | Pig squeal |  | High, pig-like guttural of deathcore and slam. | pig squeals | 
+  clean_vocals | Clean vocals |  | Undistorted singing, in contrast to harsh vocals. | clean vocals; clean and harsh vocals | 
+  shout | Shouted vocals | yell | Shouted, non-guttural voice; punk and hardcore. | shouted vocals | 
+spoken_vocal | Spoken and rapped vocals |  | Non-sung vocal delivery. |  | 
+  spoken_word | Spoken word |  | Spoken text over music. | spoken word | spoken_intro
+  sprechgesang | Sprechgesang |  | Technique halfway between speech and song. |  | 
+  rap | Rap | MC | Rhythmic, rhymed delivery. | rap; rapping | 
+    flow | Flow |  | Rhythmic pattern of a rap delivery. |  | 
+    double_time_rap | Double-time rap | chopper; fast rap | Rap at double the apparent speed. | fast rap; chopper flow | 
+    triplet_flow | Triplet flow | migos flow | Rap in eighth-note triplets. | triplet flow | 
+    melodic_rap | Melodic rap | sing-rap | Rap with a melodic contour, often with autotune. | melodic rap | autotune
+    mumble_rap | Mumble delivery |  | Relaxed, loosely articulated diction. |  | 
+    toasting | Toasting | deejaying | Jamaican rhythmic chanting over riddims. | toasting | dancehall_riddim
+  beatbox | Beatboxing |  | Percussion imitated with the mouth. | beatboxing | 
+vocal_arrangement | Vocal arrangement |  | Arrangement of voices on the recording. |  | 
+  lead_vocal | Lead vocal |  |  | lead vocals | 
+  backing_vocals | Backing vocals |  |  | backing vocals | 
+  vocal_harmonies | Vocal harmonies |  | Several voices at different pitches. | vocal harmonies; harmonized vocals | 
+    close_harmony | Close harmony |  | Tightly voiced parts; doo-wop, barbershop. | close harmony | 
+  double_tracked_vocals | Double-tracked vocals | doubling | The same vocal take recorded twice. | double-tracked vocals | 
+  ad_libs | Ad-libs |  | Spontaneous vocal interjections. | ad-libs; vocal ad-libs | 
+  a_cappella | A cappella |  | Voices without instrumental accompaniment. | a cappella | a_cappella_section
+  vocal_call_response | Vocal call and response |  | Soloist and choir alternating. |  | ^call_and_response

@@ -1,0 +1,64 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ TEC | Instrumental techniques
+guitar_technique | Guitar techniques |  |  |  | 
+  palm_muting | Palm muting |  | Strings damped with the palm for a dry, percussive sound. | palm-muted riffs | 
+  chugging | Chugging |  | Repeated low muted power chords. | chugging riffs | palm_muting
+  djent_technique | Djent riffing |  | Syncopated muted riffs on very low strings with a metallic attack. | djent | polyrhythm, seven_string_guitar
+  tremolo_picking | Tremolo picking |  | Very fast alternate picking on one note; black metal, surf. | tremolo picking | 
+  alternate_picking | Alternate picking |  |  |  | 
+  sweep_picking | Sweep picking |  | Fast arpeggios with a sweeping pick stroke. | sweep picking | neoclassical_shred
+  tapping | Tapping | two-hand tapping | Notes sounded by the picking hand on the fretboard. | tapping | 
+  legato_guitar | Legato (guitar) | hammer-on; pull-off | Slurred notes without picking. |  | 
+  string_bending | String bending |  | Stretching the string to raise the pitch. | bluesy bends | 
+  whammy | Whammy bar | dive bomb |  | dive bombs | 
+  pinch_harmonics | Pinch harmonics | squeals | High harmonics produced with the pick; metal. | pinch harmonics | 
+  natural_harmonics | Natural harmonics |  |  |  | 
+  slide_guitar | Slide guitar | bottleneck | Notes slid with a tube along the strings. | slide guitar | 
+  fingerpicking | Fingerpicking | fingerstyle | Playing with the fingers. | fingerpicked guitar; fingerstyle | 
+    travis_picking | Travis picking |  | Alternating thumb bass with finger-played melody. | travis picking | 
+  strumming | Strumming |  |  | strummed acoustic guitar | 
+  rasgueado | Rasgueado |  | Fan-like strums of flamenco guitar. | rasgueado | flamenco_guitar
+  picado | Picado |  | Fast scales plucked with alternating fingers. |  | 
+  chicken_picking | Chicken picking |  | Clucky, staccato country picking. | chicken picking | 
+  funk_scratch | Funk guitar scratching | chank | Percussive strumming on muted strings. | funky rhythm guitar | 
+  skank_guitar | Skank guitar | chop | Short offbeat chord; reggae and ska. | offbeat guitar skank | offbeat
+  jangle | Jangle guitar |  | Bright arpeggios of open chords; jangle pop. | jangly guitars | twelve_string_guitar
+  shred | Shred guitar |  | Virtuosic high-speed solos. | shredding guitar solos | 
+    neoclassical_shred | Neoclassical shred |  | Shred based on Baroque scales and arpeggios. | neoclassical guitar | harmonic_minor
+  feedback | Guitar feedback |  | Controlled amplifier feedback. | guitar feedback | 
+  drop_tuning | Drop tuning | drop D; drop C | Tuning with the lowest string lowered. | drop-tuned guitars; downtuned | 
+  open_tuning | Open tuning | open G; DADGAD | Tuning that forms a chord on open strings. |  | 
+  chord_melody | Chord melody |  | Harmonized melody on a single guitar. |  | 
+bass_technique | Bass techniques |  |  |  | 
+  slap_bass | Slap bass | slap and pop | Thumb slap and string pop. | slap bass | 
+  walking_bass | Walking bass |  | Quarter-note bass outlining the chords; jazz. | walking bass | 
+  octave_bass | Octave bass |  | Bass alternating octaves; disco. | disco bassline | 
+  picked_bass | Picked bass |  |  |  | 
+  sub_bass | Sub-bass |  | Low frequencies below ~60 Hz. | heavy sub-bass; deep sub-bass | bass_heavy
+  bass_slides | Bass glides | 808 slides | Pitch glides in the bass. | sliding 808s; gliding bass | tr808
+keyboard_technique | Keyboard techniques |  |  |  | 
+  stride_piano | Stride piano |  | Left hand alternating bass and chord; early jazz. | stride piano | 
+  boogie_woogie_bass | Boogie-woogie bass |  | Left-hand blues figures in ostinato. | boogie-woogie piano | 
+  montuno | Montuno | guajeo | Syncopated, repeated piano figure in salsa. | piano montuno | tumbao
+  block_chords | Block chords |  |  |  | 
+  piano_glissando | Piano glissando |  |  |  | glissando
+  leslie | Leslie speaker | rotary | Rotating effect of the Hammond organ. | leslie organ; rotary speaker | hammond_organ
+bowed_technique | Bowed-string techniques |  |  |  | 
+  pizzicato | Pizzicato |  | Strings plucked with the fingers. | pizzicato strings | 
+  string_tremolo | String tremolo |  | Very fast bowed repetition. | tremolo strings | 
+  staccato_strings | Staccato strings | spiccato |  | staccato strings | 
+  legato_strings | Legato strings |  |  | legato strings | 
+  col_legno | Col legno |  | Striking with the wood of the bow. |  | 
+  double_stops | Double stops |  |  |  | 
+  string_swells | String swells |  |  | swelling strings | 
+wind_technique | Wind techniques |  |  |  | 
+  sax_growl | Saxophone growl | honking | Saxophone with voice added; rough sound. | honking sax | 
+  flutter_tongue | Flutter-tonguing |  |  |  | 
+  brass_stabs | Brass stabs |  | Short hits from the horn section. | brass stabs; horn stabs | horn_section
+  brass_falls | Falls and doits |  | Brass glissandos at the end of a note. |  | 
+  circular_breathing | Circular breathing |  |  |  | 
+dj_technique | DJ techniques | turntablism |  |  | 
+  scratching | Scratching |  | Moving the vinyl to create rhythms. | turntable scratches; dj scratches | turntables
+  beat_juggling | Beat juggling |  |  |  | 

@@ -1,0 +1,115 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ RHY | Rhythm, meter and tempo
+meter | Meter | time signature | Organization of beats into bars with recurring accents. | time signature | 
+  simple_meter | Simple meter |  | Each beat divides into two. |  | 
+    time_2_4 | 2/4 time |  | Two beats per bar; marches, polka, cumbia. | 2/4 time | march
+    time_3_4 | 3/4 time |  | Three beats per bar; waltz, mazurka, many folk ballads. | 3/4 time; waltz time | waltz
+    time_4_4 | 4/4 time | common time | The default meter of nearly all popular music. | 4/4 | 
+  compound_meter | Compound meter |  | Each beat divides into three. |  | 
+    time_6_8 | 6/8 time |  | Two triple-divided beats; jig, Irish ballads, slow doo-wop. | 6/8 time | triplet_feel, hemiola
+    time_9_8 | 9/8 time |  | Three triple-divided beats, or aksak groupings (2+2+2+3). | 9/8 time | aksak
+    time_12_8 | 12/8 time |  | Four triple-divided beats; slow blues, soul, rock and roll ballads. | 12/8 time; slow blues | shuffle
+  odd_meter | Odd meter | odd time signature | Bars whose beats don't group evenly. | odd time signature; odd meter; progressive rhythm | 
+    time_5_4 | 5/4 time |  | Five beats (3+2 or 2+3). | 5/4 time | 
+    time_5_8 | 5/8 time |  | Five eighth notes, grouped 2+3 or 3+2. | 5/8 time | aksak
+    time_7_8 | 7/8 time |  | Seven eighth notes (2+2+3, 3+2+2…); prog rock, Balkan music. | 7/8 time | aksak
+    time_7_4 | 7/4 time |  | Seven quarter notes per bar. | 7/4 time | 
+    time_11_8 | 11/8 time |  | Eleven eighth notes; Balkan folk, progressive metal. | 11/8 time | aksak
+    time_13_8 | 13/8 time |  | Thirteen eighth notes; prog rock and math rock. | 13/8 time | 
+    aksak | Aksak rhythm |  | Uneven groupings of 2s and 3s typical of Turkey and the Balkans. | balkan rhythm; odd meter | 
+  mixed_meter | Mixed meter | changing meter | Frequent alternation of different time signatures within a section. | changing time signatures; mixed meter | ^odd_meter, metric_modulation
+  free_meter | Free meter | ad libitum; unmeasured | Passages without a regular pulse, shaped by the phrase. | free time; rubato; ad lib | rubato
+  hemiola | Hemiola |  | Three duple beats laid over or alternating with two triple ones (metric 3:2). |  | time_6_8, polyrhythm
+  polymeter | Polymeter |  | Simultaneous layers in different meters sharing a pulse. | polymeter | polyrhythm
+rhythmic_feel | Rhythmic feel | feel; groove | How the pulse is subdivided and placed, beyond the time signature. | groove | 
+  straight_feel | Straight feel | straight eighths | Even subdivisions, no swing. | straight beat | 
+  swing | Swing | swung eighths | Uneven (long-short) eighth notes built on a triplet. | swing; swung rhythm | shuffle, triplet_feel
+  shuffle | Shuffle |  | A steady, pronounced swing pattern; the basis of blues and boogie. | shuffle; shuffle groove | swing, time_12_8
+  triplet_feel | Triplet feel |  | A pulse consistently subdivided into three. | triplet feel | time_12_8
+  half_time | Half-time feel |  | The snare lands every other beat, so the music feels half as fast. | half-time; half time groove | double_time
+  double_time | Double-time feel |  | Percussion doubles the apparent speed of the pulse. | double-time; double time | half_time
+  laid_back | Laid-back feel | behind the beat; in the pocket | Playing slightly behind the beat for a relaxed feel. | laid-back groove | 
+  driving_feel | Driving feel | ahead of the beat | Playing ahead of or insistently on the beat for urgency. | driving rhythm | 
+rhythmic_device | Rhythmic devices |  | Techniques that alter or enrich the basic pattern. |  | 
+  syncopation | Syncopation |  | Accents on weak beats or between beats. | syncopated rhythm | 
+  anticipation | Anticipation | push | A note or chord that arrives before the strong beat it was expected on. |  | syncopation
+  offbeat | Offbeat | upbeat; afterbeat | Systematic accenting of the weak parts of the beat. | offbeat rhythm | skank_guitar
+  backbeat | Backbeat |  | Snare accent on beats 2 and 4 of a 4/4 bar. | backbeat | rock_beat
+  polyrhythm | Polyrhythm |  | Two or more conflicting subdivisions at once (3:2, 4:3…). | polyrhythmic; polyrhythms | 
+    three_against_two | Three against two | 3:2 | Three even notes against two in the same span. |  | 
+    four_against_three | Four against three | 4:3 | Four notes against three in the same span. |  | 
+    cross_rhythm | Cross-rhythm |  | Sustained polyrhythm as a structural basis, typical of West African music. | african cross-rhythm | 
+  clave | Clave |  | Five-stroke guide pattern in Afro-Cuban music. | clave rhythm | claves_instrument
+    son_clave | Son clave | clave 3-2; clave 2-3 | Son clave in its 3-2 and 2-3 orientations. | son clave | 
+    rumba_clave | Rumba clave |  | Variant with the third stroke delayed. | rumba clave | 
+    bossa_clave | Bossa nova clave |  | Brazilian clave variant used in bossa nova. |  | bossa_nova_beat
+  tresillo | Tresillo | 3+3+2 | 3+3+2 grouping of eighth notes, core of Afro-Latin rhythm and today's pop. |  | habanera_rhythm, dembow
+  habanera_rhythm | Habanera rhythm |  | Tresillo with an added note on beat two. | habanera rhythm | tresillo
+  stop_time | Stop-time |  | The band plays only isolated hits, leaving gaps for vocals or a solo. | stop-time; stops | 
+  rhythmic_displacement | Rhythmic displacement |  | A motif repeated shifted against the beat. |  | 
+  metric_modulation | Metric modulation |  | Tempo change derived from a shared subdivision. | metric modulation | mixed_meter
+  anacrusis | Anacrusis | pickup | Notes before the first downbeat of a phrase. | pickup | 
+  hits | Ensemble hits | hits; kicks; accents; tutti hits | Accents played by the whole band together. | band hits; stabs | stop_time
+tempo | Tempo | BPM | Speed of the pulse, in beats per minute. | BPM | 
+  tempo_very_slow | Very slow tempo | largo; grave | Below ~60 BPM. | very slow; 50 BPM | 
+  tempo_slow | Slow tempo | adagio; downtempo | ~60–80 BPM. | slow tempo; downtempo; 70 BPM | 
+  tempo_mid | Mid tempo | moderato; andante; midtempo | ~85–110 BPM. | mid-tempo; 100 BPM | 
+  tempo_fast | Fast tempo | allegro; uptempo | ~115–150 BPM. | uptempo; fast tempo; 128 BPM | 
+  tempo_very_fast | Very fast tempo | presto; vivace | Above ~160 BPM. | very fast; 180 BPM | blast_beat
+  tempo_change | Tempo change |  | Tempo variation within the piece. | tempo change | 
+    accelerando | Accelerando |  | Gradual speeding up. | accelerando; speeding up | 
+    ritardando | Ritardando | rallentando; ritenuto | Gradual slowing down, typical of endings. | ritardando; slowing down | 
+    rubato | Rubato | tempo rubato | Expressive flexibility of tempo. | rubato | free_meter
+    fermata | Fermata |  | A note or rest held beyond its value. | fermata | 
+    tempo_switch | Tempo switch |  | Sudden jump to another tempo between sections. | tempo switch | beat_switch
+
+@ DRM | Drums and percussion patterns
+drum_pattern | Drum patterns | beat | Drum patterns that identify styles. | drum groove | 
+  rock_beat | Basic rock beat |  | Kick on 1 and 3, snare on 2 and 4, eighth-note hi-hats. | rock drums | backbeat
+  four_on_the_floor | Four-on-the-floor | 4x4 | Kick on every beat of a 4/4 bar; disco and house. | four-on-the-floor; four on the floor kick | 
+  stomp_clap | Stomp and clap beat |  | Heavily accented alternating kick and handclap; glam and modern folk-pop. | stomp and clap; stomping beat | handclaps
+  breakbeat | Breakbeat | break | Syncopated pattern taken from funk breaks, often sampled. | breakbeat; breakbeats | sampling
+    amen_break | Amen break |  | The break from "Amen, Brother" (The Winstons), foundation of jungle and drum and bass. | amen break; chopped breaks | chopped_breaks
+    chopped_breaks | Chopped breaks | break chopping | Sampled breaks rearranged at high speed. | chopped breakbeats | ^sampling
+    two_step_beat | 2-step beat |  | Syncopated pattern without a kick on every beat; UK garage. | 2-step beat; shuffled garage drums | 
+  boom_bap | Boom bap |  | Dry, prominent sampled kick and snare; 90s hip hop. | boom bap drums | 
+  trap_beat | Trap beat |  | Sixteenth-note hi-hats with rolls, long 808, half-time snare. | trap beat | trap_hihats, tr808, half_time
+    trap_hihats | Trap hi-hats | hi-hat rolls | Hi-hats with 32nd-note and triplet rolls. | rolling hi-hats; hi-hat rolls | 
+    drill_beat | Drill beat | UK drill | Displaced snare, triplet hi-hats and gliding 808. | drill beat; sliding 808s | tr808
+  dembow | Dembow |  | Quarter-note kick with a tresillo snare (3+3+2); reggaeton. | dembow; reggaeton beat | tresillo
+  one_drop | One drop |  | Kick and snare together only on beat three; roots reggae. | one drop rhythm | 
+  steppers | Steppers |  | Quarter-note kick in reggae and dub. | steppers rhythm | four_on_the_floor
+  rockers_beat | Rockers beat |  | Late-70s reggae pattern with busier kick and hi-hat. |  | 
+  d_beat | D-beat | discharge beat | Hardcore punk pattern derived from Discharge. | d-beat | 
+  skank_beat | Skank beat | polka beat | Kick and snare alternating at high speed. | skank beat; thrash beat | 
+  blast_beat | Blast beat |  | Kick, snare and cymbals at maximum speed; grindcore and death/black metal. | blast beats | tempo_very_fast, double_kick
+  double_kick | Double bass drumming | double kick | Kick played with two beaters in continuous sixteenths or bursts. | double kick drums; double bass drumming | gallop
+  gallop | Gallop rhythm |  | Eighth–two-sixteenths figure repeated on guitar or kick; classic heavy metal. | galloping rhythm | 
+  motorik | Motorik |  | Hypnotic, steady 4/4 pulse; krautrock. | motorik beat | 
+  train_beat | Train beat |  | Continuous snare pattern imitating a train; country and rockabilly. | train beat | 
+  purdie_shuffle | Purdie shuffle | half-time shuffle | Half-time shuffle with ghost notes. | half-time shuffle | shuffle, ghost_notes
+  second_line | Second line |  | New Orleans parade groove. | second line groove | 
+  bossa_nova_beat | Bossa nova beat |  | Cross-stick on the bossa clave with kick on 2. | bossa nova rhythm | bossa_clave
+  samba_beat | Samba batucada |  | Samba percussion with surdo, caixa and tamborim. | samba percussion; batucada | 
+  baiao_beat | Baião rhythm |  | Northeastern Brazilian rhythm with zabumba and triangle. |  | 
+  cumbia_beat | Cumbia rhythm |  | Guacharaca or güira in eighths with kick in 2/4. | cumbia rhythm | 
+  tumbao | Tumbao |  | Syncopated conga or bass pattern in salsa and son. | tumbao | montuno
+  afrobeat_drums | Afrobeat drumming |  | Polyrhythmic drum pattern in the style of Tony Allen. | afrobeat drums | 
+  jersey_club_beat | Jersey club beat |  | Kick pattern in five-stroke bursts with bed-squeak samples. | jersey club kicks | 
+  footwork_beat | Footwork beat | juke | Syncopated kick patterns at ~160 BPM. | footwork; juke rhythm | 
+  dancehall_riddim | Dancehall riddim |  | Repeated rhythm track that different artists sing over. | dancehall riddim | 
+  tamborzao | Tamborzão | batidão | Funk carioca percussion pattern derived from Miami bass. | tamborzao; funk carioca beat | tr808
+  log_drum_groove | Log drum groove |  | Amapiano's percussive bass pattern. | amapiano log drums | log_drum
+drum_technique | Drum techniques |  | Drumming performance techniques. |  | 
+  ghost_notes | Ghost notes |  | Very soft snare strokes between the main ones. | ghost notes | 
+  drum_fill | Drum fill |  | Short drum phrase linking sections. | drum fill; big drum fills | 
+  drum_roll | Drum roll |  | Rapid, continuous succession of strokes. | snare roll | snare_build
+  snare_build | Snare build-up | snare roll riser | Accelerating snare roll before a drop. | snare build-up | build_up
+  flam | Flam |  | Two near-simultaneous strokes, one a grace note. |  | 
+  cross_stick | Cross-stick | rim click | Stroke with the stick resting across the rim. | rimshot; cross-stick | 
+  tribal_toms | Tribal toms |  | Insistent patterns on the low toms. | tribal drums; tom-heavy drums | 
+  drum_solo | Drum solo |  | Showcase section for the drums. | [Drum Solo] | ^solo_section
+  linear_drumming | Linear drumming |  | No two strokes coincide; fluid funk and fusion patterns. |  | 
+  brushes | Brushes |  | Playing with brushes; jazz and ballads. | brushed drums | 

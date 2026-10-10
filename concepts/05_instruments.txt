@@ -1,0 +1,180 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ INS | Instrumentation
+plucked_strings | Plucked strings |  |  |  | 
+  acoustic_guitar | Acoustic guitar | steel-string guitar |  | acoustic guitar | 
+  classical_guitar | Classical guitar | nylon-string guitar |  | nylon guitar; spanish guitar | 
+  flamenco_guitar | Flamenco guitar |  |  | flamenco guitar | rasgueado
+  electric_guitar | Electric guitar |  |  | electric guitar | 
+    clean_guitar | Clean electric guitar |  | Undistorted sound. | clean guitar | 
+    distorted_guitar | Distorted guitar |  |  | distorted guitars; heavy guitars | distortion
+  twelve_string_guitar | Twelve-string guitar |  |  | 12-string guitar; jangly guitar | 
+  seven_string_guitar | Extended-range guitar |  | Guitars with added low strings; modern metal. | 7-string guitar; 8-string guitar | drop_tuning
+  pedal_steel | Pedal steel guitar |  |  | pedal steel | 
+  lap_steel | Lap steel / resonator guitar | dobro |  | dobro; lap steel | slide_guitar
+  electric_bass | Electric bass | bass guitar |  | bass guitar | 
+  fretless_bass | Fretless bass |  |  | fretless bass | 
+  double_bass | Double bass | upright bass |  | upright bass | 
+  banjo | Banjo |  |  | banjo | 
+  mandolin | Mandolin |  |  | mandolin | 
+  ukulele | Ukulele |  |  | ukulele | 
+  lute | Lute |  |  | lute | 
+  harp | Harp |  |  | harp | 
+  sitar | Sitar |  |  | sitar | raga
+  oud | Oud |  |  | oud | 
+  bouzouki | Bouzouki |  |  | bouzouki | 
+  charango | Charango |  |  | charango | 
+  cavaquinho | Cavaquinho |  | Small four-string guitar of samba and choro. | cavaquinho | 
+  kora | Kora |  | 21-string harp-lute of the Mandinka griots. | kora | 
+  cuatro | Cuatro / tres | Cuban tres |  | tres cubano | 
+  koto | Koto |  |  | koto | 
+  shamisen | Shamisen |  |  | shamisen | 
+  guzheng | Guzheng |  |  | guzheng | 
+  balalaika | Balalaika |  |  | balalaika | 
+  saz | Saz | bağlama | Long-necked lute of Turkey and Anatolia. | saz; baglama | 
+bowed_strings | Bowed strings |  |  |  | 
+  violin | Violin |  |  | violin | 
+  fiddle | Fiddle |  | Violin in folk, country and Celtic styles. | fiddle | 
+  viola | Viola |  |  | viola | 
+  cello | Cello |  |  | cello | 
+  string_section | String section | strings |  | strings; lush strings | orchestra
+  erhu | Erhu |  |  | erhu | 
+  hurdy_gurdy | Hurdy-gurdy |  |  | hurdy-gurdy | drone
+  nyckelharpa | Nyckelharpa |  |  |  | 
+woodwinds | Woodwinds |  |  |  | 
+  flute | Flute |  |  | flute | 
+  piccolo | Piccolo |  |  |  | 
+  recorder | Recorder |  |  | recorder | 
+  tin_whistle | Tin whistle |  |  | tin whistle | 
+  pan_flute | Pan flute | zampoña; siku |  | pan flute | 
+  shakuhachi | Shakuhachi |  |  | shakuhachi | 
+  ney | Ney |  |  | ney flute | 
+  duduk | Duduk |  |  | duduk | 
+  clarinet | Clarinet |  |  | clarinet | 
+  oboe | Oboe |  |  | oboe | 
+  bassoon | Bassoon |  |  | bassoon | 
+  saxophone | Saxophone | saxo |  | saxophone; sax | 
+    alto_sax | Alto saxophone |  |  | alto sax | 
+    tenor_sax | Tenor saxophone |  |  | tenor sax | 
+    baritone_sax | Baritone saxophone |  |  | baritone sax | 
+    soprano_sax | Soprano saxophone |  |  | soprano sax | 
+  bagpipes | Bagpipes |  |  | bagpipes | drone
+  didgeridoo | Didgeridoo |  | Australian Aboriginal drone aerophone. | didgeridoo | drone
+  harmonica | Harmonica | harp |  | harmonica; blues harp | 
+brass | Brass |  |  | brass | 
+  trumpet | Trumpet |  |  | trumpet | 
+  muted_trumpet | Muted trumpet | harmon mute; wah-wah mute |  | muted trumpet | 
+  flugelhorn | Flugelhorn |  |  | flugelhorn | 
+  cornet | Cornet |  |  | cornet | 
+  trombone | Trombone |  |  | trombone | 
+  french_horn | French horn |  |  | french horn | 
+  tuba | Tuba | sousaphone |  | tuba; sousaphone | 
+  horn_section | Horn section | horns |  | horn section; brass section | brass_stabs
+keyboards | Keyboards |  |  |  | 
+  piano | Piano |  |  | piano | 
+    grand_piano | Grand piano |  |  | grand piano | 
+    honky_tonk_piano | Honky-tonk piano |  |  | honky-tonk piano | 
+    prepared_piano | Prepared piano |  |  | prepared piano | 
+  electric_piano | Electric piano |  |  | electric piano | 
+    rhodes | Rhodes piano | Fender Rhodes |  | rhodes; rhodes piano | 
+    wurlitzer | Wurlitzer electric piano |  |  | wurlitzer | 
+  organ | Organ |  |  | organ | 
+    hammond_organ | Hammond organ | B3 |  | hammond organ; b3 organ | leslie
+    pipe_organ | Pipe organ |  |  | church organ | 
+    combo_organ | Combo organ | Farfisa; Vox Continental | Transistor organ of the 1960s. | farfisa organ | 
+  harpsichord | Harpsichord |  |  | harpsichord | 
+  clavinet | Clavinet |  |  | clavinet | 
+  accordion | Accordion |  |  | accordion | 
+  bandoneon | Bandoneon |  |  | bandoneon | 
+  concertina | Concertina |  |  | concertina | 
+  harmonium | Harmonium |  |  | harmonium | 
+  celesta | Celesta |  |  | celesta | 
+  mellotron | Mellotron |  |  | mellotron | 
+  melodica | Melodica |  |  | melodica | 
+  toy_piano | Toy piano |  |  | toy piano | 
+electronic_instruments | Electronic instruments |  |  |  | 
+  synthesizer | Synthesizer | synth |  | synth; synthesizer | 
+    analog_synth | Analog synthesizer |  |  | analog synths | 
+    modular_synth | Modular synthesizer |  |  | modular synth | 
+    fm_synth | FM synthesis | DX7 |  | fm synth; dx7 | 
+    synth_pad | Synth pad |  |  | synth pads; lush pads | 
+    synth_lead | Synth lead |  |  | synth lead | 
+    supersaw | Supersaw |  | Stacked detuned saw waves; trance and EDM. | supersaw | 
+    arpeggiator | Arpeggiator | synth arp |  | arpeggiated synths | arpeggio
+    synth_bass | Synth bass |  |  | synth bass | 
+    acid_bass | Acid bass | TB-303; 303 | TB-303 line with resonance and glides. | acid bassline; 303 | resonant_filter
+    reese_bass | Reese bass |  | Detuned saw bass; drum and bass. | reese bass | 
+    reverse_bass | Reverse bass |  | Bass with a reversed envelope between kicks; hardstyle. | reverse bass | 
+    wobble_bass | Wobble bass |  | LFO-modulated bass; dubstep. | wobble bass | 
+    hoover_sound | Hoover sound |  | 90s rave synth sound. | hoover synth; rave stabs | 
+    rave_stab | Rave stab | stab | Short, aggressive synth chord. | rave stabs | 
+  step_sequencer | Step sequencer |  | Grid-programmed patterns that loop. | sequenced synths | arpeggiator
+  drum_machine | Drum machine |  |  | drum machine | 
+    tr808 | Roland TR-808 | 808 | Drum machine whose long kick doubles as bass. | 808; 808 bass | 
+    tr909 | Roland TR-909 | 909 | Drum machine of house and techno. | 909 drums | 
+    linndrum | LinnDrum |  | Drum machine of 80s pop. | 80s drum machine | 
+  sampler_instrument | Sampler | MPC |  | sampler; mpc | sampling
+  theremin | Theremin |  |  | theremin | 
+  vocoder_instrument | Vocoder |  |  | vocoder | ^pitch_effects
+  talk_box | Talk box |  |  | talk box | ^pitch_effects
+  chiptune_chip | Sound chip | 8-bit; chiptune | Sounds of vintage consoles and home computers. | 8-bit; chiptune | 
+  log_drum | Log drum |  | Percussive bass sound of amapiano. | log drum | log_drum_groove
+  turntables | Turntables |  |  | turntables | scratching
+percussion | Percussion |  |  | percussion | 
+  drum_kit | Drum kit | drums |  | drums | 
+    kick_drum | Kick drum |  |  | punchy kick | 
+    snare_drum | Snare drum |  |  | snare | 
+    hi_hat | Hi-hat | hi-hat |  | hi-hats | 
+    cymbals | Cymbals |  |  | cymbals | 
+    toms | Toms |  |  | toms | 
+  electronic_drums | Electronic drums |  |  | electronic drums | 
+  hand_percussion | Hand percussion |  |  |  | 
+    congas | Congas |  |  | congas | 
+    bongos | Bongos |  |  | bongos | 
+    timbales | Timbales |  |  | timbales | 
+    cajon | Cajón |  |  | cajon | 
+    djembe | Djembe |  |  | djembe | 
+    darbuka | Darbuka | derbake |  | darbuka | 
+    frame_drum | Frame drum | bodhrán; pandeiro; daf |  | frame drum; bodhran | 
+    tabla | Tabla |  |  | tabla | 
+    mridangam | Mridangam |  | Double-headed drum of Carnatic music. | mridangam | 
+    talking_drum | Talking drum |  |  | talking drum | 
+    tambourine | Tambourine |  |  | tambourine | 
+    shaker | Shaker | maracas |  | shaker; maracas | 
+    guiro | Güiro | guacharaca; güira |  | guiro | 
+    cowbell | Cowbell |  |  | cowbell | 
+    claves_instrument | Claves |  |  | claves | clave
+    castanets | Castanets |  |  | castanets | 
+    handclaps | Handclaps | claps |  | handclaps; claps | 
+    finger_snaps | Finger snaps | snaps |  | finger snaps | 
+    cuica | Cuíca |  |  | cuica | 
+    surdo | Surdo |  |  | surdo | 
+    washboard | Washboard | frottoir |  | washboard | 
+  large_drums | Large drums |  |  |  | 
+    dhol | Dhol |  | Double-headed drum from Punjab. | dhol | 
+    taiko | Taiko |  |  | taiko drums | 
+    timpani | Timpani |  |  | timpani | 
+  pitched_percussion | Pitched percussion |  |  |  | 
+    marimba | Marimba |  |  | marimba | 
+    vibraphone | Vibraphone |  |  | vibraphone | 
+    xylophone | Xylophone |  |  | xylophone | 
+    glockenspiel | Glockenspiel |  |  | glockenspiel | 
+    tubular_bells | Tubular bells |  |  | tubular bells | 
+    steelpan | Steelpan | steel drum |  | steel drums | 
+    kalimba | Kalimba | mbira |  | kalimba | 
+    handpan | Handpan | hang |  | handpan | 
+    gamelan_instrument | Gamelan |  | Ensemble of metallophones and gongs from Java and Bali. | gamelan | gamelan_scales
+    triangle | Triangle |  |  |  | 
+    gong | Gong | tam-tam |  | gong | 
+    balafon | Balafon |  | African xylophone with gourd resonators. | balafon | 
+ensemble | Ensembles |  |  |  | 
+  orchestra | Orchestra |  |  | orchestral; full orchestra | symphony
+  chamber_orchestra | Chamber orchestra |  |  | chamber orchestra | 
+  string_quartet | String quartet |  |  | string quartet | 
+  big_band | Big band |  |  | big band | 
+  brass_band | Brass band |  |  | brass band | 
+  power_trio | Power trio |  | Guitar, bass and drums. | power trio | 
+  mariachi_ensemble | Mariachi ensemble |  | Trumpets, violins, guitarrón and vihuela. | mariachi | 
+  rock_band | Rock band |  |  | full band | 
+  solo_performer | Solo performer |  |  | solo acoustic | 

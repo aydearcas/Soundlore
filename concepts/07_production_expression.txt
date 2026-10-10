@@ -1,0 +1,139 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ PRD | Production and sound
+recording_aesthetic | Recording aesthetic |  | Overall character of the recorded sound. |  | 
+  lo_fi | Lo-fi |  | Deliberately imperfect, saturated or muffled sound. | lo-fi; lofi | 
+    vinyl_crackle | Vinyl crackle |  |  | vinyl crackle | 
+    tape_hiss | Tape hiss |  |  | tape hiss | 
+    bedroom_production | Bedroom production | bedroom pop |  | bedroom production | 
+  hi_fi | Polished production | hi-fi; radio-ready | Clean, compressed, competitive sound. | polished production; radio-ready; crisp mix | 
+  raw_production | Raw production | demo; garage | Direct sound with little editing. | raw production; garage sound | 
+  live_recording | Live recording |  | Concert or live-in-studio take. | live recording; crowd noise | 
+  analog_warmth | Analog warmth | tape saturation |  | warm analog sound; tape saturation | 
+  wall_of_sound | Wall of sound |  | Dense layers with heavy reverb; Phil Spector, shoegaze. | wall of sound | dense_texture
+  bass_heavy | Bass-heavy mix |  | Bass dominates the mix. | bass-heavy; heavy bass | sub_bass
+  dry_mix | Dry mix |  | Little reverb, close sound. | dry vocals; intimate mix | 
+  field_recording | Field recording |  | Environmental sounds recorded outside the studio. | field recordings; ambient sounds | 
+dynamics_processing | Dynamics processing |  |  |  | 
+  compression | Compression |  | Reducing dynamic range. | heavily compressed | 
+  sidechain | Sidechain compression | pumping | The signal ducks with each kick. | sidechain; pumping synths | 
+  limiting | Limiting | loudness; brickwall |  | loud master | 
+spatial_effects | Spatial effects |  |  |  | 
+  reverb | Reverb | reverb |  | reverb; lush reverb | 
+    hall_reverb | Hall reverb |  |  |  | 
+    plate_reverb | Plate reverb |  |  |  | 
+    spring_reverb | Spring reverb |  | Metallic amplifier reverb; surf. | spring reverb | 
+    gated_reverb | Gated reverb | gated drums | Abruptly cut-off reverb; 80s drums. | gated reverb drums; 80s drums | 
+    shimmer_reverb | Shimmer reverb |  | Reverb with an added upper octave. | shimmer reverb | 
+  delay | Delay |  | Repetitions of the signal. | delay; echo | 
+    tape_delay | Tape delay |  |  | tape echo | 
+    slapback | Slapback echo |  | Single short echo; rockabilly. | slapback echo | 
+    dub_echo | Dub echo |  | Feedback delays manipulated live. | dub echo; dub effects | 
+  stereo_panning | Panning |  |  | wide stereo | 
+modulation_effects | Modulation effects |  |  |  | 
+  chorus_effect | Chorus effect |  | Slightly detuned doubling. | chorus guitar | 
+  flanger | Flanger |  |  | flanger | 
+  phaser | Phaser |  |  | phaser | 
+  tremolo_effect | Tremolo effect |  | Periodic volume variation. | tremolo guitar | 
+distortion | Distortion |  | Clipping that adds harmonics. | distortion; distorted | 
+  overdrive | Overdrive | crunch | Mild tube saturation. | crunchy guitars | 
+  fuzz | Fuzz |  | Harsh, square-wave distortion. | fuzz guitar | 
+  bitcrusher | Bitcrusher |  | Digital resolution reduction. | bitcrushed | 
+  distorted_vocals | Distorted vocals |  |  | distorted vocals | 
+filter_effects | Filters |  |  |  | 
+  filter_sweep | Filter sweep |  | Gradual opening or closing of a filter. | filter sweep | 
+  resonant_filter | Resonant filter | squelch | Filter with pronounced resonance; acid. | squelchy | 
+  wah_wah | Wah-wah |  | Foot-swept filter pedal. | wah-wah guitar | 
+  envelope_filter | Envelope filter | auto-wah |  |  | 
+pitch_effects | Pitch effects |  |  |  | 
+  autotune | Auto-Tune |  | Audible pitch correction used as an effect. | autotune; heavy autotune | 
+  pitch_shift | Pitch shifting |  |  | pitched vocals | 
+  pitched_up_vocals | Pitched-up vocals | chipmunk; nightcore |  | pitched-up vocals; sped up | 
+  slowed_reverb | Slowed and reverb | chopped and screwed | Slowed-down version with reverb; or the chopped and screwed technique. | slowed and reverb; chopped and screwed | 
+  harmonizer | Harmonizer |  |  |  | 
+  octaver | Octaver |  |  |  | 
+time_effects | Time manipulation |  |  |  | 
+  reverse | Reverse | reverse cymbal | Recording played backwards. | reversed sounds | 
+  stutter | Stutter edit | glitch | Choppy repetitions of a fragment. | stutter effects; glitch | 
+  tape_stop | Tape stop |  | Simulated tape slowdown to a halt. | tape stop | 
+  time_stretch | Time-stretching |  |  |  | 
+sampling | Sampling | sample | Reusing recorded fragments. | samples; sample-based | sampler_instrument
+  loop | Loop |  | Fragment repeated cyclically. | loop-based | loop_based_form
+  vocal_chops | Vocal chops |  | Chopped vocal fragments used as an instrument. | vocal chops | 
+  sample_flip | Sample flip |  | Creative transformation of a recognizable sample. |  | 
+sound_design | Sound design |  | Non-musical sound elements with a structural role. |  | 
+  riser | Riser | uplifter | Rising sound that builds tension. | risers; white noise riser | build_up
+  downlifter | Downlifter |  | Falling sound after a climax. |  | 
+  impact | Impact | boom | Low hit at the start of a section. | impacts; cinematic hits | 
+  braam | Braam |  | Distorted low brass from trailers. | cinematic braams; trailer music | 
+  sub_drop | Sub drop |  | Pitch drop in the sub-bass. | sub drop | 
+  ambient_texture | Ambient texture | soundscape |  | atmospheric textures; soundscape | 
+era_aesthetic | Era aesthetic |  | Production traits associated with a decade. |  | 
+  sound_50s | 1950s sound |  |  | 50s | 
+  sound_60s | 1960s sound |  |  | 60s | 
+  sound_70s | 1970s sound |  |  | 70s | 
+  sound_80s | 1980s sound |  |  | 80s | gated_reverb, linndrum
+  sound_90s | 1990s sound |  |  | 90s | 
+  sound_2000s | 2000s sound | Y2K |  | 2000s; y2k | 
+  modern_sound | Modern sound |  |  | modern production | 
+
+@ DYN | Dynamics and articulation
+dynamics | Dynamics |  | Management of volume and intensity. |  | 
+  soft_dynamics | Soft dynamics |  |  | soft; gentle | 
+  loud_dynamics | Loud dynamics |  |  | loud; powerful | 
+  crescendo | Crescendo |  | Gradual increase in intensity. | crescendo; building | 
+  decrescendo | Decrescendo | diminuendo |  |  | 
+  sforzando | Sforzando |  | Sudden, strong accent. |  | 
+  dynamic_contrast | Dynamic contrast | loud-quiet-loud; quiet-loud | Alternating soft and explosive sections. | quiet verses, loud choruses | 
+  slow_burn | Slow build | slow burn | Intensity that grows throughout the piece. | slow build; slow burn | 
+articulation | Articulation |  | How notes are attacked and connected. |  | 
+  staccato | Staccato |  | Short, separated notes. | staccato | 
+  legato | Legato |  | Notes connected without a break. | legato | 
+  marcato | Marcato |  |  |  | 
+  tenuto | Tenuto |  |  |  | 
+
+@ LYR | Lyrics and prosody
+lyric_device | Lyrical devices |  | Lyric-writing devices. |  | 
+  rhyme_scheme | Rhyme scheme |  | Distribution of rhymes (AABB, ABAB…). |  | 
+  internal_rhyme | Internal rhyme |  | Rhymes within the same line. |  | 
+  multisyllabic_rhyme | Multisyllabic rhyme | multis | Chained multi-syllable rhymes; rap. | multisyllabic rhymes | 
+  assonance | Assonance |  |  |  | 
+  repetition | Repetition |  |  | repetitive lyrics | 
+  storytelling | Storytelling |  | The lyrics tell a story with characters. | storytelling lyrics | ballad_form
+  punchline | Punchline |  | Witty closing line; rap. |  | 
+  double_entendre | Double entendre |  |  |  | 
+  title_drop | Title drop |  | The title appears in the hook. |  | 
+  vocables | Vocables | na-na; la-la; oh-oh | Meaningless sung syllables. | na na na; la la la | 
+  onomatopoeia | Onomatopoeia |  |  |  | 
+  code_switching | Code-switching | spanglish | Switching languages within the lyrics. | bilingual lyrics | 
+  protest_lyrics | Protest lyrics |  | Social or political lyrics. | protest song | 
+  confessional_lyrics | Confessional lyrics |  | Intimate first-person lyrics. | confessional lyrics | 
+  abstract_lyrics | Abstract lyrics |  |  | abstract lyrics | 
+  instrumental_track | Instrumental | instrumental | Piece without vocals. | instrumental | 
+
+@ MOO | Mood and character
+mood | Mood | mood | Affective descriptors. Not technical devices, but music-generation prompts rely on them heavily. |  | 
+  mood_bright | Bright and happy |  |  | happy; upbeat; cheerful; joyful | 
+  mood_uplifting | Uplifting | euphoric |  | uplifting; euphoric | 
+  mood_melancholic | Melancholic | sad |  | melancholic; sad; bittersweet | 
+  mood_nostalgic | Nostalgic |  |  | nostalgic | 
+  mood_dark | Dark |  |  | dark; brooding | 
+  mood_ominous | Ominous | menacing |  | ominous; menacing; haunting | 
+  mood_aggressive | Aggressive |  |  | aggressive; angry; intense | 
+  mood_energetic | Energetic |  |  | energetic; high-energy | 
+  mood_chill | Chill | relaxed |  | chill; relaxed; laid-back | 
+  mood_dreamy | Dreamy | ethereal |  | dreamy; ethereal; floating | 
+  mood_hypnotic | Hypnotic | trance |  | hypnotic | 
+  mood_epic | Epic |  |  | epic; cinematic; grandiose | 
+  anthemic | Anthemic |  | Made to be sung by a crowd. | anthemic; stadium | anthem
+  mood_romantic | Romantic |  |  | romantic; tender | 
+  mood_sensual | Sensual | sexy |  | sensual; sultry | 
+  mood_playful | Playful | quirky |  | playful; quirky | 
+  mood_theatrical | Theatrical |  |  | theatrical; dramatic | 
+  mood_mysterious | Mysterious |  |  | mysterious | 
+  mood_introspective | Introspective |  |  | introspective; reflective | 
+  mood_triumphant | Triumphant |  |  | triumphant; heroic | 
+  mood_spiritual | Spiritual |  |  | spiritual; sacred | 
+  mood_groovy | Groovy | funky; danceable |  | groovy; danceable | 
+  mood_raw | Raw |  |  | raw; gritty | 

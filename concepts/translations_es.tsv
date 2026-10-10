@@ -1,0 +1,774 @@
+# Spanish labels kept as a translation layer (not used by the build)
+# id | label_es | synonyms_es
+meter | Métrica | compás
+simple_meter | Compás simple | binario
+time_2_4 | Compás 2/4 | dos por cuatro
+time_3_4 | Compás 3/4 | tres por cuatro; ternario
+time_4_4 | Compás 4/4 | compasillo
+compound_meter | Compás compuesto | 
+time_6_8 | Compás 6/8 | seis por ocho
+time_9_8 | Compás 9/8 | 
+time_12_8 | Compás 12/8 | doce por ocho
+odd_meter | Compás irregular | compás asimétrico; métrica impar
+time_5_4 | Compás 5/4 | cinco por cuatro
+time_5_8 | Compás 5/8 | 
+time_7_8 | Compás 7/8 | siete por ocho
+time_7_4 | Compás 7/4 | 
+time_11_8 | Compás 11/8 | 
+time_13_8 | Compás 13/8 | 
+aksak | Aksak | ritmo cojo; ritmo búlgaro
+mixed_meter | Métrica cambiante | cambios de compás
+free_meter | Métrica libre | sin compás
+hemiola | Hemiolia | 
+polymeter | Polimetría | 
+rhythmic_feel | Sensación rítmica | 
+straight_feel | Subdivisión recta | corcheas iguales
+swing | Swing | corcheas swing
+shuffle | Shuffle | 
+triplet_feel | Sensación de tresillo | ternario
+half_time | Half-time | medio tiempo
+double_time | Double-time | doble tiempo
+laid_back | Detrás del pulso | 
+driving_feel | Pulso empujado | motor
+rhythmic_device | Recursos rítmicos | 
+syncopation | Síncopa | sincopado
+anticipation | Anticipación | 
+offbeat | Contratiempo | 
+backbeat | Backbeat | acento en 2 y 4
+polyrhythm | Polirritmia | 
+three_against_two | 3 contra 2 | 
+four_against_three | 4 contra 3 | 
+cross_rhythm | Ritmo cruzado | 
+clave | Clave | patrón de clave
+son_clave | Clave de son | 
+rumba_clave | Clave de rumba | 
+bossa_clave | Clave de bossa nova | 
+tresillo | Tresillo | 
+habanera_rhythm | Ritmo de habanera | 
+stop_time | Stop-time | cortes
+rhythmic_displacement | Desplazamiento rítmico | 
+metric_modulation | Modulación métrica | 
+anacrusis | Anacrusa | antecompás
+hits | Golpes de conjunto | 
+tempo | Tempo | velocidad
+tempo_very_slow | Tempo muy lento | 
+tempo_slow | Tempo lento | 
+tempo_mid | Tempo medio | 
+tempo_fast | Tempo rápido | 
+tempo_very_fast | Tempo muy rápido | 
+tempo_change | Cambio de tempo | 
+accelerando | Accelerando | acelerando
+ritardando | Ritardando | 
+rubato | Rubato | 
+fermata | Calderón | 
+tempo_switch | Cambio brusco de tempo | 
+drum_pattern | Patrones de batería | groove de batería
+rock_beat | Ritmo básico de rock | 
+four_on_the_floor | Four-on-the-floor | bombo a negras
+stomp_clap | Stomp-clap | pisotón y palmada
+breakbeat | Breakbeat | 
+amen_break | Amen break | 
+chopped_breaks | Breaks troceados | 
+two_step_beat | Ritmo 2-step | 
+boom_bap | Boom bap | 
+trap_beat | Ritmo de trap | 
+trap_hihats | Hi-hats de trap | 
+drill_beat | Ritmo de drill | 
+dembow | Dembow | ritmo de reguetón
+one_drop | One drop | 
+steppers | Steppers | 
+rockers_beat | Rockers | 
+d_beat | D-beat | 
+skank_beat | Skank beat | ritmo de thrash
+blast_beat | Blast beat | 
+double_kick | Doble bombo | doble pedal
+gallop | Galope | ritmo galopante
+motorik | Motorik | 
+train_beat | Train beat | 
+purdie_shuffle | Purdie shuffle | 
+second_line | Second line | 
+bossa_nova_beat | Ritmo de bossa nova | 
+samba_beat | Batucada | ritmo de samba
+baiao_beat | Baião | 
+cumbia_beat | Ritmo de cumbia | 
+tumbao | Tumbao | 
+afrobeat_drums | Batería afrobeat | 
+jersey_club_beat | Ritmo jersey club | 
+footwork_beat | Ritmo footwork | 
+dancehall_riddim | Riddim de dancehall | 
+tamborzao | Tamborzão | 
+log_drum_groove | Groove de log drum | 
+drum_technique | Técnicas de batería | 
+ghost_notes | Notas fantasma | 
+drum_fill | Fill | redoble de transición
+drum_roll | Redoble | 
+snare_build | Redoble de subida | 
+flam | Flam | 
+cross_stick | Cross-stick | aro
+tribal_toms | Toms tribales | 
+drum_solo | Solo de batería | 
+linear_drumming | Batería lineal | 
+brushes | Escobillas | 
+tonality | Tonalidad | centro tonal
+major_key | Tonalidad mayor | modo mayor
+minor_key | Tonalidad menor | modo menor
+modality | Modalidad | armonía modal
+atonality | Atonalidad | 
+polytonality | Politonalidad | bitonalidad
+microtonality | Microtonalidad | cuartos de tono
+chord | Acordes | 
+triad | Tríada | 
+power_chord | Power chord | acorde de quinta; quinta
+seventh_chord | Acorde de séptima | cuatríada
+major_seventh | Séptima mayor | 
+minor_seventh | Séptima menor | 
+dominant_seventh | Séptima de dominante | 
+half_diminished | Semidisminuido | 
+extended_chord | Acordes extendidos | novenas; oncenas; trecenas
+suspended_chord | Acorde suspendido | 
+add_chord | Acorde con nota añadida | 
+diminished_chord | Acorde disminuido | 
+augmented_chord | Acorde aumentado | 
+altered_chord | Acorde alterado | 
+slash_chord | Acorde con bajo distinto | inversión; acorde invertido
+quartal_harmony | Armonía por cuartas | acordes cuartales
+cluster | Cluster | racimo
+neapolitan_chord | Sexta napolitana | 
+harmonic_device | Recursos armónicos | 
+modal_mixture | Intercambio modal | acorde prestado
+secondary_dominant | Dominante secundaria | 
+tritone_substitution | Sustitución tritonal | 
+chromatic_mediant | Mediante cromática | 
+picardy_third | Tercera de picardía | 
+tritone | Tritono | cuarta aumentada
+dissonance | Disonancia | 
+pedal_point | Nota pedal | bajo pedal
+reharmonization | Rearmonización | 
+harmonic_rhythm | Ritmo armónico | 
+jazz_harmony | Armonía jazzística | 
+passing_chord | Acorde de paso | 
+chromatic_bass_line | Bajo cromático descendente | bajo de lamento
+line_cliche | Línea cliché | 
+chord_progression | Progresiones | secuencia de acordes
+axis_progression | Progresión I–V–vi–IV | progresión pop
+fifties_progression | Progresión I–vi–IV–V | progresión de los 50
+ii_v_i | ii–V–I | dos-cinco-uno
+twelve_bar_blues | Blues de 12 compases | 
+andalusian_cadence | Cadencia andaluza | 
+circle_progression | Progresión por quintas | ciclo de quintas
+pachelbel_progression | Progresión de Pachelbel | 
+royal_road | Royal road | 
+epic_minor_progression | Progresión i–VI–III–VII | progresión épica menor
+mixolydian_vamp | Progresión I–♭VII–IV | vamp mixolidio
+vamp | Vamp | 
+one_chord | Armonía de un acorde | 
+minor_plagal_cadence | Cadencia plagal menor | 
+cadence | Cadencias | 
+authentic_cadence | Cadencia perfecta | 
+plagal_cadence | Cadencia plagal | cadencia amén
+half_cadence | Semicadencia | 
+deceptive_cadence | Cadencia rota | 
+backdoor_cadence | Cadencia backdoor | 
+modulation | Modulación | cambio de tonalidad
+truck_driver_modulation | Subida de tono final | modulación de camionero
+pivot_modulation | Modulación por acorde pivote | 
+direct_modulation | Modulación directa | modulación abrupta
+parallel_key_shift | Cambio a tonalidad paralela | mayor-menor
+scale | Escalas | 
+major_scale | Escala mayor | jónico
+natural_minor | Escala menor natural | eólico
+harmonic_minor | Escala menor armónica | 
+melodic_minor | Escala menor melódica | menor de jazz
+pentatonic | Escala pentatónica | 
+major_pentatonic | Pentatónica mayor | 
+minor_pentatonic | Pentatónica menor | 
+blues_scale | Escala de blues | 
+whole_tone_scale | Escala de tonos enteros | hexátona
+octatonic_scale | Escala disminuida | octatónica
+chromatic_scale | Escala cromática | 
+bebop_scale | Escala bebop | 
+altered_scale | Escala alterada | superlocria
+mode | Modos | modos griegos; modos eclesiásticos
+dorian | Dórico | 
+phrygian | Frigio | 
+lydian | Lidio | 
+mixolydian | Mixolidio | 
+locrian | Locrio | 
+exotic_scale | Escalas no occidentales y exóticas | 
+phrygian_dominant | Frigio dominante | escala flamenca
+double_harmonic | Doble armónica | bizantina; árabe
+hungarian_minor | Menor húngara | gitana
+japanese_scales | Escalas japonesas | 
+maqam | Maqam | 
+raga | Raga | 
+gamelan_scales | Pelog y slendro | 
+melodic_element | Elementos melódicos | 
+hook | Gancho | hook melódico
+riff | Riff | 
+motif | Motivo | célula
+leitmotiv | Leitmotiv | 
+ostinato | Ostinato | 
+countermelody | Contramelodía | contracanto
+topline | Topline | línea vocal principal
+arpeggio | Arpegio | acorde arpegiado
+melodic_sequence | Secuencia melódica | progresión melódica
+melodic_device | Recursos melódicos | 
+chromaticism | Cromatismo | 
+blue_note | Blue note | nota blue
+ornamentation | Ornamentación | adornos
+trill | Trino | 
+mordent | Mordente | 
+grace_note | Apoyatura | 
+turn | Grupeto | 
+glissando | Glissando | deslizamiento
+melisma | Melisma | 
+syllabic_melody | Melodía silábica | 
+conjunct_motion | Movimiento conjunto | por grados
+disjunct_motion | Movimiento disjunto | por saltos
+octave_doubling | Doblaje a la octava | 
+improvisation | Improvisación | impro
+modal_improvisation | Improvisación modal | 
+trading_fours | Intercambio de cuatro | 
+song_section | Secciones de canción | partes de la canción
+intro | Introducción | 
+verse | Estrofa | 
+pre_chorus | Pre-estribillo | puente previo
+chorus | Estribillo | coro
+post_chorus | Post-estribillo | 
+refrain | Refrán | 
+bridge | Puente | 
+interlude | Interludio | 
+instrumental_break | Sección instrumental | break instrumental
+solo_section | Solo | 
+guitar_solo | Solo de guitarra | 
+sax_solo | Solo de saxofón | 
+piano_solo | Solo de piano | 
+synth_solo | Solo de sintetizador | 
+bass_solo | Solo de bajo | 
+breakdown_metal | Breakdown (metal/hardcore) | 
+breakdown_edm | Breakdown (electrónica) | 
+build_up | Subida | 
+drop | Drop | 
+beat_switch | Cambio de base | 
+hook_section | Hook (hip hop) | 
+skit | Skit | 
+spoken_intro | Introducción hablada | 
+final_chorus | Estribillo final | último estribillo
+turnaround | Turnaround | 
+tag | Tag | coletilla
+outro | Outro | 
+fade_out | Fundido final | 
+cold_ending | Final seco | final abrupto
+false_ending | Falso final | 
+a_cappella_section | Sección a capela | 
+silence_break | Pausa dramática | silencio
+song_form | Formas de canción | estructura de canción
+verse_chorus_form | Forma estrofa-estribillo | 
+aaba_form | Forma AABA | 32 compases
+strophic_form | Forma estrófica | 
+through_composed | Forma continua | 
+binary_form | Forma binaria | 
+ternary_form | Forma ternaria | 
+edm_arrangement | Estructura de tema electrónico | 
+multi_part_suite | Tema en varias partes | suite progresiva
+loop_based_form | Forma basada en loops | 
+medley | Medley | popurrí
+reprise | Reprise | 
+segue | Transición encadenada | 
+composition_form | Formas y géneros de composición | formas clásicas
+fugue | Fuga | 
+canon | Canon | 
+round | Canon circular | ronda
+invention | Invención | 
+sonata_form | Forma sonata | 
+theme_variations | Tema con variaciones | variaciones
+passacaglia | Pasacalle y chacona | chacona
+rondo | Rondó | 
+toccata | Tocata | 
+prelude | Preludio | 
+etude | Estudio | 
+nocturne | Nocturno | 
+march | Marcha | 
+waltz | Vals | 
+minuet | Minueto | 
+scherzo | Scherzo | 
+aria | Aria | 
+recitative | Recitativo | 
+chorale | Coral | 
+motet | Motete | 
+madrigal | Madrigal | 
+mass | Misa | 
+requiem | Réquiem | misa de difuntos
+hymn | Himno religioso | 
+anthem | Himno | himno de estadio
+lullaby | Nana | canción de cuna
+lament | Lamento | 
+serenade | Serenata | 
+ballad_form | Balada narrativa | balada
+power_ballad | Power ballad | 
+rhapsody | Rapsodia | 
+fantasia | Fantasía | 
+cadenza | Cadenza | 
+overture | Obertura | 
+suite | Suite | 
+concerto | Concierto | 
+symphony | Sinfonía | 
+cantata | Cantata | 
+oratorio | Oratorio | 
+opera | Ópera | 
+jazz_standard | Estándar de jazz | 
+texture | Textura | 
+monophony | Monofonía | 
+homophony | Homofonía | melodía acompañada
+polyphony | Polifonía | 
+heterophony | Heterofonía | 
+unison | Unísono | 
+sparse_texture | Textura escasa | minimalista; desnuda
+dense_texture | Textura densa | 
+counterpoint | Contrapunto | 
+imitation | Imitación | 
+voice_leading | Conducción de voces | 
+hocket | Hoquetus | 
+accompaniment_texture | Texturas de acompañamiento | 
+comping | Comping | acompañamiento jazzístico
+alberti_bass | Bajo Alberti | 
+harmonized_lines | Líneas armonizadas | dobles guitarras a terceras
+drone | Bordón | nota pedal sostenida
+call_and_response | Pregunta-respuesta | llamada y respuesta
+antiphony | Antifonía | 
+layering | Superposición de capas | 
+voice_type | Tipos de voz | tesitura
+male_vocals | Voz masculina | 
+female_vocals | Voz femenina | 
+duet | Dúo vocal | 
+soprano | Soprano | 
+mezzo_soprano | Mezzosoprano | 
+contralto | Contralto | 
+countertenor | Contratenor | 
+tenor | Tenor | 
+baritone_voice | Barítono | 
+bass_voice | Bajo (voz) | 
+child_voice | Voz infantil | coro infantil
+choir | Coro | coral
+gospel_choir | Coro gospel | 
+gang_vocals | Coros de grupo | coros de pandilla
+chant | Canto colectivo salmodiado | salmodia; canto llano
+singing_technique | Técnicas de canto | 
+chest_voice | Voz de pecho | 
+head_voice | Voz de cabeza | 
+falsetto | Falsete | 
+belting | Belting | 
+mixed_voice | Voz mixta | 
+vocal_vibrato | Vibrato vocal | 
+breathy_vocals | Voz aireada | voz susurrada
+whisper | Susurro | 
+vocal_fry | Vocal fry | voz rasposa grave
+raspy_vocals | Voz rasgada | voz ronca
+twang | Twang | 
+yodel | Yodel | jodel
+vocal_hiccup | Hipo vocal | 
+crooning | Crooning | 
+operatic | Canto lírico | 
+melismatic_singing | Canto melismático | 
+vocal_runs | Runs vocales | riffs vocales
+cante_jondo | Cante jondo | quejío
+overtone_singing | Canto armónico | canto difónico
+humming | Tarareo | 
+whistling | Silbido | silbar
+vocalise | Vocalización sin letra | 
+scat | Scat | 
+ululation | Ululación | 
+harsh_vocals | Voces extremas | voces guturales
+growl | Growl | gutural
+scream | Scream | grito
+fry_scream | Fry scream | 
+false_chord | False chord | 
+high_shriek | Shriek | grito agudo
+pig_squeal | Pig squeal | 
+clean_vocals | Voz limpia | 
+shout | Voz gritada | 
+spoken_vocal | Voz hablada y rap | 
+spoken_word | Spoken word | recitado; declamación
+sprechgesang | Sprechgesang | canto hablado
+rap | Rap | rapeo
+flow | Flow | 
+double_time_rap | Rap en doble tiempo | 
+triplet_flow | Flow en tresillos | 
+melodic_rap | Rap melódico | 
+mumble_rap | Entrega arrastrada | 
+toasting | Toasting | 
+beatbox | Beatbox | 
+vocal_arrangement | Arreglo vocal | 
+lead_vocal | Voz principal | voz solista
+backing_vocals | Coros | voces de apoyo
+vocal_harmonies | Armonías vocales | 
+close_harmony | Armonía cerrada | 
+double_tracked_vocals | Voz doblada | 
+ad_libs | Ad-libs | 
+a_cappella | A capela | 
+vocal_call_response | Diálogo vocal | 
+plucked_strings | Cuerda pulsada | 
+acoustic_guitar | Guitarra acústica | guitarra de acero
+classical_guitar | Guitarra clásica | guitarra española
+flamenco_guitar | Guitarra flamenca | 
+electric_guitar | Guitarra eléctrica | 
+clean_guitar | Guitarra limpia | 
+distorted_guitar | Guitarra distorsionada | 
+twelve_string_guitar | Guitarra de 12 cuerdas | 
+seven_string_guitar | Guitarra de 7 u 8 cuerdas | 
+pedal_steel | Pedal steel | 
+lap_steel | Lap steel y dobro | resonadora
+electric_bass | Bajo eléctrico | 
+fretless_bass | Bajo sin trastes | 
+double_bass | Contrabajo | contrabajo de jazz
+banjo | Banjo | 
+mandolin | Mandolina | 
+ukulele | Ukelele | 
+lute | Laúd | 
+harp | Arpa | 
+sitar | Sitar | 
+oud | Oud | laúd árabe
+bouzouki | Buzuki | 
+charango | Charango | 
+cavaquinho | Cavaquinho | 
+kora | Kora | 
+cuatro | Cuatro y tres | cuatro venezolano; cuatro puertorriqueño
+koto | Koto | 
+shamisen | Shamisen | 
+guzheng | Guzheng | 
+balalaika | Balalaica | 
+saz | Saz | 
+bowed_strings | Cuerda frotada | 
+violin | Violín | 
+fiddle | Fiddle | violín folk
+viola | Viola | 
+cello | Violonchelo | chelo
+string_section | Sección de cuerdas | 
+erhu | Erhu | 
+hurdy_gurdy | Zanfona | 
+nyckelharpa | Nyckelharpa | 
+woodwinds | Viento madera | 
+flute | Flauta travesera | 
+piccolo | Flautín | 
+recorder | Flauta dulce | 
+tin_whistle | Tin whistle | flauta irlandesa
+pan_flute | Flauta de pan | 
+shakuhachi | Shakuhachi | 
+ney | Ney | 
+duduk | Duduk | 
+clarinet | Clarinete | 
+oboe | Oboe | 
+bassoon | Fagot | 
+saxophone | Saxofón | 
+alto_sax | Saxo alto | 
+tenor_sax | Saxo tenor | 
+baritone_sax | Saxo barítono | 
+soprano_sax | Saxo soprano | 
+bagpipes | Gaita | gaita gallega; gaita escocesa
+didgeridoo | Didgeridoo | 
+harmonica | Armónica | armónica de blues
+brass | Viento metal | metales
+trumpet | Trompeta | 
+muted_trumpet | Trompeta con sordina | 
+flugelhorn | Fliscorno | 
+cornet | Corneta | 
+trombone | Trombón | 
+french_horn | Trompa | 
+tuba | Tuba y sousafón | 
+horn_section | Sección de metales | metales
+keyboards | Teclados | 
+piano | Piano | piano acústico
+grand_piano | Piano de cola | 
+honky_tonk_piano | Piano honky-tonk | piano de saloon; piano desafinado
+prepared_piano | Piano preparado | 
+electric_piano | Piano eléctrico | 
+rhodes | Rhodes | 
+wurlitzer | Wurlitzer | 
+organ | Órgano | 
+hammond_organ | Órgano Hammond | 
+pipe_organ | Órgano de tubos | órgano de iglesia
+combo_organ | Órgano combo | 
+harpsichord | Clave (instrumento) | clavicémbalo
+clavinet | Clavinet | 
+accordion | Acordeón | 
+bandoneon | Bandoneón | 
+concertina | Concertina | 
+harmonium | Armonio | 
+celesta | Celesta | 
+mellotron | Mellotron | 
+melodica | Melódica | 
+toy_piano | Piano de juguete | 
+electronic_instruments | Instrumentos electrónicos | 
+synthesizer | Sintetizador | 
+analog_synth | Sintetizador analógico | 
+modular_synth | Sintetizador modular | 
+fm_synth | Síntesis FM | 
+synth_pad | Pad de sintetizador | colchón
+synth_lead | Lead de sintetizador | 
+supersaw | Supersaw | 
+arpeggiator | Arpegiador | 
+synth_bass | Bajo de sintetizador | 
+acid_bass | Bajo ácido | 
+reese_bass | Reese bass | 
+reverse_bass | Reverse bass | kick-bass invertido
+wobble_bass | Wobble bass | 
+hoover_sound | Hoover | 
+rave_stab | Stab de rave | 
+step_sequencer | Secuenciador | secuenciador por pasos
+drum_machine | Caja de ritmos | 
+tr808 | Roland TR-808 | 
+tr909 | Roland TR-909 | 
+linndrum | LinnDrum | 
+sampler_instrument | Sampler | 
+theremin | Theremín | 
+vocoder_instrument | Vocoder | 
+talk_box | Talk box | 
+chiptune_chip | Chip de sonido | 
+log_drum | Log drum | 
+turntables | Platos | tocadiscos
+percussion | Percusión | 
+drum_kit | Batería | 
+kick_drum | Bombo | 
+snare_drum | Caja | 
+hi_hat | Charles | 
+cymbals | Platillos | 
+toms | Toms | timbales de batería
+electronic_drums | Batería electrónica | 
+hand_percussion | Percusión de mano | 
+congas | Congas | tumbadoras
+bongos | Bongós | 
+timbales | Timbales | pailas
+cajon | Cajón | 
+djembe | Yembé | 
+darbuka | Darbuka | 
+frame_drum | Pandero | 
+tabla | Tabla | 
+mridangam | Mridangam | 
+talking_drum | Tambor parlante | 
+tambourine | Pandereta | 
+shaker | Shaker y maracas | 
+guiro | Güiro y guacharaca | 
+cowbell | Cencerro | 
+claves_instrument | Claves (instrumento) | 
+castanets | Castañuelas | 
+handclaps | Palmas | 
+finger_snaps | Chasquidos | 
+cuica | Cuíca | 
+surdo | Surdo | 
+washboard | Tabla de lavar | 
+large_drums | Tambores grandes | 
+dhol | Dhol | 
+taiko | Taiko | 
+timpani | Timbales sinfónicos | 
+pitched_percussion | Percusión afinada | láminas
+marimba | Marimba | 
+vibraphone | Vibráfono | 
+xylophone | Xilófono | 
+glockenspiel | Glockenspiel | carillón
+tubular_bells | Campanas tubulares | 
+steelpan | Steelpan | 
+kalimba | Kalimba | piano de pulgar
+handpan | Handpan | 
+gamelan_instrument | Gamelán | 
+triangle | Triángulo | 
+gong | Gong | 
+balafon | Balafón | 
+ensemble | Conjuntos | formaciones
+orchestra | Orquesta | orquesta sinfónica
+chamber_orchestra | Orquesta de cámara | 
+string_quartet | Cuarteto de cuerda | 
+big_band | Big band | 
+brass_band | Banda de metales | charanga; banda
+power_trio | Power trio | 
+mariachi_ensemble | Mariachi | 
+rock_band | Banda de rock | 
+solo_performer | Solista con instrumento | cantautor con guitarra
+guitar_technique | Técnicas de guitarra | 
+palm_muting | Palm mute | apagado con la palma
+chugging | Chugging | 
+djent_technique | Djent | 
+tremolo_picking | Trémolo de púa | 
+alternate_picking | Púa alternada | 
+sweep_picking | Sweep picking | barrido
+tapping | Tapping | 
+legato_guitar | Legato | 
+string_bending | Bending | 
+whammy | Palanca de trémolo | vibrato de palanca
+pinch_harmonics | Armónicos artificiales | 
+natural_harmonics | Armónicos naturales | 
+slide_guitar | Slide | 
+fingerpicking | Fingerpicking | 
+travis_picking | Travis picking | 
+strumming | Rasgueo | 
+rasgueado | Rasgueado flamenco | 
+picado | Picado | 
+chicken_picking | Chicken picking | 
+funk_scratch | Rasgueo funk | rasgueo muteado
+skank_guitar | Skank | 
+jangle | Guitarra jangle | 
+shred | Shred | 
+neoclassical_shred | Shred neoclásico | 
+feedback | Feedback | acople
+drop_tuning | Afinación grave | afinación baja
+open_tuning | Afinación abierta | 
+chord_melody | Chord melody | 
+bass_technique | Técnicas de bajo | 
+slap_bass | Slap | 
+walking_bass | Walking bass | bajo caminante
+octave_bass | Bajo en octavas | 
+picked_bass | Bajo con púa | 
+sub_bass | Subgrave | 
+bass_slides | Glides de bajo | 
+keyboard_technique | Técnicas de teclado | 
+stride_piano | Stride | 
+boogie_woogie_bass | Bajo boogie-woogie | 
+montuno | Montuno | 
+block_chords | Acordes en bloque | 
+piano_glissando | Glissando de piano | 
+leslie | Altavoz Leslie | 
+bowed_technique | Técnicas de cuerda frotada | 
+pizzicato | Pizzicato | 
+string_tremolo | Trémolo de arco | 
+staccato_strings | Cuerdas staccato | 
+legato_strings | Cuerdas legato | 
+col_legno | Col legno | 
+double_stops | Dobles cuerdas | 
+string_swells | Crescendos de cuerda | 
+wind_technique | Técnicas de viento | 
+sax_growl | Growl de saxo | 
+flutter_tongue | Frulato | 
+brass_stabs | Stabs de metales | 
+brass_falls | Caídas y doits | 
+circular_breathing | Respiración circular | 
+dj_technique | Técnicas de DJ | 
+scratching | Scratch | 
+beat_juggling | Beat juggling | 
+recording_aesthetic | Estética de grabación | sonido de producción
+lo_fi | Lo-fi | baja fidelidad
+vinyl_crackle | Crepitar de vinilo | 
+tape_hiss | Siseo de cinta | 
+bedroom_production | Producción casera | 
+hi_fi | Producción pulida | 
+raw_production | Producción cruda | 
+live_recording | Grabación en directo | directo
+analog_warmth | Calidez analógica | saturación de cinta
+wall_of_sound | Muro de sonido | 
+bass_heavy | Mezcla con mucho grave | 
+dry_mix | Mezcla seca | 
+field_recording | Grabación de campo | sonido ambiente
+dynamics_processing | Procesado dinámico | 
+compression | Compresión | 
+sidechain | Compresión sidechain | bombeo
+limiting | Limitación | 
+spatial_effects | Efectos espaciales | 
+reverb | Reverberación | 
+hall_reverb | Reverb de sala | 
+plate_reverb | Reverb de placa | 
+spring_reverb | Reverb de muelle | 
+gated_reverb | Reverb con puerta | 
+shimmer_reverb | Reverb shimmer | 
+delay | Delay | eco
+tape_delay | Delay de cinta | 
+slapback | Slapback | 
+dub_echo | Eco dub | 
+stereo_panning | Paneo y estéreo | 
+modulation_effects | Efectos de modulación | 
+chorus_effect | Chorus | 
+flanger | Flanger | 
+phaser | Phaser | 
+tremolo_effect | Trémolo (efecto) | 
+distortion | Distorsión | saturación
+overdrive | Overdrive | 
+fuzz | Fuzz | 
+bitcrusher | Bitcrusher | 
+distorted_vocals | Voz distorsionada | 
+filter_effects | Filtros | 
+filter_sweep | Barrido de filtro | 
+resonant_filter | Filtro resonante | 
+wah_wah | Wah-wah | 
+envelope_filter | Envelope filter | 
+pitch_effects | Efectos de altura | 
+autotune | Autotune | afinación automática
+pitch_shift | Transposición | 
+pitched_up_vocals | Voces aceleradas | 
+slowed_reverb | Slowed + reverb | 
+harmonizer | Harmonizer | 
+octaver | Octavador | 
+time_effects | Manipulación temporal | 
+reverse | Sonido invertido | 
+stutter | Stutter | 
+tape_stop | Tape stop | 
+time_stretch | Estiramiento temporal | 
+sampling | Sampleo | 
+loop | Loop | bucle
+vocal_chops | Vocal chops | 
+sample_flip | Reutilización de sample | 
+sound_design | Diseño sonoro | 
+riser | Riser | 
+downlifter | Downlifter | 
+impact | Impacto | 
+braam | Braam | 
+sub_drop | Sub drop | 
+ambient_texture | Textura ambiental | atmósfera
+era_aesthetic | Estética de época | sonido retro
+sound_50s | Sonido de los 50 | 
+sound_60s | Sonido de los 60 | 
+sound_70s | Sonido de los 70 | 
+sound_80s | Sonido de los 80 | ochentero
+sound_90s | Sonido de los 90 | noventero
+sound_2000s | Sonido de los 2000 | 
+modern_sound | Sonido actual | contemporáneo
+dynamics | Dinámica | intensidad
+soft_dynamics | Pianissimo / piano | suave
+loud_dynamics | Forte / fortissimo | fuerte
+crescendo | Crescendo | 
+decrescendo | Decrescendo | 
+sforzando | Sforzando | 
+dynamic_contrast | Contraste dinámico | 
+slow_burn | Crecimiento progresivo | 
+articulation | Articulación | 
+staccato | Staccato | picado
+legato | Legato | ligado
+marcato | Marcato | acento
+tenuto | Tenuto | 
+lyric_device | Recursos líricos | 
+rhyme_scheme | Esquema de rima | 
+internal_rhyme | Rima interna | 
+multisyllabic_rhyme | Rima multisilábica | 
+assonance | Asonancia | 
+repetition | Repetición | anáfora
+storytelling | Narrativa | letra narrativa
+punchline | Punchline | 
+double_entendre | Doble sentido | 
+title_drop | Título en la letra | 
+vocables | Vocables | 
+onomatopoeia | Onomatopeya | 
+code_switching | Letra bilingüe | 
+protest_lyrics | Letra de protesta | 
+confessional_lyrics | Letra confesional | 
+abstract_lyrics | Letra abstracta | surrealista
+instrumental_track | Sin letra | 
+mood | Carácter | atmósfera
+mood_bright | Luminoso y alegre | 
+mood_uplifting | Edificante y eufórico | 
+mood_melancholic | Melancólico | triste
+mood_nostalgic | Nostálgico | 
+mood_dark | Oscuro | sombrío
+mood_ominous | Amenazante | inquietante
+mood_aggressive | Agresivo | furioso
+mood_energetic | Enérgico | 
+mood_chill | Relajado | tranquilo
+mood_dreamy | Onírico | etéreo
+mood_hypnotic | Hipnótico | repetitivo
+mood_epic | Épico | cinematográfico; grandioso
+anthemic | Himno coreable | 
+mood_romantic | Romántico | 
+mood_sensual | Sensual | 
+mood_playful | Juguetón | humorístico
+mood_theatrical | Teatral | dramático
+mood_mysterious | Misterioso | 
+mood_introspective | Introspectivo | 
+mood_triumphant | Triunfal | 
+mood_spiritual | Espiritual | devocional; sagrado
+mood_groovy | Bailable | 
+mood_raw | Visceral | crudo

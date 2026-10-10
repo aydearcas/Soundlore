@@ -1,0 +1,99 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ HAR | Harmony and tonality
+tonality | Tonality | key | Organization of pitches around a tonic. | key | 
+  major_key | Major key |  | Major tonal center, generally bright in character. | major key | major_scale
+  minor_key | Minor key |  | Minor tonal center, generally dark in character. | minor key | natural_minor
+  modality | Modality |  | Harmony based on a mode rather than major/minor functions. | modal | mode
+  atonality | Atonality | atonal | Absence of a tonal center. | atonal | 
+  polytonality | Polytonality |  | Two or more keys at once. |  | 
+  microtonality | Microtonality |  | Intervals smaller than a semitone. | microtonal | maqam
+chord | Chords |  | Chord types by construction. |  | 
+  triad | Triad |  | Three-note chord stacked in thirds. |  | 
+  power_chord | Power chord |  | Root and fifth with no third; the basis of rock and metal. | power chords | ^guitar_technique
+  seventh_chord | Seventh chord |  | Triad with an added seventh. | seventh chords | 
+    major_seventh | Major seventh chord | maj7 | Soft-colored chord typical of jazz, soul and city pop. | major seventh chords; lush chords | 
+    minor_seventh | Minor seventh chord | m7 | Minor chord with a seventh; staple of R&B and neo soul. | minor seventh chords | 
+    dominant_seventh | Dominant seventh chord | 7 | Tense chord that wants to resolve; everywhere in blues. | dominant seventh | 
+    half_diminished | Half-diminished chord | m7b5 | Diminished triad with a minor seventh. |  | 
+  extended_chord | Extended chords |  | Chords with 9ths, 11ths or 13ths. | jazz chords; extended chords; rich harmony | jazz_harmony
+  suspended_chord | Suspended chord | sus2; sus4 | The third replaced by the second or fourth. | sus chords | 
+  add_chord | Added-tone chord | add9; add6 | Triad with an added note but no seventh. | add9 chords | 
+  diminished_chord | Diminished chord | dim | Stacked minor thirds. | diminished chords | 
+  augmented_chord | Augmented chord | aug | Stacked major thirds. |  | 
+  altered_chord | Altered chord | alt | Dominant with altered ninth or fifth. |  | 
+  slash_chord | Slash chord |  | Chord with a note other than the root in the bass. |  | 
+  quartal_harmony | Quartal harmony |  | Chords built in fourths; modal jazz. | quartal harmony | 
+  cluster | Tone cluster |  | Adjacent notes played together. | tone clusters | 
+  neapolitan_chord | Neapolitan chord |  | Major chord on the lowered second degree. |  | 
+harmonic_device | Harmonic devices |  | Techniques of harmonic color and motion. |  | 
+  modal_mixture | Modal mixture | borrowed chord | Chords borrowed from the parallel mode. | borrowed chords | 
+  secondary_dominant | Secondary dominant |  | Dominant of a degree other than the tonic. |  | 
+  tritone_substitution | Tritone substitution |  | Replacing a dominant with the one a tritone away. |  | jazz_harmony
+  chromatic_mediant | Chromatic mediant |  | Chords a third apart with a chromatic change; typical of film scores. | cinematic chords | 
+  picardy_third | Picardy third |  | Minor-key piece ending on a major chord. |  | 
+  tritone | Tritone | diabolus in musica | Three-whole-tone interval; unsettling sound much used in metal. | tritone riffs | dissonance
+  dissonance | Dissonance |  | Systematic use of tense, unresolved intervals. | dissonant | 
+  pedal_point | Pedal point | pedal | Sustained or repeated note under changing chords. | pedal tone | drone
+  reharmonization | Reharmonization |  | Changing the chords under a known melody. |  | 
+  harmonic_rhythm | Harmonic rhythm |  | Rate at which chords change. |  | 
+  jazz_harmony | Jazz harmony |  | Systematic use of seventh chords, extensions and substitutions. | jazzy chords; jazz harmony | 
+  passing_chord | Passing chord |  | Brief chord connecting two structural chords. |  | 
+  chromatic_bass_line | Descending chromatic bass | lament bass | Bass descending by semitones under changing chords. | descending bass line | line_cliche
+  line_cliche | Line cliché |  | An inner voice moves chromatically over a fixed chord. |  | 
+chord_progression | Chord progressions |  | Stock chord successions. | chord progression | 
+  axis_progression | I–V–vi–IV progression | axis progression | The most-used pop progression since the 2000s. | pop chord progression | 
+  fifties_progression | I–vi–IV–V progression | doo-wop progression | Progression of doo-wop and 50s pop. | doo-wop progression | 
+  ii_v_i | ii–V–I |  | Basic cadential cell of jazz. | ii-V-I | jazz_harmony
+  twelve_bar_blues | Twelve-bar blues | 12-bar blues | I-IV-V scheme over twelve bars. | 12-bar blues | ^song_form
+  andalusian_cadence | Andalusian cadence | i–VII–VI–V | Four-chord descent of flamenco and Spanish music. | andalusian cadence; flamenco chords | phrygian_dominant
+  circle_progression | Circle-of-fifths progression |  | Roots descending by fifths. |  | 
+  pachelbel_progression | Pachelbel progression | canon progression | Eight-chord progression of the Canon in D. |  | 
+  royal_road | Royal road progression | IV–V–iii–vi; ōdō shinkō | Signature progression of J-pop and anime. | j-pop chords | 
+  epic_minor_progression | i–VI–III–VII progression |  | Minor progression of epic rock, EDM and trailers. | epic progression | 
+  mixolydian_vamp | I–♭VII–IV progression |  | Classic rock progression based on the Mixolydian mode. |  | mixolydian
+  vamp | Vamp |  | Two chords alternating at length. | two-chord vamp | 
+  one_chord | One-chord harmony | modal drone | Piece or section on a single chord. | one chord groove | drone
+  minor_plagal_cadence | Minor plagal cadence | iv–I | Minor subdominant resolving to a major tonic; very emotional. |  | 
+cadence | Cadences |  | Harmonic formulas that close a phrase. |  | 
+  authentic_cadence | Authentic cadence | V–I | Dominant to tonic; conclusive close. |  | 
+  plagal_cadence | Plagal cadence | IV–I | Subdominant to tonic. |  | 
+  half_cadence | Half cadence |  | Phrase ending on the dominant, left hanging. |  | 
+  deceptive_cadence | Deceptive cadence | V–vi | The dominant resolves to an unexpected chord. |  | 
+  backdoor_cadence | Backdoor cadence | ♭VII7–I | Arriving at the tonic from the flat seventh. |  | 
+modulation | Modulation | key change | Change of tonal center within the piece. | key change | 
+  truck_driver_modulation | Truck driver's modulation | key change up | Key change up a half or whole step in the last chorus. | key change; final chorus key change | final_chorus
+  pivot_modulation | Pivot-chord modulation |  | Key change via a chord common to both keys. |  | 
+  direct_modulation | Direct modulation |  | Key change without preparation. |  | 
+  parallel_key_shift | Parallel key shift |  | Switching between major and minor on the same tonic. |  | modal_mixture
+
+@ SCL | Scales and modes
+scale | Scales |  | Ordered pitch sets used as melodic material. | scale | 
+  major_scale | Major scale | ionian | Diatonic major scale. | major scale | major_key
+  natural_minor | Natural minor scale | aeolian | Diatonic minor scale. | natural minor | minor_key
+  harmonic_minor | Harmonic minor scale |  | Minor with a raised seventh; "neoclassical" sound. | harmonic minor; neoclassical | neoclassical_shred
+  melodic_minor | Melodic minor scale |  | Minor with raised sixth and seventh. |  | 
+  pentatonic | Pentatonic scale |  | Five-note scales. | pentatonic | 
+    major_pentatonic | Major pentatonic |  | Bright pentatonic; country, folk, East Asian music. | major pentatonic | 
+    minor_pentatonic | Minor pentatonic |  | The basis of blues and rock solos. | minor pentatonic | 
+  blues_scale | Blues scale |  | Minor pentatonic with an augmented fourth (the blue note). | blues scale | blue_note
+  whole_tone_scale | Whole-tone scale |  | Six notes a whole step apart; dreamlike effect. | whole tone scale; dreamlike | 
+  octatonic_scale | Diminished scale |  | Alternating whole and half steps; tension in jazz, metal and film scores. |  | 
+  chromatic_scale | Chromatic scale |  | All twelve pitches by semitones. |  | chromaticism
+  bebop_scale | Bebop scale |  | Eight-note scale with a chromatic passing tone. |  | 
+  altered_scale | Altered scale |  | Scale for altered dominants in jazz. |  | 
+mode | Modes |  | Rotations of the diatonic scale, each with its own color. | modal | 
+  dorian | Dorian mode |  | Minor with a major sixth; funk, modal jazz, Celtic folk. | dorian mode | 
+  phrygian | Phrygian mode |  | Minor with a minor second; flamenco and metal. | phrygian mode | 
+  lydian | Lydian mode |  | Major with an augmented fourth; magical or floating sound, common in film scores. | lydian mode; dreamy | 
+  mixolydian | Mixolydian mode |  | Major with a minor seventh; classic rock and folk. | mixolydian mode | 
+  locrian | Locrian mode |  | Mode with a diminished fifth; very unstable sound. | locrian | 
+exotic_scale | Non-Western and exotic scales |  | Scales tied to specific traditions. |  | 
+  phrygian_dominant | Phrygian dominant scale | hijaz; freygish | Phrygian with a major third; flamenco, klezmer and Middle Eastern music. | phrygian dominant; middle eastern scale; flamenco scale | andalusian_cadence
+  double_harmonic | Double harmonic scale |  | Scale with two augmented seconds. | arabic scale; byzantine scale | 
+  hungarian_minor | Hungarian minor scale |  | Harmonic minor with an augmented fourth. | gypsy scale | 
+  japanese_scales | Japanese scales | hirajōshi; in; yo; insen | Japanese pentatonics with semitones. | japanese scale | 
+  maqam | Maqam | maqamat | Arabic and Turkish modal system with microtones. | maqam; arabic melody | microtonality
+  raga | Raga | rāga | Melodic framework of Indian classical music. | raga; indian classical | sitar
+  gamelan_scales | Pelog and slendro |  | Tuning systems of Indonesian gamelan. | gamelan | gamelan_instrument

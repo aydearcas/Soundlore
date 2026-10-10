@@ -1,0 +1,143 @@
+# Format: id | term | synonyms (;) | scope note | prompt terms (; — [x] = structure tag for the lyrics) | relations (, — ^id = extra broader term)
+# Indentation (2 spaces) sets the broader/narrower hierarchy.
+
+@ MEL | Melody and motif
+melodic_element | Melodic elements |  | Recognizable melodic units. |  | 
+  hook | Hook |  | Short, catchy phrase designed to stick. | catchy hook; earworm | 
+  riff | Riff |  | Short repeated instrumental figure that carries the song. | guitar riff; heavy riff | ^hook
+  motif | Motif |  | Smallest melodic or rhythmic idea that gets developed. |  | 
+  leitmotiv | Leitmotif |  | Motif tied to a character or idea that recurs. |  | 
+  ostinato | Ostinato |  | Persistently repeated figure. | ostinato | riff
+  countermelody | Countermelody |  | Secondary line in dialogue with the main melody. | countermelody | 
+  topline | Topline |  | Main sung melody over the track. |  | 
+  arpeggio | Arpeggio |  | Chord notes played one after another. | arpeggios | arpeggiator
+  melodic_sequence | Melodic sequence |  | A motif repeated at other pitches. |  | 
+melodic_device | Melodic devices |  | Techniques of ornament and color in the line. |  | 
+  chromaticism | Chromaticism |  | Use of out-of-scale notes by semitones. | chromatic | chromatic_scale
+  blue_note | Blue note |  | Flattened, ambiguous third, fifth or seventh. | blue notes; bluesy | blues_scale
+  ornamentation | Ornamentation |  | Decorative notes on the melody. |  | 
+    trill | Trill |  | Rapid alternation between two neighboring notes. | trills | 
+    mordent | Mordent |  | Quick ornament with a neighboring note. |  | 
+    grace_note | Grace note | appoggiatura; acciaccatura | Brief ornamental note before the main one. | grace notes | 
+    turn | Turn |  | Ornament that circles the main note. |  | 
+  glissando | Glissando | portamento | Continuous slide from one pitch to another. | glissando; slides | 
+  melisma | Melisma |  | Several notes on a single syllable. | melismatic vocals | vocal_runs
+  syllabic_melody | Syllabic setting |  | One note per syllable. |  | 
+  conjunct_motion | Conjunct motion |  | Melody moving by step. |  | 
+  disjunct_motion | Disjunct motion |  | Melody with wide leaps. |  | 
+  octave_doubling | Octave doubling |  | Line doubled at the octave. |  | unison
+improvisation | Improvisation |  | Melodic creation in real time. | improvised; improvisation | solo_section
+  modal_improvisation | Modal improvisation |  | Improvising over a mode with few chord changes. | modal jazz | mode
+  trading_fours | Trading fours | trading bars | Soloists alternating every few bars. |  | 
+
+@ FRM | Form and structure
+song_section | Song sections |  | Building blocks of a popular song. Many work as structure tags in prompts. |  | 
+  intro | Intro |  | Opening section before the first verse. | [Intro] | 
+  verse | Verse |  | Narrative section with changing lyrics. | [Verse] | 
+  pre_chorus | Pre-chorus | climb | Section that builds tension before the chorus. | [Pre-Chorus] | 
+  chorus | Chorus |  | Central section repeated with the same lyrics. | [Chorus] | hook
+  post_chorus | Post-chorus |  | Extra hook after the chorus. | [Post-Chorus] | 
+  refrain | Refrain |  | Line repeated at the end of each verse. | [Refrain] | 
+  bridge | Bridge | middle eight | Contrasting section, usually once, before the last chorus. | [Bridge] | 
+  interlude | Interlude |  | Instrumental or transitional section between parts. | [Interlude] | 
+  instrumental_break | Instrumental break |  | Passage without vocals. | [Instrumental]; [Instrumental Break] | 
+  solo_section | Solo section |  | Showcase section for an instrument. | [Solo]; [Guitar Solo] | improvisation
+    guitar_solo | Guitar solo |  | Electric or acoustic guitar solo. | [Guitar Solo]; guitar solo | 
+    sax_solo | Saxophone solo |  |  | [Sax Solo]; sax solo | 
+    piano_solo | Piano solo |  |  | [Piano Solo] | 
+    synth_solo | Synth solo |  |  | [Synth Solo] | 
+    bass_solo | Bass solo |  |  | [Bass Solo] | 
+  breakdown_metal | Breakdown (metal) |  | Slow, heavy section of syncopated muted chords. | [Breakdown]; heavy breakdown | chugging, palm_muting
+  breakdown_edm | Breakdown (EDM) | break | Low-energy section without kick before the build. | [Breakdown] | build_up
+  build_up | Build-up | build; riser | Progressive rise in tension before the drop. | [Build-Up]; [Build] | riser, snare_build
+  drop | Drop |  | Climax of an electronic track, where bass and kick come in. | [Drop]; heavy drop | build_up
+  beat_switch | Beat switch |  | Complete change of beat mid-track; hip hop. | [Beat Switch]; beat switch | tempo_switch
+  hook_section | Hook (hip hop) |  | The chorus of a rap track. | [Hook] | chorus
+  skit | Skit |  | Spoken piece or short scene on a hip hop record. | [Skit] | 
+  spoken_intro | Spoken intro |  | Recited opening before the music. | [Spoken Intro] | spoken_word
+  final_chorus | Final chorus | double chorus | Last chorus, often intensified or doubled. | [Final Chorus] | truck_driver_modulation
+  turnaround | Turnaround |  | Chord passage leading back to the top of the form. |  | 
+  tag | Tag ending |  | Final repetition of the last line. |  | 
+  outro | Outro | coda | Closing section. | [Outro] | 
+  fade_out | Fade-out |  | The song ends by gradually lowering the volume. | [Fade Out] | 
+  cold_ending | Cold ending |  | Ending on a hit, no fade. | [End] | 
+  false_ending | False ending |  | Pause that fakes the ending before the music returns. |  | 
+  a_cappella_section | A cappella section |  | Voices-only passage. | [A Cappella] | a_cappella
+  silence_break | Dramatic pause | stop | Brief total silence for impact. | [Break] | stop_time
+song_form | Song forms |  | Overall organizational schemes. |  | 
+  verse_chorus_form | Verse–chorus form |  | Alternating verses and choruses with an optional bridge. |  | 
+  aaba_form | AABA form | thirty-two-bar form | Form of the Tin Pan Alley standards. |  | jazz_standard
+  strophic_form | Strophic form | AAA | Same music for every verse. |  | 
+  through_composed | Through-composed form | durchkomponiert | No repeated sections. | through-composed | 
+  binary_form | Binary form | AB | Two contrasting sections. |  | 
+  ternary_form | Ternary form | ABA | Statement, contrast and return. |  | 
+  edm_arrangement | EDM arrangement |  | Intro–build–drop–breakdown–build–drop–outro. |  | 
+  multi_part_suite | Multi-part epic | epic | Long composition with linked movements; progressive rock. | epic; multi-part | suite
+  loop_based_form | Loop-based form |  | Structure built by adding and removing layers over a loop. |  | loop
+  medley | Medley |  | Chain of fragments from several songs. | medley | 
+  reprise | Reprise |  | Return of an earlier theme at the end of a record or work. | [Reprise] | 
+  segue | Segue |  | Seamless transition from one piece to the next. |  | 
+composition_form | Compositional forms |  | Forms of the art-music tradition, aligned with LCGFT. |  | 
+  fugue | Fugue |  | Contrapuntal form based on imitation of a subject. | fugue; fugal | counterpoint, imitation
+  canon | Canon |  | Strict imitation of one voice by another after a delay. | canon | imitation
+  round | Round |  | Canon at the unison that repeats indefinitely. |  | 
+  invention | Invention |  | Short contrapuntal piece in two or three voices. |  | 
+  sonata_form | Sonata form |  | Exposition, development and recapitulation of two themes. |  | 
+  theme_variations | Theme and variations |  | A theme followed by successive transformations. |  | 
+  passacaglia | Passacaglia | ground bass; basso ostinato | Variations over a repeated bass or progression. |  | ostinato
+  rondo | Rondo | ABACA | Instrumental refrain alternating with episodes. |  | 
+  toccata | Toccata |  | Virtuosic keyboard piece with fast figuration. | toccata | 
+  prelude | Prelude |  | Introductory or short free-form piece. |  | 
+  etude | Étude |  | Piece focused on a technical difficulty. |  | 
+  nocturne | Nocturne |  | Lyrical, night-themed piano piece. |  | 
+  march | March |  | Piece in 2/4 or 4/4 at a military pace. | march | time_2_4
+  waltz | Waltz |  | Dance in 3/4 accented on beat one. | waltz | time_3_4
+  minuet | Minuet |  | Courtly dance in 3/4. |  | 
+  scherzo | Scherzo |  | Fast, playful movement in 3/4. |  | 
+  aria | Aria |  | Lyrical solo vocal piece within a larger work. | aria | operatic
+  recitative | Recitative |  | Declaimed singing that follows speech rhythm. |  | 
+  chorale | Chorale |  | Lutheran hymn harmonized in four parts. | chorale | choir
+  motet | Motet |  | Sacred polyphonic choral composition. |  | 
+  madrigal | Madrigal |  | Secular polyphonic vocal composition of the Renaissance. |  | 
+  mass | Mass |  | Music for the Ordinary of the Mass. |  | 
+  requiem | Requiem |  |  | requiem | 
+  hymn | Hymn |  | Strophic song of praise. | hymn | 
+  anthem | Anthem |  | Solemn, collective piece; by extension, a mass sing-along song. | anthemic | anthemic
+  lullaby | Lullaby |  | Soft song for sleep. | lullaby | 
+  lament | Lament |  | Piece of mourning or grievance. | lament | chromatic_bass_line
+  serenade | Serenade |  | Amorous or light piece, originally performed at night. | serenade | 
+  ballad_form | Ballad |  | Song that tells a story; in pop, a slow song. | ballad; power ballad | storytelling
+    power_ballad | Power ballad |  | Ballad that builds to a finale with full-power guitars and drums. | power ballad | crescendo
+  rhapsody | Rhapsody |  | Free, episodic piece. |  | 
+  fantasia | Fantasia |  | Free piece with an improvisatory character. |  | 
+  cadenza | Cadenza |  | Free, virtuosic solo passage. |  | 
+  overture | Overture |  | Introductory orchestral piece. | overture | 
+  suite | Suite |  | Series of linked pieces or dances. | suite | multi_part_suite
+  concerto | Concerto |  | Work for soloist and orchestra. |  | 
+  symphony | Symphony |  | Orchestral work in several movements. | symphonic | orchestra
+  cantata | Cantata |  | Vocal work in several movements. |  | 
+  oratorio | Oratorio |  | Dramatic choral-orchestral work without staging. |  | 
+  opera | Opera |  | Staged drama sung throughout. | opera; operatic | operatic
+  jazz_standard | Jazz standard |  | Repertoire tune used for improvisation. |  | aaba_form
+
+@ TEX | Texture and counterpoint
+texture | Texture |  | How simultaneous lines combine. |  | 
+  monophony | Monophony |  | A single unaccompanied melodic line. |  | 
+  homophony | Homophony |  | Main melody with chordal accompaniment. |  | 
+  polyphony | Polyphony |  | Several independent simultaneous lines. | polyphonic | counterpoint
+  heterophony | Heterophony |  | Simultaneous variants of the same melody. |  | 
+  unison | Unison |  | Several voices or instruments on the same pitch. | unison | octave_doubling
+  sparse_texture | Sparse texture |  | Few elements at a time, lots of space. | sparse; minimal arrangement | 
+  dense_texture | Dense texture |  | Many simultaneous layers. | dense; layered | wall_of_sound
+counterpoint | Counterpoint |  | Combining independent lines under voice-leading rules. | counterpoint | polyphony
+  imitation | Imitation |  | One voice repeats another's material. |  | 
+  voice_leading | Voice leading |  | How each voice moves between chords. |  | 
+  hocket | Hocket |  | A melody split note by note between voices. |  | 
+accompaniment_texture | Accompaniment textures |  | Typical accompaniment patterns. |  | 
+  comping | Comping |  | Rhythmic, irregular chords under a soloist. |  | 
+  alberti_bass | Alberti bass |  | Broken chord in low-high-middle-high order. |  | 
+  harmonized_lines | Harmonized lines | twin guitars | Two instruments play the same line a third or sixth apart. | twin guitar harmonies; harmonized leads | 
+  drone | Drone |  | Note or chord sustained throughout the piece. | drone | pedal_point, bagpipes
+  call_and_response | Call and response |  | Alternation between a solo phrase and a reply. | call and response | 
+  antiphony | Antiphony |  | Alternation between two choirs or groups. |  | call_and_response
+  layering | Layering |  | Elements entering progressively and stacking up. | layered arrangement | loop_based_form

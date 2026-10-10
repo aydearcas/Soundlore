@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore musical concepts, genre profiles, and relationships in an interactive music thesaurus.">
+<title>Music Thesaurus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: search bar + tabs; two columns (browsable list | record), stacked on phones. Temperature = cold→scorching scale. */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --fg:#1b1e24; --muted:#5d6472; --line:#dde1e8; --accent:#3346c8; --accent-soft:#e7eafb;
+  --t0:#4b7bd8;--f1:#2a78d6;--f2:#eb6834;--f3:#1baf7a;--f4:#eda100;--f5:#e87ba4;--f6:#008300;--f7:#6250d6;--f8:#e34948;--f9:#9aa0aa; --t1:#45a7b8; --t2:#d9a83a; --t3:#e3702f; --t4:#d23a3a;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif; --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121419;--panel:#1a1d24;--fg:#e8eaf0;--muted:#9aa1b0;--line:#2c313c;--accent:#8a98ff;--accent-soft:#252a46;--t0:#6f9cf0;--f1:#3987e5;--f2:#d95926;--f3:#199e70;--f4:#c98500;--f5:#d55181;--f6:#008300;--f7:#9085e9;--f8:#e66767;--f9:#6b7180;--t1:#5fc3d2;--t2:#e8bd55;--t3:#f08a4c;--t4:#f05a5a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121419;--panel:#1a1d24;--fg:#e8eaf0;--muted:#9aa1b0;--line:#2c313c;--accent:#8a98ff;--accent-soft:#252a46;--t0:#6f9cf0;--f1:#3987e5;--f2:#d95926;--f3:#199e70;--f4:#c98500;--f5:#d55181;--f6:#008300;--f7:#9085e9;--f8:#e66767;--f9:#6b7180;--t1:#5fc3d2;--t2:#e8bd55;--t3:#f08a4c;--t4:#f05a5a;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end;justify-content:space-between}
+h1{font-family:var(--display);font-stretch:125%;font-weight:800;font-size:clamp(1.6rem,4vw,2.3rem);letter-spacing:-.01em;margin:0;line-height:1}
+.stats{font-family:var(--mono);font-size:.78rem;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.stats b{color:var(--fg);font-weight:500}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-block:18px 14px}
+.tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:3px}
+.tabs button{font:600 .9rem var(--body);border:0;background:none;color:var(--muted);padding:6px 14px;border-radius:6px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent-soft);color:var(--accent)}
+#q{flex:1 1 240px;min-width:0;font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--fg)}
+#q:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chip{font:500 .8rem var(--body);border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:4px 10px;border-radius:99px;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.grid{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:820px){.grid{grid-template-columns:1fr}}
+.list{background:var(--panel);border:1px solid var(--line);border-radius:10px;max-height:72vh;overflow:auto;position:relative}
+.list .row{display:flex;gap:8px;align-items:baseline;padding:5px 12px;border-bottom:1px solid var(--line);cursor:pointer;font-size:.9rem}
+.list .row:hover{background:var(--accent-soft)}
+.list .row.sel{background:var(--accent-soft);color:var(--accent)}
+.list .fac{font-family:var(--display);font-stretch:110%;font-weight:700;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;padding:10px 12px 4px;color:var(--muted);position:sticky;top:0;background:var(--panel);border-bottom:1px solid var(--line)}
+.code{font-family:var(--mono);font-size:.72rem;color:var(--muted);white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;flex:none;align-self:center}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px 22px;min-width:0}
+.card h2{font-family:var(--display);font-stretch:112%;font-weight:750;font-size:1.6rem;margin:0;line-height:1.15;text-wrap:balance}
+.sub{color:var(--muted);font-size:.95rem;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.sec{margin-top:18px}
+.sec h3{font-family:var(--display);font-stretch:110%;font-weight:700;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.84rem;padding:2px 9px;border-radius:5px;background:var(--bg);border:1px solid var(--line);cursor:pointer;color:var(--fg);font-family:inherit}
+.tag:hover{border-color:var(--accent);color:var(--accent)}
+.tag.c{border-color:var(--accent);background:var(--accent-soft)}
+.tag.o{opacity:.75}
+.pbox{font-family:var(--mono);font-size:.82rem;background:var(--bg);border:1px dashed var(--line);border-radius:6px;padding:8px 10px;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
+.pill{font:600 .7rem var(--body);letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:99px;border:1px solid currentColor}
+.p-high{color:var(--t1)}.p-medium{color:var(--t2)}.p-low{color:var(--t4)}
+.therm{display:grid;grid-template-columns:minmax(0,1fr) 120px 44px;gap:4px 10px;align-items:center;font-size:.88rem}
+.therm .nm{cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.therm .nm:hover{color:var(--accent)}
+.therm .track{height:8px;border-radius:4px;background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.therm .fill{display:block;height:100%}
+.therm .val{font-family:var(--mono);font-size:.78rem;text-align:right;font-variant-numeric:tabular-nums}
+.therm .why{grid-column:1/-1;font-size:.75rem;color:var(--muted);margin:-2px 0 6px;font-family:var(--mono)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:.75rem;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px;background:var(--c)}
+.note{color:var(--muted);font-size:.88rem;max-width:68ch}
+.empty{color:var(--muted);padding:30px 4px}
+a{color:var(--accent)}
+.more{font:500 .8rem var(--body);background:none;border:0;color:var(--accent);cursor:pointer;padding:4px 0}
+@media (prefers-reduced-motion:no-preference){.therm .fill{transition:width .3s ease}}
+.tw{width:16px;flex:none;border:0;background:none;color:var(--muted);cursor:pointer;padding:0;font-size:.8rem;line-height:1}
+.tw:hover{color:var(--accent)}
+.tw.leaf{cursor:default;visibility:hidden}
+.crumbs{font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:2px;margin-bottom:4px}
+.crumbs button{border:0;background:none;padding:0;font:inherit;color:var(--muted);cursor:pointer}
+.crumbs button:hover{color:var(--accent);text-decoration:underline}
+.crumbs .sep{margin:0 5px;opacity:.6}
+.tools{display:flex;gap:6px;margin-left:auto}
+.btn{font:500 .78rem var(--body);border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:3px 9px;border-radius:6px;cursor:pointer;flex:none}
+.btn:hover{color:var(--accent);border-color:var(--accent)}
+.prompt{display:flex;gap:8px;align-items:flex-start}
+.prompt .pbox{flex:1;min-width:0}
+.lvl{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-left:auto;flex:none}
+.grp{font-size:.78rem;color:var(--muted);padding:8px 12px 4px;border-bottom:1px solid var(--line);background:var(--bg)}
+.grp b{color:var(--fg);font-weight:600}
+.grid.mapmode{grid-template-columns:1fr}.grid.mapmode #list{display:none}
+.mapwrap{position:relative;height:72vh;min-height:420px;border-radius:8px;background:var(--bg);overflow:hidden}
+#cv{display:block;touch-action:none;cursor:grab}#cv:active{cursor:grabbing}
+.mtools{position:absolute;top:10px;right:10px;display:flex;gap:4px}
+.mtools .btn[aria-pressed="true"]{color:var(--accent);border-color:var(--accent)}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font-size:.8rem;display:flex;flex-direction:column;gap:1px;max-width:280px;box-shadow:0 4px 14px rgb(0 0 0 / .12)}
+.tip span{color:var(--muted)}.tip .tsub{font-size:.75rem}
+.mpanel{position:absolute;left:10px;top:10px;width:260px;max-height:calc(100% - 20px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;box-shadow:0 4px 14px rgb(0 0 0 / .12)}
+.mph{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.mpn{display:flex;flex-direction:column;margin-top:6px}
+.mpn button{display:flex;align-items:center;gap:6px;border:0;background:none;color:var(--fg);font:inherit;font-size:.82rem;padding:3px 0;cursor:pointer;text-align:left}
+.mpn button:hover{color:var(--accent)}.mpn .val{margin-left:auto;font-family:var(--mono);font-size:.75rem;color:var(--muted)}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block;flex:none}
+.fchip{display:inline-flex;align-items:center;gap:6px}
+</style>
+
+</head>
+<body>
+<noscript>Enable JavaScript to explore the musical concepts, genres, and map.</noscript>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Music Thesaurus</h1>
+      <div class="note" style="margin-top:6px">Musical concepts and genres with MeSH-style relations, a resource profile for every genre, and temperature between genres.</div>
+    </div>
+    <div class="stats" id="stats">Loading…</div>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-c" aria-selected="true">Concepts</button>
+      <button role="tab" id="tab-g" aria-selected="false">Genres</button>
+      <button role="tab" id="tab-m" aria-selected="false">Map</button>
+    </div>
+    <input id="q" type="search" placeholder="Search concepts or genres (e.g. tremolo picking, shoegaze)" autocomplete="off">
+  </div>
+  <div class="filters" id="filters"></div>
+
+  <div class="grid" id="grid" style="margin-top:12px">
+    <div class="list" id="list" aria-label="List"></div>
+    <div class="card" id="detail"><div class="empty">Pick an item from the list.</div></div>
+  </div>
+</div>
+
+<script>
+const S={tab:'c',q:'',facet:null,sel:null,open:{}};
+let C,FAC,CI,G,GK,GM,T,GBC,IDF,KIDS={};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/\p{M}/gu,'');
+const LV={characteristic:'Characteristic',frequent:'Frequent',occasional:'Occasional'};
+const LV1={characteristic:'C',frequent:'F',occasional:'O'};
+const tcol=t=>t>=80?'var(--t4)':t>=60?'var(--t3)':t>=40?'var(--t2)':t>=20?'var(--t1)':'var(--t0)';
+const dcol=g=>g.non_musical?'var(--line)':g.confidence==='high'?'var(--accent)':g.confidence==='medium'?'var(--t2)':'var(--t4)';
+function save(){try{localStorage.setItem('tm-en',JSON.stringify({tab:S.tab,sel:S.sel,open:S.open}))}catch(e){}}
+
+async function loadJson(file){
+  const response=await fetch(file);
+  if(!response.ok) throw new Error(`Could not load ${file}: HTTP ${response.status}`);
+  return response.json();
+}
+async function load(){
+  const [c,g,t,gbc,idf]=await Promise.all(['concepts.json','genres.json','temperature_viewer.json','genres_by_concept.json','idf.json'].map(loadJson));
+  C=c.concepts;FAC=c.facets;CI=Object.fromEntries(C.map(x=>[x.id,x]));
+  G=g;GK=Object.fromEntries(G.map(x=>[x.key,x]));GM=Object.fromEntries(G.map(x=>[x.mbid,x]));
+  T=t;GBC=gbc;IDF=idf;
+  // primary children (tree position) for the collapsible concept tree
+  for(const x of C){const p=x.broader[0]; if(p)(KIDS[p]=KIDS[p]||[]).push(x.id);}
+  const prof=G.filter(x=>x.profile).length;
+  $('#stats').innerHTML=`<span><b>${C.length}</b> concepts</span><span><b>${FAC.length}</b> facets</span><span><b>${G.length}</b> genres</span><span><b>${prof}</b> with profile</span>`;
+  try{const s=JSON.parse(localStorage.getItem('tm-en')||'{}');Object.assign(S,s);S.open=S.open||{}}catch(e){}
+  if(!S.sel||S.tab==='m'&&false) S.sel=S.tab==='c'?'blast_beat':'shoegaze';if(S.tab==='m'){S.sel=S.sel||'shoegaze';}
+  if(S.tab==='c') reveal(S.sel);
+  render();
+}
+function setTab(t){S.tab=t;S.facet=null;if(t!=='m')S.sel=t==='c'?'blast_beat':'shoegaze';if(t==='c')reveal(S.sel);render();save()}
+$('#tab-c').onclick=()=>setTab('c');$('#tab-g').onclick=()=>setTab('g');$('#tab-m').onclick=()=>setTab('m');
+$('#q').oninput=e=>{S.q=e.target.value;if(S.tab==='m'){mapDraw();const q=norm(S.q.trim());const m=q&&MAP.data.points.find(p=>norm(p[0])===q);if(m)mapFocus(m[0]);}else renderList()};
+
+// ---------- hierarchy helpers
+function conceptPath(id){const out=[];let x=CI[id];while(x){out.unshift(x.id);x=CI[x.broader[0]];}return out;}
+function reveal(id){for(const a of conceptPath(id).slice(0,-1)) S.open[a]=true;}
+function genrePaths(g,limit=3){ // up to `limit` root→genre paths via "subgenre of"
+  const paths=[];
+  const walk=(node,acc,seen)=>{ if(paths.length>=limit) return;
+    const ups=node.broader.filter(b=>!seen.has(b));
+    if(!ups.length){ if(acc.length>1) paths.push(acc); return; }
+    for(const b of ups){ walk(GM[b],[GM[b],...acc],new Set([...seen,b])); if(paths.length>=limit) return; } };
+  walk(g,[g],new Set([g.mbid]));
+  return paths;
+}
+
+function renderFilters(){
+  const f=$('#filters');
+  if(S.tab==='c'){
+    f.innerHTML=`<button class="chip" aria-pressed="${!S.facet}" data-f="">All</button>`+FAC.map(x=>`<button class="chip" aria-pressed="${S.facet===x.code}" data-f="${x.code}">${esc(x.label)}</button>`).join('')
+      +`<span class="tools"><button class="btn" id="expand">Expand all</button><button class="btn" id="collapse">Collapse all</button></span>`;
+    f.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{S.facet=b.dataset.f||null;renderFilters();renderList()});
+    $('#expand').onclick=()=>{for(const k in KIDS)S.open[k]=true;renderList();save()};
+    $('#collapse').onclick=()=>{S.open={};renderList();save()};
+  }else{
+    f.innerHTML=`<span class="legend"><span style="--c:var(--accent)">detailed profile</span><span style="--c:var(--t2)">standard profile</span><span style="--c:var(--t4)">sparse profile</span><span style="--c:var(--line)">non-musical</span></span>`;
+  }
+}
+const cmatch=(x,q)=>[x.label,...x.synonyms,...x.prompt_terms].some(v=>norm(v).includes(q));
+function renderList(){
+  const L=$('#list'),q=norm(S.q.trim());let h='';
+  if(S.tab==='c'){
+    for(const f of FAC){ if(S.facet&&f.code!==S.facet) continue;
+      if(q){ // search: flat list of matches with their tree number
+        const rows=C.filter(x=>x.facet===f.code&&cmatch(x,q)); if(!rows.length) continue;
+        h+=`<div class="fac">${esc(f.code)} · ${esc(f.label)}</div>`;
+        for(const x of rows) h+=`<div class="row${S.sel===x.id?' sel':''}" data-id="${x.id}"><span>${esc(x.label)}</span><span class="code">${esc(x.tree[0])}</span></div>`;
+      }else{ // collapsible tree
+        h+=`<div class="fac">${esc(f.code)} · ${esc(f.label)}</div>`;
+        const roots=C.filter(x=>x.facet===f.code&&!x.broader.length);
+        const draw=(id,d)=>{const x=CI[id],kids=KIDS[id]||[],open=!!S.open[id];
+          h+=`<div class="row${S.sel===id?' sel':''}" data-id="${id}" style="padding-left:${8+d*16}px"><button class="tw${kids.length?'':' leaf'}" data-t="${id}" aria-label="${open?'Collapse':'Expand'} ${esc(x.label)}" aria-expanded="${open}">${open?'▾':'▸'}</button><span>${esc(x.label)}</span><span class="code">${kids.length&&!open?'+'+kids.length+' · ':''}${esc(x.tree[0])}</span></div>`;
+          if(open) for(const k of kids) draw(k,d+1);};
+        for(const r of roots) draw(r.id,0);
+      }
+    }
+  }else{
+    const rows=G.filter(x=>!q||norm(x.key).includes(q));
+    h=rows.map(x=>`<div class="row${S.sel===x.key?' sel':''}" data-id="${esc(x.key)}"><span class="dot" style="background:${dcol(x)}"></span><span>${esc(x.key)}</span></div>`).join('');
+    if(q.length>=3){ // genres that use matching resources
+      const hits=C.filter(x=>cmatch(x,q)&&GBC[x.id]).slice(0,4);
+      for(const x of hits){const u=GBC[x.id];
+        h+=`<div class="grp">Genres using <b>${esc(x.label)}</b></div>`;
+        for(const lv of ['characteristic','frequent','occasional']) for(const k of u[lv]){const g=GK[k];
+          h+=`<div class="row${S.sel===k?' sel':''}" data-id="${esc(k)}"><span class="dot" style="background:${dcol(g)}"></span><span>${esc(k)}</span><span class="lvl" title="${LV[lv]}">${LV1[lv]}</span></div>`;}
+      }
+    }
+  }
+  L.innerHTML=h||'<div class="empty" style="padding:16px">No results.</div>';
+  L.querySelectorAll('.tw[data-t]').forEach(b=>b.onclick=e=>{e.stopPropagation();const id=b.dataset.t;S.open[id]=!S.open[id];renderList();save()});
+  L.querySelectorAll('.row[data-id]').forEach(r=>r.onclick=()=>{S.sel=r.dataset.id;renderList();renderDetail();save()});
+}
+function go(tab,id){S.tab=tab;S.sel=id;S.facet=null;if(tab==='c'){reveal(id);S.q='';$('#q').value='';}render();save();window.scrollTo({top:0})}
+const ctag=(id,cls='')=>CI[id]?`<button class="tag ${cls}" data-c="${id}">${esc(CI[id].label)}</button>`:'';
+const gtag=k=>GK[k]?`<button class="tag" data-g="${esc(GK[k].key)}">${esc(GK[k].key)}</button>`:'';
+function bind(el){el.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>go('c',b.dataset.c));el.querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>go('g',b.dataset.g));}
+function copyBtn(el){const b=el.querySelector('[data-copy]');if(!b)return;b.onclick=async()=>{const box=el.querySelector('#pd');
+  try{await navigator.clipboard.writeText(box.textContent);b.textContent='Copied';}catch(e){const r=document.createRange();r.selectNodeContents(box);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, press Ctrl+C';}
+  setTimeout(()=>b.textContent='Copy',1800);};}
+
+function renderDetail(){
+  const D=$('#detail');
+  if(S.tab==='c'){
+    const x=CI[S.sel]; if(!x){D.innerHTML='<div class="empty">Pick a concept.</div>';return}
+    const f=FAC.find(f=>f.code===x.facet), u=GBC[x.id]||{};
+    const path=conceptPath(x.id);
+    const crumbs=`<div class="crumbs"><div>${esc(f.label)}${path.length>1?'<span class="sep">›</span>':''}${path.slice(0,-1).map(a=>`<button data-c="${a}">${esc(CI[a].label)}</button>`).join('<span class="sep">›</span>')}</div></div>`;
+    const lv=k=>{const a=u[k]||[];if(!a.length)return'';return`<div class="sec"><h3>${LV[k]} in · ${a.length} genres</h3><div class="tags">${a.slice(0,40).map(gtag).join('')}${a.length>40?`<button class="more" data-more="${k}">show ${a.length-40} more</button>`:''}</div></div>`};
+    D.innerHTML=`${crumbs}<div class="code">${esc(x.tree.join(' · '))}</div>
+      <h2>${esc(x.label)}</h2>
+      ${x.synonyms.length?`<div class="sub">Also: ${x.synonyms.map(esc).join(' · ')}</div>`:''}
+      ${x.note?`<p class="note">${esc(x.note)}</p>`:''}
+      <div class="sec"><h3>Prompt terms</h3><div class="pbox">${[...x.prompt_terms.map(s=>`<span>${esc(s)}</span>`),...x.prompt_tags.map(s=>`<span><b>${esc(s)}</b></span>`)].join('')||'<span>—</span>'}
+        <span class="pill p-${x.prompt_adherence_expected}" title="Untested estimate of how reliably music generators follow this term">adherence ${x.prompt_adherence_expected}</span></div></div>
+      ${x.broader.length?`<div class="sec"><h3>Broader</h3><div class="tags">${x.broader.map(b=>ctag(b)).join('')}</div></div>`:''}
+      ${x.narrower.length?`<div class="sec"><h3>Narrower</h3><div class="tags">${x.narrower.map(b=>ctag(b)).join('')}</div></div>`:''}
+      ${x.related.length?`<div class="sec"><h3>Related</h3><div class="tags">${x.related.map(b=>ctag(b)).join('')}</div></div>`:''}
+      ${lv('characteristic')}${lv('frequent')}${lv('occasional')}
+      ${!Object.keys(u).length?'<div class="sec note">No genre profile uses this concept yet.</div>':''}`;
+    D.querySelectorAll('[data-more]').forEach(b=>b.onclick=()=>{b.parentElement.innerHTML=u[b.dataset.more].map(gtag).join('');bind(D)});
+    bind(D);
+  }else{
+    const g=GK[S.sel]; if(!g){D.innerHTML='<div class="empty">Pick a genre.</div>';return}
+    const rel=(t,a)=>a&&a.length?`<div class="sec"><h3>${t}</h3><div class="tags">${a.map(k=>gtag(GM[k]?.key)).join('')}</div></div>`:'';
+    const p=g.profile, tt=(T[g.key]||[]).map(a=>({name:a[0],t:a[1],graph:a[2],dist:a[3],shared:a[4]}));
+    const det=g.confidence==='high'?'detailed':g.confidence==='medium'?'standard':'sparse';
+    const paths=genrePaths(g);
+    const crumbs=paths.length?`<div class="crumbs">${paths.map(pa=>`<div>${pa.slice(0,-1).map(n=>`<button data-g="${esc(n.key)}">${esc(n.key)}</button>`).join('<span class="sep">›</span>')}<span class="sep">›</span>${esc(g.key)}</div>`).join('')}</div>`:'';
+    D.innerHTML=`${crumbs}<div class="code">MusicBrainz ${esc(g.mbid)}${g.wikidata?` · <a href="https://www.wikidata.org/wiki/${esc(g.wikidata)}" target="_blank" rel="noopener">${esc(g.wikidata)}</a>`:''}${g.area.length?' · '+g.area.map(esc).join(', '):''}</div>
+      <h2>${esc(g.key)}</h2>
+      <div class="sub">${g.non_musical?'Non-musical entry, no profile':`<span class="dot" style="background:${dcol(g)};width:9px;height:9px"></span>${det} profile`}</div>
+      ${g.confidence==='low'?'<p class="note">Sparse profile: a regional tradition or a little-documented genre. Its temperature is less reliable.</p>':''}
+      ${p?`<div class="sec"><h3>Characteristic</h3><div class="tags">${p.characteristic.map(c=>ctag(c,'c')).join('')||'—'}</div></div>
+      ${p.frequent.length?`<div class="sec"><h3>Frequent</h3><div class="tags">${p.frequent.map(c=>ctag(c)).join('')}</div></div>`:''}
+      ${p.occasional.length?`<div class="sec"><h3>Occasional</h3><div class="tags">${p.occasional.map(c=>ctag(c,'o')).join('')}</div></div>`:''}
+      <div class="sec"><h3>Prompt draft</h3><div class="prompt"><div class="pbox" id="pd">${esc(promptDraft(g))}</div><button class="btn" data-copy>Copy</button></div></div>`:''}
+      ${rel('Subgenre of',g.broader)}${rel('Subgenres',g.narrower)}${rel('Fusion of',g.fusion_of)}${rel('Fusion genres',g.fusion_genres)}${rel('Influenced by',g.influenced_by)}${rel('Influenced',g.influenced)}
+      <div class="sec"><h3>Temperature · closest genres</h3>
+        <div class="legend" style="margin-bottom:8px"><span style="--c:var(--t4)">scorching ≥80</span><span style="--c:var(--t3)">hot 60–79</span><span style="--c:var(--t2)">warm 40–59</span><span style="--c:var(--t1)">cool 20–39</span><span style="--c:var(--t0)">cold &lt;20</span></div>
+        <div class="therm">${tt.map(r=>`<span class="nm" data-g="${esc(r.name)}">${esc(r.name)}</span><span class="track"><span class="fill" style="width:${r.t}%;background:${tcol(r.t)}"></span></span><span class="val">${r.t.toFixed(0)}</span>${r.shared.length?`<div class="why">shared: ${r.shared.map(c=>esc(CI[c]?.label||c)).join(', ')}</div>`:`<div class="why">tree distance only${r.dist!=null?' · '+r.dist+' steps':''}</div>`}`).join('')||'<span class="note">No neighbors computed.</span>'}</div></div>
+      ${g.links.length?`<div class="sec"><h3>Other databases</h3><div class="note">${g.links.map(l=>`<a href="${esc(l)}" target="_blank" rel="noopener">${esc(l.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])}</a>`).join(' · ')}</div></div>`:''}`;
+    D.querySelectorAll('.therm .nm').forEach(b=>b.onclick=()=>go('g',b.dataset.g));
+    bind(D);copyBtn(D);
+  }
+}
+function promptDraft(g){
+  const p=g.profile, rank=c=>(IDF[c]||0);
+  const pick=k=>p[k].filter(c=>CI[c]&&CI[c].prompt_adherence_expected!=='low'&&CI[c].prompt_terms[0]&&CI[c].facet!=='LYR').sort((a,b)=>rank(b)-rank(a));
+  const terms=[...pick('characteristic'),...pick('frequent')].map(c=>CI[c].prompt_terms[0]);
+  return [g.name,...new Set(terms)].slice(0,11).join(', ');
+}
+function render(){
+  $('#tab-c').setAttribute('aria-selected',S.tab==='c');$('#tab-g').setAttribute('aria-selected',S.tab==='g');$('#tab-m').setAttribute('aria-selected',S.tab==='m');
+  $('#grid').classList.toggle('mapmode',S.tab==='m');
+  if(S.tab==='m'){renderMap();return;}
+  MAP.cv=null;
+  renderFilters();renderList();renderDetail();
+  const s=$('#list .sel'),L=$('#list'); if(s) L.scrollTop=s.offsetTop-L.clientHeight/2;
+}
+// ---------- Genre map (canvas)
+const MAP={data:null,view:{k:1,x:0,y:0},only:null,hover:null,pick:null,labels:true,drag:null,cv:null,ctx:null,W:0,H:0,ready:false};
+function famColors(){const cs=getComputedStyle(document.documentElement);return Array.from({length:9},(_,i)=>cs.getPropertyValue('--f'+(i+1)).trim());}
+async function mapLoad(){ if(MAP.data) return; MAP.data=await loadJson('genre_map.json');
+  const P=MAP.data.points; MAP.byKey=Object.fromEntries(P.map(p=>[p[0],p]));
+  // family label anchors: median position of each family
+  // family label anchors: densest point of each family (most same-family dots within a small radius)
+  MAP.anchors=MAP.data.families.map((f,i)=>{const F=P.filter(p=>p[3]===i);let best=F[0],bn=-1;
+    for(const a of F){let n=0;for(const b of F){const dx=a[1]-b[1],dy=a[2]-b[2];if(dx*dx+dy*dy<0.0025)n++;}if(n>bn){bn=n;best=a;}}
+    return [best[1],best[2],F.length];});
+}
+function mapRenderShell(){
+  const D=$('#detail');
+  D.innerHTML=`<div class="mapwrap"><canvas id="cv" aria-label="2D map of genres; closer genres have more similar profiles"></canvas>
+    <div class="mtools"><button class="btn" id="zin" aria-label="Zoom in">+</button><button class="btn" id="zout" aria-label="Zoom out">−</button><button class="btn" id="zreset">Reset</button><button class="btn" id="lbl" aria-pressed="${MAP.labels}">Labels</button></div>
+    <div class="tip" id="tip" hidden></div>
+    <div class="mpanel" id="mpanel" hidden></div></div>
+    <p class="note" style="margin:10px 0 0">Each dot is a genre. Genres sit close together when their resource profiles are similar. Scroll or use + / − to zoom, drag to move, click a genre to see its hottest neighbors.</p>`;
+  MAP.cv=$('#cv');MAP.ctx=MAP.cv.getContext('2d');
+  const ro=new ResizeObserver(()=>mapResize());ro.observe(MAP.cv.parentElement);
+  mapResize();mapBind();
+}
+function mapResize(){const c=MAP.cv;if(!c)return;const r=c.parentElement.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
+  MAP.W=r.width;MAP.H=r.height;c.width=r.width*dpr;c.height=r.height*dpr;c.style.width=r.width+'px';c.style.height=r.height+'px';MAP.ctx.setTransform(dpr,0,0,dpr,0,0);mapDraw();}
+const PAD=24;
+function toScreen(x,y){return [(PAD+x*(MAP.W-2*PAD))*MAP.view.k+MAP.view.x,(PAD+y*(MAP.H-2*PAD))*MAP.view.k+MAP.view.y];}
+function mapDraw(){
+  const c=MAP.ctx;if(!c||!MAP.data)return;const P=MAP.data.points,col=famColors(),cs=getComputedStyle(document.documentElement);
+  const fg=cs.getPropertyValue('--fg').trim(),muted=cs.getPropertyValue('--muted').trim(),bg=cs.getPropertyValue('--panel').trim(),line=cs.getPropertyValue('--line').trim();
+  c.clearRect(0,0,MAP.W,MAP.H);
+  const q=norm(S.q.trim()),match=q?new Set(P.filter(p=>norm(p[0]).includes(q)).map(p=>p[0])):null;
+  const keep=new Set(MAP.pick?[MAP.pick,...(T[MAP.pick]||[]).slice(0,10).map(n=>n[0])]:[]);
+  const dim=p=>!keep.has(p[0])&&!!((MAP.only!==null&&p[3]!==MAP.only)||(match&&!match.has(p[0])));
+  const r=Math.max(2.2,Math.min(6,2.4*Math.sqrt(MAP.view.k)));
+  // neighbor lines for the picked genre
+  if(MAP.pick){const a=MAP.byKey[MAP.pick];const [ax,ay]=toScreen(a[1],a[2]);
+    for(const n of (T[MAP.pick]||[]).slice(0,10)){const b=MAP.byKey[n[0]];if(!b)continue;const [bx,by]=toScreen(b[1],b[2]);
+      c.strokeStyle=tcol(n[1]).startsWith('var')?cs.getPropertyValue(tcol(n[1]).slice(4,-1)).trim():tcol(n[1]);c.globalAlpha=.85;c.lineWidth=2;c.beginPath();c.moveTo(ax,ay);c.lineTo(bx,by);c.stroke();}
+    c.globalAlpha=1;}
+  // dots: dimmed first, then active
+  for(const pass of [true,false]) for(const p of P){ if(dim(p)!==pass) continue;
+    const [x,y]=toScreen(p[1],p[2]); if(x<-10||y<-10||x>MAP.W+10||y>MAP.H+10) continue;
+    c.globalAlpha=pass?.18:.9;c.fillStyle=col[p[3]];c.beginPath();c.arc(x,y,p[4]?r+0.8:r,0,6.283);c.fill();
+    if(!pass){c.globalAlpha=1;c.lineWidth=1;c.strokeStyle=bg;c.stroke();}}
+  c.globalAlpha=1;
+  // highlight hovered / picked
+  for(const k of [MAP.hover,MAP.pick]){ if(!k) continue; const p=MAP.byKey[k];const [x,y]=toScreen(p[1],p[2]);
+    c.lineWidth=2;c.strokeStyle=fg;c.beginPath();c.arc(x,y,r+4,0,6.283);c.stroke();}
+  // genre labels with greedy collision avoidance (core genres first)
+  const boxes=[];const hit=(b)=>boxes.some(o=>b[0]<o[2]&&b[2]>o[0]&&b[1]<o[3]&&b[3]>o[1]);
+  c.font='500 11px "Instrument Sans",system-ui,sans-serif';c.textBaseline='middle';
+  const placeLabel=(text,x,y,color,weight)=>{c.font=weight;const w=c.measureText(text).width;const b=[x+r+3,y-7,x+r+5+w,y+7];
+    if(b[2]>MAP.W||b[1]<0||b[3]>MAP.H||hit(b))return false;boxes.push(b);
+    c.lineWidth=3;c.strokeStyle=bg;c.strokeText(text,b[0],y);c.fillStyle=color;c.fillText(text,b[0],y);return true;};
+  // family names (secondary encoding for color)
+  if(MAP.only===null&&!match&&MAP.view.k<2.2){c.textAlign='center';
+    MAP.anchors.forEach((a,i)=>{let [x,y]=toScreen(a[0],a[1]);c.font='700 13px "Archivo",system-ui,sans-serif';const t=MAP.data.families[i];
+      const w=c.measureText(t).width;x=Math.max(w/2+6,Math.min(MAP.W-w/2-6,x));const b=[x-w/2-4,y-9,x+w/2+4,y+9];if(hit(b))return;boxes.push(b);
+      c.lineWidth=4;c.strokeStyle=bg;c.strokeText(t,x,y);c.fillStyle=fg;c.fillText(t,x,y);});
+    c.textAlign='left';}
+  for(const k of [MAP.pick,MAP.hover]) if(k){const p=MAP.byKey[k];const [x,y]=toScreen(p[1],p[2]);placeLabel(k,x,y,fg,'600 12px "Instrument Sans",system-ui,sans-serif');}
+  if(MAP.labels){
+    const cand=P.filter(p=>!dim(p)&&(p[4]||MAP.view.k>3||(match&&match.size<60)));
+    cand.sort((a,b)=>b[4]-a[4]);
+    let n=0;for(const p of cand){const [x,y]=toScreen(p[1],p[2]);if(x<0||y<0||x>MAP.W||y>MAP.H)continue;
+      if(placeLabel(p[0],x,y,muted,'500 11px "Instrument Sans",system-ui,sans-serif')&&++n>220)break;}
+  }
+}
+function mapNear(mx,my,rad=9){const out=[];for(const p of MAP.data.points){if(MAP.only!==null&&p[3]!==MAP.only)continue;const [x,y]=toScreen(p[1],p[2]);const d=(x-mx)**2+(y-my)**2;if(d<rad*rad)out.push([d,p]);}return out.sort((a,b)=>a[0]-b[0]).map(a=>a[1]);}
+function mapNearest(mx,my){let best=null,bd=144;for(const p of MAP.data.points){if((MAP.only!==null&&p[3]!==MAP.only))continue;const [x,y]=toScreen(p[1],p[2]);const d=(x-mx)**2+(y-my)**2;if(d<bd){bd=d;best=p;}}return best;}
+function mapZoom(f,cx=MAP.W/2,cy=MAP.H/2){const v=MAP.view,k=Math.max(.8,Math.min(40,v.k*f));const ff=k/v.k;v.x=cx-(cx-v.x)*ff;v.y=cy-(cy-v.y)*ff;v.k=k;mapDraw();}
+function mapBind(){
+  const c=MAP.cv,tip=$('#tip');
+  c.addEventListener('wheel',e=>{e.preventDefault();const r=c.getBoundingClientRect();mapZoom(e.deltaY<0?1.2:1/1.2,e.clientX-r.left,e.clientY-r.top);},{passive:false});
+  c.addEventListener('pointerdown',e=>{MAP.drag={x:e.clientX,y:e.clientY,vx:MAP.view.x,vy:MAP.view.y,moved:false};c.setPointerCapture(e.pointerId);});
+  c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;
+    if(MAP.drag){const dx=e.clientX-MAP.drag.x,dy=e.clientY-MAP.drag.y;if(Math.abs(dx)+Math.abs(dy)>3)MAP.drag.moved=true;
+      if(MAP.drag.moved){MAP.view.x=MAP.drag.vx+dx;MAP.view.y=MAP.drag.vy+dy;tip.hidden=true;mapDraw();return;}}
+    const p=mapNearest(mx,my);const k=p?p[0]:null;
+    if(k!==MAP.hover){MAP.hover=k;mapDraw();}
+    if(p){const g=GK[p[0]];tip.hidden=false;const more=mapNear(mx,my).length-1;tip.innerHTML=`<b>${esc(p[0])}</b><span>${esc(MAP.data.families[p[3]])}</span>${g.profile?`<span class="tsub">${g.profile.characteristic.slice(0,4).map(c=>esc(CI[c]?.label||c)).join(' · ')}</span>`:''}${more>0?`<span class="tsub"><b>+${more} more here</b> · click to choose</span>`:''}`;
+      const tx=Math.min(mx+14,MAP.W-tip.offsetWidth-6),ty=my+14+tip.offsetHeight>MAP.H?my-tip.offsetHeight-10:my+14;tip.style.left=tx+'px';tip.style.top=ty+'px';}
+    else tip.hidden=true;});
+  c.addEventListener('pointerup',e=>{const d=MAP.drag;MAP.drag=null;if(d&&!d.moved){const r=c.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;const near=mapNear(mx,my);if(near.length>1)mapChooser(near);else{const p=mapNearest(mx,my);mapPick(p?p[0]:null);}}});
+  c.addEventListener('pointerleave',()=>{MAP.hover=null;tip.hidden=true;mapDraw();});
+  $('#zin').onclick=()=>mapZoom(1.4);$('#zout').onclick=()=>mapZoom(1/1.4);
+  $('#zreset').onclick=()=>{MAP.view={k:1,x:0,y:0};mapDraw();};
+  $('#lbl').onclick=e=>{MAP.labels=!MAP.labels;e.target.setAttribute('aria-pressed',MAP.labels);mapDraw();};
+}
+function mapPick(k){MAP.pick=k;const P=$('#mpanel');
+  if(!k){P.hidden=true;mapDraw();return;}
+  const g=GK[k],p=MAP.byKey[k],nb=(T[k]||[]).slice(0,10);
+  P.hidden=false;P.innerHTML=`<div class="mph"><b>${esc(k)}</b><button class="btn" id="mpclose" aria-label="Close">×</button></div>
+    <div class="note" style="font-size:.8rem">${esc(MAP.data.families[p[3]])}</div>
+    ${g.profile?`<div class="tags" style="margin:6px 0">${g.profile.characteristic.slice(0,6).map(c=>`<span class="tag c">${esc(CI[c]?.label||c)}</span>`).join('')}</div>`:''}
+    <div class="mpn">${nb.map(n=>`<button data-k="${esc(n[0])}"><span class="sw" style="background:${tcol(n[1])}"></span>${esc(n[0])}<span class="val">${n[1].toFixed(0)}</span></button>`).join('')}</div>
+    <button class="btn" id="mpopen" style="margin-top:8px">Open genre record</button>`;
+  $('#mpclose').onclick=()=>mapPick(null);
+  $('#mpopen').onclick=()=>go('g',k);
+  P.querySelectorAll('.mpn button').forEach(b=>b.onclick=()=>{mapFocus(b.dataset.k);});
+  mapDraw();}
+function mapChooser(list){MAP.pick=null;const P=$('#mpanel');P.hidden=false;
+  P.innerHTML=`<div class="mph"><b>${list.length} genres here</b><button class="btn" id="mpclose" aria-label="Close">×</button></div>
+    <div class="note" style="font-size:.8rem">These genres have identical or near-identical profiles. Pick one, or zoom in to separate them.</div>
+    <div class="mpn">${list.map(p=>`<button data-k="${esc(p[0])}"><span class="sw" style="background:var(--f${p[3]+1})"></span>${esc(p[0])}</button>`).join('')}</div>
+    <button class="btn" id="mpzoom" style="margin-top:8px">Zoom in here</button>`;
+  $('#mpclose').onclick=()=>mapPick(null);
+  $('#mpzoom').onclick=()=>{const p=list[0];const [x,y]=toScreen(p[1],p[2]);mapZoom(4,x,y);};
+  P.querySelectorAll('.mpn button').forEach(b=>b.onclick=()=>mapPick(b.dataset.k));
+  mapDraw();}
+function mapFocus(k){const p=MAP.byKey[k];if(!p)return;MAP.view.k=Math.max(MAP.view.k,3);MAP.view.x=0;MAP.view.y=0;const [x,y]=toScreen(p[1],p[2]);MAP.view.x=MAP.W/2-x;MAP.view.y=MAP.H/2-y;mapPick(k);}
+function mapFilters(){
+  const f=$('#filters'),P=MAP.data.points;
+  const counts=MAP.data.families.map((_,i)=>P.filter(p=>p[3]===i).length);
+  f.innerHTML=MAP.data.families.map((n,i)=>`<button class="chip fchip" aria-pressed="${MAP.only===i}" data-i="${i}"><span class="sw" style="background:var(--f${i+1})"></span>${esc(n)} <span class="code">${counts[i]}</span></button>`).join('')
+    +`<span class="legend" style="margin-left:6px">larger dots = core genres</span>`;
+  f.querySelectorAll('.fchip').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;MAP.only=MAP.only===i?null:i;mapFilters();mapDraw();});
+}
+async function renderMap(){await mapLoad();mapFilters();mapRenderShell();
+  if(S.q.trim()){const q=norm(S.q.trim());const m=MAP.data.points.find(p=>norm(p[0])===q)||MAP.data.points.find(p=>norm(p[0]).includes(q));if(m)mapFocus(m[0]);}}
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>mapDraw());
+new MutationObserver(()=>mapDraw()).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+load().catch(e=>{$('#detail').innerHTML='<div class="empty">The thesaurus data could not be loaded.</div>';console.error(e)});
+</script>
+</body>
+</html>
