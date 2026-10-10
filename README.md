@@ -1,29 +1,5 @@
 # Music Thesaurus — v0.5
 
-Biblioteca de recursos musicales y géneros, preparada para publicarse como web
-estática en **GitHub Pages**.
-
-**Publicación manual:** sigue la [guía en español de GitHub Pages](docs/GITHUB_PAGES.md).
-Sube el contenido de esta carpeta, incluida `.github/`, a la raíz del repositorio;
-en **Settings → Pages → Source**, selecciona **GitHub Actions**.
-
-**Vista previa local** (Python 3.10 o posterior):
-
-```sh
-python build/package.py
-python -m http.server 8000 --directory dist
-```
-
-Abre [localhost:8000](http://localhost:8000/). El empaquetado valida los seis JSON
-del visor y crea `dist/`; no requiere paquetes adicionales. Las dependencias de
-`requirements.txt` solo son necesarias para reconstruir todos los datos y el mapa
-con `python build/package.py --rebuild`.
-
-El flujo de Pages publica el visor y sus datos en la raíz de la URL del sitio.
-Los archivos fuente y los scripts se conservan en el repositorio.
-
----
-
 A library of musical resources organized as a thesaurus (SKOS model, MeSH style), with two connected vocabularies:
 
 1. **Concepts** (musical resources), in 14 facets.
