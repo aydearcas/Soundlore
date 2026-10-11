@@ -1,0 +1,224 @@
+genre	concept_id	level	confidence	rationale
+honkyoku	instrumental_track	C	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	free_meter	C	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	mood_spiritual	C	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	solo_performer	C	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	tempo_very_slow	F	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	ornamentation	F	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	koto	X	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+honkyoku	shamisen	X	high	Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+huapango	time_6_8	C	high	Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks;sesquialtera is implied by the meter.
+huapango	male_vocals	C	high	Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks;sesquialtera is implied by the meter.
+huapango	improvisation	F	high	Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks;sesquialtera is implied by the meter.
+huapango	mood_bright	F	high	Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks;sesquialtera is implied by the meter.
+huapango	hemiola	X	high	Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks;sesquialtera is implied by the meter.
+huaylarsh	mood_bright	C	medium	Central Peruvian harvest dance with violins and later saxophones and clarinets.
+huaylarsh	violin	F	medium	Central Peruvian harvest dance with violins and later saxophones and clarinets.
+huaylarsh	saxophone	F	medium	Central Peruvian harvest dance with violins and later saxophones and clarinets.
+huayno	female_vocals	C	high	Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno	quena	F	high	Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno	mandolin	F	high	Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno	violin	F	high	Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno	accordion	O	high	Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno con arpa	female_vocals	C	medium	Huayno led by the Andean harp, often with violins.
+huayno con arpa	violin	C	medium	Huayno led by the Andean harp, often with violins.
+huayno con arpa	quena	F	medium	Huayno led by the Andean harp, often with violins.
+humppa	double_bass	C	high	Finnish fast foxtrot-polka dance music with accordion and double bass.
+humppa	trumpet	F	high	Finnish fast foxtrot-polka dance music with accordion and double bass.
+humppa	electric_guitar	F	high	Finnish fast foxtrot-polka dance music with accordion and double bass.
+humppa	male_vocals	F	high	Finnish fast foxtrot-polka dance music with accordion and double bass.
+hyangak	tempo_slow	C	medium	Native Korean court music: slow, heterophonic strings and winds.
+hyangak	heterophony	C	medium	Native Korean court music: slow, heterophonic strings and winds.
+hyangak	gayageum	F	medium	Native Korean court music: slow, heterophonic strings and winds.
+hyangak	MB0266	F	medium	Native Korean court music: slow, heterophonic strings and winds.
+hyangak	MB0174	F	medium	Native Korean court music: slow, heterophonic strings and winds.
+hyangak	MB0518	F	medium	Native Korean court music: slow, heterophonic strings and winds.
+hát tuồng	mood_theatrical	C	medium	Vietnamese classical opera with oboe, drums and gongs.
+hát tuồng	MB0401	F	medium	Vietnamese classical opera with oboe, drums and gongs.
+hát tuồng	large_drums	F	medium	Vietnamese classical opera with oboe, drums and gongs.
+hát tuồng	male_vocals	F	medium	Vietnamese classical opera with oboe, drums and gongs.
+hát tuồng	female_vocals	F	medium	Vietnamese classical opera with oboe, drums and gongs.
+iavnana	female_vocals	C	medium	Georgian lullaby and healing song addressed to the iavnana spirits.
+iavnana	repetition	F	medium	Georgian lullaby and healing song addressed to the iavnana spirits.
+iavnana	drone	F	medium	Georgian lullaby and healing song addressed to the iavnana spirits.
+indian classical	tanpura	C	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+indian classical	sitar	F	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+indian classical	sarangi	F	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+indian classical	bansuri	F	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+indian classical	ornamentation	F	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+indian classical	tempo_change	O	high	Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+instrumental	NO_CHANGE			A general label for music without vocals;nothing more can be said about the genre as a whole.
+iraqi maqam	male_vocals	C	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	santur	C	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	MB0187	C	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	riq	F	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	darbuka	F	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	free_meter	F	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	ney	X	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+iraqi maqam	oud	X	high	Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq;ney and oud are not core.
+isicathamiya	male_vocals	C	high	Zulu a cappella male choral style with soft, close harmony and stepping.
+isicathamiya	bass_voice	C	high	Zulu a cappella male choral style with soft, close harmony and stepping.
+isicathamiya	tempo_slow	F	high	Zulu a cappella male choral style with soft, close harmony and stepping.
+isicathamiya	vocal_harmonies	F	high	Zulu a cappella male choral style with soft, close harmony and stepping.
+isicathamiya	mood_spiritual	O	high	Zulu a cappella male choral style with soft, close harmony and stepping.
+islamic modal music	free_meter	C	medium	Art music of the Arab, Turkish and Persian worlds based on modal systems, improvisation and ornament.
+islamic modal music	MB0345	F	medium	Art music of the Arab, Turkish and Persian worlds based on modal systems, improvisation and ornament.
+islamic modal music	riq	F	medium	Art music of the Arab, Turkish and Persian worlds based on modal systems, improvisation and ornament.
+izlan	chant	C	medium	Amazigh song of the Atlas;the drum is the bendir.
+izlan	choir	C	medium	Amazigh song of the Atlas;the drum is the bendir.
+izlan	bendir	F	medium	Amazigh song of the Atlas;the drum is the bendir.
+izlan	handclaps	F	medium	Amazigh song of the Atlas;the drum is the bendir.
+izlan	female_vocals	F	medium	Amazigh song of the Atlas;the drum is the bendir.
+izlan	frame_drum	X	medium	Amazigh song of the Atlas;the drum is the bendir.
+japanese classical	instrumental_track	C	medium	Umbrella for Japanese traditional art music.
+japanese classical	tempo_slow	F	medium	Umbrella for Japanese traditional art music.
+japanese classical	heterophony	F	medium	Umbrella for Japanese traditional art music.
+jeongak	tempo_slow	C	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	heterophony	C	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	MB0174	F	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	MB0518	F	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	MB0293	F	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	gayageum	F	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jeongak	MB0322	F	medium	Korean court and literati music: slow, heterophonic winds and strings.
+jiangnan sizhu	yangqin	C	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	pipa	C	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	heterophony	C	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	dizi	C	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	instrumental_track	F	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	tempo_mid	F	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jiangnan sizhu	flute	X	high	Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jit	male_vocals	C	medium	Zimbabwean fast guitar dance music.
+jit	syncopation	C	medium	Zimbabwean fast guitar dance music.
+jit	electric_bass	F	medium	Zimbabwean fast guitar dance music.
+jit	drum_kit	F	medium	Zimbabwean fast guitar dance music.
+jit	mood_energetic	F	medium	Zimbabwean fast guitar dance music.
+jiuta	female_vocals	C	medium	Japanese chamber song with shamisen, often with koto and shakuhachi.
+jiuta	tempo_slow	C	medium	Japanese chamber song with shamisen, often with koto and shakuhachi.
+joik	male_vocals	C	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+joik	female_vocals	C	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+joik	repetition	C	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+joik	vocables	F	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+joik	free_meter	F	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+joik	drum_kit	O	high	Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+jongo	atabaque	C	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jongo	vocal_call_response	C	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jongo	mood_spiritual	F	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jongo	MB0114	F	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jongo	handclaps	F	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jongo	hand_percussion	X	medium	Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jota	male_vocals	C	high	Spanish triple-time dance song with guitars, bandurrias and castanets.
+jota	MB0033	F	high	Spanish triple-time dance song with guitars, bandurrias and castanets.
+jota	tambourine	F	high	Spanish triple-time dance song with guitars, bandurrias and castanets.
+junkanoo	large_drums	C	high	Bahamian street parade music: goatskin drums, cowbells, whistles and horns.
+junkanoo	MB0770	F	high	Bahamian street parade music: goatskin drums, cowbells, whistles and horns.
+junkanoo	MB0066	F	high	Bahamian street parade music: goatskin drums, cowbells, whistles and horns.
+junkanoo	trumpet	F	high	Bahamian street parade music: goatskin drums, cowbells, whistles and horns.
+jùjú	male_vocals	C	high	Nigerian Yoruba popular music: multiple guitars, talking drums and pedal steel.
+jùjú	vocal_call_response	C	high	Nigerian Yoruba popular music: multiple guitars, talking drums and pedal steel.
+jùjú	agogo	F	high	Nigerian Yoruba popular music: multiple guitars, talking drums and pedal steel.
+jùjú	synthesizer	F	high	Nigerian Yoruba popular music: multiple guitars, talking drums and pedal steel.
+jōruri	male_vocals	C	high	Narrative chanting with shamisen for puppet theater.
+jōruri	mood_theatrical	C	high	Narrative chanting with shamisen for puppet theater.
+jōruri	spoken_vocal	F	high	Narrative chanting with shamisen for puppet theater.
+jōruri	koto	X	high	Narrative chanting with shamisen for puppet theater.
+jōruri	shakuhachi	X	high	Narrative chanting with shamisen for puppet theater.
+kacapi suling	MB0334	C	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	MB0646	C	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	tempo_slow	C	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	instrumental_track	F	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	mood_introspective	F	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	mood_melancholic	F	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kacapi suling	pitched_percussion	X	high	Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kadodi	polyrhythm	C	medium	Bagisu circumcision ceremony music with drums and dance.
+kadodi	mood_energetic	C	medium	Bagisu circumcision ceremony music with drums and dance.
+kadodi	vocal_call_response	F	medium	Bagisu circumcision ceremony music with drums and dance.
+kadodi	large_drums	F	medium	Bagisu circumcision ceremony music with drums and dance.
+kadodi	male_vocals	O	medium	Bagisu circumcision ceremony music with drums and dance.
+kadongo kamu	male_vocals	C	medium	Ugandan acoustic guitar singer-songwriter storytelling.
+kadongo kamu	mood_introspective	F	medium	Ugandan acoustic guitar singer-songwriter storytelling.
+kadongo kamu	fingerpicking	F	medium	Ugandan acoustic guitar singer-songwriter storytelling.
+kadongo kamu	mood_playful	O	medium	Ugandan acoustic guitar singer-songwriter storytelling.
+kagura	MB0607	C	medium	Shinto ritual music: transverse flute, drums and bells.
+kagura	mood_spiritual	C	medium	Shinto ritual music: transverse flute, drums and bells.
+kagura	MB0606	F	medium	Shinto ritual music: transverse flute, drums and bells.
+kagura	MB0339	F	medium	Shinto ritual music: transverse flute, drums and bells.
+kai	male_vocals	C	medium	Altai throat-sung epic recitation with topshuur.
+kai	MB0701	F	medium	Altai throat-sung epic recitation with topshuur.
+kai	storytelling	F	medium	Altai throat-sung epic recitation with topshuur.
+kai	free_meter	F	medium	Altai throat-sung epic recitation with topshuur.
+kalindula	male_vocals	C	medium	Zambian popular music with guitars and the kalindula bass.
+kalindula	tempo_mid	F	medium	Zambian popular music with guitars and the kalindula bass.
+kalindula	mood_energetic	F	medium	Zambian popular music with guitars and the kalindula bass.
+kalindula	drum_kit	F	medium	Zambian popular music with guitars and the kalindula bass.
+kaseko (Suriname)	tempo_fast	C	medium	Surinamese Afro-Creole dance music from brass bands and skratyi drums.
+kaseko (Suriname)	snare_drum	F	medium	Surinamese Afro-Creole dance music from brass bands and skratyi drums.
+kaseko (Suriname)	trumpet	F	medium	Surinamese Afro-Creole dance music from brass bands and skratyi drums.
+kaseko (Suriname)	call_and_response	F	medium	Surinamese Afro-Creole dance music from brass bands and skratyi drums.
+kasékò (Guiana)	polyrhythm	C	medium	Creole drum dance of French Guiana.
+kasékò (Guiana)	tempo_fast	C	medium	Creole drum dance of French Guiana.
+kasékò (Guiana)	vocal_call_response	F	medium	Creole drum dance of French Guiana.
+kasékò (Guiana)	mood_energetic	F	medium	Creole drum dance of French Guiana.
+kecak	hocket	C	high	Balinese 'monkey chant': massed male chorus interlocking 'cak' syllables around a narrator.
+kecak	mood_hypnotic	C	high	Balinese 'monkey chant': massed male chorus interlocking 'cak' syllables around a narrator.
+kecak	mood_theatrical	F	high	Balinese 'monkey chant': massed male chorus interlocking 'cak' syllables around a narrator.
+kecak	vocables	F	high	Balinese 'monkey chant': massed male chorus interlocking 'cak' syllables around a narrator.
+keroncong	mood_nostalgic	C	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+keroncong	tempo_slow	C	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+keroncong	female_vocals	F	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+keroncong	cello	F	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+keroncong	violin	F	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+keroncong	flute	F	medium	Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+kete	instrumental_track	C	medium	Asante court drum ensemble music.
+kete	polyrhythm	F	medium	Asante court drum ensemble music.
+kete	mood_energetic	F	medium	Asante court drum ensemble music.
+kete	drum_solo	F	medium	Asante court drum ensemble music.
+khrueang sai	MB0591	C	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	MB0593	C	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	MB0374	C	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	heterophony	F	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	instrumental_track	F	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	tempo_mid	F	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	gamelan_tuning	X	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+khrueang sai	pitched_percussion	X	medium	Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+kidumbak	violin	C	medium	Zanzibari small-ensemble taarab with violin, tea-chest bass and drums.
+kidumbak	double_bass	F	medium	Zanzibari small-ensemble taarab with violin, tea-chest bass and drums.
+kidumbak	female_vocals	F	medium	Zanzibari small-ensemble taarab with violin, tea-chest bass and drums.
+kidumbak	mood_energetic	F	medium	Zanzibari small-ensemble taarab with violin, tea-chest bass and drums.
+kilapanga	male_vocals	C	low	Angolan semba-related guitar dance.
+kirtan	repetition	C	high	Devotional call-and-response chanting of divine names, accelerating.
+kirtan	MB0346	F	high	Devotional call-and-response chanting of divine names, accelerating.
+kirtan	dholak	F	high	Devotional call-and-response chanting of divine names, accelerating.
+kirtan	tabla	F	high	Devotional call-and-response chanting of divine names, accelerating.
+klapa	tempo_slow	C	high	Dalmatian a cappella close-harmony singing of small male groups.
+klapa	mood_romantic	C	high	Dalmatian a cappella close-harmony singing of small male groups.
+klapa	vocal_harmonies	F	high	Dalmatian a cappella close-harmony singing of small male groups.
+koplo	drum_machine	C	medium	Fast East Javanese dangdut with kendang patterns, often electronic.
+koplo	female_vocals	F	medium	Fast East Javanese dangdut with kendang patterns, often electronic.
+koplo	synthesizer	F	medium	Fast East Javanese dangdut with kendang patterns, often electronic.
+koplo	tabla	X	medium	Fast East Javanese dangdut with kendang patterns, often electronic.
+korean classical	heterophony	C	medium	Umbrella for Korean court and literati music.
+korean classical	tempo_slow	F	medium	Umbrella for Korean court and literati music.
+korean classical	gayageum	F	medium	Umbrella for Korean court and literati music.
+korean classical	MB0174	F	medium	Umbrella for Korean court and literati music.
+korean classical	MB0518	F	medium	Umbrella for Korean court and literati music.
+kouta	female_vocals	C	medium	Short Edo-period songs with plucked shamisen.
+kouta	tempo_slow	F	medium	Short Edo-period songs with plucked shamisen.
+kouta	mood_sensual	F	medium	Short Edo-period songs with plucked shamisen.
+krakowiak	syncopation	C	high	Polish fast syncopated dance from the Kraków region.
+krakowiak	violin	F	high	Polish fast syncopated dance from the Kraków region.
+krakowiak	accordion	F	high	Polish fast syncopated dance from the Kraków region.
+krakowiak	mood_energetic	F	high	Polish fast syncopated dance from the Kraków region.
+kujawiak	violin	F	high	Polish slow lyrical triple-time dance.
+kujawiak	mood_melancholic	F	high	Polish slow lyrical triple-time dance.
+kulintang	MB0276	C	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kulintang	gong	C	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kulintang	polyrhythm	F	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kulintang	instrumental_track	F	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kulintang	female_vocals	F	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kulintang	gamelan_tuning	X	high	Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kumi-daiko	instrumental_track	C	high	Ensemble taiko drumming.
+kumi-daiko	mood_energetic	F	high	Ensemble taiko drumming.
+kumi-daiko	flute	F	high	Ensemble taiko drumming.
+kumi-daiko	drum_solo	F	high	Ensemble taiko drumming.
+kumiuta	female_vocals	C	medium	Koto song cycles of sōkyoku.
+kumiuta	tempo_slow	F	medium	Koto song cycles of sōkyoku.

@@ -1,0 +1,8 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+zinli ; low ; C vocal_call_response mood_spiritual | F polyrhythm male_vocals | O  ; Fon funeral music of Abomey with the zinli water-jar drum.
+zoblazo ; medium ; C male_vocals | F handclaps mood_energetic | O ; Ivorian dance music; dancers wave white handkerchiefs.
+zouglou ; high ; C male_vocals vocal_harmonies | F protest_lyrics storytelling | O ; Ivorian student-born social commentary music.
+zouk ; high ; C | F electric_guitar horn_section male_vocals female_vocals | O ; Antillean dance music of Kassav' and successors.
+éntekhno ; high ; C male_vocals | F mood_introspective string_section | O ; Greek 'art song': poetry set to orchestral and bouzouki arrangements.
+čalgija ; high ; C | F mb:kanun darbuka oud | O ; Macedonian urban ensemble.
+ʻōteʻa ; high ; C  | F large_drums polyrhythm mood_energetic | O  ; Tahitian drum dance with toere slit drums.

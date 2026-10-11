@@ -1,0 +1,727 @@
+code	name	type	broader_in_musicbrainz	other_names	description	mbid
+MB0001	17-string bass koto	String instrument	koto	17-string koto; jûshichigen; jūshichi-gen; seventeen-string koto	A koto with 17 rather than 13 strings, sometimes described as a bass koto.	21468ce3-bad3-4f48-a2ff-01e6b0bc9ca2
+MB0002	accordina	Wind instrument	free reed		Harmonica/accordion hybrid where the bellows for the accordion bit with buttons/keys receive air though the user blowing into the instrument…	4d4e45e0-660d-4456-89cd-47a3fa14bb7c
+MB0003	acoustic bass guitar	String instrument	bass guitar			15861569-249d-4b24-8ce4-d0b001b1f978
+MB0004	acoustic fretless guitar	String instrument	acoustic guitar		Acoustic guitar without frets.	5888d65d-9d65-4d13-8454-3d68be9b3e55
+MB0005	aeolian harp	String instrument	strings	aeolus		9c48582f-f54f-4d08-ac3a-bb3520d3df09
+MB0007	ajaeng	String instrument	zither		The ajaeng is a bowed Korean zither with 7 (sometimes 8 or 9) strings.	51d4054b-b13a-47bd-9ff4-cfc42009c42c
+MB0008	akete	Percussion instrument	cylindrical drum	Nyabinghi drums; Rastafarian drums; burrus; nyabingha	Three-parts drumset (baandu, funde and kete) commonly used in Burru and Nyabinghi musics.	74dd2d22-adf6-4536-b290-8a20b51cf77f
+MB0009	akkordolia	String instrument	keyed box zither	accordolia	Similar to the Japanese taishogoto, it has an elongated teardrop shaped wooden body with button accordion like keys which plays the melody a…	bd5fa79a-ea6f-4e11-9463-f6f43cca363c
+MB0011	algozey	Wind instrument	fipple flute	alghoza; alghoze; algoza; algoze	The algozey is a wooden, beaked double-flute traditionally played by goat herders in the Punjab region of India and Pakistan.	430c0de2-e2fb-4f81-8889-69a4b71f9bc2
+MB0012	alphorn	Wind instrument	natural brass instruments		The alphorn, or alpine horn, is a conical wood horn used for communication in mountains.	2d8ec312-6373-4c11-acc5-18e9a9b788b0
+MB0013	alto clarinet	Wind instrument	clarinet		The alto clarinet is a clarinet in E♭ or sometimes F, normally with a curved neck.	eaa3713d-162a-42ed-bcd8-4185a68defbf
+MB0014	alto flute	Wind instrument			The alto flute is a concert flute in G, lower in tone than the flûte d'amour.	c6e576de-0091-48f3-8d61-b846c4b0da69
+MB0015	alto viol	String instrument			"Alt, alto or contralto member of the viol family. Not to be confused with the Viola of the violin family, known as ""Alto"" in French."	4d62efe7-5a87-458c-8476-049c86ed2412
+MB0016	amadinda	Percussion instrument	xylophone		Southern Ugandan giant xylophone, made on with resonating hardwood bars.	73332fb8-bbf5-4094-a3ae-e636ae5cfcf6
+MB0017	aman khuur	Percussion instrument	mouth harp	aman huur; aman tsuur; aman xuur; hel huur	Mongolian mouth harp. There are two types: temür/tömör khuur (steel) and khulsan khuur (bamboo).	fa4d4038-cc89-4ead-aa2e-129446c585b6
+MB0018	angklung	Percussion instrument	xylophone	an-klong; ankhalung; bamboo angklung	Usually consisting of 2-3 carved bamboo tubes suspended in a wooden or bamboo frame that is shook. It has been in use since ancient times by…	ebf4cb51-93b1-44ec-8e68-c92098b3e8d4
+MB0019	Anglo concertina	Wind instrument	concertina	Anglo-German concertina; German Anglo concertina; German-Anglo concertina; angelo consertina	Bisonoric and button layout like the German, reeds and hexagonal ends like the english, this concertina was created to rival the popular Ger…	26b4608d-acc3-46f3-b509-d83bd798e122
+MB0020	ankle rattlers	Percussion instrument	shaken idiophone			7aed0189-ff99-4b43-8ff0-52ca5626d0b7
+MB0021	antara	Wind instrument	pan flute	antarita	Used in traditional Andes music, it consists of a single row of pipes.	8f03b5fc-1e29-4fc0-9d51-818090dd50b4
+MB0023	archlute	String instrument	lute		The archlute is a European plucked string instrument developed around 1600 as a compromise between the very large theorbo and the Renaissanc…	b4804589-9529-482e-86c9-4a288aae193f
+MB0025	arpeggione	String instrument	bowed lute	guitar violoncello	Invented in 1823, it had a body like a medieval fiddle, but had frets and tuning like the guitar.	2db86733-2865-4053-ad8c-da93505275cc
+MB0026	arrabel	Percussion instrument	scraped idiophone	ginebra; huesera; huesitos	Scraper made of bones tied together with rope scraped with a conch-shell, in Catalonia it's scraped with a castanet. Ginebra is a variant ma…	4dda992c-4aa5-478b-91d6-220ce4a55e4e
+MB0027	ashiko	Percussion instrument	frame drum	asiko	Conical goatskin frame-drum originating with the Yoruba people of West Africa, it is also found in Afro-Caribbean and Afro-Latin American cu…	dab65378-7024-48a2-b7ec-93d22b1443f6
+MB0028	atarigane	Percussion instrument	gong	chanchiki; konchiki; surigane; コンチキ	The atarigane is a Japanese gong which is struck using a deer horn mallet.	a7d2c5cd-508e-4bc3-9d63-44c94aa9a125
+MB0029	baandu	Percussion instrument		bass; thunder	Larger bass drum also known as thunder or pope smasher, it has a double goat skin membrane and is hit with a padded mallet. Important in the…	ed1628bd-8541-4874-b8ca-2cec8b4c5140
+MB0031	bandora	String instrument	lute family	bandoer	Although originally built like a cittern, its 6-7 courses of strings were tuned more like a lute.	41c3e01f-1449-4e60-984e-cb1c75db449d
+MB0032	bandura	String instrument	lute; zither		Large box lute-zither with a short, unfretted neck. It has 30 or more strings fanned out on the body, the four to eight bass strings are str…	3c84f7d8-c8c1-4ec5-8e71-4bc9a1625e10
+MB0034	bangu	Percussion instrument		dānpígǔ; gu; pan-ku	Widely used in folk music, opera and music ensembles, it can be round or cone-shaped with cow/pigskin nailed to the larger convex end which …	42349583-c10d-4c6e-b553-28d916113856
+MB0035	banhu	String instrument	huqin	banghu; bānghú; bǎnhú; 板胡	The banhu is a Chinese bowed string instrument in the huqin family. It is also called banghu for its use in bangzi opera.	7254d816-5cb5-4399-bbe9-4b7e14e67462
+MB0036	banjitar	String instrument		banjar; banjo guitar; bantar; ganjo	The banjitar is a six-string banjo with the neck of a guitar.	b62ace3b-47e7-4319-8a3e-1b035ccd20b2
+MB0037	banjo-ukulele	String instrument	lute family	banjelele; banjo uke; banjo ukelele; banjolele	Small fretted hybrid instrument with a banjo body and a ukulele neck, popular in the 1920-30.	3e444ea5-b48d-48a2-8e6a-13217d443957
+MB0038	banjolin	String instrument	lute family	banjo-mandolin; banjourine; mandolin-banjo	Reinvented several times in different lands, it combines banjo body and neck of mandolin, it is tuned like it and the violin.	bc026c3e-066b-492a-8cd1-b140f75461cf
+MB0039	barbat	String instrument	lute family	barbud; barbut	Ancient Central Asian/Persian string instrument, ancestor of the Iranian oud. it was an important instrument in pre-Islamic Iran and Persia.…	a50ac178-588a-45c2-8e7e-8d24da9e6895
+MB0040	baritone horn	Wind instrument	horn		The baritone horn is a piston valve brass instrument with a wide-rimmed cup mouthpiece which is pitched in B♭, one octave below the B♭ trump…	f28d6657-bc51-494f-84d0-553ef1ad0376
+MB0041	baroque guitar	String instrument	guitar family		Predecessor of the modern classical guitar, it had gut strings and even gut frets. First described in 1555, it surpassed the Renaissance lut…	08450be5-f6d2-46d6-8be0-67087c02162c
+MB0042	baroque rackett	Wind instrument	double reed	Racketten; pocket bassoon; racket-basson; rackett	"Improved by Johann Christoph Denner sometime around 1730, its ""coiled snake"" bore now is conical, in addition it is played through a removab…"	dd93de8f-c32a-4bcf-8e90-4463c79676ea
+MB0043	baroque trumpet	Wind instrument			Based on the natural trumpet used in the 1500s to 1700s, this mid 20th century reinvention lacks valves but may have vents.	a6e9129c-63d3-4e38-bcc3-8f4662a8f247
+MB0046	baryton	String instrument			Hybrid between the viol and the bandora, it has an extra set of plucked strings in addition to the bowed ones. Used regularly in Europe unti…	7b14c118-e243-459c-a18a-0c478a3ea6f4
+MB0047	bass	Other instrument			Bass is a common but generic credit which refers to more than one instrument, the most common being the bass guitar and the double bass (a.k…	6505f98c-f698-4406-8bf4-8ca43d05c36f
+MB0048	bass flute	Wind instrument			The bass flute is a flute, pitched one octave below the C concert flute, with a tube about 1.5 meters long.	c3fddfb8-100a-4e25-897f-9129d5a6c39f
+MB0049	bass guitar	String instrument		ba; bas-gitara; basgitaar; bass	Bass member of the guitar family. For the electric variant use electric bass guitar for the acoustic one, use acoustic bass guitar.	17f9f065-2312-4a24-8309-6f6dd63e2e33
+MB0050	bass harmonica	Wind instrument	harmonica		The bass harmonica is a type of octave harmonica where the lowest note (E) is the same as that on a bass guitar.	a9658be0-ffeb-4b64-ba96-bbe4e3c6db84
+MB0051	bass oboe	Wind instrument	double reed	baritone oboe	The bass oboe is a double reed woodwind instrument which is about twice the size of a regular oboe.	d3667988-a354-4fc4-9c1e-9baea9a43c06
+MB0052	bass pedals	Electronic instrument	electronic instruments			bc826dde-9200-43ad-81af-6ef2c52ca37b
+MB0053	bass recorder	Wind instrument	recorder	F-bass recorder		1787a64f-f495-4829-96c6-39b000cbe6b0
+MB0054	bass saxophone	Wind instrument	saxophone		Second largest and lowest member of the saxophone family. It is similar to the baritone, but larger and with a longer loop near the mouthpie…	9447c0af-5569-48f2-b4c5-241105d58c91
+MB0055	bass trombone	Wind instrument	trombone			e659d40f-50b4-4726-b8d5-a3e254e8008b
+MB0056	bass trumpet	Wind instrument				92ed7e3f-0892-4440-b747-3b987632ecd7
+MB0057	bass viol	String instrument		Bassgamben; bas viola da gamba; bass viola da gamba; bass viola de gamba	Most common viol member today, it was the bass-range viol in the original consort.	7cbd040f-6217-48d0-ac43-3e8ecb4b4b0b
+MB0058	bass violin	String instrument		basso da braccio; basso de viola da braccio	Sixteenth century predecessor of the violoncello, it was fretless with f-holes and had at first three, then later four, strings tuned in fif…	e1abddc8-4942-4674-a567-6aeb2f2329ea
+MB0059	basset clarinet	Wind instrument	clarinet			2c4d2aa6-594f-4312-a317-7c201ae12de6
+MB0060	basset horn	Wind instrument	clarinet			f93d6f87-6447-4d10-8bfd-08500dfcdb33
+MB0061	Batá drum	Percussion instrument	hourglass drum		Primarily in the religious rituals of the Yoruba and diaspora, these hourglass shaped drums have membranes on each end. Their names are larg…	768fdb8c-494e-4dcd-9400-7345b7c3e399
+MB0062	bawu	Wind instrument	free reed	ba wu; ba-wu; bāwū	The bawu is a Chinese wind instrument. Although shaped like a flute, it is actually a free reed instrument, with a single metal reed. It is …	2c82a2d3-bead-4acd-8b8a-6ae3c87bd2bb
+MB0063	bayan	Wind instrument	chromatic button accordion			087fd82c-cbf6-4e46-8f7c-11ef3a63cbd9
+MB0064	bazooka	Wind instrument	slide brass instruments		Not to be confused with the bouzouki. Large wide tube with a very strongly flaring bell, the telescoping creates only subtle fluctuating ove…	ed6df8f9-d2d1-4013-9046-dd7fc300bbe0
+MB0065	bedug	Percussion instrument	barrel drum	bdug; bedog; bedoh; bedok	Extra large double-headed water buffalo hide barrel drum. It is suspended from a rack and beat with mallet, it is used in central Javanese g…	9063d25e-87e4-4adc-81d4-8fdee23bd26f
+MB0067	bell plate	Percussion instrument	percussion idiophone		Used occasionally in the western classical orchestra and theatre, it consists of several tuned aluminium, steel or bronze plates, struck to …	d6ac9f9f-2352-4aea-9a1a-dd8c8443c5e9
+MB0068	bell tree	Percussion instrument	bell		A bell tree is a percussion instrument, consisting of vertically nested inverted metal bowls.	def0ce61-3d8f-4644-bbee-7c2824fb2787
+MB0069	bellowed reed	Wind instrument	free reed	bellowed reeds; bellows; hand-held bellows-driven free reed; squeeze box	Free reeds with bellows attached, often in a square shape, thence called squeezebox.	5ae71a3c-062f-49c3-ab7c-c73779597c8c
+MB0070	berda	String instrument	lute family	bas; beges; begeš; berde	Bass member of the Serbo-Croatian tamburica orchestra, it is contrabass like. It has four thick metal strings.	0a455deb-11be-4f9c-a0e3-81efe262a329
+MB0071	bhapang	String instrument		bapang; bhapaṅga; chongar; talking drum	Originating in Mewati community of Rahajastan, India, it is traditionally made of gourd with top and bottom cut off, with a goat hide membra…	c77a49cb-7472-4fa0-9b3b-9062b0d07601
+MB0072	bicycle bell	Percussion instrument			Bell as found on bicycles, sound is made by internal spring loaded hammer, not unlike alarm-clock.	bc090764-54f3-4bc4-a4eb-d9ba2bc1afd5
+MB0073	bin-sasara	Percussion instrument	shaken idiophone	bin-zasara; binsasara; びんざさら; 編木	The binzasara is a Japanese percussion instrument made of many small slats of wood connected by a spine of string with handles at each end.	b4304bab-60a9-41b8-9b00-8da222fa4206
+MB0074	bin-sitar	String instrument		bin sitar; ranjani vina; ranjani-vina; ranjanî vînâ,	Hybrid fretted stick-zither	872b72a2-541c-4115-b7ce-2dfed3e84884
+MB0075	biniou	Wind instrument	bagpipe	binioù kozh	Developed from the veuze and often accompanying the bombard, the small high-pitched, singular octave bagpipe is used in Breton folk dancing.	d1781a9c-43dd-45af-a6bd-b7b8619f91b7
+MB0076	birbynė	Wind instrument	double reed; single reed			112f9cb7-7d0e-457c-a184-a24b789ab286
+MB0077	birch lur	Wind instrument	natural brass instruments	birch trumpet	Known from the Viking age, this natural brass trumpet/horn was made of wood or birch bark.	0e7f913b-4451-45dd-bbd6-004c5226b1ef
+MB0078	bisernica	String instrument	lute family	kontrašica; pirma; prim; prim tambura	"Smallest member of the Serbo-Croatian tamburica orchestra, it is usually the lead or ""prim"" instrument. It can either have one double string…"	24b88b3f-a63e-49a0-94d4-c0b82257d6bd
+MB0080	Blaster Beam	String instrument	struck string instruments	The Beam	Very long metal bar fitted with strings and electric pickups, it makes a deep ominous booming sound and is often used in score.	f28b4f77-fc67-4433-a49f-1cdd7708df5a
+MB0081	boatswain's pipe	Wind instrument	whistle	boatswain's call; bosun's whistle		ae8e7fca-0be6-4cbc-9f53-7b2263e910ef
+MB0082	body percussion	Percussion instrument	percussion		Percussion performed by parts of the body.	6a0a53ab-1e66-45c4-af0d-2ec1e145b84e
+MB0083	bolon	String instrument	harp		The bolon is a traditional harp-lute played in several African countries.	54076fb4-ce44-4f9a-b579-f42318bd14a0
+MB0084	bombarde	Wind instrument	double reed		Conical bore double-reed musical instrument from Brittany.	07ef7707-ab79-4a23-b2e3-260a46b26ec7
+MB0085	bonang	Percussion instrument	gong-chime		Consisting of bossed bronze kettle-like gongs arranged in elaborately decorated wooden frames, these are hit with tabuh beaters.	b75af767-27a6-4259-a4d5-5dd8cb982921
+MB0086	bonang barung	Percussion instrument	bonang	keromong	One to two octaves below panerus, it plays elaborate melodies and is one of the most important instruments in the ensemble.	93ccd14f-9629-403f-8e5c-993621a7c290
+MB0087	bonang panembung	Percussion instrument	bonang	penembung	Chiefly used in Yogyvanese gamelan, the largest and deepest pitched member of the bonang family of gong-chimes.	559bac75-fe66-4d4d-ba0e-c6718ad51add
+MB0088	bonang panerus	Percussion instrument	bonang	penerus	Used to play fast melodies, it is the highest pitched member of the bonang family of gong-chimes.	7e024f24-f778-4942-8fba-6f33ebfb2ac6
+MB0089	bones	Percussion instrument	rhythm sticks		Made of bone or wood, these are paired sticks of sonorous material used in folk music.	4710ed73-78e7-4ba4-8c02-5bc2da1f611b
+MB0090	boobam	Percussion instrument	cylindrical drum		Pipes of bamboo with goat or calfskin membranes, the pitches depend largely on tube-lenght, it is the ancestor to the octoban. Modern varian…	3a6a4d43-ac19-4604-b099-82cc4394fca9
+MB0091	boomwhacker	Percussion instrument	percussion idiophone	boomers; boomhacker; boomies; boomwacker	Often used in group musical education and by street musicians, it consists of individual colourful hollow plastic tubes of various widths th…	404b8ce3-27c1-45b4-a5cf-86756b044b1d
+MB0092	bouzar / gouzouki	String instrument	lute family	bazarr; bizzar; bouzar; bouzouki-guitar	Guitar-bouzouki hybrid with guitar body and 4 pairs of strings like the bouzouki, developed separately several different luthiers, among the…	bac20474-624a-46ce-a517-871eea3486b1
+MB0093	bowed lute	String instrument	bowed string instruments; lute family			085a89e6-1003-4320-98b8-e09c54a5e40e
+MB0094	bowed lyre	String instrument	bowed string instruments; lyre			3e3bf175-86a7-42b7-937a-3fb1b3bfea03
+MB0095	bowed piano	String instrument			A piano whose strings are bowed, using nylon filament or other materials.	2fb619eb-c5b3-495a-967a-b747b976a7d9
+MB0096	bowed psaltery	String instrument	bowed string instruments			a0185c49-36b3-445b-8949-474c0a7fdafb
+MB0097	brač	String instrument	lute family	bas-prim; basprim; basprimtambura; bassprim	Second smallest member of the Serbo-Croatian tamburica orchestra, there are often two, first and second bass. It can either have three doubl…	7476e255-3856-4066-b93f-8c7dcb1508c1
+MB0098	bronze lur	Wind instrument	natural brass instruments		Chiefly Scandinavian, these bronze age natural brass horns were ritualistically buried in pairs.	b0818d20-2065-4e4b-bce2-21ffa5389b07
+MB0099	brushes	Percussion instrument				8a4a2afb-609e-4316-b7fa-4a687aada9ee
+MB0100	bugarija	String instrument	lute family	beglait; bracso; brácsó; contra	Chord rhythm member of the Serbo-Croatian tamburica orchestra, it is guitar like. It has one double string D and three single strings.	685ed909-d7c6-411a-9340-ea206770ab1b
+MB0102	buisine	Wind instrument	natural brass instruments	busine; buysine; buzine	The buisine was a type of straight medieval trumpet usually made of metal.	3c411e3b-f219-4fb2-b888-4f44ab7eeb81
+MB0104	bulbul tarang	String instrument	keyed box zither	Indian banjo; Japan banjo; Punjabi banjo; benju	Developed from the Japanese taishogoto, it is made of wood, often an integral case. It has two courses of strings; drone and melody strings …	0ddf2bbb-18bb-41da-b369-f145fc17fa50
+MB0105	bullroarer	Other instrument		Bora-Bora; bull-roarer; rhombos (extremaduran); rhombus		d00cec5f-f9bc-4235-a54f-6639a02d4e4c
+MB0106	button accordion	Wind instrument	accordion			36f5262c-2761-4de7-9733-f0b89deeaed6
+MB0107	buzuq	String instrument	lute family	bouzouk; bozuq; buzuk		f74ce97d-84f2-4bdd-b31c-8748c59dcad2
+MB0108	cabasa	Percussion instrument	shaken idiophone	Afuche-Cabasa; afuche / cabasa; cabaca; cabaça	Developed from the African agbe, a small shaker not unlike shekere, it is made of wood and metal, with metal beads.	33b6ba89-8265-4d8f-bbdc-ecff41e29e8c
+MB0109	cabrette	Wind instrument	bagpipe	cabrèta	Not to be confused with chabrette, a Limousin bagpipe. 19th century Auvergne goat-skin based bag with double reed chanter and purely decorat…	dca4f345-ce72-4ef0-b7af-fb7e55a0ae4d
+MB0110	calabash	Percussion instrument	shaken idiophone	calabasse	Made of dried gourd. Struck with hands or objects.	55098411-b918-4fc7-a7bc-e1062cfb7b23
+MB0111	calliope	Wind instrument	pipe organ			9f860a2b-e38f-4699-94a9-f9f5730afc02
+MB0112	calung	Percussion instrument	xylophone		Made of multiple vertical hung bamboo tubes with segments cut out to create different pitch. They can be played either hanging suspended or …	6e180df5-6df9-46bb-8ebf-c576a010fb5a
+MB0113	carillon	Percussion instrument	bell	carillion; chimes	Set of many bronze bells, often mechanized and operated by keyboard, they are set in the bell tower (belfry) of important buildings.  For th…	0d14d4e0-9ac9-4a96-a595-4145d7794082
+MB0115	Cembalet	Wind instrument			"Electromechanical piano with stainless steel reeds and an amplified pick-up. Not to be confused with ""cembalo"" which is another name for Har…"	2cd8f5f1-0c0e-4a7e-92f3-14e795473a3b
+MB0116	chacha	Percussion instrument	shaken idiophone		Chacha, west Indian rattle	27a9b513-5218-404f-a285-02d89aa358df
+MB0117	chakhe	String instrument	zither	jakhe	The chakhe is a three stringed crocodile shaped plucked zither from Thailand.	faa2699d-2d3c-42e0-9e67-73239603693a
+MB0118	chalumeau	Wind instrument	single reed	schalamaux; shalamo	For the Japanese descendant named from Portuguese, see charumera. For the medieval double-reed woodwind see shawm. Predecessor of the modern…	e3511ed1-3d73-4340-880f-c8ccc8eda11c
+MB0119	chamber organ	Wind instrument	pipe organ		A chamber organ is a small pipe organ.	023adf58-6aa2-4659-8760-3b36f81d0352
+MB0120	chamberlin	Electronic instrument	electric piano	chamberlain	electromechanical piano	0ec79cfa-0ace-491a-8ba4-8ef7843c6ef5
+MB0121	chande	Percussion instrument	barrel drum		The chande is a drum used in the traditional and classical music of South India.	07504f21-f5b8-476a-8958-d0abe38c3748
+MB0122	chanzy	String instrument	lute family	chanzi; tyanzi	The chanzy is a three-stringed Tuvan lute.	42055c06-6b7b-4b88-9ad0-f3c5180ba60e
+MB0123	chap	Percussion instrument	cymbal	chab; chhap; sab; sap	Chap are a pair of cymbals used in Thai and Cambodian music. They are larger, flatter and thinner than the cymbals known as ching.	46b796c3-269e-4c64-8ec4-7b051e5740ed
+MB0124	Chapman stick	String instrument	struck string instruments			f5f66443-cb91-4845-a02e-207b33bf67f2
+MB0125	charumera	Wind instrument	double reed		For the similarly named single-reed woodwind see chalumeau. For the European instrument, see shawm. Name derived from the Portuguese name of…	07b91470-b63e-41e4-88e6-11c4acac064f
+MB0126	chau gong	Percussion instrument	gong	bullseye gong; tam-tam; tamtam	The chau gong is a large gong made of brass or bronze which is almost flat except for the rim.	36163737-93f2-4794-bf67-f964bf227f23
+MB0127	chikuzen biwa	String instrument	biwa	筑前琵琶	The chikuzen biwa is a biwa with either four strings and frets or five strings and frets popularised during the Meiji period.	ac16043b-4727-40f9-bb2a-cb30ab4ce7a2
+MB0128	chime bar	Percussion instrument	metallophone	resonator bell	Despite the name, it is not a chime but instead consists of tuned metal bars each on individual resonator boxes.  It is similar to glockensp…	ddc0d7a5-cadb-4598-ac8d-83e17bde9816
+MB0129	chimes	Percussion instrument	percussion idiophone		Bar or pole shaped chimes, usually arranged in a line or circle, hanging free or struck with mallets.  For the instrument often used in bell…	3b8cd68b-aadc-4e43-a13f-e575202d67ea
+MB0130	ching	Percussion instrument	finger cymbals	chhing; sing		83225061-4655-4c2b-bce2-dc2a931dd4af
+MB0131	chirimía	Wind instrument	double reed	chirimia; su'	A relative of the shawm, it was introduced to central and south-america by the Spanish in the sixteenth and seventeenth century.	174e4a7a-dad6-4b3b-95e2-e3010b53a0ca
+MB0132	chirimía and drum	Ensemble			Much like the pipe and tabor, the chirimía and drum is a South American cousin.	6bcb239b-e739-4d47-81e7-c2eec8e7b1ea
+MB0133	chitarra battente	String instrument	baroque guitar		Developed chiefly as a folk instrument for accompanying singing and dancing, its front has a intricately carved soundhole and slants towards…	f05efa5a-f0ac-4839-b2a8-637605026545
+MB0134	chitra veena	String instrument		chitraveena; gottuvadhyam; gotuvadyam; hanumad vina	13th century or earlier South Indian fretless slide lute used in Carnatic music. Hollow body made of jack-fruit with a secondary resonator o…	5ecc4a53-28eb-415e-81b0-79d5ab5b310c
+MB0135	chromatic button accordion	Wind instrument	button accordion		Accordion with buttons arranged chromatically	e5cab458-2079-4eb3-bd0e-e63aba7d9162
+MB0136	chromatic harmonica	Wind instrument	harmonica			70230603-783c-4665-b518-94f427164c29
+MB0137	chuurqin	String instrument		Chuur fiddle; Chuur huur; Xinagan Chuur	Counter-trapezoid shaped Mongolian fiddle, it is the ancestor of the Morin khuur.	37ebafcb-34d7-436e-ba6e-b8646086f665
+MB0138	cimbasso	Wind instrument	valved brass instruments		Its name variously used to describe the serpentone, the ophicleide and the bombardon, the modern cimbasso was developed by instrument making…	18043a39-9b83-4d83-b9a7-76fc9c6dab3f
+MB0139	cimpoi	Wind instrument	bagpipe	carabă; cempoi; chimpoi; cimpoaie	Known since the 15th century, it is made of a whole goat or sheep skin with fur either in or out. It has from 5 to 8 fingerholes and metalwo…	09750a43-cf70-490f-8fcb-8199bff6c0cb
+MB0140	citole	String instrument	lute family	cytiole; gytolle; sytole	The citole is an archaic musical instrument, similar to and a distant ancestor of the modern guitar.	bfdf6c16-d143-46cd-a11f-cd7364a0e5b2
+MB0141	cittern	String instrument				7b935bb5-798b-43bd-92ad-85511a132e44
+MB0142	cizhonghu	String instrument	huqin	dàhú; xiaodihu; 大胡	The dahu, also known as cizhonghu or xiaodihu, is a large Chinese bowed string instrument in the huqin family.	c95361dd-f093-44bf-84a2-9067af7b1b12
+MB0143	clapper	Percussion instrument	concussion idiophone	clappers	Made of wood, bone or metal, this ancient instrument is the forerunner to many other struck idiophones.	586352fa-7129-4324-ad92-367364fa6bc8
+MB0146	clavichord	String instrument	struck string instruments			eacc32ac-8ff4-4ebd-b9ef-148986524761
+MB0147	claviola	Wind instrument	free reed	Key-Bagpipe	Free reed melodica-like instrument that is worn like an accordion, with differing length pipes which control the pitch.	fd6f9e0b-c720-44e8-81f5-d88831c28dbf
+MB0148	clavioline	Electronic instrument	analog synthesizer		An early analogue synthesizer, it had a vacuum tube oscillator and high/low pass filtering to produce vibrato.	83b8eb05-6bff-4f61-a050-bf44945a5c0a
+MB0149	claviorganum			clavecin organisee; clavecin organisé; claviorgan; orgelklavier	Popular in the fifteenth century, it was a combination of a pipe organ and harpsichord, often with two keyboards, one for the strings and on…	e954558e-8ec5-4d1e-b89f-23dd907cc483
+MB0151	cobla de tres quartans	Ensemble		cobla of three quarters	Precursor of the cobla used in sardana, it was in use since the medieval period.	03cb0f96-5fd0-4641-a0df-411623ffcb9a
+MB0152	concert harp	String instrument	harp			82ffe485-7729-479e-bf7e-afc5e6db60eb
+MB0153	conch	Wind instrument	natural brass instruments		conch shell	8eb9019f-36ec-4fed-be43-e4f22cf87fb7
+MB0154	concussion idiophone	Percussion instrument	struck idiophone	concussion idiophones or clappers	Generally consists of two completely equal or somewhat unsymmetrical sticks, plates, shells or similar hit together.	bf6af06a-5033-4af5-a6b8-7f235b0cff51
+MB0155	continuum	Electronic instrument	synthesizer			295ac276-dd44-4d96-96ff-e2ba104ba00c
+MB0156	contrabass clarinet	Wind instrument	clarinet			3f501227-b481-4336-9eee-f24f3414ba61
+MB0157	contrabass flute	Wind instrument				daec749f-9b0f-4020-a7a1-e9a1fd5e535b
+MB0158	contrabass recorder	Wind instrument	recorder			f91f2462-7227-4897-9dcf-495febbc05aa
+MB0159	contrabass saxophone	Wind instrument	saxophone		The largest and lowest pitch member of the saxophone family (ignoring the subcontrabass tubax).	be8d7e28-4f6b-4c0f-b2d0-9694eb4779cc
+MB0160	contrabassoon	Wind instrument	bassoon			5c14a2d9-0906-4a09-b5ab-0020293e430e
+MB0161	cor anglais	Wind instrument	double reed; oboe	Coranglais	While also known as English horn, it is neither a horn nor English, but a transposing member of the oboe family, pitched at F.	3590521b-8c97-4f4b-b1bb-5f68d3663d8a
+MB0162	cornamuse	Wind instrument	double reed	corna muse	For the French bagpipe, see cornemuse du centre. For Italian cornamusa, see bagpipe. Related to the crumhorn, it was used in the Renaissance…	28527011-9cf4-4dcd-a70c-22042a92a52c
+MB0163	cornemuse du Centre	Wind instrument	bagpipe	cornamuse; corne muse; cornemuse	Not to be confused with the Renaissance double-reed cornamuse. For Italian cornamusa, see bagpipe. While also a general term for bagpipes in…	fc4a9a4d-3901-4c67-bfe5-5acbcdaef535
+MB0164	cornett	Wind instrument	keyed brass instruments	sink	Popular from 1500 to 1650, also known as zink, it was octagonal with seven holes like flute but mouthpiece like trumpet. For the modern bras…	29b024c3-f6cd-4415-83ec-2b6765856881
+MB0165	craviola	String instrument	lute family		Distinctly asymmetric in contrast to typical guitar, its timbre is a combination of the harpsichord (pt:cravo) and the Viola caipira. It can…	1eb5e0b3-4fde-482f-a7b3-6d1f69f9dd46
+MB0166	Cretan lyra	String instrument	bowed lute	Byzantine lyraki; κρητική λύρα	The Cretan lyra is a Greek pear-shaped, three-stringed bowed musical instrument, central to the traditional music of Crete and parts of Gree…	4fe225a3-6939-4fab-a416-d0cd38c96cb9
+MB0167	Cristal Baschet	Percussion instrument	friction idiophone	crystal basket		65f12def-0e45-470e-996c-2259a9797457
+MB0168	crotales	Percussion instrument	cymbal			e599d391-7a7c-491d-9843-2cdd140b23d4
+MB0169	crumhorn	Wind instrument	double reed		Not to be confused with the 17-18 century French court oboe cromorne. Used during the Renaissance, its double-reed is inside a windcap and i…	e1b9fc01-a349-444f-b798-9893b5af83f4
+MB0170	crwth	String instrument	bowed lyre			f12c315c-317c-45d3-9dc0-c703d6486e40
+MB0171	cylindrical drum	Percussion instrument	membranophone		A cylindrical drum is a straight-sided and generally two-headed drum.	b7227963-9456-4b09-98ad-766634ceb51a
+MB0172	cò ke	String instrument	đàn nhị	koke	The cò ke is an instrument used by the Mường ethnic minority in Vietnam. It is similar to the đàn nhị, consisting of a cylindrical wooden so…	1c70cc38-deee-4a84-9b16-7a81c0f43aed
+MB0173	cümbüş	String instrument	lute family		Created by Zeynel Abidin Cümbüş, who named himself after it, it’s a banjolin-like modern Turkish instrument.	3b0b9c99-ea82-4716-8c11-c86c8dd99218
+MB0175	daire	Percussion instrument	tef		A larger version of tef, used to indicate the rhythmic structures (usul) in makam music.	a3c58697-eae3-454c-90c5-5f911a24376a
+MB0176	daluo	Percussion instrument	gong	dàluó	The daluo is a Chinese large flat gong whose pitch drops when struck with a padded mallet.	f02ca577-d1ec-4c02-97c8-a15afff6bbfa
+MB0177	danso	Wind instrument		tanso	Used in folk music and educationally in Korean schools, it is a notched, vertically end-blown bamboo flute which, like its bigger cousin the…	4d2ccf72-e9fb-47e2-95be-991eaabf04d1
+MB0178	darbuka	Percussion instrument	goblet drum	daibouka; darabouka; darabuka; darbukah	The darbuka is an hourglass-shaped goblet drum from Greece, the Middle East and India.	c1002eda-e0b7-48e4-a181-05abddb9b872
+MB0179	daruan	String instrument	ruan	Dà ruǎn; bass ruan; dàruǎn	Bass member of Chinese ruan family of lutes.	1156c575-2165-4799-be3f-023ff1fc7655
+MB0180	davul	Percussion instrument	frame drum		Davul, turkish drum	681639fb-9112-4b94-88b1-f78ef36465c0
+MB0181	Denis d'or	Electronic instrument	electronic instruments			8dd115ee-f066-4d68-95ca-6a70d6a44b93
+MB0182	diddley bow	String instrument	zither	jitterbug; one-string	The diddley bow is a single-stringed American instrument which is typically homemade. It consists of a single string of baling wire tensione…	927f1238-6638-4f6a-9484-404def8cdd3b
+MB0183	dilruba	String instrument		dilrupa	The dilruba is a bowed string instrument from Northern India, mostly used in religious music and light classical songs.	57deb1b0-b7fe-4616-b9cb-bbd59bc0acd8
+MB0184	ding tac ta	Wind instrument	free reed	dinh tăktàr	The ding tac ta is a free reed wind instrument played by the Ê Đê minority in Vietnam. It is made of a bamboo tube with three holes and a go…	44055718-26b6-4a25-9e76-5067ae5b9862
+MB0185	disk drive	Electronic instrument	electronic instruments		Computer drives used for producing music, be it hard drives, floppy, CD or other.	88f0d4fb-e7cc-4825-9d05-bcf974953790
+MB0186	diyingehu	String instrument	huqin	beigehu; bèigéhú; digehu; dīgéhú	The diyingehu is a Chinese bowed string instrument, with four strings and tuned like the double bass.	fa6e1499-d64f-4ff1-aa7b-e2c535d30416
+MB0188	dohol	Percussion instrument	cylindrical drum		The dohol is a large cylindrical drum used in Iran and Afghanistan.	8637075b-7d48-4093-ac36-a39e58636048
+MB0189	dolceola	String instrument	zither		A dolceola is a musical instrument resembling a miniature piano, but which is in fact a zither with a keyboard.	034322f8-c537-4bea-acb1-d4848bd1ddc2
+MB0190	dombra	String instrument	tambura	dambura; danbura; dombira; dombyra	The dombra is a long-necked lute from central Asia.	115d7724-356c-4086-be40-2fef51415260
+MB0191	domra	String instrument	tambura	домра	The domra is a long-necked Russian string instrument of the lute family with a round body and three or four metal strings.	961a2c0d-5ca6-476f-85d2-af19e0559f89
+MB0192	donso ngɔni	String instrument	lute family; ngɔni	donso n'goni; donso n'koni; donsonkoni; donzo koni	Six-stringed lute-harp from Wassoulou, West Africa. Traditionally played by hunters, its resonator box is made of calabash covered by animal…	463262da-3f12-4175-a78b-f0183946ac12
+MB0194	double reed	Wind instrument	reeds			ee570715-6ded-4cff-ad7e-feef6a5bca44
+MB0196	dramyin	String instrument	lute family	dramnyen; dranyan; dranyen; sgra-snyan	The dramyin is a traditional Himalayan long-necked lute with seven strings.	ab0ed8e9-c02e-4824-bf1a-c8bb06f7cfe9
+MB0197	Dubreq Stylophone	Electronic instrument	electronic instruments			515da853-78ae-49ac-9b02-471a4eb0a9df
+MB0198	duck call	Wind instrument	double reed	duck flute	Short wooden flute used to imitate the sound of ducks.	af7f5463-cda7-4503-b2f9-3ab865a2e92a
+MB0199	dudy	Wind instrument	bagpipe	bock	"Also known as ""bock"", referencing the goatskin bag, it has been in use since atleast 1340's. It has a single drone and chanter with single r…"	112b11a3-9b39-4ebc-86bd-4c9289e1ec81
+MB0200	dudy podhalanskie	Wind instrument	bagpipe	Podhale bagpipe; koza	Known since the 16th century, it has 3 drones; one in a separate drone pipe and two in the chanter (which as three channels), it has no bell…	f6505e4e-fa59-4194-8d79-fad78d1c33a5
+MB0201	dudy wielkopolskie	Wind instrument	bagpipe	Great Polish bagpipe	Originally played together with the special fiddle mazanki, today with prepared violin or solo, it has a single chanter with seven finger ho…	95144855-a019-4076-bd2e-95ab461a69d3
+MB0202	duggi	Percussion instrument	kettle drum	doogie; dugi; dūgi; ḍaggā	Made of clay with two layers of goat skin, it is used as a rhythmic accompaniment to shehnai players and is one of the instruments of the Ba…	b34c3736-17fb-4462-a311-3d20539773d8
+MB0203	dulce melos	String instrument	struck string instruments		European mediaeval struck string instrument, similar to the psaltery and a possible ancestor of the piano. Basically it is a dulcimer with k…	e7c39993-6362-4bee-908d-6b17c2ffb56d
+MB0204	dulcian	Wind instrument	double reed	dolcian	Not to be confused with the Spanish double-reed dulzaina. Used in the renaissance, it is made of maple wood with a folded bore and conical b…	a0b1ba6b-6ea7-4489-a4af-c9e23d6e24da
+MB0205	dulcitone	Percussion instrument	percussion idiophone	typophone	Like a piano, but here keyed hammers hit tuning forks.	9df8eaec-98e9-477b-b356-43f6b96642b3
+MB0206	dulzaina	Wind instrument	double reed; oboe	doltzan; dolzana; dulcina; dulzaina castellana	"Not to be confused by the European renaissance bassoon dulcian. Not to be confused with several Spanish bagpipes also called ""gaita"". Widely…"	bd57c6a6-616b-4c00-bcde-f0f34e8d6eb0
+MB0208	duxianqin	String instrument		dúxiánqín; yixianqin; yīxiánqín; 一弦琴	The duxianqin is a one-string zither which is likely derived from the Vietnamese đàn bầu.	4d857424-16ba-40a1-a3c3-6342aef9fde9
+MB0209	dūdmaišis	Wind instrument	bagpipe	Labanoro dūda; dudmaisis; kūlinė; murenka	It has a single chanter and drone with a bag made of a variety of animals, it has fur out and an ornamental goats head. Traditionally played…	2306cbdc-35b0-4ac0-8a86-cde04abb9b85
+MB0210	E-flat clarinet	Wind instrument	clarinet	sopranino clarinet	The E♭ clarinet is a member of the clarinet family.	fd749773-a4c8-4fa9-85f9-a56eb016bcc3
+MB0211	ebow	Electronic instrument	effects	e-bow		bd9789d9-f270-4352-87f6-fc7cc3383b6d
+MB0212	effects	Other instrument			Effects refers to devices which enable a musician to modify the sound of an instrument.	2706e403-bdef-47d8-9492-6f3ff4f78a0b
+MB0213	electric cello	String instrument				5e36c381-11c0-47ec-ac74-df63e9e24af7
+MB0214	electric fretless guitar	String instrument			Electric guitar without frets.	12f20f43-c71d-4476-8ada-b968aab50900
+MB0215	electric harp	String instrument	concert harp			0326482a-37a4-40b1-bb06-06643865968e
+MB0216	electric lap steel guitar	String instrument				3c5349ca-cf82-4537-851f-1957ac88bced
+MB0217	electric upright bass	String instrument				6ba5268f-766e-48b4-9d23-f378a7559f99
+MB0218	electric viola	String instrument				2fe389f3-e357-4df8-9fe7-604aa6f50c01
+MB0219	electronic organ	Electronic instrument	organ	electric organ		63d0f29f-37df-4c3e-bb3c-6a7c8f1b4c3d
+MB0220	electronic shruti box	Electronic instrument	synthesizer	Raagini Digital Electronic Tanpura; Radel; Saarang Digital Tambura; Sangat Power	Not to be confused with the analogue bellow powered shruti box or the string instrument tanpura. Electronic synthesizer invented by Mr. G. R…	c10707b4-a612-4002-9fc5-9100daf07d9e
+MB0221	elektronium	Electronic instrument			In the form of a piano accordion, the keys control the output, pitch and sound, bellows control only volume. Sold by Hohner since 1952, it h…	c498b4b0-7cbf-4b48-b7f6-18b32df02df1
+MB0222	end-blown flute	Wind instrument	flute	notched flute; rim-blown flute; vertical flute		3a4d70ed-7c34-4d50-b6a3-b8ce63a8c234
+MB0223	English concertina	Wind instrument	concertina		Unisonoric concertina with hexagonal sides and concertina reeds.	22d644a0-4458-4a18-8d7d-c8ca9f89cfc8
+MB0224	English flageolet	Wind instrument		en flagolet; eng flagolett	Meant as an improvement on the flageolet design, the English flageolet had six finger holes in the front and one thumb hole in the back.	bfa5b262-34cf-418b-a9c5-b629a24a96ee
+MB0225	esraj	String instrument			The esraj is a bowed string instrument from Eastern and Central India, mostly used as an accompanying instrument.	105db479-f28e-40fb-9cbe-9305172238f9
+MB0226	EWI	Electronic instrument	wind synthesizer		EWI (an acronym for electric wind instrument) is the name of Akai's wind controller.	7061c07c-e87a-4f5f-b45f-fb1138733e32
+MB0227	finger cymbals	Percussion instrument	cymbal			74e8088e-d5b0-44bc-853a-74aa8c8aa5aa
+MB0228	fipple flute	Wind instrument	flute	duct flute; fipple flutes	Fipple or duct flutes have a mouthpiece that is breathed into, but no reeds.	218218d4-50fe-431d-bbca-55f4158beae0
+MB0229	fiscorn	Wind instrument	flugelhorn	fiskorn	For the instrument known in Italy as flicorno see saxhorn. For the instrument known in Spain as fliscorno see flugelhorn. Originating in Ger…	063e29ce-d1c5-4b20-9105-58e8c57d0d4e
+MB0230	five-string banjo	String instrument	banjo		The most common and based on the original design, its fifth string is shorter than the others, creating an uneven pitch progression.	3933adfe-f55b-47fd-b085-c9983d15cc9d
+MB0232	flageolet	Wind instrument	fipple flute	French flageolet; flagolet; flagolett	While today it is obscure, it was developed and improved for 400 years. The French flageolet has four holes in the front and two thumb holes…	fb751686-80c2-4bd0-9ae3-06cb9a37d02b
+MB0233	floppy disk drive	Electronic instrument	disk drive	Floppy Drive	Floppy drives configured to produce tones while reading, using software.	9bc6f6d5-db01-400b-8a59-ce455ca05921
+MB0234	flumpet	Wind instrument	valved brass instruments		As long as a trumpet, it shares the piston valve design of both instruments with a mellow sound between the two.	504f30a8-92b3-444a-82e0-fbeb316b5ded
+MB0235	flutina	Wind instrument		accordéon mélodique; accordéon romantique; clavier mélodique	Early predecessor to the diatonic accordion, it was similar to the German concertina and had 4 fold bellows and brass reeds.	648deac1-43a7-4ea0-8ef4-b77d88eba354
+MB0236	flûte d'amour	Wind instrument	transverse flute	tenor flute	The flûte d'amour is the mezzo-soprano instrument of the flute family.	3decd8ad-623a-482f-a8e5-27e2450e75c7
+MB0237	folk harp	String instrument	harp	lever harp		34c1af71-f7fc-4e34-a46a-5c29ee4c019b
+MB0238	foot stomps	Percussion instrument	body percussion	foot percussion	Percussion performed with feet, such as foot tapping and clogging.	91eb1744-96d8-4c54-8aa2-f97ed7d88950
+MB0239	footbass	Wind instrument	bellowed reed	basse ås pîs	Large square spring-containing bellows operated by the feet, it was used by accordion players as bass accompaniment in early 20th century Wa…	c8aa14af-c525-4325-80bd-e6d9b0ad8709
+MB0240	fortepiano	String instrument	piano			814b1c15-1f5c-470d-ab8f-5e7615ff8586
+MB0241	four-string banjo	String instrument	banjo		Lacking the short drone string of its predecessor, it is usually played with a plectrum and has 22 frets.	23e2ec76-a834-462c-8af9-4f80026d4f90
+MB0242	free reed	Wind instrument	reeds			3016babb-461a-4dfe-aa20-75a01cb0b2a3
+MB0244	friction idiophone	Percussion instrument	idiophone		Friction idiophones are idiophones where the sound is created by the instrument being rubbed.	c0cc863c-ea65-4b8a-b365-28b81b72d846
+MB0245	frottoir	Percussion instrument		frattoir; vest frottoir; zydeco rubboard	Dispenses with the frame altogether, and is worn as a vest, it is played with spoons or bottle openers.	c6842ddb-3226-49c0-b7af-37ebc607dc85
+MB0246	fujara	Wind instrument	three-hole pipe	Slovak shepherd's long pipe	The fujara is a large folk shepherd's fipple flute originated from central Slovakia.	54c58a0e-cd47-436b-872a-dc5fe89bd213
+MB0247	fundeh	Percussion instrument		funde	Middle size/pitch drum, it has a slack goat skin membrane and it is hit with the palms. Important in the Jamaican Burru music and Rastafari …	81b68590-5c82-47a3-9790-1570ca60f711
+MB0248	gadulka	String instrument	gudok			280ae6d4-03ad-4009-ba8d-de793e4c87c0
+MB0249	gaita asturiana	Wind instrument	bagpipe		Larger than the gallega, it has been in use since atleast the 13th century, traditionally with only one chanter and drone, it has very colou…	b8f262ad-d5a4-4c45-a4ab-74056ff5261c
+MB0250	gaita de boto	Wind instrument	bagpipe		Historically solo instrument used in traditional and ritual dances, the drones have reinforced pewter rings and the goatskin bag is covered …	ff8d50d0-e0b8-4644-a091-e82b0437bf43
+MB0252	gaita sanabresa	Wind instrument	bagpipe		From Sanabria, it is distinct from other Spanish bagpipes, with its single drone and open fingering, it is accompanied by percussion in folk…	e0e1d384-09fa-4eba-ad0a-a659ac9f194d
+MB0253	gajdy	Wind instrument	bagpipe		Czech-Polish bellow-blown large goatskin bag with a six finger hole chanter and a long angular drone pipe that is balanced over the shoulder…	768169d7-d59a-4186-be38-9445b6fac208
+MB0254	gambang	Percussion instrument	xylophone		Consists of up to 21 hardwood bars suspended by pins and rope over an oft ornate wooden trapeze shaped box, the two springy beaters are made…	75bca310-73ac-484d-9f2b-5dcdf3915bab
+MB0257	gaohu	String instrument	huqin	gāohú; 高胡	The gaohu is a Chinese bowed string instrument developed from the erhu and tuned a fourth higher.	e2cd6f0c-fb6b-444e-96ea-0a4ec0ea66f3
+MB0259	garklein recorder	Wind instrument	recorder			0de793bc-e676-4b26-bb55-ae5979cd6bfc
+MB0260	garmon	Wind instrument	diatonic button accordion	garmonik; garmonika; garmonya; garmoshka	Used in Russian, Mari and Caucasus folk music, it has two rows of buttons in a diatonic scale, as well as additional bass buttons.	3ec414ba-6b15-4a78-8ac0-d399eff41b3c
+MB0261	gehu	String instrument	huqin	géhú; 革胡	The gehu is a Chinese bowed string instrument, with four strings and tuned like the cello.	fdcced38-d8ca-403f-b5cf-1e0c8e5b980e
+MB0262	gemshorn	Wind instrument	vessel flute		Medieval or possibly older, it was historically made of goat-horns or, less commonly, clay. With only a few holes and a single octave range …	3a3280ea-b231-4083-8d20-9f043ca58808
+MB0263	gendèr barung	Percussion instrument	gendèr		Used for elaborate and complex parts, it has thinner but wider metal bars suspended above resonator rods, it is the middle-pitched member of…	60cd46dd-45d5-47ff-8d7e-a501e9c7938c
+MB0264	gendèr panerus	Percussion instrument	gendèr	gender panerus; gender penerus	Used for simple ornamentation, it has thick small metal bars suspended above resonator rods, it is the highest pitched member of the gendèr …	50ae3eb1-0034-4a34-8367-aff6c30dee9a
+MB0265	gendèr wayang	Percussion instrument	gendèr		Special version of the gendèr used in Gamelan gendèr wayang performances. Tuned in Slendro, one to two pairs are played using the same hand …	809f4e7f-918f-4e7e-884a-dc7faa4e52c1
+MB0267	German concertina	Wind instrument	concertina		More usually square than hexagonal, with long plate reeds.	7ecc30ac-8335-43f0-a168-e19a7b13c2cc
+MB0268	German harp	String instrument	folk harp		German/Bohemian harp	bc542c3c-5cf6-4c31-b75f-a03d660cad75
+MB0269	ghaychak	String instrument		gheychak	Having 4 metal strings, it is carved from a single piece of wood into a particular shape similar to the Sarinda, it has 3 soundholes, two on…	d50ba107-4930-4e0b-8b3f-ffbea4a1ade1
+MB0271	gittern	String instrument	lute family		Round-backed lute ancestral to the guitar.	fbe05c17-5b15-4f7b-88c9-e1d9e16681d8
+MB0272	gizmo	Other instrument		Gizmotron	An effects device to be clamped on the bridge, it produces “synthesizer-like” sounds.	8e1cadfb-6f00-49f7-ad1e-b2fc0482b69c
+MB0273	glass harmonica	Percussion instrument	friction idiophone	armonica; bowl organ; glass armonica; glass harmonium	Taking the concept of musical glasses but mounting the incrementing bowls on a turnable spindle, it is played with damp fingers.	10ee2ae4-d9b6-46af-9250-6d853af7051e
+MB0274	glass harp	Percussion instrument	friction idiophone	angelic organ; drinking glass; ghost fiddle; glass half	Known in Persia as far back as the 14th century, it consists of glass containers, tuned by either being filled with water or later being of …	44accbb9-f7b4-42ad-9d4b-fce69407ae11
+MB0275	gong bass drum	Percussion instrument	membranophone	gong drum	A gong bass drum is a large single drumhead which resembles a gong.	af48ce3d-80de-40cb-8cc9-e8acc138d19d
+MB0277	gopichant	String instrument		ektar; ektara; golki; gopi jantar	For the one stringed lute also called ektar/ektara, see tumbi. For the similar looking instrument with only one spoke, see tun tuna. Not to …	ba30c0de-373c-44e4-ac28-594c4f316ab0
+MB0278	gralla	Wind instrument	double reed; dulzaina		Dulzaina specifically from Catalonia.	ad0ddf4c-05ca-4d9b-a159-8caed25e6bf4
+MB0279	gramorimba	Percussion instrument	lithophone	Steinklang		a66b7f37-5aa2-43b8-85eb-0dea87aae930
+MB0280	Gravikord	String instrument	lute family		Based on the polyrhythm of the Afrikan kora, kalimba and Japanese koto, it is electro-acoustic with a stainless steel frame with 24 nylon st…	3e394f5c-374e-447d-8154-c6a1a72d272e
+MB0281	great bass recorder / c-bass recorder	Wind instrument	recorder			27dfceab-1f17-4e62-a300-834836f77ae7
+MB0282	guan	Wind instrument	double reed	bili; bìlì; guanzi; guǎn		9e5409ce-4bdd-4a49-b060-a3e2cef58336
+MB0283	guban	Ensemble			Important in Yue, Kunkqu and Peking opera, it consists of the drum bangu and the clapper paiban. Drum is played by one hand and clapper with…	a30e17d9-505d-48df-ae38-16c47879bc2b
+MB0284	gudok	String instrument	bowed lute			0bcc6b50-1f8b-4c6b-86f3-f2cd61ae5f85
+MB0285	guitalele	String instrument	lute family	gitarrlele; guikulele; guilele; guitalélé	The guitalele is a guitar-ukulele hybrid, combining the small size of a guitalele with the six strings of a classical guitar.	f156be0c-4663-463f-8202-23f7973797c2
+MB0286	Guitaret	Electronic instrument	lamellaphone		Small white electric thumb piano with metal tines and an electromagnetic pickup.	9465df95-c901-4402-a169-7005756fdcaf
+MB0287	guitarrón chileno	String instrument	guitar family		The guitarrón chileno is a Chilean guitar-like plucked string instrument which typically has 25 strings.	d3889c67-56e6-4373-bbd3-820d19798281
+MB0288	guitarrón mexicano	String instrument	guitar family	Mexican guitarron; Mexican large guitar	The guitarrón mexicano is a very large and deep-bodied Mexican guitar-like instrument with six strings which is traditionally played in mari…	c1dbb66d-2356-417a-81ad-f688fee33257
+MB0289	guitorgan	Electronic instrument	lute family	Vox Model V251	Invented in 1966 by vox, and in 1969 by Bob Murrell, it is an electric guitar with electronic organ wiring and knobs added.	8889a04e-467e-4319-9974-4bd77bb6463c
+MB0292	gusli	String instrument		mhr кӱсле	Ancient Russian psaltery/box-zither with 4 to 36 metal strings, it is played in a few different ways, depending on the variation (see annota…	bb08cebd-ff6c-49e8-8f8f-914cc2d68c27
+MB0295	hard disk drive	Electronic instrument	disk drive	Harddisk	Hard disk configured to produce tones in pattern.	ff7fe5a4-6360-469e-991d-4c1b9b7fd42a
+MB0296	harmonium	Wind instrument	reed organ		"Not to be confused with European upright reed organ also commonly known as ""Harmonium"".  Also known as the samvadini, it was developed in In…"	c43c7647-077d-4d60-a01b-769de71b82f2
+MB0297	harp guitar	String instrument	guitar		The harp guitar is a guitar-based string instrument with any number of additional unstopped strings which can accommodate individual pluckin…	7a3a18d5-2e8b-4826-ae2f-502ab094dde3
+MB0298	harpejji	String instrument			Effectively a small electric guitar-piano hybrid, it is played by tapping the multiple isometric arranged strings that are stretched over a …	19143e79-1a3e-4696-b030-36d379ef59a7
+MB0299	Hawaiian guitar	String instrument	guitar	slack string guitar		c0ea0405-ae3f-4851-bf85-277fadff80e2
+MB0300	heckelphone	Wind instrument	oboe			ede795b9-6bf8-4cc7-95c9-2bc9c5d5b858
+MB0302	helicon	Wind instrument	tuba			0d19007b-a5b9-4121-8717-291ba0ecd9b2
+MB0304	hmông flute	Wind instrument	free reed		Family of Hmông flutes.	7a5b3204-0200-426c-88d5-3f26a225b757
+MB0305	horn	Wind instrument	valved brass instruments			e798a2bd-a578-4c28-8eea-6eca2d8b2c5d
+MB0306	hotchiku	Wind instrument	end-blown flute		The hotchiku is a Japanese end-blown bamboo flute.	a5e7d80a-57aa-47a5-83d5-8e1385c8fa3d
+MB0307	hourglass drum	Percussion instrument	membranophone			76c83821-5b2e-41d9-b9c2-cef0dc1ddb77
+MB0308	hue puruhau	Wind instrument			Large gourd (hue) with no finger-holes, it is blown like a jug and has a booming bass sound.	fdcacb6d-7f3d-446d-aa65-fff4c9afb7f6
+MB0309	hue puruwai	Percussion instrument	shaken idiophone		Gourd (hue) shakers with seeds intact	fdc68c28-cc0c-4ae6-bd9e-dd0b68e3cf1a
+MB0310	hulusi	Wind instrument	mouth organ	cucurbit flute; húlúsī	The hulusi is a Chinese free reed wind instrument which has three bamboo pipes which pass through a gourd.	da111bba-76e4-43ec-b03f-8fe8e558626e
+MB0311	hummel	String instrument	zither		Whole or half-pear shaped wooden body, it is partly fretted and has two string-courses; melody and drone. The name comes from Germanic words…	9a808a67-a3ca-4690-9b55-05f10d237ba5
+MB0312	hydraulophone	Other instrument		hydrolauphone	Made of tubing with holes that may have everything from none to two reeds, water instead of air comes out of the holes. Sound is produced by…	cf226d13-3080-4d39-bfbb-ad509989dc14
+MB0313	hyoshigi	Percussion instrument	rhythm sticks	kabuki blocks; kabuki clappers	Used in traditional kabuki and bunraku theatre, it consists of two hardwood pieces tied together with ornamental cord.	f96573d5-a52c-44b6-8af4-8a7f010bb2d8
+MB0314	härjedalspipa	Wind instrument	spilåpipa		Six holed fipple flute used traditionally in pastoral settings like its cousin the spilåpipa.	3df89368-10e2-4a3a-878a-88ec1a17ccfd
+MB0315	hümmelchen	Wind instrument	bagpipe	huemmelchen	Having a small bag, it has a soft sound. Its chanter and two drones of differing length are made of fruitwood. It historically had single re…	63a3e51d-a27a-4304-8dd0-67f954004824
+MB0316	idiophone	Percussion instrument	percussion		Without strings or membranes, sound is created by the whole instrument vibrating.	06266b6a-2fb8-4c71-9894-186edbac5dff
+MB0318	Indonesian rebab	String instrument	rebab; spike-fiddle		Introduced to Indonesia in the 15th century, this variant of the spike-fiddle rebab has two bowed metal strings with characteristically long…	3dbbb5ff-103b-4260-8cf6-679a73a7c552
+MB0319	Irish bouzouki	String instrument				c0cffc5c-4473-4c11-a236-242462ab13f4
+MB0320	Irish flute	Wind instrument	transverse flute		Wooden flute of the simple-system type, popular in Irish folk music.	2f625ae3-a07c-4ca5-84cf-93dc1a763b07
+MB0321	Irish harp / clàrsach	String instrument	folk harp	celtic harp; cláirseach; gaelic harp	An Irish/Scottish harp.	e9b4bcb7-4731-42c3-9464-9d58fb12ec2d
+MB0323	jantar	String instrument	stick zither	jantra; jatara; yantar; yantra	Stick zither from Rajasthan. It is made of wood with at least two large gourd resonators, the strings rest on very high frets.  Not to be co…	b52a98c1-150f-4bde-9ac4-f44c528fc514
+MB0324	jegogan	Percussion instrument		gegogan	Largest and lowest pitched of the gangsa, it has 5 to 7 large metal bars suspended over long bamboo resonators.	1c4ab081-1500-4372-9820-cbd1f93325c4
+MB0325	jeli ngɔni	String instrument	lute family; ngɔni	djéli goni; djéli koni; djéli n'goni; djéli n'koni	Four-stringed banjo-like lute from West Africa, traditionally played by griots. Made of hollowed out wood with an animal hide as membrane.	a11e9091-1182-4d79-90a1-dcaa282e4a98
+MB0326	jing	Percussion instrument	gong	ching	The jing is a large gong used in traditional Korean music.	d28125ee-4bfc-4cff-95ca-fdc52f85669c
+MB0327	jing'erhu	String instrument	huqin	jīng'èrhú; 京二胡	The jing'erhu is a Chinese bowed string instrument, similar to the erhu, so named because is played in Beijing opera.	cecbc1f9-40b9-4f51-a357-286d622df956
+MB0328	jinghu	String instrument	huqin	jing hu; jīnghú; 京胡	The jinghu is a Chinese bowed string instrument with two strings used primarily in Beijing opera.	89e4a2ef-172f-4f50-a507-316917a9b98a
+MB0329	jouhikko	String instrument	bowed lyre		The jouhikko is a traditional, 2 or 3 stringed bowed lyre, from Finland and Karelia.	2474c241-d267-433a-a404-688b13c51d11
+MB0330	jublag	Percussion instrument		chalung	Second lowest pitched of the gangsa, it has 4 to 7 bronze keys suspended over long bamboo resonators. For the Sundanese bamboo xylophone als…	395bab77-bb77-4696-96d6-dfcade201c6d
+MB0331	jug	Wind instrument	natural brass instruments	Whistling Water Jar	An empty jug (usually made of glass or stoneware) played with the mouth.	d5b9c401-a32e-4d4c-951d-2e9d76d6e078
+MB0332	junjung	Percussion instrument	cylindrical drum; dunun	dyoung-dyoung; gungun	Sacred cylindrical goat or cattle rawhide drum, traditionally it was held with straps or placed on a stand and played horizontally while wal…	a6165957-c2eb-486e-80b3-25021313fcf8
+MB0333	k'lông pút	Wind instrument		dan klom-put; klom put; klon put; klong put	"Played by manipulating the airstream through bamboo pipes using cupping and clapping, this Vietnamesian ""Air Xylophone"" was traditionally pl…"	40a1d1d3-ecba-4bb2-b35f-7424541f8887
+MB0335	kacapi indung	String instrument	kacapi		"Known as indung ""mother"" or parahu ""boat"", it has 18 brass strings each with its own pyramid shaped bridge. Shaped like a boat, its sound ho…"	33e7df58-014a-4af6-95cd-62fda521c688
+MB0336	kacapi rincik	String instrument	kacapi		"Known as rincik ""child"" it has 15 steel strings, it has individual bridges and a sound-hole in the bottom."	896bc919-e1db-4939-9555-857f5727faa8
+MB0337	kacapi siter	String instrument	kacapi		Inspired by western zithers, it has 20 strings and is flatter than the other kacapis.	3740ddf9-0067-44d6-8634-9787084ae0f8
+MB0338	kachva sitar	String instrument	sitar	kacchapi vina; kachapi vina	Flat-cut gourd sitar with 16 frets, 2 steel & 3 brass strings. In the 1820s it was used by Ghulam Mohammed to develop the surbahar. Mistaken…	6ceaa056-1bfd-470e-ae4a-320e1428648a
+MB0341	kanjira	Percussion instrument	frame drum	ganjira; khanjira	South Indian frame drum	f7306552-f9fc-44f0-8d62-0b48f4c4c278
+MB0342	kanklės	String instrument			Oldest instrument of Lithuania, it is made of a special tree in a trapezoid shape, it has a metalbar and wooden pegs at each side were 5 to …	e21ce008-8744-407b-ad7c-5caa3f69e610
+MB0343	kannel	String instrument		kannõl	National symbol of Estonia, related to Finnish kantele. While traditionally a small instrument with 5 to 7 strings, some newer versions are …	db6a575f-b581-4176-a1d8-2c0d948b23f5
+MB0344	kantilan	Percussion instrument		gangsa kantilan; kantil	Highest pitched gangsa, it has 10 brass or bronze keys suspended over short resonating bamboo pipes set in an heavily ornate case.	dededbf9-ee13-496a-9903-29d70d11452c
+MB0347	kazoo	Other instrument	mirliton			9ea49871-d5db-45b0-983f-f1cbae748d9a
+MB0348	kecer	Percussion instrument		kercek	Used in both gamelan and Wayang puppet theatre, it consists of two small cymbals sets; the bottom pair affixed in a highly decorated rancak …	8c4382b9-33ee-48d2-b1ad-edb8ce0da05d
+MB0349	kemanak	Percussion instrument	slit drum	gumanak; kamanak; kamanek; kamenak	Bent into a ladle or banana like shape, it is a pair of bronze slit-drums hit with tabuh beaters.	dd430e7f-36ba-49a5-825b-80a525e69190
+MB0350	kemenche	String instrument	bowed lute		Made of wood, its soundbox is oblong and its neck is short.	01ba56a2-4306-493d-8088-c7e9b671c74e
+MB0351	kemençe of the Black Sea	String instrument	kemenche		Turkish box-shaped kemenche, mainly used for folk music.	ad09a4ed-d1b6-47c3-ac85-acb531244a4d
+MB0352	kempli	Percussion instrument	gong-chime		Singular bronze gong-chime kettle set on a decorated jackfruit-wood box stand. Used as time or tempo keeper, it is struck on the boss with p…	2c235622-4671-4112-9c1d-0550125db907
+MB0353	kempul	Percussion instrument		gong kempul	Set of 6 to 10 smaller hanging pitched bronze gongs with a protruding centre knob struck with tabuh beaters. Higher pitched than the gong ag…	e0350378-0d4b-49d5-ad81-8f74e1b54efc
+MB0354	kempyang	Percussion instrument	gong-chime	kempiang	Always used with ketuk, it consists of two bronze kettle-gongs, pitched a note apart. Ached top bossed gongs are sat in the highly decorated…	e42151f8-efb2-41e1-9aad-fb8fa115c233
+MB0355	kendang	Percussion instrument		babun; gandang; gandangan; kundang	Used in many Southeast Asian countries, the body is made of woods like jackfruit or coconut, the heads of buffalo- and goat-hide. There are …	9b3d2812-e676-40de-902c-73c7769fb4f2
+MB0356	kendang lanang	Percussion instrument	kendang		"The smaller and higher pitched of the Bali kendang, it is the follower ""male"" drum."	cff9e432-7483-4739-a8de-4b4dbb688acf
+MB0357	kendang wadon	Percussion instrument	kendang		"The larger and deeper pitched of the Bali kendang, it is the leader ""female"" drum."	71dee195-aeb9-49fe-b853-28400b28837c
+MB0358	kendhang batangan	Percussion instrument	kendang		Middle sized kendang, it is used in lively and complex rhythms.  In Sunda it is known as kendhang ciblon.	f6b76abc-fdef-444c-97b1-27b12e3e3c0b
+MB0359	kendhang gendhing	Percussion instrument	kendang	kendang gending	"Largest or ""ageng"" of the kendang, it is still smaller than the bedug. In Sunda it is known as kendhang gedé."	14acd267-2e1b-459d-b41e-058d2c106345
+MB0360	kendhang indung	Percussion instrument	kendang	berukuran besar; kendang besar	"Played in ensemble with kulanter, it is set at an angle and played with hands or sticks. It has the designation of ""mother""."	c588cc24-e139-44a9-8a48-7963eb693dd1
+MB0361	kendhang ketipung	Percussion instrument	kendang	tipung	Smallest of the kendang, it is has a special two-instrument use with the gendhing. In Sunda it is known as kendhang katipung.	176ce29f-bcf0-47f5-beda-c97ef6df6480
+MB0362	kendhang kulanter	Percussion instrument	kendang	kendang kecil; kendang kulanter	"Always used together with the indung, dual child drums are divided into the katipung (""besar"" or larger) and the kutiplak (""kecil"" or smalle…"	292a95fd-9bc7-4052-aa6e-844c8f4f4905
+MB0363	kendhang wayangan	Percussion instrument	kendang	endhang wayang	Middle sized kendang, it was traditionally used for the wayang dance.	4ac4b541-116d-40c1-93c7-160153ca53ac
+MB0364	kenong	Percussion instrument	gong-chime		Related to bonang, it consists of 3 decorated rancak frames that each hold 2 large arched (jaler) bronze gong-chimes hit by heavy tabuh beat…	17ea56e2-44b2-4331-a368-54a5849074b0
+MB0365	kepyak	Percussion instrument	percussion idiophone	kepyakan	Used in wayang puppetry, it is made of 1 to 4 iron (sometimes bronze) plates hung by strings, The puppeteer uses a small mallet set in the f…	d5daaae4-fc89-41ac-a0b5-44b336bfa513
+MB0366	kethuk	Percussion instrument	gong-chime	ketug; ketuk	Always used with kempyang, it consists of a single bronze kettle-gong, pitched deeper than kempyangs'. Flat top bossed gong is sat in a high…	beb10494-f892-4865-b2aa-9f4c21824ee0
+MB0367	kettle drum	Percussion instrument	membranophone			1fc7aaea-f808-4f37-9429-a85dd89d1764
+MB0368	keyboard	Electronic instrument		clavier	electronic or digital keyboard	95b0c3d2-9606-4ef5-a019-9b7437f3adda
+MB0369	keyboard bass	Electronic instrument	keyboard			3ac17d91-feb7-4c2e-9b74-5aa7c73c8e16
+MB0370	keyed box zither	String instrument	zither	typewriter zither	Composite chordophone, box zither where some or all strings are operated by typewriter-keys or buttons (keyboard).	3cfca17d-eb2c-4b40-9a9a-ca3111a55b54
+MB0371	keyed brass instruments	Wind instrument	brass		These have holes along the body and sound production is similarly to woodwinds.	371dd55f-5251-4905-a8b2-2d2acf352376
+MB0372	khamak	String instrument	plucked string instruments	anand lahari; anandalahari; gobagoba; gub-gubi	Not to be confused with the two pronged gopiyantra/gopichan, the similar concept tuntuna, the dotara-like tokari or the pulluvan kudam. Used…	f0c80c56-eb1c-4691-9a95-c4d1ae1158a8
+MB0375	khlui	Wind instrument	fipple flute		Ancient reedless fipple flute made of bamboo.	0f2a75c7-f10b-49cc-8acf-70fc0b5e2c9e
+MB0376	khong wong	Percussion instrument	gong	khong vong	The khong wong is a gong circle consisting of a number of gongs in a horizontal circular rattan frame. The player sits in the middle.	b6aa8ec7-3ede-4f8b-92f1-45f4568e3261
+MB0377	khong wong lek	Percussion instrument	khong wong	khong vong noi; khong wong ek	The khong wong lek is a gong circle used in Thai classical music. It has 18 tuned bossed gongs and is smaller and higher in pitch than the k…	936cc15c-58ce-4e3b-8d84-30143ccf05ee
+MB0379	khulsan khuur	Percussion instrument	aman khuur	hulsan huur; xulsan xuur	Used for folk songs, particularly by young girls.	26ed69bd-3828-4c49-8e74-0fb4399a06d3
+MB0380	khèn Mèo	Wind instrument	mouth organ	kềnh H'Mông; qeej	The khèn Mèo is a mouth organ used by the Hmong people. It has bamboo pipes (typically six) which each have a free reed.	c4c5d67b-0b98-4865-9d52-1bbdcec74c0e
+MB0381	ki pah	Wind instrument	free reed		Cow horns without fingerholes, with mouthpiece and free reed.	bd5a399f-c18e-41ad-af23-a01353c51d7c
+MB0382	kinnari vina	String instrument	stick zither	kinnara; kinnara vina; kinnaram; kinnari	Used since medieval times in Karnatakan folk music, it has 3 resonators made of calabash. It is similar to the ancient bin.	be1f10d2-dda4-4fa3-86dd-fcd78d3fb4bd
+MB0383	kinnor	String instrument	lyre			c0727528-4b67-4e8f-9494-22ecf9816fd7
+MB0384	kithara	String instrument	lyre			dbf82b8f-1bc5-4a7d-9811-48e743546442
+MB0386	klong khaek	Percussion instrument	barrel drum	glong kaek; glong khaek; klong kaak	The klong khaek is a double-headed barrel drum from Thailand. The heads are different sizes.	14b450f8-0b7e-497e-ac78-be000b62748c
+MB0387	klong song na	Percussion instrument	barrel drum	glong song na; glong songna	The klong song na is a barrel drum from Thailand. It is played with the hands and is used in the piphat ensemble.	a421a3fc-2138-44c4-9b84-090ac035430f
+MB0388	klong that	Percussion instrument	barrel drum	glong thad; glongtat	Klong that are large barrel drums from Thailand. They are played in a pair using wooden sticks and are used in the piphat ensemble.	380ef985-7fc8-41de-85b3-b6726da63103
+MB0389	klong yao	Percussion instrument	goblet drum	glong yao	The klong yao is a goblet drum from Thailand which is usually decorated with a colourful skirt.	6cafdd5b-a469-4c29-9b54-8c7ed4739569
+MB0390	kokle	String instrument		konklēs	Originating from 13th century Latvia, it is made of wood and have today nine to eleven, up to thirty-three strings tuned diatonically. Playe…	4e32c83a-891f-4215-b005-572d28f1a419
+MB0391	kokyu	String instrument	shamisen	kokyū	Although similar to and introduced at the same time as the shamisen, it is unique to japan. With ebony neck and coconut body its three (rare…	b1a367a1-6dde-4357-b7bb-0395dfb6c2dd
+MB0392	komuz	String instrument	lute family	qomuz	Possibly dating back as far as 6000 BC, it is a national symbol of the Kyrgyz. Made of a single piece of apricot or juniper wood with 3 gut …	822083c6-d93d-4b5e-8117-33bf763096e8
+MB0393	kortholt	Wind instrument	double reed		The kortholt is a woodwind instrument that was popular in the Renaissance period.	1224a91c-5ba1-4f86-baf2-0a5b809f41e8
+MB0396	krap khū	Percussion instrument			Used in folk music, bamboo is split into a pair of 40 cm long sticks which are hit together.	1fcabebf-a5f5-4920-afe0-43a00d274e5a
+MB0397	krap phuang	Percussion instrument			Used in royal ceremonies, played by striking against the palm, it is made of several pieces of wood, ivory and sheets of brass between two l…	fd90b00e-e861-4494-b493-a125148db3b1
+MB0398	krap sēphā	Percussion instrument		espa	Used in the chant, sēphā, a pair of squared bevelled rosewood sticks around 21 cm long and 3-4 cm thick.	bb9e55c7-9163-475f-95d1-c75488ed3d4f
+MB0402	kèn lá	Wind instrument	free reed	khen la; nplooj	The kèn lá is an instrument used by the Hmong minority of Vietnam which consists of a leaf which is curled up and positioned in the mouth so…	953e5114-95f3-4415-bff5-38b1b8df0472
+MB0403	kös	Percussion instrument	davul		A Turkish drum used in the traditional Ottoman military bands.	f711b03f-86c6-4e67-86eb-c6716ddbe1c1
+MB0404	kōauau	Wind instrument	end-blown flute		Cross-blown flute made of stone, bone or wood. It is 10 to 39 cm long, with usually 3 holes, but everything from none to 5 is known.	c046a87f-c44e-4830-97ed-5c5e32f52fb2
+MB0405	kōauau ponga ihu	Wind instrument	nose flute	Pōngaihu; koauau ponga ihu; köauau ponga ihu	Nose flute made of gourd with two holes. While it is tiny, it has a huge sound.	a4f10af3-d440-4ee7-9093-c60a121df41a
+MB0406	lamellaphone	Percussion instrument	plucked idiophone	lamellophone; linguaphone	"Lamellophones are a family of musical instruments which have one or more long thin plates - ""lamella"" or ""tongues"" - which are fixed at one …"	56c8b6ff-b442-4adf-bd51-b2e26f28338b
+MB0407	langeleik	String instrument	zither			fd687fde-bb99-4bcd-8676-4ae4aa2fdfac
+MB0408	laouto	String instrument	lute family	greek lute; laghouto; lauto	Differs from other lutes in that its string tension is greater thus sounding more like the oud. From ancient Greece, it was used as an accom…	ba99bd20-8e61-4246-9d69-685485254e8d
+MB0409	lap harp	String instrument	zither	Melody Maker; Melody harp; yerbonitsa	Used to teach children how to play, it is a simplified zither shaped like a trapezoid.	b673ed30-fe14-47b4-9a1b-8b5f77862e7a
+MB0410	laser harp	Electronic instrument	electronic instruments		A laser harp is an electronic musical instrument consisting of several laser beams to be blocked, in analogy with the plucking of the string…	e5d0ff68-3005-4c5f-8cf1-61eaa3bbb332
+MB0411	lasso d'amore	Other instrument		bloogle resonator; corrugaphone; hummer; whirly tube	The lasso d'amore, whirly tube or corrugaphone is a corrugated plastic tube which is spun in a circle.	159aa813-ee34-4a1d-a6c6-7db20afb182e
+MB0412	launeddas	Wind instrument	single reed		The launeddas is a typical Sardinian woodwind instrument, consisting of three pipes.	571baf30-f258-419a-a4ec-fe2e8be478e1
+MB0413	lautenwerck	String instrument		lautenwerk; lute-clavier; lute-harpsichord		b1c85f31-40b0-43cc-bf99-2d65ff29facf
+MB0414	lavta	String instrument	lute family		The lavta is a plucked string instrument from Greece and Turkey.	8947e594-91fe-4143-9acd-d567963224aa
+MB0416	limbe	Wind instrument	transverse flute		The limbe is a Mongolian transverse flute.	f8c53ee8-da8f-4639-af9d-ea977ef8cc3b
+MB0417	lira da braccio	String instrument	fiddle	lyra de bracio	"For the wheel-bowed instrument also called ""lira"", see hurdy-gurdy. For the harp-like instrument, see lyre. For the bowed lute, see Cretan l…"	6060f9c4-10ee-48b7-a2d8-e97f944afa70
+MB0418	lirone	String instrument	fiddle	lira da gamba	Popular late 16th to early 17th, it is the bass member of the lira family with between 9 and 16 strings and a fretted neck.	c53c3a34-1125-4db9-be50-b0dfdcd9e491
+MB0419	lithophone	Percussion instrument	percussion idiophone		Arrangement of struck tuned stone bars.	efcb65d1-e987-4dd9-b8c7-65a379cb2556
+MB0420	liuqin	String instrument		liǔqín; 柳琴	Traditionally made of willow, it has four strings and a small, pear-shaped body. Played with a pick, it has a higher pitch than the pipa.	6c62497a-8990-4709-86a8-78bcc4f45a06
+MB0421	low whistle	Wind instrument	tin whistle	The Overton Flute	Larger and deeper than the tin whistle, it was developed by Overton and made of aluminium.	862730d6-83bb-4e75-a686-6b0ca576005c
+MB0422	luthéal	String instrument	piano		The luthéal is a kind of hybrid piano which extends the register possibilities of a standard piano, created by Georges Cloetens.	f67af2c0-3952-45e2-826a-63d140ef5c56
+MB0423	lyra viol	String instrument	bass viol	leero viol; leerow viol; liera viol; lyro viol	Small bass viol, specialised for intricate polyphonics, it had a flatter bridge than the other bass viols.	cf7b9cd2-e8ab-48d0-bcaa-cd8fd39df8ff
+MB0424	lyre	String instrument	plucked string instruments			21bd4d63-a75a-4022-abd3-52ba7487c2de
+MB0425	Lyricon	Electronic instrument	wind synthesizer		The Lyricon is an electronic wind instrument.	f396f3a3-d4db-449b-8ab7-1b31508b310c
+MB0427	maddale	Percussion instrument			Maddale is a double-headed drum from Karnataka, India. It is the primary rhythmic accompaniment in Yakshagana.	28a6a166-0df4-4d1a-aba1-70ed4265559d
+MB0428	Magyar duda	Wind instrument	bagpipe	Carparthian bagpipe; Gutsul duda; Hungarian duda; Hutsul bagpipe	Used by shepherds and in pagan lifestyle, it has a double bore chanter with one to 2 drones, historically made of dogskin but today goat is …	e8b3e285-3193-4b60-89d5-69d4743d67bb
+MB0429	mandocello	String instrument			The mandocello is a plucked string instrument of the mandolin family, the equivalent to the cello in the violin family.	03de7e59-d275-4b21-b16a-ab363e909df6
+MB0430	mandoguitar	String instrument	guitar family	Vox MandoGuitar; octave twelve	Unison course tuned 12 stringed electric guitar body with mandolin neck, it is tuned an octave higher than a conventional guitar, thus havin…	1fb90aa8-2b49-4685-a1e5-03da74531136
+MB0431	mandola	String instrument	tambura			6bfa53af-7c17-47d2-9778-f31a4ab5fb91
+MB0432	mandolute	String instrument	lute family		A mandolute is a North African fretted string instrument which combines a traditional oud string format with five pairs of metal strings.	bc18fdfa-b868-4f04-bd49-87363a2c3d15
+MB0433	mandora / gallichon	String instrument	lute		Invented by European luthiers in the first half of the 18th century, it had 6 to 7 single or double courses of gut strings and a long neck w…	8659d5b5-6e07-4497-a903-5dd41619492b
+MB0434	marimba lumina	Electronic instrument	synthesizer		MIDI controller with a marimba-layout inspired control deck.	c3cd152f-e04d-4592-8d0b-9f7de44b3551
+MB0435	Marxophone	String instrument	zither		A type of fretless zither.	25cb4a8d-9928-4102-8933-1cc3b0998efe
+MB0437	mashak	Wind instrument	bagpipe	bin baji; masak; mashak bin; mashaq	Used in rural weddings, it has twin single reed pipes, one melody, one drone. It is becoming increasingly rare due to being displaced by Sco…	e1a801ee-da51-469f-94c0-8522aaffb631
+MB0438	matstsyanka	Wind instrument	bagpipe	duda; duda lepelskaga; dudy; majsternja	Used since ancient times, it is a smaller half round shape with the chanter in one end and drones in the other, there are two related types;…	84c0f0f8-a468-4291-99da-f6821e0ac111
+MB0440	melophone	Wind instrument	bellowed reed	mélophone	Not to be confused with mellophone, a brass valved instrument. Wooden body shaped like a lute, it has a bellow operated by a handle at the b…	eafabec6-af67-4a49-be38-4401e7200494
+MB0441	membranophone	Percussion instrument	percussion	membranophon; membranopono; мембранофонат	Any kind of instrument with membranes, usually variously sized drums.	3bccb7eb-cbca-42cd-b0ac-a5e959df7221
+MB0442	Mexican vihuela	String instrument	tiple		Mexican vihuela, used by mariachi bands.	a11f1ba4-f2e1-4498-860e-f1b22b17f75b
+MB0443	mezwed	Wind instrument	bagpipe	mizwad; mizwid	Not to be confused with the Libyan shawm also known as zukra or zurna. Not to be confused with mijwiz or the similar zummara.  Also do not c…	cd085f1b-639e-46fb-bf9d-4121ad2d732e
+MB0445	Minimoog	Electronic instrument	analog synthesizer			44b6cb78-ac8c-4caa-bde1-747802a3b130
+MB0446	minipiano	String instrument	piano		The minipiano is a type of piano in which the sound producing mechanism is positioned below the keyboard, allowing an economical use of spac…	729287b9-cc0c-4e7f-b40b-60672f6f435b
+MB0447	mirliton	Wind instrument	membranophone; woodwind	eunuch flute	Simultaneously a woodwind and membranophone, sound is produced by singing or speaking into a thin buzzing membrane.	23a2775f-4bf3-4432-beb2-97be32b9ef50
+MB0448	monkey stick	Percussion instrument	shaken idiophone	mendoza; mendozer; ugly stick; yobstick	Homemade combination of a wooden pole with beer bottle tops and other jingles and a hefty boot at the bottom to create thumping bass, it is …	a5479f69-0c46-4bd3-8170-add906b9e688
+MB0449	Moog	Electronic instrument	analog synthesizer			c2c3a433-dc4b-4107-9d39-1f605ebedbaa
+MB0450	morsing	Percussion instrument	mouth harp	Jaw Harp	Indian mouth harp, played in Carnatic and Rajastani folk music.	e2f0cdf4-3651-4bb9-9153-0cdb16ce65ea
+MB0451	mouth organ	Wind instrument	free reed		A mouth organ is a generic term for free reed aerophone with one or more air chambers fitted with a free reed.	859ea9b3-00a1-4cc5-8f90-6f0e0f20539c
+MB0452	mukkuri	Percussion instrument	mouth harp		Ingenious to the Ainu, it is made of bamboo with a string that vibrated creates sound.	041e4a26-8ddb-45dc-961a-23bcf6e0615b
+MB0453	musette de cour	Wind instrument	bagpipe	baroque musette; muzette	"For the instrument known as ""chinese musette"", see suona. For the oboe also known as musette, see piccolo oboe. Also known as baroque musett…"	c62f263e-3fcf-4614-8d59-4ed9ef8db4c4
+MB0454	musical box	Percussion instrument	plucked idiophone	music box		2f5f6a67-2b2b-4857-92b0-5b25d485f632
+MB0455	musical saw	Other instrument	friction idiophone	singing saw	Regular or specialised saw used for music, held and bent, it is bowed to produce characteristical glissando.	23171239-1d9d-4482-b057-1ba884bcfda6
+MB0456	nabal	Wind instrument	natural brass instruments		Used in traditional music, it's long and straight.	4e22ddb3-6908-4a5f-a9ae-b8a7440f6c7c
+MB0458	nagadou-daiko	Percussion instrument	taiko		The nagadou-daiko is an elongated barrel-shaped Japanese drum.	81aa0df3-4533-42bc-a023-13b92177ea90
+MB0459	nagak	Wind instrument	conch	godong; na; sora		de830e4e-5f29-4f63-ac3c-dc48bdc75d12
+MB0460	nai	Wind instrument	pan flute	muscal	Used traditionally since 16th-17th century by lǎutari, it is made of bamboo or reed stopped with cork and beeswax set in a curved bottom bar…	423760ab-c428-41c9-8dcc-986302448889
+MB0461	naobo	Percussion instrument	cymbal	náobó; 铙钹	Chinese cymbals specially used in the Beijing opera.	8c17c50a-c955-4cd4-b14e-87999d31e0f1
+MB0462	natural brass instruments	Wind instrument	brass		Natural brass instruments only play notes in the instrument's harmonic series.	e5781903-d6ef-4480-a158-60300265577c
+MB0463	natural horn	Wind instrument	natural brass instruments		Ancestor of the modern horn, it consists of a coiled tubing with a large flared bell. Bugles, posthorns and hunting horns are all natural ho…	218d072b-474a-4a9c-9d0f-c5b39891a4be
+MB0464	natural trumpet	Wind instrument	natural brass instruments	naturtrompete	Ancestor of the modern trumpet, it is valveless with a mouthpiece and at-least one coil, it has an origin in military use.	c55f5f41-a4e1-4b9a-971a-6f79324cb2a0
+MB0465	neyanban	Wind instrument	bagpipe	hanbuneh; nai-ambana hanbun; nay-anban; nayanban	Often colourfully decorated, it is known since ancient times in southern Persia. It has a single reed with a double piped chanter with 6-7 h…	c1ab8f12-4168-47ce-821c-5002d7089565
+MB0466	nguru	Wind instrument	vessel flute		Small vessel flute made of wood, clay, bone or soft stone like soapstone, it has 4 holes and is played with the nose or mouth.	68064791-4108-4c97-812f-990c45d1ba0d
+MB0467	njarka	String instrument		n'diaraka	Made of goatskin covered dried gourd, it has a single gut string bowed with a horsehair bow.	e11d6ef4-857d-462e-b91c-ef9f9f4a2760
+MB0469	Northumbrian pipes	Wind instrument	bagpipe	Northumbrian smallpipes	Used for more than 250 years, its one chanter and usually four drones have narrow bores.	356efa34-ceb1-4476-ba03-42d4bcd4e0e7
+MB0470	nose flute	Wind instrument	end-blown flute		The nose flute is a flute played by the nose commonly found in countries in and around the Pacific.	e2e7de25-20d5-4c3f-8a23-2b99d3e44730
+MB0471	nose whistle	Wind instrument	fipple flute	Humanatone	The nose whistle (also known as the Humanatone) is a simple instrument played with the nose. The stream of air is directed over an edge in t…	3d082a7d-e8d9-4c7b-b8d0-513883a7d586
+MB0472	nyatiti	String instrument	lyre		The nyatiti is a five to eight-stringed plucked string instrument from Kenya.	49a67de0-b00e-44df-9fd7-0e1269c06e43
+MB0473	oboe d'amore	Wind instrument	oboe		Oboe d'amore / Oboe d'amour (mezzo-soprano)	d43cf2e2-cc1f-4448-97f6-7d291c8ebc87
+MB0474	oboe da caccia	Wind instrument	oboe	oboe da silva	First referred to in 1722, this transposing double-reed has a curved tube and a flared (brass) bell.	de947c13-0406-4e70-badb-689d26e7d11d
+MB0475	ocean drum	Percussion instrument	frame drum			1a994b2a-c93e-4543-81f4-c5924c4ed9be
+MB0476	octave mandolin	String instrument			The octave mandolin is a fretted string instrument with four pairs of strings tuned in fifths, G, D, A, E (low to high), an octave below a m…	0dadbeee-4790-4730-9492-965f500c06fb
+MB0477	octavilla	String instrument	baroque guitar		Used in Spanish classic and popular music during the late 19th and early 20th century, it together with bandurria and laúd carried the melod…	d32661fd-b2d3-4c6d-9daa-96dbeee1e19a
+MB0479	octoban	Percussion instrument	barrel drum	Cannon Tom; Deccabon; Quarter Tom; Rata Tom	Small but long tom-toms set in groups of four or eight, they are a common addition in drumsets. Originally made of fibreglass, today also ac…	45d888f0-2fc5-4326-9a30-7713cbc39280
+MB0480	octobass	String instrument		triple contrabass viol	Constructed as the uttermost largest member of the violin family, it is up towards 4 meters and has three strings operated by levers and ped…	6afeed40-2392-43c4-87a0-44d0f58fea6d
+MB0481	oktawka	String instrument	fiddle		Small Polish traditional fiddle.	e2894ea4-6ac2-4c1c-98ff-2a1fac4b8f42
+MB0482	olifant	Wind instrument	natural brass instruments		Hunting horn carved out of ivory, it was widely used in Medieval wars to alarm or increase soldiers' morale.	7b95d4e0-7a5f-4d09-b2fb-700b90322450
+MB0483	omnichord	Electronic instrument	electronic instruments			a40f824f-8489-4bb1-b21c-dd5d1a914b35
+MB0484	ondes Martenot	Electronic instrument	electronic instruments	Martenot musicales; Ondéa; ondes musicales; ondium Martenot		51b6b587-43bb-4944-8b98-7fb04404b28a
+MB0485	ondioline	Electronic instrument	analog synthesizer		One of the first analogue synths, it had a filter bank with 15 sliders for different sounds, and a “vibrato” inducing keyboard based on the …	ed8f3295-0d30-4406-a08b-ec259a4b58bc
+MB0486	ophicleide	Wind instrument	bugle; keyed brass instruments			18fb4427-58c5-4ab6-88a3-2b67a6afd718
+MB0487	orpharion	String instrument	cittern		Invented in 16th century England, it had low-tension metal strings and sloping frets.	73064eb8-ecd8-4fa2-b79f-06094da5b119
+MB0488	orphica	String instrument	piano	umhänge-klavier	Portable piano with shoulder strap invented in 1795, it is a descendant of the Baroque Bauchladenspinett and a sort of early precursor of th…	999dbad8-5d0a-423c-bef2-6e50e7bcb7c7
+MB0489	Otamatone	Electronic instrument	synthesizer	otamato-n; otamaton; otamatoon; otamatōn	Shaped like an eighth-note with a cute face, it is played with one hand fingering the neck and the other squeezing the head to create waveri…	cd61c818-2937-442d-a12e-a02baefa7848
+MB0490	other instruments	Other instrument		chainsaw	Other instruments. If you can't find an instrument, please request it.	0a06dd9a-92d6-4891-a699-2b116a3d3f37
+MB0491	oval spinet	String instrument	harpsichord; virginal		More accurately a virginals, its strings were arranged in a pattern creating an oval shape, allowing for a stronger, more compact configurat…	d90655c0-184d-4dd6-852c-c683a11c3b5f
+MB0492	pahū	Percussion instrument	slit drum	pahu	Logs or thick planks up to 9 meters long used as signalling drums, as gongs for both war and peace. Even living hollowed trees have been use…	925959ba-97d4-4e6f-b9dc-3ba8c4a773c4
+MB0493	pahū pounamu	Percussion instrument	tumutumu	pahu pounamu	Gong made of pounamu; greenstone and pilot-whale bone with a striker made of akeake, a hardwood.	5ed5bf1f-ca26-4aeb-b4dd-88a52b1a17e7
+MB0494	paiban	Percussion instrument	clapper	guban; hakuhan; p'ai-ban	Made of sandalwood or bamboo, 2 blocks are tied together with a string, a third with a ribbon. Part of the drum and clapper ensemble guban, …	c641bccc-2060-4871-9c12-e2df2523e53c
+MB0496	pang gu ly hu hmông	Wind instrument	hmông flute		A “slide whistle”-like type of Hmông flute.	92ec69b8-c35c-4d44-9e99-953d229d6e87
+MB0497	Paraguayan harp	String instrument	harp	arpa	The Paraguayan harp is a 32-48-string diatonic harp used in Paraguay and Venezuela.	8aa8133e-4297-4e78-8d35-a337b8b56c96
+MB0498	pardessus de viole	String instrument		pardessus	Pardessus or sopranino member of the viol family.	47ce1322-27d4-42ad-a020-f3dccfab9431
+MB0499	parkapzuk	Wind instrument	bagpipe	parakapzsuk; paraksup; parapsuk; parkapsuk	Has a bag made of goat, veal or sheepskin, and a double piped chanter collected in a single horn. Both wooden chanters have holes; one for m…	5f948a81-90ce-4d4a-b1d8-863ff1052c88
+MB0500	pedal accordion	Wind instrument	chromatic button accordion	pedal harmony	Developed in Warszaw, Poland, it is used in folk music. It has two foot-operated bellows attached via metal/brass pipe; its body-bellows are…	025d1189-c74b-4f04-8ea0-c00c483b8296
+MB0501	pedal piano	String instrument	piano	piano-pédalier	The pedal piano is a kind of piano that includes a pedalboard, enabling bass register notes to be played with the feet, as is standard on th…	1487a644-3720-4ea9-8e37-3de180b5be85
+MB0502	pemade	Percussion instrument		gangsa pemade; permade; pernade	Second highest pitched gangsa, it is deeper than the kantil but also has 10 brass or bronze keys suspended over short resonating pipes set i…	8dd31b5e-a96e-4bf8-8f55-59930bb89dc9
+MB0503	percussion idiophone	Percussion instrument	struck idiophone	percussion idiophones	Generally consists of one to very many plates, sticks, or other objects hit with (or against) various types of mallets.	a2783aac-898d-48a3-a7fd-34457cccf10a
+MB0506	Pianet	Electronic instrument	electric piano	Hohner Pianet; Hohner Pianet N; Hohner Pianet T	Electromechanical piano (not to be confused with electronic piano) designed and produced by Hohner in the 1960 and 70s.	0e229ccc-5fea-45f5-8efc-abc6c1c17dea
+MB0507	piano accordion	Wind instrument	accordion			ba4550e2-5bf1-4778-a3b7-1e5552d6dba9
+MB0508	piano duo	Ensemble			Chamber ensemble where two pianists play on a different piano each.	0a49e297-8430-44cd-be7b-1fd22560b6e1
+MB0509	piano four hands	Ensemble			Chamber ensemble where two pianists play on the same piano at the same time.	c3f3aacc-d9c0-4b6e-92e8-05df9af50e17
+MB0510	piano quartet	Ensemble			ensemble of piano, violin, viola and cello	ffa61786-07ed-48ed-b7bb-a17d248fba8c
+MB0511	piano spinet	String instrument	piano; struck string instruments		Small piano with drop action stickers manufactured from around 1930 to the early 1990s.	23af87b9-81a5-45ed-9d2e-cf4c64bfd932
+MB0512	piano trio	Ensemble			Chamber ensemble of three players (one piano, one violin, one cello).	2cb56c59-0eee-40ad-80b5-42594f49e760
+MB0513	piccolo oboe	Wind instrument	double reed	musette; oboe musette; piccoloboe	The piccolo oboe is the smallest and highest pitched member of the oboe family.	77b29599-96c7-4571-9fae-09e7e42b8175
+MB0514	piccolo trumpet	Wind instrument				9d718374-101c-495b-9402-7e3a5f2a3d0e
+MB0515	Pierrot ensemble	Ensemble			Chamber ensemble of five players (flute, clarinet, violin, cello and piano). Originally required for Schönberg's Pierrot Lunaire, it became …	51e92fd2-e56e-4576-8547-acb63e8b8446
+MB0516	piffero	Wind instrument	double reed		For the small flute used with drum, see fife. Often accompanied by accordions or bagpipes such as zampogna or müsa, it has 8-9 holes and a c…	814816db-3368-4889-a8cd-aa34bd1043f0
+MB0517	pipe and tabor	Ensemble			Originally an early European combination of a drum (tambourine) and pipe (fipple flute) were pipe was played by one hand and drum beaten by …	e31dd801-6cc3-49c1-b2f9-fc7700ce5ac1
+MB0519	piva	Wind instrument	bagpipe	piva emiliana	Traditionally played with the piffero in folk ensambles, the bag is usually made of kid-leather with 2 drones: a bass and a tenor and a chan…	47985fa9-1793-4b45-b573-c7893029cb34
+MB0520	pkhachich	Percussion instrument	shaken idiophone	phachich; пхъэцӏыч	The pkhachich is a traditional shaken percussion instrument of the Circassian peoples.	3e16a431-d473-47da-a621-935cf4643ac1
+MB0521	plucked idiophone	Percussion instrument	idiophone		"Plucked idiophones have spikes, nails or flexible tongues (""lamellae"") that are plucked in various ways to produce sound."	205acba3-c6aa-4e47-be4c-2be043cfd511
+MB0522	pluriarc	String instrument	lute family	ambo; bow lute; kissanga; lukombe	From West Africa, it has multiple curved necks each with one string, sometimes played a harp and sometimes with stops like a lute.	d43c2380-efe5-4488-b08f-777296d0c95c
+MB0523	pocket trumpet	Wind instrument				53c2545b-6430-4185-a106-42c0fa6a3a64
+MB0524	poi	Percussion instrument			Flax leaf balls filled with seeds, swung around to create rhythmic and visual patterns. An important element in the dance also known as poi.	9fb5bbba-2ee3-4791-98f5-e256429e353b
+MB0525	poi āwhiowhio	Wind instrument		Poi-ā-whiowhio; hopurangi; poi awhiowhio; poi äwhiowhio	A hollowed out gourd (hue) with one to three holes, swung around creating a whistling, chattering sound that resembled birds.	b6649fb6-d4cc-477e-ae8d-39145fb46d06
+MB0526	porotiti	Wind instrument			Whirring, spinning disks of many shapes, sizes and materials. When blown on, they also create a well of different humming sounds.	908b5372-2a64-4248-8c27-3e9c76951aa1
+MB0527	portative	Wind instrument	pipe organ	organetto; organino; payre of portatives; portatif	Constructed in medieval Europe to be as portable as possible, small upright wooden frame with keyboard contains a row of flute-pipes fed air…	66345913-2e2c-4527-a27d-403f619c3b3d
+MB0528	post horn	Wind instrument	natural horn	post-horn; postal horn; tonga horn	Developed as early as the 1500-hundreds and used for mail-carrier signalling, it was coiled (usually just once) and valveless.	e4f188db-5bb8-4d22-ac90-a76877fb4ea6
+MB0529	practice chanter	Wind instrument	bagpipe		Looks like a recorder, but with double reeds and bagpipe fingering system. Mostly used to learn how to play the pipes, but are occasionally …	7d401fc3-21ae-4299-abf9-075152446368
+MB0530	primero	Percussion instrument	garifuna drum		Tenor member of the garifuna drum group.	39b5634a-4802-4a66-a27a-58f37677c197
+MB0531	psaltery	String instrument	zither			2f5aa3e2-993e-42ab-85a9-97cad29c430c
+MB0532	pí thiu	Wind instrument	end-blown flute		Pí thiu or Pí khui vertical flute	63f030d8-f116-4f11-9dee-0cb1cfeb8445
+MB0533	pākuru	Percussion instrument		Toroa Pakuru; pakura; pakuru	Two rods, one is held in the mouth, which works as a resonance chamber while chanting and singing, the other is used for tapping and scrapin…	3158f700-4e47-4cc5-b641-228b0c5e5a4a
+MB0534	pātē	Percussion instrument	slit drum		The pātē is a Polynesian slit drum made from a hollowed-out log.	d22b8841-1553-4aa3-89f3-f050c81cfc1f
+MB0535	pōrutu	Wind instrument	end-blown flute		A longer version of the kōauau, it is from 30-40 cm up towards 60 cm in length and often made of bone and hardwoods such as porokaiwhiria, m…	2561db4d-1018-4a40-9b15-93bcbd0887d4
+MB0536	pūkaea	Wind instrument	natural brass instruments		Up to 2,5 meters long, this wooden trumpet was used for a variety of announcements like war, welcoming people and kumara planting.	7631a763-6c36-4fc6-b04a-1021cd60e7e5
+MB0537	pūmotomoto	Wind instrument	end-blown flute		Long wooden flute with a notched open top and a single finger hole near the end.	98837460-d363-4af3-920c-cc016b48d98d
+MB0538	pūpakapaka	Wind instrument	natural brass instruments; pūtātara	pupakapaka; püpakapaka	A pūtātara with a long wooden mouth piece, it has a deeper timbre than the pūtātara.	f7e7dd09-eef7-4c66-a226-c8eb6ba378e1
+MB0539	pūrerehua	Other instrument	bullroarer	hamumu ira garara; purerehua; pürerehua; rangorango	Made of wood, bone or stone, it has a long string attached. When spun around it produces a deep, loud whizzing sound that can be heard from …	2e345a93-045e-403a-80a9-4c6835c3a49e
+MB0540	pūtātara	Wind instrument	natural brass instruments	pumoano; putatara; pūmoana	Trumpet made of conch shell, it has a beautifully carved wooden mouthpiece. It was for signalling, but also ceremonial and ritual use.	beb9fd97-5bd1-47aa-ae4d-f230a55d9c04
+MB0541	pūtōrino	Wind instrument	natural brass instruments; transverse flute	puutoorino	Made of wood and shaped after the casemoth cocoon, it can be played as both a flute (female voice) and a trumpet (male voice).	00a005c8-45e7-45c6-ba25-fcd5c5ac2c58
+MB0542	qilaut	Percussion instrument	frame drum		The qilaut is an Inuit frame drum which has a handle and is made of caribou skin.	7aa50be7-d31a-4e89-9fb2-a32ad290b255
+MB0543	quadruple reed	Wind instrument	reeds			bcca3b4d-85ca-453e-8b5a-86a330b0ac39
+MB0546	Radhika's Mohan veena	String instrument	sarod	Mohan veena	For the modified slide-guitar created in the 1990's by Vishwa Mohan Bhatt see Bhatt's Mohan veena. Created as a modified sarod by Radhika Ma…	198ecbd1-48fa-43cc-bda9-370206689074
+MB0547	rainstick	Percussion instrument	shaken idiophone			2b2fa61b-2eae-4bf1-a0c0-37c5638b0660
+MB0548	rammana	Percussion instrument	frame drum	ramana; rumana	The rammana is a frame drum used in classical Thai and Cambodian music which forms one part of thon and rammana.	551e553a-cadd-4363-8723-f72aab5431d0
+MB0550	ranat kaeo	Percussion instrument	xylophone	renat kaeo	The ranat kaeo is a Thai instrument similar to a xylophone consisting of glass bars of varying lengths.	9086ef0c-37f8-4627-92f1-b42ce7794956
+MB0551	ranat thum	Percussion instrument	xylophone	lanat thoum; renat thum	The ranat thum is a xylophone from Thailand consisting of 18 wooden bars suspended by cords over a boat-shaped trough resonator. It is simil…	5af2c8f2-0153-46c0-8f79-ca03194bcab7
+MB0553	rauschpfeife	Wind instrument	double reed		Name also used in general for reed pipes from the 16th century, it has a conical bore and a windcap.	d6e67b1c-7b88-4157-9c67-aae74a163670
+MB0554	ravanahatta	String instrument	spike-fiddle	ravan hatha; ravana hasta veena; ravana hatta; ravanahatha	Ancient bowed fiddle, once popular in Western India and Sri Lanka.	959b623e-0b32-4d08-975c-b24d6cd9d6be
+MB0555	Reactable	Electronic instrument	electronic instruments		The Reactable is an electronic musical instrument consisting of a round translucent table on which blocks are placed.	3f3ea4f9-5b51-4f6f-833e-e3bd17e659b8
+MB0556	rebec	String instrument	bowed lute		With a pear shaped body made from a single piece of wood, this medieval bowed string instrument originated as a Byzantian lyra-like variant …	3f7302e4-f10f-4905-8d71-ef61141da383
+MB0557	reclam de xeremies	Wind instrument	woodwind		For the Mallorcan bagpipe, see xeremies. For the Latin American oboe, see chirimía. For the mediaeval woodwind, see shawm. Made of two tied …	1464f316-aca0-4690-9115-28805720f846
+MB0558	reco-reco	Percussion instrument	scraped idiophone	caracaxá; querequexé; raspador; reco reco	Originally made of bamboo or wood, it is now metal with springs and is used in Brazilian music.	2a3cc2ad-f9ab-48ad-940b-bf83d90012e6
+MB0559	reeds	Wind instrument	woodwind			1313dfa6-2073-4a55-b60e-904d47c704fa
+MB0560	regal	Wind instrument			Popular in the renaissance, it was small and portable with two bellows and brass reeds.	fc02e955-db77-4854-908e-efb04b1ab6a3
+MB0561	rehu	Wind instrument	transverse flute		Made of wood like mataī or tutu, this long flute has a transverse blowing hole with a fipple like European flutes but finger holes in the st…	5c5cf664-4685-4089-bce0-b8c7e16ac698
+MB0562	renaissance rackett	Wind instrument	double reed	Racquetten; cortalli; rackett; ragget	Originating 1590 or earlier and made of wood or ivory, it had nine parallel cylindrical bores joined up at the top and bottom creating a con…	0f12e34a-b764-4c50-82d4-72436f3f256a
+MB0563	repeater	Percussion instrument		akete; akette; aketteh; kete	Also known as kette or keteh, it is the smallest size/pitch drum. It has a tight goat skin membrane and it is struck with the fingertips. Im…	30aeef52-3ebf-405e-9baa-ef6c6f3ef6d5
+MB0564	reyong	Percussion instrument	gong-chime	reong	Set of 4 to 12 small metal gongs suspended in a string carriage, played by two to four players.	12937176-5f04-4c8e-b75a-56f18754684e
+MB0565	rhythm sticks	Percussion instrument	concussion idiophone	czijôszk do bãbnieniô; drum stick; drumstick; lemmi-stick		f1e042f5-2a09-47b1-9cdf-1018d239d330
+MB0566	rondador	Wind instrument	pan flute		Made of cane, it is used in Ecuador.	75f77da4-41f2-4c64-9a5c-0528048f07e3
+MB0567	ronroco	String instrument	lute family	ronroko; ronrroco	An octave lower than the charango, it is the largest member of the family.	7c166511-91b1-4a18-80f8-74122946e6f0
+MB0568	rototom	Percussion instrument	frame drum			104b6bfb-d695-4214-9ea7-1117857065c3
+MB0569	ruan	String instrument		ruǎn; 阮	Family of Chinese plucked lutes.	c679782c-2d59-45b8-ab24-f19dd243fa03
+MB0570	rubab	String instrument	lute family	kabuli rabab	Related to bowed instrument rebab, it is played in many countries, from India to Afghanistan. It's made of wood and covered with a membrane …	7e42e637-c7b4-422c-ad56-f7fafbd961bb
+MB0571	rudra veena	String instrument	tube zither	radra veena; rudra been; rudra bin	Considered the originator of all Indian strings (veena) it was used for ritual and meditation, North Indian raga and Dhrupad music. It has t…	aea9661c-cbda-4bf3-a61d-d78697472f29
+MB0573	rōria	Percussion instrument	mouth harp	kukau; roria; röria	Thin quiet mouth harp like instrument made of wood or bone.	0c5e5de9-605c-4487-b454-ef70ef8c1996
+MB0574	sac de gemecs	Wind instrument	bagpipe	bot; xeremies	Very similar to the xeremies, the main difference being that here all the drones are functional.	2bdc15fd-5223-4352-84b9-dba247dcdeba
+MB0575	sackbut	Wind instrument				0d012882-abbf-4c93-8fa8-494a192dcca0
+MB0576	saduk	Wind instrument			A cross between a saxophone and a duduk invented and played by Alexander Berne.	b6c87b0e-5f2b-49a4-bc0e-457e0e4951b9
+MB0578	samica	String instrument	lute family	dangubica; kutarevka; kuterevka	Also known as dangubica or kuterevka, it is similar to the bisernica and the ancestor of the entire tamburica ensemble. This plucked long-ne…	291e2d38-cdc9-4b9e-b592-5d653f32da6c
+MB0581	Saraswati veena	String instrument		Ekantha veena; Raghunatha veena; Sarasvati vīṇa; Tanjore veena	Used in Carnatic tradition, named after goddess of art and music Saraswati, it is known since ancient times. Lute with a gourd sound resonat…	41761936-5dbc-433f-b558-a7ef14fe9b08
+MB0582	saron barung	Percussion instrument			"Often called simply ""saron"", it plays the basic, balungan melody."	5b159ed5-2c58-4200-accb-c2ac5c9ace7f
+MB0583	saron demung	Percussion instrument			"Called simply ""demung"", it is the largest and deepest pitched of the regular saron."	81da5ec5-4a2f-4481-b01d-fb8ab9ea116d
+MB0584	saron family	Percussion instrument	metallophone	saron; sarun	Part of the Sundanese gamelan, these consist of a decorated wood resonator (rancak) upon which is resting six to nine thick, smooth, bronze …	7f025c8a-cfe8-4ac7-844a-346877fb2607
+MB0585	saron panerus	Percussion instrument			"Called simply ""panerus"", it has seven bronze keys resting on a decorated rancak box. Keys are hit by tabuh mallet with head of buffalo horn."	2656be9c-b531-4cbb-a5b5-30454054343c
+MB0586	saron peking	Percussion instrument			Similar to panerus with which it has a different but overlapping range, it has 6 bronze keys tuned for the slendro key.	b3fe02dc-f412-464e-b216-8c3fe45de456
+MB0587	saron wayang	Percussion instrument			Used in the Javanese Wayang puppet theatre, it has nine large bronze keys set in a decorated frame.	3b7be43c-0b3b-42dd-8560-d61e41f6bd61
+MB0588	sarrusophone	Wind instrument	double reed		The sarrusophone is a family of transposing musical instruments, intended to serve as a replacement in wind bands for the oboe and bassoon.	0a9f3342-e58a-4317-bc9b-cd09a7b9df78
+MB0589	sasando	String instrument		sesando; sesandu	Made of palmyra leaves that act as a resonator and a bamboo-tube stuck with wooden pegs where the plucked strings are attached, this traditi…	c264a81d-1307-4d83-acc5-c46e2096196c
+MB0590	satsuma biwa	String instrument	biwa		Supposedly created as a modification of the moso biwa as a boost for samurai, it has four strings and elevated frets, a large plectrum calle…	de564c42-80db-4040-96c4-269ad9e063ac
+MB0592	saw sam sai	String instrument	spike-fiddle	saw samsai; so sam sai	The saw sam sai is a three-stringed bowed instrument from Thailand.	c1d76a22-ab32-45af-be76-f3abd1eb2b2a
+MB0594	saxophone quartet	Ensemble		sax quartet	Ensemble of four saxophones, generally SATBar.	c03b445f-2790-4518-95b8-6b7fd600c6b9
+MB0595	saz	String instrument	lute family		The saz is a long-necked fretted lute.	ce9452ac-917f-4cab-ab13-75996816202b
+MB0596	Schwyzerörgeli	Wind instrument	diatonic button accordion		The Schwyzerörgeli is a type of diatonic button accordion used in Swiss folk music.	dd37a6b6-5d95-4bd7-a77d-e4a8a1b43b26
+MB0597	Scottish smallpipes	Wind instrument	bagpipe		Like (and developed from) the Northumbrian smallpipes, but with Great Highland Bagpipe fingering.	c8ea4d81-ec45-489e-8f68-1616f36966e3
+MB0598	scraped idiophone	Percussion instrument	idiophone			dbd1ec09-34fd-412e-b73b-124e46cf7cdf
+MB0599	segunda	Percussion instrument	garifuna drum		Bass member of the garifuna drum group.	c9fb1652-1a07-4f3d-b886-ec961efcc7c8
+MB0600	seni rebab	String instrument		Indian rabab; dhrupad rabab; long-necked rabab; punjab rabab	Larger, with a longer neck than the kabuli rabab, it has a hide covered soundbox and wooden fingerboard with mostly gut strings, it was deve…	9869ff82-9ba5-41a7-b2b2-e19f4e4a1083
+MB0601	serpent	Wind instrument	keyed brass instruments			443c51d5-44ca-4ed5-bda8-d405e9d43270
+MB0603	shaken idiophone	Percussion instrument	idiophone	barškīnė; rattle	Shaken idiophone or rattle. Sound is produced by moving or shaking, usually contains small concussing parts.	bd734382-68be-4b7b-adbd-cbdf35cdf740
+MB0604	shehnai	Wind instrument	double reed	mangal vadya; shahnai; shanai; shenai	From the Indian subcontinent, it is used at marriages, in temples and concerts - made of wood with a double reed and wood/metal flared bell,…	5e17d5f8-65b1-464d-9f90-47259d832507
+MB0605	shichepshin	String instrument	bowed lute	шыкӏэпшынэ	The shichepshin is a traditional bowed string instrument of the Circassian peoples.	62c8a609-5ecd-4347-aadf-4518358ace5f
+MB0609	shofar	Wind instrument	natural brass instruments		Ram's horn natural brass	7cb02b35-2fea-4d24-88d4-92413f090e3f
+MB0610	shruti box	Wind instrument	reed organ	sruti box; surpeti; surudippetti; surudippeṭṭi	The shruti box is similar to a harmonium and is used to provide a drone accompaniment.	e6b016f0-61bf-4c5b-99c4-8f8724ad12b5
+MB0611	shudraga	String instrument		shadraga; shanz	The shudraga is a Mongolian fretless lute with three strings.	e8e99279-0774-404a-9973-d4b06c759fc4
+MB0612	singing bowl	Percussion instrument	friction idiophone			01571d2e-c4a0-4544-86d2-b289ef837498
+MB0613	single reed	Wind instrument	reeds	singular reed		6d46f715-b23f-4a1d-a716-fbce01916329
+MB0614	sistrum	Percussion instrument	shaken idiophone	seiththera; sisstr; 𓏣	Used in sacred rituals, it is made of metal or clay rattle with metal discs which jangle when shook.  Not to be confused with the West Afric…	760558ba-a02a-4692-9046-b819cf75836f
+MB0615	slapstick	Percussion instrument	clapper	whip; whipslap	Often known as whip, it consists of two parts joined together by a hinge, it creates a whip-like sound when clacked together.	0b9887d6-e05d-42b0-bdfc-02c36b930642
+MB0616	slenthem	Percussion instrument	gendèr	gender panembung; slenṭem	Used in Javanese gamelan, the 6(slendro)-7(pelog) bronze keys beat by a disk mallet(tabuh) are suspended above individual tube metal/bamboo …	73173277-b7ef-4d5e-83b2-205cd2f12488
+MB0617	slentho	Percussion instrument		slento; slenṭo	Unlike the other saron, its six-seven keys are not smooth, but bevelled or bossed, like the gendèr and the slenthem, which has largely repla…	30d1a6e4-84e7-4e59-94d2-bcf148cadb32
+MB0618	slide brass instruments	Wind instrument	brass		Slide brass instruments use a slide to change the length of tubing.	4a5da835-0f0d-4010-b013-76d0a48f8578
+MB0619	slide guitar	String instrument	guitar			41d2c709-81e2-415c-9456-a0a3d14f48bd
+MB0620	slide whistle	Wind instrument	fipple flute		Also known as swanee whistle or piston flute, it consists of a mouthpiece similar to the one of a recorder and a tube with a piston that var…	712646f2-7776-4ec5-975f-189c79bcc9dd
+MB0621	somu dūdas	Wind instrument	bagpipe	dudas; düdas; dükas; dūdas	Used since the 16th century, it is made of lamb, kid or in the north, sealskin. it has1-2 drones and a chanter with 4-7 fingerholes.  The na…	0139871c-60da-4356-99d0-89c87cde2ca2
+MB0622	song loan	Percussion instrument			The song loan is a traditional Vietnamese instrument consisting of a hollow wooden body (about 7 cm in diameter) attached to a flexible spri…	147b8ca4-462b-4301-98a2-5df86700d30e
+MB0623	sopilka	Wind instrument	fife		Sopilka (generally) refers to a type of fife used in Ukrainian traditional music.	98aa22df-731f-4697-b5a0-f5525293e630
+MB0624	sopranino recorder	Wind instrument	recorder			db7a69ea-4cae-44ed-94ab-a112b6bd7a3c
+MB0625	sopranino saxophone	Wind instrument	saxophone			d069369c-cc96-43c9-bfa7-e2074f8949a6
+MB0626	soprano clarinet	Wind instrument	clarinet			7a102d81-9c6c-446d-8560-4876cbe7a70a
+MB0627	soprano flute	Wind instrument		descant in B-flat; soprano in B-flat		b524b7a7-2d87-43a7-9977-8a9081ff6e0f
+MB0628	soprano recorder	Wind instrument	recorder	c² flute; discant recorder; fourth flute; sopranblockflöte	Also known as the descant, it is the third smallest and most common member of the modern recorder family.  Traditionally made of various woo…	0d6efd24-2fe8-4a46-b34d-46633e30f642
+MB0629	soprano violin	String instrument			Tuned a fourth above and about three quarters the size of a standard violin.	ba6af31f-8b2f-4c5e-903e-882f88f6d3a6
+MB0630	sordellina	Wind instrument	zampogna	surdelina; surdellina; surdulina	Starting as a pastoral folk bellows blown bagpipe, it was developed into a complex 2, then 3 and finally 4 chanter with keyed regulators.	07b7ae55-2b8e-4945-bab2-041919953e46
+MB0631	spike-fiddle	String instrument	bowed string instruments		Particular type of fiddle, long neck, often few strings and usually with a rather small soundbox, it has a spike at the end.	f7f486a1-5811-4a13-be6b-1123058b4d3d
+MB0632	spilåpipa	Wind instrument	fipple flute		The spilåpipa is a Swedish fipple flute with eight finger-holes on the top, but no thumb-holes. It has a modal tuning.	59705bd6-e257-41ce-92b6-6593fc2e9b39
+MB0633	spinet	String instrument	harpsichord	espineta; espineto; spinnet; spinnit	A smaller harpsichord, often with the strings at 30 degrees from the keyboard.	42d9a141-2a20-4c6d-bdb9-ab7e7e4bec42
+MB0634	spinettone	String instrument	harpsichord; spinet		Exceptionally long spinet, with multiple strings choirs, its bass-tones were produced by longer, not thicker strings.	2c27460e-5af0-4b0d-a1db-3618ae04865a
+MB0635	spoons	Percussion instrument	castanets			8dfbf2ce-239d-4e6e-90c1-4467a8c853ba
+MB0636	steel-string acoustic guitar	String instrument	acoustic guitar	steel-string guitar	"Also know and ""flat-top"", it is a hollow-body acoustic guitar strung with steel strings."	26d4b233-19a2-4b73-b59f-0cae9895ac96
+MB0637	stick zither	String instrument	zither		Class of instruments where the body is a simple stick with one to many strings attached, may also have up to several usually gourd or wood r…	ebf1c87b-b936-47e1-9a67-bd28c2bbdca6
+MB0638	string quintet	Ensemble			Chamber ensemble of five players (two violins, one viola & one cello, then either a second viola, a second cello or a double bass).	d2385a89-bb39-4316-b562-27b2c19ff531
+MB0639	string trio	Ensemble			Chamber ensemble of three players (one violin, one viola, one cello).	6efec29d-013a-4687-b710-fe25800eb358
+MB0640	Stroh violin	String instrument		horn-violin; trumpet-violin; violin-trumpet; violinophone	Instead of a wooden body, it is amplified by a metal horn resonator; its louder and more directional sound made it useful in loud areas.	984e4a24-7d34-4661-a6e4-0a28374ff89f
+MB0641	struck idiophone	Percussion instrument	idiophone		Struck idiophone are ones where sound comes from striking the instrument and it as a whole vibrates, without the use of strings or membranes…	95f47dc2-22f1-4ed0-9f76-7d04669e825b
+MB0642	struck string instruments	String instrument	strings			8f59848c-c7f4-458f-8fc6-d3b7fc252c3f
+MB0643	subcontrabass recorder	Wind instrument	recorder			0385a06d-dbed-4112-bfab-31b78590dd8f
+MB0644	suikinkutsu	Other instrument			A suikinkutsu is a type of Japanese garden ornament which uses dripping water to create music. Although it is also known as a Japanese water…	e47f81f3-bc5c-489d-aedc-de967ee1e0d1
+MB0645	suka	String instrument	fiddle		The suka is a once-extinct fiddle from Poland.	426bfbc7-848a-455a-bd1c-da49f012996f
+MB0647	surbahar	String instrument	sitar	bass sitar	Effectively a bass sitar, it has 4 main, 3-4 chikari(drone) and 10-11 resonance strings strung over a wide wooden neck. Made of flat-cut gou…	1ed558ad-1628-4e5f-8d14-e18e54375cd5
+MB0648	sursingar	String instrument	lute family	sursanga; surshringar; sursringar; sursrngar	Improved further by Jaffar Khan, it had a wooden soundboard, the fingerboard covered with iron and all strings are steel or bronze. Less com…	efca0287-2791-4209-b29b-1019891cb8d2
+MB0649	swaragat	String instrument	seni rebab	sarbutle; sringara; svarabat; svarabath	The skin covered deep wooden soundbox, has a neck that is carved like parrot and a gut bridge with three courses of double silk strings, plu…	39e0c607-be04-48fd-b098-3b391efbaf36
+MB0650	swarmandal	String instrument	zither	Indian harp	Used chiefly in classical Indian songstyles Khyal and Thumri, it has a trapezoid shape with up to 40 metal strings fastened at both sides by…	06aaeafb-8dce-468f-8b46-7607a30438cb
+MB0651	synclavier	Electronic instrument	synthesizer			6b18e468-2ae1-4b4c-ad1f-5296894e956f
+MB0652	syrinx	Wind instrument	pan flute		Named after the myth of the nymph Syrinx, this reed pan flute was used in ancient Greece.	ca17a349-e0e3-4b9b-b74d-898a2b54b43e
+MB0653	sáo meò	Wind instrument	hmông flute	saó ôi flute	saó ôi (flute of the Muong)	29872747-b9cf-43f5-a258-0997728ed058
+MB0654	sáo trúc	Wind instrument	transverse flute	sáo tre	The sáo trúc is a Vietnamese transverse flute made of bamboo.	3fd7b592-fddd-4d46-a7c6-cac6b1fcba41
+MB0655	säckpipa	Wind instrument	bagpipe	Swedish bagpipes	Almost completely disappeared by the 20th century, modern revivals based on museum examples are now used by Swedish folk musicians.	b0f2f2b0-3ccf-4478-8dc7-a0e970b76808
+MB0656	sênh tiền	Percussion instrument	concussion idiophone; scraped idiophone; shaken idiophone	coin clappers; sapek clappers; senh tien; sinh tien	The sênh tiền is a Vietnamese instrument which is a combination of clappers, a rasp and a jingle, made from three pieces of wood with old Ch…	67115113-23f7-4080-a454-c4575b101c70
+MB0657	t'rưng	Percussion instrument	xylophone	dan trung; t'rung	The t'rưng is a bamboo xylophone from the central highlands of Vietnam which is played by ethnic groups such as the Bahnar and the Ê Đê.	4c44a7c0-6b80-4ea8-bf6c-dda8b10d6c96
+MB0658	table steel guitar	String instrument	steel guitar	Fender Stringmaster; console steel guitar		8ecb065e-fa6a-4009-98bd-bd742307d0e8
+MB0659	tabor	Percussion instrument	snare drum	tabret	Not to be confused with the tambourine. For the Brazilian frame-drum hit with a whisk see tamborim. Side drum, often with one or more snares…	2a2dec1a-e7a7-41d6-8b99-316c244a52fd
+MB0660	taepyeongso	Wind instrument	double reed	hojeok; hojok; saenap; t'aep'yŏngso	The taepyeongso is a Korean double reed wind instrument which has a conical wooden body with a metal mouthpiece and cup-shaped metal bell.	5efb3f0e-6b8c-472a-81b1-52aa5beee1e7
+MB0661	taishogoto	String instrument	keyed box zither	Nagoya harp; taisgoto; taishokoto; taishō koto	Developed in the early Taisho period to modernise the ningenkin, it has metal strings and typewriter like keys with a wooden lid over the fr…	1975ee04-30de-4835-9656-102ccd49c0c7
+MB0662	talharpa	String instrument	bowed lyre		The talharpa is a four-stringed bowed lyre from northern Europe, mostly played in Estonia.	ff696aa2-629e-41ef-b68d-d8fe4b52a34a
+MB0663	tambura	String instrument	tanbur		Do not confuse with:  Serbo-Croat “tamburica” ensemble. Persian/Turkish ancient things that evolved from “tanbur”. Unrelated Indian drone “t…	b9362496-01a3-4298-b369-84313cec5ee1
+MB0664	tanbou ka	Percussion instrument	cylindrical drum		Tanbou ka or Tambu ka (a small high-pitched drum).	5f0a32fa-82b2-49da-a9ee-78cad9cf756d
+MB0666	tangent piano	String instrument	piano			34be09ba-f2e4-47c7-82b3-c9c43108d510
+MB0667	taonga pūoro	Ensemble		tahonga pueoro; tahonga puro; taonga puoro; taonga püoro	Traditional musical instruments of the Māori people of New Zealand. Consists of gourds (hue), shell flutes (pu), wooden flutes (koauau), win…	d7dd3b43-50e9-4418-bf7b-f999a80dfa08
+MB0668	tap dance	Percussion instrument	body percussion	tap dancing	Tap dancing is a type of dance in which the dancer wears special shoes that make a clicking sound as the dancer's feet strike the floor.	57be0c41-d871-424d-a4e0-db6d5cbb6aea
+MB0669	tape	Other instrument				672c19ec-0ca3-4ece-9f6b-7f1c0018a0e6
+MB0670	taphon	Percussion instrument	barrel drum	tapone	The taphon is a traditional barrel drum from Thailand.	24c693ab-d71e-4d18-9317-cb5f370e8059
+MB0671	tar	Percussion instrument	frame drum		A tar is a single-headed frame drum from North Africa and the Middle East.	1bf0ba6f-b062-4efe-a56f-33cc1035f6bb
+MB0672	taragot	Wind instrument	single reed	tárogató; töröksíp	The taragot is a Turkish/Hungarian/Romanian reed instrument related to the saxophone and clarinet.	018753b1-f9d2-4d14-b66e-c348aa49a89c
+MB0673	tarol	Percussion instrument	caixa; snare drum		Used in military march and Brazilian samba, it is carried over the shoulder. Made of metal about 10 cm diameter,15 cm high, it has two membr…	c9af11ea-cb3a-492c-90bb-f4b57637824a
+MB0674	tarota	Wind instrument	double reed; shawm		Traditional Catalan double reed of medieval origin. Used for cobla music in the 19th century, it mostly disappeared: current tarotas are a m…	fa084f70-c9de-403f-bf9d-c411e4d2e5b4
+MB0675	te kū	String instrument	musical bow	te ku; te kü	"Also knownas just ""kū"", mouthbow with a single string is struck with a light implement of bone or wood."	1b425878-18c7-4bcd-9129-bed989295e5f
+MB0676	tef	Percussion instrument	frame drum		A Turkish version of tambourine / daf, made from animal skin and played with the fingers.	b0acbf59-ffba-4e2f-8104-31aed56fa364
+MB0677	telharmonium	Electronic instrument	electronic organ	teleharmonium	Considered the first electromechanical musical instrument, an early electronic organ.	4573bc1b-9388-47d6-b184-ed8a4d1fb47e
+MB0678	temple blocks	Percussion instrument	wood block			c49f1425-946e-43d4-8890-41d226a1ec69
+MB0679	temür khuur	Percussion instrument	aman khuur	tömör huur; tömör khuur; tömör xuur	Used in folk medicine and shamanistic rituals.	d0feefd4-147a-4ed9-a07c-c267b436f47f
+MB0680	tenor guitar	String instrument			Slightly smaller, four-string version of the steel-string acoustic guitar.	a1baa57d-6ab4-461e-89df-448d6fd2c597
+MB0681	tenor horn / alto horn	Wind instrument	horn			2d5bfd00-f0ef-41e5-aa33-fd706b1d0da0
+MB0682	tenor recorder	Wind instrument	recorder			4a6559f5-cbd3-4f72-8386-af028547ff30
+MB0683	tenor trombone	Wind instrument	trombone		The tenor trombone is a trombone pitched in B♭.	35e94803-4462-407a-8a01-3e474a45aaaf
+MB0684	tenor viol	String instrument		Tenorviole	Tenor member of the viol family.	47005798-5f13-4768-b16b-6e88350358e3
+MB0685	tenor violin	String instrument		Viola Profonda; Viola profunda; tenor viola	Tuned an octave below the traditional violin and at about half the size of the cello, it has a range between the cello and the viola. It has…	c7a69b51-7105-4d4c-ab4a-ec118e24d1f0
+MB0687	thavil	Percussion instrument	barrel drum	tavil		f8cbf484-c96d-4261-a06d-5a097a403956
+MB0688	The Great Stalacpipe Organ	Percussion instrument	lithophone	stalactite organ	Located in the Luray Caverns of Virginia USA, it is made of an electric console wired to mallets striking thirty-seven stalactites producing…	06b3aae9-ad08-4607-9ea3-767b5dee897b
+MB0689	theatre organ	Wind instrument	pipe organ		A pipe organ, such as the Wurlitzer, meant to accompany early films.	e632d6e3-23ec-41f5-bcce-79b8e231ce1e
+MB0690	theorbo	String instrument	lute	théorbe; tuorbe	Developed as an extended range bass-lute in Italy during the late sixteenth century, it has an extended neck with a second pegbox.	1a9bc5e0-b9f4-46df-8b64-4000b2253211
+MB0691	thon	Percussion instrument	goblet drum	โทน	The thon is a goblet drum with a ceramic or wooden body used in classical Thai and Cambodian music which forms one part of thon and rammana.	30ec9a37-d7a5-41ca-942d-55f27015ff2f
+MB0692	three-hole pipe	Wind instrument	fipple flute	schwegel; schwiegel; swegel; tabor-pipe	Ancient pipe originating in Europe, with analogies all over the world, it is often combined with tabor drums.	676c2b33-388a-48e6-8892-e588ba4dc129
+MB0693	ti bwa	Percussion instrument	xylophone		Percussion instrument from Martinique made of a piece of bamboo laid horizontally and beaten with sticks.	76e5cc5f-aa37-4be3-a035-9e7518250ee5
+MB0695	tinya	Percussion instrument	cylindrical drum	kirki		18c75d4c-279a-4301-95de-d3116a918212
+MB0697	tiêu	Wind instrument			The tiêu is a Vietnamese end-blown flute related to the Chinese xiao.	8882d96e-1efc-41b7-811a-b28f269adce0
+MB0698	tololoche	String instrument	lute family		The tololoche is a traditional musical instrument from northern Mexico, similar but smaller than the European double bass.	6dbf2716-9556-4324-9c06-a0a985cd8e78
+MB0699	Tonette	Wind instrument		Flutophone; Precorder; Song Flute	introduced in 1938, it was a popular American educational instrument.	8251d55c-fa4b-4a2f-90e6-e8259501bc06
+MB0700	tonkori	String instrument	lute family			642a60e9-6ea3-4153-90de-748dae23324e
+MB0702	torupill	Wind instrument	bagpipe		With a bag made of seal's stomach, 5-6 holed chanter of juniper, pine or ash and 1-2 drones, it was attested at least from the 14th century.…	79345283-e218-409c-b7d5-98bed8d243bb
+MB0703	traditional basque ensemble	Ensemble			Instruments used in the traditional music of the Basque people.	0e7c8402-0603-4aff-880b-bb7eedbf5c01
+MB0704	transverse flute	Wind instrument	flute	Indian bamboo flutes		ebc071ab-24b6-4b2f-8981-340f1f76f2bd
+MB0705	trautonium	Electronic instrument	analog synthesizer	tratonium	Electric instrument from the 1930's with a resistor wire and moving metal plate.	f10484f0-5905-4f0b-bb0b-db91653ab6e9
+MB0706	treble flute	Wind instrument				1456509e-1a34-469d-a899-e195a0afe183
+MB0707	treble recorder / alto recorder	Wind instrument	recorder			1a625158-8e67-49b4-9dd5-fa6a0208bdcf
+MB0708	treble viol	String instrument		descant viol; diskantviol; viole de gambe soprano	The treble, descant or soprano member of the viol family.	85d0d4b3-2bf0-4925-a3ad-3ebb49d04728
+MB0709	treble violin	String instrument			Tuned an octave above and about quarter the size of the traditional violin.	837c7244-ece8-47ff-b215-78f4aa4f227d
+MB0710	trikiti	Wind instrument	diatonic button accordion	trikitixa	Diatonic button accordion used in traditional Basque ensemble.	b34f161a-56ea-4567-b2e4-509238fe7691
+MB0711	tritantri veena	String instrument	tube zither		Used in India during the medieval period, it had a stick-zither body with 3 strings.  For the the long necked lute called “tritantri veena” …	6ac6bd46-c0a9-453a-b7df-17386973cfb1
+MB0712	tromba marina	String instrument	bowed lute	marine trumpet	A tromba marina is a triangular bowed string instrument used in medieval and Renaissance Europe that consists of a body and neck in the shap…	7c7468e5-85aa-4c7a-b9a8-5d385b769918
+MB0713	tràm plè	Wind instrument	hmông flute		A variant of the Hmông flute, in which the flute blower’s lips enclose the blowing hole with the vibrating free reed inside.	44c74dce-8a26-4837-9c19-918b412c6a6a
+MB0714	trắng jâu	Wind instrument	trắng lu		trắng jâu bass form of trắng lu	8045f4a3-7f12-4de4-957d-26908a2714eb
+MB0715	trắng lu	Wind instrument	hmông flute			fd5caadd-efab-487a-8954-cd243396fbe2
+MB0716	trống bông	Percussion instrument	goblet drum	bong drum	The trống bông is a wooden Vietnamese drum with a single drumhead which is played with both hands.	ffe6c3f3-12a2-42e7-8cde-7ae24ff83fc5
+MB0717	tsampouna	Wind instrument	bagpipe	ascomandura; askomadoura; askomadoùra; askomandoúra	For the similarly named Italian bagpipe, see zampogna. Made of goatskin, it has two chanters and no drones. Its name is a reborrowing of the…	86cf0eb3-b12d-40eb-bc32-928a1aebe3b1
+MB0718	tubax	Wind instrument	single reed			6e33958d-741f-4669-955a-5a29a99f72e1
+MB0719	tube zither	String instrument	zither		A zither with a hollow or vaulted body, it can have several resonators.	e5408785-e228-4919-9e79-6f997bcdfea5
+MB0720	tubon	Electronic instrument		E-50	Electronic bass organ, proto-keytar.	e346ac37-b617-4c12-b54d-d25474b6c7b7
+MB0721	tubulum	Percussion instrument	percussion idiophone	RimbaTubes; backpack tubulum; paddle tubulum; pvc instrument	Invented (or at least made popular) by Blue Man Group, it is made of alternating length PVC pipes and hit with sticks or flaps. It is popula…	f1c020ff-ec49-452c-a556-eb65381c3795
+MB0722	tulum	Wind instrument		გუდა	Used by shepherds and peoples of the southeast Black Sea region, it is droneless with parallel double chanters each with 5 fingerholes.	27d05e5b-1801-4596-8646-c091ed545fe8
+MB0723	tumbi	String instrument	lute family	eka-tara; ektar; ektara of Bengal; toomba	For the one string drum-zither also called ektar/ektara, see gopichant. Used in Punjabi folk and devotional music, it has a single string ov…	b0edfd1a-e728-4b93-802e-96c1c2f9d84a
+MB0724	tumutumu	Percussion instrument	percussion idiophone		Made of resonating stone, wood or bone with a striker of stone, bone or hardwood, this ancient instrument was used for rhythm during chantin…	938c3958-7a02-4b36-866d-8a3f1b1d589e
+MB0725	tun tuna	String instrument		apang; chohokhode; tun tun; tuntun	For the one stringed two spoke drum-zither, see gopichant. For the one stringed panjabi lute, see tumbi. Used by among others the Bhil, Kukn…	068b3fc6-c11f-4ae7-bd85-ca5725b2b9f4
+MB0726	tungso	Wind instrument		tongso	Made of thick aged bamboo, this notched end-blown flute may have had a buzzing membrane.	ac40beac-a9c4-46a6-82c5-615182440439
+MB0727	txalaparta	Percussion instrument	xylophone	zalaparta	Traditionally consisting of two long wooden planks with corn-husks attached for vibration and hit with long, thick sticks called Makilak, to…	3e439f48-e677-4aea-b064-b1436476d7b3
+MB0728	txistu	Wind instrument	fipple flute; three-hole pipe	(t)xirula; chistu; txilibistari; txilibitu	Fipple flute that became a symbol for the Basque folk revival.	79230fb5-5836-4344-88ca-ddbf7cfd7a36
+MB0729	typewriter	Percussion instrument	percussion idiophone		Besides being used for writing, it has also been used in percussion.	af1799a2-1088-4243-a0d2-8f89e3fc515c
+MB0730	tzoura	String instrument		tsoura; tzouras		8bb9074d-5964-48bf-8d62-d8e6e4785e9c
+MB0731	tōkere	Percussion instrument	castanets		Castanets of wood, bone, bivalve shells or even flax leaf.	90bd690b-f86d-4ea3-b87d-f945b1ab9e38
+MB0732	ugal	Percussion instrument		gangsa ugal; pengumbang	Even lower pitched than the pemade , it also has 10 bronze keys suspended over tuned bamboo resonators that the player hits with a small ham…	dda8aef8-a19f-4026-bb0d-f4e617125e94
+MB0733	ukeke	String instrument	musical bow		The ukeke is a Hawaiian musical bow made of koa wood, 16 to 24 inches long and about 1½ inches wide with two or three strings fastened throu…	751a051c-833e-46cf-91b7-9a462b8d674c
+MB0734	upright piano	String instrument	piano			b236d895-ffc1-4be0-bdcb-8979ce50c2a5
+MB0735	vacuum cleaner	Other instrument				a2d87653-559a-4c8e-9cb0-f72effb8df8f
+MB0736	valiha	String instrument	zither		The valiha is a bamboo tube zither from Madagascar.	a6a6d1b0-5d8a-4f8b-a89d-a6b6c5f8a1b0
+MB0737	valve trombone	Wind instrument	trombone			fe2e16fc-81b7-44e7-a96a-c3afac308a04
+MB0738	valved brass instruments	Wind instrument	brass		Valved brass instruments use a set of valves which introduce additional tubing into the instrument.	d2f041b9-b6a6-4973-badd-1b07a37192c9
+MB0739	venu	Wind instrument	transverse flute	kūḷalu; pillana grōvi; pullankuzhal; veṇu	South Indian transverse bamboo flute	ee71289c-5a64-4dbc-b623-af1c7d2ff7bd
+MB0740	vertical viola	String instrument		alto violin	Tuned the same as the viola but larger in size, it is played upright like the cello.	72ef1be2-d348-4d95-ad39-ff00a4636bd6
+MB0741	vessel flute	Wind instrument	flute		A vessel flute is a type of flute with an enclosed rather than cylindrical body.	cecb2656-7032-4dc3-8e95-6bb641aba0f4
+MB0742	veuze	Wind instrument	bagpipe	veze; vuze	Known since atleast the 16th century, it has a long chanter, a three-segmented shoulder drone and a short blowpipe.	699655a2-24b9-4ed0-b250-8e633fa02cc2
+MB0743	vibrandoneon	Wind instrument	accordina; mouth organ		Wood accordina with piano keys invented in Italy.	cc996d06-87dc-420e-9ed7-a52867ca6e1e
+MB0744	vibraslap	Percussion instrument	shaken idiophone			9c79b6a1-89bb-4603-9b52-e7b0b639d317
+MB0745	vichitra veena	String instrument	bin-sitar; tube zither	batta veena; batta-been; ghoshvati vina; shiv veena	Played like a slide guitar, it has two large gourd resonators with a teak body that often ends in carved peacock heads. Fretless, it has 4 m…	b4d38ac1-7f12-437c-a61a-be2796ffc559
+MB0746	vielle	String instrument	fiddle	vieille	Medieval violin	69de43e4-1d92-4b65-8c63-2f9daf485f81
+MB0748	vihuela	String instrument	lute family	Spanish vihuela	Spanish string instrument.	298ee599-e2b1-4cc1-b579-5e1c90153004
+MB0749	viol consort	Ensemble			Ensemble of multiple instruments of the viol family, usually including at least treble, tenor and bass viols.	e46bffd3-15a3-426a-923f-705839128609
+MB0751	viola d'amore	String instrument	fiddle		"While it is fretless and played like the violins ""a la braccia"", it has a flat back, c-holes and sloping shoulders like a viol. From the bar…"	b47bdb4e-59ee-42d3-96ef-a1f0fdd61148
+MB0752	viola organista	String instrument	hurdy gurdy			83f85adc-472c-45ea-ba5e-22e5a825d49f
+MB0753	violin octet	Ensemble	fiddle	New Violin Family	New Violin Family of eight proportionally-sized violins developed mainly by Carleen Hutchins, each based directly on the standard violin and…	07bffa5f-17a9-4945-bff4-d716af5b6d4e
+MB0754	violino piccolo	String instrument	violin family		The violino piccolo is a stringed instrument of the baroque period. Most examples are similar to a child's size violin in size and are tuned…	c042d8e2-389f-47ed-98d7-c2c853b85290
+MB0755	viololyra	String instrument	bowed lute		Inspired by the violin in 1920, Hellenic luthiers combined parts of the old Cretan lyra with the violin.	6dadb008-cb59-40cb-8b3a-a07942ffb818
+MB0756	violoncello piccolo	String instrument		piccolo bass; piccolo cello; viola pomposa	Baroque string instrument sized between the viola and cello, it typically has five strings.	67cf878f-d93d-42e8-bf31-e6e51f154bf6
+MB0757	violone	String instrument		contra-bass viol; contrabass viol; contrabass viola da gamba; great bass viol	Violone, The largest/deepest member of the Viol family.	cb2793f8-cbab-4eec-b54c-b5ee77956caf
+MB0758	violotta	String instrument	viola			8be32b8c-7845-4b6f-94dd-ff4d83169c26
+MB0759	virginal	String instrument	harpsichord			635db582-10ba-4488-8574-0a616090b599
+MB0760	VM Bhatt's Mohan veena	String instrument	lap steel guitar	Mohan veena; jaywant guitar	For the modified sarod created in the 1940's by Radhika Mohan Maitra see Radhika's Mohan veena. Created as a modified Hawaiian or lapsteel g…	9a2b6ae1-a5fb-42ab-b18c-9985e8b606c4
+MB0761	voice synthesizer	Electronic instrument	synthesizer	Auto-Tune; Multivox; Sennheiser Vocoder; Speak & Spell		b0f83029-6d38-4f6f-bd30-db44e427f497
+MB0762	vuvuzela	Wind instrument	natural brass instruments		Plastic horn often used at football matches in South Africa.	81b96fc2-932b-4eb7-a17d-b0c4238988e1
+MB0763	Wagner tuba	Wind instrument	tuba			5dd9c3cb-f206-4248-8c35-35314b739652
+MB0764	walaycho	String instrument	lute family		Smaller than the charango, it has 10 strings.	7548dc7a-4f44-451e-84b6-b2c673b7e0a1
+MB0765	Warr guitar	String instrument	struck string instruments			1e49948d-7522-4444-aa5d-633dfbeffb1f
+MB0766	washtub bass	String instrument	lute family	barrel bass; bucket bass; gas-tank bass; gutbucket	Consisting of a stick, a string and an resonator of various materials, it is used in many countries' low-cost and DIY cultures. It's technic…	b8471d2e-9b9d-4f52-822e-b19a37cd30ac
+MB0767	water drum	Percussion instrument	membranophone		Used ceremonially all over the world, they are clay, wood or metal pots containing water, with an animal hide membrane.	310cb712-c512-419f-9b61-ab77325b6636
+MB0768	waterphone	Percussion instrument	friction idiophone			4cdeebe9-aaa5-4f13-9842-77a387d890ce
+MB0769	wavedrum	Electronic instrument	drum machine; synthesizer	percussion synthesizer		53174999-953d-482b-9240-23acf2452fc9
+MB0771	Wiener Horn	Wind instrument	valved brass instruments	Vienna horn	Used in classical and orchestral music, mostly by orchestras in Vienna.	11329bb7-5657-4a6b-ac9e-917d9f77d784
+MB0772	willow flute	Wind instrument	fipple flute	sallow flute		987da87e-c5d3-42eb-805d-27b8c3f3ebde
+MB0773	wind chime	Percussion instrument	chimes		It differs from other chimes by addition of pendulum(s), such to be worked by wind, the sonorous parts can be rods, bells or other shapes of…	43c68c41-8b93-4330-b1af-524705ec289e
+MB0774	wind instruments	Wind instrument		blasinstrument; instrumint à vint; puhački instrumenti; puhkpilliq		77a0f1d3-f9ec-4055-a6e7-24d7258c21f7
+MB0775	wire-strung harp	String instrument	harp			65116580-10f5-4123-9d86-5e379cd9ab83
+MB0776	wooden fish	Percussion instrument	slit drum	Chinese temple block; moktak	Highly stylised wooden block-bell, it is used in religious ritual. Its prototype, fish board (gyoban) is more obviously shaped like a fish.	22fc02a8-0f6e-4b69-895b-b4db47cc8eac
+MB0777	wot	Wind instrument	pan flute	vot; vott	Used in Laos and Isan traditional music, it is made of bamboo or ku wood, the individual stopped pipes are arranged around a central core us…	73bf4431-d576-46d1-a1c3-158b4de0764d
+MB0778	xalam	String instrument	lute family	khalam; kologo		e7c17460-e42d-4ffc-8167-4bd6d7e4f2c5
+MB0779	Xaphoon	Wind instrument	single reed		The Xaphoon is a keyless chromatic single-reed woodwind instrument.	c64428c0-bed0-4af9-8c71-d66f82117ee7
+MB0780	xeremies	Wind instrument	bagpipe	xeremia	For the two tube bagless used on Ibiza, see reclam de xeremies. For the Latin American oboe, see chirimía. For the mediaeval woodwind, see s…	21d5d4ec-f8ef-44dc-b02f-e564de057dcc
+MB0782	xiaoluo	Percussion instrument	gong	xiǎoluó	The xiaoluo is a Chinese small flat gong whose pitch rises when struck with the side of a flat wooden stick.	ce0a1033-3e33-4d7f-8230-1fb53a57651d
+MB0783	xun	Wind instrument	vessel flute	xūn	The xun is a vessel flute from China which has a blowing hole at the top.	f9b9fdfb-24fb-4d28-a6c0-9663a6e76faf
+MB0784	xylorimba	Percussion instrument	xylophone		Member of the xylophone family, it has 5 octaves.	8f009f9b-dc32-4797-897d-f05f284d24ae
+MB0785	yatga	String instrument	guzheng	yatag; yatug; ятга; ヤタッグ	The yatga is a traditional Mongolian plucked zither, similar to the Chinese guzheng.	ee8fcd03-bc67-4f6b-9d55-6821c80eb751
+MB0786	yaylı tanbur	String instrument	bowed lute	yali tanbur; yayli tambur; yaylı tambur	The yaylı tanbur is a bowed lute from Turkey derived from the older plucked tanbur.	ea37234d-a59b-4823-954f-aa499970ca94
+MB0787	yazh	String instrument	harp	cakota yazh; cakotayazh; cenkotti yazh; cenkottiyazh	Used by Dravidian Tamil from at least 2200 years ago, by the 7th century it had come into disuse. It had a curved ebony neck with gut string…	9b3df089-7736-49e0-a63d-35a8f4aeda36
+MB0788	yehu	String instrument	huqin	yēhú; 冇弦; 椰胡	The yehu is a Chinese bowed string instrument in the huqin family, made from a coconut shell.	8c10a781-2414-4dbb-9a33-d8a156ac12f1
+MB0789	yonggo	Percussion instrument	barrel drum		Used in the traditional Korean music daechwita, it consists of a large two headed wooden barrel painted with dragon designs.	f95fca04-8fcd-4a98-8344-d154d762e7a2
+MB0790	yoochin	String instrument	hammered dulcimer	yochin	Originally introduced to Mongolia from China, it has 13 double wire-strings and a black lacquered wooden soundboard. Traditionally it was on…	f9159e56-0908-4b37-b0db-7b6bc4872a94
+MB0791	yu	Percussion instrument	scraped idiophone	eo; yü; ŏ	From atleast 600 BC, it is made of wood to resemble a tiger with its spine made into notches. Notches are scraped to produce sound, it was u…	b624a0f8-5fc6-484a-ac15-6310e1d30365
+MB0792	yueqin	String instrument	lute family	gekkin; laqin; moon guitar; moon lute	It has a short fretted neck originally with four silk but now usually nylon or steel strings, and large flat round body, earning it the nick…	d16da325-4ae5-45fd-a0ec-338766795391
+MB0794	zampogna	Wind instrument	bagpipe	sampogna	For the South-American panpipe, see siku. For the similarly named Greek bagpipe, see tsampouna. Made of an entire sheep or goatskin, it has …	7186ac40-8154-49d0-8d24-33efd8c2a41e
+MB0796	zhaleika	Wind instrument	single reed	brelka; bryolka	Russian single reed hornpipe	3a2a5c61-ad2d-415e-b141-c9b22a6bf836
+MB0797	zhonghu	String instrument	huqin	zhōnghú; 中胡	The zhonghu is a Chinese bowed string instrument developed from the erhu and tuned a fourth or a fifth lower.	e2be1d64-66ff-438e-8433-66ba7b99715d
+MB0798	zhongruan	String instrument	ruan	zhōngruǎn; 中阮	Tenor member of the Chinese ruan family of lutes.	d096e1f9-6664-4c64-b793-842072e917ac
+MB0799	zhuihu	String instrument	huqin	zhuiqin; zhuizixian	Originating from Henan province, this fretless huqin has the accustomary two strings, but is made of wood.	17ed4105-1345-4235-82b2-6fd81f69ee1d
+MB0800	zill	Percussion instrument	finger cymbals		Known since ancient times in south-east Europe and Turkey, small bronze finger cymbals are used for dancing and other performances. These ar…	8fb042f2-32d1-4ab2-9417-e13c6c78f960
+MB0801	zither	String instrument	plucked string instruments			c6a133d5-c1e0-47d6-bc30-30d102a78893
+MB0802	çevgen	Percussion instrument	shaken idiophone	Turkish crescent; Turkish jingle; chaghana	Originating in Central Asia, it gained symbolic value to the Turks who used it in Ottoman marching-bands. It is 2-2,5 m long, has a bronze c…	6682190e-1ead-40cf-903f-76cbe351c019
+MB0803	ütőgardon	String instrument	lute family; struck string instruments	gardon; utagarden; utogarden; utogardon	Played in folk music of Hungary and Transylvanian regions, its 3-4 strings are plucked or struck with a stick, and its soundbox is made of t…	1c3a672f-fbde-418c-aa06-cd3fe0d7536e
+MB0804	čelo	String instrument	lute family	celo; celo tamburasko; celovic; csello	Counterpoint member of the Serbo-Coatian tamburica orchestra, it is guitar like like the bugarija. It can have two double strings and two si…	7a9311bd-24d1-4d46-b83e-80731c8a4332
+MB0805	đing buốt	Wind instrument	end-blown flute	dinh puot	Ede traditional flute, four finger holes, blowing reed.	ce8bf63e-ffb2-44e9-a886-16ca6522525f
+MB0806	đing năm	Wind instrument	mouth organ	ding nam; ku puốt; m'boắt; m'buốt		39f40186-44a6-41a3-8c1d-4fd746e663bb
+MB0809	đàn tam	String instrument			The đàn tam is a three-stringed fretless lute from Vietnam.	2c8e50c2-f089-45b2-9e3e-7ca795039a7f
+MB0810	đàn tam thập lục	String instrument	hammered dulcimer		"Recently imported into Vietnamese instruments, this thirty-six stringed dulcimer has many counterparts in various countries, such as ""santoo…"	27cb4a0f-bdfa-4b1d-8b78-3768063154e3
+MB0811	đàn tứ	String instrument	lute family	đàn đoản	The đàn tứ or đàn đoản is a traditional Vietnamese moon-shaped lute with a short neck.	cbf5a4cb-7174-4eb6-8fbe-0b0b06118250
+MB0812	đàn tứ dây	String instrument	bass guitar		A latter-day construction in the form of a four-stringed, square-bodied bass guitar.	2c27736b-e774-4f8e-8290-604d3c468870
+MB0813	đàn tỳ bà	String instrument			The đàn tỳ bà is a four-stringed Vietnamese lute with a pear-shaped body. Like the Chinese pipa from which is derived, it has greatly elevat…	8fcc9dea-8978-4dc9-8feb-acb35f8dca2c
+MB0814	ģīga	String instrument	bowed psaltery		The ģīga is a two-stringed bowed zither found in Latvia.	55d5c4e6-e9e2-48f4-a1fb-b6fdbdaa81d7
+MB0816	šargija	String instrument	lute family	shargija; sharki; sharkia; çallgi	The šargija is a long necked plucked lute used in the folk music of the Balkans.	26fccd38-1a9e-42d4-8e42-b0cb1b79e579
+MB0817	żafżafa	Percussion instrument	friction drum	rabbaba	The żafżafa or rabbaba is a Maltese friction drum consisting of a container (made of tin, pottery or wood) covered with animal skin with a l…	741715c4-1756-43f8-b56f-a4aca1dc2cfd
+MB0818	żaqq	Wind instrument	bagpipe		Made of a whole animal-skin, it is used in festivals. The blowpipe (mserka) is made of rubber or cane, the chanter (saqqafa) are two cane pi…	659128ed-9e82-41ee-a872-4b6f8b32234b
+MB0819	żummara	Other instrument	mirliton		"Made of bamboo with one end covered with grease-paper, it is a ""side-blown"" mirliton. Not to be confused with the Egyptian/Iraqi zummara whi…"	9478e40f-bab3-4fcb-a52a-f3df65770bfa

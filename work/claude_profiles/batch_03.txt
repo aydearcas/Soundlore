@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+dobrado ; medium ; C mood_bright | F trumpet trombone snare_drum | O ; Brazilian band march for civic and religious processions.
+dohori ; medium ; C duet improvisation | F mb:madal tempo_mid female_vocals male_vocals | O  ; Nepali sung dialogue between groups, improvised to the madal drum.
+doina ; high ; C improvisation melisma | F mood_melancholic | O cimbalom | X pan_flute ; Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató; pan flute is only one option.
+dondang sayang ; medium ; C duet tempo_slow mood_romantic | F gong | O accordion ; Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dongzu dage ; high ; C choir drone | F female_vocals mood_bright | O ; Kam grand song: unaccompanied polyphonic choir with a sustained low part and imitations of nature.
+drum and bugle corps ; medium ; C mb:bugle mb:mellophone | F tempo_fast dynamic_contrast | O | X march ; Competitive marching ensembles of brass and battery percussion; show music rather than marches.
+drumline ; medium ; C instrumental_track tempo_fast cymbals | F syncopation flam drum_roll | O | X brass_band ; Marching percussion section: snares, tenors, basses and cymbals; brass is absent.
+embolada ; medium ; C pandeiro male_vocals duet | F tempo_fast rap | O ; Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+fakaseasea ; low ; C call_and_response | F handclaps tempo_slow | O  ; Tuvaluan seated group dance song, slow and choral.
+famo ; medium ; C male_vocals | F large_drums storytelling repetition | O female_vocals ; Basotho accordion music with bass drum and sung or recited lament poetry.
+fandango ; medium ; C time_6_8 | F flamenco_guitar violin | O ; Iberian dance in triple time with guitar and castanets.
+fandango caiçara ; medium ; C mb:viola_caipira | F handclaps tambourine male_vocals | O  | X castanets ; Coastal São Paulo and Paraná dance with viola, rabeca and adufo; stamping instead of castanets.
+fantezi ; medium ; C male_vocals | F synthesizer electric_bass | O ; Turkish popular style close to arabesk, lighter and more pop.
+field recording ; high ; ; Already described: environmental recording without music-making.
+fife and drum ; high ; C fife large_drums | F tempo_mid | O | X piccolo brass_band ; American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+filipino rondalla ; medium ; C mb:octavina mb:bandurria | F instrumental_track tremolo_picking | O ; Philippine plucked-string ensemble of banduria, octavina, laúd, guitar and bass.
+fon leb ; low ; C mb:saw_duang | F tempo_slow female_vocals instrumental_track | O heterophony | X gamelan_tuning ; Northern Thai court dance music; Thai ensembles do not use gamelan tunings.
+football chant ; high ; C repetition | F handclaps mood_energetic anthemic | O snare_drum ; Supporters' chants sung by crowds, often to borrowed tunes.
+frevo ; high ; C trombone saxophone trumpet instrumental_track | F syncopation mood_energetic | O ; Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo de bloco ; medium ; C female_vocals choir | F mood_nostalgic flute mandolin | O | X tempo_fast ; Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de rua ; high ; C trombone saxophone instrumental_track | F syncopation mood_energetic | O ; Instrumental street frevo for brass and saxophones.
+frevo elétrico ; medium ; C electric_guitar | F mood_energetic distortion | O ; Frevo played on electric guitars on Salvador's trio elétrico trucks.
+frevo-canção ; medium ; C lead_vocal intro | F trumpet saxophone mood_bright | O ; Song form of frevo: a fast brass introduction followed by a sung section.
+fuji ; high ; C male_vocals polyrhythm | F shekere agogo improvisation mood_spiritual | O synthesizer ; Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+funaná ; high ; C button_accordion male_vocals mood_energetic | F time_2_4 syncopation | O electric_bass | X accordion ; Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funeral march ; high ; C minor_key | F snare_drum drum_roll | O | X time_2_4 ; Slow processional march, typically in 4/4 with muffled drums and minor key.
+fungi ; medium ; C ukulele banjo guiro | F washboard triangle | O | X steelpan ; Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard; steel pans are not typical.
+gaelic psalm singing ; high ; C tempo_very_slow | F ornamentation free_meter | O ; Hebridean line-out psalmody: a precentor lines out and the congregation answers in slow, ornamented heterophony.
+gagaku ; high ; C mb:hichiriki mb:ryuteki mb:sho tempo_very_slow | F mb:biwa heterophony | O | X shakuhachi shamisen ; Japanese court music: hichiriki, ryūteki, shō, biwa and koto; shakuhachi and shamisen belong to other genres.
+gagok ; medium ; C female_vocals male_vocals tempo_very_slow | F gayageum mb:geomungo mb:daegeum mb:haegeum | O ; Korean classical art song: very slow, accompanied by a small ensemble.
+gaita zuliana ; high ; C maracas mb:friction_drum male_vocals | F time_6_8 mood_bright vocal_call_response | O protest_lyrics ; Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+garba ; high ; C tempo_fast mood_energetic | F female_vocals accelerando dholak | O synthesizer ; Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+ghazal ; high ; C male_vocals tempo_slow | F improvisation sarangi | O string_section ; Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ginan ; low ; C male_vocals | F mood_spiritual raga tempo_mid repetition | O harmonium ; Ismaili devotional hymns from South Asia.
+gnawa ; high ; C mb:gumbri mb:krakeb repetition | F accelerando vocal_call_response mood_spiritual | O | X castanets ; Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gondang ; medium ; C polyrhythm mood_spiritual | F ostinato heterophony | O ; Batak ceremonial ensemble: tuned drum sets, gongs and the sarune shawm.
+goombay ; medium ; C large_drums | F handclaps mood_bright | O | X steelpan ; Bahamian drum music on goatskin goombay drums, with rake-and-scrape instruments; steel pans are not typical.
+griot ; high ; C ngoni male_vocals improvisation | F female_vocals repetition | O ; West African hereditary praise singers and historians with kora, balafon and ngoni.
+grupera ; medium ; C electric_bass mood_romantic | F electric_guitar male_vocals | O ; Mexican band music of the 1970s–90s: keyboards, electric guitar and bass on cumbia and ballad rhythms.
+guaguancó ; high ; C male_vocals improvisation | F mb:quinto claves_instrument polyrhythm | O ; Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guarania ; high ; C tempo_slow male_vocals | F duet mood_nostalgic | O ; Paraguayan slow song in 6/8–3/4 with harp and guitars.
+guggenmusik ; high ; C tempo_mid | F trumpet trombone sousaphone | O | X march ; Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+gumbe ; medium ; C vocal_call_response polyrhythm | F female_vocals mood_energetic | O acoustic_guitar ; Guinea-Bissau dance music with gumbe drums and call and response.
+gwo ka ; high ; C male_vocals | F drum_solo mood_spiritual vocal_call_response | O  ; Guadeloupean drum music on ka drums with lead boula and makè and responsorial singing.
+għana ; medium ; C male_vocals duet | F guitar repetition | O ; Maltese sung debate in rhymed improvised verse, with guitars.
+habanera ; high ; C tempo_slow | F mood_sensual mood_romantic | O piano ; Cuban 19th-century song-dance on the habanera rhythm.
+haitian vodou drumming ; high ; C mood_spiritual vocal_call_response | F drum_solo mood_hypnotic | O ; Ritual drumming of Haitian Vodou: rada and petwo drum batteries with bells and songs for the lwa.
+hambo ; high ; C fiddle | F instrumental_track nyckelharpa mood_bright | O  | X accordion ; Swedish couple dance in 3/4, mainly played on fiddle; accordion is a later option.
+heikyoku ; high ; C mb:heike_biwa male_vocals storytelling | F tempo_slow free_meter | O  | X koto shakuhachi shamisen ; Recitation of the Tale of the Heike with biwa; the koto, shakuhachi and shamisen are not used.
+himene tarava ; high ; C mood_spiritual | F female_vocals male_vocals drone | O ; Tahitian polyphonic hymns with a sustained drone and a characteristic final cut-off.

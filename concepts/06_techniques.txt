@@ -10,7 +10,9 @@ guitar_technique | Guitar techniques |  |  |  |
   alternate_picking | Alternate picking |  |  |  | 
   sweep_picking | Sweep picking |  | Fast arpeggios with a sweeping pick stroke. | sweep picking | neoclassical_shred
   tapping | Tapping | two-hand tapping | Notes sounded by the picking hand on the fretboard. | tapping | 
-  legato_guitar | Legato (guitar) | hammer-on; pull-off | Slurred notes without picking. |  | 
+  legato_guitar | Legato (guitar) |  | Slurred notes without picking. | legato guitar | 
+    hammer_on | Hammer-on |  | A fretting finger strikes the string to sound a higher note without picking. |  | 
+    pull_off | Pull-off |  | A fretting finger pulls off the string to sound a lower note without picking. |  | hammer_on
   string_bending | String bending |  | Stretching the string to raise the pitch. | bluesy bends | 
   whammy | Whammy bar | dive bomb |  | dive bombs | 
   pinch_harmonics | Pinch harmonics | squeals | High harmonics produced with the pick; metal. | pinch harmonics | 
@@ -36,7 +38,6 @@ bass_technique | Bass techniques |  |  |  |
   walking_bass | Walking bass |  | Quarter-note bass outlining the chords; jazz. | walking bass | 
   octave_bass | Octave bass |  | Bass alternating octaves; disco. | disco bassline | 
   picked_bass | Picked bass |  |  |  | 
-  sub_bass | Sub-bass |  | Low frequencies below ~60 Hz. | heavy sub-bass; deep sub-bass | bass_heavy
   bass_slides | Bass glides | 808 slides | Pitch glides in the bass. | sliding 808s; gliding bass | tr808
 keyboard_technique | Keyboard techniques |  |  |  | 
   stride_piano | Stride piano |  | Left hand alternating bass and chord; early jazz. | stride piano | 
@@ -44,11 +45,11 @@ keyboard_technique | Keyboard techniques |  |  |  |
   montuno | Montuno | guajeo | Syncopated, repeated piano figure in salsa. | piano montuno | tumbao
   block_chords | Block chords |  |  |  | 
   piano_glissando | Piano glissando |  |  |  | glissando
-  leslie | Leslie speaker | rotary | Rotating effect of the Hammond organ. | leslie organ; rotary speaker | hammond_organ
 bowed_technique | Bowed-string techniques |  |  |  | 
   pizzicato | Pizzicato |  | Strings plucked with the fingers. | pizzicato strings | 
   string_tremolo | String tremolo |  | Very fast bowed repetition. | tremolo strings | 
-  staccato_strings | Staccato strings | spiccato |  | staccato strings | 
+  staccato_strings | Staccato strings |  | The short articulation; for the bouncing bow stroke use Spiccato. | staccato strings | 
+    spiccato | Spiccato |  | Bow stroke that bounces off the string. | spiccato strings | 
   legato_strings | Legato strings |  |  | legato strings | 
   col_legno | Col legno |  | Striking with the wood of the bow. |  | 
   double_stops | Double stops |  |  |  | 

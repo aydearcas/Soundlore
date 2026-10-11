@@ -1,0 +1,960 @@
+concept_id	label	facet	entry_terms	scope_note
+meter	Meter	RHY	time signature	Organization of beats into bars with recurring accents.
+simple_meter	Simple meter	RHY		Each beat divides into two.
+time_2_4	2/4 time	RHY		Two beats per bar; marches, polka, cumbia.
+time_3_4	3/4 time	RHY		Three beats per bar; waltz, mazurka, many folk ballads.
+time_4_4	4/4 time	RHY	common time	The default meter of nearly all popular music.
+compound_meter	Compound meter	RHY		Each beat divides into three.
+time_6_8	6/8 time	RHY		Two triple-divided beats; jig, Irish ballads, slow doo-wop.
+time_9_8	9/8 time	RHY		Three triple-divided beats, or aksak groupings (2+2+2+3).
+time_12_8	12/8 time	RHY		Four triple-divided beats; slow blues, soul, rock and roll ballads.
+odd_meter	Odd meter	RHY	odd time signature	Bars whose beats don't group evenly.
+time_5_4	5/4 time	RHY		Five beats (3+2 or 2+3).
+time_5_8	5/8 time	RHY		Five eighth notes, grouped 2+3 or 3+2.
+time_7_8	7/8 time	RHY		Seven eighth notes (2+2+3, 3+2+2…); prog rock, Balkan music.
+time_7_4	7/4 time	RHY		Seven quarter notes per bar.
+time_11_8	11/8 time	RHY		Eleven eighth notes; Balkan folk, progressive metal.
+time_13_8	13/8 time	RHY		Thirteen eighth notes; prog rock and math rock.
+aksak	Aksak rhythm	RHY		Uneven groupings of 2s and 3s typical of Turkey and the Balkans.
+mixed_meter	Mixed meter	RHY	changing meter	Frequent alternation of different time signatures within a section.
+free_meter	Free meter	RHY	ad libitum; unmeasured	Passages without a regular pulse, shaped by the phrase.
+hemiola	Hemiola	RHY		Three duple beats laid over or alternating with two triple ones (metric 3:2).
+polymeter	Polymeter	RHY		Simultaneous layers in different meters sharing a pulse.
+rhythmic_feel	Rhythmic feel	RHY	feel; groove	How the pulse is subdivided and placed, beyond the time signature.
+straight_feel	Straight feel	RHY	straight eighths	Even subdivisions, no swing.
+swing	Swing	RHY	swung eighths	Uneven (long-short) eighth notes built on a triplet.
+shuffle	Shuffle	RHY		A steady, pronounced swing pattern; the basis of blues and boogie.
+triplet_feel	Triplet feel	RHY		A pulse consistently subdivided into three.
+half_time	Half-time feel	RHY		The snare lands every other beat, so the music feels half as fast.
+double_time	Double-time feel	RHY		Percussion doubles the apparent speed of the pulse.
+laid_back	Laid-back feel	RHY	behind the beat; in the pocket	Playing slightly behind the beat for a relaxed feel.
+driving_feel	Driving feel	RHY	ahead of the beat	Playing ahead of or insistently on the beat for urgency.
+rhythmic_device	Rhythmic devices	RHY		Techniques that alter or enrich the basic pattern.
+syncopation	Syncopation	RHY		Accents on weak beats or between beats.
+anticipation	Anticipation	RHY	push	A note or chord that arrives before the strong beat it was expected on.
+offbeat	Offbeat	RHY	upbeat; afterbeat	Systematic accenting of the weak parts of the beat.
+backbeat	Backbeat	RHY		Snare accent on beats 2 and 4 of a 4/4 bar.
+polyrhythm	Polyrhythm	RHY		Two or more conflicting subdivisions at once (3:2, 4:3…).
+three_against_two	Three against two	RHY	3:2	Three even notes against two in the same span.
+four_against_three	Four against three	RHY	4:3	Four notes against three in the same span.
+cross_rhythm	Cross-rhythm	RHY		Sustained polyrhythm as a structural basis, typical of West African music.
+clave	Clave	RHY		Five-stroke guide pattern in Afro-Cuban music.
+son_clave	Son clave	RHY	clave 3-2; clave 2-3	Son clave in its 3-2 and 2-3 orientations.
+rumba_clave	Rumba clave	RHY		Variant with the third stroke delayed.
+bossa_clave	Bossa nova clave	RHY		Brazilian clave variant used in bossa nova.
+tresillo	Tresillo	RHY	3+3+2	3+3+2 grouping of eighth notes, core of Afro-Latin rhythm and today's pop.
+habanera_rhythm	Habanera rhythm	RHY		Tresillo with an added note on beat two.
+stop_time	Stop-time	RHY		The band plays only isolated hits, leaving gaps for vocals or a solo.
+rhythmic_displacement	Rhythmic displacement	RHY		A motif repeated shifted against the beat.
+metric_modulation	Metric modulation	RHY		Tempo change derived from a shared subdivision.
+anacrusis	Anacrusis	RHY	pickup	Notes before the first downbeat of a phrase.
+hits	Ensemble hits	RHY	hits; kicks; accents; tutti hits	Accents played by the whole band together.
+tempo	Tempo	RHY	BPM	Speed of the pulse, in beats per minute.
+tempo_very_slow	Very slow tempo	RHY	largo; grave	Below ~60 BPM.
+tempo_slow	Slow tempo	RHY	adagio; downtempo	~60–80 BPM.
+tempo_mid	Mid tempo	RHY	moderato; andante; midtempo	~85–110 BPM.
+tempo_fast	Fast tempo	RHY	allegro; uptempo	~115–150 BPM.
+tempo_very_fast	Very fast tempo	RHY	presto; vivace	Above ~160 BPM.
+tempo_change	Tempo change	RHY		Tempo variation within the piece.
+accelerando	Accelerando	RHY		Gradual speeding up.
+ritardando	Ritardando	RHY	rallentando; ritenuto	Gradual slowing down, typical of endings.
+rubato	Rubato	RHY	tempo rubato	Expressive flexibility of tempo.
+fermata	Fermata	RHY		A note or rest held beyond its value.
+tempo_switch	Tempo switch	RHY		Sudden jump to another tempo between sections.
+drum_pattern	Drum patterns	DRM	beat	Drum patterns that identify styles.
+rock_beat	Basic rock beat	DRM		Kick on 1 and 3, snare on 2 and 4, eighth-note hi-hats.
+four_on_the_floor	Four-on-the-floor	DRM	4x4	Kick on every beat of a 4/4 bar; disco and house.
+stomp_clap	Stomp and clap beat	DRM		Heavily accented alternating kick and handclap; glam and modern folk-pop.
+breakbeat	Breakbeat	DRM	break	Syncopated pattern taken from funk breaks, often sampled.
+amen_break	Amen break	DRM		The break from "Amen, Brother" (The Winstons), foundation of jungle and drum and bass.
+chopped_breaks	Chopped breaks	DRM	break chopping	Sampled breaks rearranged at high speed.
+two_step_beat	2-step beat	DRM		Syncopated pattern without a kick on every beat; UK garage.
+boom_bap	Boom bap	DRM		Dry, prominent sampled kick and snare; 90s hip hop.
+trap_beat	Trap beat	DRM		Sixteenth-note hi-hats with rolls, long 808, half-time snare.
+trap_hihats	Trap hi-hats	DRM	hi-hat rolls	Hi-hats with 32nd-note and triplet rolls.
+drill_beat	Drill beat	DRM	UK drill	Displaced snare, triplet hi-hats and gliding 808.
+dembow	Dembow	DRM		Quarter-note kick with a tresillo snare (3+3+2); reggaeton.
+one_drop	One drop	DRM		Kick and snare together only on beat three; roots reggae.
+steppers	Steppers	DRM		Quarter-note kick in reggae and dub.
+rockers_beat	Rockers beat	DRM		Late-70s reggae pattern with busier kick and hi-hat.
+d_beat	D-beat	DRM	discharge beat	Hardcore punk pattern derived from Discharge.
+skank_beat	Skank beat	DRM	polka beat	Kick and snare alternating at high speed.
+blast_beat	Blast beat	DRM		Kick, snare and cymbals at maximum speed; grindcore and death/black metal.
+double_kick	Double bass drumming	DRM	double kick	Kick played with two beaters in continuous sixteenths or bursts.
+gallop	Gallop rhythm	DRM		Eighth–two-sixteenths figure repeated on guitar or kick; classic heavy metal.
+motorik	Motorik	DRM		Hypnotic, steady 4/4 pulse; krautrock.
+train_beat	Train beat	DRM		Continuous snare pattern imitating a train; country and rockabilly.
+purdie_shuffle	Purdie shuffle	DRM	half-time shuffle	Half-time shuffle with ghost notes.
+second_line	Second line	DRM		New Orleans parade groove.
+bossa_nova_beat	Bossa nova beat	DRM		Cross-stick on the bossa clave with kick on 2.
+samba_beat	Samba batucada	DRM		Samba percussion with surdo, caixa and tamborim.
+baiao_beat	Baião rhythm	DRM		Northeastern Brazilian rhythm with zabumba and triangle.
+cumbia_beat	Cumbia rhythm	DRM		Guacharaca or güira in eighths with kick in 2/4.
+tumbao	Tumbao	DRM		Syncopated conga or bass pattern in salsa and son.
+afrobeat_drums	Afrobeat drumming	DRM		Polyrhythmic drum pattern in the style of Tony Allen.
+jersey_club_beat	Jersey club beat	DRM		Kick pattern in five-stroke bursts with bed-squeak samples.
+footwork_beat	Footwork beat	DRM	juke	Syncopated kick patterns at ~160 BPM.
+dancehall_riddim	Dancehall riddim	DRM		Repeated rhythm track that different artists sing over.
+tamborzao	Tamborzão	DRM	batidão	Funk carioca percussion pattern derived from Miami bass.
+log_drum_groove	Log drum groove	DRM		Amapiano's percussive bass pattern.
+drum_technique	Drum techniques	DRM		Drumming performance techniques.
+ghost_notes	Ghost notes	DRM		Very soft snare strokes between the main ones.
+drum_fill	Drum fill	DRM		Short drum phrase linking sections.
+drum_roll	Drum roll	DRM		Rapid, continuous succession of strokes.
+snare_build	Snare build-up	DRM	snare roll riser	Accelerating snare roll before a drop.
+flam	Flam	DRM		Two near-simultaneous strokes, one a grace note.
+cross_stick	Cross-stick	DRM	rim click	Stroke with the stick resting across the rim.
+tribal_toms	Tribal toms	DRM		Insistent patterns on the low toms.
+drum_solo	Drum solo	DRM		Showcase section for the drums.
+linear_drumming	Linear drumming	DRM		No two strokes coincide; fluid funk and fusion patterns.
+brushes	Brushes	DRM		Playing with brushes; jazz and ballads.
+tonality	Tonality	HAR	key	Organization of pitches around a tonic.
+major_key	Major key	HAR		Major tonal center, generally bright in character.
+minor_key	Minor key	HAR		Minor tonal center, generally dark in character.
+modality	Modality	HAR		Harmony based on a mode rather than major/minor functions.
+atonality	Atonality	HAR	atonal	Absence of a tonal center.
+polytonality	Polytonality	HAR		Two or more keys at once.
+microtonality	Microtonality	HAR		Intervals smaller than a semitone.
+chord	Chords	HAR		Chord types by construction.
+triad	Triad	HAR		Three-note chord stacked in thirds.
+power_chord	Power chord	HAR		Root and fifth with no third; the basis of rock and metal.
+seventh_chord	Seventh chord	HAR		Triad with an added seventh.
+major_seventh	Major seventh chord	HAR	maj7	Soft-colored chord typical of jazz, soul and city pop.
+minor_seventh	Minor seventh chord	HAR	m7	Minor chord with a seventh; staple of R&B and neo soul.
+dominant_seventh	Dominant seventh chord	HAR	7	Tense chord that wants to resolve; everywhere in blues.
+half_diminished	Half-diminished chord	HAR	m7b5	Diminished triad with a minor seventh.
+extended_chord	Extended chords	HAR		Chords with 9ths, 11ths or 13ths.
+suspended_chord	Suspended chord	HAR	sus2; sus4	The third replaced by the second or fourth.
+add_chord	Added-tone chord	HAR	add9; add6	Triad with an added note but no seventh.
+diminished_chord	Diminished chord	HAR	dim	Stacked minor thirds.
+augmented_chord	Augmented chord	HAR	aug	Stacked major thirds.
+altered_chord	Altered chord	HAR	alt	Dominant with altered ninth or fifth.
+slash_chord	Slash chord	HAR		Chord with a note other than the root in the bass.
+quartal_harmony	Quartal harmony	HAR		Chords built in fourths; modal jazz.
+cluster	Tone cluster	HAR		Adjacent notes played together.
+neapolitan_chord	Neapolitan chord	HAR		Major chord on the lowered second degree.
+harmonic_device	Harmonic devices	HAR		Techniques of harmonic color and motion.
+modal_mixture	Modal mixture	HAR	borrowed chord	Chords borrowed from the parallel mode.
+secondary_dominant	Secondary dominant	HAR		Dominant of a degree other than the tonic.
+tritone_substitution	Tritone substitution	HAR		Replacing a dominant with the one a tritone away.
+chromatic_mediant	Chromatic mediant	HAR		Chords a third apart with a chromatic change; typical of film scores.
+picardy_third	Picardy third	HAR		Minor-key piece ending on a major chord.
+tritone	Tritone	HAR	diabolus in musica	Three-whole-tone interval; unsettling sound much used in metal.
+dissonance	Dissonance	HAR		Systematic use of tense, unresolved intervals.
+pedal_point	Pedal point	HAR	pedal	Sustained or repeated note under changing chords.
+reharmonization	Reharmonization	HAR		Changing the chords under a known melody.
+harmonic_rhythm	Harmonic rhythm	HAR		Rate at which chords change.
+jazz_harmony	Jazz harmony	HAR		Systematic use of seventh chords, extensions and substitutions.
+passing_chord	Passing chord	HAR		Brief chord connecting two structural chords.
+chromatic_bass_line	Descending chromatic bass	HAR	lament bass	Bass descending by semitones under changing chords.
+line_cliche	Line cliché	HAR		An inner voice moves chromatically over a fixed chord.
+chord_progression	Chord progressions	HAR		Stock chord successions.
+axis_progression	I–V–vi–IV progression	HAR	axis progression	The most-used pop progression since the 2000s.
+fifties_progression	I–vi–IV–V progression	HAR	doo-wop progression	Progression of doo-wop and 50s pop.
+ii_v_i	ii–V–I	HAR		Basic cadential cell of jazz.
+twelve_bar_blues	Twelve-bar blues	HAR	12-bar blues	I-IV-V scheme over twelve bars.
+andalusian_cadence	Andalusian cadence	HAR	i–VII–VI–V	Four-chord descent of flamenco and Spanish music.
+circle_progression	Circle-of-fifths progression	HAR		Roots descending by fifths.
+pachelbel_progression	Pachelbel progression	HAR	canon progression	Eight-chord progression of the Canon in D.
+royal_road	Royal road progression	HAR	IV–V–iii–vi; ōdō shinkō	Signature progression of J-pop and anime.
+epic_minor_progression	i–VI–III–VII progression	HAR		Minor progression of epic rock, EDM and trailers.
+mixolydian_vamp	I–♭VII–IV progression	HAR		Classic rock progression based on the Mixolydian mode.
+vamp	Vamp	HAR		Two chords alternating at length.
+one_chord	One-chord harmony	HAR	modal drone	Piece or section on a single chord.
+minor_plagal_cadence	Minor plagal cadence	HAR	iv–I	Minor subdominant resolving to a major tonic; very emotional.
+cadence	Cadences	HAR		Harmonic formulas that close a phrase.
+authentic_cadence	Authentic cadence	HAR	V–I	Dominant to tonic; conclusive close.
+plagal_cadence	Plagal cadence	HAR	IV–I	Subdominant to tonic.
+half_cadence	Half cadence	HAR		Phrase ending on the dominant, left hanging.
+deceptive_cadence	Deceptive cadence	HAR	V–vi	The dominant resolves to an unexpected chord.
+backdoor_cadence	Backdoor cadence	HAR	♭VII7–I	Arriving at the tonic from the flat seventh.
+modulation	Modulation	HAR	key change	Change of tonal center within the piece.
+truck_driver_modulation	Truck driver's modulation	HAR	key change up	Key change up a half or whole step in the last chorus.
+pivot_modulation	Pivot-chord modulation	HAR		Key change via a chord common to both keys.
+direct_modulation	Direct modulation	HAR		Key change without preparation.
+parallel_key_shift	Parallel key shift	HAR		Switching between major and minor on the same tonic.
+scale	Scales	SCL		Ordered pitch sets used as melodic material.
+major_scale	Major scale	SCL	ionian	Diatonic major scale.
+natural_minor	Natural minor scale	SCL	aeolian	Diatonic minor scale.
+harmonic_minor	Harmonic minor scale	SCL		Minor with a raised seventh; "neoclassical" sound.
+melodic_minor	Melodic minor scale	SCL		Minor with raised sixth and seventh.
+pentatonic	Pentatonic scale	SCL		Five-note scales.
+major_pentatonic	Major pentatonic	SCL		Bright pentatonic; country, folk, East Asian music.
+minor_pentatonic	Minor pentatonic	SCL		The basis of blues and rock solos.
+blues_scale	Blues scale	SCL		Minor pentatonic with an augmented fourth (the blue note).
+whole_tone_scale	Whole-tone scale	SCL		Six notes a whole step apart; dreamlike effect.
+octatonic_scale	Diminished scale	SCL		Alternating whole and half steps; tension in jazz, metal and film scores.
+chromatic_scale	Chromatic scale	SCL		All twelve pitches by semitones.
+bebop_scale	Bebop scale	SCL		Eight-note scale with a chromatic passing tone.
+altered_scale	Altered scale	SCL		Scale for altered dominants in jazz.
+phrygian_dominant	Phrygian dominant scale	SCL	hijaz; freygish	Phrygian with a major third; flamenco, klezmer and Middle Eastern music.
+double_harmonic	Double harmonic scale	SCL		Scale with two augmented seconds.
+hungarian_minor	Hungarian minor scale	SCL		Harmonic minor with an augmented fourth.
+japanese_scales	Japanese scales	SCL	hirajōshi; in; yo; insen	Japanese pentatonics with semitones.
+mode	Modes	SCL		Rotations of the diatonic scale, each with its own color.
+dorian	Dorian mode	SCL		Minor with a major sixth; funk, modal jazz, Celtic folk.
+phrygian	Phrygian mode	SCL		Minor with a minor second; flamenco and metal.
+lydian	Lydian mode	SCL		Major with an augmented fourth; magical or floating sound, common in film scores.
+mixolydian	Mixolydian mode	SCL		Major with a minor seventh; classic rock and folk.
+locrian	Locrian mode	SCL		Mode with a diminished fifth; very unstable sound.
+modal_system	Modal and tuning systems	SCL		Frameworks of particular traditions that go beyond a set of pitches: hierarchy of degrees, characteristic phrases, ornament, intonation or the tuning of an ensemble. Plain scales are under Scales.
+maqam	Maqam	SCL	maqamat	Arabic and Turkish modal system with microtones.
+raga	Raga	SCL	rāga	Melodic framework of Indian classical music.
+gamelan_tuning	Gamelan tuning systems	SCL	laras	General term; use Pelog or Slendro when the system is known.
+pelog	Pelog	SCL		Seven-tone gamelan tuning with unequal steps; pieces usually use five-tone subsets.
+slendro	Slendro	SCL		Five-tone gamelan tuning with nearly equal steps.
+melodic_element	Melodic elements	MEL		Recognizable melodic units.
+hook	Hook	MEL		Short, catchy phrase designed to stick.
+riff	Riff	MEL		Short repeated instrumental figure that carries the song.
+motif	Motif	MEL		Smallest melodic or rhythmic idea that gets developed.
+leitmotiv	Leitmotif	MEL		Motif tied to a character or idea that recurs.
+ostinato	Ostinato	MEL		Persistently repeated figure.
+ground_bass	Ground bass	MEL	basso ostinato	The repeated bass line itself; for the variation forms built on it use Passacaglia or Chaconne.
+countermelody	Countermelody	MEL		Secondary line in dialogue with the main melody.
+topline	Topline	MEL		Main sung melody over the track.
+arpeggio	Arpeggio	MEL		Chord notes played one after another.
+melodic_sequence	Melodic sequence	MEL		A motif repeated at other pitches.
+melodic_device	Melodic devices	MEL		Techniques of ornament and color in the line.
+chromaticism	Chromaticism	MEL		Use of out-of-scale notes by semitones.
+blue_note	Blue note	MEL		Flattened, ambiguous third, fifth or seventh.
+ornamentation	Ornamentation	MEL		Decorative notes on the melody.
+trill	Trill	MEL		Rapid alternation between two neighboring notes.
+mordent	Mordent	MEL		Quick ornament with a neighboring note.
+grace_note	Grace note	MEL		Brief ornamental note before the main one.
+acciaccatura	Acciaccatura	MEL	crushed note	
+appoggiatura	Appoggiatura	MEL		Leaning note on the beat that resolves by step; ornamental or harmonic.
+turn	Turn	MEL		Ornament that circles the main note.
+glissando	Glissando	MEL		Slide through the pitches between two notes, continuous or as a rapid scale.
+portamento	Portamento	MEL	glide	Expressive glide that connects one note to the next; on synthesizers often called glide.
+melisma	Melisma	MEL		The device; for a style of singing use Melismatic singing, for fast ornamental passages Vocal runs.
+syllabic_melody	Syllabic setting	MEL		One note per syllable.
+conjunct_motion	Conjunct motion	MEL		Melody moving by step.
+disjunct_motion	Disjunct motion	MEL		Melody with wide leaps.
+octave_doubling	Octave doubling	MEL		Line doubled at the octave.
+improvisation	Improvisation	MEL		Melodic creation in real time.
+modal_improvisation	Modal improvisation	MEL		Improvising over a mode with few chord changes.
+trading_fours	Trading fours	MEL	trading bars	Soloists alternating every few bars.
+song_section	Song sections	FRM		Building blocks of a popular song. Many work as structure tags in prompts.
+intro	Intro	FRM		Opening section before the first verse.
+verse	Verse	FRM		Narrative section with changing lyrics.
+pre_chorus	Pre-chorus	FRM	climb	Section that builds tension before the chorus.
+chorus	Chorus	FRM		Central section repeated with the same lyrics.
+post_chorus	Post-chorus	FRM		Extra hook after the chorus.
+refrain	Refrain	FRM		Line repeated at the end of each verse.
+bridge	Bridge	FRM	middle eight	Contrasting section, usually once, before the last chorus.
+interlude	Interlude	FRM		Instrumental or transitional section between parts.
+instrumental_break	Instrumental break	FRM		Passage without vocals.
+solo_section	Solo section	FRM		Showcase section for an instrument.
+guitar_solo	Guitar solo	FRM		Electric or acoustic guitar solo.
+sax_solo	Saxophone solo	FRM		
+piano_solo	Piano solo	FRM		
+synth_solo	Synth solo	FRM		
+bass_solo	Bass solo	FRM		
+breakdown_metal	Breakdown (metal)	FRM		Slow, heavy section of syncopated muted chords.
+breakdown_edm	Breakdown (EDM)	FRM	break	Low-energy section without kick before the build.
+build_up	Build-up	FRM	build; riser	Progressive rise in tension before the drop.
+drop	Drop	FRM		Climax of an electronic track, where bass and kick come in.
+beat_switch	Beat switch	FRM		Complete change of beat mid-track; hip hop.
+hook_section	Hook (hip hop)	FRM		The chorus of a rap track.
+skit	Skit	FRM		Spoken piece or short scene on a hip hop record.
+spoken_intro	Spoken intro	FRM		Recited opening before the music.
+final_chorus	Final chorus	FRM	double chorus	Last chorus, often intensified or doubled.
+turnaround	Turnaround	FRM		Chord passage leading back to the top of the form.
+tag	Tag ending	FRM		Final repetition of the last line.
+outro	Outro	FRM	coda	Closing section.
+fade_out	Fade-out	FRM		The song ends by gradually lowering the volume.
+cold_ending	Cold ending	FRM		Ending on a hit, no fade.
+false_ending	False ending	FRM		Pause that fakes the ending before the music returns.
+a_cappella_section	A cappella section	FRM		Voices-only passage.
+silence_break	Dramatic pause	FRM	stop	Brief total silence for impact.
+song_form	Song forms	FRM		Overall organizational schemes.
+verse_chorus_form	Verse–chorus form	FRM		Alternating verses and choruses with an optional bridge.
+aaba_form	AABA form	FRM	thirty-two-bar form	Form of the Tin Pan Alley standards.
+strophic_form	Strophic form	FRM	AAA	Same music for every verse.
+through_composed	Through-composed form	FRM	durchkomponiert	No repeated sections.
+binary_form	Binary form	FRM	AB	Two contrasting sections.
+ternary_form	Ternary form	FRM	ABA	Statement, contrast and return.
+edm_arrangement	EDM arrangement	FRM		Intro–build–drop–breakdown–build–drop–outro.
+multi_part_suite	Multi-part epic	FRM	epic	Long composition with linked movements; progressive rock.
+loop_based_form	Loop-based form	FRM		Structure built by adding and removing layers over a loop.
+medley	Medley	FRM		Chain of fragments from several songs.
+reprise	Reprise	FRM		Return of an earlier theme at the end of a record or work.
+segue	Segue	FRM		Seamless transition from one piece to the next.
+composition_form	Compositional forms	FRM		Forms of the art-music tradition, aligned with LCGFT.
+fugue	Fugue	FRM		Contrapuntal form based on imitation of a subject.
+canon	Canon	FRM		Strict imitation of one voice by another after a delay.
+round	Round	FRM		Canon at the unison that repeats indefinitely.
+invention	Invention	FRM		Short contrapuntal piece in two or three voices.
+sonata_form	Sonata form	FRM		Exposition, development and recapitulation of two themes.
+theme_variations	Theme and variations	FRM		A theme followed by successive transformations.
+passacaglia	Passacaglia	FRM		Variations over a repeated bass or progression.
+rondo	Rondo	FRM	ABACA	Instrumental refrain alternating with episodes.
+toccata	Toccata	FRM		Virtuosic keyboard piece with fast figuration.
+prelude	Prelude	FRM		Introductory or short free-form piece.
+etude	Étude	FRM		Piece focused on a technical difficulty.
+nocturne	Nocturne	FRM		Lyrical, night-themed piano piece.
+march	March	FRM		Piece in 2/4 or 4/4 at a military pace.
+waltz	Waltz	FRM		Dance in 3/4 accented on beat one.
+minuet	Minuet	FRM		Courtly dance in 3/4.
+scherzo	Scherzo	FRM		Fast, playful movement in 3/4.
+aria	Aria	FRM		Lyrical solo vocal piece within a larger work.
+recitative	Recitative	FRM		Declaimed singing that follows speech rhythm.
+chorale	Chorale	FRM		Lutheran hymn harmonized in four parts.
+motet	Motet	FRM		Sacred polyphonic choral composition.
+madrigal	Madrigal	FRM		Secular polyphonic vocal composition of the Renaissance.
+mass	Mass	FRM		Music for the Ordinary of the Mass.
+requiem	Requiem	FRM		
+hymn	Hymn	FRM		Strophic song of praise.
+anthem	Anthem	FRM		Solemn, collective piece; by extension, a mass sing-along song.
+lullaby	Lullaby	FRM		Soft song for sleep.
+lament	Lament	FRM		Piece of mourning or grievance.
+serenade	Serenade	FRM		Amorous or light piece, originally performed at night.
+ballad_form	Ballad	FRM		Song that tells a story; in pop, a slow song.
+power_ballad	Power ballad	FRM		Ballad that builds to a finale with full-power guitars and drums.
+rhapsody	Rhapsody	FRM		Free, episodic piece.
+fantasia	Fantasia	FRM		Free piece with an improvisatory character.
+cadenza	Cadenza	FRM		Free, virtuosic solo passage.
+overture	Overture	FRM		Introductory orchestral piece.
+suite	Suite	FRM		Series of linked pieces or dances.
+concerto	Concerto	FRM		Work for soloist and orchestra.
+symphony	Symphony	FRM		Orchestral work in several movements.
+cantata	Cantata	FRM		Vocal work in several movements.
+oratorio	Oratorio	FRM		Dramatic choral-orchestral work without staging.
+opera	Opera	FRM		Staged drama sung throughout.
+jazz_standard	Jazz standard	FRM		Repertoire tune used for improvisation.
+texture	Texture	TEX		How simultaneous lines combine.
+monophony	Monophony	TEX		A single unaccompanied melodic line.
+homophony	Homophony	TEX		Main melody with chordal accompaniment.
+polyphony	Polyphony	TEX		Several independent simultaneous lines.
+heterophony	Heterophony	TEX		Simultaneous variants of the same melody.
+unison	Unison	TEX		Several voices or instruments on the same pitch.
+sparse_texture	Sparse texture	TEX		Few elements at a time, lots of space.
+dense_texture	Dense texture	TEX		Many simultaneous layers.
+counterpoint	Counterpoint	TEX		Combining independent lines under voice-leading rules.
+imitation	Imitation	TEX		One voice repeats another's material.
+voice_leading	Voice leading	TEX		How each voice moves between chords.
+hocket	Hocket	TEX		A melody split note by note between voices.
+accompaniment_texture	Accompaniment textures	TEX		Typical accompaniment patterns.
+comping	Comping	TEX		Rhythmic, irregular chords under a soloist.
+alberti_bass	Alberti bass	TEX		Broken chord in low-high-middle-high order.
+harmonized_lines	Harmonized lines	TEX	twin guitars	Two instruments play the same line a third or sixth apart.
+drone	Drone	TEX		Note or chord sustained throughout the piece.
+call_and_response	Call and response	TEX		Alternation between a solo phrase and a reply.
+antiphony	Antiphony	TEX		Alternation between two choirs or groups.
+layering	Layering	TEX		Elements entering progressively and stacking up.
+voice_type	Voice types	VOC		Voice classification by range and ensemble.
+male_vocals	Male vocals	VOC		
+female_vocals	Female vocals	VOC		
+duet	Duet	VOC		Two singers alternating or singing together.
+soprano	Soprano	VOC		Highest female voice.
+mezzo_soprano	Mezzo-soprano	VOC		
+contralto	Contralto	VOC	alto	Lowest female voice.
+countertenor	Countertenor	VOC		Male voice in the alto range.
+tenor	Tenor	VOC		High male voice.
+baritone_voice	Baritone	VOC		Middle male voice.
+bass_voice	Bass voice	VOC		Lowest male voice.
+child_voice	Child voice	VOC		
+choir	Choir	VOC		Large vocal ensemble.
+gospel_choir	Gospel choir	VOC		Gospel-style choir with handclaps and call and response.
+gang_vocals	Gang vocals	VOC		Several voices shouting in unison; punk and hardcore.
+chant	Chant	VOC		Collective singing recited on few notes.
+singing_technique	Singing techniques	VOC		Techniques of sung vocal production.
+chest_voice	Chest voice	VOC		Low, resonant register.
+head_voice	Head voice	VOC		High, light register.
+falsetto	Falsetto	VOC		High, airy register above the natural voice.
+belting	Belting	VOC		Chest register pushed high with great power.
+mixed_voice	Mixed voice	VOC	mix	Blend of chest and head.
+vocal_vibrato	Vocal vibrato	VOC		Periodic pitch oscillation.
+breathy_vocals	Breathy vocals	VOC		Delivery with lots of air.
+whisper	Whisper	VOC		Voice without vocal-fold vibration.
+vocal_fry	Vocal fry	VOC		Crackly delivery in the lowest register.
+raspy_vocals	Raspy vocals	VOC	rasp	Light, rough distortion; rock and soul.
+twang	Twang	VOC		Bright, nasal timbre; country.
+yodel	Yodel	VOC		Rapid jumps between chest voice and falsetto.
+vocal_hiccup	Vocal hiccup	VOC		Clipped breaks in the voice; rockabilly.
+crooning	Crooning	VOC		Soft singing close to the microphone.
+operatic	Operatic singing	VOC	bel canto	Classical technique projecting without a microphone.
+melismatic_singing	Melismatic singing	VOC		Style rich in melismas.
+vocal_runs	Vocal runs	VOC		Fast passages of notes on one syllable; R&B and gospel.
+cante_jondo	Cante jondo	VOC		Melismatic, raw flamenco singing.
+overtone_singing	Overtone singing	VOC	throat singing; khöömei	One voice producing a note and its overtones at once.
+humming	Humming	VOC		Singing with the mouth closed.
+whistling	Whistling	VOC		Whistled melody.
+vocalise	Vocalise	VOC	oohs; aahs	Singing on vowels without text.
+scat	Scat singing	VOC		Vocal improvisation with nonsense syllables; jazz.
+ululation	Ululation	VOC	zaghrouta	High tongue trill, typical of North Africa and the Middle East.
+harsh_vocals	Harsh vocals	VOC	extreme vocals	Distorted vocal techniques of metal and hardcore.
+growl	Growl	VOC	death growl	Low guttural voice of death metal.
+scream	Scream	VOC		Mid-to-high distorted scream.
+fry_scream	Fry scream	VOC		High scream based on vocal fry.
+false_chord	False chord scream	VOC		Scream using the false vocal folds.
+high_shriek	Shriek	VOC		High shriek of black metal.
+pig_squeal	Pig squeal	VOC		High, pig-like guttural of deathcore and slam.
+clean_vocals	Clean vocals	VOC		Undistorted singing, in contrast to harsh vocals.
+shout	Shouted vocals	VOC	yell	Shouted, non-guttural voice; punk and hardcore.
+spoken_vocal	Spoken and rapped vocals	VOC		Non-sung vocal delivery.
+spoken_word	Spoken word	VOC		Spoken text over music.
+sprechgesang	Sprechgesang	VOC		Technique halfway between speech and song.
+rap	Rap	VOC	MC	Rhythmic, rhymed delivery.
+flow	Flow	VOC		Rhythmic pattern of a rap delivery.
+double_time_rap	Double-time rap	VOC	chopper; fast rap	Rap at double the apparent speed.
+triplet_flow	Triplet flow	VOC	migos flow	Rap in eighth-note triplets.
+melodic_rap	Melodic rap	VOC	sing-rap	Rap with a melodic contour, often with autotune.
+mumble_rap	Mumble delivery	VOC		Relaxed, loosely articulated diction.
+toasting	Toasting	VOC	deejaying	Jamaican rhythmic chanting over riddims.
+beatbox	Beatboxing	VOC		Percussion imitated with the mouth.
+vocal_arrangement	Vocal arrangement	VOC		Arrangement of voices on the recording.
+lead_vocal	Lead vocal	VOC		
+backing_vocals	Backing vocals	VOC		
+vocal_harmonies	Vocal harmonies	VOC		Several voices at different pitches.
+close_harmony	Close harmony	VOC		Tightly voiced parts; doo-wop, barbershop.
+double_tracked_vocals	Double-tracked vocals	VOC	doubling	The same vocal take recorded twice.
+ad_libs	Ad-libs	VOC		Spontaneous vocal interjections.
+a_cappella	A cappella	VOC		Voices without instrumental accompaniment.
+vocal_call_response	Vocal call and response	VOC		Soloist and choir alternating.
+plucked_strings	Plucked strings	INS		
+guitar	Guitar	INS		General term; use the narrower terms when the type of guitar is known.
+acoustic_guitar	Acoustic guitar	INS	steel-string guitar	
+classical_guitar	Classical guitar	INS	nylon-string guitar	
+flamenco_guitar	Flamenco guitar	INS		
+archtop_guitar	Archtop guitar	INS	jazz guitar; hollow-body guitar	
+electric_guitar	Electric guitar	INS		
+clean_guitar	Clean electric guitar	INS		Undistorted sound.
+distorted_guitar	Distorted guitar	INS		
+electric_sitar	Electric sitar	INS	Coral sitar	An electric guitar fitted to imitate the sitar, not a sitar.
+twelve_string_guitar	Twelve-string guitar	INS		
+seven_string_guitar	Extended-range guitar	INS		Guitars with added low strings; modern metal.
+steel_guitar	Steel guitar	INS		Guitars played with a steel bar rather than by fretting; general term.
+pedal_steel	Pedal steel guitar	INS		
+lap_steel	Lap steel guitar	INS	Hawaiian steel guitar	Played flat on the lap or on legs; for resonator instruments use Resonator guitar.
+resonator_guitar	Resonator guitar	INS	dobro; resophonic guitar	Played lap-style or held like a guitar with a slide.
+baritone_guitar	Baritone guitar	INS		Longer scale and lower tuning than a standard guitar; not the same as an extended-range guitar.
+vietnamese_guitar	Vietnamese guitar	INS	scalloped guitar; ghi-ta phím lõm	
+viola_caipira	Viola caipira	INS	viola	
+electric_bass	Electric bass	INS	bass guitar	
+fretless_bass	Fretless bass	INS		
+double_bass	Double bass	INS	upright bass	
+banjo	Banjo	INS		
+tenor_banjo	Tenor banjo	INS		
+mandolin	Mandolin	INS		
+ukulele	Ukulele	INS		
+lute	Lute	INS		
+harp	Harp	INS		
+sitar	Sitar	INS		
+oud	Oud	INS		
+bouzouki	Bouzouki	INS		
+baglamas	Baglamas	INS	Greek baglama	
+charango	Charango	INS		
+cavaquinho	Cavaquinho	INS		Small four-string guitar of samba and choro.
+kora	Kora	INS		21-string harp-lute of the Mandinka griots.
+cuatro	Cuatro	INS		The Venezuelan, Puerto Rican and related cuatros; for the Cuban tres use Tres.
+tres	Tres	INS	Cuban tres; tres cubano	
+koto	Koto	INS		
+shamisen	Shamisen	INS		
+guzheng	Guzheng	INS		
+balalaika	Balalaika	INS		
+saz	Saz	INS	bağlama	Long-necked lute of Turkey and Anatolia.
+sarod	Sarod	INS		
+tanpura	Tanpura	INS	tambura; tanpuri	
+pipa	Pipa	INS		
+gayageum	Gayageum	INS	kayagum	
+dan_tranh	Đàn tranh	INS	dan tranh	
+dan_bau	Đàn bầu	INS	dan bau; monochord	One-string zither whose pitch is bent with a flexible rod.
+appalachian_dulcimer	Appalachian dulcimer	INS	mountain dulcimer; lap dulcimer	Fretted plucked zither; not the hammered dulcimer.
+musical_bow	Musical bow	INS		
+berimbau	Berimbau	INS		
+hammered_dulcimer	Hammered dulcimer	INS		Struck with hammers, not plucked; listed here with the other zithers.
+santur	Santur	INS	Persian santur	
+santoor	Santoor	INS	Indian santoor	
+yangqin	Yangqin	INS		
+cimbalom	Cimbalom	INS	cymbalom	
+khim	Khim	INS		
+bajo_sexto	Bajo sexto	INS		
+portuguese_guitar	Portuguese guitar	INS	guitarra portuguesa	
+tar_lute	Tar (lute)	INS	tar	The long-necked lute; the North African frame drum also called tar is a different instrument.
+ngoni	Ngoni	INS	ngɔni; n'goni	
+kamale_ngoni	Kamalen ngoni	INS	kamale ngoni	
+kantele	Kantele	INS		
+autoharp	Autoharp	INS	chorded zither	
+bandurria	Bandurria	INS	banduria	
+biwa	Biwa	INS		
+heike_biwa	Heike biwa	INS		
+doshpuluur	Doshpuluur	INS	toshpuluur	
+dutar	Dutar	INS	dotar	
+geomungo	Geomungo	INS	komungo	
+gumbri	Gimbri	INS	guembri; sintir	
+guqin	Guqin	INS	qin	
+kacapi	Kacapi	INS	kecapi	
+kanun	Qanun	INS	kanun; qanoon	
+krar	Krar	INS	kirar	
+laud	Laúd	INS		
+octavina	Octavina	INS		
+sanshin	Sanshin	INS		
+sanxian	Sanxian	INS		
+setar	Setar	INS		
+tanbur	Tanbur	INS	tanbūr	
+tiple	Tiple	INS		
+topshuur	Topshuur	INS	tovshuur	
+dan_nguyet	Đàn nguyệt	INS	đàn kìm; moon lute	
+bowed_strings	Bowed strings	INS		
+violin	Violin	INS		
+electric_violin	Electric violin	INS		
+fiddle	Fiddle	INS		Violin in folk, country and Celtic styles.
+hardanger_fiddle	Hardanger fiddle	INS	hardingfele	
+viola_da_gamba	Viola da gamba	INS	viol; gamba	
+sarangi	Sarangi	INS		
+viola	Viola	INS		
+cello	Cello	INS		
+string_section	String section	INS	strings	
+erhu	Erhu	INS		
+hurdy_gurdy	Hurdy-gurdy	INS		
+nyckelharpa	Nyckelharpa	INS		
+morin_khuur	Morin khuur	INS	horsehead fiddle	
+kamancheh	Kamancheh	INS	kamanche	
+rebab	Rebab	INS	rebap; rababa	Name shared by several related bowed lutes; use with the tradition in view.
+classical_kemence	Classical kemençe	INS	armudi kemençe	
+djoza	Joza	INS	djoza; jawza	
+ghijak	Ghijak	INS	ghichak	
+haegeum	Haegeum	INS		
+igil	Igil	INS		
+saw_duang	Saw duang	INS		
+saw_u	Saw u	INS		
+dan_nhi	Đàn nhị	INS	đàn cò	
+woodwinds	Woodwinds	INS		
+flute	Flute	INS		
+piccolo	Piccolo	INS		
+recorder	Recorder	INS		
+tin_whistle	Tin whistle	INS		
+pan_flute	Pan flute	INS	panpipes	
+siku	Siku	INS	zampoña	Andean panpipes, often split between two players who alternate notes.
+quena	Quena	INS	kena	
+bansuri	Bansuri	INS		
+dizi	Dizi	INS		
+ocarina	Ocarina	INS		
+kaval	Kaval	INS		
+fife	Fife	INS		
+shakuhachi	Shakuhachi	INS		
+ney	Ney	INS		
+duduk	Duduk	INS		
+clarinet	Clarinet	INS		
+bass_clarinet	Bass clarinet	INS		
+oboe	Oboe	INS		
+bassoon	Bassoon	INS		
+saxophone	Saxophone	INS	saxo	
+alto_sax	Alto saxophone	INS		
+tenor_sax	Tenor saxophone	INS		
+baritone_sax	Baritone saxophone	INS		
+soprano_sax	Soprano saxophone	INS		
+zurna	Zurna	INS	surna; sorna	
+shawm	Shawm	INS		
+suona	Suona	INS	laba	
+sheng	Sheng	INS		
+bagpipes	Bagpipes	INS		
+highland_bagpipe	Great Highland bagpipe	INS	Scottish bagpipes	
+uilleann_pipes	Uilleann pipes	INS	Irish pipes	
+gaida	Gaida	INS	gajda	
+gaita_gallega	Galician gaita	INS	gaita gallega	
+didgeridoo	Didgeridoo	INS		Australian Aboriginal drone aerophone.
+harmonica	Harmonica	INS	harp	
+arghul	Arghul	INS	argul	
+daegeum	Daegeum	INS	taegum	
+flabiol	Flabiol	INS	fluviol	
+hichiriki	Hichiriki	INS		
+kagurabue	Kagurabue	INS		
+khene	Khaen	INS	khene; khen	
+ken_bau	Kèn bầu	INS		
+mijwiz	Mijwiz	INS		
+nadaswaram	Nadaswaram	INS	nagaswaram	
+nohkan	Nōkan	INS	nohkan	
+pi_nai	Pi nai	INS		
+piri	Piri	INS		
+ryuteki	Ryūteki	INS		
+saluang	Saluang	INS		
+shinobue	Shinobue	INS		
+sho	Shō	INS		
+suling	Suling	INS		
+tenora	Tenora	INS		
+tible	Tible	INS		
+whistle	Whistle	INS		
+apito_de_samba	Samba whistle	INS	apito	
+xiao	Xiao	INS	dongxiao	
+brass	Brass	INS		
+trumpet	Trumpet	INS		
+muted_trumpet	Muted trumpet	INS	harmon mute; wah-wah mute	
+flugelhorn	Flugelhorn	INS		
+cornet	Cornet	INS		
+trombone	Trombone	INS		
+french_horn	French horn	INS		
+tuba	Tuba	INS		
+sousaphone	Sousaphone	INS		
+euphonium	Euphonium	INS		
+horn_section	Horn section	INS	horns	
+bugle	Bugle	INS		
+mellophone	Mellophone	INS		
+keyboards	Keyboards	INS		
+piano	Piano	INS		
+grand_piano	Grand piano	INS		
+honky_tonk_piano	Honky-tonk piano	INS		
+prepared_piano	Prepared piano	INS		
+electric_grand	Electric grand piano	INS	Yamaha CP-70	A piano with strings and pickups; not an electric piano with tines or reeds.
+electric_piano	Electric piano	INS		
+rhodes	Rhodes piano	INS	Fender Rhodes	
+wurlitzer	Wurlitzer electric piano	INS		
+organ	Organ	INS		
+hammond_organ	Hammond organ	INS	B3	
+pipe_organ	Pipe organ	INS		
+combo_organ	Combo organ	INS	Farfisa; Vox Continental	Transistor organ of the 1960s.
+barrel_organ	Barrel organ	INS	organillo; street organ	
+harpsichord	Harpsichord	INS		
+clavinet	Clavinet	INS		
+accordion	Accordion	INS		
+button_accordion	Diatonic button accordion	INS	melodeon; button box	Each button gives a different note on the push and on the pull.
+bandoneon	Bandoneon	INS		
+concertina	Concertina	INS		
+harmonium	Harmonium	INS		
+celesta	Celesta	INS		
+mellotron	Mellotron	INS		
+melodica	Melodica	INS		
+toy_piano	Toy piano	INS		
+electronic_instruments	Electronic instruments	INS		
+synthesizer	Synthesizer	INS	synth	
+analog_synth	Analog synthesizer	INS		
+string_synth	String synthesizer	INS	string machine; string ensemble	Instrument, not the general sound of a string pad.
+modular_synth	Modular synthesizer	INS		
+fm_synth	FM synthesis	INS		The method; for the instrument use Yamaha DX7.
+dx7	Yamaha DX7	INS	DX7	
+synth_pad	Synth pad	INS		
+synth_lead	Synth lead	INS		
+supersaw	Supersaw	INS		Stacked detuned saw waves; trance and EDM.
+arpeggiator	Arpeggiator	INS	synth arp	
+synth_bass	Synth bass	INS		
+acid_bass	Acid bass	INS	TB-303; 303	TB-303 line with resonance and glides.
+reese_bass	Reese bass	INS		Detuned saw bass; drum and bass.
+reverse_bass	Reverse bass	INS		Bass with a reversed envelope between kicks; hardstyle.
+wobble_bass	Wobble bass	INS		LFO-modulated bass; dubstep.
+hoover_sound	Hoover sound	INS		90s rave synth sound.
+rave_stab	Rave stab	INS	stab	Short, aggressive synth chord.
+step_sequencer	Step sequencer	INS		Grid-programmed patterns that loop.
+keytar	Keytar	INS		
+wind_synth	Wind synthesizer	INS	EWI; wind controller	
+guitar_synth	Guitar synthesizer	INS	guitar synth	
+drum_machine	Drum machine	INS		
+tr808	Roland TR-808	INS	808	Drum machine whose long kick doubles as bass.
+tr909	Roland TR-909	INS	909	Drum machine of house and techno.
+linndrum	LinnDrum	INS		Drum machine of 80s pop.
+sampler_instrument	Sampler	INS	MPC	
+theremin	Theremin	INS		
+vocoder_instrument	Vocoder	INS		
+talk_box	Talk box	INS		
+chiptune_chip	Sound chip	INS	8-bit; chiptune	Sounds of vintage consoles and home computers.
+log_drum	Log drum	INS		Percussive bass sound of amapiano.
+turntables	Turntables	INS		
+percussion	Percussion	INS		
+drum_kit	Drum kit	INS	drums	
+kick_drum	Kick drum	INS		
+snare_drum	Snare drum	INS		
+hi_hat	Hi-hat	INS	hi-hat	
+cymbals	Cymbals	INS		
+toms	Toms	INS		
+electronic_drums	Electronic drums	INS		
+hand_percussion	Hand percussion	INS		
+congas	Congas	INS		
+quinto	Quinto	INS		
+bongos	Bongos	INS		
+timbales	Timbales	INS		
+cajon	Cajón	INS		
+djembe	Djembe	INS		
+darbuka	Darbuka	INS	derbake	
+frame_drum	Frame drum	INS		General term; use the narrower terms for specific frame drums.
+bodhran	Bodhrán	INS		
+pandeiro	Pandeiro	INS		
+tamborim	Tamborim	INS		
+daf	Daf	INS	def	
+riq	Riq	INS	riqq	
+bendir	Bendir	INS		
+doyra	Doira	INS	doyra; dayereh	
+tabla	Tabla	INS		
+mridangam	Mridangam	INS		Double-headed drum of Carnatic music.
+talking_drum	Talking drum	INS		
+tambourine	Tambourine	INS		
+shaker	Shaker	INS		
+maracas	Maracas	INS		
+ganza	Ganzá	INS		
+guiro	Güiro	INS	guacharaca	
+guira	Güira	INS		Metal scraper played with a wire brush; not the gourd güiro.
+cowbell	Cowbell	INS		
+claves_instrument	Claves	INS		
+castanets	Castanets	INS		
+handclaps	Handclaps	INS	claps	
+finger_snaps	Finger snaps	INS	snaps	
+cuica	Cuíca	INS		
+surdo	Surdo	INS		
+caixa	Caixa	INS	caixa de guerra	
+repinique	Repinique	INS	repique	
+atabaque	Atabaque	INS		
+dholak	Dholak	INS		
+ghatam	Ghatam	INS		
+sabar	Sabar	INS		
+wood_block	Wood block	INS		
+agogo	Agogô	INS	agogo bells	
+shekere	Shekere	INS	axatse; chekeré	
+udu	Udu	INS		
+washboard	Washboard	INS	frottoir	
+afoxe	Afoxé	INS	afuche; cabasa	
+barrel_drum	Barrel drum	INS		
+buk	Buk	INS	puk	
+caxixi	Caxixi	INS		
+clapstick	Clapsticks	INS	bilma; bimli	
+friction_drum	Friction drum	INS	furro; cuíca-type drum	
+janggu	Janggu	INS	changgo	
+kartal	Kartal	INS	khartal	
+kkwaenggwari	Kkwaenggwari	INS		
+kotsuzumi	Kotsuzumi	INS	tsuzumi	
+krakeb	Qraqeb	INS	krakeb; qarqaba	
+kudum	Kudüm	INS		
+madal	Madal	INS		
+pakhawaj	Pakhawaj	INS	mardala	
+phach	Phách	INS		
+quijada	Quijada	INS	jawbone	
+ratchet	Ratchet	INS	matraca	
+zarb	Tombak	INS	zarb; tonbak	
+otsuzumi	Ōtsuzumi	INS		
+large_drums	Large drums	INS		
+dhol	Dhol	INS		Double-headed drum from Punjab.
+taiko	Taiko	INS		
+shime_daiko	Shime-daiko	INS		
+timpani	Timpani	INS		
+bombo_leguero	Bombo legüero	INS	bombo	
+dunun	Dunun	INS	dundun; doundoun	
+alfaia	Alfaia	INS		
+garifuna_drum	Garifuna drums	INS	primero; segunda	
+zabumba	Zabumba	INS		
+pitched_percussion	Pitched percussion	INS		
+marimba	Marimba	INS		
+vibraphone	Vibraphone	INS		
+xylophone	Xylophone	INS		
+ranat_ek	Ranat ek	INS		
+glockenspiel	Glockenspiel	INS		
+tubular_bells	Tubular bells	INS		
+steelpan	Steelpan	INS	steel drum	
+kalimba	Kalimba	INS	mbira	
+handpan	Handpan	INS	hang	
+gamelan_instrument	Gamelan	INS		Ensemble of metallophones and gongs from Java and Bali.
+triangle	Triangle	INS		
+gong	Gong	INS	tam-tam	
+balafon	Balafon	INS		African xylophone with gourd resonators.
+gong_chime	Gong chime	INS	gong circle; kulintang	
+khong_wong_yai	Khong wong yai	INS	gong circle	
+marimbula	Marímbula	INS	rumba box; rhumba box	
+mark_tree	Mark tree	INS	bar chimes; chimes	
+jaw_harp	Jaw harp	INS	mouth harp; Jew's harp; khomus	
+anvil	Anvil	INS		Struck as a percussion instrument.
+bell	Bell	INS	bells	
+gankogui	Gankogui	INS	double bell	
+handbell	Handbell	INS	handbells	
+ensemble	Ensembles	INS		
+orchestra	Orchestra	INS		
+chamber_orchestra	Chamber orchestra	INS		
+string_quartet	String quartet	INS		
+big_band	Big band	INS		
+brass_band	Brass band	INS		
+power_trio	Power trio	INS		Guitar, bass and drums.
+mariachi_ensemble	Mariachi ensemble	INS		Trumpets, violins, guitarrón and vihuela.
+bateria	Samba bateria	INS	bateria	Percussion section of a samba school.
+tamburica_orchestra	Tamburica orchestra	INS	tamburitza orchestra	
+rock_band	Rock band	INS		
+solo_performer	Solo performer	INS		
+cobla	Cobla	INS		
+guitar_technique	Guitar techniques	TEC		
+palm_muting	Palm muting	TEC		Strings damped with the palm for a dry, percussive sound.
+chugging	Chugging	TEC		Repeated low muted power chords.
+djent_technique	Djent riffing	TEC		Syncopated muted riffs on very low strings with a metallic attack.
+tremolo_picking	Tremolo picking	TEC		Very fast alternate picking on one note; black metal, surf.
+alternate_picking	Alternate picking	TEC		
+sweep_picking	Sweep picking	TEC		Fast arpeggios with a sweeping pick stroke.
+tapping	Tapping	TEC	two-hand tapping	Notes sounded by the picking hand on the fretboard.
+legato_guitar	Legato (guitar)	TEC		Slurred notes without picking.
+hammer_on	Hammer-on	TEC		A fretting finger strikes the string to sound a higher note without picking.
+pull_off	Pull-off	TEC		A fretting finger pulls off the string to sound a lower note without picking.
+string_bending	String bending	TEC		Stretching the string to raise the pitch.
+whammy	Whammy bar	TEC	dive bomb	
+pinch_harmonics	Pinch harmonics	TEC	squeals	High harmonics produced with the pick; metal.
+natural_harmonics	Natural harmonics	TEC		
+slide_guitar	Slide guitar	TEC	bottleneck	Notes slid with a tube along the strings.
+fingerpicking	Fingerpicking	TEC	fingerstyle	Playing with the fingers.
+travis_picking	Travis picking	TEC		Alternating thumb bass with finger-played melody.
+strumming	Strumming	TEC		
+rasgueado	Rasgueado	TEC		Fan-like strums of flamenco guitar.
+picado	Picado	TEC		Fast scales plucked with alternating fingers.
+chicken_picking	Chicken picking	TEC		Clucky, staccato country picking.
+funk_scratch	Funk guitar scratching	TEC	chank	Percussive strumming on muted strings.
+skank_guitar	Skank guitar	TEC	chop	Short offbeat chord; reggae and ska.
+jangle	Jangle guitar	TEC		Bright arpeggios of open chords; jangle pop.
+shred	Shred guitar	TEC		Virtuosic high-speed solos.
+neoclassical_shred	Neoclassical shred	TEC		Shred based on Baroque scales and arpeggios.
+feedback	Guitar feedback	TEC		Controlled amplifier feedback.
+drop_tuning	Drop tuning	TEC	drop D; drop C	Tuning with the lowest string lowered.
+open_tuning	Open tuning	TEC	open G; DADGAD	Tuning that forms a chord on open strings.
+chord_melody	Chord melody	TEC		Harmonized melody on a single guitar.
+bass_technique	Bass techniques	TEC		
+slap_bass	Slap bass	TEC	slap and pop	Thumb slap and string pop.
+walking_bass	Walking bass	TEC		Quarter-note bass outlining the chords; jazz.
+octave_bass	Octave bass	TEC		Bass alternating octaves; disco.
+picked_bass	Picked bass	TEC		
+bass_slides	Bass glides	TEC	808 slides	Pitch glides in the bass.
+keyboard_technique	Keyboard techniques	TEC		
+stride_piano	Stride piano	TEC		Left hand alternating bass and chord; early jazz.
+boogie_woogie_bass	Boogie-woogie bass	TEC		Left-hand blues figures in ostinato.
+montuno	Montuno	TEC	guajeo	Syncopated, repeated piano figure in salsa.
+block_chords	Block chords	TEC		
+piano_glissando	Piano glissando	TEC		
+bowed_technique	Bowed-string techniques	TEC		
+pizzicato	Pizzicato	TEC		Strings plucked with the fingers.
+string_tremolo	String tremolo	TEC		Very fast bowed repetition.
+staccato_strings	Staccato strings	TEC		The short articulation; for the bouncing bow stroke use Spiccato.
+spiccato	Spiccato	TEC		Bow stroke that bounces off the string.
+legato_strings	Legato strings	TEC		
+col_legno	Col legno	TEC		Striking with the wood of the bow.
+double_stops	Double stops	TEC		
+string_swells	String swells	TEC		
+wind_technique	Wind techniques	TEC		
+sax_growl	Saxophone growl	TEC	honking	Saxophone with voice added; rough sound.
+flutter_tongue	Flutter-tonguing	TEC		
+brass_stabs	Brass stabs	TEC		Short hits from the horn section.
+brass_falls	Falls and doits	TEC		Brass glissandos at the end of a note.
+circular_breathing	Circular breathing	TEC		
+dj_technique	DJ techniques	TEC	turntablism	
+scratching	Scratching	TEC		Moving the vinyl to create rhythms.
+beat_juggling	Beat juggling	TEC		
+recording_aesthetic	Recording aesthetic	PRD		Overall character of the recorded sound.
+lo_fi	Lo-fi	PRD		Deliberately imperfect, saturated or muffled sound.
+vinyl_crackle	Vinyl crackle	PRD		
+tape_hiss	Tape hiss	PRD		
+bedroom_production	Bedroom production	PRD	bedroom pop	
+hi_fi	Polished production	PRD	hi-fi; radio-ready	Clean, compressed, competitive sound.
+raw_production	Raw production	PRD	demo; garage	Direct sound with little editing.
+live_recording	Live recording	PRD		Concert or live-in-studio take.
+analog_warmth	Analog warmth	PRD		The perceived quality; for the process use Tape saturation.
+wall_of_sound	Wall of sound	PRD		Dense layers with heavy reverb; Phil Spector, shoegaze.
+bass_heavy	Bass-heavy mix	PRD		Bass dominates the mix.
+sub_bass	Sub-bass	PRD		Low frequencies below ~60 Hz, whatever instrument or synth produces them.
+dry_mix	Dry mix	PRD		Little reverb, close sound.
+field_recording	Field recording	PRD		Environmental sounds recorded outside the studio.
+dynamics_processing	Dynamics processing	PRD		
+compression	Compression	PRD		Reducing dynamic range.
+sidechain	Sidechain compression	PRD	pumping	The signal ducks with each kick.
+limiting	Limiting	PRD	loudness; brickwall	
+spatial_effects	Spatial effects	PRD		
+reverb	Reverb	PRD	reverb	
+hall_reverb	Hall reverb	PRD		
+plate_reverb	Plate reverb	PRD		
+spring_reverb	Spring reverb	PRD		Metallic amplifier reverb; surf.
+gated_reverb	Gated reverb	PRD	gated drums	Abruptly cut-off reverb; 80s drums.
+shimmer_reverb	Shimmer reverb	PRD		Reverb with an added upper octave.
+delay	Delay	PRD		Repetitions of the signal.
+tape_delay	Tape delay	PRD		
+slapback	Slapback echo	PRD		Single short echo; rockabilly.
+dub_echo	Dub echo	PRD		Feedback delays manipulated live.
+stereo_panning	Panning	PRD		
+modulation_effects	Modulation effects	PRD		
+chorus_effect	Chorus effect	PRD		Slightly detuned doubling.
+flanger	Flanger	PRD		
+phaser	Phaser	PRD		
+tremolo_effect	Tremolo effect	PRD		Periodic volume variation.
+leslie	Rotary speaker	PRD	Leslie speaker; rotary	The effect of a rotating speaker cabinet, or its simulation; classic with the Hammond organ.
+distortion	Distortion	PRD		Clipping that adds harmonics.
+overdrive	Overdrive	PRD	crunch	Mild tube saturation.
+tape_saturation	Tape saturation	PRD	tape drive	Soft compression and harmonic distortion from driving analog tape, or its emulation.
+fuzz	Fuzz	PRD		Harsh, square-wave distortion.
+bitcrusher	Bitcrusher	PRD		Digital resolution reduction.
+distorted_vocals	Distorted vocals	PRD		
+filter_effects	Filters	PRD		
+filter_sweep	Filter sweep	PRD		Gradual opening or closing of a filter.
+resonant_filter	Resonant filter	PRD	squelch	Filter with pronounced resonance; acid.
+wah_wah	Wah-wah	PRD		Foot-swept filter pedal.
+envelope_filter	Envelope filter	PRD	auto-wah	
+pitch_effects	Pitch effects	PRD		
+autotune	Auto-Tune	PRD		Audible pitch correction used as an effect.
+pitch_shift	Pitch shifting	PRD		
+pitched_up_vocals	Pitched-up vocals	PRD	chipmunk; nightcore	
+slowed_reverb	Slowed and reverb	PRD	chopped and screwed	Slowed-down version with reverb; or the chopped and screwed technique.
+harmonizer	Harmonizer	PRD		
+octaver	Octaver	PRD		
+time_effects	Time manipulation	PRD		
+reverse	Reverse	PRD	reverse cymbal	Recording played backwards.
+stutter	Stutter edit	PRD	glitch	Choppy repetitions of a fragment.
+tape_stop	Tape stop	PRD		Simulated tape slowdown to a halt.
+time_stretch	Time-stretching	PRD		
+sampling	Sampling	PRD	sample	Reusing recorded fragments.
+loop	Loop	PRD		Fragment repeated cyclically.
+vocal_chops	Vocal chops	PRD		Chopped vocal fragments used as an instrument.
+sample_flip	Sample flip	PRD		Creative transformation of a recognizable sample.
+sound_design	Sound design	PRD		Non-musical sound elements with a structural role.
+riser	Riser	PRD	uplifter	Rising sound that builds tension.
+downlifter	Downlifter	PRD		Falling sound after a climax.
+impact	Impact	PRD	boom	Low hit at the start of a section.
+braam	Braam	PRD		Distorted low brass from trailers.
+sub_drop	Sub drop	PRD		Pitch drop in the sub-bass.
+ambient_texture	Ambient texture	PRD	soundscape	
+era_aesthetic	Era aesthetic	PRD		Production traits associated with a decade.
+sound_50s	1950s sound	PRD		
+sound_60s	1960s sound	PRD		
+sound_70s	1970s sound	PRD		
+sound_80s	1980s sound	PRD		
+sound_90s	1990s sound	PRD		
+sound_2000s	2000s sound	PRD	Y2K	
+modern_sound	Modern sound	PRD		
+dynamics	Dynamics	DYN		Management of volume and intensity.
+soft_dynamics	Soft dynamics	DYN		
+loud_dynamics	Loud dynamics	DYN		
+crescendo	Crescendo	DYN		Gradual increase in intensity.
+decrescendo	Decrescendo	DYN	diminuendo	
+sforzando	Sforzando	DYN		Sudden, strong accent.
+dynamic_contrast	Dynamic contrast	DYN	loud-quiet-loud; quiet-loud	Alternating soft and explosive sections.
+slow_burn	Slow build	DYN	slow burn	Intensity that grows throughout the piece.
+articulation	Articulation	DYN		How notes are attacked and connected.
+staccato	Staccato	DYN		Short, separated notes.
+legato	Legato	DYN		Notes connected without a break.
+marcato	Marcato	DYN		
+tenuto	Tenuto	DYN		
+lyric_device	Lyrical devices	LYR		Lyric-writing devices.
+rhyme_scheme	Rhyme scheme	LYR		Distribution of rhymes (AABB, ABAB…).
+internal_rhyme	Internal rhyme	LYR		Rhymes within the same line.
+multisyllabic_rhyme	Multisyllabic rhyme	LYR	multis	Chained multi-syllable rhymes; rap.
+assonance	Assonance	LYR		
+repetition	Repetition	LYR		
+storytelling	Storytelling	LYR		The lyrics tell a story with characters.
+punchline	Punchline	LYR		Witty closing line; rap.
+double_entendre	Double entendre	LYR		
+title_drop	Title drop	LYR		The title appears in the hook.
+vocables	Vocables	LYR	na-na; la-la; oh-oh	Meaningless sung syllables.
+onomatopoeia	Onomatopoeia	LYR		
+code_switching	Code-switching	LYR	spanglish	Switching languages within the lyrics.
+protest_lyrics	Protest lyrics	LYR		Social or political lyrics.
+confessional_lyrics	Confessional lyrics	LYR		Intimate first-person lyrics.
+abstract_lyrics	Abstract lyrics	LYR		
+instrumental_track	Instrumental	LYR	instrumental	Piece without vocals.
+mood	Mood	MOO	mood	Affective descriptors. Not technical devices, but music-generation prompts rely on them heavily.
+mood_bright	Bright and happy	MOO		
+mood_uplifting	Uplifting	MOO	euphoric	
+mood_melancholic	Melancholic	MOO	sad	
+mood_nostalgic	Nostalgic	MOO		
+mood_dark	Dark	MOO		
+mood_ominous	Ominous	MOO	menacing	
+mood_aggressive	Aggressive	MOO		
+mood_energetic	Energetic	MOO		
+mood_chill	Chill	MOO	relaxed	
+mood_dreamy	Dreamy	MOO	ethereal	
+mood_hypnotic	Hypnotic	MOO	trance	
+mood_epic	Epic	MOO		
+anthemic	Anthemic	MOO		Made to be sung by a crowd.
+mood_romantic	Romantic	MOO		
+mood_sensual	Sensual	MOO	sexy	
+mood_playful	Playful	MOO	quirky	
+mood_theatrical	Theatrical	MOO		
+mood_mysterious	Mysterious	MOO		
+mood_introspective	Introspective	MOO		
+mood_triumphant	Triumphant	MOO		
+mood_spiritual	Spiritual	MOO		
+mood_groovy	Groovy	MOO	funky; danceable	
+mood_raw	Raw	MOO		

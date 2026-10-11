@@ -1,0 +1,324 @@
+# Crosswalk from Soundlore Instrumentation (INS) concepts to MusicBrainz instruments (CC0, JSON dump 20261010-001001).
+# match: SKOS mapping (exact | close | broad = the MusicBrainz instrument is broader | narrow | related).
+# basis: wikidata = same Wikidata item; name = same name or alias; manual = decided by hand.
+uid	slug	mbid	mb_name	match	basis
+SL000408	plucked_strings	b879ca9a-bf4b-41f8-b1a3-aa109f2e3bea	plucked string instruments	exact	wikidata
+SL000409	acoustic_guitar	00beaf8e-a781-431c-8130-7c2871696b7d	acoustic guitar	exact	wikidata
+SL000410	classical_guitar	43f378cf-b099-46da-8ec3-a39b6f5e5258	classical guitar	exact	wikidata
+SL000411	flamenco_guitar	9483eb06-fd5a-4792-844f-72bc4cb1c0a1	flamenco guitar	exact	wikidata
+SL000412	electric_guitar	7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87	electric guitar	exact	wikidata
+SL000415	twelve_string_guitar	d5cc3c69-218e-449a-b80d-8bd7a61311a1	12 string guitar	exact	wikidata
+SL000417	pedal_steel	4a10b219-65ac-4b6c-950d-acc8461266c7	pedal steel guitar	exact	wikidata
+SL000418	lap_steel	857ff05c-5367-4ba2-9b49-98eefa2badcc	lap steel guitar	exact	wikidata
+SL000419	electric_bass	0b9d87fa-93fa-4956-8b6a-a419566cc915	electric bass guitar	exact	manual
+SL000420	fretless_bass	96bec768-bee7-4b67-816e-3b4743df98ec	fretless bass	exact	manual
+SL000421	double_bass	7bd32b95-416f-4244-a98b-1311ec69c7db	double bass	exact	wikidata
+SL000422	banjo	6bf88fc7-a235-4d95-a910-a4ce4a4853c6	banjo	exact	wikidata
+SL000423	mandolin	37fa9bb5-d5d7-4b0f-aa4d-531339ba9c32	mandolin	exact	wikidata
+SL000424	ukulele	af1341bb-f62c-4e9b-af62-c3ea19fa54c6	ukulele	exact	wikidata
+SL000425	lute	38237fcc-b833-4cd6-8dc1-e5fe2f308a2b	lute	exact	wikidata
+SL000426	harp	f0a6e89d-b828-4b73-885d-8c1560e5e49a	harp	exact	wikidata
+SL000427	sitar	9290b2c1-97c3-4355-a26f-c6dba89cf8ff	sitar	exact	wikidata
+SL000428	oud	758c62c1-39c9-4fe9-8cb0-07398f3cb15a	oud	exact	wikidata
+SL000429	bouzouki	2091cdd2-7953-453f-a29e-cfcbf5140d44	bouzouki	exact	wikidata
+SL000430	charango	557e7397-5878-4fc6-9d81-26f542a9f280	charango	exact	wikidata
+SL000431	cavaquinho	aa129b27-d572-4eb7-9def-4a6869f21cda	cavaquinho	exact	wikidata
+SL000432	kora	32de8d17-6ea8-4c46-8c95-c02b77883c50	kora	exact	wikidata
+SL000433	cuatro	38c897e8-c2ca-46e5-8e85-7aa3f826e93c	cuatro	exact	wikidata
+SL000434	koto	274717c1-b2d8-4a6a-8eaf-eb0c1e11b757	koto	exact	wikidata
+SL000435	shamisen	c03753c7-1735-4e24-9c9a-8cb5994d6bc5	shamisen	exact	wikidata
+SL000436	guzheng	2a01b8d1-7abd-466d-be5f-435263bdd76a	guzheng	exact	wikidata
+SL000437	balalaika	f6b51493-c7bd-41be-901b-245380ec96ce	balalaika	exact	wikidata
+SL000438	saz	2dd967cd-104e-4696-8a70-0f6fd37779e7	bağlama	exact	wikidata
+SL000439	bowed_strings	4c1916f0-4643-45ce-afaf-c9c5dabbb4f7	bowed string instruments	exact	wikidata
+SL000440	violin	089f123c-0f7d-4105-a64e-49de81ca8fa4	violin	exact	wikidata
+SL000441	fiddle	04a21d03-535a-4ace-9098-12013867b8e5	fiddle	exact	wikidata
+SL000442	viola	377e007a-33fe-4825-9bef-136cf5cf581a	viola	exact	wikidata
+SL000443	cello	0db03a60-1142-4b25-ab1b-72027d0dc357	cello	exact	wikidata
+SL000444	string_section	32eca297-dde6-45d0-9305-ae479947c2a8	strings	close	manual
+SL000445	erhu	988026a0-2cb7-42bb-9407-9110874fa401	erhu	exact	wikidata
+SL000446	hurdy_gurdy	303d4f1a-f799-4c42-9bac-dbedd9139e91	hurdy gurdy	exact	wikidata
+SL000447	nyckelharpa	3be28a98-61eb-403d-a9fb-62e04f9b79ac	nyckelharpa	exact	wikidata
+SL000448	woodwinds	35df3318-7a89-4601-bccc-4cd27ba062f7	woodwind	exact	wikidata
+SL000449	flute	540280f1-d6cf-46bf-968b-695e99e216d7	flute	exact	wikidata
+SL000450	piccolo	d01ae816-0567-4520-8fcb-8d3b71ef4bdf	piccolo	exact	wikidata
+SL000451	recorder	3cf4c0c9-160a-4d73-9243-7d0e0df17050	recorder	exact	wikidata
+SL000452	tin_whistle	c1b42be7-f713-449b-a3a4-925351b5acbc	tin whistle	exact	wikidata
+SL000453	pan_flute	6b5b72d8-6e9c-4e31-bd21-062d10bcf661	pan flute	exact	wikidata
+SL000454	shakuhachi	d3bdf855-7161-40f5-945b-f261f7c0d6ba	shakuhachi	exact	wikidata
+SL000455	ney	8460bc93-953f-4a48-9106-485d5703ec6f	ney	exact	wikidata
+SL000456	duduk	e5e6de9d-bde7-4340-a591-f1c55c658c2c	duduk	exact	wikidata
+SL000457	clarinet	08028095-6dae-4fe0-9f34-284fde19f29b	clarinet	exact	wikidata
+SL000458	oboe	1b97909a-6db7-4829-91fd-414338ce28cf	oboe	exact	wikidata
+SL000459	bassoon	5318ae3e-fb33-4187-a1a1-1df9a59930f8	bassoon	exact	wikidata
+SL000460	saxophone	a9ed16cd-b8cb-4256-9c41-93f5f0458c49	saxophone	exact	wikidata
+SL000461	alto_sax	9c977091-b27a-4a0e-b54e-b5ab89420e22	alto saxophone	exact	wikidata
+SL000462	tenor_sax	ef7382cf-d5b4-4923-8b9e-3c482ed84b5e	tenor saxophone	exact	wikidata
+SL000463	baritone_sax	d3a04358-70f8-4c43-b722-c3cf6cc218ae	baritone saxophone	exact	wikidata
+SL000464	soprano_sax	4a32d2f2-2ac7-423d-9820-2c0b7ff37f60	soprano saxophone	exact	wikidata
+SL000465	bagpipes	1d865ced-d86a-4277-8914-009740e37887	bagpipe	exact	wikidata
+SL000466	didgeridoo	8a0f37bb-65f1-48f9-a58f-95227d28470c	didgeridoo	exact	wikidata
+SL000467	harmonica	63e37f1a-30b6-4746-8a49-dfb55be3cdd1	harmonica	exact	wikidata
+SL000468	brass	82157c40-112f-4e4a-a3c0-5388ebb12931	brass	exact	wikidata
+SL000469	trumpet	1c8f9780-2f16-4891-b66d-bb7aa0820dbd	trumpet	exact	wikidata
+SL000471	flugelhorn	fd016966-658e-40db-8fe1-f2235fe1e9a3	flugelhorn	exact	wikidata
+SL000472	cornet	257dad59-02e6-47d9-958a-659843737827	cornet	exact	wikidata
+SL000473	trombone	f6100277-c7b8-4c8d-aa26-d8cd014b6761	trombone	exact	wikidata
+SL000474	french_horn	f9abcd44-52d6-4424-b3a0-67f003bbbf3d	French horn	exact	wikidata
+SL000475	tuba	e297fcf6-29a7-4673-a15d-a6f54819b2d1	tuba	exact	wikidata
+SL000478	piano	b3eac5f9-7859-4416-ac39-7154e2e8d348	piano	exact	wikidata
+SL000479	grand_piano	e8694e08-43c7-4658-b39d-bfe8f85d573e	grand piano	exact	manual
+SL000480	honky_tonk_piano	7e704071-7d7c-42f2-af03-a15eb66916d2	tack piano	close	manual
+SL000481	prepared_piano	4d256d61-4f35-49c4-a054-9cb78b417583	prepared piano	exact	wikidata
+SL000482	electric_piano	75b8297f-d9fe-455d-85cf-d62843f14da5	electric piano	exact	wikidata
+SL000483	rhodes	aa3b54ec-9cc8-409c-a2d9-f960e65bf5f5	Rhodes piano	exact	wikidata
+SL000484	wurlitzer	faf35fe4-cbd2-497b-a5a3-40bc2c59c446	Wurlitzer electric piano	exact	wikidata
+SL000485	organ	55a37f4f-39a4-45a7-851d-586569985519	organ	exact	wikidata
+SL000486	hammond_organ	0fa6ef90-4c92-4456-9965-ad3f96c51db3	Hammond organ	exact	wikidata
+SL000487	pipe_organ	39d85868-3476-45cc-94d0-3d43e3135921	pipe organ	exact	wikidata
+SL000488	combo_organ	40243f27-1011-491b-8b06-28c48749b960	farfisa	narrow	manual
+SL000489	harpsichord	bfe379dc-1d65-4862-acd8-60d53bb963a2	harpsichord	exact	wikidata
+SL000490	clavinet	563a9f16-e84b-409a-bda5-2e4ce09d5573	clavinet	exact	wikidata
+SL000491	accordion	bdf08ac2-b9c2-4391-85e5-9a7716bdd690	accordion	exact	wikidata
+SL000492	bandoneon	007d6c88-c6fd-4fe7-9af7-8a0cac0d2526	bandoneón	exact	wikidata
+SL000493	concertina	b4aab04d-64b6-47c1-91bd-6a3541d7903a	concertina	exact	wikidata
+SL000494	harmonium	20443ce3-cde1-4968-b7cc-65e45bb9714f	reed organ	exact	wikidata
+SL000495	celesta	a1464d63-4f9d-4aaa-9513-a15d12baa408	celesta	exact	wikidata
+SL000496	mellotron	3715ab17-124b-4011-b324-d2bb2cd46f6b	mellotron	exact	wikidata
+SL000497	melodica	8ab40df2-106b-4b9b-a50c-0798ee95da8f	melodica	exact	wikidata
+SL000498	toy_piano	bbd63209-8a4e-46b7-9527-1dd80629a8e0	toy piano	exact	wikidata
+SL000499	electronic_instruments	a51219e5-fc36-4427-93a9-743e616c6f0c	electronic instruments	exact	wikidata
+SL000500	synthesizer	4a29230c-5ab5-4eff-ac59-4a253f3561a0	synthesizer	exact	wikidata
+SL000501	analog_synth	b975e1d8-8508-436b-a5ac-9c4116fd195d	analog synthesizer	exact	wikidata
+SL000508	synth_bass	e6571d23-5d79-4216-99d6-06e14e737da1	bass synthesizer	close	manual
+SL000516	drum_machine	ce0eed13-58d8-4744-8ad0-b7d6182a2d0f	drum machine	exact	wikidata
+SL000517	tr808	ce0eed13-58d8-4744-8ad0-b7d6182a2d0f	drum machine	broad	manual
+SL000518	tr909	ce0eed13-58d8-4744-8ad0-b7d6182a2d0f	drum machine	broad	manual
+SL000519	linndrum	ce0eed13-58d8-4744-8ad0-b7d6182a2d0f	drum machine	broad	manual
+SL000520	sampler_instrument	fb6f5426-b6ec-4ffa-9bb1-d9fdf9b453ad	sampler	exact	wikidata
+SL000521	theremin	96c9c681-ee2f-42a7-894b-c50d983b9e7f	theremin	exact	wikidata
+SL000522	vocoder_instrument	1d04494c-a06b-409e-9a95-bde7a94860dd	vocoder	exact	wikidata
+SL000523	talk_box	9eecc5ee-d625-4330-85dd-a338d80ea433	talkbox	exact	wikidata
+SL000524	chiptune_chip	ab2edb77-e1ff-406b-bdf4-7c4d659a554e	game console sound chip	close	manual
+SL000525	log_drum	1a03e9a1-f81f-40ce-9d57-65d6c1b9dcb3	slit drum	related	manual
+SL000526	turntables	ae92e4be-1e62-40d8-85a8-2e56290a95fa	turntable	exact	manual
+SL000527	percussion	8e9abdf1-0afc-4544-b201-c6fa768d01f4	percussion	exact	wikidata
+SL000528	drum_kit	12092505-6ee1-46af-a15a-b5b468b6b155	drums (drum set)	exact	wikidata
+SL000529	kick_drum	e78b40c0-acc8-4db8-911a-adf991e0c73d	bass drum	exact	wikidata
+SL000530	snare_drum	947cca7d-74c6-4044-b6cc-71a1180d0b28	snare drum	exact	wikidata
+SL000531	hi_hat	6d328aab-3bee-4d9d-b400-e1e71ff96f37	hi-hat	exact	wikidata
+SL000532	cymbals	0fe1a768-45ba-49e4-8363-14db8e73ca85	cymbal	exact	wikidata
+SL000533	toms	80eb5b78-b3eb-401a-b774-6a922cfee238	tom-tom	exact	wikidata
+SL000534	electronic_drums	174d408c-2e3c-4dd6-aeee-3583ea9b206e	electronic drum set	exact	wikidata
+SL000536	congas	f3bd3292-1a33-4259-974d-b7375158d95d	congas	exact	wikidata
+SL000537	bongos	af593522-6dc8-45b3-8419-35f22adb5c03	bongos	exact	wikidata
+SL000538	timbales	e79fd941-dcdf-4a07-bafb-61ef5c47d7b2	timbales	exact	wikidata
+SL000539	cajon	537a8fb2-a92e-420f-b0a8-22a6ed2f038e	cajón	exact	wikidata
+SL000540	djembe	f4e6ad5f-a0c2-4974-8607-df65e7e2c11b	djembe	exact	wikidata
+SL000541	darbuka	909f7bde-b162-450f-9252-6fb81cc85b9b	goblet drum	exact	wikidata
+SL000542	frame_drum	f7d3dd06-721b-4258-8c5e-cf3b5085b45c	frame drum	exact	wikidata
+SL000543	tabla	18e6998b-e53b-415b-b484-d3ac286da99d	tabla	exact	wikidata
+SL000544	mridangam	f689271c-37bc-4c49-92a3-a14b15ee5d0e	mridangam	exact	wikidata
+SL000545	talking_drum	3b6d0bdc-2e39-424f-81d9-098be2efa707	talking drum	exact	wikidata
+SL000546	tambourine	4431f7b0-69a4-49ee-b84f-15dda19fb70c	tambourine	exact	wikidata
+SL000547	shaker	0d2ef84f-197b-405b-9a7c-293bbe331e30	shakers	close	manual
+SL000548	guiro	f297a140-d442-446d-9a2e-a7f1923f7df6	güiro	exact	wikidata
+SL000549	cowbell	2b75a5bc-f9ce-49e8-ace8-35e5925fff4a	cowbell	exact	wikidata
+SL000550	claves_instrument	4846eef6-2901-41cf-bae1-a27ff708fc54	claves	exact	wikidata
+SL000551	castanets	dd53d958-d4dd-43df-bf61-2e62d4772109	castanets	exact	wikidata
+SL000552	handclaps	b8d84cec-ef49-47ec-b754-c1e48146e255	handclaps	exact	manual
+SL000553	finger_snaps	34787aa3-1027-498b-af38-4385665cc34c	finger snaps	exact	wikidata
+SL000554	cuica	fa174c32-b348-4939-89b2-bde85af4ee02	cuíca	exact	wikidata
+SL000555	surdo	a7e6594b-d952-4732-9410-3eb41a60605c	surdo	exact	wikidata
+SL000556	washboard	2e899f30-ac87-4ea9-88bf-9b4b573bab63	washboard	exact	wikidata
+SL000558	dhol	9eda0cee-d33f-402e-b7bc-96b9e6962d5c	dhol	exact	wikidata
+SL000559	taiko	69e695d1-e4e0-4c18-9b9a-134b189ca2bc	taiko	exact	wikidata
+SL000560	timpani	7d86c75c-bccd-4c9d-a73d-4bb443e5110b	timpani	exact	wikidata
+SL000562	marimba	c436b34a-3017-472d-a003-49a2b24d55da	marimba	exact	wikidata
+SL000563	vibraphone	799af440-c0e7-4d8f-83d5-ecfee8b25787	vibraphone	exact	wikidata
+SL000564	xylophone	db95a035-6a3d-44b4-8694-74ff71b61768	xylophone	exact	wikidata
+SL000565	glockenspiel	340b8043-e3c4-443e-afb8-7fce24fe0ce4	glockenspiel	exact	wikidata
+SL000566	tubular_bells	7d6964ff-b1f5-472b-bdd7-b53de3739ad3	tubular bells	exact	wikidata
+SL000567	steelpan	2bf75d8e-68f0-4e58-8042-3835265034c1	steelpan	exact	wikidata
+SL000568	kalimba	4dc550d6-973f-42bd-8c9b-7dfd09bd3f6e	mbira	close	manual
+SL000569	handpan	d5b46baa-37fc-46cc-b99f-c455ce6e6a9c	handpan	exact	manual
+SL000570	gamelan_instrument	a26a663e-3add-42e1-ac07-ce289d5f330a	gamelan	exact	manual
+SL000571	triangle	63cfd648-2022-4390-8740-1ea86259574f	triangle	exact	wikidata
+SL000572	gong	21e8f13c-aca2-4a34-83a3-951cc347c14a	gong	exact	wikidata
+SL000573	balafon	a48d42b3-0fa9-45f2-933d-2770f4ca273f	balafon	exact	wikidata
+SL000577	string_quartet	708c6d50-c768-4f93-a5c7-b41fb3cf029f	string quartet	exact	wikidata
+SL000773	guitar	63021302-86cd-4aee-80df-2270d54f4978	guitar	exact	wikidata
+SL000774	archtop_guitar	364d2c49-9ee3-4cfd-9512-df0b15eca28d	archtop guitar	exact	wikidata
+SL000775	electric_sitar	d7977da9-ed10-441a-b4e3-a64277db2cb6	electric sitar	exact	wikidata
+SL000776	baritone_guitar	31c3f6cc-d49c-4d63-8b85-576a545d33f2	baritone guitar	exact	wikidata
+SL000777	tenor_banjo	9f8e485d-6be5-428c-ae5a-ac24f52254ff	tenor banjo	exact	wikidata
+SL000778	bajo_sexto	41e8a9c1-f860-40c7-a066-ed1b71f35b68	bajo sexto	exact	wikidata
+SL000779	portuguese_guitar	ba4705aa-ff1d-48d5-ae80-7b2046fb451e	Portuguese guitar	exact	manual
+SL000780	tar_lute	dabdeb41-560f-4d84-aa6a-cf22349326fe	tar	exact	manual
+SL000781	ngoni	e5951e63-3d8b-4945-8026-cadb726d4ac8	ngɔni	exact	manual
+SL000782	kantele	d96160fe-57f5-4dc0-a6ae-bc05314f9743	kantele	exact	wikidata
+SL000783	autoharp	dc17c2a5-a7be-4b78-a0c1-4aceee0875e1	autoharp	exact	wikidata
+SL000784	electric_violin	5f4d4cf9-40fb-494d-8266-747b0289a84d	electric violin	exact	wikidata
+SL000785	morin_khuur	1bf9e39f-5ffc-4588-990b-d48609613f8f	morin khuur	exact	wikidata
+SL000786	kamancheh	a9f76c33-1eaa-48c0-a43c-ee12754eb7bf	kamancheh	exact	wikidata
+SL000787	rebab	30cb46c6-2694-4348-a7c6-3fb12666d7e5	rebab	exact	wikidata
+SL000788	siku	448eeddf-37a3-49f3-9e46-d46ccd821aaf	siku	exact	wikidata
+SL000789	quena	52009a6c-156b-40d4-abf5-c46084a7a69b	quena	exact	wikidata
+SL000790	kaval	e6c0f0f4-9e03-4177-8ccc-c4c99c8a9d83	kaval	exact	wikidata
+SL000791	fife	996e6514-37a4-4b22-af71-e968f30913fd	fife	exact	wikidata
+SL000792	zurna	0666c718-137e-4cc6-881d-fc6430d7dea4	zurna	exact	wikidata
+SL000793	shawm	b4f112c3-d666-47f2-bb85-bae28572ca13	shawm	exact	wikidata
+SL000794	highland_bagpipe	b7ebf30d-ca2f-4795-ad29-409f9f754b46	Great Highland bagpipe	exact	manual
+SL000795	uilleann_pipes	d307828e-e4e4-42ee-bce9-e1cd15ad3ec1	uilleann pipes	exact	wikidata
+SL000796	gaida	68785e1c-0541-4db7-af12-2e4e7eb0b7e3	gaida	exact	wikidata
+SL000797	sousaphone	53e090c3-4376-470f-be04-09483324b668	sousaphone	exact	wikidata
+SL000798	euphonium	6c73e2b6-76bc-40b1-ae7d-2768d23a9a79	euphonium	exact	wikidata
+SL000799	electric_grand	c96f5acf-1d1a-42bf-8e09-184879d85655	electric grand piano	exact	manual
+SL000800	button_accordion	842d3d24-f638-47e6-a239-8578723db09c	diatonic button accordion	exact	manual
+SL000801	string_synth	54fc9c17-b16f-4d10-a372-c3f1bb6da70f	string synthesizer	exact	wikidata
+SL000802	keytar	b11361d3-643f-4ccb-bc3b-0ba26f7e01d4	keytar	exact	wikidata
+SL000803	wind_synth	4809de55-92ba-4bac-b1b0-a609d2d41d18	wind synthesizer	exact	manual
+SL000804	guitar_synth	0282b785-f94a-4f7e-b51d-062152ac6700	guitar synthesizer	exact	wikidata
+SL000805	maracas	67e43590-f3c4-486c-9b86-f1dfe338c5e9	maracas	exact	manual
+SL000806	guira	cba4f354-f7ff-45fd-a91b-0e8e5e1dba05	güira	exact	manual
+SL000807	caixa	88dad742-e0b7-4ad4-811d-e32b6d2b847d	caixa	exact	wikidata
+SL000808	repinique	d4b0543a-8ded-49b8-8e9c-c951a8f9de29	repinique	exact	wikidata
+SL000809	atabaque	46ec6044-6c57-4ebe-8c1e-762f19b66340	atabaque	exact	wikidata
+SL000810	dholak	96c87e0e-4a33-4abe-b6fb-e7a3a3f67229	dholak	exact	wikidata
+SL000811	ghatam	c5aa7d98-c14d-4ff1-8afb-f8743c62496c	ghatam	exact	wikidata
+SL000812	sabar	f37cf81c-0443-4e50-81ea-a63da88a7c4a	sabar	exact	wikidata
+SL000813	wood_block	ec7a5fbf-f374-4bdb-8c1d-fabc7a8424c0	wood block	exact	wikidata
+SL000814	bombo_leguero	091ecfa0-a0b7-405c-b14c-82806cccc465	bombo legüero	exact	manual
+SL000815	dunun	a10fdd7a-c00f-4a5c-993e-c7d215b44959	dunun	exact	wikidata
+SL000816	mark_tree	36174229-0e11-4eaf-82c8-e2502ddbbd30	Mark tree	exact	manual
+SL000817	anvil	526ca2ae-ceba-4194-a786-139b3bef9519	anvil	exact	wikidata
+SL000818	bateria	6fda4e1b-3af5-4f9f-abf0-588afcfad903	bateria	exact	manual
+SL000819	tamburica_orchestra	d76c5a9e-bc07-4088-99d5-b76fbda1eaec	Serbo-Croatian tamburica orchestra	exact	manual
+SL000820	resonator_guitar	4ffe5341-4d63-4b1f-8b00-b008954bc7a4	resonator guitar	exact	wikidata
+SL000821	tres	65b8bd3c-c194-415b-b075-1f3cd9d031bd	tres	exact	wikidata
+SL000828	steel_guitar	921330d6-eb1b-4e59-b4b6-824ebcdb89c2	steel guitar	exact	wikidata
+SL000829	sarod	97d2aa1e-b5e6-4930-ab0e-f2cfe508b253	sarod	exact	wikidata
+SL000830	tanpura	a19ae157-702a-40c6-892f-9bcb97328b7b	tanpura	exact	wikidata
+SL000831	pipa	4ddf3737-9ef2-49c4-9de2-697a19884463	pipa	exact	wikidata
+SL000832	gayageum	73ab72a3-039d-422a-8ce8-a0f8211bd022	gayageum	exact	wikidata
+SL000833	dan_tranh	b95fb59c-cb20-4bb7-bc11-8ab782d480f0	đàn tranh	exact	wikidata
+SL000834	dan_bau	75ef0f2e-0ca2-48ef-9a1c-56f23a900652	đàn bầu	exact	wikidata
+SL000835	appalachian_dulcimer	e618d02c-41c0-475c-be70-7ef0f92da7d0	Appalachian dulcimer	exact	wikidata
+SL000836	musical_bow	89e04164-5c7b-45df-94f4-e979b21da9bc	musical bow	exact	wikidata
+SL000837	berimbau	c7651f8a-ce7e-494a-9764-cbdd2d9817c3	berimbau	exact	wikidata
+SL000838	hammered_dulcimer	9cbe04a2-0014-474c-b530-b0d4f4b73413	hammered dulcimer	exact	wikidata
+SL000839	santur	29480d87-363a-467b-9950-058c0fe86fe6	santur	exact	wikidata
+SL000840	santoor	9ace3b20-ff09-4a53-b737-79f9dc1ca90b	santoor	exact	wikidata
+SL000841	yangqin	154ef6da-72e7-4c28-bf98-cf260f145a43	yangqin	exact	wikidata
+SL000842	cimbalom	65194192-8cc9-48c2-ae47-7da3bb934e30	cimbalom	exact	wikidata
+SL000843	hardanger_fiddle	13300a83-2776-481a-80fb-cd68f7be4051	hardingfele	exact	wikidata
+SL000844	viola_da_gamba	be34e4e5-6e77-46f5-ab56-c9641d3da213	viola da gamba	exact	wikidata
+SL000845	sarangi	79f5331d-d17c-4c2e-8ad0-44144432a754	sarangi	exact	wikidata
+SL000846	bansuri	1ebfe130-b68c-452a-8ee3-81b430d13ca3	bansuri	exact	wikidata
+SL000847	dizi	d6fa07a5-0060-4288-a974-156905cebcc3	dizi	exact	wikidata
+SL000848	ocarina	e93eda0f-9475-45c1-9194-29020d9b83e9	ocarina	exact	wikidata
+SL000849	bass_clarinet	b7d71e02-e76c-4483-b394-b29057888131	bass clarinet	exact	wikidata
+SL000850	suona	15cd573d-15a8-4f9f-a48f-f73218d85e14	suona	exact	wikidata
+SL000851	sheng	e9f3db08-5360-4dfc-a5f4-0951f39d2be0	sheng	exact	wikidata
+SL000853	bodhran	1759833f-e25d-41a1-9133-780b9c9ee506	bodhrán	exact	wikidata
+SL000855	tamborim	a96bbbd1-7e44-4e79-b12e-a03ac232db98	tamborim	exact	wikidata
+SL000856	daf	182121b7-ecec-4a56-a480-563c895225f9	daf	exact	wikidata
+SL000857	riq	0cebfc41-374f-4860-9340-90e4b6515cbe	riq	exact	wikidata
+SL000858	bendir	e9bb7775-e8a7-4daa-8c0f-6ef364f105ee	bendir	exact	wikidata
+SL000859	agogo	f341241c-6a19-4ed9-acb0-0b89fe0bfdef	agogô	exact	wikidata
+SL000860	shekere	e23fb2a1-69bf-4c6e-baef-cf51f19a1b24	shekere	exact	wikidata
+SL000861	udu	ccb8a525-85e0-4d20-ba76-5730a086cfc1	udu	exact	wikidata
+SL000862	jaw_harp	ffaf7204-92f1-4c03-846a-748218ebf2a5	mouth harp	exact	wikidata
+SL000867	vietnamese_guitar	4a5a2a59-f5a8-4dc1-95b8-f3b3fb3cf2b6	Vietnamese guitar	exact	manual
+SL000868	viola_caipira	a3d55b72-7a93-4d75-bc2a-e266683cc5b4	viola caipira	exact	manual
+SL000869	baglamas	d4d5309f-166e-4e14-9887-06692f2c1027	baglamas	exact	manual
+SL000870	khim	9c2b7d88-b301-4dca-9f7c-014a210d0da5	khim	exact	manual
+SL000871	kamale_ngoni	68a64027-1bc3-4057-bd51-165697322aca	kamale ngɔni	exact	manual
+SL000872	bandurria	e8577662-ebda-404b-8bd8-be8448a5f429	bandurria	exact	manual
+SL000873	biwa	1b165fa4-8510-4a3e-a2b5-2d38baf55176	biwa	exact	manual
+SL000874	heike_biwa	ec478db3-c490-4fca-a688-0bdd9fb55806	heike biwa	exact	manual
+SL000875	doshpuluur	5f9bb15a-738f-48bb-8676-55e62547726f	doshpuluur	exact	manual
+SL000876	dutar	b3cf8cff-f7c7-4311-bf4e-cfc09bdb07ca	dutar	exact	manual
+SL000877	geomungo	8158f0e5-94ab-4c8f-b3ed-15b1b14b7d63	geomungo	exact	manual
+SL000878	gumbri	39d6fb0f-35a4-4c0a-b6c8-ca210c43f4a7	gumbri	exact	manual
+SL000879	guqin	6e6329ed-27c0-4ace-a6fd-bfc03ae68a40	guqin	exact	manual
+SL000880	kacapi	08a63d8e-0e93-4609-8555-c8cdf35fcf38	kacapi	exact	manual
+SL000881	kanun	896a4fc8-d9c2-4e02-9c34-9b6fb135c739	kanun	exact	manual
+SL000882	krar	2ab4c035-374a-4188-bb7a-81c2558254f7	krar	exact	manual
+SL000883	laud	056d3d57-ec0f-40e3-82ab-afd1af420cb1	laúd	exact	manual
+SL000884	octavina	efe98275-ad37-44cc-9471-bc0081924a39	octavina	exact	manual
+SL000885	sanshin	68c66335-c83e-49b9-8400-831788d792ff	sanshin	exact	manual
+SL000886	sanxian	ce8d4fc7-08cd-4d13-a84f-297f799e672f	sanxian	exact	manual
+SL000887	setar	f1299271-c5d7-4f7c-8b72-d64aa152c3bb	setar	exact	manual
+SL000888	tanbur	16f816ec-9ecf-4236-8006-19a4b27797f1	tanbur	exact	manual
+SL000889	tiple	5a671386-5e8f-4381-8b0e-b9b0a9e56e60	tiple	exact	manual
+SL000890	topshuur	c8906a6c-2786-40e7-ba03-74cafeabfb43	topshuur	exact	manual
+SL000891	dan_nguyet	f427a934-2c14-49bc-a0fd-aee758821157	đàn nguyệt	exact	manual
+SL000892	classical_kemence	b9692581-c117-47f3-9524-3deeb69c6d3f	classical kemençe	exact	manual
+SL000893	djoza	e0b0f1c6-25e9-49b9-8164-131a251e8dce	djoza	exact	manual
+SL000894	ghijak	0d766870-3021-47ce-bd51-78d2d2484e1b	ghijak	exact	manual
+SL000895	haegeum	8721ee8b-de77-4e38-a8ce-61bba705807b	haegeum	exact	manual
+SL000896	igil	9bae90ea-9729-4c30-bd3e-f8319cdf4051	igil	exact	manual
+SL000897	saw_duang	28db0a69-5191-41ad-98b4-be1ff876868f	saw duang	exact	manual
+SL000898	saw_u	7e57165e-404c-4e11-9e3d-5273b48db40f	saw u	exact	manual
+SL000899	dan_nhi	327938f3-0931-4dc9-bd64-5959089978e0	đàn nhị	exact	manual
+SL000900	gaita_gallega	c421096d-865e-4a92-8ee7-b52091d91fbd	gaita gallega	exact	manual
+SL000901	arghul	3adfcaab-611b-4117-b370-54842244dd24	arghul	exact	manual
+SL000902	daegeum	a089e86d-2e55-41e0-9d3a-3f71564eba8e	daegeum	exact	manual
+SL000903	flabiol	d548d806-cd6b-464e-8b87-cfb5adaedbfb	flabiol	exact	manual
+SL000904	hichiriki	b3b3d5f8-d2cd-4c98-ad19-60876a0176da	hichiriki	exact	manual
+SL000905	kagurabue	7a0733b6-5140-49c5-851d-b9f0de21e63d	kagurabue	exact	manual
+SL000906	khene	5053c10b-0a2c-4298-946f-b9a608827874	khene	exact	manual
+SL000907	ken_bau	93edb5e2-d047-486f-90f3-809708f7ba2d	kèn bầu	exact	manual
+SL000908	mijwiz	826a3a61-75ce-4620-9890-241f118d99e9	mijwiz	exact	manual
+SL000909	nadaswaram	c104db3d-30c6-41a6-a7d3-214598fcc301	nadaswaram	exact	manual
+SL000910	nohkan	e5b5ed95-f855-4493-a054-0fc4f39bc3e3	nohkan	exact	manual
+SL000911	pi_nai	bcbf73cd-168c-4b82-832f-e559606f0bdf	pi nai	exact	manual
+SL000912	piri	ad6477fe-3586-4d75-9914-de24900d148f	piri	exact	manual
+SL000913	ryuteki	1878af04-5a26-46e4-9389-a1ef93030e5d	ryuteki	exact	manual
+SL000914	saluang	ffafb925-3f23-4b29-a8f2-6bfa311ddd79	saluang	exact	manual
+SL000915	shinobue	9880f5b8-bbe9-4415-9dc6-3ec65342de6a	shinobue	exact	manual
+SL000916	sho	58a2fe57-147c-4a48-a2af-cf87305fcaab	sho	exact	manual
+SL000917	suling	a29f5eaa-0217-422d-ac08-d86bc6f894bf	suling	exact	manual
+SL000918	tenora	0d30c5ce-ea08-4a9a-8816-549a7abf996a	tenora	exact	manual
+SL000919	tible	dffe56f5-cd75-4392-ad31-1c3abf2b8e37	tible	exact	manual
+SL000920	whistle	3d7aca42-f7a7-46d8-9531-d39841a8aa6d	whistle	exact	manual
+SL000921	apito_de_samba	6c09e10d-7ed8-47a6-a9f2-8551b19b2d92	apito de samba	exact	manual
+SL000922	xiao	649c0df6-18d1-47dd-a96f-6713e7fd9496	xiao	exact	manual
+SL000923	bugle	d8afa42b-9287-41a2-82b2-2a96cb6b6fca	bugle	exact	manual
+SL000924	mellophone	6a539558-5585-4803-a705-a4520f23189d	mellophone	exact	manual
+SL000925	barrel_organ	e6fa08fe-bcc3-4715-9486-9d642ec38726	barrel organ	exact	manual
+SL000926	quinto	e1461782-0353-4f3a-a6e0-ce984f3190db	quinto	exact	manual
+SL000927	doyra	81c58ce0-65fa-4bab-8484-f8d68ae91c63	doyra	exact	manual
+SL000928	ganza	b55abfb4-c40a-44e8-876b-e8de1834892a	ganzá	exact	manual
+SL000929	afoxe	14f7b643-2348-4ae5-838a-715541b02961	afoxé	exact	manual
+SL000930	barrel_drum	fdb869b9-cb9e-40d4-a7bf-f44c8d3bbac7	barrel drum	exact	manual
+SL000931	buk	acd0c109-e4dd-488a-8f7b-d7c7e5f333bf	buk	exact	manual
+SL000932	caxixi	b2cc0011-1bd1-4906-a77f-f15c7a5bae12	caxixi	exact	manual
+SL000933	clapstick	5e2209c2-4d1c-4eb3-9cbb-29fe7d6a2681	clapstick	exact	manual
+SL000934	friction_drum	9cb81ffe-8ae9-47c5-8b13-65d54e10be58	friction drum	exact	manual
+SL000935	janggu	0a050b86-ba63-4a5e-a384-1650996073d1	janggu	exact	manual
+SL000936	kartal	f5fe9a97-6595-4d4d-9b6b-a83c646c7143	kartal	exact	manual
+SL000937	kkwaenggwari	e7494c7f-0c68-42c0-a37a-6e4fea80a062	kkwaenggwari	exact	manual
+SL000938	kotsuzumi	b35084cc-0e82-4047-9698-828c478f994f	kotsuzumi	exact	manual
+SL000939	krakeb	1bb67401-1501-4259-803a-c7c8e45c7624	krakeb	exact	manual
+SL000940	kudum	44715139-79f9-4093-a883-dc743d8bb466	kudüm	exact	manual
+SL000941	madal	ddc4d5c6-8b2e-4c92-8cab-d430e0ce6258	madal	exact	manual
+SL000942	pakhawaj	cf1343bf-0893-4a62-9c72-e25ee5be0309	pakhawaj	exact	manual
+SL000943	phach	8e3196e6-2720-4562-8877-3cced6cdb063	phách	exact	manual
+SL000944	quijada	c3ff2412-ea4e-4299-b93e-ca011c647dde	quijada	exact	manual
+SL000945	ratchet	a140a41d-16eb-487d-ba31-d82fd16e14b3	ratchet	exact	manual
+SL000946	zarb	fb2ea66c-ac2e-4ffc-acb3-2ad78a6c515f	zarb	exact	manual
+SL000947	otsuzumi	6de2a79c-9658-4765-bbb2-c82dc015ca48	ōtsuzumi	exact	manual
+SL000948	shime_daiko	e3154c4b-9da9-4ef2-abc4-58d577454e77	shime-daiko	exact	manual
+SL000949	alfaia	5801d468-6617-40dd-939f-0b64e96f1b6c	alfaia	exact	manual
+SL000950	garifuna_drum	4af93445-7eea-4253-aa61-afade8fb43d7	garifuna drum	exact	manual
+SL000951	zabumba	432b23ed-c179-4421-9bde-bf7872885499	zabumba	exact	manual
+SL000952	ranat_ek	e16bb6a7-fac3-46da-8ee4-e65c12b65388	ranat ek	exact	manual
+SL000953	gong_chime	b3203b9f-327a-4d7e-97f7-5e783e5b99a1	gong-chime	exact	manual
+SL000954	khong_wong_yai	4ed60977-fbcf-4802-bfce-cdbdc23e6dcc	khong wong yai	exact	manual
+SL000955	marimbula	1ed1ea53-0365-43ac-bdb5-1c4cd571baa6	marímbula	exact	manual
+SL000956	bell	c95c7129-d180-4218-afea-4b74ef70e2be	bell	exact	manual
+SL000957	gankogui	04e048dc-6aa6-4f6b-8d17-8180f7216003	gankogui	exact	manual
+SL000958	handbell	ee376c6e-128d-45be-b060-35e9655a612f	handbell	exact	manual
+SL000959	cobla	ff9804db-c0a0-4427-b4c0-8926c8f135d8	cobla	exact	manual

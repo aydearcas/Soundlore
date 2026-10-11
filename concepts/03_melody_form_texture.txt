@@ -8,6 +8,7 @@ melodic_element | Melodic elements |  | Recognizable melodic units. |  |
   motif | Motif |  | Smallest melodic or rhythmic idea that gets developed. |  | 
   leitmotiv | Leitmotif |  | Motif tied to a character or idea that recurs. |  | 
   ostinato | Ostinato |  | Persistently repeated figure. | ostinato | riff
+    ground_bass | Ground bass | basso ostinato | The repeated bass line itself; for the variation forms built on it use Passacaglia or Chaconne. |  | passacaglia
   countermelody | Countermelody |  | Secondary line in dialogue with the main melody. | countermelody | 
   topline | Topline |  | Main sung melody over the track. |  | 
   arpeggio | Arpeggio |  | Chord notes played one after another. | arpeggios | arpeggiator
@@ -18,10 +19,13 @@ melodic_device | Melodic devices |  | Techniques of ornament and color in the li
   ornamentation | Ornamentation |  | Decorative notes on the melody. |  | 
     trill | Trill |  | Rapid alternation between two neighboring notes. | trills | 
     mordent | Mordent |  | Quick ornament with a neighboring note. |  | 
-    grace_note | Grace note | appoggiatura; acciaccatura | Brief ornamental note before the main one. | grace notes | 
+    grace_note | Grace note |  | Brief ornamental note before the main one. | grace notes | 
+      acciaccatura | Acciaccatura | crushed note |  |  | 
+    appoggiatura | Appoggiatura |  | Leaning note on the beat that resolves by step; ornamental or harmonic. |  | grace_note
     turn | Turn |  | Ornament that circles the main note. |  | 
-  glissando | Glissando | portamento | Continuous slide from one pitch to another. | glissando; slides | 
-  melisma | Melisma |  | Several notes on a single syllable. | melismatic vocals | vocal_runs
+  glissando | Glissando |  | Slide through the pitches between two notes, continuous or as a rapid scale. | glissando; slides | portamento
+  portamento | Portamento | glide | Expressive glide that connects one note to the next; on synthesizers often called glide. | portamento; gliding notes | 
+  melisma | Melisma |  | The device; for a style of singing use Melismatic singing, for fast ornamental passages Vocal runs. | melismatic vocals | melismatic_singing
   syllabic_melody | Syllabic setting |  | One note per syllable. |  | 
   conjunct_motion | Conjunct motion |  | Melody moving by step. |  | 
   disjunct_motion | Disjunct motion |  | Melody with wide leaps. |  | 
@@ -84,7 +88,7 @@ composition_form | Compositional forms |  | Forms of the art-music tradition, al
   invention | Invention |  | Short contrapuntal piece in two or three voices. |  | 
   sonata_form | Sonata form |  | Exposition, development and recapitulation of two themes. |  | 
   theme_variations | Theme and variations |  | A theme followed by successive transformations. |  | 
-  passacaglia | Passacaglia | ground bass; basso ostinato | Variations over a repeated bass or progression. |  | ostinato
+  passacaglia | Passacaglia |  | Variations over a repeated bass or progression. |  | ostinato
   rondo | Rondo | ABACA | Instrumental refrain alternating with episodes. |  | 
   toccata | Toccata |  | Virtuosic keyboard piece with fast figuration. | toccata | 
   prelude | Prelude |  | Introductory or short free-form piece. |  | 

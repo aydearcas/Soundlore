@@ -1,0 +1,125 @@
+alloukou ; F mood_energetic
+balitaw ; F female_vocals male_vocals
+burmese classical ; F female_vocals
+bélé ; F polyrhythm
+caporal ; F tuba
+change ringing ; F repetition | O mood_triumphant
+djanba ; F repetition | O vocal_call_response
+dohori ; F female_vocals male_vocals
+fakaseasea ; F choir_none
+fandango caiçara ; F male_vocals
+fon leb ; F instrumental_track | O heterophony
+ginan ; F tempo_mid repetition
+gwo ka ; F vocal_call_response
+hambo ; F mood_bright | O folk_none
+heikyoku ; F free_meter
+hát tuồng ; F male_vocals female_vocals
+izlan ; F female_vocals
+jongo ; F handclaps
+jōruri ; F spoken_vocal
+kacapi suling ; F mood_melancholic
+kadodi ; F large_drums | O male_vocals
+kadongo kamu ; F fingerpicking | O mood_playful
+kai ; F free_meter
+kalindula ; F mood_energetic drum_kit
+kasékò (Guiana) ; F mood_energetic
+kete ; F drum_solo
+khrueang sai ; F tempo_mid
+kidumbak ; F mood_energetic
+klapa ; F vocal_harmonies
+kouta ; F tempo_slow mood_sensual | O mb:kotsuzumi
+kujawiak ; F time_3_4 tempo_slow
+kulintang ; F female_vocals
+lundu ; F acoustic_guitar_none
+maddahi ; F free_meter
+mangambeu ; F mood_energetic
+mataali ; F mood_energetic large_drums male_vocals
+mazurka ; F time_3_4 | O piano
+meiji shinkyoku ; F koto
+moutya ; F polyrhythm
+mugithi ; F mood_playful
+muiñeira ; F mood_bright
+musette ; F mood_romantic
+méringue ; F guitar_none
+nagara naam ; F male_vocals
+ngoma ; F vocal_call_response
+ngâm thơ ; F mood_melancholic
+njuup ; F vocal_call_response
+oberek ; F tempo_fast
+ogene music ; F vocal_call_response
+omutibo ; F mood_playful tempo_mid
+ondō ; F repetition
+orkes gambus ; F mood_romantic
+paghjella ; F melisma
+palm-wine ; F tempo_mid
+palo de mayo ; F female_vocals male_vocals mood_playful
+parlour music ; F soft_dynamics
+pilón ; F tempo_mid
+pinpeat ; F tempo_mid
+pipe band music ; F mood_triumphant
+piphat ; F tempo_mid
+pirekua ; F mood_romantic
+piyyut ; F free_meter melisma
+plena ; F time_2_4
+polifonia occitana ; F tambourine
+polonaise ; F mood_triumphant tempo_mid
+powada ; F tempo_fast
+pìobaireachd ; F drone
+quyi ; F storytelling_none
+rara ; F trumpet_none
+rasqueado cuiabano ; F time_2_4_none
+regional mexicano ; F trumpet violin
+repente ; F repetition
+rizitika ; F mood_melancholic
+rōkyoku ; F storytelling_none
+saluang klasik ; F free_meter
+samri ; F mood_energetic
+santé engagé ; F protest_none
+saya afroboliviana ; F vocal_call_response
+semba ; F mood_energetic
+shima-uta ; F time_2_4
+shinkyoku ; F koto
+sigidrigi ; F mood_bright
+sikuri ; F time_2_4 mood_bright
+sinawi ; F improvisation_none
+sizhu music ; F tempo_mid
+skiladiko ; F electric_guitar
+slack-key guitar ; F tempo_slow
+slow waltz ; F mood_romantic
+son calentano ; F violin_none
+southeast asian classical ; F instrumental_track
+steel band ; F tempo_fast
+séga tambour ; F mood_energetic
+takamba ; F mood_hypnotic tempo_mid
+talempong ; F mood_bright
+tamborera ; F vocal_call_response
+taquirari ; F male_vocals
+tassa ; F mood_energetic
+tassu ; F mood_playful repetition
+tchinkoumé ; F large_drums
+thai classical ; F tempo_mid
+timbila ; F polyrhythm
+toada de boi ; F male_vocals
+traditional séga ; F mood_energetic
+tsapiky ; F syncopation
+tumba ; F tempo_fast
+tumba francesa ; F mood_energetic
+twoubadou ; F mood_nostalgic
+tân cổ giao duyên ; F mood_melancholic
+unyago ; F vocal_call_response
+upopo ; F mood_spiritual
+urumi melam ; F tempo_fast
+vals venezolano ; F mood_nostalgic
+vanera ; F time_2_4_none
+vietnamese classical ; F tempo_slow
+villancico ; F mood_bright_none
+waka ; F accelerando
+waltz ; F tempo_mid
+wangga ; F didgeridoo_none
+wassoulou ; F female_vocals_none
+xẩm ; F mood_melancholic
+yukar ; F free_meter
+zamacueca ; F guitar
+zemirot ; F choir
+zinli ; F male_vocals
+ʻōteʻa ; F tempo_fast_none

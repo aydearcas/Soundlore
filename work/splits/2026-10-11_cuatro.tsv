@@ -1,0 +1,14 @@
+# Split of SL000433 (cuatro) on 2026-10-11. Kept: SL000433 cuatro. New: SL000821 tres
+# Review each reference and reassign it by hand where it meant one of the new concepts. Fill in 'decision'.
+kind	where	content	decision
+prompt terms	05_instruments.txt:37	cuatro	kept
+genre profile	profiles_08_world_classical.txt:33	son cubano	reassigned to tres
+genre profile	profiles_09_reinforcements.txt:40	samba	reassigned to cavaquinho (samba uses the cavaquinho, not the cuatro)
+genre profile	profiles_13_extended_d.txt:132	joropo	keep cuatro (Venezuelan cuatro)
+genre profile	profiles_13_extended_d.txt:134	gaita zuliana	keep cuatro
+genre profile	profiles_13_extended_d.txt:136	vals venezolano	keep cuatro
+genre profile	profiles_13_extended_d.txt:173	son jarocho	REVIEW: the core instrument is the jarana jarocha (not in Soundlore yet); cuatro kept for now
+genre profile	profiles_13_extended_d.txt:381	keroncong	REVIEW: keroncong uses the cuk and cak; cuatro kept for now
+genre profile	profiles_13_extended_d.txt:453	parang	keep cuatro (Trinidad parang uses the cuatro)
+genre profile	profiles_13_extended_d.txt:487	punto	reassigned to tres (Cuban punto guajiro: tres and laúd)
+side table	definitions_en.tsv:436	A grouping for Latin American cuatro and tres instruments; their string layouts and tuning	definition rewritten for the cuatro only

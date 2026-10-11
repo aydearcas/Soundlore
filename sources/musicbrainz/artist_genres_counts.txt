@@ -1,0 +1,23 @@
+MusicBrainz artist dump 2026-10-10 01:14:44.672495+00: 3,008,890 artists read, 214,970 with at least one genre vote.
+Listed artists kept without genre votes: 48,338.
+Time: 193 s. Output: C:\Users\aydea\Desktop\Proyectos IA\teasuro_musical\music-thesaurus\sources\musicbrainz\artist_genres_extract.jsonl.gz (21.3 MB)
+
+Artists whose best-voted genre has at least N votes:
+  N >= 20+:       120
+  N >= 15 :       241
+  N >= 10 :       563
+  N >=  7 :     1,229
+  N >=  5 :     2,645
+  N >=  4 :     4,367
+  N >=  3 :     8,723
+  N >=  2 :    25,835
+  N >=  1 :   214,970
+
+Artists whose genre votes add up to at least N:
+  N >= 50+:       206
+  N >= 20 :     1,360
+  N >= 10 :     5,781
+  N >=  5 :    28,236
+  N >=  3 :    63,102
+  N >=  2 :   107,710
+  N >=  1 :   214,970

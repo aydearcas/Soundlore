@@ -1,0 +1,248 @@
+genre	concept_id	level	confidence	rationale
+canto degli alpini	vocal_harmonies	C	medium	Italian Alpine troops' songs: male choir in close homophonic harmony.
+canto degli alpini	strophic_form	C	medium	Italian Alpine troops' songs: male choir in close homophonic harmony.
+canto degli alpini	mood_nostalgic	F	medium	Italian Alpine troops' songs: male choir in close homophonic harmony.
+canto degli alpini	march	F	medium	Italian Alpine troops' songs: male choir in close homophonic harmony.
+canto degli alpini	tempo_mid	F	medium	Italian Alpine troops' songs: male choir in close homophonic harmony.
+cantoria	male_vocals	C	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantoria	duet	C	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantoria	MB0750	C	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantoria	storytelling	F	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantoria	repetition	F	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantoria	mood_playful	O	medium	Northeastern Brazilian sung duel: two improvising singers with violas.
+cantu a chiterra	male_vocals	C	medium	Sardinian guitar song: improvised verses and ornate tenor lines over guitar.
+cantu a chiterra	melisma	C	medium	Sardinian guitar song: improvised verses and ornate tenor lines over guitar.
+cantu a chiterra	tempo_slow	F	medium	Sardinian guitar song: improvised verses and ornate tenor lines over guitar.
+cantu a chiterra	free_meter	F	medium	Sardinian guitar song: improvised verses and ornate tenor lines over guitar.
+cantu a tenore	male_vocals	C	high	Sardinian four-voice male singing with throat-sung bass and contra.
+cantu a tenore	drone	C	high	Sardinian four-voice male singing with throat-sung bass and contra.
+cantu a tenore	chant	F	high	Sardinian four-voice male singing with throat-sung bass and contra.
+cantu a tenore	tempo_mid	F	high	Sardinian four-voice male singing with throat-sung bass and contra.
+canzone napoletana	male_vocals	C	medium	Neapolitan song: lyrical tenor melodies with mandolin and guitar.
+canzone napoletana	strophic_form	F	medium	Neapolitan song: lyrical tenor melodies with mandolin and guitar.
+canzone napoletana	verse_chorus_form	F	medium	Neapolitan song: lyrical tenor melodies with mandolin and guitar.
+canzone napoletana	mood_nostalgic	F	medium	Neapolitan song: lyrical tenor melodies with mandolin and guitar.
+canzone napoletana	string_section	O	medium	Neapolitan song: lyrical tenor melodies with mandolin and guitar.
+caporal	time_2_4	C	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+caporal	mood_energetic	F	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+caporal	snare_drum	F	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+caporal	trumpet	F	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+caporal	tuba	F	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+caporal	march	X	medium	Bolivian Andean carnival dance played by brass bands;a dance rhythm rather than a march.
+carimbó	maracas	C	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carimbó	banjo	C	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carimbó	vocal_call_response	C	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carimbó	saxophone	F	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carimbó	flute	F	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carimbó	mood_bright	F	medium	Paraense dance: curimbó drums, maracas, banjo and wind lead, call and response.
+carnavalito	time_2_4	C	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carnavalito	siku	C	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carnavalito	quena	C	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carnavalito	bombo_leguero	F	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carnavalito	mood_bright	F	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carnavalito	pan_flute	X	medium	Andean festive dance: sikus, quena, charango and bombo;siku is more specific than pan flute.
+carranga	MB0696	C	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	guiro	C	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	male_vocals	C	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	mood_playful	F	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	storytelling	F	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	time_2_4	F	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+carranga	time_6_8	X	medium	Colombian Boyacá rural music: tiple, requinto and guacharaca, humorous verses in 2/4.
+central asian throat singing	male_vocals	C	high	Tuvan and Mongolian overtone singing with igil, morin khuur and plucked lutes.
+central asian throat singing	morin_khuur	F	high	Tuvan and Mongolian overtone singing with igil, morin khuur and plucked lutes.
+central asian throat singing	MB0317	F	high	Tuvan and Mongolian overtone singing with igil, morin khuur and plucked lutes.
+central asian throat singing	MB0193	F	high	Tuvan and Mongolian overtone singing with igil, morin khuur and plucked lutes.
+central asian throat singing	jaw_harp	O	high	Tuvan and Mongolian overtone singing with igil, morin khuur and plucked lutes.
+chacarera	bombo_leguero	C	high	Argentine 6/8 dance with guitar, violin and bombo legüero.
+chacarera	vocal_call_response	C	high	Argentine 6/8 dance with guitar, violin and bombo legüero.
+chacarera	mood_bright	F	high	Argentine 6/8 dance with guitar, violin and bombo legüero.
+chacarera	frame_drum	X	high	Argentine 6/8 dance with guitar, violin and bombo legüero.
+chakacha	female_vocals	C	medium	Swahili coast women's wedding dance with drums and responsorial song.
+chakacha	tempo_fast	C	medium	Swahili coast women's wedding dance with drums and responsorial song.
+chakacha	polyrhythm	F	medium	Swahili coast women's wedding dance with drums and responsorial song.
+chakacha	mood_energetic	F	medium	Swahili coast women's wedding dance with drums and responsorial song.
+chamamé	button_accordion	C	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+chamamé	hemiola	F	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+chamamé	mood_nostalgic	F	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+chamamé	duet	F	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+chamamé	double_bass	O	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+chamamé	accordion	X	high	Argentine Litoral dance: diatonic accordion or bandoneon with guitars, sesquialtera feel.
+change ringing	instrumental_track	C	high	English tower bells rung in mathematical permutations;church bells, not orchestral tubular bells.
+change ringing	MB0066	C	high	English tower bells rung in mathematical permutations;church bells, not orchestral tubular bells.
+change ringing	tempo_mid	F	high	English tower bells rung in mathematical permutations;church bells, not orchestral tubular bells.
+change ringing	mood_triumphant	O	high	English tower bells rung in mathematical permutations;church bells, not orchestral tubular bells.
+change ringing	tubular_bells	X	high	English tower bells rung in mathematical permutations;church bells, not orchestral tubular bells.
+changjak gugak	gayageum	C	medium	Contemporary composition for Korean traditional instruments.
+changjak gugak	MB0174	C	medium	Contemporary composition for Korean traditional instruments.
+changjak gugak	MB0293	C	medium	Contemporary composition for Korean traditional instruments.
+changjak gugak	orchestra	F	medium	Contemporary composition for Korean traditional instruments.
+changjak gugak	synthesizer	O	medium	Contemporary composition for Korean traditional instruments.
+chaozhou xianshi	yangqin	C	medium	Chaozhou string ensemble music: two-string fiddle, yangqin, pipa and zither in heterophony.
+chaozhou xianshi	pipa	C	medium	Chaozhou string ensemble music: two-string fiddle, yangqin, pipa and zither in heterophony.
+chaozhou xianshi	heterophony	F	medium	Chaozhou string ensemble music: two-string fiddle, yangqin, pipa and zither in heterophony.
+chaozhou xianshi	tempo_mid	F	medium	Chaozhou string ensemble music: two-string fiddle, yangqin, pipa and zither in heterophony.
+chaozhou xianshi	instrumental_track	F	medium	Chaozhou string ensemble music: two-string fiddle, yangqin, pipa and zither in heterophony.
+chazzanut	male_vocals	C	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	free_meter	C	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	improvisation	C	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	modal_system	F	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	ornamentation	F	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	choir	O	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chazzanut	organ	O	medium	Jewish cantorial art: florid unmetered solo singing on the prayer modes.
+chicago polka	concertina	C	medium	Polish-American polka: slower 'honky' style led by concertina with clarinet and trumpet.
+chicago polka	clarinet	F	medium	Polish-American polka: slower 'honky' style led by concertina with clarinet and trumpet.
+chicago polka	trumpet	F	medium	Polish-American polka: slower 'honky' style led by concertina with clarinet and trumpet.
+chicago polka	drum_kit	F	medium	Polish-American polka: slower 'honky' style led by concertina with clarinet and trumpet.
+chicago polka	male_vocals	O	medium	Polish-American polka: slower 'honky' style led by concertina with clarinet and trumpet.
+children's music	repetition	C	medium	Simple, repetitive songs with bright melodies for children.
+children's music	tempo_mid	F	medium	Simple, repetitive songs with bright melodies for children.
+children's music	simple_meter	F	medium	Simple, repetitive songs with bright melodies for children.
+children's music	mood_bright	F	medium	Simple, repetitive songs with bright melodies for children.
+children's music	child_voice	F	medium	Simple, repetitive songs with bright melodies for children.
+children's music	acoustic_guitar	F	medium	Simple, repetitive songs with bright melodies for children.
+children's music	piano	O	medium	Simple, repetitive songs with bright melodies for children.
+chilena	female_vocals	C	medium	Afro-Mexican Costa Chica dance from the Chilean cueca: harp, violin and jarana-type guitars, not cuatro.
+chilena	violin	F	medium	Afro-Mexican Costa Chica dance from the Chilean cueca: harp, violin and jarana-type guitars, not cuatro.
+chilena	acoustic_guitar	F	medium	Afro-Mexican Costa Chica dance from the Chilean cueca: harp, violin and jarana-type guitars, not cuatro.
+chilena	cuatro	X	medium	Afro-Mexican Costa Chica dance from the Chilean cueca: harp, violin and jarana-type guitars, not cuatro.
+chimayche	mood_bright	C	low	Andean dance song of Peru's northeast, with violin, harp and quena.
+chimayche	female_vocals	F	low	Andean dance song of Peru's northeast, with violin, harp and quena.
+chimayche	violin	F	low	Andean dance song of Peru's northeast, with violin, harp and quena.
+chimurenga	male_vocals	C	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chimurenga	protest_lyrics	C	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chimurenga	electric_bass	F	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chimurenga	drum_kit	F	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chimurenga	mood_hypnotic	F	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chimurenga	repetition	F	high	Zimbabwean protest music: guitars imitating mbira patterns over a steady groove.
+chinese literati music	MB0291	C	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+chinese literati music	tempo_slow	C	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+chinese literati music	instrumental_track	C	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+chinese literati music	MB0781	F	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+chinese literati music	mood_introspective	F	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+chinese literati music	free_meter	F	medium	Scholar's music for guqin and xiao: quiet, slow and contemplative.
+choro	pandeiro	C	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	syncopation	C	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	rondo	F	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	instrumental_track	F	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	clarinet	F	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	mandolin	F	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+choro	saxophone	O	high	Brazilian instrumental music: flute, cavaquinho, seven-string guitar and pandeiro in syncopated rondo forms.
+chotis madrileño	MB0045	C	medium	Madrid schottische: unhurried, played on the street barrel organ (organillo).
+chotis madrileño	mood_nostalgic	F	medium	Madrid schottische: unhurried, played on the street barrel organ (organillo).
+chotis madrileño	tempo_mid	F	medium	Madrid schottische: unhurried, played on the street barrel organ (organillo).
+chotis madrileño	tuba	X	medium	Madrid schottische: unhurried, played on the street barrel organ (organillo).
+chotis madrileño	tempo_fast	X	medium	Madrid schottische: unhurried, played on the street barrel organ (organillo).
+christmas music	hook	C	medium	Seasonal songs: carols and pop standards with bells, choir and orchestral color.
+christmas music	MB0294	F	medium	Seasonal songs: carols and pop standards with bells, choir and orchestral color.
+christmas music	strophic_form	F	medium	Seasonal songs: carols and pop standards with bells, choir and orchestral color.
+christmas music	mood_nostalgic	F	medium	Seasonal songs: carols and pop standards with bells, choir and orchestral color.
+christmas music	swing	O	medium	Seasonal songs: carols and pop standards with bells, choir and orchestral color.
+church music	strophic_form	C	medium	Music for Christian worship: hymns, chorales and choral settings with organ.
+church music	homophony	F	medium	Music for Christian worship: hymns, chorales and choral settings with organ.
+church music	organ	F	medium	Music for Christian worship: hymns, chorales and choral settings with organ.
+church music	polyphony	O	medium	Music for Christian worship: hymns, chorales and choral settings with organ.
+chuscada	female_vocals	C	low	Andean dance song of Áncash, Peru, related to the huayno.
+chuscada	violin	F	low	Andean dance song of Áncash, Peru, related to the huayno.
+chuscada	mood_bright	F	low	Andean dance song of Áncash, Peru, related to the huayno.
+circus march	mood_playful	C	high	Fast 'screamer' marches for the circus, often in 6/8 or cut time with trombone smears.
+circus march	trombone	F	high	Fast 'screamer' marches for the circus, often in 6/8 or cut time with trombone smears.
+circus march	tuba	F	high	Fast 'screamer' marches for the circus, often in 6/8 or cut time with trombone smears.
+circus march	glockenspiel	F	high	Fast 'screamer' marches for the circus, often in 6/8 or cut time with trombone smears.
+circus march	time_2_4	X	high	Fast 'screamer' marches for the circus, often in 6/8 or cut time with trombone smears.
+ciranda	vocal_call_response	C	medium	Pernambuco ring dance: slow-swaying circle song with zabumba, snare and responsorial singing.
+ciranda	mood_bright	F	medium	Pernambuco ring dance: slow-swaying circle song with zabumba, snare and responsorial singing.
+ciranda	repetition	F	medium	Pernambuco ring dance: slow-swaying circle song with zabumba, snare and responsorial singing.
+ciranda	female_vocals	F	medium	Pernambuco ring dance: slow-swaying circle song with zabumba, snare and responsorial singing.
+ciranda	snare_drum	O	medium	Pernambuco ring dance: slow-swaying circle song with zabumba, snare and responsorial singing.
+coco	MB0256	C	medium	Northeastern Brazilian dance song with ganzá, pandeiro and foot-stamping responses.
+coco	pandeiro	C	medium	Northeastern Brazilian dance song with ganzá, pandeiro and foot-stamping responses.
+coco	time_2_4	F	medium	Northeastern Brazilian dance song with ganzá, pandeiro and foot-stamping responses.
+coco	handclaps	F	medium	Northeastern Brazilian dance song with ganzá, pandeiro and foot-stamping responses.
+coladeira	time_2_4	C	medium	Cape Verdean dance song, faster and lighter than morna, with cavaquinho and guitar.
+coladeira	male_vocals	F	medium	Cape Verdean dance song, faster and lighter than morna, with cavaquinho and guitar.
+coladeira	violin	F	medium	Cape Verdean dance song, faster and lighter than morna, with cavaquinho and guitar.
+colindă	a_cappella	C	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+colindă	strophic_form	C	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+colindă	repetition	F	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+colindă	mood_spiritual	F	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+colindă	glockenspiel	X	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+colindă	orchestra	X	medium	Romanian winter carols sung door to door by groups, usually unaccompanied.
+compas	horn_section	C	high	Haitian konpa: mid-tempo dance groove with guitars, horns or synths and a steady tanbou-cymbal pattern.
+compas	electric_guitar	C	high	Haitian konpa: mid-tempo dance groove with guitars, horns or synths and a steady tanbou-cymbal pattern.
+compas	tempo_mid	C	high	Haitian konpa: mid-tempo dance groove with guitars, horns or synths and a steady tanbou-cymbal pattern.
+compas	cowbell	F	high	Haitian konpa: mid-tempo dance groove with guitars, horns or synths and a steady tanbou-cymbal pattern.
+compas	male_vocals	F	high	Haitian konpa: mid-tempo dance groove with guitars, horns or synths and a steady tanbou-cymbal pattern.
+conga	mood_energetic	C	medium	Cuban carnival comparsa music: congas, bells and brass in a march-like 2/4 groove.
+conga	cowbell	F	medium	Cuban carnival comparsa music: congas, bells and brass in a march-like 2/4 groove.
+conga	call_and_response	F	medium	Cuban carnival comparsa music: congas, bells and brass in a march-like 2/4 groove.
+conga	trumpet	F	medium	Cuban carnival comparsa music: congas, bells and brass in a march-like 2/4 groove.
+congolese rumba	male_vocals	C	high	Congolese rumba: interlocking guitars, sweet harmonised vocals and a fast sebene section.
+congolese rumba	vocal_harmonies	C	high	Congolese rumba: interlocking guitars, sweet harmonised vocals and a fast sebene section.
+congolese rumba	instrumental_break	F	high	Congolese rumba: interlocking guitars, sweet harmonised vocals and a fast sebene section.
+congolese rumba	saxophone	O	high	Congolese rumba: interlocking guitars, sweet harmonised vocals and a fast sebene section.
+copla cajamarquina	female_vocals	C	low	Carnival song of Cajamarca, Peru.
+copla cajamarquina	violin	F	low	Carnival song of Cajamarca, Peru.
+copla cajamarquina	mood_bright	F	low	Carnival song of Cajamarca, Peru.
+corrido	male_vocals	C	high	Mexican narrative ballad on heroic or topical stories.
+corrido	duet	F	high	Mexican narrative ballad on heroic or topical stories.
+corrido	waltz	F	high	Mexican narrative ballad on heroic or topical stories.
+cueca	vocal_call_response	C	high	Chilean national dance: 6/8 with hemiola, guitar, harp, tambourine and palmas.
+cueca	mood_bright	F	high	Chilean national dance: 6/8 with hemiola, guitar, harp, tambourine and palmas.
+cueca	harp	F	high	Chilean national dance: 6/8 with hemiola, guitar, harp, tambourine and palmas.
+cueca	piano	F	high	Chilean national dance: 6/8 with hemiola, guitar, harp, tambourine and palmas.
+cueca	tambourine	O	high	Chilean national dance: 6/8 with hemiola, guitar, harp, tambourine and palmas.
+cueca brava	piano	C	medium	Urban Santiago cueca of the bars: piano, accordion, tambourine and harsh voices.
+cueca brava	accordion	F	medium	Urban Santiago cueca of the bars: piano, accordion, tambourine and harsh voices.
+cueca brava	tambourine	F	medium	Urban Santiago cueca of the bars: piano, accordion, tambourine and harsh voices.
+cueca brava	mood_energetic	F	medium	Urban Santiago cueca of the bars: piano, accordion, tambourine and harsh voices.
+currulao	female_vocals	C	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+currulao	time_6_8	C	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+currulao	polyrhythm	F	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+currulao	shaker	F	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+currulao	large_drums	F	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+currulao	mood_spiritual	O	high	Afro-Colombian Pacific music: marimba de chonta, cununos, bombos and guasás under women's responsorial singing.
+cururu	MB0750	C	medium	Rural São Paulo sung duel with viola caipira.
+cururu	male_vocals	C	medium	Rural São Paulo sung duel with viola caipira.
+cururu	improvisation	C	medium	Rural São Paulo sung duel with viola caipira.
+cururu	duet	F	medium	Rural São Paulo sung duel with viola caipira.
+cururu	storytelling	F	medium	Rural São Paulo sung duel with viola caipira.
+cải lương	MB0747	C	medium	Southern Vietnamese folk opera with the scalloped-fret guitar and đàn tranh, vọng cổ songs.
+cải lương	dan_tranh	C	medium	Southern Vietnamese folk opera with the scalloped-fret guitar and đàn tranh, vọng cổ songs.
+cải lương	mood_theatrical	F	medium	Southern Vietnamese folk opera with the scalloped-fret guitar and đàn tranh, vọng cổ songs.
+cải lương	mood_melancholic	F	medium	Southern Vietnamese folk opera with the scalloped-fret guitar and đàn tranh, vọng cổ songs.
+cải lương	female_vocals	F	medium	Southern Vietnamese folk opera with the scalloped-fret guitar and đàn tranh, vọng cổ songs.
+dabke	MB0444	C	high	Levantine line dance: mijwiz or zurna with tabl drum and stamping feet.
+dabke	MB0024	C	high	Levantine line dance: mijwiz or zurna with tabl drum and stamping feet.
+dabke	male_vocals	F	high	Levantine line dance: mijwiz or zurna with tabl drum and stamping feet.
+dabke	zurna	F	high	Levantine line dance: mijwiz or zurna with tabl drum and stamping feet.
+dabke	synthesizer	O	high	Levantine line dance: mijwiz or zurna with tabl drum and stamping feet.
+dangak	tempo_slow	C	medium	Korean court music of Tang origin: slow, heterophonic winds and strings.
+dangak	heterophony	C	medium	Korean court music of Tang origin: slow, heterophonic winds and strings.
+dangak	MB0518	F	medium	Korean court music of Tang origin: slow, heterophonic winds and strings.
+dangak	MB0293	F	medium	Korean court music of Tang origin: slow, heterophonic winds and strings.
+dangak	MB0174	F	medium	Korean court music of Tang origin: slow, heterophonic winds and strings.
+dangdut	female_vocals	C	high	Indonesian popular music: Hindustani-flavored rhythms on gendang and tabla, suling and electric guitar.
+dangdut	MB0646	F	high	Indonesian popular music: Hindustani-flavored rhythms on gendang and tabla, suling and electric guitar.
+dangdut	mandolin	F	high	Indonesian popular music: Hindustani-flavored rhythms on gendang and tabla, suling and electric guitar.
+dangdut	synthesizer	F	high	Indonesian popular music: Hindustani-flavored rhythms on gendang and tabla, suling and electric guitar.
+dangdut	mood_sensual	F	high	Indonesian popular music: Hindustani-flavored rhythms on gendang and tabla, suling and electric guitar.
+danmono	instrumental_track	C	medium	Japanese koto pieces in sections (dan) of equal length, often as variations.
+danmono	theme_variations	C	medium	Japanese koto pieces in sections (dan) of equal length, often as variations.
+danmono	tempo_mid	F	medium	Japanese koto pieces in sections (dan) of equal length, often as variations.
+dhol tasha	tempo_fast	C	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dhol tasha	instrumental_track	C	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dhol tasha	mood_energetic	C	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dhol tasha	accelerando	F	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dhol tasha	polyrhythm	F	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dhol tasha	cymbals	O	high	Maharashtrian processional drumming: massed dhols and tasha kettle drums, accelerating.
+dikir barat	male_vocals	C	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+dikir barat	choir	C	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+dikir barat	handclaps	F	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+dikir barat	improvisation	F	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+dikir barat	mood_playful	F	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+dikir barat	gong	O	medium	Kelantan choral performance: a lead singer improvises and the seated chorus answers with clapping.
+djanba	male_vocals	C	low	Aboriginal song style of the Tiwi and western Arnhem Land with clapsticks and didgeridoo.
+djanba	MB0144	F	low	Aboriginal song style of the Tiwi and western Arnhem Land with clapsticks and didgeridoo.
+djanba	didgeridoo	F	low	Aboriginal song style of the Tiwi and western Arnhem Land with clapsticks and didgeridoo.
+djanba	repetition	F	low	Aboriginal song style of the Tiwi and western Arnhem Land with clapsticks and didgeridoo.
+djanba	vocal_call_response	O	low	Aboriginal song style of the Tiwi and western Arnhem Land with clapsticks and didgeridoo.

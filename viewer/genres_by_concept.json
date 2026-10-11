@@ -8,9 +8,12 @@
    "bakersfield sound",
    "bard rock",
    "beat rock (Japanese 1980s genre)",
+   "benga",
+   "bikutsi",
    "burmese stereo",
    "campursari",
    "chicago blues",
+   "compas",
    "cumbia amazónica",
    "cumbia norteña peruana",
    "cumbia peruana",
@@ -20,9 +23,11 @@
    "desert blues",
    "electric blues",
    "electric texas blues",
+   "frevo elétrico",
    "hill country blues",
    "industrial rock",
    "jazz fusion",
+   "kréyol djaz",
    "machine rock",
    "maloya élektrik",
    "manila sound",
@@ -31,6 +36,7 @@
    "pop rock",
    "rock",
    "rock musical",
+   "salegy",
    "samba soul",
    "samba-rock",
    "sufi rock",
@@ -49,6 +55,8 @@
    "british folk rock",
    "british rhythm & blues",
    "britpop",
+   "cadence lypso",
+   "cadence rampa",
    "candombe beat",
    "celtic rock",
    "chicha",
@@ -66,9 +74,11 @@
    "garage rock",
    "glam",
    "glam rock",
+   "grupera",
    "hamburger schule",
    "hard rock",
    "heartland rock",
+   "humppa",
    "indie rock",
    "indietronica",
    "indorock",
@@ -77,10 +87,12 @@
    "jazz rock",
    "koplo",
    "latin rock",
+   "mangambeu",
    "mangue beat",
    "math rock",
    "medieval rock",
    "miejski folk",
+   "mugithi",
    "nederbeat",
    "noise rock",
    "piano rock",
@@ -102,17 +114,20 @@
    "rock opera",
    "rock rural",
    "roots rock",
+   "skiladiko",
    "smooth jazz",
    "soft rock",
    "swamp blues",
    "symphonic rock",
    "texas blues",
    "xian psych",
-   "yakousei"
+   "yakousei",
+   "zouk"
   ],
   "occasional": [
    "acid rock",
    "acoustic texas blues",
+   "afro-zouk",
    "alternative dance",
    "alternative metal",
    "anatolian rock",
@@ -125,6 +140,7 @@
    "british blues",
    "brutal prog",
    "budget rock",
+   "cabo zouk",
    "canterbury scene",
    "classic rock",
    "crossover prog",
@@ -193,6 +209,7 @@
    "yacht rock",
    "zamrock",
    "zeuhl",
+   "zouk love",
    "özgün müzik"
   ]
  },
@@ -1194,6 +1211,8 @@
    "art rock",
    "avant-garde metal",
    "beat music",
+   "benga",
+   "bikutsi",
    "black ambient",
    "black metal",
    "blackened crust",
@@ -1204,6 +1223,8 @@
    "britpop",
    "candombe beat",
    "celtic rock",
+   "chicago polka",
+   "chimurenga",
    "christian rock",
    "comedy rock",
    "contemporary christian",
@@ -1234,9 +1255,13 @@
    "instrumental rock",
    "j-rock",
    "jazz rock",
+   "jit",
+   "kalindula",
    "kawaii metal",
    "latin rock",
+   "maloya élektrik",
    "mangue beat",
+   "marrabenta",
    "math rock",
    "medieval rock",
    "metalcore",
@@ -1245,6 +1270,7 @@
    "nintendocore",
    "noise rock",
    "pagan black metal",
+   "pep band",
    "piano rock",
    "pigfuck",
    "pop yeh-yeh",
@@ -1267,6 +1293,7 @@
    "rock rural",
    "roots rock",
    "soft rock",
+   "steel band",
    "stenchcore",
    "stoner metal",
    "symphonic rock",
@@ -1330,10 +1357,12 @@
    "grunge",
    "heavy psych",
    "jangle pop",
+   "joik",
    "jovem guarda",
    "loud kei",
    "madchester",
    "mainstream rock",
+   "mangambeu",
    "math pop",
    "mathcore",
    "medieval metal",
@@ -1343,6 +1372,7 @@
    "merseybeat",
    "mod",
    "mod revival",
+   "mugithi",
    "neo-progressive rock",
    "neo-rockabilly",
    "neoclassical metal",
@@ -1414,19 +1444,16 @@
    "bend-skin",
    "benga",
    "burmese stereo",
-   "congolese rumba",
    "flamenco jazz",
+   "grupera",
    "industrial rock",
    "kalindula",
-   "kilapanga",
-   "kwassa kwassa",
    "machine rock",
    "makossa",
    "manila sound",
    "mbolé",
    "metal",
-   "mugithi",
-   "muziki wa dansi",
+   "mor lam sing",
    "nuevo flamenco",
    "pilón",
    "pop rock",
@@ -1436,22 +1463,20 @@
    "reggae-pop",
    "rock",
    "rock musical",
+   "salegy",
    "samba soul",
    "samba-rock",
    "seggae",
    "soukous",
    "sufi rock",
-   "tradi-moderne congolais",
    "tropical rock",
    "tropipop",
-   "tumbélé",
-   "vallenato",
-   "zoblazo",
-   "zouglou"
+   "vallenato"
   ],
   "frequent": [
    "acoustic rock",
    "afro rock",
+   "afro-zouk",
    "alpenrock",
    "alternative country",
    "alternative metal",
@@ -1471,11 +1496,14 @@
    "british folk rock",
    "british rhythm & blues",
    "britpop",
+   "cabo zouk",
    "candombe beat",
    "celtic rock",
    "champeta",
+   "chimurenga",
    "christian rock",
    "comedy rock",
+   "congolese rumba",
    "contemporary christian",
    "cosmic country",
    "country rock",
@@ -1491,6 +1519,7 @@
    "dub",
    "electronic rock",
    "experimental rock",
+   "fantezi",
    "folk rock",
    "funk metal",
    "funk rock",
@@ -1512,16 +1541,26 @@
    "instrumental rock",
    "j-rock",
    "jazz rock",
+   "jit",
    "kaneka",
    "kawaii metal",
+   "kilapanga",
    "krautrock",
+   "kwassa kwassa",
    "latin rock",
    "lovers rock",
+   "luk thung",
+   "maloya élektrik",
+   "mangambeu",
    "mangue beat",
+   "marrabenta",
+   "maskanda",
    "math rock",
    "medieval rock",
    "metalcore",
    "miejski folk",
+   "mugithi",
+   "muziki wa dansi",
    "nederbeat",
    "new rave",
    "nintendocore",
@@ -1554,17 +1593,24 @@
    "roots reggae",
    "roots rock",
    "samba-reggae",
+   "semba",
    "skinhead reggae",
    "soft rock",
    "stenchcore",
    "stoner metal",
    "symphonic rock",
    "thrash metal",
+   "tradi-moderne congolais",
+   "tsapiky",
+   "tumbélé",
    "xian psych",
-   "yakousei"
+   "yakousei",
+   "zoblazo",
+   "zouglou"
   ],
   "occasional": [
    "acid rock",
+   "aleke",
    "alternative dance",
    "anatolian rock",
    "aor",
@@ -1609,6 +1655,7 @@
    "folk metal",
    "frat rock",
    "freakbeat",
+   "funaná",
    "funeral doom metal",
    "garage psych",
    "garage punk",
@@ -1772,6 +1819,7 @@
    "americana",
    "art pop",
    "art rock",
+   "ballad",
    "beat music",
    "bhavageethe",
    "bhojpuri pop",
@@ -1788,6 +1836,7 @@
    "canción melódica",
    "candombe beat",
    "cantopop",
+   "canzone napoletana",
    "celtic rock",
    "chalga",
    "chamber pop",
@@ -2006,6 +2055,7 @@
    "jovem guarda",
    "k-pop",
    "könsrock",
+   "latin ballad",
    "loud kei",
    "madchester",
    "mainstream rock",
@@ -2678,8 +2728,10 @@
  },
  "time_4_4": {
   "characteristic": [
+   "afro-zouk",
    "bachata",
    "bachatón",
+   "cabo zouk",
    "hornpipe",
    "sa'idi",
    "stride"
@@ -2691,6 +2743,7 @@
    "industrial rock",
    "machine rock",
    "manila sound",
+   "mento",
    "pop rock",
    "rock",
    "rock musical",
@@ -3022,39 +3075,237 @@
  },
  "male_vocals": {
   "characteristic": [
+   "al jeel",
+   "algerian chaabi",
    "ambrosian chant",
+   "apala",
+   "ashkenazi cantorial music",
+   "baithak gana",
+   "baqashot",
    "beneventan chant",
+   "benga",
+   "beompae",
+   "bikutsi",
+   "burrakatha",
+   "cajun",
    "cante alentejano",
+   "canto cardenche",
    "canto degli alpini",
+   "cantoria",
+   "cantu a chiterra",
+   "cantu a tenore",
+   "canzone napoletana",
+   "canzone neomelodica",
+   "carranga",
    "celtic chant",
+   "central asian throat singing",
+   "chazzanut",
+   "chimurenga",
+   "congolese rumba",
+   "corrido",
+   "cururu",
+   "dikir barat",
+   "djanba",
+   "embolada",
    "fado de coimbra",
+   "famo",
+   "fantezi",
+   "fuji",
+   "funaná",
+   "gagok",
+   "gaita zuliana",
    "gallican chant",
+   "ghazal",
+   "ginan",
    "gregorian chant",
+   "griot",
+   "guaguancó",
+   "guarania",
+   "gwo ka",
+   "għana",
+   "heikyoku",
+   "huapango",
+   "iraqi maqam",
+   "isicathamiya",
+   "jit",
+   "joik",
+   "jota",
+   "jùjú",
+   "jōruri",
+   "kadongo kamu",
+   "kai",
+   "kalindula",
    "kecak",
+   "kilapanga",
    "kizomba",
    "klapa",
+   "kwassa kwassa",
+   "laiko",
+   "liwa",
+   "luk thung",
+   "maddahi",
+   "maftirim",
+   "mangambeu",
+   "maskanda",
+   "mbube",
+   "mchiriku",
+   "mento",
+   "menzuma",
+   "meyxana",
+   "min'yō",
+   "modern laiko",
+   "moroccan chaabi",
    "mozarabic chant",
+   "mugithi",
+   "muziki wa dansi",
+   "méringue",
+   "mūsīqā lubnāniyya",
+   "nagauta",
+   "narcocorrido",
+   "nasheed",
+   "neo kyma",
+   "nigun",
+   "noh",
+   "ogene music",
    "old roman chant",
+   "omutibo",
+   "ondō",
+   "orkes gambus",
    "paghjella",
+   "palm-wine",
+   "pirekua",
+   "piyyut",
    "plainchant",
+   "polifonia occitana",
+   "pop ghazal",
+   "powada",
+   "punto",
+   "regional mexicano",
+   "repente",
+   "rizitika",
+   "rumba",
+   "rumba cubana",
+   "ryūkōka",
+   "rōkyoku",
+   "saluang klasik",
+   "samri",
+   "santé engagé",
    "sarum chant",
-   "tarraxinha"
+   "sawt",
+   "semba",
+   "shaabi",
+   "shabad kirtan",
+   "shashmaqam",
+   "shoor",
+   "shōmyō",
+   "sigidrigi",
+   "skiladiko",
+   "son jarocho",
+   "soukous",
+   "stotra",
+   "swamp pop",
+   "takamba",
+   "tarraxinha",
+   "tembang cianjuran",
+   "tizita",
+   "tradi-moderne congolais",
+   "trallalero",
+   "trap shaabi",
+   "tropipop",
+   "tsapiky",
+   "tumbélé",
+   "twoubadou",
+   "tân cổ giao duyên",
+   "urtiin duu",
+   "uyghur muqam",
+   "uzun hava",
+   "vallenato",
+   "vedic chant",
+   "wangga",
+   "xẩm",
+   "yukar",
+   "zoblazo",
+   "zouglou",
+   "éntekhno"
   ],
   "frequent": [
+   "afro-zouk",
+   "aleke",
+   "arabesk",
+   "arabesk rap",
+   "assiko",
+   "avanzada",
+   "baião",
+   "balitaw",
+   "banda sinaloense",
    "bard rock",
    "beat rock (Japanese 1980s genre)",
+   "boduberu",
    "burmese stereo",
+   "cabo zouk",
+   "champeta",
+   "chilena",
+   "coladeira",
+   "compas",
+   "coupé-décalé",
+   "cumbia norteña mexicana",
+   "dabke",
+   "dohori",
+   "fandango caiçara",
+   "grupera",
+   "himene tarava",
+   "humppa",
+   "hát tuồng",
    "industrial rock",
+   "jazz mugham",
+   "kréyol djaz",
+   "kundiman",
    "machine rock",
+   "mahraganat",
+   "maloya",
    "manila sound",
+   "mantra",
+   "marrabenta",
+   "mataali",
+   "mor lam",
+   "movimiento alterado",
+   "mugham",
+   "nagara naam",
+   "nhạc đỏ",
+   "njuup",
+   "norteño",
+   "palo de mayo",
+   "parang",
+   "pasillo",
+   "pilón",
+   "plena",
    "pop rock",
+   "quan họ",
+   "rasqueado cuiabano",
+   "red song",
    "rock",
    "rock musical",
+   "sa'idi",
+   "salegy",
    "samba soul",
    "samba-rock",
+   "shima-uta",
+   "sierreño",
+   "son calentano",
+   "son huasteco",
+   "son istmeño",
    "sufi rock",
+   "taquirari",
+   "toada de boi",
    "tropical rock",
-   "uk garage"
+   "tumba",
+   "uk garage",
+   "vanera",
+   "waila",
+   "zamba",
+   "zemirot",
+   "zinli",
+   "zouk"
   ],
   "occasional": [
    "2-step",
@@ -3086,7 +3337,9 @@
    "candombe beat",
    "canterbury scene",
    "celtic rock",
+   "chicago polka",
    "christian rock",
+   "chöd",
    "classic rock",
    "comedy rock",
    "contemporary christian",
@@ -3100,6 +3353,7 @@
    "desert rock",
    "doomgaze",
    "dunedin sound",
+   "duranguense",
    "electronic rock",
    "experimental rock",
    "folk rock",
@@ -3131,10 +3385,13 @@
    "jangle pop",
    "jazz rock",
    "jovem guarda",
+   "kadodi",
    "latin rock",
    "loud kei",
    "madchester",
    "mainstream rock",
+   "maloya électronique",
+   "maloya élektrik",
    "mangue beat",
    "math pop",
    "math rock",
@@ -3143,6 +3400,7 @@
    "miejski folk",
    "mod",
    "mod revival",
+   "mor lam sing",
    "nederbeat",
    "neo-progressive rock",
    "neo-rockabilly",
@@ -3150,6 +3408,7 @@
    "no wave",
    "noise pop",
    "noise rock",
+   "nortec",
    "nu metal",
    "phleng phuea chiwit",
    "piano rock",
@@ -3199,9 +3458,13 @@
    "stoner metal",
    "stoner rock",
    "swamp rock",
+   "symphonic mugham",
    "symphonic prog",
    "symphonic rock",
+   "technobanda",
+   "tejano",
    "tex-mex",
+   "tibetan buddhist chant",
    "uk funky",
    "visual kei",
    "xian psych",
@@ -3209,6 +3472,7 @@
    "yakousei",
    "zamrock",
    "zeuhl",
+   "zouk love",
    "özgün müzik"
   ]
  },
@@ -3403,12 +3667,14 @@
    "big room house",
    "big room trance",
    "boogie-woogie",
+   "bouyon",
    "brazilian phonk",
    "brega funk",
    "budots",
    "bérite club",
    "chalga",
    "chutney soca",
+   "conga",
    "cruise",
    "crunk",
    "crunkcore",
@@ -3417,6 +3683,7 @@
    "dance",
    "dance-pop",
    "dennery segment",
+   "dhol tasha",
    "doble paso",
    "dubstyle",
    "edm",
@@ -3425,6 +3692,7 @@
    "eurodance",
    "europop",
    "full-on",
+   "funaná",
    "funk brasileiro",
    "funk carioca",
    "funk de bh",
@@ -3432,12 +3700,14 @@
    "funk proibidão",
    "funknejo",
    "future rave",
+   "garba",
    "hardstyle",
    "hi-tech full-on",
    "hyphy",
    "jersey club",
    "jersey drill",
    "junkanoo",
+   "kadodi",
    "kuduro",
    "mahraganat",
    "mambo chileno",
@@ -3454,9 +3724,12 @@
    "nightcore",
    "noiadance",
    "nustyle",
+   "oberek",
    "ori deck",
    "pagodão",
+   "palo de mayo",
    "peak time techno",
+   "pep band",
    "philly club",
    "psystyle",
    "rage",
@@ -3473,17 +3746,31 @@
    "tecnorumba",
    "trap latino",
    "trapfunk",
+   "tumba",
    "turbo-folk"
   ],
   "frequent": [
+   "agbadza",
+   "agbekor",
+   "alloukou",
    "balani show",
    "baltimore club",
    "bard rock",
    "batidão romântico",
+   "batucada",
    "beat rock (Japanese 1980s genre)",
+   "benga",
+   "bikutsi",
+   "boduberu",
    "broken beat",
    "bubblegum dance",
    "burmese stereo",
+   "cajun",
+   "candombe",
+   "candombe beat",
+   "caporal",
+   "chakacha",
+   "cueca brava",
    "deconstructed club",
    "dembow",
    "disco polo",
@@ -3494,7 +3781,11 @@
    "eurobeat",
    "festival progressive house",
    "festival trap",
+   "football chant",
    "frenchtek",
+   "frevo",
+   "frevo de rua",
+   "frevo elétrico",
    "funk automotivo",
    "funk consciente",
    "funk mandelão",
@@ -3502,6 +3793,7 @@
    "funkot",
    "future bounce",
    "future house",
+   "gumbe",
    "hard drum",
    "heaven trap",
    "hybrid trap",
@@ -3510,18 +3802,38 @@
    "italo dance",
    "j-euro",
    "jersey club rap",
+   "jit",
    "jumpstyle",
    "k-pop",
+   "kalindula",
+   "kasékò (Guiana)",
+   "kete",
+   "kidumbak",
+   "krakowiak",
+   "kumi-daiko",
    "latin pop",
    "machine rock",
+   "mangambeu",
    "manila sound",
+   "maracatu",
+   "mataali",
+   "mazurka",
+   "mchiriku",
    "melbourne bounce",
+   "mor lam sing",
+   "moroccan chaabi",
+   "moutya",
    "neoperreo",
+   "ngoma",
    "night full-on",
    "nortec",
    "philly club rap",
    "pop rock",
    "power soca",
+   "pungmul",
+   "punta",
+   "rara",
+   "rasqueado cuiabano",
    "rasteirinha",
    "rawphoric",
    "rawstyle",
@@ -3529,20 +3841,41 @@
    "rock",
    "rock musical",
    "romantic flow",
+   "sa'idi",
+   "salegy",
    "samba soul",
    "samba-rock",
+   "samri",
+   "santé engagé",
+   "semba",
    "shangaan electro",
    "sufi rock",
+   "swamp pop",
+   "séga tambour",
+   "tamborera",
    "tamborzão",
+   "tassa",
    "tecnomerengue",
    "teen pop",
+   "timbila",
+   "toada de boi",
    "township bubblegum",
+   "tradi-moderne congolais",
+   "traditional séga",
    "trap edm",
    "tropical rock",
    "tropipop",
+   "tsapiky",
+   "tsugaru-jamisen",
+   "tumba francesa",
+   "tumbélé",
    "twerk",
+   "unyago",
+   "vanera",
    "wa euro",
-   "xtra raw"
+   "xtra raw",
+   "zoblazo",
+   "ʻōteʻa"
   ],
   "occasional": [
    "acid rock",
@@ -3570,7 +3903,6 @@
    "britpop",
    "brutal prog",
    "budget rock",
-   "candombe beat",
    "canterbury scene",
    "celtic rock",
    "christian rock",
@@ -3595,6 +3927,8 @@
    "frat rock",
    "freakbeat",
    "french electro",
+   "frevo de bloco",
+   "frevo-canção",
    "funk rock",
    "garage psych",
    "garage punk",
@@ -3608,6 +3942,7 @@
    "grebo",
    "group sounds",
    "grunge",
+   "hambo",
    "hamburger schule",
    "hard rock",
    "heartland rock",
@@ -3622,6 +3957,7 @@
    "jovem guarda",
    "jungle dutch",
    "jungle terror",
+   "kujawiak",
    "latin rock",
    "loud kei",
    "madchester",
@@ -3634,6 +3970,7 @@
    "miejski folk",
    "mod",
    "mod revival",
+   "mugithi",
    "nederbeat",
    "neo-progressive rock",
    "neo-rockabilly",
@@ -3967,6 +4304,7 @@
    "concerto for orchestra",
    "concerto grosso",
    "cuarteto",
+   "cueca brava",
    "dark cabaret",
    "dream trance",
    "drill",
@@ -3996,7 +4334,6 @@
    "modinha",
    "music hall",
    "mélodie",
-   "neo kyma",
    "neo rave",
    "neoclassical new age",
    "new age",
@@ -4054,6 +4391,7 @@
    "contemporary jazz",
    "coon song",
    "crossover jazz",
+   "cueca",
    "cuplé",
    "deep house",
    "deep tech",
@@ -4090,6 +4428,7 @@
    "kabarett (German political satire)",
    "kréyol djaz",
    "kuduro",
+   "kundiman",
    "kwaito",
    "latin ballad",
    "latin house",
@@ -4101,13 +4440,16 @@
    "milonga",
    "minimalism",
    "música de intervenção",
+   "música típica chilena",
    "native american new age",
+   "neo kyma",
    "neo-rockabilly",
    "nova cançó",
    "novelty piano",
    "nuevo tango",
    "orchestral song",
    "paramaribop",
+   "polonaise",
    "post-britpop",
    "post-minimalism",
    "praise break",
@@ -4132,10 +4474,12 @@
    "uk drill",
    "uk hardcore",
    "urban contemporary gospel",
+   "vals venezolano",
    "vinahouse",
    "vocal house",
    "world fusion",
    "worldbeat",
+   "zamacueca",
    "zeitoper"
   ],
   "occasional": [
@@ -4146,6 +4490,7 @@
    "afro rock",
    "afro-cuban jazz",
    "afro-jazz",
+   "algerian chaabi",
    "alpenrock",
    "alternative country",
    "alternative dance",
@@ -4180,9 +4525,11 @@
    "celtic rock",
    "chanson réaliste",
    "chanson à texte",
+   "children's music",
    "christian rock",
    "classic jazz",
    "classic rock",
+   "coladeira",
    "comedy rock",
    "concert spiritual",
    "contemporary christian",
@@ -4226,6 +4573,8 @@
    "group sounds",
    "grunge",
    "gypsy jazz",
+   "habanera",
+   "hambo",
    "hamburger schule",
    "hard bop",
    "hard rock",
@@ -4247,6 +4596,7 @@
    "jazz rap",
    "jazz rock",
    "jovem guarda",
+   "kujawiak",
    "kwela",
    "latin jazz",
    "latin rock",
@@ -4262,6 +4612,7 @@
    "mashcore",
    "math pop",
    "math rock",
+   "mazurka",
    "mbaqanga",
    "medieval rock",
    "melodic house",
@@ -4271,6 +4622,7 @@
    "mod revival",
    "modal jazz",
    "modern creative",
+   "morna",
    "nederbeat",
    "neo-bop",
    "neo-progressive rock",
@@ -4280,9 +4632,11 @@
    "noise rock",
    "nu jazz",
    "nu metal",
+   "oberek",
    "orchestral jazz",
    "organic house",
    "outsider house",
+   "pasillo",
    "payada",
    "phleng phuea chiwit",
    "pigfuck",
@@ -4379,6 +4733,7 @@
    "blues rock",
    "british blues",
    "hard rock",
+   "pansori",
    "post-grunge"
   ],
   "occasional": [
@@ -4713,6 +5068,8 @@
    "barber beats",
    "broken transmission",
    "eccojams",
+   "frevo",
+   "frevo de rua",
    "jamaican ska",
    "jazz house",
    "mambo urbano",
@@ -4735,18 +5092,24 @@
   ],
   "frequent": [
    "cape jazz",
+   "carimbó",
    "contemporary jazz",
    "crossover jazz",
    "dreampunk",
    "flamenco jazz",
+   "frevo de bloco",
+   "frevo elétrico",
+   "frevo-canção",
    "hardvapour",
    "hauntology",
+   "huaylarsh",
    "indo jazz",
    "indorock",
    "jazz",
    "jazz blues",
    "jazz guachaca",
    "kréyol djaz",
+   "liscio",
    "mallsoft",
    "marabi",
    "paramaribop",
@@ -4767,7 +5130,9 @@
    "big band",
    "biguine",
    "boogaloo",
+   "choro",
    "classic jazz",
+   "congolese rumba",
    "cool jazz",
    "crime jazz",
    "dark jazz",
@@ -4798,6 +5163,7 @@
    "psychobilly",
    "rockaballad",
    "rockabilly",
+   "samba-choro",
    "shidaiqu",
    "smooth jazz",
    "soul jazz",
@@ -4827,17 +5193,21 @@
   "characteristic": [
    "2 tone",
    "bouncy techno",
+   "chimayche",
    "christmas music",
    "crunkcore",
    "cuddlecore",
+   "dobrado",
    "forró",
    "forró universitário",
    "happy hardcore",
    "highlife",
    "hiplife",
+   "huaylarsh",
    "jamaican ska",
    "jangle pop",
    "jovem guarda",
+   "marrabenta",
    "motown",
    "neon pop punk",
    "nightcore",
@@ -4858,12 +5228,14 @@
    "samba-rock",
    "sambalanço",
    "sambass",
+   "sanjuanito",
    "schlager",
    "seishun punk",
    "ska",
    "spouge",
    "sungura",
    "sunshine pop",
+   "taquirari",
    "tecnorumba",
    "teen pop",
    "third wave ska",
@@ -4891,10 +5263,19 @@
    "burmese stereo",
    "candombe beat",
    "canzone neomelodica",
+   "carimbó",
+   "carnavalito",
+   "chacarera",
+   "children's music",
+   "chuscada",
+   "ciranda",
    "colindă",
+   "copla cajamarquina",
    "country pop",
    "crossover jazz",
+   "cueca",
    "cumbia pop",
+   "dongzu dage",
    "easycore",
    "electro hop",
    "emo pop",
@@ -4903,15 +5284,27 @@
    "folk pop",
    "forró de favela",
    "forró eletrônico",
+   "frevo-canção",
    "fusion gugak",
+   "gaita zuliana",
+   "goombay",
+   "guaracha santiagueña",
+   "hambo",
    "hard renaissance",
+   "huapango",
    "indorock",
    "j-core",
+   "jazz guachaca",
+   "liscio",
    "makossa",
    "manila sound",
    "marchinha",
    "mbolé",
+   "muiñeira",
    "mulatós",
+   "muliza",
+   "música festera",
+   "música típica chilena",
    "nederbeat",
    "nederpop",
    "nhạc tiền chiến",
@@ -4933,6 +5326,7 @@
    "progressive pop",
    "psychedelic pop",
    "q-pop",
+   "rasqueado cuiabano",
    "reggae-pop",
    "rigsar",
    "rock and roll",
@@ -4946,9 +5340,17 @@
    "samba-exaltação",
    "samba-reggae",
    "sarala gee",
+   "schottische",
+   "seggae",
+   "sigidrigi",
+   "sikuri",
+   "steel band",
    "sundanese pop",
+   "séga",
    "t-pop",
+   "talempong",
    "talempong goyang",
+   "tamborito",
    "tropical rock",
    "turbo-folk",
    "uk hardcore",
@@ -4956,6 +5358,7 @@
    "v-pop",
    "villancico",
    "volkstümliche musik",
+   "zamacueca",
    "zohioliin duu"
   ],
   "occasional": [
@@ -4971,6 +5374,7 @@
    "bedroom pop",
    "bhavageethe",
    "bhojpuri pop",
+   "bomba del chota",
    "brega",
    "brega calypso",
    "brega funk",
@@ -4988,6 +5392,7 @@
    "classical crossover",
    "cocktail nation",
    "contemporary christian",
+   "cueca brava",
    "dance",
    "dance-pop",
    "dansband",
@@ -5025,6 +5430,7 @@
    "moe song",
    "mood kayō",
    "moogsploitation",
+   "moutya",
    "muzika mizrahit",
    "muzika yehudit mekorit",
    "muzikat dika'on",
@@ -5047,11 +5453,15 @@
    "rockaballad",
    "rockabilly",
    "romanian popcorn",
+   "santé engagé",
    "semi-trot",
    "shibuya-kei",
+   "son huasteco",
    "sophisti-pop",
    "space age pop",
+   "séga tambour",
    "tallava",
+   "tamborera",
    "techno kayō",
    "tecnobrega",
    "tecnofunk",
@@ -5061,6 +5471,7 @@
    "toypop",
    "toytown pop",
    "traditional pop",
+   "traditional séga",
    "tropipop",
    "trot",
    "turkish pop",
@@ -5074,9 +5485,11 @@
    "2 tone",
    "acholitronix",
    "acid breaks",
+   "aleke",
    "alternative punk",
    "ambient techno",
    "arrocha funk",
+   "assiko",
    "baltimore club",
    "bandari",
    "bashment soca",
@@ -5107,14 +5520,12 @@
    "bérite club",
    "carimbó",
    "carnavalito",
+   "chakacha",
    "changa tuki",
-   "chicago polka",
    "chiptune",
    "choro",
-   "chotis madrileño",
    "chutney soca",
    "circus march",
-   "congolese rumba",
    "cruise",
    "cuarteto",
    "cyberpunk",
@@ -5126,9 +5537,11 @@
    "dembow",
    "demostyle",
    "dennery segment",
+   "dhol tasha",
    "donk",
    "doskpop",
    "drift phonk",
+   "drumline",
    "dubstep",
    "dubstyle",
    "dungeon sound",
@@ -5146,10 +5559,6 @@
    "free tekno",
    "frenchtek",
    "frevo",
-   "frevo de bloco",
-   "frevo de rua",
-   "frevo elétrico",
-   "frevo-canção",
    "funaná",
    "funk brasileiro",
    "funk carioca",
@@ -5160,6 +5569,7 @@
    "funkot",
    "future rave",
    "gamelan gong kebyar",
+   "garba",
    "glam punk",
    "grime",
    "guaracha (Cuban)",
@@ -5189,17 +5599,17 @@
    "jumpstyle",
    "jungle dutch",
    "jungle techno",
-   "kilapanga",
+   "kaseko (Suriname)",
+   "kasékò (Guiana)",
    "koplo",
    "krakowiak",
    "kuduro",
-   "kwassa kwassa",
    "könsrock",
    "lavani",
    "malagueña venezolana",
    "mambo urbano",
-   "mangambeu",
    "manyao",
+   "marrabenta",
    "mbalax",
    "mchiriku",
    "mega funk",
@@ -5209,8 +5619,6 @@
    "merenhouse",
    "miami bass",
    "mor lam",
-   "mugithi",
-   "muziki wa dansi",
    "música llanera",
    "neo-grime",
    "nintendocore",
@@ -5255,13 +5663,13 @@
    "surf punk",
    "surf rock",
    "tarantella",
+   "tassa",
    "tbm",
    "tech trance",
    "techno",
    "techno bass",
    "tecnofunk",
    "third wave ska",
-   "tradi-moderne congolais",
    "traditional bluegrass",
    "trance",
    "trance 2.0",
@@ -5269,7 +5677,6 @@
    "tribal guarachero",
    "tsapiky",
    "tsugaru-jamisen",
-   "tumbélé",
    "urumi melam",
    "viking rock",
    "vinahouse",
@@ -5279,8 +5686,6 @@
    "wonky techno",
    "xaxado",
    "xote",
-   "zoblazo",
-   "zouglou",
    "zydeco",
    "ʻōteʻa"
   ],
@@ -5294,12 +5699,14 @@
    "aquacrunk",
    "art punk",
    "bacardi",
+   "baila",
    "balani show",
    "balearic trance",
    "ballroom house",
    "bandinha",
    "bass house",
    "batidão romântico",
+   "batucada",
    "belgian techno",
    "big beat",
    "big room house",
@@ -5316,6 +5723,8 @@
    "celtic punk",
    "champeta",
    "chicago house",
+   "chicago polka",
+   "congolese rumba",
    "coupé-décalé",
    "cowpunk",
    "crack rock steady",
@@ -5330,6 +5739,7 @@
    "digicore",
    "diva house",
    "dream trance",
+   "drum and bugle corps",
    "dub techno",
    "early hardstyle",
    "eastern-style polka",
@@ -5337,6 +5747,7 @@
    "electro-funk",
    "electroclash",
    "electropunk",
+   "embolada",
    "euphoric hardstyle",
    "euro house",
    "euro-trance",
@@ -5350,6 +5761,9 @@
    "forró eletrônico",
    "freestyle",
    "french house",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
    "full-on",
    "funk automotivo",
    "funk consciente",
@@ -5392,10 +5806,13 @@
    "jazz house",
    "jersey club rap",
    "jersey sound",
+   "kilapanga",
    "kwaito",
+   "kwassa kwassa",
    "latin house",
    "lento violento",
    "lo-fi house",
+   "mangambeu",
    "melodic bass",
    "melodic dubstep",
    "melodic techno",
@@ -5404,6 +5821,8 @@
    "midtempo bass",
    "minimal techno",
    "mor lam sing",
+   "mugithi",
+   "muziki wa dansi",
    "narodnozabavna glasba",
    "neo-rockabilly",
    "neo-trance",
@@ -5417,6 +5836,7 @@
    "polka paraguaya",
    "pop punk",
    "post-dubstep",
+   "powada",
    "power soca",
    "progressive bluegrass",
    "progressive house",
@@ -5444,6 +5864,7 @@
    "skate punk",
    "skweee",
    "speed house",
+   "steel band",
    "street punk",
    "stutter house",
    "suomisaundi",
@@ -5454,9 +5875,12 @@
    "tech house",
    "tecnomerengue",
    "toytown techno",
+   "tradi-moderne congolais",
    "trancestep",
    "trap edm",
    "tribal house",
+   "tumba",
+   "tumbélé",
    "twerk",
    "vocal house",
    "vocal surf",
@@ -5464,7 +5888,9 @@
    "wa euro",
    "weightless",
    "xtra raw",
-   "zenonesque"
+   "zenonesque",
+   "zoblazo",
+   "zouglou"
   ],
   "occasional": [
    "3-step",
@@ -5556,7 +5982,6 @@
  "handclaps": {
   "characteristic": [
    "cueca",
-   "cueca brava",
    "dabke",
    "flamenco",
    "flamenco pop",
@@ -5573,32 +5998,46 @@
    "samba de roda",
    "sevillanas",
    "sufi rock",
+   "tamborito",
    "tiento",
    "zamacueca"
   ],
   "frequent": [
    "2 tone",
+   "ahwash",
    "baltimore club",
+   "batuque",
    "beat music",
    "bolero-beat",
    "british rhythm & blues",
    "bubbling house",
    "bulería",
+   "bullerengue",
    "candombe beat",
+   "coco",
    "copla",
+   "cueca brava",
    "dance-rock",
+   "dikir barat",
+   "fakaseasea",
+   "fandango caiçara",
    "flamenco jazz",
+   "football chant",
    "garage rock revival",
    "glam punk",
+   "goombay",
    "gospel",
    "house",
    "indorock",
+   "izlan",
    "jersey club rap",
+   "jongo",
    "jubilee",
    "könsrock",
    "merenhouse",
    "nederbeat",
    "nuevo flamenco",
+   "ondō",
    "philly club rap",
    "phonk house",
    "pop yeh-yeh",
@@ -5609,16 +6048,22 @@
    "rock andaluz",
    "rumba flamenca",
    "saeta",
+   "samri",
+   "sawt",
    "surf punk",
+   "tamborera",
    "tecnorumba",
    "third wave ska",
    "traditional black gospel",
-   "viking rock"
+   "viking rock",
+   "zoblazo"
   ],
   "occasional": [
    "3-step",
    "acid house",
    "afro house",
+   "agbadza",
+   "agbekor",
    "alternative dance",
    "ambient house",
    "bacardi",
@@ -5642,6 +6087,7 @@
    "diva house",
    "donk",
    "easycore",
+   "embolada",
    "emo pop",
    "epic house",
    "euro house",
@@ -5672,12 +6118,14 @@
    "jazz house",
    "jersey sound",
    "jovem guarda",
+   "kete",
    "kuduro",
    "kwaito",
    "latin house",
    "lento violento",
    "lo-fi house",
    "melodic house",
+   "menzuma",
    "merseybeat",
    "microhouse",
    "mod",
@@ -5805,6 +6253,7 @@
    "electro swing",
    "flamenco jazz",
    "guajira",
+   "humppa",
    "indo jazz",
    "jazz",
    "jazz blues",
@@ -5843,6 +6292,7 @@
    "classic jazz",
    "cool jazz",
    "crime jazz",
+   "cumbia norteña mexicana",
    "danzón",
    "dixieland",
    "ethio-jazz",
@@ -5854,6 +6304,7 @@
    "jazz fusion",
    "jazz mugham",
    "jazz poetry",
+   "kidumbak",
    "klezmer",
    "latin jazz",
    "mambo",
@@ -5862,6 +6313,7 @@
    "modern creative",
    "mpb",
    "new mexico music",
+   "norteño",
    "nu jazz",
    "orchestral jazz",
    "post-bop",
@@ -5878,21 +6330,32 @@
    "tropicália",
    "vocal jazz",
    "vocalese",
+   "waila",
    "yu-mex"
   ],
   "occasional": [
    "afro-cuban jazz",
    "big band",
    "bolero español",
+   "chamamé",
+   "chamamé tropical",
+   "corrido",
+   "duranguense",
    "experimental big band",
    "filin",
+   "guaracha santiagueña",
    "gypsy jazz",
    "hard bop",
    "kwela",
+   "movimiento alterado",
+   "narcocorrido",
    "neo-bop",
+   "nortec",
+   "sierreño",
    "smooth jazz",
    "soul jazz",
    "spiritual jazz",
+   "tejano",
    "trova yucateca",
    "vietnamese bolero"
   ]
@@ -5956,7 +6419,6 @@
    "bikutsi",
    "chicha",
    "chimurenga",
-   "congolese rumba",
    "dream pop",
    "eleki",
    "emo",
@@ -5971,14 +6433,9 @@
    "jit",
    "jùjú",
    "kalindula",
-   "kilapanga",
-   "kwassa kwassa",
-   "mangambeu",
    "math rock",
    "mbaqanga",
    "midwest emo",
-   "mugithi",
-   "muziki wa dansi",
    "neo-rockabilly",
    "new wave",
    "post-punk",
@@ -5992,17 +6449,14 @@
    "surf punk",
    "surf rock",
    "township jive",
-   "tradi-moderne congolais",
    "tradi-moderne ivoirien",
    "tsapiky",
-   "tumbélé",
    "wong shadow",
    "ziglibithy",
-   "zoblazo",
-   "zolo",
-   "zouglou"
+   "zolo"
   ],
   "frequent": [
+   "afro-zouk",
    "alternative country",
    "alternative dance",
    "alternative rock",
@@ -6010,6 +6464,7 @@
    "bend-skin",
    "burger-highlife",
    "champeta",
+   "congolese rumba",
    "coupé-décalé",
    "dance-punk",
    "dance-punk revival",
@@ -6021,10 +6476,15 @@
    "gothic rock",
    "indie surf",
    "jangle pop",
+   "kilapanga",
+   "kwassa kwassa",
    "kwela",
    "makossa",
+   "mangambeu",
    "math pop",
    "mbolé",
+   "mugithi",
+   "muziki wa dansi",
    "neue deutsche welle",
    "new rave",
    "new romantic",
@@ -6032,7 +6492,11 @@
    "psychobilly",
    "screamo",
    "slacker rock",
-   "vocal surf"
+   "tradi-moderne congolais",
+   "tumbélé",
+   "vocal surf",
+   "zoblazo",
+   "zouglou"
   ],
   "occasional": [
    "alternative metal",
@@ -6324,6 +6788,8 @@
    "mafioso rap",
    "melodic black metal",
    "metal",
+   "movimiento alterado",
+   "narcocorrido",
    "neocrust",
    "neofolk",
    "neue deutsche todeskunst",
@@ -6913,6 +7379,7 @@
    "boedra",
    "bogino duu",
    "bolero son",
+   "bomba del chota",
    "boyfriend country",
    "british folk rock",
    "campus folk",
@@ -6920,7 +7387,6 @@
    "canzone d'autore",
    "canzone napoletana",
    "canzone neomelodica",
-   "carranga",
    "chacarera",
    "chalga",
    "chamamé",
@@ -6939,7 +7405,6 @@
    "country rock",
    "country soul",
    "cueca",
-   "cueca brava",
    "cururu",
    "dark folk",
    "delta blues",
@@ -6948,7 +7413,6 @@
    "fahrtenlied",
    "falak",
    "fandango",
-   "fandango caiçara",
    "fijiri",
    "filin",
    "filipino rondalla",
@@ -6981,7 +7445,6 @@
    "kantruem",
    "keroncong",
    "kundiman",
-   "langgam jawa",
    "latin pop",
    "lundu",
    "mappila",
@@ -7025,6 +7488,7 @@
    "sertanejo",
    "sertanejo raiz",
    "shanto",
+   "sigidrigi",
    "skiffle",
    "slack-key guitar",
    "soft rock",
@@ -7062,6 +7526,7 @@
    "alternative folk",
    "appalachian folk",
    "arrocha sertanejo",
+   "assiko",
    "avanzada",
    "baguala",
    "banda sinaloense",
@@ -7069,10 +7534,13 @@
    "bluegrass gospel",
    "bolero (Cuban song)",
    "canto a lo poeta",
+   "carranga",
    "chachachá",
    "chamarrita rioplatense",
    "chamber folk",
    "charanga",
+   "children's music",
+   "chilena",
    "classic country",
    "classic rock",
    "close harmony",
@@ -7084,12 +7552,14 @@
    "country gospel",
    "country yodeling",
    "countrypolitan",
+   "cueca brava",
    "cumbia norteña mexicana",
    "danzón",
    "dimotiko",
    "drinking song",
    "duma",
    "euskal kantagintza berria",
+   "fandango caiçara",
    "fife and drum blues",
    "free folk",
    "funknejo",
@@ -7105,12 +7575,15 @@
    "industrial folk song",
    "jamgrass",
    "jug band",
+   "langgam jawa",
    "ländlermusik",
    "mambo",
    "manele",
    "melodic death metal",
    "música criolla",
+   "narodnozabavna glasba",
    "nashville sound",
+   "neo kyma",
    "neofolk",
    "neofolklore",
    "norteño",
@@ -7120,6 +7593,7 @@
    "old-time",
    "outlaw country",
    "pagan folk",
+   "pandilla",
    "payada",
    "phleng phuea chiwit",
    "pizzica",
@@ -7153,6 +7627,7 @@
    "tropical house",
    "truck driving country",
    "turkish folk",
+   "valsa brasileira",
    "viking metal",
    "waila",
    "western (cowboy/western country)",
@@ -7185,6 +7660,7 @@
    "filk",
    "folk metal",
    "glam metal",
+   "gumbe",
    "haozi",
    "heavy metal",
    "jibonmukhi gaan",
@@ -7235,7 +7711,9 @@
    "skiffle",
    "zydeco"
   ],
-  "frequent": [],
+  "frequent": [
+   "fungi"
+  ],
   "occasional": []
  },
  "strumming": {
@@ -7439,24 +7917,21 @@
  "mood_playful": {
   "characteristic": [
    "anti-folk",
+   "baila",
    "bit music",
    "bitpop",
    "bubblegum bass",
    "bubblegum dance",
    "bubblegum pop",
    "bytebeat",
-   "cadence lypso",
-   "cadence rampa",
    "cakewalk",
-   "calipso venezolano",
    "calypso",
    "canterbury scene",
    "celtic punk",
    "chap hop",
-   "chicago polka",
    "children's music",
    "chiptune",
-   "chotis madrileño",
+   "circus march",
    "classic ragtime",
    "comedy hip hop",
    "comedy rock",
@@ -7472,12 +7947,10 @@
    "folk metal",
    "frat rap",
    "frat rock",
-   "fungi",
    "geek rock",
    "glam",
    "glam metal",
    "glam rock",
-   "goombay",
    "guaracha (Cuban)",
    "guggenmusik",
    "gypsy punk",
@@ -7504,7 +7977,6 @@
    "operetta",
    "p-funk",
    "pagan black metal",
-   "palo de mayo",
    "picopop",
    "polka",
    "ragtime",
@@ -7526,37 +7998,64 @@
    "zydeco"
   ],
   "frequent": [
+   "al jeel",
    "bandinha",
    "bashment soca",
+   "cadence lypso",
+   "cadence rampa",
+   "calipso venezolano",
+   "carranga",
    "celtic metal",
+   "chicago polka",
+   "chotis madrileño",
    "chutney soca",
    "coon song",
    "crossover thrash",
    "dennery segment",
    "digicore",
+   "dikir barat",
    "eastern-style polka",
+   "fungi",
    "glam punk",
+   "goombay",
    "hapa haole",
    "hexd",
    "humppa",
    "klezmer",
+   "lundu",
    "medieval metal",
+   "meyxana",
+   "mugithi",
+   "méringue",
    "narodnozabavna glasba",
    "new wave",
+   "omutibo",
+   "palm-wine",
+   "palo de mayo",
    "polka paraguaya",
    "ragtime song",
    "rapso",
+   "shaabi",
    "sitarsploitation",
    "skiffle",
    "sleaze rock",
    "soca",
+   "tassu",
+   "trap shaabi",
    "viking metal",
    "zolo"
   ],
   "occasional": [
+   "algerian chaabi",
    "avanzada",
+   "beni",
+   "cantoria",
+   "kadongo kamu",
+   "mahraganat",
+   "moroccan chaabi",
    "new romantic",
-   "power soca"
+   "power soca",
+   "repente"
   ]
  },
  "jangle": {
@@ -7615,30 +8114,21 @@
    "british rhythm & blues",
    "candombe beat",
    "corrido tumbado",
-   "cumbia norteña mexicana",
    "folk rock",
    "jangle pop",
    "nederbeat",
-   "norteño",
    "pop yeh-yeh",
    "rock rural",
-   "sierreño",
-   "waila"
+   "sierreño"
   ],
   "frequent": [
-   "corrido",
-   "duranguense",
    "freakbeat",
    "group sounds",
    "jovem guarda",
    "merseybeat",
    "mod",
    "mod revival",
-   "movimiento alterado",
-   "narcocorrido",
-   "nortec",
-   "phleng phuea chiwit",
-   "tejano"
+   "phleng phuea chiwit"
   ],
   "occasional": []
  },
@@ -7659,11 +8149,13 @@
    "british rhythm & blues",
    "candombe beat",
    "canto cardenche",
+   "canto degli alpini",
    "chalga",
    "chamarrita açoriana",
    "children's music",
    "cilokaq",
    "close harmony",
+   "congolese rumba",
    "cosmic country",
    "country rock",
    "dhaanto",
@@ -7712,6 +8204,7 @@
    "sertanejo",
    "sertanejo raiz",
    "shanto",
+   "sigidrigi",
    "skate punk",
    "soft rock",
    "son de pascua",
@@ -7728,7 +8221,8 @@
    "vocal surf",
    "world fusion",
    "worldbeat",
-   "xuc"
+   "xuc",
+   "zouglou"
   ],
   "frequent": [
    "agronejo",
@@ -7739,7 +8233,9 @@
    "arrocha sertanejo",
    "baguala",
    "bandari",
+   "benga",
    "campus folk",
+   "cante alentejano",
    "chamarrita rioplatense",
    "chamber folk",
    "contemporary folk",
@@ -7760,14 +8256,18 @@
    "gstanzl",
    "hungarian folk",
    "industrial folk song",
+   "isicathamiya",
    "jangle pop",
    "jovem guarda",
+   "klapa",
+   "kwassa kwassa",
    "ländlermusik",
    "manele",
    "merseybeat",
    "mod",
    "mod revival",
    "música criolla",
+   "narodnozabavna glasba",
    "neofolklore",
    "northern soul",
    "nueva canción",
@@ -7789,6 +8289,7 @@
    "shan'ge",
    "singer-songwriter",
    "son nica",
+   "soukous",
    "stomp and holler",
    "sutartinės",
    "tajaraste",
@@ -7797,6 +8298,7 @@
    "tarantella",
    "tonada asturiana",
    "tondero",
+   "trallalero",
    "trikitixa",
    "turkish folk",
    "white voice",
@@ -7813,21 +8315,26 @@
    "avtorskaya pesnya",
    "bard rock",
    "canzone d'autore",
+   "champeta",
    "chanson française",
    "chanson québécoise",
    "chanson réaliste",
    "chanson à texte",
+   "coupé-décalé",
    "csárdás",
    "festejo",
    "filk",
    "haozi",
    "jibonmukhi gaan",
+   "kilapanga",
    "landó",
    "liedermacher",
    "loner folk",
    "marinera",
    "marinera norteña",
    "military cadence",
+   "mugithi",
+   "muziki wa dansi",
    "música de intervenção",
    "neofolk",
    "nova cançó",
@@ -7839,10 +8346,13 @@
    "sea shanty",
    "seto leelo",
    "tammurriata",
+   "tradi-moderne congolais",
    "trova",
+   "tumbélé",
    "vals criollo",
    "waulking song",
-   "zeybek"
+   "zeybek",
+   "zoblazo"
   ]
  },
  "sound_60s": {
@@ -7958,6 +8468,7 @@
    "chicago bop",
    "children's music",
    "chiptune",
+   "christmas music",
    "country pop",
    "crossover jazz",
    "crossover prog",
@@ -8051,6 +8562,7 @@
    "zolo"
   ],
   "frequent": [
+   "afro-zouk",
    "alternative pop",
    "art pop",
    "bhavageethe",
@@ -8070,6 +8582,7 @@
    "chillwave",
    "city pop",
    "classical crossover",
+   "colindă",
    "contemporary christian",
    "cowpunk",
    "crack rock steady",
@@ -8137,6 +8650,7 @@
    "operatic pop",
    "opm",
    "oriental ballad",
+   "parang",
    "persian pop",
    "picopop",
    "pimba",
@@ -8167,6 +8681,7 @@
    "trot",
    "turkish pop",
    "uk hardcore",
+   "villancico",
    "visual kei",
    "yé-yé"
   ],
@@ -8231,13 +8746,19 @@
    "bolero-beat",
    "british rhythm & blues",
    "candombe beat",
+   "cueca brava",
+   "fandango caiçara",
    "garage rock",
+   "jota",
    "marchinha",
+   "muiñeira",
+   "música típica chilena",
    "nederbeat",
    "northern soul",
    "pagode",
    "pagodão",
    "partido alto",
+   "polifonia occitana",
    "pop yeh-yeh",
    "samba de breque",
    "samba de gafieira",
@@ -8245,23 +8766,28 @@
    "samba-canção",
    "samba-enredo",
    "samba-exaltação",
-   "samba-reggae"
+   "samba-reggae",
+   "samri",
+   "villancico"
   ],
   "occasional": [
    "budget rock",
+   "cueca",
    "frat rock",
    "freakbeat",
    "garage psych",
    "garage punk",
    "garage rock revival",
    "group sounds",
+   "jazz guachaca",
    "jovem guarda",
    "merseybeat",
    "mod",
    "mod revival",
    "pagode romântico",
    "post-punk revival",
-   "proto-punk"
+   "proto-punk",
+   "zamacueca"
   ]
  },
  "combo_organ": {
@@ -8307,6 +8833,7 @@
    "traditional bluegrass"
   ],
   "frequent": [
+   "canto cardenche",
    "jamgrass",
    "progressive bluegrass"
   ],
@@ -8597,6 +9124,8 @@
    "dhrupad",
    "free folk",
    "garage psych",
+   "indian classical",
+   "indo jazz",
    "neo-psychedelia",
    "nitzhonot",
    "thumri",
@@ -8605,8 +9134,12 @@
   "occasional": [
    "acid rock",
    "anatolian rock",
+   "bhajan",
+   "carnatic classical",
    "cosmic country",
    "heavy psych",
+   "konnakol",
+   "odissi classical",
    "paisley underground",
    "psichedelia occulta italiana",
    "psychedelic rock",
@@ -9133,6 +9666,7 @@
    "fidget house",
    "frenchcore",
    "frenchtek",
+   "frevo elétrico",
    "funk consciente",
    "funk melody",
    "happy hardcore",
@@ -9242,6 +9776,8 @@
    "ambient techno",
    "black ambient",
    "byzantine chant",
+   "cante alentejano",
+   "cantu a tenore",
    "celtic",
    "celtic electronica",
    "celtic new age",
@@ -9250,6 +9786,7 @@
    "dark folk",
    "death industrial",
    "dhrupad",
+   "dongzu dage",
    "drone",
    "drone metal",
    "epic collage",
@@ -9258,7 +9795,6 @@
    "illbient",
    "indian classical",
    "indo jazz",
-   "kai",
    "kontakion",
    "krautrock",
    "lauda",
@@ -9266,7 +9802,6 @@
    "medieval",
    "neo-medieval folk",
    "neofolk",
-   "odissi classical",
    "post-industrial",
    "psychedelic",
    "psychedelic folk",
@@ -9277,11 +9812,10 @@
    "space rock revival",
    "spiritual jazz",
    "sticheron",
-   "stotra",
+   "tarawangsa",
    "troparion",
    "tropicália",
-   "udigrudi",
-   "vedic chant"
+   "udigrudi"
   ],
   "frequent": [
    "ambient americana",
@@ -9303,10 +9837,13 @@
    "country and irish",
    "dungeon synth",
    "free folk",
+   "himene tarava",
    "hindustani classical",
    "hornpipe",
+   "iavnana",
    "irish folk",
    "james bay fiddling",
+   "kai",
    "kan ha diskan",
    "kankyō ongaku",
    "keller synth",
@@ -9319,27 +9856,35 @@
    "métis fiddling",
    "natya sangeet",
    "neo-psychedelia",
+   "odissi classical",
    "pagan black metal",
+   "polifonia occitana",
    "progressive electronic",
    "psybient",
    "psychedelic rock",
    "puirt à beul",
+   "pìobaireachd",
    "ritual ambient",
    "scottish country dance music",
    "space ambient",
+   "stotra",
    "tappa",
    "tarana",
    "tibetan buddhist chant",
    "tribal ambient",
    "troubadour song",
+   "vedic chant",
    "wyrd folk",
    "xian psych"
   ],
   "occasional": [
+   "aak",
    "abhang",
    "acid rock",
    "anatolian rock",
    "atmospheric black metal",
+   "batonebi songs",
+   "beompae",
    "black 'n' roll",
    "blackgaze",
    "comfy synth",
@@ -9398,6 +9943,7 @@
    "ambient americana",
    "ambient house",
    "ambient plugg",
+   "batonebi songs",
    "berlin school",
    "black ambient",
    "blackgaze",
@@ -9411,6 +9957,7 @@
    "hauntology",
    "jerk (2020s)",
    "kankyō ongaku",
+   "lullaby",
    "mallsoft",
    "neo-psychedelia",
    "neoclassical dark wave",
@@ -9418,6 +9965,7 @@
    "progressive electronic",
    "psybient",
    "psychedelic rock",
+   "slack-key guitar",
    "space ambient",
    "terror plugg",
    "trap soul",
@@ -9433,6 +9981,7 @@
    "dungeon chip",
    "dungeon synth",
    "heavy psych",
+   "iavnana",
    "keller synth",
    "paisley underground",
    "psichedelia occulta italiana",
@@ -9656,7 +10205,6 @@
    "klasik",
    "konnakol",
    "natya sangeet",
-   "odissi classical",
    "raga rock",
    "tappa",
    "tarana"
@@ -9667,6 +10215,9 @@
    "chutney",
    "chutney soca",
    "dhrupad",
+   "ginan",
+   "odissi classical",
+   "shabad kirtan",
    "thumri"
   ],
   "occasional": [
@@ -9722,62 +10273,59 @@
  "improvisation": {
   "characteristic": [
    "acid rock",
+   "ashkenazi cantorial music",
    "avant-garde jazz",
    "canto a lo poeta",
    "cantoria",
    "cantu a chiterra",
    "cape jazz",
+   "chazzanut",
    "choro",
    "conducted improvisation",
    "contemporary jazz",
    "cosmic country",
    "crossover jazz",
+   "cururu",
    "descarga",
    "desert rock",
+   "dohori",
+   "doina",
    "embolada",
    "flamenco jazz",
    "free folk",
    "free funk",
    "free improvisation",
    "free jazz",
+   "griot",
    "gstanzl",
+   "guaguancó",
    "għana",
    "indian classical",
    "indo jazz",
-   "iraqi maqam",
    "islamic modal music",
    "jam band",
    "jamgrass",
    "jazz",
    "jazz blues",
    "jazz guachaca",
-   "jazz mugham",
    "jazz rock",
    "kréyol djaz",
    "livetronica",
-   "maftirim",
    "marabi",
    "meyxana",
    "modern creative",
-   "mugham",
-   "odissi classical",
    "paramaribop",
    "payada",
-   "persian classical",
    "progressive bluegrass",
    "psychedelic rock",
    "punto",
-   "repente",
+   "rumba cubana",
    "samba-choro",
    "samba-jazz",
    "sanjo",
-   "sawt",
-   "shashmaqam",
    "sinawi",
    "third stream",
    "tsugaru-jamisen",
-   "turkish classical",
-   "uyghur muqam",
    "world fusion",
    "worldbeat",
    "xian psych",
@@ -9786,24 +10334,34 @@
   "frequent": [
    "afro-jazz",
    "afrobeat (funk/soul + West African sounds)",
+   "algerian chaabi",
    "anatolian rock",
+   "apala",
    "beat poetry",
    "bebop",
    "biguine",
+   "bocet",
    "boogaloo",
    "boogie-woogie",
+   "burmese classical",
    "carnatic classical",
    "classic jazz",
    "cool jazz",
    "crime jazz",
    "dark jazz",
+   "dikir barat",
    "dixieland",
    "eai",
    "ethio-jazz",
+   "fuji",
+   "ghazal",
    "heavy psych",
    "hindustani classical",
+   "huapango",
    "instrumental jazz",
+   "iraqi maqam",
    "jazz fusion",
+   "jazz mugham",
    "jazz poetry",
    "kafi",
    "khyal",
@@ -9811,14 +10369,25 @@
    "konnakol",
    "krautrock",
    "latin jazz",
+   "maftirim",
    "mbaqanga",
    "modal jazz",
+   "mugham",
    "natya sangeet",
    "nu jazz",
+   "odissi classical",
    "orchestral jazz",
+   "persian classical",
+   "pop ghazal",
    "post-bop",
    "raga rock",
+   "repente",
+   "rumba",
+   "sawt",
+   "shashmaqam",
    "shidaiqu",
+   "son huasteco",
+   "son jarocho",
    "space rock",
    "space rock revival",
    "stride",
@@ -9826,10 +10395,13 @@
    "sweet jazz",
    "swing",
    "swing revival",
-   "symphonic mugham",
+   "takamba",
    "tappa",
    "tarana",
    "township jive",
+   "turkish classical",
+   "uyghur muqam",
+   "uzun hava",
    "vocal jazz",
    "vocalese",
    "zamrock"
@@ -9838,6 +10410,7 @@
    "abhang",
    "afro-cuban jazz",
    "big band",
+   "chilena",
    "dhrupad",
    "experimental big band",
    "gypsy jazz",
@@ -9845,8 +10418,10 @@
    "kwela",
    "neo-bop",
    "smooth jazz",
+   "son istmeño",
    "soul jazz",
    "spiritual jazz",
+   "symphonic mugham",
    "thumri",
    "özgün müzik"
   ]
@@ -10010,6 +10585,7 @@
    "acid house",
    "acid trance",
    "afro house",
+   "afro-zouk",
    "algorave",
    "asian rock (pluggnb subgenre - not rock from Asia)",
    "bacardi",
@@ -10155,7 +10731,6 @@
  },
  "synthesizer": {
   "characteristic": [
-   "afro-zouk",
    "al jeel",
    "alternative dance",
    "ambient techno",
@@ -10168,10 +10743,8 @@
    "brega calypso",
    "brega funk",
    "burger-highlife",
-   "cabo zouk",
    "celtic electronica",
    "chalga",
-   "compas",
    "cumbia villera",
    "dance",
    "dance-pop",
@@ -10199,7 +10772,6 @@
    "industrial metal",
    "jazz fusion",
    "krushclub",
-   "kréyol djaz",
    "livetronica",
    "luk thung",
    "mahraganat",
@@ -10245,6 +10817,7 @@
   "frequent": [
    "acholitronix",
    "acid techno",
+   "afro-zouk",
    "algerian chaabi",
    "algorave",
    "aor",
@@ -10261,12 +10834,15 @@
    "burmese mono",
    "burmese stereo",
    "bérite club",
+   "cabo zouk",
    "cachaca",
+   "campursari",
    "canzone neomelodica",
    "chamamé tropical",
    "chillwave",
    "club",
    "coldwave",
+   "compas",
    "country pop",
    "crossover jazz",
    "cruise",
@@ -10285,6 +10861,7 @@
    "cyber metal",
    "dance-punk",
    "dance-punk revival",
+   "dangdut",
    "detroit techno",
    "dub techno",
    "edm",
@@ -10296,6 +10873,7 @@
    "estrada",
    "ethereal wave",
    "experimental electronic",
+   "fantezi",
    "flamenco pop",
    "fm synthesis",
    "folk pop",
@@ -10309,8 +10887,11 @@
    "indietronica",
    "industrial techno",
    "italo-disco",
+   "jùjú",
    "k-pop",
    "kawaii metal",
+   "koplo",
+   "kréyol djaz",
    "manila sound",
    "manyao",
    "melodic techno",
@@ -10375,6 +10956,8 @@
    "akishibu-kei",
    "alternative pop",
    "ambient house",
+   "arabesk",
+   "arabesk rap",
    "art pop",
    "avant-garde pop",
    "bacardi",
@@ -10399,6 +10982,7 @@
    "cantopop",
    "chamber pop",
    "changa tuki",
+   "changjak gugak",
    "chicago house",
    "chicha",
    "chutney",
@@ -10416,6 +11000,7 @@
    "cumbia rebajada",
    "cumbia sanjuanera",
    "cumbia sureña peruana",
+   "dabke",
    "dansband",
    "dansktop",
    "dark cabaret",
@@ -10441,12 +11026,14 @@
    "filmi",
    "french electro",
    "french house",
+   "fuji",
    "funkot",
    "funky house",
    "future bounce",
    "future house",
    "g-house",
    "garage house",
+   "garba",
    "ghetto house",
    "ghettotech",
    "gospel house",
@@ -10484,6 +11071,7 @@
    "korean ballad",
    "kuduro",
    "kwaito",
+   "laiko",
    "lambada",
    "latin house",
    "latin pop",
@@ -10495,6 +11083,7 @@
    "manele",
    "melbourne bounce",
    "melodic house",
+   "meyxana",
    "microhouse",
    "minimal synth",
    "minimal wave",
@@ -10505,6 +11094,7 @@
    "muzika yehudit mekorit",
    "muzikat dika'on",
    "música cebolla",
+   "neo kyma",
    "neo-acoustic",
    "neo-city pop",
    "neoclassical dark wave",
@@ -10532,6 +11122,7 @@
    "shibuya-kei",
    "shitgaze",
    "singeli",
+   "skiladiko",
    "slacker rock",
    "slap house",
    "sophisti-pop",
@@ -10562,7 +11153,8 @@
    "volkstümliche musik",
    "wa euro",
    "yé-yé",
-   "zhongguo feng"
+   "zhongguo feng",
+   "éntekhno"
   ]
  },
  "motorik": {
@@ -10607,7 +11199,9 @@
    "gnawa",
    "hill country blues",
    "houston sound",
+   "kecak",
    "krautrock",
+   "liwa",
    "progressive electronic",
    "psybreaks",
    "psystyle",
@@ -10626,6 +11220,7 @@
    "belgian techno",
    "birmingham sound",
    "bleep techno",
+   "chimurenga",
    "dark psytrance",
    "desert rock",
    "detroit techno",
@@ -10633,6 +11228,7 @@
    "forest psytrance",
    "full-on",
    "goa trance",
+   "haitian vodou drumming",
    "hard techno",
    "hardgroove techno",
    "hi-tech",
@@ -10646,7 +11242,9 @@
    "psybient",
    "rominimal",
    "suomisaundi",
+   "takamba",
    "toytown techno",
+   "wassoulou",
    "zenonesque"
   ],
   "occasional": [
@@ -10925,9 +11523,11 @@
    "brega funk",
    "briddim",
    "change ringing",
+   "children's music",
    "deep techno",
    "dembow",
    "eletrofunk",
+   "football chant",
    "free tekno",
    "funk brasileiro",
    "funk carioca",
@@ -10937,69 +11537,106 @@
    "funknejo",
    "future riddim",
    "ghetto house",
+   "gnawa",
    "gqom",
    "jersey club",
    "jersey drill",
+   "joik",
    "juke",
+   "kirtan",
    "krautrock",
+   "lullaby",
    "mantra",
    "mega funk",
    "minimalism",
+   "mor lam",
+   "nigun",
    "noiadance",
    "philly club",
    "post-minimalism",
    "process music",
    "riddim dubstep",
-   "stotra",
    "taizé chant",
    "tbm",
    "tech trance",
    "techno",
    "tecnofunk",
    "trapfunk",
-   "vedic chant",
-   "wonky techno"
+   "wonky techno",
+   "zemirot"
   ],
   "frequent": [
    "acid techno",
    "baltimore club",
    "batidão romântico",
+   "batonebi songs",
    "belgian techno",
+   "bhajan",
    "birmingham sound",
    "bleep techno",
+   "cantoria",
+   "chimurenga",
    "chöd",
+   "ciranda",
+   "colindă",
    "detroit techno",
+   "djanba",
    "dub techno",
+   "famo",
    "funk automotivo",
    "funk consciente",
    "funk mandelão",
    "funk melody",
    "ghettotech",
+   "ginan",
+   "griot",
+   "għana",
    "hard techno",
    "hardgroove techno",
    "holy minimalism",
+   "iavnana",
    "industrial techno",
    "jersey club rap",
    "liquid riddim",
+   "maddahi",
    "melodic techno",
+   "menzuma",
+   "meyxana",
    "minimal techno",
+   "mor lam sing",
+   "nasheed",
    "neo-trance",
+   "ogene music",
+   "ondō",
    "peak time techno",
    "philly club rap",
    "rasteirinha",
+   "repente",
    "ritmada",
    "rominimal",
+   "saya afroboliviana",
+   "shabad kirtan",
+   "shoor",
+   "stotra",
    "tamborzão",
+   "tarawangsa",
+   "tassu",
    "tibetan buddhist chant",
    "totalism",
    "toytown techno",
+   "upopo",
+   "vedic chant",
+   "wangga",
+   "wassoulou",
+   "yukar",
    "zeuhl"
   ],
   "occasional": [
    "beat bruxaria",
    "hypertechno (2020s genre)",
    "microhouse",
-   "schranz"
+   "schranz",
+   "takamba"
   ]
  },
  "electronic_instruments": {
@@ -11154,13 +11791,25 @@
    "avant-prog",
    "brutal prog",
    "canterbury scene",
+   "congolese rumba",
    "crossover prog",
+   "kwassa kwassa",
    "neo-progressive rock",
    "rock andaluz",
+   "soukous",
    "symphonic prog",
    "zeuhl"
   ],
-  "occasional": []
+  "occasional": [
+   "champeta",
+   "coupé-décalé",
+   "kilapanga",
+   "muziki wa dansi",
+   "tradi-moderne congolais",
+   "tumbélé",
+   "zoblazo",
+   "zouglou"
+  ]
  },
  "synth_solo": {
   "characteristic": [
@@ -11411,13 +12060,11 @@
   "characteristic": [
    "campursari",
    "celtic new age",
-   "chaozhou xianshi",
    "charanga",
    "choro",
    "dangdut",
    "exotica",
    "impressionism",
-   "jiangnan sizhu",
    "kagura",
    "mélodie",
    "native american new age",
@@ -11429,7 +12076,9 @@
   "frequent": [
    "andean new age",
    "cachaca",
+   "carimbó",
    "chamamé tropical",
+   "chaozhou xianshi",
    "cumbia",
    "cumbia argentina",
    "cumbia chilena",
@@ -11443,8 +12092,12 @@
    "cumbia turra",
    "cumbiatón",
    "digital cumbia",
+   "frevo de bloco",
    "hapa haole",
+   "keroncong",
    "koplo",
+   "kumi-daiko",
+   "langgam jawa",
    "merecumbé",
    "merequetengue",
    "neoclassical new age",
@@ -11455,8 +12108,11 @@
   ],
   "occasional": [
    "avant-prog",
+   "bambuco",
+   "bhajan",
    "brutal prog",
    "canterbury scene",
+   "carranga",
    "chicha",
    "crossover prog",
    "cuarteto",
@@ -11478,6 +12134,7 @@
    "symphonic prog",
    "tecnocumbia",
    "tejano",
+   "valsa brasileira",
    "zeuhl"
   ]
  },
@@ -11610,7 +12267,6 @@
    "korean revolutionary opera",
    "monodrama",
    "musical",
-   "neo kyma",
    "neoclassicism",
    "opera",
    "opera semiseria",
@@ -11650,12 +12306,12 @@
    "cabaret",
    "cantata",
    "canzona",
+   "changjak gugak",
    "character piece",
    "chinese classical",
    "choral symphony",
    "classical period",
    "cocktail nation",
-   "colindă",
    "concert band",
    "concertina band",
    "dongjing",
@@ -11680,21 +12336,24 @@
    "music hall",
    "nanguan",
    "neoromanticism",
+   "nhạc đỏ",
    "nocturne",
    "opera buffa",
    "operetta",
    "opéra comique",
    "oratorio",
-   "parang",
    "passion setting",
    "piosenka aktorska",
+   "polonaise",
    "power metal",
    "prelude",
+   "red song",
    "ricercar",
    "romantic classical",
    "serenade",
    "seresta",
    "singspiel",
+   "slow waltz",
    "sonata",
    "theme and variations",
    "toccata",
@@ -11702,7 +12361,7 @@
    "vaudeville",
    "vaudeville blues",
    "verismo",
-   "villancico",
+   "waltz",
    "yanyue",
    "yayue",
    "zarzuela",
@@ -11762,6 +12421,7 @@
    "kabarett (German political satire)",
    "kawaii metal",
    "kunqu",
+   "liscio",
    "mathcore",
    "medieval metal",
    "melodic black metal",
@@ -11772,6 +12432,7 @@
    "microtonal classical",
    "moogsploitation",
    "murga uruguaya",
+   "musette",
    "musique concrète instrumentale",
    "neoclassical metal",
    "neue deutsche härte",
@@ -11809,6 +12470,7 @@
    "traditional doom metal",
    "trance metal",
    "us power metal",
+   "valsa brasileira",
    "viking metal",
    "war metal",
    "yangzhou opera",
@@ -11843,7 +12505,6 @@
    "drill",
    "easy listening",
    "enka",
-   "fantezi",
    "filmi",
    "free car music",
    "idol kayō",
@@ -11896,6 +12557,7 @@
    "art rock",
    "bagatelle",
    "baisha xiyue",
+   "ballad",
    "ballad opera",
    "ballet",
    "ballet de cour",
@@ -11925,6 +12587,7 @@
    "english pastoral school",
    "euro-disco",
    "fantasia",
+   "fantezi",
    "grand opera",
    "guangdong yinyue",
    "guoyue",
@@ -11967,6 +12630,7 @@
    "red disco",
    "ricercar",
    "romantic classical",
+   "ryūkōka",
    "samba soul",
    "serenade",
    "seresta",
@@ -11989,15 +12653,19 @@
    "vaudeville blues",
    "verismo",
    "visual kei",
+   "waltz",
    "yakousei",
    "yanyue",
    "yayue",
    "zarzuela",
+   "éntekhno",
    "étude"
   ],
   "occasional": [
    "beijing opera",
    "cantonese opera",
+   "canzone napoletana",
+   "canzone neomelodica",
    "chinese opera",
    "chinese revolutionary opera",
    "choral symphony",
@@ -12008,23 +12676,29 @@
    "expressionism",
    "future funk",
    "futurism",
+   "ghazal",
    "harana",
    "henan opera",
    "indeterminacy",
    "integral serialism",
    "kabarett (German political satire)",
    "korean revolutionary opera",
+   "kundiman",
    "kunqu",
    "latin soul",
+   "liscio",
    "madchester",
    "microtonal classical",
    "motown",
    "murga uruguaya",
+   "musette",
    "musique concrète instrumentale",
+   "neo kyma",
    "neo soul",
    "new complexity",
    "new york drill",
    "northern soul",
+   "pop ghazal",
    "pop soul",
    "post-britpop",
    "psychedelic soul",
@@ -12033,18 +12707,21 @@
    "serialism",
    "sexy drill",
    "sichuan opera",
+   "slow waltz",
    "smooth soul",
    "sonorism",
    "southern soul",
    "spectralism",
    "stochastic music",
    "taoist ritual music",
+   "valsa brasileira",
    "yangzhou opera",
    "yue opera"
   ]
  },
  "choir": {
   "characteristic": [
+   "ahwash",
    "ambrosian chant",
    "beneventan chant",
    "cantata",
@@ -12056,15 +12733,18 @@
    "church music",
    "colindă",
    "contenance angloise",
+   "dikir barat",
+   "dongzu dage",
    "epic doom metal",
    "fakaseasea",
+   "frevo de bloco",
    "gallican chant",
    "gospel",
    "gospel hymn",
    "gregorian chant",
    "himene tarava",
    "holy minimalism",
-   "isicathamiya",
+   "izlan",
    "jubilee",
    "kyivan chant",
    "mass",
@@ -12072,6 +12752,7 @@
    "motet",
    "mozarabic chant",
    "neoclassical dark wave",
+   "nhạc đỏ",
    "old roman chant",
    "passion setting",
    "plainchant",
@@ -12080,6 +12761,7 @@
    "renaissance",
    "russian orthodox liturgical music",
    "sarum chant",
+   "shōmyō",
    "symphonic black metal",
    "symphonic metal",
    "traditional black gospel",
@@ -12090,9 +12772,11 @@
   ],
   "frequent": [
    "anglican chant",
+   "baqashot",
    "byzantine chant",
    "cinematic classical",
    "contemporary gospel",
+   "isicathamiya",
    "kontakion",
    "parang",
    "praise break",
@@ -12108,9 +12792,12 @@
    "urban contemporary gospel",
    "us power metal",
    "zema",
+   "zemirot",
    "znamenny chant"
   ],
   "occasional": [
+   "ashkenazi cantorial music",
+   "chazzanut",
    "concert spiritual",
    "ring shout",
    "spiritual art song"
@@ -12341,6 +13028,7 @@
   ],
   "frequent": [
    "2-step",
+   "church music",
    "dark garage",
    "funeral doom metal",
    "gospel house",
@@ -12349,20 +13037,34 @@
    "uk funky"
   ],
   "occasional": [
+   "anglican chant",
+   "ashkenazi cantorial music",
    "atmospheric sludge metal",
    "bassline",
+   "byzantine chant",
+   "chazzanut",
    "death-doom metal",
    "doom metal",
    "doomgaze",
    "drone metal",
    "epic doom metal",
    "future garage",
+   "kontakion",
+   "kyivan chant",
    "post-metal",
+   "russian orthodox liturgical music",
+   "sacred harp",
    "sludge metal",
    "southern metal",
    "stenchcore",
+   "sticheron",
    "stoner metal",
-   "traditional doom metal"
+   "taizé chant",
+   "traditional doom metal",
+   "troparion",
+   "valaam chant",
+   "zema",
+   "znamenny chant"
   ]
  },
  "sax_solo": {
@@ -12535,9 +13237,26 @@
   ],
   "frequent": [
    "avant-prog",
-   "technobanda"
+   "chicago polka",
+   "choro",
+   "dechovka",
+   "liscio",
+   "narodnozabavna glasba",
+   "polka",
+   "samba-choro",
+   "schottische",
+   "technobanda",
+   "waila"
   ],
-  "occasional": []
+  "occasional": [
+   "avanzada",
+   "bandinha",
+   "chotis madrileño",
+   "humppa",
+   "mento",
+   "polka paraguaya",
+   "verbunkos"
+  ]
  },
  "ostinato": {
   "characteristic": [
@@ -12550,6 +13269,7 @@
    "zeuhl"
   ],
   "frequent": [
+   "gondang",
    "holy minimalism",
    "totalism"
   ],
@@ -12559,14 +13279,14 @@
   "characteristic": [
    "afoxê",
    "afro house",
+   "ahwash",
    "ambrosian chant",
    "anglican chant",
-   "ashkenazi cantorial music",
    "bacardi",
-   "baqashot",
    "beneventan chant",
    "beompae",
    "bhangra",
+   "boduberu",
    "byzantine chant",
    "celtic chant",
    "chazzanut",
@@ -12576,6 +13296,7 @@
    "ginan",
    "gregorian chant",
    "industrial folk song",
+   "izlan",
    "joik",
    "kakawin",
    "kecak",
@@ -12601,15 +13322,12 @@
    "runo song",
    "sarum chant",
    "shan'ge",
-   "shoor",
    "shōmyō",
    "sticheron",
-   "stotra",
    "sufi rock",
    "taoist ritual music",
    "troparion",
    "upopo",
-   "vedic chant",
    "waka",
    "wangga",
    "work song",
@@ -12623,7 +13341,10 @@
    "ars antiqua",
    "ars nova",
    "ars subtilior",
+   "ashkenazi cantorial music",
+   "baqashot",
    "bardcore",
+   "cantu a tenore",
    "chöd",
    "dungeon synth",
    "haozi",
@@ -12632,10 +13353,14 @@
    "medieval rock",
    "military cadence",
    "minnesang",
+   "noh",
    "sea shanty",
    "seto leelo",
+   "shoor",
+   "stotra",
    "tibetan buddhist chant",
    "troubadour song",
+   "vedic chant",
    "waulking song",
    "zemirot"
   ],
@@ -12895,18 +13620,16 @@
    "blue-eyed soul",
    "boogaloo",
    "brit funk",
+   "cadence rampa",
    "chicago soul",
    "classic jazz",
+   "compas",
    "country soul",
    "crack rock steady",
    "deep soul",
    "disco",
    "electro swing",
    "frevo",
-   "frevo de bloco",
-   "frevo de rua",
-   "frevo elétrico",
-   "frevo-canção",
    "funk",
    "funktronica",
    "funky breaks",
@@ -12916,6 +13639,7 @@
    "jamaican ska",
    "jazz rock",
    "jump blues",
+   "kréyol djaz",
    "latin",
    "mambo",
    "mambo urbano",
@@ -12956,12 +13680,18 @@
    "boogie",
    "bounce beat",
    "burger-highlife",
+   "cadence lypso",
+   "calypso",
    "deep funk",
    "descarga",
    "electro-disco",
    "euro-disco",
    "experimental big band",
    "free funk",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
    "funk rock",
    "go-go",
    "gypsy jazz",
@@ -12971,10 +13701,12 @@
    "latin disco",
    "latin funk",
    "latin soul",
+   "luk thung",
    "makossa",
    "mbolé",
    "minneapolis sound",
    "motown",
+   "muziki wa dansi",
    "neo soul",
    "nu disco",
    "p-funk",
@@ -12987,13 +13719,28 @@
    "smooth soul",
    "space disco",
    "synth funk",
-   "tecnomerengue"
+   "tecnomerengue",
+   "tumba",
+   "zouk"
   ],
   "occasional": [
    "acid jazz",
+   "afro-zouk",
+   "bashment soca",
+   "cabo zouk",
+   "calipso venezolano",
+   "chutney soca",
    "dark disco",
+   "dennery segment",
+   "fungi",
    "future funk",
-   "northern soul"
+   "goombay",
+   "northern soul",
+   "palo de mayo",
+   "power soca",
+   "rapso",
+   "soca",
+   "zouk love"
   ]
  },
  "stomp_clap": {
@@ -13118,6 +13865,7 @@
    "fado",
    "free car music",
    "free tekno",
+   "funeral march",
    "jersey drill",
    "metal",
    "new jazz (trap subgenre)",
@@ -13176,6 +13924,7 @@
    "industrial metal",
    "industrial techno",
    "kawaii metal",
+   "kundiman",
    "maxixe",
    "melodic black metal",
    "melodic techno",
@@ -13190,6 +13939,7 @@
    "progressive metalcore",
    "rage",
    "rominimal",
+   "sanjuanito",
    "sludge metal",
    "southern metal",
    "symphonic black metal",
@@ -13205,6 +13955,7 @@
   "occasional": [
    "ambient plugg",
    "asian rock (pluggnb subgenre - not rock from Asia)",
+   "bomba del chota",
    "brutal death metal",
    "canto a lo poeta",
    "celtic metal",
@@ -13294,6 +14045,7 @@
    "industrial metal",
    "kawaii metal",
    "mainstream rock",
+   "mbube",
    "metalcore",
    "nintendocore",
    "pagan black metal",
@@ -13310,7 +14062,8 @@
    "stoner metal",
    "stoner rock",
    "swamp rock",
-   "thrash metal"
+   "thrash metal",
+   "tsugaru-jamisen"
   ],
   "occasional": [
    "ambient noise wall",
@@ -13340,6 +14093,7 @@
    "funeral doom metal",
    "glam metal",
    "gothic metal",
+   "isicathamiya",
    "mathcore",
    "medieval metal",
    "melodic black metal",
@@ -13872,12 +14626,14 @@
    "post-britpop",
    "post-grunge",
    "praise & worship",
+   "red song",
    "stomp and holler",
    "street punk",
    "xian psych"
   ],
   "frequent": [
    "aor",
+   "football chant",
    "heavy metal",
    "madchester",
    "oi",
@@ -13958,8 +14714,10 @@
    "zhongguo feng"
   ],
   "occasional": [
+   "ballad",
    "cuplé",
    "kabarett (German political satire)",
+   "latin ballad",
    "murga uruguaya"
   ]
  },
@@ -14160,7 +14918,11 @@
    "phonk (older style, a.k.a. rare phonk)",
    "phonk house"
   ],
-  "frequent": [],
+  "frequent": [
+   "compas",
+   "conga",
+   "kréyol djaz"
+  ],
   "occasional": [
    "aor",
    "arena rock",
@@ -14185,18 +14947,25 @@
  "mood_triumphant": {
   "characteristic": [
    "mariachi",
-   "power metal"
+   "nhạc đỏ",
+   "pasodoble",
+   "powada",
+   "power metal",
+   "red song"
   ],
   "frequent": [
    "arena rock",
    "new mexico music",
+   "pipe band music",
+   "polonaise",
    "ranchera",
    "symphonic metal",
    "us power metal",
    "yu-mex"
   ],
   "occasional": [
-   "aor"
+   "aor",
+   "change ringing"
   ]
  },
  "hi_fi": {
@@ -14540,9 +15309,6 @@
    "boyfriend country",
    "british folk rock",
    "burrakatha",
-   "cadence lypso",
-   "cadence rampa",
-   "calipso venezolano",
    "calypso",
    "canzone d'autore",
    "chalga",
@@ -14570,14 +15336,13 @@
    "folk",
    "folk pop",
    "folk rock",
-   "fungi",
    "gaana",
    "gangsta rap",
-   "goombay",
    "gothic country",
    "griot",
    "guayla",
    "heartland rock",
+   "heikyoku",
    "industrial musical",
    "irish folk",
    "isa",
@@ -14596,20 +15361,18 @@
    "mappila",
    "mgodro",
    "modinha",
-   "movimiento alterado",
    "muak",
    "musical",
    "mélodie",
-   "narcocorrido",
    "neo-medieval folk",
    "neo-traditional country",
    "nepali lok geet",
    "new mexico music",
    "néo-trad",
    "pala",
-   "palo de mayo",
    "pansori",
    "pilón",
+   "plena",
    "political hip hop",
    "powada",
    "progressive country",
@@ -14634,7 +15397,6 @@
    "spiritual art song",
    "spouge",
    "stornello",
-   "takamba",
    "texas country",
    "tivaner inngernerlu",
    "traditional country",
@@ -14663,12 +15425,17 @@
    "alternative folk",
    "anti-folk",
    "baguala",
+   "baithak gana",
    "banda sinaloense",
    "bandari",
    "bashment soca",
    "boom bap",
    "cabaret",
+   "cadence lypso",
+   "calipso venezolano",
    "campus folk",
+   "cantoria",
+   "carranga",
    "chamarrita rioplatense",
    "chamber folk",
    "chanson réaliste",
@@ -14683,31 +15450,40 @@
    "country yodeling",
    "countrypolitan",
    "cumbia norteña mexicana",
+   "cururu",
    "dark folk",
    "dennery segment",
    "dimotiko",
    "drinking song",
    "euskal kantagintza berria",
    "fahrtenlied",
+   "famo",
    "fife and drum blues",
    "folkhop",
    "freak folk",
    "free folk",
+   "fungi",
+   "goombay",
    "grupera",
    "gstanzl",
    "honky tonk",
    "hungarian folk",
    "indie folk",
    "industrial folk song",
+   "kai",
    "kleinkunst",
    "lute song",
    "ländlermusik",
    "manele",
    "minstrelsy",
    "moda de viola",
+   "mor lam",
+   "movimiento alterado",
+   "mugithi",
    "murga",
    "music hall",
    "música criolla",
+   "narcocorrido",
    "nashville sound",
    "neofolklore",
    "norteño",
@@ -14729,6 +15505,7 @@
    "scrumpy and western",
    "sean-nós",
    "seguidilla",
+   "semba",
    "sertanejo",
    "sertanejo raiz",
    "sevdalinka",
@@ -14738,6 +15515,7 @@
    "son nica",
    "sutartinės",
    "tajaraste",
+   "takamba",
    "talking blues",
    "tallava",
    "tarantella",
@@ -14752,7 +15530,9 @@
    "white voice",
    "work song",
    "wyrd folk",
-   "yodeling"
+   "xẩm",
+   "yodeling",
+   "zouglou"
   ],
   "occasional": [
    "aboio",
@@ -14782,6 +15562,7 @@
    "marinera",
    "marinera norteña",
    "military cadence",
+   "mor lam sing",
    "murga uruguaya",
    "música de intervenção",
    "neofolk",
@@ -14792,6 +15573,7 @@
    "nóta",
    "polca criolla",
    "power soca",
+   "repente",
    "sea shanty",
    "sertanejo romântico",
    "sertanejo universitário",
@@ -15113,7 +15895,6 @@
    "folk pop",
    "gaana",
    "guayla",
-   "iavnana",
    "illbient",
    "isa",
    "izvorna bosanska muzika",
@@ -15191,6 +15972,7 @@
    "free folk",
    "gstanzl",
    "hungarian folk",
+   "iavnana",
    "indie folk",
    "industrial folk song",
    "kankyō ongaku",
@@ -15206,6 +15988,7 @@
    "nuevo cancionero",
    "old-time",
    "pagan folk",
+   "parlour music",
    "pizzica",
    "progressive electronic",
    "progressive folk",
@@ -15338,12 +16121,15 @@
  "tempo_mid": {
   "characteristic": [
    "3-step",
+   "afro-zouk",
    "afropiano",
    "amapiano",
    "aquacrunk",
    "bachatón",
+   "cabo zouk",
    "chachachá",
    "coladeira",
+   "compas",
    "cool jazz",
    "corrido tumbado",
    "cubatón",
@@ -15353,14 +16139,18 @@
    "doomcore",
    "glitch hop",
    "glitch hop edm",
+   "guggenmusik",
    "jam band",
    "jamgrass",
    "jersey sound",
+   "kréyol djaz",
    "livetronica",
    "mambo chileno",
    "mambo urbano",
+   "march",
    "midtempo bass",
    "moombahton",
+   "música festera",
    "neo-grime",
    "reggaeton",
    "reparto",
@@ -15377,25 +16167,76 @@
    "afro trap",
    "afrobeats (West African urban/pop music)",
    "alté",
+   "barbershop",
+   "beni",
    "bongo flava",
+   "cadence rampa",
+   "candombe",
+   "candombe beat",
+   "canto degli alpini",
+   "cantu a tenore",
+   "change ringing",
+   "chaozhou xianshi",
+   "children's music",
+   "chotis madrileño",
+   "circus march",
+   "danmono",
    "dembow",
    "desert rock",
+   "dobrado",
+   "dohori",
    "electro latino",
+   "fife and drum",
+   "frevo",
+   "funeral march",
    "ghetto funk",
+   "ginan",
    "hardwave",
+   "jiangnan sizhu",
+   "jubilee",
+   "kalindula",
+   "khrueang sai",
    "latin pop",
+   "marching band",
    "melodic house",
    "moombahcore",
    "neoperreo",
    "neurohop",
+   "nhạc đỏ",
+   "omutibo",
    "organic house",
+   "palm-wine",
+   "pilón",
+   "pinpeat",
+   "piphat",
+   "polonaise",
    "romantic flow",
+   "sardana",
+   "sizhu music",
+   "stotra",
+   "takamba",
+   "thai classical",
+   "trallalero",
    "tropipop",
+   "waltz",
    "wonky",
    "yacht rock"
   ],
   "occasional": [
-   "afroswing"
+   "afroswing",
+   "cadence lypso",
+   "drum and bugle corps",
+   "drumline",
+   "fon leb",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
+   "liscio",
+   "musette",
+   "pep band",
+   "slow waltz",
+   "valsa brasileira"
   ]
  },
  "major_seventh": {
@@ -15575,23 +16416,42 @@
    "desgarrada",
    "fado",
    "filipino rondalla",
+   "pandilla",
    "pizzica",
    "tarantella",
    "traditional bluegrass"
   ],
   "frequent": [
+   "baila",
    "bluegrass gospel",
+   "campursari",
+   "choro",
    "cosmic country",
    "country rock",
+   "dangdut",
    "fado de coimbra",
+   "frevo de bloco",
+   "huayno",
    "jamgrass",
+   "muliza",
    "progressive bluegrass",
    "red dirt",
    "roots rock",
+   "samba-choro",
    "tammurriata"
   ],
   "occasional": [
-   "tex-mex"
+   "chimayche",
+   "chuscada",
+   "copla cajamarquina",
+   "harawi",
+   "huaylarsh",
+   "huayno con arpa",
+   "koplo",
+   "taquirari",
+   "tex-mex",
+   "tonada potosina",
+   "yaraví"
   ]
  },
  "twang": {
@@ -15648,6 +16508,7 @@
  },
  "banjo": {
   "characteristic": [
+   "algerian chaabi",
    "alternative folk",
    "americana",
    "appalachian folk",
@@ -15658,6 +16519,7 @@
    "bluegrass",
    "boedra",
    "bogino duu",
+   "carimbó",
    "chalga",
    "chamarrita açoriana",
    "cilokaq",
@@ -15669,6 +16531,7 @@
    "folk",
    "folk pop",
    "folk punk",
+   "fungi",
    "gaana",
    "guayla",
    "indie folk",
@@ -15866,6 +16729,7 @@
    "bogino duu",
    "chalga",
    "chamarrita açoriana",
+   "chimurenga",
    "cilokaq",
    "conscious hip hop",
    "dhaanto",
@@ -15962,6 +16826,7 @@
    "indie folk",
    "industrial folk song",
    "ländlermusik",
+   "maloya",
    "manele",
    "música criolla",
    "neofolklore",
@@ -15998,7 +16863,8 @@
    "white voice",
    "work song",
    "wyrd folk",
-   "yodeling"
+   "yodeling",
+   "zouglou"
   ],
   "occasional": [
    "2 tone",
@@ -16043,6 +16909,7 @@
    "emoviolence",
    "festejo",
    "filk",
+   "gaita zuliana",
    "gospel reggae",
    "gypsy punk",
    "haozi",
@@ -16054,6 +16921,8 @@
    "landó",
    "loner folk",
    "lovers rock",
+   "maloya électronique",
+   "maloya élektrik",
    "marinera",
    "marinera norteña",
    "mathcore",
@@ -16135,18 +17004,26 @@
    "breakbeat",
    "bytebeat",
    "cakewalk",
+   "change ringing",
+   "chinese literati music",
    "chiptune",
    "classic ragtime",
+   "danmono",
    "deep techno",
    "demostyle",
+   "dhol tasha",
    "doskpop",
    "drone",
    "drone metal",
+   "drumline",
    "dub",
    "eleki",
    "field recording",
    "free tekno",
+   "frevo",
+   "frevo de rua",
    "gorenoise",
+   "honkyoku",
    "hot rod music",
    "idm",
    "illbient",
@@ -16155,8 +17032,12 @@
    "instrumental hip hop",
    "instrumental jazz",
    "instrumental rock",
+   "japanese classical",
+   "kete",
+   "kumi-daiko",
    "leftfield",
    "math rock",
+   "meiji shinkyoku",
    "musique concrète",
    "nintendocore",
    "noise",
@@ -16166,8 +17047,13 @@
    "production music",
    "progressive breaks",
    "psybreaks",
+   "pìobaireachd",
    "ragtime",
    "rautalanka",
+   "sanjo",
+   "shinkyoku",
+   "slack-key guitar",
+   "steel band",
    "stride",
    "surf",
    "surf punk",
@@ -16175,6 +17061,8 @@
    "tbm",
    "tech trance",
    "techno",
+   "timbila",
+   "tsugaru-jamisen",
    "vapornoise",
    "west coast breaks",
    "wong shadow",
@@ -16198,6 +17086,8 @@
    "breakbeat kota",
    "breaks",
    "celtic electronica",
+   "chaozhou xianshi",
+   "choro",
    "coon song",
    "dark ambient",
    "death industrial",
@@ -16209,37 +17099,61 @@
    "electroacoustic",
    "electronic",
    "electrotango",
+   "filipino rondalla",
    "florida breaks",
+   "fon leb",
+   "frevo de bloco",
+   "frevo elétrico",
+   "frevo-canção",
    "funktronica",
    "funky breaks",
+   "gagaku",
    "graphical sound",
+   "hambo",
    "hard techno",
    "hardcore breaks",
    "hardgroove techno",
    "harsh noise",
+   "heikyoku",
    "indie surf",
    "industrial techno",
+   "jiangnan sizhu",
+   "jiuta",
    "jungle dutch",
    "jungle techno",
+   "jōruri",
+   "kacapi suling",
    "kankyō ongaku",
+   "khrueang sai",
    "krushclub",
+   "kulintang",
    "livetronica",
    "lo-fi hip hop",
    "math pop",
    "melodic techno",
    "minatory",
    "minimal techno",
+   "nagauta",
    "neo-trance",
+   "noh",
    "novelty piano",
    "nu skool breaks",
    "peak time techno",
+   "pinpeat",
+   "piphat",
    "post-metal",
    "progressive electronic",
    "psybient",
    "ragtime song",
    "rominimal",
+   "ryūkōka",
+   "samba-choro",
+   "shōmyō",
+   "southeast asian classical",
    "space ambient",
    "synthwave",
+   "sōkyoku",
+   "talempong",
    "toytown techno",
    "tribal ambient",
    "vocal surf"
@@ -16263,6 +17177,7 @@
    "broken beat",
    "bubbling house",
    "budots",
+   "burmese classical",
    "bérite club",
    "changa tuki",
    "chicago house",
@@ -16330,10 +17245,12 @@
    "jungle terror",
    "keller synth",
    "kuduro",
+   "kumiuta",
    "kwaito",
    "latin house",
    "lento violento",
    "lo-fi house",
+   "mahori",
    "manyao",
    "melbourne bounce",
    "melodic house",
@@ -16349,6 +17266,7 @@
    "power electronics",
    "progressive house",
    "ritual ambient",
+   "saluang klasik",
    "sampledelia",
    "schranz",
    "seapunk",
@@ -16360,6 +17278,8 @@
    "speed house",
    "stutter house",
    "tech house",
+   "tembang cianjuran",
+   "thai classical",
    "trap edm",
    "tribal guarachero",
    "tribal house",
@@ -16373,18 +17293,16 @@
  },
  "drum_machine": {
   "characteristic": [
-   "afro-zouk",
    "arabesk rap",
    "bashment soca",
    "bedoui wahrani",
    "bongo flava",
    "boogie",
+   "bouyon",
    "bro-country",
    "burger-highlife",
-   "cabo zouk",
    "celtic electronica",
    "champeta",
-   "compas",
    "contemporary gospel",
    "contemporary r&b",
    "coupé-décalé",
@@ -16420,8 +17338,8 @@
    "industrial rock",
    "kapuka",
    "kidandali",
+   "koplo",
    "krushclub",
-   "kréyol djaz",
    "livetronica",
    "lowend",
    "machine rock",
@@ -16461,6 +17379,7 @@
   ],
   "frequent": [
    "acholitronix",
+   "afro-zouk",
    "al jeel",
    "algorave",
    "alternative hip hop",
@@ -16478,6 +17397,7 @@
    "burmese mono",
    "burmese stereo",
    "bérite club",
+   "cabo zouk",
    "canzone neomelodica",
    "chap hop",
    "chicago bop",
@@ -16487,6 +17407,7 @@
    "coke rap",
    "coldwave",
    "comedy hip hop",
+   "compas",
    "conscious hip hop",
    "country pop",
    "country rap",
@@ -16526,6 +17447,8 @@
    "indietronica",
    "italo-disco",
    "jerk rap (2000s)",
+   "kréyol djaz",
+   "maloya électronique",
    "manila sound",
    "manyao",
    "martial industrial",
@@ -16610,6 +17533,7 @@
    "bass house",
    "batida",
    "batidão romântico",
+   "battle record",
    "bedroom pop",
    "bhavageethe",
    "bhojpuri pop",
@@ -16988,7 +17912,6 @@
    "cachaca",
    "chamamé tropical",
    "classic jazz",
-   "congolese rumba",
    "cumbia",
    "cumbia argentina",
    "cumbia chilena",
@@ -17015,13 +17938,10 @@
    "highlife",
    "hiplife",
    "jackin house",
-   "kilapanga",
-   "kwassa kwassa",
    "latin",
    "madchester",
    "merecumbé",
    "merequetengue",
-   "muziki wa dansi",
    "nueva cumbia chilena",
    "pon-chak disco",
    "qaraami",
@@ -17033,15 +17953,11 @@
    "swing revival",
    "tech house",
    "timba",
-   "tradi-moderne congolais",
    "tradi-moderne ivoirien",
    "tropicanibalismo",
    "tsonga disco",
-   "tumbélé",
    "uk jackin",
-   "ziglibithy",
-   "zoblazo",
-   "zouglou"
+   "ziglibithy"
   ],
   "frequent": [
    "afro trap",
@@ -17059,6 +17975,7 @@
    "bubbling house",
    "burger-highlife",
    "champeta",
+   "congolese rumba",
    "coupé-décalé",
    "cuarteto",
    "cumbia amazónica",
@@ -17081,6 +17998,8 @@
    "house",
    "italo-disco",
    "jazz-funk",
+   "kilapanga",
+   "kwassa kwassa",
    "lambada",
    "latin disco",
    "latin funk",
@@ -17088,6 +18007,7 @@
    "mbolé",
    "merenhouse",
    "minneapolis sound",
+   "muziki wa dansi",
    "new rave",
    "nu disco",
    "p-funk",
@@ -17098,12 +18018,17 @@
    "space disco",
    "synth funk",
    "tecnocumbia",
-   "tejano"
+   "tejano",
+   "tradi-moderne congolais",
+   "tumbélé",
+   "zoblazo",
+   "zouglou"
   ],
   "occasional": [
    "3-step",
    "acid house",
    "acid jazz",
+   "afoxê",
    "afro house",
    "afroswing",
    "ambient house",
@@ -17371,21 +18296,22 @@
  "syncopation": {
   "characteristic": [
    "afro trap",
-   "afro-zouk",
    "afrobeats (West African urban/pop music)",
    "afropiano",
    "alté",
    "bachata",
    "bachatón",
+   "baião",
    "bashment soca",
    "bhangra",
    "bongo flava",
    "brit funk",
    "broken beat",
-   "cabo zouk",
+   "cadence lypso",
+   "cadence rampa",
    "cakewalk",
+   "choro",
    "classic ragtime",
-   "compas",
    "dancehall",
    "deep tech",
    "flex dance music",
@@ -17400,9 +18326,10 @@
    "gommance",
    "groove metal",
    "jackin house",
+   "jit",
    "kidandali",
    "kizomba",
-   "kréyol djaz",
+   "krakowiak",
    "latin",
    "lundu",
    "nouveau zydeco",
@@ -17434,6 +18361,7 @@
    "tech house",
    "timba",
    "trap dancehall",
+   "tumba",
    "uk funky",
    "uk jackin",
    "xaxado",
@@ -17444,24 +18372,39 @@
   ],
   "frequent": [
    "afro-funk",
+   "afro-zouk",
    "afroswing",
+   "aleke",
    "arrochadeira",
    "axé",
    "beach music",
+   "bikutsi",
+   "bomba",
    "boogie",
    "bounce beat",
+   "bouyon",
    "british rhythm & blues",
    "bubbling",
    "bubbling house",
+   "cabo zouk",
+   "calypso",
+   "candombe",
+   "candombe beat",
+   "compas",
    "coon song",
    "deep funk",
    "descarga",
+   "drumline",
    "forró de favela",
    "forró eletrônico",
    "free funk",
+   "frevo",
+   "frevo de rua",
+   "funaná",
    "go-go",
    "jazz-funk",
    "juke",
+   "kréyol djaz",
    "latin funk",
    "marchinha",
    "minneapolis sound",
@@ -17482,20 +18425,36 @@
    "samba-enredo",
    "samba-exaltação",
    "samba-reggae",
+   "spouge",
+   "steel band",
    "swamp pop",
    "synth funk",
+   "tsapiky",
    "zouk love"
   ],
   "occasional": [
    "acid jazz",
    "alternative r&b",
+   "calipso venezolano",
+   "chutney soca",
    "contemporary r&b",
+   "dennery segment",
+   "frevo de bloco",
+   "frevo elétrico",
+   "frevo-canção",
+   "fungi",
+   "goombay",
    "hip hop soul",
+   "mangambeu",
    "new jack swing",
    "new orleans r&b",
    "pagode romântico",
+   "palo de mayo",
    "piseiro",
+   "power soca",
    "quiet storm",
+   "rapso",
+   "soca",
    "trap soul",
    "uk street soul",
    "urban contemporary gospel",
@@ -17551,6 +18510,7 @@
    "mambo chileno",
    "mambo urbano",
    "mega funk",
+   "meyxana",
    "neo-grime",
    "new jack swing",
    "noiadance",
@@ -17571,6 +18531,7 @@
    "samba rap",
    "singeli",
    "staïfi",
+   "tassu",
    "tecnofunk",
    "trap latino",
    "trapfunk"
@@ -17595,6 +18556,7 @@
    "electro",
    "electro hop",
    "electro latino",
+   "embolada",
    "eurobeat",
    "experimental hip hop",
    "funk automotivo",
@@ -17677,7 +18639,6 @@
  },
  "scratching": {
   "characteristic": [
-   "battle record",
    "nu metal",
    "old school hip hop",
    "trip hop",
@@ -17685,6 +18646,7 @@
   ],
   "frequent": [
    "arabesk rap",
+   "battle record",
    "bongo flava",
    "breakbeat",
    "genge",
@@ -17783,9 +18745,6 @@
    "bashment soca",
    "bubbling house",
    "cachaca",
-   "cadence lypso",
-   "cadence rampa",
-   "calipso venezolano",
    "calypso",
    "chamamé tropical",
    "crack rock steady",
@@ -17805,9 +18764,7 @@
    "digital cumbia",
    "disco",
    "flex dance music",
-   "fungi",
    "gommance",
-   "goombay",
    "highlife",
    "hiplife",
    "house",
@@ -17817,7 +18774,6 @@
    "merenhouse",
    "merequetengue",
    "nueva cumbia chilena",
-   "palo de mayo",
    "phonk house",
    "pon-chak disco",
    "ragga",
@@ -17856,6 +18812,9 @@
    "brazilian bass",
    "bubbling",
    "burger-highlife",
+   "cadence lypso",
+   "cadence rampa",
+   "calipso venezolano",
    "changa tuki",
    "chicago house",
    "chutney soca",
@@ -17878,11 +18837,13 @@
    "euro house",
    "euro-disco",
    "french house",
+   "fungi",
    "funky house",
    "future bounce",
    "future house",
    "g-house",
    "garage house",
+   "goombay",
    "gospel reggae",
    "gqom",
    "guaracha edm (Colombian electronic genre)",
@@ -18022,11 +18983,10 @@
  },
  "mood_spiritual": {
   "characteristic": [
+   "aak",
    "abhang",
    "ambrosian chant",
-   "ashkenazi cantorial music",
    "beneventan chant",
-   "bhajan",
    "bluegrass gospel",
    "celtic chant",
    "celtic new age",
@@ -18041,17 +19001,23 @@
    "gaelic psalm singing",
    "gallican chant",
    "goa trance",
+   "gondang",
    "gospel",
    "gospel house",
    "gospel reggae",
    "gregorian chant",
+   "haitian vodou drumming",
+   "himene tarava",
    "holy minimalism",
+   "honkyoku",
    "jesus music",
    "jubilee",
    "kafi",
+   "kagura",
    "kirtan",
    "mantra",
    "mozarabic chant",
+   "nagara naam",
    "nasheed",
    "new age",
    "old roman chant",
@@ -18060,28 +19026,48 @@
    "qawwali",
    "roots reggae",
    "sarum chant",
+   "shōmyō",
    "spiritual jazz",
    "spirituals",
-   "stotra",
    "sufi rock",
    "sufiana kalam",
+   "tarawangsa",
+   "tchinkoumé",
    "traditional black gospel",
-   "vedic chant",
-   "xian psych"
+   "urumi melam",
+   "xian psych",
+   "zinli"
   ],
   "frequent": [
+   "afoxê",
    "andean new age",
    "anglican chant",
+   "ashkenazi cantorial music",
+   "baithak gana",
+   "beompae",
+   "bhajan",
    "byzantine chant",
    "chöd",
+   "colindă",
    "concert spiritual",
    "contemporary gospel",
+   "fuji",
+   "ginan",
+   "gnawa",
    "gospel hymn",
+   "gwo ka",
+   "jongo",
    "kontakion",
    "kyivan chant",
+   "maddahi",
+   "maloya",
+   "menzuma",
    "native american new age",
    "neoclassical new age",
+   "nigun",
    "nitzhonot",
+   "paghjella",
+   "pinpeat",
    "praise & worship",
    "praise break",
    "ring shout",
@@ -18089,17 +19075,28 @@
    "sacred harp",
    "sacred steel",
    "shabad kirtan",
+   "shoor",
    "southern gospel",
    "spiritual art song",
    "sticheron",
+   "stotra",
    "taizé chant",
    "tibetan buddhist chant",
    "troparion",
+   "upopo",
    "urban contemporary gospel",
    "valaam chant",
+   "vedic chant",
+   "waka",
    "zema"
   ],
   "occasional": [
+   "apala",
+   "baqashot",
+   "currulao",
+   "isicathamiya",
+   "maloya électronique",
+   "maloya élektrik",
    "znamenny chant"
   ]
  },
@@ -18116,6 +19113,7 @@
   "frequent": [
    "alternative dance",
    "alternative metal",
+   "chinese literati music",
    "doomgaze",
    "dunedin sound",
    "geek rock",
@@ -18123,8 +19121,12 @@
    "grebo",
    "grunge",
    "jangle pop",
+   "kacapi suling",
+   "kadongo kamu",
+   "neo kyma",
    "shoegaze",
-   "slacker rock"
+   "slacker rock",
+   "éntekhno"
   ],
   "occasional": [
    "blackgaze",
@@ -18151,6 +19153,7 @@
   ],
   "frequent": [
    "doomgaze",
+   "drum and bugle corps",
    "emo",
    "emocore",
    "geek rock",
@@ -18321,6 +19324,7 @@
    "arabesk",
    "arabesk rap",
    "blackgaze",
+   "canto cardenche",
    "chanson réaliste",
    "corrido tumbado",
    "dark wave",
@@ -18331,7 +19335,6 @@
    "emo rap",
    "enka",
    "fado",
-   "fantezi",
    "finnish tango",
    "funeral doom metal",
    "funeral march",
@@ -18342,6 +19345,7 @@
    "korean ballad",
    "laiko",
    "levenslied",
+   "luk thung",
    "melodic house",
    "melodic techno",
    "modern laiko",
@@ -18360,7 +19364,6 @@
    "russian romance",
    "samba-canção",
    "sevdalinka",
-   "skiladiko",
    "slap house",
    "slowcore",
    "stutter house",
@@ -18373,23 +19376,41 @@
   ],
   "frequent": [
    "avanzada",
+   "ballad",
+   "bocet",
    "coladeira",
    "coldwave",
+   "cải lương",
    "death-doom metal",
+   "doina",
    "emoviolence",
    "ethereal wave",
    "fado de coimbra",
+   "fantezi",
    "hardwave",
+   "kacapi suling",
    "klezmer",
+   "kujawiak",
    "midwest emo",
-   "neo kyma",
+   "ngâm thơ",
+   "rizitika",
+   "ryūkōka",
+   "saluang klasik",
    "screamo",
+   "skiladiko",
+   "son istmeño",
+   "tonada potosina",
+   "tân cổ giao duyên",
+   "uzun hava",
    "witch house",
+   "xẩm",
    "éntekhno"
   ],
   "occasional": [
+   "latin ballad",
    "minimal synth",
    "minimal wave",
+   "neo kyma",
    "neoclassical dark wave"
   ]
  },
@@ -18401,8 +19422,8 @@
    "huapango",
    "lovers rock",
    "pluggnb",
-   "son huasteco",
    "swancore",
+   "trallalero",
    "vocal surf"
   ],
   "frequent": [
@@ -18410,9 +19431,11 @@
    "beach music",
    "british rhythm & blues",
    "disco",
+   "mbube",
    "pon-chak disco",
    "post-britpop",
    "r&b",
+   "son huasteco",
    "swamp pop",
    "trap soul",
    "tsonga disco"
@@ -18425,6 +19448,7 @@
    "future funk",
    "hi-nrg",
    "hip hop soul",
+   "isicathamiya",
    "italo-disco",
    "latin disco",
    "new jack swing",
@@ -18473,6 +19497,7 @@
    "acid breaks",
    "artcore",
    "autonomic",
+   "battle record",
    "big beat",
    "breakbeat hardcore",
    "breakbeat kota",
@@ -18594,12 +19619,14 @@
    "afro house",
    "american gamelan",
    "bantengan",
+   "batuque",
    "campursari",
    "candombe",
    "candombe beat",
    "djent",
    "footwork",
    "footwork jungle",
+   "fuji",
    "gambang kromong",
    "gamelan",
    "gamelan degung",
@@ -18607,23 +19634,41 @@
    "gamelan sekaten",
    "gamelan siteran",
    "gamelan surakarta",
+   "gondang",
+   "gumbe",
    "haitian vodou drumming",
    "jaipongan",
    "javanese gamelan",
+   "kadodi",
+   "kasékò (Guiana)",
    "kecak",
    "ketuk tilu",
    "kliningan",
    "kuda lumping",
    "kumi-daiko",
    "malay gamelan",
+   "mataali",
    "math rock",
    "mbalax",
+   "ngoma",
+   "njuup",
    "progressive metalcore",
-   "totalism"
+   "talempong",
+   "tassa",
+   "totalism",
+   "tradi-moderne congolais"
   ],
   "frequent": [
    "3-step",
+   "agbadza",
+   "agbekor",
+   "alloukou",
+   "apala",
    "balinese gamelan",
+   "bélé",
+   "chakacha",
+   "currulao",
+   "dhol tasha",
    "gamelan angklung",
    "gamelan gambang",
    "gamelan gender wayang",
@@ -18632,15 +19677,35 @@
    "gamelan joged bumbung",
    "gamelan selunding",
    "gamelan semar pegulingan",
+   "guaguancó",
    "juke",
    "kakawin",
+   "kete",
+   "kidumbak",
+   "kulintang",
+   "liwa",
    "math pop",
+   "mchiriku",
+   "moutya",
+   "ogene music",
    "progressive metal",
-   "thall"
+   "pungmul",
+   "rumba cubana",
+   "tchinkoumé",
+   "thall",
+   "timbila",
+   "tumba francesa",
+   "unyago",
+   "zinli",
+   "ʻōteʻa"
   ],
   "occasional": [
+   "ahwash",
+   "bullerengue",
    "gamelan beleganjur",
-   "gamelan gong kebyar"
+   "gamelan gong kebyar",
+   "izlan",
+   "rumba"
   ]
  },
  "arpeggio": {
@@ -18651,29 +19716,21 @@
    "bitpop",
    "bytebeat",
    "chiptune",
-   "congolese rumba",
    "demostyle",
    "doskpop",
    "emo",
    "folktronica",
    "highlife",
    "hiplife",
-   "kilapanga",
-   "kwassa kwassa",
    "midwest emo",
    "minimalism",
-   "muziki wa dansi",
    "nintendocore",
    "post-minimalism",
    "process music",
    "soukous",
    "sungura",
-   "tradi-moderne congolais",
    "tradi-moderne ivoirien",
-   "tumbélé",
-   "ziglibithy",
-   "zoblazo",
-   "zouglou"
+   "ziglibithy"
   ],
   "frequent": [
    "ambasse bey",
@@ -18681,16 +19738,24 @@
    "bend-skin",
    "burger-highlife",
    "champeta",
+   "congolese rumba",
    "coupé-décalé",
    "dream pop",
    "emoviolence",
    "holy minimalism",
+   "kilapanga",
+   "kwassa kwassa",
    "makossa",
    "math rock",
    "mbolé",
+   "muziki wa dansi",
    "neoclassical metal",
    "screamo",
-   "totalism"
+   "totalism",
+   "tradi-moderne congolais",
+   "tumbélé",
+   "zoblazo",
+   "zouglou"
   ],
   "occasional": [
    "math pop"
@@ -18703,8 +19768,10 @@
    "classic jazz",
    "dechovka",
    "dixieland",
+   "frevo",
    "jamaican ska",
    "mariachi",
+   "morenada",
    "rara",
    "ska",
    "spouge",
@@ -18712,23 +19779,46 @@
    "third wave ska"
   ],
   "frequent": [
+   "beni",
    "british brass band",
    "cape jazz",
+   "caporal",
+   "chicago polka",
+   "conga",
    "contemporary jazz",
    "crossover jazz",
+   "dobrado",
    "flamenco jazz",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
+   "guggenmusik",
+   "humppa",
    "indo jazz",
    "jazz",
    "jazz blues",
    "jazz guachaca",
+   "junkanoo",
+   "kaseko (Suriname)",
    "kréyol djaz",
    "marabi",
+   "march",
+   "marching band",
    "midwest emo",
+   "música festera",
+   "narodnozabavna glasba",
    "new mexico music",
    "paramaribop",
+   "pasodoble",
+   "pep band",
+   "polka",
    "ranchera",
+   "regional mexicano",
    "samba-jazz",
+   "schottische",
    "third stream",
+   "waila",
    "world fusion",
    "worldbeat",
    "yu-mex",
@@ -18738,18 +19828,32 @@
    "afro-cuban jazz",
    "afro-jazz",
    "avant-garde jazz",
+   "avanzada",
+   "banda sinaloense",
+   "bandinha",
    "beat poetry",
    "bebop",
    "big band",
    "biguine",
    "boogaloo",
+   "chotis madrileño",
+   "circus march",
    "cool jazz",
+   "corrido",
    "crime jazz",
+   "cumbia norteña mexicana",
    "dark jazz",
+   "drum and bugle corps",
+   "drumline",
+   "duranguense",
+   "eastern-style polka",
    "ethio-jazz",
    "experimental big band",
+   "fife and drum",
    "free funk",
    "free jazz",
+   "funeral march",
+   "grupera",
    "gypsy jazz",
    "hard bop",
    "instrumental jazz",
@@ -18763,17 +19867,27 @@
    "mbaqanga",
    "modal jazz",
    "modern creative",
+   "movimiento alterado",
+   "narcocorrido",
    "neo-bop",
+   "nhạc đỏ",
+   "nortec",
+   "norteño",
    "nu jazz",
    "orchestral jazz",
+   "polka paraguaya",
    "post-bop",
+   "ryūkōka",
    "shidaiqu",
+   "sierreño",
    "smooth jazz",
    "soul jazz",
    "spiritual jazz",
    "sweet jazz",
    "swing",
    "swing revival",
+   "technobanda",
+   "tejano",
    "township jive",
    "vocal jazz",
    "vocalese"
@@ -18782,10 +19896,21 @@
  "female_vocals": {
   "characteristic": [
    "aita",
+   "batuque",
+   "bocet",
+   "bullerengue",
+   "bélé",
    "ca trù",
+   "campursari",
+   "chakacha",
    "chanson réaliste",
+   "chilena",
+   "chuscada",
    "classic blues",
+   "copla cajamarquina",
    "cuplé",
+   "currulao",
+   "dangdut",
    "desgarrada",
    "diva house",
    "electropop",
@@ -18795,64 +19920,155 @@
    "eurodance",
    "fado",
    "freestyle",
+   "frevo de bloco",
+   "gagok",
    "garage house",
    "glitch pop",
    "hardbag",
+   "huayno",
+   "huayno con arpa",
+   "iavnana",
    "indietronica",
+   "jiuta",
+   "joik",
    "kawaii metal",
+   "kouta",
+   "kumiuta",
+   "langgam jawa",
+   "lavani",
    "liquid funk",
+   "luk thung",
+   "lullaby",
+   "mchiriku",
    "melodic bass",
    "melodic dubstep",
+   "min'yō",
+   "muliza",
+   "mūsīqā lubnāniyya",
+   "neo kyma",
    "nightcore",
    "occult rock",
+   "odissi classical",
+   "punta",
    "riot grrrl",
+   "ryūkōka",
    "sambass",
+   "saya afroboliviana",
+   "seggae",
+   "son jarocho",
+   "séga",
+   "sōkyoku",
+   "taarab",
+   "tamborera",
+   "tamborito",
+   "tembang cianjuran",
+   "tizita",
+   "tonada potosina",
+   "traditional séga",
    "trip hop",
+   "tumba francesa",
+   "tân cổ giao duyên",
+   "unyago",
+   "upopo",
+   "urtiin duu",
    "vocal house",
    "vocal trance",
+   "waka",
    "wassoulou",
    "yé-yé"
   ],
   "frequent": [
    "ambient pop",
    "atmospheric drum and bass",
+   "balitaw",
+   "batonebi songs",
    "big room trance",
+   "bomba",
+   "bomba del chota",
    "bubblegum dance",
    "buchiage trance",
+   "burmese classical",
    "chillstep",
+   "chimayche",
+   "ciranda",
    "colour bass",
+   "cải lương",
+   "danmono",
    "deep house",
+   "dohori",
+   "dongzu dage",
    "dream pop",
    "drum and bass",
    "dubstyle",
    "electro trance",
    "eurobeat",
    "fado de coimbra",
+   "fon leb",
+   "garba",
    "gospel house",
    "gothic metal",
+   "griot",
+   "gumbe",
    "hands up",
+   "harawi",
    "hardstyle",
+   "himene tarava",
+   "huaylarsh",
    "hyper techno (Italo-Japanese 1990s genre)",
+   "hát tuồng",
    "italo dance",
+   "izlan",
    "j-euro",
    "jersey sound",
+   "keroncong",
+   "kidumbak",
+   "koplo",
+   "kulintang",
+   "kundiman",
+   "mahori",
    "math pop",
+   "mor lam",
+   "mor lam sing",
+   "morna",
+   "moutya",
    "neoclassical dark wave",
+   "ngoma",
+   "ngâm thơ",
    "nustyle",
+   "ondō",
+   "palo de mayo",
+   "pandilla",
+   "parlour music",
    "psystyle",
+   "quan họ",
+   "red song",
+   "santé engagé",
+   "shima-uta",
+   "son istmeño",
    "symphonic metal",
+   "séga tambour",
+   "taquirari",
+   "tassu",
+   "tchinkoumé",
    "tech trance",
    "technoid",
    "trance",
    "trance 2.0",
-   "wa euro"
+   "wa euro",
+   "yaraví",
+   "zouk"
   ],
   "occasional": [
    "acid trance",
+   "afro-zouk",
+   "alloukou",
    "ambient trance",
    "artcore",
    "autonomic",
    "balearic trance",
+   "cabo zouk",
+   "coladeira",
+   "compas",
    "crossbreed",
    "dancefloor drum and bass",
    "darkstep",
@@ -18864,6 +20080,7 @@
    "dubwise",
    "early hardstyle",
    "euphoric hardstyle",
+   "famo",
    "frenchtek",
    "halftime",
    "hard drum",
@@ -18872,6 +20089,7 @@
    "jazzstep",
    "jump up",
    "jumpstyle",
+   "kréyol djaz",
    "melodic house",
    "melodic trance",
    "microfunk",
@@ -18882,9 +20100,11 @@
    "rawphoric",
    "rawstyle",
    "skullstep",
+   "takamba",
    "techstep",
    "tropical house",
-   "xtra raw"
+   "xtra raw",
+   "zouk love"
   ]
  },
  "crescendo": {
@@ -18997,6 +20217,7 @@
    "depressive black metal",
    "dissonant black metal",
    "dissonant death metal",
+   "filipino rondalla",
    "indie surf",
    "melodic black metal",
    "melodic death metal",
@@ -19017,10 +20238,8 @@
    "christmas music"
   ],
   "frequent": [
-   "colindă",
-   "parang",
-   "post-rock",
-   "villancico"
+   "circus march",
+   "post-rock"
   ],
   "occasional": []
  },
@@ -19078,18 +20297,24 @@
  },
  "tempo_very_slow": {
   "characteristic": [
+   "aak",
    "ambient",
    "ambient dub",
    "ambient pop",
    "ambient techno",
+   "beompae",
    "chopped and screwed",
    "doom metal",
    "doomgaze",
    "downtempo deathcore",
    "drone",
    "funeral doom metal",
+   "gaelic psalm singing",
+   "gagaku",
+   "gagok",
    "houston sound",
    "illbient",
+   "noh",
    "slowcore",
    "stenchcore",
    "stoner metal"
@@ -19106,6 +20331,7 @@
    "drone metal",
    "epic doom metal",
    "gothic metal",
+   "honkyoku",
    "kankyō ongaku",
    "occult rock",
    "progressive electronic",
@@ -19114,7 +20340,8 @@
    "southern metal",
    "space ambient",
    "traditional doom metal",
-   "tribal ambient"
+   "tribal ambient",
+   "urtiin duu"
   ],
   "occasional": [
    "comfy synth",
@@ -19419,10 +20646,8 @@
    "anatolian rock",
    "arabesk",
    "arabesk rap",
-   "ashkenazi cantorial music",
    "bedoui wahrani",
    "chazzanut",
-   "fantezi",
    "flamenco",
    "flamenco pop",
    "goa trance",
@@ -19437,21 +20662,21 @@
    "raï",
    "rebetiko",
    "rock andaluz",
-   "skiladiko",
    "staïfi",
    "tallava",
    "tiento",
    "turkish pop"
   ],
   "frequent": [
+   "ashkenazi cantorial music",
    "bulería",
    "copla",
    "eleki",
+   "fantezi",
    "flamenco jazz",
    "hot rod music",
    "indorock",
    "muzikat dika'on",
-   "neo kyma",
    "neoclassical metal",
    "nitzhonot",
    "nuevo flamenco",
@@ -19462,6 +20687,7 @@
    "rumba flamenca",
    "saeta",
    "sevillanas",
+   "skiladiko",
    "surf",
    "surf punk",
    "surf rock",
@@ -19477,6 +20703,7 @@
    "hi-tech",
    "hi-tech full-on",
    "indie surf",
+   "neo kyma",
    "night full-on",
    "progressive psytrance",
    "psybient",
@@ -19736,20 +20963,14 @@
   "characteristic": [
    "ahwash",
    "baguala",
-   "chacarera",
    "country and irish",
-   "guaracha santiagueña",
    "irish folk",
-   "izlan",
    "lauda",
    "medieval",
-   "muiñeira",
    "native american new age",
    "neo-medieval folk",
    "pagan folk",
-   "pansori",
    "pizzica",
-   "plena",
    "ritual ambient",
    "samba",
    "samba de terreiro",
@@ -19785,6 +21006,7 @@
    "medieval lyric poetry",
    "medieval rock",
    "minnesang",
+   "nasheed",
    "pagode",
    "pagodão",
    "partido alto",
@@ -19829,10 +21051,7 @@
    "celtic punk",
    "celtic rock",
    "medieval metal",
-   "medieval rock",
-   "muiñeira",
-   "pipe band music",
-   "pìobaireachd"
+   "medieval rock"
   ],
   "frequent": [
    "cape breton fiddling",
@@ -19889,6 +21108,7 @@
    "country pop",
    "country soul",
    "folk metal",
+   "hambo",
    "hornpipe",
    "james bay fiddling",
    "métis fiddling",
@@ -19966,6 +21186,7 @@
    "rabbit song",
    "ripsaw",
    "sarala gee",
+   "schottische",
    "sertanejo",
    "sertanejo raiz",
    "shanto",
@@ -19997,6 +21218,7 @@
    "avant-folk",
    "avtorskaya pesnya",
    "baguala",
+   "baião",
    "bakersfield sound",
    "bandari",
    "bard rock",
@@ -20164,11 +21386,14 @@
    "deathrock",
    "horror punk",
    "horrorcore",
+   "hát tuồng",
    "industrial musical",
+   "jōruri",
    "kleinkunst",
    "loud kei",
    "monodrama",
    "musical",
+   "nagauta",
    "neue deutsche härte",
    "new romantic",
    "opera",
@@ -20179,6 +21404,7 @@
    "revue",
    "rock musical",
    "romantische oper",
+   "rōkyoku",
    "soft visual",
    "steampunk",
    "tragédie en musique",
@@ -20188,21 +21414,31 @@
   "frequent": [
    "ballad opera",
    "cuplé",
+   "cải lương",
    "grand opera",
    "kabarett (German political satire)",
+   "kecak",
+   "lavani",
    "minstrelsy",
+   "morenada",
    "murga",
    "music hall",
+   "noh",
    "opera buffa",
    "operetta",
    "opéra comique",
+   "pansori",
    "singspiel",
    "vaudeville",
    "vaudeville blues",
+   "verbunkos",
    "verismo"
   ],
   "occasional": [
-   "murga uruguaya"
+   "burrakatha",
+   "caporal",
+   "murga uruguaya",
+   "tân cổ giao duyên"
   ]
  },
  "saz": {
@@ -20214,9 +21450,13 @@
    "özgün müzik"
   ],
   "frequent": [
+   "arabesk",
+   "arabesk rap",
    "zeybek"
   ],
-  "occasional": []
+  "occasional": [
+   "fantezi"
+  ]
  },
  "flamenco_guitar": {
   "characteristic": [
@@ -20228,6 +21468,7 @@
   "frequent": [
    "bulería",
    "copla",
+   "fandango",
    "flamenco jazz",
    "nuevo flamenco",
    "rumba flamenca",
@@ -20236,6 +21477,7 @@
    "tecnorumba"
   ],
   "occasional": [
+   "fandango caiçara",
    "rumba catalana"
   ]
  },
@@ -20304,7 +21546,6 @@
    "digital cumbia",
    "exotica",
    "go-go",
-   "guaguancó",
    "guaracha edm (Colombian electronic genre)",
    "latin",
    "latin disco",
@@ -20317,7 +21558,6 @@
    "merequetengue",
    "nueva cumbia chilena",
    "rkt",
-   "rumba",
    "rumba cubana",
    "salsa",
    "salsa choke",
@@ -20338,10 +21578,12 @@
    "cumbia sureña peruana",
    "cumbia villera",
    "descarga",
+   "guaguancó",
    "guitarrada",
    "hapa haole",
    "lambada",
    "porro",
+   "rumba",
    "salsa romántica",
    "sitarsploitation",
    "tecnocumbia",
@@ -20349,6 +21591,7 @@
    "tribal guarachero"
   ],
   "occasional": [
+   "baila",
    "chicha"
   ]
  },
@@ -20882,27 +22125,46 @@
    "batonebi songs",
    "bolero (Cuban song)",
    "bolero son",
+   "cante alentejano",
+   "canto cardenche",
    "celtic new age",
    "chillwave",
+   "chinese literati music",
+   "dangak",
    "dark jazz",
    "depressive black metal",
+   "dondang sayang",
    "downtempo",
    "funeral march",
+   "ghazal",
+   "guarania",
+   "habanera",
    "hard beat",
-   "iavnana",
+   "hyangak",
+   "jeongak",
+   "jiuta",
+   "kacapi suling",
+   "keroncong",
    "kizomba",
+   "klapa",
    "kujawiak",
+   "kundiman",
    "kwaito",
+   "langgam jawa",
    "lento violento",
    "lo-fi hip hop",
    "lullaby",
+   "morenada",
+   "morna",
    "new age",
    "new beat",
+   "pop ghazal",
    "post-classical",
    "psybient",
    "quiet storm",
    "rasteirinha",
    "rhumba (US \"ballroom rumba\")",
+   "saluang klasik",
    "samba-canção",
    "skizzo",
    "skweee",
@@ -20914,19 +22176,70 @@
   ],
   "frequent": [
    "andean new age",
+   "arabesk",
+   "arabesk rap",
+   "avanzada",
    "bolero español",
+   "ca trù",
+   "cantu a chiterra",
+   "caporal",
    "chillout",
+   "coladeira",
+   "fakaseasea",
    "filin",
+   "fon leb",
+   "fusion gugak",
+   "heikyoku",
    "hypnagogic pop",
+   "iavnana",
+   "isicathamiya",
+   "japanese classical",
+   "korean classical",
+   "kouta",
+   "kumiuta",
    "latin ballad",
+   "mantra",
    "native american new age",
    "neoclassical new age",
+   "pìobaireachd",
+   "slack-key guitar",
+   "sōkyoku",
+   "tarawangsa",
+   "tembang cianjuran",
+   "tizita",
    "trip hop",
    "trova yucateca",
-   "vietnamese bolero"
+   "vedic chant",
+   "vietnamese bolero",
+   "vietnamese classical",
+   "zamba"
   ],
   "occasional": [
-   "balearic beat"
+   "aak",
+   "balearic beat",
+   "beompae",
+   "changjak gugak",
+   "chöd",
+   "cải lương",
+   "danmono",
+   "fantezi",
+   "gagaku",
+   "gagok",
+   "honkyoku",
+   "hát tuồng",
+   "jōruri",
+   "meiji shinkyoku",
+   "nagauta",
+   "noh",
+   "ryūkōka",
+   "sanjo",
+   "shinkyoku",
+   "shōmyō",
+   "sinawi",
+   "stotra",
+   "tibetan buddhist chant",
+   "tân cổ giao duyên",
+   "xẩm"
   ]
  },
  "scream": {
@@ -20974,16 +22287,12 @@
    "alpenrock",
    "baião",
    "cachaca",
-   "cajun",
    "celtic punk",
-   "chamamé",
    "chamamé tropical",
    "chamarrita rioplatense",
    "chanson française",
    "chanson québécoise",
    "chanson réaliste",
-   "chicago polka",
-   "chotis madrileño",
    "cuarteto",
    "cumbia",
    "cumbia argentina",
@@ -21007,11 +22316,8 @@
    "folk metal",
    "forró",
    "forró universitário",
-   "funaná",
-   "guaracha santiagueña",
    "guitarrada",
    "gypsy punk",
-   "hambo",
    "klezmer",
    "lambada",
    "levenslied",
@@ -21025,18 +22331,14 @@
    "merenhouse",
    "merequetengue",
    "moda de viola",
-   "moutya",
    "musette",
    "narodnozabavna glasba",
    "nortec",
-   "norteño",
    "nouveau zydeco",
    "nueva cumbia chilena",
    "pagan black metal",
-   "pilón",
    "pimba",
    "polka",
-   "rasqueado cuiabano",
    "regional mexicano",
    "rkt",
    "russian chanson",
@@ -21049,16 +22351,11 @@
    "sertanejo raiz",
    "sevdalinka",
    "steampunk",
-   "swamp pop",
    "séga",
    "taarab",
    "tex-mex",
-   "traditional séga",
    "trikitixa",
    "tropicanibalismo",
-   "tropipop",
-   "vallenato",
-   "vanera",
    "volkstümliche musik",
    "waila",
    "xaxado",
@@ -21067,13 +22364,16 @@
   ],
   "frequent": [
    "agronejo",
+   "al jeel",
    "arrocha sertanejo",
    "banda sinaloense",
    "bandinha",
    "bedoui wahrani",
    "celtic metal",
    "chanson à texte",
-   "corrido",
+   "chicago polka",
+   "chotis madrileño",
+   "cueca brava",
    "cumbia amazónica",
    "cumbia norteña peruana",
    "cumbia peruana",
@@ -21081,38 +22381,58 @@
    "cumbia sanjuanera",
    "cumbia sureña peruana",
    "cumbia villera",
-   "duranguense",
    "forró de favela",
    "forró eletrônico",
    "funknejo",
    "grupera",
    "humppa",
+   "krakowiak",
    "kujawiak",
+   "laiko",
    "medieval metal",
-   "movimiento alterado",
-   "narcocorrido",
-   "oberek",
+   "modern laiko",
+   "música típica chilena",
+   "pandilla",
    "partyschlager",
    "polka paraguaya",
    "pop raï",
    "porro",
+   "raqs baladi",
    "raï",
    "santé engagé",
    "sertanejo romântico",
    "sertanejo universitário",
-   "sierreño",
+   "shaabi",
    "staïfi",
-   "séga tambour",
    "tecnocumbia",
    "tecnomerengue",
    "tejano",
+   "trap shaabi",
    "viking metal"
   ],
   "occasional": [
+   "algerian chaabi",
    "avanzada",
    "chicha",
+   "chimayche",
+   "chuscada",
+   "copla cajamarquina",
+   "dondang sayang",
+   "harawi",
+   "huaylarsh",
+   "huayno",
+   "huayno con arpa",
+   "mahraganat",
+   "moroccan chaabi",
+   "muliza",
+   "neo kyma",
    "piseiro",
-   "technobanda"
+   "skiladiko",
+   "taquirari",
+   "technobanda",
+   "tonada potosina",
+   "yaraví",
+   "éntekhno"
   ]
  },
  "fretless_bass": {
@@ -21487,7 +22807,9 @@
   "characteristic": [
    "chöd",
    "doo-wop",
+   "isicathamiya",
    "kyivan chant",
+   "mbube",
    "neue deutsche härte",
    "russian orthodox liturgical music",
    "tibetan buddhist chant",
@@ -21514,11 +22836,11 @@
  },
  "turntables": {
   "characteristic": [
-   "battle record",
    "turntablism"
   ],
   "frequent": [
    "arabesk rap",
+   "battle record",
    "bongo flava",
    "genge",
    "gengetone",
@@ -21930,7 +23252,9 @@
    "gypsy jazz",
    "gypsy punk",
    "huapango",
+   "huayno con arpa",
    "hungarian folk",
+   "kidumbak",
    "klezmer",
    "mariachi",
    "maxixe",
@@ -21939,24 +23263,72 @@
    "pásztordal",
    "sinfonia concertante",
    "son calentano",
-   "son huasteco",
    "string quartet",
    "tango",
    "verbunkos",
    "čalgija"
   ],
   "frequent": [
+   "baila",
+   "chilena",
+   "chimayche",
+   "chuscada",
+   "coladeira",
+   "copla cajamarquina",
    "electrotango",
+   "fandango",
    "finnish tango",
+   "huaylarsh",
+   "huayno",
+   "keroncong",
+   "krakowiak",
+   "kujawiak",
+   "liscio",
+   "mazurka",
    "milonga",
+   "morna",
+   "muliza",
+   "mūsīqā lubnāniyya",
    "new mexico music",
    "nuevo tango",
+   "oberek",
+   "orkes gambus",
+   "parang",
    "ranchera",
+   "raqs baladi",
+   "regional mexicano",
+   "sawt",
+   "son huasteco",
+   "taarab",
+   "taquirari",
+   "tonada potosina",
    "yu-mex"
   ],
   "occasional": [
+   "algerian chaabi",
+   "banda sinaloense",
    "canto a lo poeta",
-   "payada"
+   "corrido",
+   "cumbia norteña mexicana",
+   "duranguense",
+   "fandango caiçara",
+   "grupera",
+   "hambo",
+   "harawi",
+   "langgam jawa",
+   "maskanda",
+   "movimiento alterado",
+   "narcocorrido",
+   "nortec",
+   "norteño",
+   "pandilla",
+   "parlour music",
+   "payada",
+   "sierreño",
+   "technobanda",
+   "tejano",
+   "waila",
+   "yaraví"
   ]
  },
  "hungarian_minor": {
@@ -22403,6 +23775,7 @@
    "acholitronix",
    "afropiano",
    "amapiano",
+   "battle record",
    "bubbling house",
    "budots",
    "bérite club",
@@ -23849,6 +25222,7 @@
  "sample_flip": {
   "characteristic": [
    "barber beats",
+   "battle record",
    "broken transmission",
    "chipmunk soul",
    "chopped and screwed",
@@ -23917,7 +25291,9 @@
   "frequent": [
    "tribal guarachero"
   ],
-  "occasional": []
+  "occasional": [
+   "assiko"
+  ]
  },
  "djembe": {
   "characteristic": [
@@ -24070,6 +25446,7 @@
    "acid breaks",
    "bhangra",
    "big beat",
+   "bouyon",
    "breakbeat hardcore",
    "breakbeat kota",
    "breaks",
@@ -24398,13 +25775,7 @@
  },
  "steelpan": {
   "characteristic": [
-   "cadence lypso",
-   "cadence rampa",
-   "calipso venezolano",
    "calypso",
-   "fungi",
-   "goombay",
-   "palo de mayo",
    "spouge",
    "steel band",
    "tropical house"
@@ -24423,29 +25794,24 @@
  "pan_flute": {
   "characteristic": [
    "andean new age",
-   "carnavalito",
-   "chimayche",
-   "chuscada",
-   "copla cajamarquina",
-   "doina",
-   "huaylarsh",
    "huayno",
    "muliza",
    "nueva canción",
    "nueva canción chilena",
    "nuevo cancionero",
-   "pandilla",
    "rock andino",
-   "sikuri",
-   "taquirari",
-   "tonada potosina",
    "tropical house"
   ],
   "frequent": [
+   "chimayche",
+   "chuscada",
+   "copla cajamarquina",
    "harawi",
+   "huaylarsh",
    "huayno con arpa",
    "nueva canción española",
    "nueva trova",
+   "pandilla",
    "yaraví"
   ],
   "occasional": []
@@ -25186,13 +26552,9 @@
  },
  "mood_sensual": {
   "characteristic": [
-   "afro-zouk",
-   "cabo zouk",
-   "compas",
    "contemporary r&b",
    "hip hop soul",
    "kizomba",
-   "kréyol djaz",
    "maxixe",
    "neo soul",
    "porn groove",
@@ -25206,14 +26568,23 @@
    "zouk"
   ],
   "frequent": [
+   "afro-zouk",
    "alternative r&b",
    "alté",
    "bachatón",
+   "cabo zouk",
+   "campursari",
+   "compas",
    "cubatón",
    "cumbiatón",
+   "dangdut",
    "doble paso",
    "electrotango",
    "finnish tango",
+   "habanera",
+   "kouta",
+   "kréyol djaz",
+   "lavani",
    "mambo chileno",
    "mambo urbano",
    "milonga",
@@ -25231,6 +26602,7 @@
    "canto a lo poeta",
    "dembow",
    "electro latino",
+   "koplo",
    "latin pop",
    "moombahcore",
    "neoperreo",
@@ -25863,26 +27235,22 @@
    "cantu a tenore",
    "central asian throat singing",
    "chöd",
-   "kai",
    "tibetan buddhist chant"
   ],
   "frequent": [
-   "drone"
+   "drone",
+   "kai"
   ],
   "occasional": []
  },
  "harp": {
   "characteristic": [
+   "burmese classical",
    "celtic",
    "celtic electronica",
    "celtic new age",
    "chamber folk",
-   "chilena",
-   "chimayche",
-   "chuscada",
-   "copla cajamarquina",
    "guarania",
-   "huaylarsh",
    "huayno",
    "huayno con arpa",
    "impressionism",
@@ -25892,35 +27260,45 @@
    "mélodie",
    "música llanera",
    "new age",
-   "pandilla",
    "polka paraguaya",
-   "son istmeño",
    "son jarocho",
-   "spiritual jazz",
-   "taquirari",
-   "tonada potosina"
+   "spiritual jazz"
   ],
   "frequent": [
    "andean new age",
    "avanzada",
    "bagad",
    "cape breton fiddling",
+   "chilena",
+   "chimayche",
+   "chuscada",
    "contra",
+   "copla cajamarquina",
    "country and irish",
+   "cueca",
    "harawi",
    "hornpipe",
+   "huaylarsh",
    "irish folk",
    "james bay fiddling",
+   "jazz guachaca",
    "kan ha diskan",
    "métis fiddling",
+   "música típica chilena",
    "native american new age",
    "neoclassical new age",
    "onda nueva",
+   "pandilla",
    "puirt à beul",
    "scottish country dance music",
-   "yaraví"
+   "son istmeño",
+   "taquirari",
+   "tonada potosina",
+   "yaraví",
+   "zamacueca"
   ],
   "occasional": [
+   "cueca brava",
    "sean-nós"
   ]
  },
@@ -26039,6 +27417,7 @@
    "city pop",
    "eccojams",
    "english pastoral school",
+   "keroncong",
    "lo-fi",
    "slushwave",
    "sovietwave",
@@ -26049,25 +27428,45 @@
    "vaporwave"
   ],
   "frequent": [
+   "canto degli alpini",
+   "canzone napoletana",
+   "canzone neomelodica",
    "celtic",
    "celtic electronica",
    "celtic new age",
+   "chamamé",
+   "chamamé tropical",
    "chillsynth",
+   "chotis madrileño",
+   "christmas music",
    "cyberpunk",
    "darksynth",
    "dreampunk",
    "dreamwave",
+   "frevo de bloco",
+   "guaracha santiagueña",
+   "guarania",
    "hardvapour",
    "hauntology",
    "hypnagogic pop",
+   "langgam jawa",
+   "liscio",
    "mallsoft",
+   "musette",
    "neo-city pop",
    "outrun",
-   "spacesynth"
+   "ryūkōka",
+   "spacesynth",
+   "tizita",
+   "twoubadou",
+   "vals venezolano",
+   "valsa brasileira"
   ],
   "occasional": [
+   "avanzada",
    "bagad",
    "cape breton fiddling",
+   "colindă",
    "contra",
    "country and irish",
    "hornpipe",
@@ -26076,9 +27475,11 @@
    "james bay fiddling",
    "kan ha diskan",
    "métis fiddling",
+   "parang",
    "puirt à beul",
    "scottish country dance music",
-   "sean-nós"
+   "sean-nós",
+   "villancico"
   ]
  },
  "bedroom_production": {
@@ -26103,20 +27504,15 @@
   "characteristic": [
    "brass band",
    "cakewalk",
-   "caporal",
    "classic ragtime",
    "conga",
    "dechovka",
-   "dobrado",
    "gamelan beleganjur",
    "march",
    "martial industrial",
-   "morenada",
    "música festera",
-   "nhạc đỏ",
    "pasodoble",
    "pipe band music",
-   "polonaise",
    "ragtime",
    "red song",
    "tanjidor"
@@ -26124,24 +27520,25 @@
   "frequent": [
    "beni",
    "british brass band",
+   "canto degli alpini",
    "circus march",
    "coon song",
+   "dobrado",
    "frevo",
+   "funeral march",
+   "marching band",
+   "nhạc đỏ",
+   "novelty piano",
+   "ragtime song"
+  ],
+  "occasional": [
+   "drumline",
+   "fife and drum",
    "frevo de bloco",
    "frevo de rua",
    "frevo elétrico",
    "frevo-canção",
-   "funeral march",
-   "marching band",
-   "novelty piano",
-   "pep band",
-   "ragtime song"
-  ],
-  "occasional": [
-   "drum and bugle corps",
-   "drumline",
-   "fife and drum",
-   "guggenmusik"
+   "pep band"
   ]
  },
  "major_pentatonic": {
@@ -26162,8 +27559,10 @@
   "characteristic": [
    "american primitive guitar",
    "americana",
+   "assiko",
    "banga",
    "baul gaan",
+   "benga",
    "benna",
    "biraha",
    "boedra",
@@ -26190,6 +27589,7 @@
    "kanto",
    "kantruem",
    "mappila",
+   "maskanda",
    "mgodro",
    "muak",
    "neo-medieval folk",
@@ -26197,6 +27597,7 @@
    "new mexico music",
    "néo-trad",
    "pala",
+   "palm-wine",
    "piedmont blues",
    "psychedelic folk",
    "puxa",
@@ -26244,14 +27645,17 @@
    "hungarian folk",
    "indie folk",
    "industrial folk song",
+   "kadongo kamu",
    "ländlermusik",
    "manele",
+   "mugithi",
    "música criolla",
    "neofolklore",
    "nueva canción",
    "nueva canción chilena",
    "nuevo cancionero",
    "old-time",
+   "omutibo",
    "pagan folk",
    "pizzica",
    "progressive folk",
@@ -26365,9 +27769,11 @@
    "jazz mugham",
    "jazz poetry",
    "latin jazz",
+   "liscio",
    "mbaqanga",
    "modal jazz",
    "modern creative",
+   "musette",
    "nu jazz",
    "orchestral jazz",
    "post-bop",
@@ -26378,13 +27784,17 @@
   ],
   "occasional": [
    "afro-cuban jazz",
+   "christmas music",
+   "colindă",
    "experimental big band",
    "hard bop",
    "kwela",
    "neo-bop",
+   "parang",
    "smooth jazz",
    "soul jazz",
-   "spiritual jazz"
+   "spiritual jazz",
+   "villancico"
   ]
  },
  "muted_trumpet": {
@@ -26505,7 +27915,6 @@
    "batuque",
    "beat bolha",
    "beat fino",
-   "bhajan",
    "bhangra",
    "blue-eyed soul",
    "blues",
@@ -26518,9 +27927,9 @@
    "brazilian phonk",
    "brega funk",
    "bullerengue",
+   "bélé",
    "candombe",
    "candombe beat",
-   "chakacha",
    "changüí",
    "chicago soul",
    "ciranda",
@@ -26530,7 +27939,7 @@
    "dikir barat",
    "dohori",
    "eletrofunk",
-   "fuji",
+   "fakaseasea",
    "funk brasileiro",
    "funk carioca",
    "funk de bh",
@@ -26540,19 +27949,15 @@
    "gnawa",
    "go-go",
    "gospel",
-   "guaguancó",
    "guajira",
    "gwo ka",
    "għana",
    "haozi",
    "industrial folk song",
-   "isicathamiya",
-   "izlan",
    "jazz blues",
    "jongo",
    "jubilee",
    "kan ha diskan",
-   "kidumbak",
    "kirtan",
    "liwa",
    "louisiana blues",
@@ -26572,7 +27977,6 @@
    "qawwali",
    "quan họ",
    "ring shout",
-   "rumba",
    "rumba cubana",
    "salsa",
    "salsa choke",
@@ -26597,13 +28001,11 @@
    "soul blues",
    "spirituals",
    "sufi rock",
-   "tamborera",
    "tamborito",
    "tecnofunk",
    "timba",
    "traditional black gospel",
    "trapfunk",
-   "unyago",
    "vaudeville blues",
    "waulking song",
    "west coast swing",
@@ -26615,12 +28017,17 @@
    "arrochadeira",
    "axé",
    "batidão romântico",
+   "beni",
+   "bhajan",
    "bolero (Cuban song)",
+   "calipso venezolano",
    "chachachá",
+   "chakacha",
    "charanga",
    "chicago blues",
    "classic blues",
    "concert spiritual",
+   "conga",
    "contemporary gospel",
    "danzón",
    "deep soul",
@@ -26630,16 +28037,22 @@
    "electric blues",
    "electric texas blues",
    "embolada",
+   "fuji",
    "funk automotivo",
    "funk consciente",
    "funk mandelão",
    "funk melody",
    "gospel hymn",
+   "guaguancó",
    "guaracha (Cuban)",
    "highlife",
    "hill country blues",
    "hiplife",
+   "isicathamiya",
+   "izlan",
    "jump blues",
+   "kaseko (Suriname)",
+   "kidumbak",
    "latin soul",
    "maloya électronique",
    "maloya élektrik",
@@ -26661,6 +28074,7 @@
    "rasteirinha",
    "rhumba (US \"ballroom rumba\")",
    "ritmada",
+   "rumba",
    "sacred steel",
    "salsa romántica",
    "samba de breque",
@@ -26677,8 +28091,10 @@
    "southern soul",
    "spiritual art song",
    "sungura",
+   "tamborera",
    "tamborzão",
    "tradi-moderne ivoirien",
+   "unyago",
    "urban contemporary gospel",
    "ziglibithy"
   ],
@@ -26686,9 +28102,11 @@
    "acoustic chicago blues",
    "acoustic texas blues",
    "ambasse bey",
+   "batucada",
    "beat bruxaria",
    "bend-skin",
    "bolero español",
+   "bouyon",
    "burger-highlife",
    "country blues",
    "filin",
@@ -26857,13 +28275,20 @@
    "bongo flava",
    "joropo",
    "malagueña venezolana",
+   "maloya",
    "música llanera"
   ],
   "frequent": [
    "afroswing",
+   "currulao",
+   "maloya électronique",
+   "maloya élektrik",
    "onda nueva"
   ],
-  "occasional": []
+  "occasional": [
+   "agbekor",
+   "maracatu"
+  ]
  },
  "talking_drum": {
   "characteristic": [
@@ -26873,12 +28298,13 @@
    "alté",
    "apala",
    "bongo flava",
-   "fuji",
    "jùjú",
    "mbalax"
   ],
   "frequent": [
-   "afroswing"
+   "afroswing",
+   "alloukou",
+   "fuji"
   ],
   "occasional": []
  },
@@ -26955,51 +28381,40 @@
    "aboio",
    "arabesk",
    "arabesk rap",
-   "ashkenazi cantorial music",
    "beach music",
    "bedoui wahrani",
    "bhangra",
    "british rhythm & blues",
    "byzantine chant",
    "campursari",
+   "cantu a chiterra",
    "chazzanut",
    "dangdut",
    "desgarrada",
+   "doina",
    "enka",
    "fado",
-   "fantezi",
    "flamenco",
    "flamenco pop",
    "ghazal",
    "indian classical",
    "indo jazz",
-   "iraqi maqam",
    "islamic modal music",
-   "jazz mugham",
    "kontakion",
    "maddahi",
-   "maftirim",
    "manele",
    "mbalax",
    "min'yō",
-   "mugham",
    "muzika mizrahit",
    "muzika yehudit mekorit",
    "ngâm thơ",
-   "odissi classical",
-   "ondō",
    "pansori",
-   "persian classical",
    "pop ghazal",
    "pop raï",
    "qawwali",
    "r&b",
    "raï",
-   "sawt",
    "sevdalinka",
-   "shashmaqam",
-   "shima-uta",
-   "shoor",
    "staïfi",
    "sticheron",
    "sufi rock",
@@ -27007,39 +28422,59 @@
    "tiento",
    "tonada asturiana",
    "troparion",
-   "turkish classical",
    "urtiin duu",
-   "uyghur muqam",
    "uzun hava"
   ],
   "frequent": [
+   "algerian chaabi",
+   "ashkenazi cantorial music",
+   "baqashot",
+   "beompae",
    "bulería",
+   "ca trù",
    "carnatic classical",
    "contemporary r&b",
    "copla",
    "fado de coimbra",
+   "fantezi",
    "flamenco jazz",
    "hindustani classical",
    "hip hop soul",
+   "iraqi maqam",
+   "jazz mugham",
    "kafi",
    "khyal",
    "klasik",
    "konnakol",
    "koplo",
+   "maftirim",
+   "mugham",
    "muzikat dika'on",
    "natya sangeet",
    "new orleans r&b",
    "nuevo flamenco",
+   "odissi classical",
+   "ondō",
+   "paghjella",
+   "persian classical",
+   "piyyut",
+   "rizitika",
    "rumba flamenca",
    "saeta",
+   "sawt",
    "sevillanas",
+   "shashmaqam",
+   "shima-uta",
+   "shoor",
    "sufiana kalam",
-   "symphonic mugham",
    "tappa",
    "tarana",
    "tecnorumba",
+   "tembang cianjuran",
+   "turkish classical",
    "uk street soul",
    "urban contemporary gospel",
+   "uyghur muqam",
    "west coast swing"
   ],
   "occasional": [
@@ -27050,8 +28485,10 @@
    "new jack swing",
    "quiet storm",
    "rumba catalana",
+   "symphonic mugham",
    "thumri",
-   "trap soul"
+   "trap soul",
+   "zemirot"
   ]
  },
  "mood_romantic": {
@@ -27073,15 +28510,20 @@
    "canción melódica",
    "canzone napoletana",
    "canzone neomelodica",
+   "dondang sayang",
    "doo-wop",
    "freestyle",
    "funk melody",
    "ghazal",
+   "grupera",
    "kizomba",
+   "klapa",
    "kundiman",
    "latin ballad",
    "lovers rock",
    "pagode romântico",
+   "parlour music",
+   "pasillo",
    "pop ghazal",
    "quiet storm",
    "rhumba (US \"ballroom rumba\")",
@@ -27090,27 +28532,42 @@
    "sertanejo romântico",
    "tarraxinha",
    "thumri",
+   "valsa brasileira",
    "zamba",
    "zouk love"
   ],
   "frequent": [
+   "balitaw",
    "blue-eyed soul",
    "bolero español",
    "boogaloo",
    "chicago soul",
    "country soul",
    "filin",
+   "habanera",
+   "liscio",
+   "musette",
    "música cebolla",
+   "orkes gambus",
+   "pilón",
+   "pirekua",
    "progressive soul",
    "samba soul",
+   "slow waltz",
    "soul",
    "soul blues",
+   "taarab",
    "tecnobrega",
    "tecnofunk",
+   "tropipop",
    "trova yucateca",
-   "vietnamese bolero"
+   "vallenato",
+   "vals venezolano",
+   "vietnamese bolero",
+   "waltz"
   ],
   "occasional": [
+   "baithak gana",
    "deep soul",
    "latin soul",
    "motown",
@@ -27538,7 +28995,10 @@
    "nigun",
    "puirt à beul"
   ],
-  "frequent": [],
+  "frequent": [
+   "joik",
+   "kecak"
+  ],
   "occasional": []
  },
  "woodwinds": {
@@ -27605,7 +29065,6 @@
    "arabesk rap",
    "bedoui wahrani",
    "dabke",
-   "fantezi",
    "pop raï",
    "raqs baladi",
    "raï",
@@ -27617,8 +29076,13 @@
   ],
   "frequent": [
    "algerian chaabi",
+   "fantezi",
+   "iraqi maqam",
    "mahraganat",
-   "moroccan chaabi"
+   "moroccan chaabi",
+   "mūsīqā lubnāniyya",
+   "orkes gambus",
+   "čalgija"
   ],
   "occasional": []
  },
@@ -27632,9 +29096,12 @@
    "biraha",
    "boedra",
    "bogino duu",
+   "canto degli alpini",
    "chalga",
    "chamarrita açoriana",
+   "church music",
    "cilokaq",
+   "colindă",
    "dhaanto",
    "falak",
    "fijiri",
@@ -27676,6 +29143,7 @@
    "uaajeerneq",
    "udigrudi",
    "unakesa",
+   "villancico",
    "visa",
    "world fusion",
    "worldbeat",
@@ -27685,13 +29153,18 @@
    "aita",
    "alpenrock",
    "alternative folk",
+   "anglican chant",
    "anti-folk",
    "appalachian folk",
    "baguala",
    "bandari",
+   "byzantine chant",
    "campus folk",
+   "canzone napoletana",
+   "canzone neomelodica",
    "chamarrita rioplatense",
    "chamber folk",
+   "christmas music",
    "contemporary folk",
    "country folk",
    "dark folk",
@@ -27708,6 +29181,8 @@
    "hungarian folk",
    "indie folk",
    "industrial folk song",
+   "kontakion",
+   "kyivan chant",
    "lute song",
    "ländlermusik",
    "manele",
@@ -27719,18 +29194,24 @@
    "old-time",
    "orchestral song",
    "pagan folk",
+   "parlour music",
    "pizzica",
    "progressive folk",
    "pásztordal",
    "runo song",
+   "russian orthodox liturgical music",
    "russian romance",
+   "sacred harp",
    "scrumpy and western",
    "seguidilla",
    "sevdalinka",
    "shan'ge",
    "singer-songwriter",
    "son nica",
+   "sticheron",
+   "stotra",
    "sutartinės",
+   "taizé chant",
    "tajaraste",
    "talking blues",
    "tallava",
@@ -27738,11 +29219,14 @@
    "tonada asturiana",
    "tondero",
    "trikitixa",
+   "troparion",
    "turkish folk",
+   "valaam chant",
    "white voice",
    "work song",
    "wyrd folk",
-   "yodeling"
+   "yodeling",
+   "zema"
   ],
   "occasional": [
    "aboio",
@@ -27772,6 +29256,7 @@
    "nueva canción española",
    "nueva trova",
    "nóta",
+   "parang",
    "polca criolla",
    "russian chanson",
    "sea shanty",
@@ -27781,7 +29266,8 @@
    "trova",
    "vals criollo",
    "waulking song",
-   "zeybek"
+   "zeybek",
+   "znamenny chant"
   ]
  },
  "solo_performer": {
@@ -27789,8 +29275,10 @@
    "acoustic blues",
    "delta blues",
    "euskal kantagintza berria",
+   "honkyoku",
    "loner folk",
-   "singer-songwriter"
+   "singer-songwriter",
+   "tsugaru-jamisen"
   ],
   "frequent": [
    "avtorskaya pesnya",
@@ -27821,6 +29309,8 @@
  },
  "time_12_8": {
   "characteristic": [
+   "agbadza",
+   "agbekor",
    "bulería",
    "doo-wop"
   ],
@@ -27828,6 +29318,7 @@
    "african blues",
    "blues",
    "jazz blues",
+   "kete",
    "louisiana blues",
    "punk blues",
    "soul blues",
@@ -28345,7 +29836,21 @@
    "trallalero"
   ],
   "frequent": [],
-  "occasional": []
+  "occasional": [
+   "anglican chant",
+   "byzantine chant",
+   "church music",
+   "kontakion",
+   "kyivan chant",
+   "russian orthodox liturgical music",
+   "sacred harp",
+   "sticheron",
+   "taizé chant",
+   "troparion",
+   "valaam chant",
+   "zema",
+   "znamenny chant"
+  ]
  },
  "trombone": {
   "characteristic": [
@@ -28354,6 +29859,8 @@
    "classic jazz",
    "dechovka",
    "dixieland",
+   "frevo",
+   "frevo de rua",
    "jamaican ska",
    "ska",
    "spouge",
@@ -28362,13 +29869,29 @@
   ],
   "frequent": [
    "british brass band",
+   "circus march",
+   "dobrado",
+   "frevo de bloco",
+   "frevo elétrico",
+   "frevo-canção",
+   "guggenmusik",
+   "march",
+   "música festera",
+   "pep band",
    "salsa",
    "salsa choke",
    "salsa dura",
    "timba"
   ],
   "occasional": [
+   "beni",
    "descarga",
+   "drum and bugle corps",
+   "drumline",
+   "fife and drum",
+   "funeral march",
+   "marching band",
+   "nhạc đỏ",
    "salsa romántica"
   ]
  },
@@ -28376,12 +29899,11 @@
   "characteristic": [
    "banda sinaloense",
    "brass band",
-   "chicago polka",
-   "chotis madrileño",
    "classic jazz",
    "corrido tumbado",
    "dechovka",
    "dixieland",
+   "morenada",
    "polka",
    "schottische",
    "tanjidor",
@@ -28390,8 +29912,13 @@
   "frequent": [
    "bandinha",
    "british brass band",
+   "caporal",
+   "chicago polka",
+   "circus march",
    "eastern-style polka",
    "humppa",
+   "movimiento alterado",
+   "narcocorrido",
    "narodnozabavna glasba",
    "polka paraguaya",
    "technobanda"
@@ -28453,9 +29980,13 @@
  "free_meter": {
   "characteristic": [
    "ambrosian chant",
+   "ashkenazi cantorial music",
    "avant-garde jazz",
    "beneventan chant",
+   "beompae",
+   "bocet",
    "celtic chant",
+   "chazzanut",
    "conducted improvisation",
    "doina",
    "free funk",
@@ -28463,19 +29994,54 @@
    "free jazz",
    "gallican chant",
    "gregorian chant",
+   "honkyoku",
    "indeterminacy",
+   "islamic modal music",
    "modern creative",
    "mozarabic chant",
+   "ngâm thơ",
    "old roman chant",
+   "pansori",
    "plainchant",
    "sarum chant",
+   "shōmyō",
    "urtiin duu",
    "uzun hava"
   ],
   "frequent": [
-   "eai"
+   "aak",
+   "baqashot",
+   "cantu a chiterra",
+   "chinese literati music",
+   "eai",
+   "gaelic psalm singing",
+   "heikyoku",
+   "iraqi maqam",
+   "jazz mugham",
+   "joik",
+   "kafi",
+   "kai",
+   "maddahi",
+   "maftirim",
+   "mugham",
+   "nigun",
+   "persian classical",
+   "piyyut",
+   "rizitika",
+   "saluang klasik",
+   "sawt",
+   "shashmaqam",
+   "sufiana kalam",
+   "turkish classical",
+   "uyghur muqam",
+   "yukar"
   ],
-  "occasional": []
+  "occasional": [
+   "ca trù",
+   "shoor",
+   "symphonic mugham",
+   "zemirot"
+  ]
  },
  "sax_growl": {
   "characteristic": [
@@ -28559,39 +30125,24 @@
   "characteristic": [
    "african blues",
    "baisha xiyue",
-   "bomba del chota",
    "c-pop",
    "cantopop",
-   "changjak gugak",
-   "chimayche",
    "chinese classical",
    "chinese literati music",
-   "chuscada",
-   "copla cajamarquina",
-   "dangak",
    "desert blues",
    "dongjing",
    "ethio-jazz",
    "fusion gugak",
-   "gagok",
    "guangdong yinyue",
    "guoyue",
-   "huaylarsh",
    "huayno",
-   "hyangak",
-   "hát tuồng",
-   "jeongak",
    "korean classical",
    "muliza",
    "nanguan",
-   "pandilla",
    "sanjuanito",
    "shidaiqu",
-   "taquirari",
    "tizita",
-   "tonada potosina",
    "vietnamese classical",
-   "xẩm",
    "yanyue",
    "yayue",
    "zhongguo feng"
@@ -28600,27 +30151,42 @@
    "aak",
    "beijing opera",
    "beompae",
+   "bomba del chota",
    "ca trù",
    "cantonese opera",
+   "changjak gugak",
+   "chimayche",
    "chinese opera",
+   "chuscada",
+   "copla cajamarquina",
    "cải lương",
+   "dangak",
+   "gagok",
    "gufeng",
    "harawi",
    "henan opera",
+   "huaylarsh",
    "huayno con arpa",
+   "hyangak",
+   "hát tuồng",
+   "jeongak",
    "kunqu",
+   "pandilla",
    "sanjo",
    "sichuan opera",
    "sinawi",
    "taoist ritual music",
-   "tân cổ giao duyên",
+   "taquirari",
+   "tonada potosina",
+   "xẩm",
    "yangzhou opera",
    "yaraví",
    "yue opera"
   ],
   "occasional": [
    "chinese revolutionary opera",
-   "korean revolutionary opera"
+   "korean revolutionary opera",
+   "tân cổ giao duyên"
   ]
  },
  "stride_piano": {
@@ -28639,17 +30205,17 @@
  },
  "time_2_4": {
   "characteristic": [
-   "bomba del chota",
+   "baião",
    "cachaca",
    "cakewalk",
+   "calipso venezolano",
+   "calypso",
+   "caporal",
+   "carnavalito",
    "chamamé tropical",
-   "chicago polka",
-   "chimayche",
-   "chotis madrileño",
-   "chuscada",
    "ciranda",
    "classic ragtime",
-   "copla cajamarquina",
+   "coladeira",
    "cumbia",
    "cumbia argentina",
    "cumbia chilena",
@@ -28666,14 +30232,13 @@
    "danzón",
    "dechovka",
    "digital cumbia",
-   "dobrado",
    "forró",
    "forró universitário",
    "habanera",
-   "huaylarsh",
    "huayno",
    "klezmer",
    "krakowiak",
+   "lundu",
    "mambo urbano",
    "march",
    "maxixe",
@@ -28684,10 +30249,8 @@
    "merequetengue",
    "muliza",
    "música festera",
-   "nhạc đỏ",
    "norteño",
    "nueva cumbia chilena",
-   "pandilla",
    "pasodoble",
    "polca criolla",
    "polka",
@@ -28707,9 +30270,8 @@
    "sambass",
    "sanjuanito",
    "schottische",
+   "spouge",
    "tango",
-   "taquirari",
-   "tonada potosina",
    "tropicanibalismo",
    "vanera",
    "waila",
@@ -28717,12 +30279,25 @@
    "xote"
   ],
   "frequent": [
+   "afoxê",
    "arrochadeira",
    "axé",
    "bandinha",
+   "bashment soca",
    "beni",
-   "circus march",
+   "bomba del chota",
+   "cadence lypso",
+   "cadence rampa",
+   "cajun",
+   "carranga",
+   "chicago polka",
+   "chimayche",
+   "chotis madrileño",
+   "chuscada",
+   "chutney soca",
+   "coco",
    "coon song",
+   "copla cajamarquina",
    "corrido",
    "cuarteto",
    "cumbia amazónica",
@@ -28732,6 +30307,8 @@
    "cumbia sanjuanera",
    "cumbia sureña peruana",
    "cumbia villera",
+   "dennery segment",
+   "dobrado",
    "duranguense",
    "eastern-style polka",
    "electrotango",
@@ -28739,32 +30316,34 @@
    "forró de favela",
    "forró eletrônico",
    "frevo",
-   "frevo de bloco",
-   "frevo de rua",
-   "frevo elétrico",
-   "frevo-canção",
-   "funeral march",
+   "funaná",
+   "fungi",
+   "goombay",
    "guitarrada",
    "harawi",
+   "huaylarsh",
    "huayno con arpa",
    "humppa",
    "lambada",
    "marching band",
    "marchinha",
    "milonga",
-   "movimiento alterado",
-   "narcocorrido",
+   "méringue",
    "narodnozabavna glasba",
+   "nhạc đỏ",
    "nortec",
    "novelty piano",
    "nuevo tango",
    "pagode",
    "pagodão",
+   "palo de mayo",
+   "pandilla",
    "partido alto",
-   "pep band",
+   "plena",
    "polka paraguaya",
    "porro",
    "ragtime song",
+   "rapso",
    "samba de breque",
    "samba de gafieira",
    "samba de roda",
@@ -28772,10 +30351,17 @@
    "samba-enredo",
    "samba-exaltação",
    "samba-reggae",
+   "shima-uta",
    "sierreño",
+   "sikuri",
+   "soca",
+   "swamp pop",
+   "tamborito",
+   "taquirari",
    "tecnocumbia",
    "tecnomerengue",
    "tejano",
+   "tonada potosina",
    "yaraví"
   ],
   "occasional": [
@@ -28784,19 +30370,31 @@
    "chicha",
    "drum and bugle corps",
    "drumline",
+   "embolada",
    "fife and drum",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
    "guggenmusik",
+   "movimiento alterado",
+   "narcocorrido",
    "pagode romântico",
    "payada",
-   "piseiro"
+   "pep band",
+   "piseiro",
+   "power soca",
+   "tamborera"
   ]
  },
  "rondo": {
   "characteristic": [],
   "frequent": [
    "cakewalk",
+   "choro",
    "classic ragtime",
-   "ragtime"
+   "ragtime",
+   "samba-choro"
   ],
   "occasional": [
    "coon song",
@@ -28926,29 +30524,36 @@
    "post-classical",
    "string quartet"
   ],
-  "frequent": [],
-  "occasional": []
+  "frequent": [
+   "keroncong"
+  ],
+  "occasional": [
+   "langgam jawa"
+  ]
  },
  "time_6_8": {
   "characteristic": [
+   "baila",
    "bambuco",
    "bikutsi",
-   "carranga",
    "celtic",
    "celtic electronica",
    "celtic new age",
    "chacarera",
    "chamamé",
    "chamamé tropical",
-   "chilena",
    "cueca",
-   "cueca brava",
+   "currulao",
+   "fandango",
    "garba",
    "guaracha santiagueña",
+   "huapango",
    "jazz guachaca",
    "joropo",
    "malagueña venezolana",
-   "mangambeu",
+   "maloya",
+   "maloya électronique",
+   "maloya élektrik",
    "marinera",
    "marinera norteña",
    "muiñeira",
@@ -28957,28 +30562,48 @@
    "pizzica",
    "sardana",
    "sea shanty",
-   "son istmeño",
+   "seggae",
+   "son calentano",
+   "son huasteco",
    "son jarocho",
+   "séga",
+   "séga tambour",
    "tarantella",
+   "traditional séga",
    "zamacueca",
    "zamba"
   ],
   "frequent": [
+   "ahwash",
    "bagad",
+   "batuque",
+   "bullerengue",
+   "bélé",
    "cape breton fiddling",
+   "chilena",
    "contra",
    "country and irish",
+   "cueca brava",
+   "fandango caiçara",
+   "gaita zuliana",
    "hornpipe",
    "irish folk",
    "james bay fiddling",
    "kan ha diskan",
+   "mangambeu",
+   "moutya",
    "métis fiddling",
    "onda nueva",
+   "pirekua",
    "puirt à beul",
+   "salegy",
+   "santé engagé",
    "scottish country dance music",
+   "son istmeño",
    "tammurriata"
   ],
   "occasional": [
+   "izlan",
    "sean-nós"
   ]
  },
@@ -28993,28 +30618,50 @@
    "zarzuela barroca"
   ],
   "frequent": [
+   "ashkenazi cantorial music",
    "baroque suite",
    "celtic",
    "celtic electronica",
-   "celtic new age"
+   "celtic new age",
+   "chazzanut",
+   "gaelic psalm singing",
+   "honkyoku",
+   "indian classical",
+   "indo jazz",
+   "paghjella",
+   "pìobaireachd",
+   "quan họ",
+   "urtiin duu"
   ],
   "occasional": [
+   "abhang",
    "bagad",
    "cape breton fiddling",
+   "carnatic classical",
    "contra",
    "country and irish",
+   "dhrupad",
+   "hindustani classical",
    "hornpipe",
    "irish folk",
    "james bay fiddling",
    "kan ha diskan",
+   "khyal",
+   "klasik",
+   "konnakol",
    "métis fiddling",
+   "natya sangeet",
+   "odissi classical",
    "puirt à beul",
-   "scottish country dance music"
+   "scottish country dance music",
+   "tappa",
+   "tarana",
+   "thumri"
   ]
  },
  "accelerando": {
   "characteristic": [
-   "bhajan",
+   "boduberu",
    "csárdás",
    "kirtan",
    "klezmer",
@@ -29024,7 +30671,17 @@
    "verbunkos"
   ],
   "frequent": [
-   "shabad kirtan"
+   "bhajan",
+   "dhol tasha",
+   "garba",
+   "gnawa",
+   "nagara naam",
+   "sanjo",
+   "shabad kirtan",
+   "shoor",
+   "tassa",
+   "urumi melam",
+   "waka"
   ],
   "occasional": []
  },
@@ -29032,58 +30689,73 @@
   "characteristic": [
    "laiko",
    "modern laiko",
-   "rebetiko",
-   "skiladiko"
+   "rebetiko"
   ],
   "frequent": [
-   "neo kyma",
+   "skiladiko",
    "éntekhno"
   ],
-  "occasional": []
+  "occasional": [
+   "neo kyma"
+  ]
  },
  "maqam": {
   "characteristic": [
    "al jeel",
    "andalusian classical",
+   "arabesk",
+   "arabesk rap",
+   "baqashot",
    "bedoui wahrani",
-   "iraqi maqam",
    "islamic modal music",
-   "jazz mugham",
-   "maftirim",
    "malhun",
    "malouf",
-   "mugham",
    "mūsīqā lubnāniyya",
-   "persian classical",
    "pop raï",
    "raqs baladi",
    "raï",
    "rebetiko",
-   "sawt",
    "shaabi",
-   "shashmaqam",
    "staïfi",
-   "trap shaabi",
-   "turkish classical",
-   "uyghur muqam"
+   "trap shaabi"
   ],
   "frequent": [
    "algerian chaabi",
+   "fantezi",
+   "iraqi maqam",
+   "jazz mugham",
    "kafi",
+   "maftirim",
    "mahraganat",
    "moroccan chaabi",
+   "mugham",
+   "persian classical",
+   "piyyut",
+   "sawt",
+   "shashmaqam",
    "sufiana kalam",
-   "symphonic mugham"
+   "turkish classical",
+   "uyghur muqam"
   ],
-  "occasional": []
+  "occasional": [
+   "symphonic mugham",
+   "zemirot"
+  ]
  },
  "time_9_8": {
   "characteristic": [
    "rebetiko",
    "zeybek"
   ],
-  "frequent": [],
-  "occasional": []
+  "frequent": [
+   "laiko",
+   "modern laiko"
+  ],
+  "occasional": [
+   "neo kyma",
+   "skiladiko",
+   "éntekhno"
+  ]
  },
  "classical_guitar": {
   "characteristic": [
@@ -29172,7 +30844,6 @@
  "harmonium": {
   "characteristic": [
    "baithak gana",
-   "bhajan",
    "chutney",
    "chutney soca",
    "ghazal",
@@ -29182,13 +30853,23 @@
    "sufi rock"
   ],
   "frequent": [
+   "bhajan",
+   "lavani",
    "shabad kirtan"
   ],
-  "occasional": []
+  "occasional": [
+   "chöd",
+   "ginan",
+   "mantra",
+   "stotra",
+   "tibetan buddhist chant",
+   "vedic chant"
+  ]
  },
  "tabla": {
   "characteristic": [
    "baithak gana",
+   "bhajan",
    "campursari",
    "dangdut",
    "ghazal",
@@ -29198,7 +30879,6 @@
    "khyal",
    "klasik",
    "natya sangeet",
-   "odissi classical",
    "pop ghazal",
    "qawwali",
    "shabad kirtan",
@@ -29210,8 +30890,8 @@
    "abhang",
    "carnatic classical",
    "dhrupad",
+   "kirtan",
    "konnakol",
-   "koplo",
    "thumri"
   ],
   "occasional": []
@@ -29228,55 +30908,48 @@
  "japanese_scales": {
   "characteristic": [
    "enka",
+   "japanese classical"
+  ],
+  "frequent": [
    "gagaku",
    "heikyoku",
-   "japanese classical",
+   "honkyoku",
+   "jiuta",
+   "jōruri",
    "meiji shinkyoku",
    "nagauta",
    "noh",
    "ryūkōka",
-   "shinkyoku"
-  ],
-  "frequent": [
-   "honkyoku",
-   "jiuta",
-   "jōruri",
-   "kumiuta",
+   "shinkyoku",
    "shōmyō",
    "sōkyoku"
   ],
   "occasional": [
-   "danmono"
+   "danmono",
+   "kumiuta"
   ]
  },
  "shamisen": {
   "characteristic": [
-   "gagaku",
-   "heikyoku",
    "japanese classical",
    "jiuta",
    "jōruri",
    "kouta",
-   "meiji shinkyoku",
    "min'yō",
-   "nagauta",
-   "noh",
-   "ondō",
-   "ryūkōka",
    "rōkyoku",
-   "shima-uta",
-   "shinkyoku",
    "tsugaru-jamisen"
   ],
   "frequent": [
    "enka",
-   "honkyoku",
-   "kumiuta",
-   "shōmyō",
+   "meiji shinkyoku",
+   "nagauta",
+   "ondō",
+   "shinkyoku",
    "sōkyoku"
   ],
   "occasional": [
-   "danmono"
+   "danmono",
+   "kumiuta"
   ]
  },
  "cross_rhythm": {
@@ -29284,19 +30957,19 @@
    "afro-jazz",
    "afrobeat (funk/soul + West African sounds)",
    "agbadza",
-   "agbekor",
    "highlife",
    "hiplife",
-   "kete",
    "mbalax",
    "sungura",
    "tradi-moderne ivoirien",
    "ziglibithy"
   ],
   "frequent": [
+   "agbekor",
    "ambasse bey",
    "bend-skin",
    "burger-highlife",
+   "kete",
    "makossa",
    "mbolé"
   ],
@@ -29330,7 +31003,6 @@
   "characteristic": [
    "afoxê",
    "agbadza",
-   "agbekor",
    "aleke",
    "alloukou",
    "batuque",
@@ -29341,7 +31013,6 @@
    "candombe",
    "candombe beat",
    "carimbó",
-   "chakacha",
    "ciranda",
    "coco",
    "djanba",
@@ -29350,13 +31021,10 @@
    "gumbe",
    "gwo ka",
    "haitian vodou drumming",
-   "jongo",
    "kadodi",
    "kagura",
    "kaseko (Suriname)",
    "kasékò (Guiana)",
-   "kete",
-   "kidumbak",
    "lavani",
    "liwa",
    "maloya",
@@ -29369,7 +31037,6 @@
    "merengue",
    "merengue típico",
    "merenhouse",
-   "moutya",
    "nagara naam",
    "ngoma",
    "njuup",
@@ -29381,32 +31048,39 @@
    "samri",
    "saya afroboliviana",
    "seggae",
-   "sigidrigi",
    "séga",
-   "tamborera",
    "tamborito",
    "tassa",
    "tchinkoumé",
    "toada de boi",
-   "traditional séga",
    "tribal ambient",
    "tumba",
    "tumba francesa",
-   "unyago",
    "urumi melam",
    "zinli",
    "ʻōteʻa"
   ],
   "frequent": [
+   "agbekor",
+   "bomba del chota",
+   "burmese classical",
+   "chakacha",
    "embolada",
+   "kete",
+   "kidumbak",
    "maloya électronique",
    "maloya élektrik",
    "mchiriku",
+   "moutya",
    "santé engagé",
-   "séga tambour",
-   "tecnomerengue"
+   "tamborera",
+   "tecnomerengue",
+   "traditional séga",
+   "unyago"
   ],
-  "occasional": []
+  "occasional": [
+   "séga tambour"
+  ]
  },
  "tumbao": {
   "characteristic": [
@@ -29453,65 +31127,31 @@
    "salsa romántica"
   ]
  },
- "cuatro": {
+ "tres": {
   "characteristic": [
    "bolero son",
    "changüí",
-   "chilena",
-   "gaita zuliana",
    "guajira",
-   "joropo",
-   "keroncong",
-   "langgam jawa",
-   "malagueña venezolana",
-   "música llanera",
    "pachanga",
-   "parang",
    "punto",
-   "samba",
-   "samba de terreiro",
-   "samba rap",
-   "samba soul",
-   "samba-choro",
-   "samba-jazz",
-   "samba-joia",
-   "samba-rock",
-   "sambalanço",
-   "sambass",
    "son cubano",
-   "son istmeño",
-   "son jarocho",
-   "son montuno",
-   "vals venezolano"
+   "son montuno"
   ],
   "frequent": [
-   "arrochadeira",
-   "axé",
+   "bambuco",
    "bolero (Cuban song)",
    "chachachá",
    "charanga",
    "danzón",
    "guaracha (Cuban)",
    "mambo",
-   "marchinha",
-   "onda nueva",
-   "pagode",
-   "pagodão",
-   "partido alto",
    "rhumba (US \"ballroom rumba\")",
-   "samba de breque",
-   "samba de gafieira",
-   "samba de roda",
-   "samba-canção",
-   "samba-enredo",
-   "samba-exaltação",
-   "samba-reggae",
    "songo"
   ],
   "occasional": [
    "bolero español",
+   "carranga",
    "filin",
-   "pagode romântico",
    "trova yucateca",
    "vietnamese bolero"
   ]
@@ -29521,6 +31161,7 @@
    "bachata",
    "bachatón",
    "cachaca",
+   "carranga",
    "chachachá",
    "chamamé tropical",
    "cumbia",
@@ -29536,6 +31177,7 @@
    "cumbia turra",
    "cumbiatón",
    "digital cumbia",
+   "fungi",
    "mambo urbano",
    "merecumbé",
    "merengue",
@@ -29560,7 +31202,9 @@
    "cumbia villera",
    "guitarrada",
    "lambada",
+   "plena",
    "porro",
+   "punto",
    "tecnocumbia",
    "tecnomerengue",
    "tejano"
@@ -29624,15 +31268,12 @@
  },
  "time_3_4": {
   "characteristic": [
-   "batonebi songs",
+   "balitaw",
    "cajun",
    "fandango",
-   "fandango caiçara",
    "guarania",
-   "hambo",
-   "iavnana",
    "jota",
-   "lullaby",
+   "kundiman",
    "ländlermusik",
    "mariachi",
    "mazurka",
@@ -29641,26 +31282,27 @@
    "polonaise",
    "seguidilla",
    "sevillanas",
+   "son istmeño",
    "swamp pop",
    "tondero",
    "vals criollo",
-   "valsa brasileira",
    "waltz"
   ],
   "frequent": [
    "avanzada",
+   "fandango caiçara",
    "festejo",
+   "hambo",
    "kujawiak",
    "landó",
-   "liscio",
    "marinera",
    "marinera norteña",
-   "musette",
    "new mexico music",
    "oberek",
    "polca criolla",
    "ranchera",
    "slow waltz",
+   "valsa brasileira",
    "yu-mex"
   ],
   "occasional": []
@@ -29748,8 +31390,6 @@
  "castanets": {
   "characteristic": [
    "fandango",
-   "fandango caiçara",
-   "gnawa",
    "jota",
    "seguidilla",
    "sevillanas"
@@ -29764,6 +31404,7 @@
    "copla",
    "flamenco jazz",
    "nuevo flamenco",
+   "pasodoble",
    "rumba catalana",
    "rumba flamenca",
    "saeta",
@@ -29774,25 +31415,24 @@
   "characteristic": [
    "andean new age",
    "carnavalito",
-   "chimayche",
-   "chuscada",
-   "copla cajamarquina",
-   "huaylarsh",
    "huayno",
    "muliza",
    "nueva canción",
    "nueva canción chilena",
    "nuevo cancionero",
-   "pandilla",
-   "rock andino",
-   "taquirari",
-   "tonada potosina"
+   "rock andino"
   ],
   "frequent": [
+   "chimayche",
+   "chuscada",
+   "copla cajamarquina",
    "harawi",
+   "huaylarsh",
    "huayno con arpa",
    "nueva canción española",
    "nueva trova",
+   "pandilla",
+   "tonada potosina",
    "yaraví"
   ],
   "occasional": []
@@ -29880,6 +31520,42 @@
   "frequent": [
    "arrochadeira",
    "axé",
+   "batucada",
+   "marchinha",
+   "pagode",
+   "pagodão",
+   "partido alto",
+   "samba de breque",
+   "samba de gafieira",
+   "samba de roda",
+   "samba-canção",
+   "samba-enredo",
+   "samba-exaltação",
+   "samba-reggae"
+  ],
+  "occasional": [
+   "pagode romântico"
+  ]
+ },
+ "cavaquinho": {
+  "characteristic": [
+   "choro",
+   "morna",
+   "samba",
+   "samba de terreiro",
+   "samba rap",
+   "samba soul",
+   "samba-choro",
+   "samba-jazz",
+   "samba-joia",
+   "samba-rock",
+   "sambalanço",
+   "sambass"
+  ],
+  "frequent": [
+   "arrochadeira",
+   "axé",
+   "coladeira",
    "marchinha",
    "pagode",
    "pagodão",
@@ -29921,18 +31597,39 @@
    "xote"
   ],
   "frequent": [
+   "cajun",
    "forró de favela",
-   "forró eletrônico"
+   "forró eletrônico",
+   "fungi",
+   "seggae",
+   "swamp pop",
+   "séga",
+   "traditional séga"
   ],
   "occasional": [
-   "piseiro"
+   "maloya",
+   "maloya électronique",
+   "maloya élektrik",
+   "moutya",
+   "piseiro",
+   "santé engagé",
+   "séga tambour"
   ]
  },
  "duet": {
   "characteristic": [
+   "balitaw",
+   "cantoria",
+   "dohori",
+   "dondang sayang",
+   "embolada",
    "forró",
    "forró universitário",
+   "għana",
    "moda de viola",
+   "pirekua",
+   "quan họ",
+   "repente",
    "sertanejo",
    "sertanejo raiz",
    "xaxado",
@@ -29941,13 +31638,26 @@
   "frequent": [
    "agronejo",
    "arrocha sertanejo",
+   "bambuco",
+   "chamamé",
+   "chamamé tropical",
+   "corrido",
+   "cururu",
    "forró de favela",
    "forró eletrônico",
    "funknejo",
+   "guaracha santiagueña",
+   "guarania",
+   "meyxana",
+   "pasillo",
    "sertanejo romântico",
    "sertanejo universitário"
   ],
   "occasional": [
+   "avanzada",
+   "carranga",
+   "movimiento alterado",
+   "narcocorrido",
    "piseiro"
   ]
  },
@@ -30446,8 +32156,23 @@
   "characteristic": [
    "classical period"
   ],
-  "frequent": [],
-  "occasional": []
+  "frequent": [
+   "church music"
+  ],
+  "occasional": [
+   "anglican chant",
+   "byzantine chant",
+   "kontakion",
+   "kyivan chant",
+   "russian orthodox liturgical music",
+   "sacred harp",
+   "sticheron",
+   "taizé chant",
+   "troparion",
+   "valaam chant",
+   "zema",
+   "znamenny chant"
+  ]
  },
  "nocturne": {
   "characteristic": [
@@ -30730,8 +32455,7 @@
    "kaseko (Suriname)",
    "musical",
    "revue",
-   "rock musical",
-   "sardana"
+   "rock musical"
   ],
   "frequent": [
    "cabaret",
@@ -30764,14 +32488,11 @@
    "banda sinaloense",
    "bandinha",
    "brass band",
-   "caporal",
    "dechovka",
-   "dobrado",
    "march",
    "marchinha",
    "morenada",
    "música festera",
-   "nhạc đỏ",
    "pasodoble",
    "porro",
    "tanjidor"
@@ -30779,23 +32500,34 @@
   "frequent": [
    "beni",
    "british brass band",
+   "caporal",
    "circus march",
+   "dobrado",
    "frevo",
-   "frevo de bloco",
-   "frevo de rua",
-   "frevo elétrico",
-   "frevo-canção",
    "funeral march",
    "marching band",
-   "pep band",
+   "nhạc đỏ",
    "technobanda"
   ],
   "occasional": [
    "drum and bugle corps",
-   "drumline",
-   "fife and drum",
-   "guggenmusik"
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
+   "guggenmusik",
+   "pep band"
   ]
+ },
+ "musical_bow": {
+  "characteristic": [
+   "maloya"
+  ],
+  "frequent": [
+   "maloya électronique",
+   "maloya élektrik"
+  ],
+  "occasional": []
  },
  "lap_steel": {
   "characteristic": [
@@ -30819,7 +32551,9 @@
    "tribal ambient",
    "wangga"
   ],
-  "frequent": [],
+  "frequent": [
+   "djanba"
+  ],
   "occasional": []
  },
  "a_cappella": {
@@ -30831,10 +32565,10 @@
    "cante alentejano",
    "canto cardenche",
    "cantu a tenore",
+   "colindă",
    "dikir barat",
    "dongzu dage",
    "gaelic psalm singing",
-   "isicathamiya",
    "joik",
    "jubilee",
    "kan ha diskan",
@@ -30858,35 +32592,207 @@
   ],
   "frequent": [
    "concert spiritual",
+   "isicathamiya",
    "ring shout",
    "spiritual art song",
    "znamenny chant"
   ],
   "occasional": []
  },
+ "drum_solo": {
+  "characteristic": [
+   "candombe",
+   "candombe beat"
+  ],
+  "frequent": [
+   "agbekor",
+   "bomba",
+   "bélé",
+   "gwo ka",
+   "haitian vodou drumming",
+   "kete",
+   "kumi-daiko"
+  ],
+  "occasional": []
+ },
  "hemiola": {
   "characteristic": [
+   "bambuco",
    "bulería",
    "chacarera",
-   "chilena",
    "cueca",
-   "cueca brava",
    "guaracha santiagueña",
-   "huapango",
    "jazz guachaca",
    "joropo",
    "malagueña venezolana",
    "música llanera",
    "música típica chilena",
-   "son huasteco",
-   "son istmeño",
    "son jarocho",
+   "vals venezolano",
    "zamacueca"
   ],
   "frequent": [
-   "onda nueva"
+   "carranga",
+   "chamamé",
+   "chamamé tropical",
+   "chilena",
+   "cueca brava",
+   "onda nueva",
+   "son istmeño"
   ],
   "occasional": []
+ },
+ "vocal_call_response": {
+  "characteristic": [
+   "afoxê",
+   "agbadza",
+   "agbekor",
+   "aleke",
+   "alloukou",
+   "carimbó",
+   "chacarera",
+   "ciranda",
+   "cueca",
+   "guaracha santiagueña",
+   "gumbe",
+   "haitian vodou drumming",
+   "jazz guachaca",
+   "jongo",
+   "jùjú",
+   "música típica chilena",
+   "tchinkoumé",
+   "zinli"
+  ],
+  "frequent": [
+   "burrakatha",
+   "cueca brava",
+   "gaita zuliana",
+   "gnawa",
+   "gwo ka",
+   "kadodi",
+   "kasékò (Guiana)",
+   "kete",
+   "maracatu",
+   "mataali",
+   "menzuma",
+   "nagara naam",
+   "ngoma",
+   "njuup",
+   "ogene music",
+   "parang",
+   "powada",
+   "rara",
+   "samri",
+   "saya afroboliviana",
+   "tamborera",
+   "toada de boi",
+   "tradi-moderne congolais",
+   "tumba francesa",
+   "unyago",
+   "waka",
+   "zamacueca"
+  ],
+  "occasional": [
+   "chakacha",
+   "djanba",
+   "kidumbak",
+   "mchiriku"
+  ]
+ },
+ "lead_vocal": {
+  "characteristic": [
+   "ballad",
+   "frevo-canção"
+  ],
+  "frequent": [
+   "latin ballad"
+  ],
+  "occasional": []
+ },
+ "heterophony": {
+  "characteristic": [
+   "aak",
+   "dangak",
+   "fusion gugak",
+   "gaelic psalm singing",
+   "hyangak",
+   "jeongak",
+   "jiangnan sizhu",
+   "korean classical",
+   "vietnamese classical"
+  ],
+  "frequent": [
+   "beompae",
+   "ca trù",
+   "changjak gugak",
+   "chaozhou xianshi",
+   "cải lương",
+   "gagaku",
+   "gagok",
+   "gondang",
+   "hát tuồng",
+   "japanese classical",
+   "khrueang sai",
+   "mahori",
+   "sanjo",
+   "sinawi",
+   "sizhu music",
+   "southeast asian classical",
+   "thai classical",
+   "xẩm"
+  ],
+  "occasional": [
+   "burmese classical",
+   "danmono",
+   "fon leb",
+   "heikyoku",
+   "honkyoku",
+   "jiuta",
+   "jōruri",
+   "kacapi suling",
+   "kulintang",
+   "kumiuta",
+   "meiji shinkyoku",
+   "nagauta",
+   "noh",
+   "pinpeat",
+   "piphat",
+   "ryūkōka",
+   "saluang klasik",
+   "shinkyoku",
+   "shōmyō",
+   "sōkyoku",
+   "talempong",
+   "tembang cianjuran",
+   "tân cổ giao duyên"
+  ]
+ },
+ "dan_tranh": {
+  "characteristic": [
+   "cải lương"
+  ],
+  "frequent": [
+   "tân cổ giao duyên",
+   "vietnamese classical"
+  ],
+  "occasional": [
+   "ca trù",
+   "hát tuồng",
+   "xẩm"
+  ]
+ },
+ "dan_nhi": {
+  "characteristic": [],
+  "frequent": [
+   "vietnamese classical",
+   "xẩm"
+  ],
+  "occasional": [
+   "ca trù",
+   "cải lương",
+   "hát tuồng",
+   "tân cổ giao duyên"
+  ]
  },
  "spoken_word": {
   "characteristic": [
@@ -30907,11 +32813,37 @@
    "talking blues",
    "tassu",
    "tonadilla",
-   "tân cổ giao duyên",
    "zarzuela",
    "zarzuela barroca"
   ],
-  "frequent": [],
+  "frequent": [
+   "tân cổ giao duyên"
+  ],
+  "occasional": []
+ },
+ "vietnamese_guitar": {
+  "characteristic": [
+   "cải lương"
+  ],
+  "frequent": [
+   "tân cổ giao duyên"
+  ],
+  "occasional": []
+ },
+ "cuatro": {
+  "characteristic": [
+   "gaita zuliana",
+   "joropo",
+   "keroncong",
+   "malagueña venezolana",
+   "música llanera",
+   "parang",
+   "vals venezolano"
+  ],
+  "frequent": [
+   "calipso venezolano",
+   "onda nueva"
+  ],
   "occasional": []
  },
  "cornet": {
@@ -30921,11 +32853,80 @@
   "frequent": [],
   "occasional": []
  },
+ "baglamas": {
+  "characteristic": [],
+  "frequent": [
+   "laiko",
+   "modern laiko"
+  ],
+  "occasional": [
+   "neo kyma",
+   "skiladiko",
+   "éntekhno"
+  ]
+ },
+ "gayageum": {
+  "characteristic": [
+   "changjak gugak",
+   "sanjo"
+  ],
+  "frequent": [
+   "fusion gugak",
+   "gagok",
+   "hyangak",
+   "jeongak",
+   "korean classical"
+  ],
+  "occasional": [
+   "aak",
+   "beompae",
+   "dangak",
+   "sinawi"
+  ]
+ },
+ "daegeum": {
+  "characteristic": [
+   "changjak gugak"
+  ],
+  "frequent": [
+   "aak",
+   "dangak",
+   "fusion gugak",
+   "gagok",
+   "hyangak",
+   "jeongak",
+   "korean classical",
+   "sanjo"
+  ],
+  "occasional": [
+   "beompae",
+   "sinawi"
+  ]
+ },
+ "piri": {
+  "characteristic": [],
+  "frequent": [
+   "dangak",
+   "fusion gugak",
+   "hyangak",
+   "jeongak",
+   "korean classical",
+   "sinawi"
+  ],
+  "occasional": [
+   "aak",
+   "beompae",
+   "changjak gugak",
+   "gagok",
+   "sanjo"
+  ]
+ },
  "gong": {
   "characteristic": [
    "aak",
    "american gamelan",
    "bantengan",
+   "burmese classical",
    "campursari",
    "gambang kromong",
    "gamelan",
@@ -30940,12 +32941,15 @@
    "ketuk tilu",
    "kliningan",
    "kuda lumping",
+   "kulintang",
    "malay gamelan",
    "ogene music",
-   "pungmul"
+   "pungmul",
+   "southeast asian classical"
   ],
   "frequent": [
    "balinese gamelan",
+   "dondang sayang",
    "gamelan angklung",
    "gamelan gambang",
    "gamelan gender wayang",
@@ -30954,36 +32958,145 @@
    "gamelan joged bumbung",
    "gamelan selunding",
    "gamelan semar pegulingan",
-   "kakawin"
+   "kacapi suling",
+   "kakawin",
+   "mahori",
+   "pinpeat",
+   "saluang klasik",
+   "talempong",
+   "tembang cianjuran",
+   "thai classical"
   ],
   "occasional": [
+   "beompae",
+   "dikir barat",
+   "fon leb",
    "gamelan beleganjur",
-   "gamelan gong kebyar"
+   "gamelan gong kebyar",
+   "khrueang sai",
+   "piphat"
+  ]
+ },
+ "tanpura": {
+  "characteristic": [
+   "indian classical",
+   "indo jazz"
+  ],
+  "frequent": [
+   "burrakatha",
+   "carnatic classical",
+   "hindustani classical",
+   "khyal",
+   "klasik",
+   "konnakol",
+   "natya sangeet",
+   "odissi classical",
+   "tappa",
+   "tarana"
+  ],
+  "occasional": [
+   "abhang",
+   "dhrupad",
+   "thumri"
+  ]
+ },
+ "sarangi": {
+  "characteristic": [],
+  "frequent": [
+   "ghazal",
+   "indian classical",
+   "indo jazz",
+   "pop ghazal"
+  ],
+  "occasional": [
+   "abhang",
+   "carnatic classical",
+   "dhrupad",
+   "hindustani classical",
+   "khyal",
+   "klasik",
+   "konnakol",
+   "natya sangeet",
+   "odissi classical",
+   "tappa",
+   "tarana",
+   "thumri"
+  ]
+ },
+ "bansuri": {
+  "characteristic": [],
+  "frequent": [
+   "indian classical",
+   "indo jazz"
+  ],
+  "occasional": [
+   "abhang",
+   "carnatic classical",
+   "dhrupad",
+   "hindustani classical",
+   "khyal",
+   "klasik",
+   "konnakol",
+   "natya sangeet",
+   "odissi classical",
+   "tappa",
+   "tarana",
+   "thumri"
+  ]
+ },
+ "tempo_change": {
+  "characteristic": [],
+  "frequent": [
+   "sanjo",
+   "verbunkos"
+  ],
+  "occasional": [
+   "abhang",
+   "carnatic classical",
+   "dhrupad",
+   "hindustani classical",
+   "indian classical",
+   "indo jazz",
+   "khyal",
+   "klasik",
+   "konnakol",
+   "natya sangeet",
+   "odissi classical",
+   "tappa",
+   "tarana",
+   "thumri"
   ]
  },
  "oud": {
   "characteristic": [
    "andalusian classical",
-   "iraqi maqam",
    "islamic modal music",
-   "jazz mugham",
-   "maftirim",
    "malhun",
    "malouf",
-   "mugham",
    "mūsīqā lubnāniyya",
    "orkes gambus",
-   "persian classical",
-   "sawt",
-   "shashmaqam",
-   "taarab",
-   "turkish classical",
-   "uyghur muqam"
+   "taarab"
   ],
   "frequent": [
+   "algerian chaabi",
+   "arabesk",
+   "arabesk rap",
    "kafi",
+   "maftirim",
+   "sawt",
    "sufiana kalam",
-   "symphonic mugham"
+   "turkish classical",
+   "čalgija"
+  ],
+  "occasional": [
+   "fantezi"
+  ]
+ },
+ "modal_system": {
+  "characteristic": [],
+  "frequent": [
+   "ashkenazi cantorial music",
+   "chazzanut"
   ],
   "occasional": []
  },
@@ -31021,7 +33134,6 @@
    "baisha xiyue",
    "beijing opera",
    "cantonese opera",
-   "chaozhou xianshi",
    "chinese classical",
    "chinese opera",
    "dongjing",
@@ -31029,7 +33141,6 @@
    "gufeng",
    "guoyue",
    "henan opera",
-   "jiangnan sizhu",
    "kunqu",
    "nanguan",
    "sichuan opera",
@@ -31040,7 +33151,9 @@
    "yue opera"
   ],
   "frequent": [
+   "chaozhou xianshi",
    "chinese revolutionary opera",
+   "jiangnan sizhu",
    "korean revolutionary opera",
    "taoist ritual music"
   ],
@@ -31082,13 +33195,11 @@
    "gamelan gong kebyar"
   ]
  },
- "gamelan_scales": {
+ "gamelan_tuning": {
   "characteristic": [
    "american gamelan",
    "bantengan",
-   "burmese classical",
    "campursari",
-   "fon leb",
    "gambang kromong",
    "gamelan",
    "gamelan degung",
@@ -31098,21 +33209,11 @@
    "gamelan surakarta",
    "jaipongan",
    "javanese gamelan",
-   "kacapi suling",
    "ketuk tilu",
-   "khrueang sai",
    "kliningan",
    "kuda lumping",
-   "kulintang",
-   "mahori",
    "malay gamelan",
-   "pinpeat",
-   "piphat",
-   "saluang klasik",
-   "southeast asian classical",
-   "talempong",
-   "tembang cianjuran",
-   "thai classical"
+   "southeast asian classical"
   ],
   "frequent": [
    "balinese gamelan",
@@ -31124,7 +33225,9 @@
    "gamelan joged bumbung",
    "gamelan selunding",
    "gamelan semar pegulingan",
-   "kakawin"
+   "kacapi suling",
+   "kakawin",
+   "tembang cianjuran"
   ],
   "occasional": [
    "gamelan beleganjur",
@@ -31154,6 +33257,7 @@
    "gamelan surakarta",
    "jaipongan",
    "javanese gamelan",
+   "kecak",
    "ketuk tilu",
    "kliningan",
    "kuda lumping",
@@ -31163,7 +33267,9 @@
   "frequent": [
    "gamelan beleganjur",
    "gamelan gong kebyar",
-   "kakawin"
+   "kakawin",
+   "talempong",
+   "upopo"
   ],
   "occasional": []
  },
@@ -31171,9 +33277,7 @@
   "characteristic": [
    "american gamelan",
    "bantengan",
-   "burmese classical",
    "campursari",
-   "fon leb",
    "gambang kromong",
    "gamelan",
    "gamelan degung",
@@ -31183,24 +33287,15 @@
    "gamelan surakarta",
    "jaipongan",
    "javanese gamelan",
-   "kacapi suling",
    "ketuk tilu",
-   "khrueang sai",
    "kliningan",
    "kuda lumping",
-   "kulintang",
-   "mahori",
    "malay gamelan",
-   "pinpeat",
-   "piphat",
-   "saluang klasik",
-   "southeast asian classical",
-   "talempong",
-   "tembang cianjuran",
-   "thai classical"
+   "southeast asian classical"
   ],
   "frequent": [
    "balinese gamelan",
+   "burmese classical",
    "gamelan angklung",
    "gamelan gambang",
    "gamelan gender wayang",
@@ -31209,11 +33304,18 @@
    "gamelan joged bumbung",
    "gamelan selunding",
    "gamelan semar pegulingan",
-   "kakawin"
+   "kakawin",
+   "kulintang",
+   "mahori",
+   "pinpeat",
+   "talempong",
+   "thai classical"
   ],
   "occasional": [
+   "fon leb",
    "gamelan beleganjur",
-   "gamelan gong kebyar"
+   "gamelan gong kebyar",
+   "piphat"
   ]
  },
  "suite": {
@@ -31231,15 +33333,130 @@
    "fife and drum blues",
    "marching band",
    "murga uruguaya",
-   "pep band",
    "pipe band music"
   ],
   "frequent": [
+   "caporal",
+   "dobrado",
    "drum and bugle corps",
    "fife and drum",
-   "guggenmusik"
+   "funeral march",
+   "guggenmusik",
+   "kaseko (Suriname)",
+   "march",
+   "muiñeira",
+   "música festera",
+   "pasodoble",
+   "pep band"
   ],
+  "occasional": [
+   "ciranda",
+   "circus march",
+   "football chant",
+   "frevo",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
+   "nhạc đỏ"
+  ]
+ },
+ "piccolo": {
+  "characteristic": [
+   "fife and drum blues"
+  ],
+  "frequent": [],
+  "occasional": [
+   "beni",
+   "circus march",
+   "dobrado",
+   "drum and bugle corps",
+   "drumline",
+   "frevo",
+   "frevo de bloco",
+   "frevo de rua",
+   "frevo elétrico",
+   "frevo-canção",
+   "funeral march",
+   "guggenmusik",
+   "march",
+   "marching band",
+   "música festera",
+   "nhạc đỏ",
+   "pep band"
+  ]
+ },
+ "sousaphone": {
+  "characteristic": [],
+  "frequent": [
+   "beni",
+   "guggenmusik",
+   "marching band"
+  ],
+  "occasional": [
+   "drum and bugle corps",
+   "drumline",
+   "fife and drum",
+   "pep band"
+  ]
+ },
+ "cymbals": {
+  "characteristic": [
+   "drumline"
+  ],
+  "frequent": [
+   "beni",
+   "marching band",
+   "tassa"
+  ],
+  "occasional": [
+   "dhol tasha",
+   "drum and bugle corps",
+   "fife and drum",
+   "guggenmusik",
+   "pep band"
+  ]
+ },
+ "gong_chime": {
+  "characteristic": [
+   "kulintang",
+   "talempong"
+  ],
+  "frequent": [
+   "southeast asian classical"
+  ],
+  "occasional": [
+   "burmese classical",
+   "fon leb",
+   "kacapi suling",
+   "khrueang sai",
+   "mahori",
+   "pinpeat",
+   "piphat",
+   "saluang klasik",
+   "tembang cianjuran",
+   "thai classical"
+  ]
+ },
+ "phach": {
+  "characteristic": [
+   "ca trù"
+  ],
+  "frequent": [],
   "occasional": []
+ },
+ "suling": {
+  "characteristic": [
+   "kacapi suling"
+  ],
+  "frequent": [
+   "campursari",
+   "dangdut",
+   "tembang cianjuran"
+  ],
+  "occasional": [
+   "koplo"
+  ]
  },
  "cantata": {
   "characteristic": [
@@ -31256,60 +33473,98 @@
   "frequent": [],
   "occasional": []
  },
+ "haegeum": {
+  "characteristic": [
+   "changjak gugak"
+  ],
+  "frequent": [
+   "dangak",
+   "gagok",
+   "jeongak",
+   "sinawi"
+  ],
+  "occasional": []
+ },
  "concertina": {
   "characteristic": [
+   "chicago polka",
    "concertina band"
   ],
-  "frequent": [],
+  "frequent": [
+   "maskanda"
+  ],
   "occasional": []
  },
  "koto": {
   "characteristic": [
    "danmono",
-   "gagaku",
-   "heikyoku",
    "japanese classical",
-   "kumiuta",
-   "meiji shinkyoku",
-   "nagauta",
-   "noh",
-   "ryūkōka",
-   "shinkyoku",
    "sōkyoku"
   ],
   "frequent": [
-   "honkyoku",
+   "gagaku",
    "jiuta",
-   "jōruri",
-   "shōmyō"
+   "kumiuta",
+   "meiji shinkyoku",
+   "shinkyoku"
   ],
   "occasional": []
  },
  "shakuhachi": {
   "characteristic": [
-   "gagaku",
-   "heikyoku",
    "honkyoku",
-   "japanese classical",
-   "meiji shinkyoku",
-   "min'yō",
-   "nagauta",
-   "noh",
-   "ondō",
-   "ryūkōka",
-   "shima-uta",
-   "shinkyoku"
+   "japanese classical"
   ],
   "frequent": [
    "jiuta",
-   "jōruri",
-   "kumiuta",
-   "shōmyō",
+   "meiji shinkyoku",
+   "shinkyoku",
    "sōkyoku"
   ],
   "occasional": [
-   "danmono"
+   "danmono",
+   "kumiuta"
   ]
+ },
+ "theme_variations": {
+  "characteristic": [
+   "danmono",
+   "pìobaireachd",
+   "theme and variations"
+  ],
+  "frequent": [
+   "timbila"
+  ],
+  "occasional": []
+ },
+ "bugle": {
+  "characteristic": [
+   "drum and bugle corps"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "mellophone": {
+  "characteristic": [
+   "drum and bugle corps"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "flam": {
+  "characteristic": [],
+  "frequent": [
+   "drumline"
+  ],
+  "occasional": []
+ },
+ "drum_roll": {
+  "characteristic": [],
+  "frequent": [
+   "drumline",
+   "funeral march"
+  ],
+  "occasional": []
  },
  "fantasia": {
   "characteristic": [
@@ -31318,42 +33573,267 @@
   "frequent": [],
   "occasional": []
  },
- "piccolo": {
+ "fife": {
+  "characteristic": [
+   "fife and drum"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "large_drums": {
   "characteristic": [
    "fife and drum",
-   "fife and drum blues"
+   "goombay",
+   "junkanoo",
+   "moutya",
+   "sa'idi",
+   "sikuri",
+   "toada de boi",
+   "tumba francesa"
+  ],
+  "frequent": [
+   "currulao",
+   "famo",
+   "hát tuồng",
+   "kadodi",
+   "liwa",
+   "mataali",
+   "pipe band music",
+   "saya afroboliviana",
+   "tchinkoumé",
+   "ʻōteʻa"
+  ],
+  "occasional": []
+ },
+ "ranat_ek": {
+  "characteristic": [
+   "mahori",
+   "pinpeat",
+   "piphat",
+   "thai classical"
+  ],
+  "frequent": [
+   "fon leb",
+   "khrueang sai"
+  ],
+  "occasional": []
+ },
+ "khong_wong_yai": {
+  "characteristic": [
+   "mahori",
+   "pinpeat",
+   "piphat",
+   "thai classical"
+  ],
+  "frequent": [
+   "fon leb",
+   "khrueang sai"
+  ],
+  "occasional": []
+ },
+ "pi_nai": {
+  "characteristic": [
+   "piphat"
+  ],
+  "frequent": [
+   "thai classical"
+  ],
+  "occasional": [
+   "fon leb",
+   "khrueang sai"
+  ]
+ },
+ "saw_duang": {
+  "characteristic": [
+   "fon leb",
+   "khrueang sai"
+  ],
+  "frequent": [
+   "mahori"
+  ],
+  "occasional": []
+ },
+ "hichiriki": {
+  "characteristic": [
+   "gagaku"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "ryuteki": {
+  "characteristic": [
+   "gagaku"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "sho": {
+  "characteristic": [
+   "gagaku"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "biwa": {
+  "characteristic": [],
+  "frequent": [
+   "gagaku"
+  ],
+  "occasional": []
+ },
+ "geomungo": {
+  "characteristic": [],
+  "frequent": [
+   "gagok",
+   "hyangak"
+  ],
+  "occasional": []
+ },
+ "heike_biwa": {
+  "characteristic": [
+   "heikyoku"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "ken_bau": {
+  "characteristic": [],
+  "frequent": [
+   "hát tuồng"
+  ],
+  "occasional": []
+ },
+ "kanun": {
+  "characteristic": [
+   "algerian chaabi",
+   "maftirim",
+   "turkish classical"
+  ],
+  "frequent": [
+   "islamic modal music",
+   "mūsīqā lubnāniyya",
+   "raqs baladi",
+   "taarab",
+   "čalgija"
+  ],
+  "occasional": [
+   "iraqi maqam",
+   "jazz mugham",
+   "kafi",
+   "mugham",
+   "persian classical",
+   "sawt",
+   "shashmaqam",
+   "sufiana kalam",
+   "symphonic mugham",
+   "uyghur muqam"
+  ]
+ },
+ "riq": {
+  "characteristic": [],
+  "frequent": [
+   "iraqi maqam",
+   "islamic modal music"
+  ],
+  "occasional": [
+   "jazz mugham",
+   "kafi",
+   "maftirim",
+   "mugham",
+   "persian classical",
+   "sawt",
+   "shashmaqam",
+   "sufiana kalam",
+   "symphonic mugham",
+   "turkish classical",
+   "uyghur muqam"
+  ]
+ },
+ "santur": {
+  "characteristic": [
+   "iraqi maqam",
+   "persian classical"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "djoza": {
+  "characteristic": [
+   "iraqi maqam"
   ],
   "frequent": [],
   "occasional": []
  },
  "ney": {
   "characteristic": [
-   "iraqi maqam",
-   "islamic modal music",
-   "jazz mugham",
-   "maftirim",
-   "mugham",
-   "persian classical",
-   "sawt",
-   "shashmaqam",
-   "turkish classical",
-   "uyghur muqam"
+   "islamic modal music"
   ],
   "frequent": [
    "kafi",
+   "maftirim",
+   "persian classical",
+   "sawt",
    "sufiana kalam",
-   "symphonic mugham"
+   "turkish classical"
   ],
+  "occasional": []
+ },
+ "janggu": {
+  "characteristic": [
+   "pungmul",
+   "sanjo"
+  ],
+  "frequent": [
+   "jeongak"
+  ],
+  "occasional": []
+ },
+ "spoken_vocal": {
+  "characteristic": [
+   "burrakatha"
+  ],
+  "frequent": [
+   "jōruri",
+   "maskanda",
+   "quyi",
+   "rōkyoku"
+  ],
+  "occasional": []
+ },
+ "kacapi": {
+  "characteristic": [
+   "kacapi suling",
+   "tarawangsa",
+   "tembang cianjuran"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "saw_u": {
+  "characteristic": [
+   "khrueang sai"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "khim": {
+  "characteristic": [
+   "khrueang sai"
+  ],
+  "frequent": [],
   "occasional": []
  },
  "ukulele": {
   "characteristic": [
+   "fungi",
    "hapa haole",
    "jawaiian",
-   "keroncong",
-   "langgam jawa"
+   "keroncong"
   ],
-  "frequent": [],
+  "frequent": [
+   "langgam jawa",
+   "sigidrigi"
+  ],
   "occasional": []
  },
  "mass": {
@@ -31362,6 +33842,73 @@
   ],
   "frequent": [
    "requiem"
+  ],
+  "occasional": []
+ },
+ "tar_lute": {
+  "characteristic": [
+   "jazz mugham",
+   "mugham",
+   "persian classical"
+  ],
+  "frequent": [
+   "symphonic mugham"
+  ],
+  "occasional": []
+ },
+ "kamancheh": {
+  "characteristic": [
+   "jazz mugham",
+   "mugham",
+   "persian classical"
+  ],
+  "frequent": [
+   "symphonic mugham"
+  ],
+  "occasional": []
+ },
+ "daf": {
+  "characteristic": [],
+  "frequent": [
+   "jazz mugham",
+   "mugham",
+   "uyghur muqam"
+  ],
+  "occasional": [
+   "symphonic mugham"
+  ]
+ },
+ "nohkan": {
+  "characteristic": [
+   "noh"
+  ],
+  "frequent": [
+   "nagauta"
+  ],
+  "occasional": []
+ },
+ "kotsuzumi": {
+  "characteristic": [
+   "noh"
+  ],
+  "frequent": [
+   "nagauta"
+  ],
+  "occasional": []
+ },
+ "otsuzumi": {
+  "characteristic": [
+   "noh"
+  ],
+  "frequent": [
+   "nagauta"
+  ],
+  "occasional": []
+ },
+ "pakhawaj": {
+  "characteristic": [],
+  "frequent": [
+   "odissi classical"
   ],
   "occasional": []
  },
@@ -31379,6 +33926,20 @@
   "frequent": [],
   "occasional": []
  },
+ "setar": {
+  "characteristic": [
+   "persian classical"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "zarb": {
+  "characteristic": [
+   "persian classical"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
  "prelude": {
   "characteristic": [
    "prelude"
@@ -31386,10 +33947,10 @@
   "frequent": [],
   "occasional": []
  },
- "theme_variations": {
+ "highland_bagpipe": {
   "characteristic": [
-   "pìobaireachd",
-   "theme and variations"
+   "pipe band music",
+   "pìobaireachd"
   ],
   "frequent": [],
   "occasional": []
@@ -31397,6 +33958,13 @@
  "requiem": {
   "characteristic": [
    "requiem"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "saluang": {
+  "characteristic": [
+   "saluang klasik"
   ],
   "frequent": [],
   "occasional": []
@@ -31411,11 +33979,62 @@
   ],
   "occasional": []
  },
+ "tanbur": {
+  "characteristic": [
+   "shashmaqam",
+   "uyghur muqam"
+  ],
+  "frequent": [
+   "maftirim",
+   "turkish classical"
+  ],
+  "occasional": []
+ },
+ "doyra": {
+  "characteristic": [
+   "shashmaqam"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "dutar": {
+  "characteristic": [
+   "uyghur muqam"
+  ],
+  "frequent": [
+   "shashmaqam"
+  ],
+  "occasional": []
+ },
+ "ghijak": {
+  "characteristic": [],
+  "frequent": [
+   "shashmaqam",
+   "uyghur muqam"
+  ],
+  "occasional": []
+ },
  "toccata": {
   "characteristic": [
    "toccata"
   ],
   "frequent": [],
+  "occasional": []
+ },
+ "kudum": {
+  "characteristic": [
+   "maftirim",
+   "turkish classical"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "classical_kemence": {
+  "characteristic": [],
+  "frequent": [
+   "maftirim",
+   "turkish classical"
+  ],
   "occasional": []
  },
  "etude": {
@@ -31442,6 +34061,88 @@
   "frequent": [],
   "occasional": []
  },
+ "button_accordion": {
+  "characteristic": [
+   "cajun",
+   "chamamé",
+   "chamamé tropical",
+   "cumbia norteña mexicana",
+   "funaná",
+   "guaracha santiagueña",
+   "norteño",
+   "pilón",
+   "rasqueado cuiabano",
+   "swamp pop",
+   "tropipop",
+   "vallenato",
+   "vanera",
+   "waila"
+  ],
+  "frequent": [
+   "corrido",
+   "duranguense",
+   "nortec",
+   "sierreño",
+   "tejano"
+  ],
+  "occasional": [
+   "movimiento alterado",
+   "narcocorrido"
+  ]
+ },
+ "bajo_sexto": {
+  "characteristic": [
+   "cumbia norteña mexicana",
+   "norteño",
+   "sierreño",
+   "waila"
+  ],
+  "frequent": [
+   "corrido",
+   "duranguense",
+   "nortec",
+   "tejano"
+  ],
+  "occasional": [
+   "movimiento alterado",
+   "narcocorrido"
+  ]
+ },
+ "waltz": {
+  "characteristic": [
+   "vals venezolano",
+   "waltz"
+  ],
+  "frequent": [
+   "corrido",
+   "cumbia norteña mexicana",
+   "liscio",
+   "musette",
+   "norteño",
+   "slow waltz",
+   "valsa brasileira",
+   "waila"
+  ],
+  "occasional": [
+   "duranguense",
+   "movimiento alterado",
+   "narcocorrido",
+   "nortec",
+   "sierreño",
+   "tejano"
+  ]
+ },
+ "bombo_leguero": {
+  "characteristic": [
+   "chacarera",
+   "guaracha santiagueña",
+   "zamba"
+  ],
+  "frequent": [
+   "carnavalito"
+  ],
+  "occasional": []
+ },
  "theremin": {
   "characteristic": [
    "space age pop"
@@ -31452,11 +34153,13 @@
  "balafon": {
   "characteristic": [
    "balani show",
-   "griot",
-   "takamba"
+   "griot"
   ],
   "frequent": [],
-  "occasional": []
+  "occasional": [
+   "bikutsi",
+   "mangambeu"
+  ]
  },
  "tremolo_effect": {
   "characteristic": [
@@ -31532,12 +34235,25 @@
    "znamenny chant"
   ]
  },
+ "microtonality": {
+  "characteristic": [
+   "arabesk",
+   "arabesk rap",
+   "microtonal classical",
+   "spectralism"
+  ],
+  "frequent": [
+   "fantezi"
+  ],
+  "occasional": []
+ },
  "beat_juggling": {
   "characteristic": [
-   "battle record",
    "turntablism"
   ],
-  "frequent": [],
+  "frequent": [
+   "battle record"
+  ],
   "occasional": []
  },
  "beatbox": {
@@ -31550,14 +34266,6 @@
  "finger_snaps": {
   "characteristic": [
    "snap"
-  ],
-  "frequent": [],
-  "occasional": []
- },
- "microtonality": {
-  "characteristic": [
-   "microtonal classical",
-   "spectralism"
   ],
   "frequent": [],
   "occasional": []
@@ -31576,15 +34284,47 @@
   "frequent": [],
   "occasional": []
  },
- "cavaquinho": {
+ "quena": {
+  "characteristic": [
+   "carnavalito"
+  ],
+  "frequent": [
+   "huayno",
+   "huayno con arpa",
+   "muliza",
+   "sanjuanito"
+  ],
+  "occasional": [
+   "bomba del chota",
+   "chimayche",
+   "chuscada",
+   "copla cajamarquina",
+   "harawi",
+   "huaylarsh",
+   "pandilla",
+   "taquirari",
+   "tonada potosina",
+   "yaraví"
+  ]
+ },
+ "pandeiro": {
   "characteristic": [
    "choro",
-   "morna",
+   "coco",
+   "embolada",
+   "plena",
    "samba-choro"
   ],
   "frequent": [
-   "coladeira"
+   "repente"
   ],
+  "occasional": []
+ },
+ "intro": {
+  "characteristic": [
+   "frevo-canção"
+  ],
+  "frequent": [],
   "occasional": []
  },
  "vocalise": {
@@ -31594,6 +34334,13 @@
   "frequent": [],
   "occasional": []
  },
+ "dan_nguyet": {
+  "characteristic": [],
+  "frequent": [
+   "ngâm thơ"
+  ],
+  "occasional": []
+ },
  "whistling": {
   "characteristic": [
    "whistling"
@@ -31601,43 +34348,400 @@
   "frequent": [],
   "occasional": []
  },
+ "ritardando": {
+  "characteristic": [],
+  "frequent": [],
+  "occasional": [
+   "barbershop",
+   "jubilee"
+  ]
+ },
+ "kartal": {
+  "characteristic": [
+   "bhajan"
+  ],
+  "frequent": [
+   "kirtan",
+   "lavani"
+  ],
+  "occasional": [
+   "shabad kirtan"
+  ]
+ },
+ "dholak": {
+  "characteristic": [
+   "baithak gana",
+   "lavani"
+  ],
+  "frequent": [
+   "bhajan",
+   "garba",
+   "kirtan",
+   "powada"
+  ],
+  "occasional": [
+   "shabad kirtan"
+  ]
+ },
  "lullaby": {
   "characteristic": [
    "batonebi songs",
-   "iavnana",
    "lullaby"
+  ],
+  "frequent": [
+   "iavnana"
+  ],
+  "occasional": []
+ },
+ "simple_meter": {
+  "characteristic": [],
+  "frequent": [
+   "children's music"
+  ],
+  "occasional": []
+ },
+ "child_voice": {
+  "characteristic": [],
+  "frequent": [
+   "children's music"
+  ],
+  "occasional": []
+ },
+ "handbell": {
+  "characteristic": [],
+  "frequent": [
+   "christmas music"
+  ],
+  "occasional": [
+   "colindă",
+   "parang",
+   "villancico"
+  ]
+ },
+ "guitar": {
+  "characteristic": [],
+  "frequent": [
+   "calipso venezolano",
+   "għana",
+   "parang",
+   "sanjuanito",
+   "son calentano",
+   "son istmeño",
+   "villancico",
+   "zamacueca"
+  ],
+  "occasional": [
+   "balitaw",
+   "bomba del chota"
+  ]
+ },
+ "whistle": {
+  "characteristic": [],
+  "frequent": [
+   "junkanoo"
+  ],
+  "occasional": []
+ },
+ "bell": {
+  "characteristic": [
+   "change ringing"
+  ],
+  "frequent": [
+   "junkanoo"
+  ],
+  "occasional": []
+ },
+ "marimbula": {
+  "characteristic": [
+   "mento"
+  ],
+  "frequent": [
+   "twoubadou"
+  ],
+  "occasional": []
+ },
+ "double_entendre": {
+  "characteristic": [],
+  "frequent": [
+   "mento"
+  ],
+  "occasional": []
+ },
+ "maracas": {
+  "characteristic": [
+   "bomba",
+   "carimbó",
+   "gaita zuliana",
+   "parang"
+  ],
+  "frequent": [
+   "mento",
+   "méringue",
+   "twoubadou"
+  ],
+  "occasional": []
+ },
+ "siku": {
+  "characteristic": [
+   "carnavalito",
+   "sikuri"
   ],
   "frequent": [],
   "occasional": []
  },
- "waltz": {
+ "ratchet": {
+  "characteristic": [],
+  "frequent": [
+   "morenada"
+  ],
+  "occasional": [
+   "caporal"
+  ]
+ },
+ "tiple": {
   "characteristic": [
-   "vals venezolano",
-   "valsa brasileira",
-   "waltz"
+   "bambuco",
+   "carranga"
   ],
   "frequent": [
-   "liscio",
-   "musette",
-   "slow waltz"
+   "pasillo"
   ],
+  "occasional": []
+ },
+ "friction_drum": {
+  "characteristic": [
+   "gaita zuliana"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "garifuna_drum": {
+  "characteristic": [
+   "punta"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "barrel_drum": {
+  "characteristic": [
+   "bomba"
+  ],
+  "frequent": [],
   "occasional": []
  },
  "rumba_clave": {
   "characteristic": [
+   "rumba cubana"
+  ],
+  "frequent": [
    "guaguancó",
+   "rumba"
+  ],
+  "occasional": []
+ },
+ "claves_instrument": {
+  "characteristic": [],
+  "frequent": [
+   "guaguancó",
+   "punto",
    "rumba",
    "rumba cubana"
+  ],
+  "occasional": []
+ },
+ "quinto": {
+  "characteristic": [],
+  "frequent": [
+   "guaguancó",
+   "rumba cubana"
+  ],
+  "occasional": [
+   "rumba"
+  ]
+ },
+ "quijada": {
+  "characteristic": [],
+  "frequent": [
+   "son jarocho"
+  ],
+  "occasional": [
+   "chilena",
+   "son istmeño"
+  ]
+ },
+ "bateria": {
+  "characteristic": [
+   "batucada"
   ],
   "frequent": [],
   "occasional": []
  },
- "heterophony": {
+ "repinique": {
   "characteristic": [
-   "gaelic psalm singing"
+   "batucada"
   ],
   "frequent": [],
   "occasional": []
+ },
+ "caixa": {
+  "characteristic": [
+   "batucada",
+   "maracatu"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "tamborim": {
+  "characteristic": [
+   "batucada"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "agogo": {
+  "characteristic": [
+   "afoxê",
+   "batucada",
+   "maracatu"
+  ],
+  "frequent": [
+   "apala",
+   "fuji",
+   "jùjú"
+  ],
+  "occasional": []
+ },
+ "apito_de_samba": {
+  "characteristic": [],
+  "frequent": [
+   "batucada"
+  ],
+  "occasional": []
+ },
+ "afoxe": {
+  "characteristic": [
+   "afoxê"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "atabaque": {
+  "characteristic": [
+   "afoxê",
+   "jongo"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "ganza": {
+  "characteristic": [
+   "coco"
+  ],
+  "frequent": [
+   "afoxê",
+   "embolada"
+  ],
+  "occasional": []
+ },
+ "alfaia": {
+  "characteristic": [
+   "maracatu"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "caxixi": {
+  "characteristic": [],
+  "frequent": [
+   "jongo"
+  ],
+  "occasional": []
+ },
+ "zabumba": {
+  "characteristic": [],
+  "frequent": [
+   "baião"
+  ],
+  "occasional": []
+ },
+ "viola_caipira": {
+  "characteristic": [
+   "cantoria",
+   "cururu",
+   "fandango caiçara"
+  ],
+  "frequent": [
+   "rasqueado cuiabano",
+   "repente"
+  ],
+  "occasional": []
+ },
+ "nyckelharpa": {
+  "characteristic": [],
+  "frequent": [
+   "hambo"
+  ],
+  "occasional": []
+ },
+ "cobla": {
+  "characteristic": [
+   "sardana"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "tenora": {
+  "characteristic": [
+   "sardana"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "tible": {
+  "characteristic": [
+   "sardana"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "flabiol": {
+  "characteristic": [
+   "sardana"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "bandurria": {
+  "characteristic": [
+   "filipino rondalla"
+  ],
+  "frequent": [
+   "jota"
+  ],
+  "occasional": []
+ },
+ "gaita_gallega": {
+  "characteristic": [
+   "muiñeira"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "barrel_organ": {
+  "characteristic": [
+   "chotis madrileño"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "cimbalom": {
+  "characteristic": [
+   "verbunkos"
+  ],
+  "frequent": [],
+  "occasional": [
+   "doina"
+  ]
  },
  "lament": {
   "characteristic": [
@@ -31646,17 +34750,84 @@
   "frequent": [],
   "occasional": []
  },
- "tubular_bells": {
+ "kaval": {
+  "characteristic": [],
+  "frequent": [],
+  "occasional": [
+   "uzun hava"
+  ]
+ },
+ "mijwiz": {
   "characteristic": [
-   "change ringing"
+   "dabke"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "arghul": {
+  "characteristic": [
+   "dabke"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "zurna": {
+  "characteristic": [
+   "liwa",
+   "sa'idi"
+  ],
+  "frequent": [
+   "dabke"
+  ],
+  "occasional": []
+ },
+ "rebab": {
+  "characteristic": [],
+  "frequent": [],
+  "occasional": [
+   "sa'idi"
+  ]
+ },
+ "bendir": {
+  "characteristic": [],
+  "frequent": [
+   "ahwash",
+   "izlan",
+   "moroccan chaabi"
+  ],
+  "occasional": []
+ },
+ "gumbri": {
+  "characteristic": [
+   "gnawa"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "krakeb": {
+  "characteristic": [
+   "gnawa"
   ],
   "frequent": [],
   "occasional": []
  },
  "kora": {
   "characteristic": [
+   "griot"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "ngoni": {
+  "characteristic": [
    "griot",
-   "takamba",
+   "takamba"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "kamale_ngoni": {
+  "characteristic": [
    "wassoulou"
   ],
   "frequent": [],
@@ -31669,6 +34840,55 @@
   "frequent": [],
   "occasional": []
  },
+ "shekere": {
+  "characteristic": [
+   "apala"
+  ],
+  "frequent": [
+   "fuji"
+  ],
+  "occasional": []
+ },
+ "gankogui": {
+  "characteristic": [
+   "agbadza",
+   "agbekor"
+  ],
+  "frequent": [
+   "kete"
+  ],
+  "occasional": []
+ },
+ "clapstick": {
+  "characteristic": [
+   "wangga"
+  ],
+  "frequent": [
+   "djanba"
+  ],
+  "occasional": []
+ },
+ "krar": {
+  "characteristic": [
+   "tizita"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "madal": {
+  "characteristic": [],
+  "frequent": [
+   "dohori"
+  ],
+  "occasional": []
+ },
+ "nadaswaram": {
+  "characteristic": [],
+  "frequent": [
+   "urumi melam"
+  ],
+  "occasional": []
+ },
  "bowed_strings": {
   "characteristic": [
    "tarawangsa"
@@ -31676,11 +34896,184 @@
   "frequent": [],
   "occasional": []
  },
+ "octavina": {
+  "characteristic": [
+   "filipino rondalla"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "khene": {
+  "characteristic": [
+   "mor lam",
+   "mor lam sing"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "shinobue": {
+  "characteristic": [
+   "kagura"
+  ],
+  "frequent": [
+   "min'yō"
+  ],
+  "occasional": [
+   "ondō",
+   "shima-uta"
+  ]
+ },
+ "shime_daiko": {
+  "characteristic": [],
+  "frequent": [
+   "kagura",
+   "min'yō",
+   "ondō"
+  ],
+  "occasional": [
+   "shima-uta"
+  ]
+ },
+ "sanshin": {
+  "characteristic": [
+   "shima-uta"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "kagurabue": {
+  "characteristic": [],
+  "frequent": [
+   "kagura"
+  ],
+  "occasional": []
+ },
  "taiko": {
   "characteristic": [
    "kumi-daiko"
   ],
   "frequent": [],
+  "occasional": []
+ },
+ "buk": {
+  "characteristic": [
+   "pansori",
+   "pungmul"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "kkwaenggwari": {
+  "characteristic": [
+   "pungmul"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "pipa": {
+  "characteristic": [
+   "chaozhou xianshi",
+   "jiangnan sizhu"
+  ],
+  "frequent": [
+   "sizhu music"
+  ],
+  "occasional": []
+ },
+ "yangqin": {
+  "characteristic": [
+   "chaozhou xianshi",
+   "jiangnan sizhu"
+  ],
+  "frequent": [
+   "sizhu music"
+  ],
+  "occasional": []
+ },
+ "dizi": {
+  "characteristic": [
+   "jiangnan sizhu"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "guqin": {
+  "characteristic": [
+   "chinese literati music"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "xiao": {
+  "characteristic": [],
+  "frequent": [
+   "chinese literati music"
+  ],
+  "occasional": []
+ },
+ "sanxian": {
+  "characteristic": [],
+  "frequent": [
+   "quyi"
+  ],
+  "occasional": []
+ },
+ "morin_khuur": {
+  "characteristic": [
+   "urtiin duu"
+  ],
+  "frequent": [
+   "central asian throat singing"
+  ],
+  "occasional": [
+   "kai"
+  ]
+ },
+ "igil": {
+  "characteristic": [],
+  "frequent": [
+   "central asian throat singing"
+  ],
+  "occasional": [
+   "kai"
+  ]
+ },
+ "doshpuluur": {
+  "characteristic": [],
+  "frequent": [
+   "central asian throat singing"
+  ],
+  "occasional": [
+   "kai"
+  ]
+ },
+ "jaw_harp": {
+  "characteristic": [],
+  "frequent": [],
+  "occasional": [
+   "central asian throat singing",
+   "kai"
+  ]
+ },
+ "topshuur": {
+  "characteristic": [],
+  "frequent": [
+   "kai"
+  ],
+  "occasional": []
+ },
+ "sabar": {
+  "characteristic": [
+   "njuup"
+  ],
+  "frequent": [],
+  "occasional": []
+ },
+ "laud": {
+  "characteristic": [],
+  "frequent": [
+   "punto"
+  ],
   "occasional": []
  },
  "xylophone": {

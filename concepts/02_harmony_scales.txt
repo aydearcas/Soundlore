@@ -83,17 +83,19 @@ scale | Scales |  | Ordered pitch sets used as melodic material. | scale |
   chromatic_scale | Chromatic scale |  | All twelve pitches by semitones. |  | chromaticism
   bebop_scale | Bebop scale |  | Eight-note scale with a chromatic passing tone. |  | 
   altered_scale | Altered scale |  | Scale for altered dominants in jazz. |  | 
+  phrygian_dominant | Phrygian dominant scale | hijaz; freygish | Phrygian with a major third; flamenco, klezmer and Middle Eastern music. | phrygian dominant; middle eastern scale; flamenco scale | andalusian_cadence
+  double_harmonic | Double harmonic scale |  | Scale with two augmented seconds. | arabic scale; byzantine scale | 
+  hungarian_minor | Hungarian minor scale |  | Harmonic minor with an augmented fourth. | gypsy scale | 
+  japanese_scales | Japanese scales | hirajōshi; in; yo; insen | Japanese pentatonics with semitones. | japanese scale | pentatonic
 mode | Modes |  | Rotations of the diatonic scale, each with its own color. | modal | 
   dorian | Dorian mode |  | Minor with a major sixth; funk, modal jazz, Celtic folk. | dorian mode | 
   phrygian | Phrygian mode |  | Minor with a minor second; flamenco and metal. | phrygian mode | 
   lydian | Lydian mode |  | Major with an augmented fourth; magical or floating sound, common in film scores. | lydian mode; dreamy | 
   mixolydian | Mixolydian mode |  | Major with a minor seventh; classic rock and folk. | mixolydian mode | 
   locrian | Locrian mode |  | Mode with a diminished fifth; very unstable sound. | locrian | 
-exotic_scale | Non-Western and exotic scales |  | Scales tied to specific traditions. |  | 
-  phrygian_dominant | Phrygian dominant scale | hijaz; freygish | Phrygian with a major third; flamenco, klezmer and Middle Eastern music. | phrygian dominant; middle eastern scale; flamenco scale | andalusian_cadence
-  double_harmonic | Double harmonic scale |  | Scale with two augmented seconds. | arabic scale; byzantine scale | 
-  hungarian_minor | Hungarian minor scale |  | Harmonic minor with an augmented fourth. | gypsy scale | 
-  japanese_scales | Japanese scales | hirajōshi; in; yo; insen | Japanese pentatonics with semitones. | japanese scale | 
+modal_system | Modal and tuning systems |  | Frameworks of particular traditions that go beyond a set of pitches: hierarchy of degrees, characteristic phrases, ornament, intonation or the tuning of an ensemble. Plain scales are under Scales. |  | 
   maqam | Maqam | maqamat | Arabic and Turkish modal system with microtones. | maqam; arabic melody | microtonality
   raga | Raga | rāga | Melodic framework of Indian classical music. | raga; indian classical | sitar
-  gamelan_scales | Pelog and slendro |  | Tuning systems of Indonesian gamelan. | gamelan | gamelan_instrument
+  gamelan_tuning | Gamelan tuning systems | laras | General term; use Pelog or Slendro when the system is known. | gamelan | gamelan_instrument
+    pelog | Pelog |  | Seven-tone gamelan tuning with unequal steps; pieces usually use five-tone subsets. | pelog | 
+    slendro | Slendro |  | Five-tone gamelan tuning with nearly equal steps. | slendro | 

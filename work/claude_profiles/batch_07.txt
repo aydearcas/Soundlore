@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+red song ; medium ; C mood_triumphant anthemic | F orchestra male_vocals female_vocals | O ; Chinese revolutionary songs in choral and march style.
+regional mexicano ; low ; C male_vocals | F trumpet violin | O  ; Umbrella for Mexican regional styles; subgenres carry the specific resources.
+repente ; medium ; C male_vocals duet | F mb:viola_caipira pandeiro repetition | O  ; Brazilian improvised sung duel.
+rizitika ; high ; C male_vocals | F free_meter melisma mood_melancholic | O  ; Cretan 'root' songs, unaccompanied, from the White Mountains.
+rumba ; medium ; C male_vocals | F claves_instrument improvisation | O ; Afro-Cuban rumba complex (guaguancó, yambú, columbia).
+rumba cubana ; high ; C male_vocals improvisation | F claves_instrument mb:quinto polyrhythm | O ; Afro-Cuban rumba complex with congas, clave and catá.
+ryūkōka ; high ; C female_vocals male_vocals | F string_section mood_nostalgic mood_melancholic | O trumpet | X koto shakuhachi shamisen ; Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+rōkyoku ; high ; C male_vocals mood_theatrical | F spoken_vocal | O  ; Narrative singing with shamisen.
+sa'idi ; high ; C zurna large_drums | F mood_energetic male_vocals | O rebab ; Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+salegy ; high ; C electric_guitar electric_bass | F time_6_8 mood_energetic male_vocals | O ; Malagasy fast dance music in 6/8.
+saluang klasik ; medium ; C mb:saluang male_vocals tempo_slow | F mood_melancholic free_meter | O  | X gamelan_tuning pitched_percussion ; Minangkabau bamboo flute music accompanying sung verses.
+samri ; medium ; C male_vocals | F handclaps vocal_call_response tambourine mood_energetic | O  ; Najdi Saudi group song and dance with frame drums.
+sanjo ; high ; C instrumental_track gayageum mb:janggu | F accelerando tempo_change mb:daegeum | O ; Korean solo instrumental form, slow to fast, with janggu.
+sanjuanito ; high ; C mood_bright | F minor_key quena guitar | O ; Ecuadorian festive dance in 2/4 with pentatonic minor melodies.
+santé engagé ; medium ; C male_vocals | F mood_energetic | O  ; Mauritian politically engaged séga songs.
+sardana ; high ; C mb:cobla mb:tenora mb:tible mb:flabiol | F tempo_mid | O | X brass ; Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sawt ; medium ; C male_vocals | F handclaps violin | O ; Gulf urban song with oud, violin, mirwas drums and claps.
+saya afroboliviana ; high ; C female_vocals | F large_drums repetition vocal_call_response | O  ; Afro-Bolivian music of the Yungas: drums, cuancha scraper and responsorial singing.
+schottische ; medium ; C | F fiddle mood_bright | O ; Couple dance related to the polka, slower.
+semba ; high ; C male_vocals | F electric_bass storytelling mood_energetic | O  ; Angolan urban dance music, ancestor of kizomba.
+shaabi ; high ; C male_vocals | F accordion mood_playful | O ; Egyptian working-class popular music.
+shabad kirtan ; high ; C male_vocals | F raga repetition | O ; Sikh devotional singing of Gurbani hymns with harmonium and tabla.
+shashmaqam ; high ; C male_vocals mb:tanbur mb:doyra | F mb:dutar mb:ghijak | O | X ney oud ; Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shima-uta ; high ; C mb:sanshin | F female_vocals male_vocals time_2_4 | O  | X shakuhachi shamisen ; Okinawan and Amami song with the sanshin.
+shinkyoku ; low ; C instrumental_track | F  | O  ; New Japanese compositions for traditional instruments.
+shoor ; medium ; C male_vocals | F mood_spiritual accelerando repetition | O ; Rhythmic Shi'a eulogy chanting.
+shōmyō ; high ; C male_vocals choir free_meter mood_spiritual | F | O | X koto shakuhachi shamisen ; Japanese Buddhist chant, unaccompanied.
+sierreño ; high ; C bajo_sexto | F male_vocals | O ; Mexican trio style with twelve-string guitar, bajo sexto and bass.
+sigidrigi ; medium ; C male_vocals vocal_harmonies acoustic_guitar | F ukulele mood_bright | O  | X hand_percussion ; Fijian string band singing with guitars and ukulele.
+sikuri ; high ; C siku large_drums | F time_2_4 mood_bright | O  | X pan_flute ; Andean siku ensembles with bombo drums, interlocking melodies.
+sinawi ; high ; C  | F heterophony mb:piri mb:haegeum | O  ; Korean shamanic improvisation ensemble.
+sizhu music ; medium ; C  | F pipa yangqin heterophony tempo_mid | O  ; Chinese silk-and-bamboo ensembles.
+skiladiko ; medium ; C male_vocals | F electric_guitar | O  ; Greek nightclub laiko with emotional vocals and electric bouzouki.
+slack-key guitar ; high ; C instrumental_track | F mood_dreamy tempo_slow | O  ; Hawaiian open-tuned finger-style guitar.
+slow waltz ; high ; C  | F orchestra mood_romantic | O  ; Ballroom English waltz.
+slowed & reverb ; high ; ; Already described by its production treatment.
+son calentano ; medium ; C time_6_8 | F guitar male_vocals | O  ; Tierra Caliente son with violin, guitar and tamborita.
+son huasteco ; high ; C time_6_8 | F improvisation male_vocals | O ; Son of the Huasteca: violin, jarana huasteca and huapanguera, falsetto breaks.
+son istmeño ; medium ; C time_3_4 | F guitar male_vocals mood_melancholic | O | X cuatro ; Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son jarocho ; high ; C female_vocals male_vocals | F improvisation mb:quijada | O | X cuatro ; Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+soukous ; high ; C male_vocals | F vocal_harmonies instrumental_break | O ; Congolese dance music with fast guitar sebene.
+southeast asian classical ; medium ; C gong | F heterophony mb:gong-chime instrumental_track | O  ; Umbrella for court music traditions of Southeast Asia.
+spoken word ; high ; ; Already described: speech with sparse accompaniment.
+steel band ; high ; C instrumental_track | F syncopation drum_kit mood_bright tempo_fast | O  ; Trinidadian ensembles of steel pans of all ranges.
+stotra ; medium ; C male_vocals | F tempo_mid strophic_form | O ; Sanskrit hymns of praise.
+séga ; high ; C time_6_8 female_vocals | F triangle mood_bright | O ; Mauritian and Réunionese dance music with ravanne frame drum, maravanne and triangle.
+séga tambour ; medium ; C time_6_8 | F female_vocals mood_energetic | O  ; Rodrigues séga on goatskin frame drums.
+sōkyoku ; medium ; C female_vocals | F tempo_slow instrumental_track | O ; Koto music.
+taarab ; high ; C female_vocals | F mb:kanun violin mood_romantic | O ; Swahili sung poetry with Arab-style orchestra.
+takamba ; medium ; C ngoni male_vocals | F mood_hypnotic tempo_mid | O  | X kora balafon ; Songhai and Tuareg music with the tehardent lute and calabash.

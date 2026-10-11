@@ -1,0 +1,259 @@
+genre	concept_id	level	confidence	rationale
+aak	tempo_very_slow	C	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+aak	mood_spiritual	C	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+aak	heterophony	C	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+aak	MB0174	F	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+aak	free_meter	F	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+aak	drone	O	medium	Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+afoxê	MB0006	C	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	atabaque	C	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	agogo	C	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	vocal_call_response	C	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	MB0256	F	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	time_2_4	F	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	mood_spiritual	F	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afoxê	mood_groovy	O	medium	Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afro-zouk	time_4_4	C	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	tempo_mid	C	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	electric_bass	F	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	clean_guitar	F	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	male_vocals	F	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	hook	F	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+afro-zouk	synth_pad	O	medium	Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+agbadza	MB0255	C	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbadza	vocal_call_response	C	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbadza	time_12_8	C	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbadza	polyrhythm	F	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbadza	mood_energetic	F	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbadza	handclaps	O	medium	Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbekor	MB0255	C	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	time_12_8	C	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	vocal_call_response	C	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	polyrhythm	F	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	drum_solo	F	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	mood_energetic	F	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+agbekor	shaker	O	medium	Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+ahwash	chant	C	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+ahwash	choir	C	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+ahwash	bendir	F	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+ahwash	time_6_8	F	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+ahwash	handclaps	F	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+ahwash	polyrhythm	O	medium	Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+aleke	vocal_call_response	C	low	Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+aleke	tempo_fast	C	low	Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+aleke	male_vocals	F	low	Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+aleke	syncopation	F	low	Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+aleke	electric_bass	O	low	Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+algerian chaabi	banjo	C	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	MB0345	C	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	male_vocals	C	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	oud	F	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	improvisation	F	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	melisma	F	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	violin	O	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+algerian chaabi	piano	O	medium	Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+alloukou	vocal_call_response	C	low	Bété music of Côte d'Ivoire: drums and responsorial singing.
+alloukou	polyrhythm	F	low	Bété music of Côte d'Ivoire: drums and responsorial singing.
+alloukou	talking_drum	F	low	Bété music of Côte d'Ivoire: drums and responsorial singing.
+alloukou	mood_energetic	F	low	Bété music of Côte d'Ivoire: drums and responsorial singing.
+alloukou	female_vocals	O	low	Bété music of Côte d'Ivoire: drums and responsorial singing.
+apala	male_vocals	C	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+apala	shekere	C	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+apala	agogo	F	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+apala	polyrhythm	F	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+apala	improvisation	F	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+apala	mood_spiritual	O	medium	Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+arabesk	maqam	C	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	microtonality	C	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	saz	F	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	oud	F	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	tempo_slow	F	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	male_vocals	F	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+arabesk	synthesizer	O	medium	Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+ashkenazi cantorial music	male_vocals	C	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	free_meter	C	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	improvisation	C	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	modal_system	F	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	ornamentation	F	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	choir	O	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+ashkenazi cantorial music	organ	O	medium	Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+assiko	fingerpicking	C	low	Cameroonian guitar dance music with bottle or knife percussion.
+assiko	tempo_fast	C	low	Cameroonian guitar dance music with bottle or knife percussion.
+assiko	acoustic_guitar	F	low	Cameroonian guitar dance music with bottle or knife percussion.
+assiko	male_vocals	F	low	Cameroonian guitar dance music with bottle or knife percussion.
+assiko	percussion	O	low	Cameroonian guitar dance music with bottle or knife percussion.
+baila	time_6_8	C	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baila	mood_playful	C	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baila	mandolin	F	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baila	violin	F	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baila	tempo_fast	F	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baila	congas	O	medium	Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baithak gana	dholak	C	medium	Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baithak gana	male_vocals	C	medium	Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baithak gana	storytelling	F	medium	Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baithak gana	mood_spiritual	F	medium	Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baithak gana	mood_romantic	O	medium	Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baião	syncopation	C	high	Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+baião	time_2_4	C	high	Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+baião	MB0793	F	high	Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+baião	male_vocals	F	high	Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+baião	fiddle	O	high	Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+balitaw	time_3_4	C	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+balitaw	duet	C	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+balitaw	mood_romantic	F	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+balitaw	female_vocals	F	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+balitaw	male_vocals	F	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+balitaw	guitar	O	low	Visayan courtship song-dance in 3/4 with guitar or banduria.
+ballad	lead_vocal	C	medium	Slow sentimental song centered on voice, melody and lyrics.
+ballad	verse_chorus_form	F	medium	Slow sentimental song centered on voice, melody and lyrics.
+ballad	string_section	F	medium	Slow sentimental song centered on voice, melody and lyrics.
+ballad	mood_melancholic	F	medium	Slow sentimental song centered on voice, melody and lyrics.
+ballad	power_ballad	O	medium	Slow sentimental song centered on voice, melody and lyrics.
+bambuco	hemiola	C	medium	Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+bambuco	MB0696	C	medium	Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+bambuco	tres	F	medium	Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+bambuco	duet	F	medium	Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+bambuco	flute	O	medium	Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+baqashot	male_vocals	C	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+baqashot	maqam	C	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+baqashot	free_meter	F	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+baqashot	melisma	F	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+baqashot	choir	F	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+baqashot	mood_spiritual	O	low	Sephardic devotional supplications sung through the night in Arabic maqam.
+barbershop	tempo_mid	F	high	Unaccompanied four-part close harmony with the melody in the second voice.
+barbershop	ritardando	O	high	Unaccompanied four-part close harmony with the melody in the second voice.
+batonebi songs	female_vocals	F	low	Georgian healing songs for the 'batonebi' spirits, sung softly.
+batonebi songs	repetition	F	low	Georgian healing songs for the 'batonebi' spirits, sung softly.
+batonebi songs	drone	O	low	Georgian healing songs for the 'batonebi' spirits, sung softly.
+battle record	sample_flip	C	medium	Records cut for DJ battles: breaks, scratch sentences and samples.
+battle record	vocal_chops	F	medium	Records cut for DJ battles: breaks, scratch sentences and samples.
+battle record	breakbeat	F	medium	Records cut for DJ battles: breaks, scratch sentences and samples.
+battle record	drum_machine	O	medium	Records cut for DJ battles: breaks, scratch sentences and samples.
+batucada	bateria	C	high	Samba percussion ensemble music.
+batucada	repinique	C	high	Samba percussion ensemble music.
+batucada	caixa	C	high	Samba percussion ensemble music.
+batucada	tamborim	C	high	Samba percussion ensemble music.
+batucada	agogo	C	high	Samba percussion ensemble music.
+batucada	MB0022	F	high	Samba percussion ensemble music.
+batucada	cuica	F	high	Samba percussion ensemble music.
+batucada	tempo_fast	F	high	Samba percussion ensemble music.
+batucada	mood_energetic	F	high	Samba percussion ensemble music.
+batucada	call_and_response	O	high	Samba percussion ensemble music.
+batuque	female_vocals	C	medium	Cape Verdean women's circle music: cloth beaten as a drum, call and response.
+batuque	polyrhythm	C	medium	Cape Verdean women's circle music: cloth beaten as a drum, call and response.
+batuque	handclaps	F	medium	Cape Verdean women's circle music: cloth beaten as a drum, call and response.
+batuque	time_6_8	F	medium	Cape Verdean women's circle music: cloth beaten as a drum, call and response.
+beatboxing	NO_CHANGE			Already described by a cappella vocal percussion;nothing reliable to add.
+benga	electric_guitar	C	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+benga	fingerpicking	C	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+benga	male_vocals	C	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+benga	mood_energetic	F	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+benga	vocal_harmonies	F	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+benga	drum_kit	F	medium	Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+beni	trumpet	F	medium	Brass-band dance competitions of East Africa imitating colonial military bands.
+beni	call_and_response	F	medium	Brass-band dance competitions of East Africa imitating colonial military bands.
+beni	mood_playful	O	medium	Brass-band dance competitions of East Africa imitating colonial military bands.
+beompae	male_vocals	C	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	tempo_very_slow	C	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	free_meter	C	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	melisma	F	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	mood_spiritual	F	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	drone	O	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+beompae	gong	O	medium	Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+bhajan	MB0346	C	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bhajan	tabla	C	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bhajan	dholak	F	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bhajan	repetition	F	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bhajan	sitar	O	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bhajan	flute	O	high	Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bikutsi	electric_guitar	C	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bikutsi	male_vocals	C	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bikutsi	mood_energetic	F	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bikutsi	syncopation	F	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bikutsi	drum_kit	F	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bikutsi	balafon	O	medium	Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bocet	female_vocals	C	medium	Romanian funeral lament, improvised and unaccompanied.
+bocet	free_meter	C	medium	Romanian funeral lament, improvised and unaccompanied.
+bocet	mood_melancholic	F	medium	Romanian funeral lament, improvised and unaccompanied.
+bocet	improvisation	F	medium	Romanian funeral lament, improvised and unaccompanied.
+boduberu	chant	C	medium	Maldivian drumming and chant that accelerates to a frenzy.
+boduberu	accelerando	C	medium	Maldivian drumming and chant that accelerates to a frenzy.
+boduberu	male_vocals	F	medium	Maldivian drumming and chant that accelerates to a frenzy.
+boduberu	mood_energetic	F	medium	Maldivian drumming and chant that accelerates to a frenzy.
+bomba	MB0044	C	high	Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba	maracas	C	high	Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba	female_vocals	F	high	Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba	drum_solo	F	high	Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba	syncopation	F	high	Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba del chota	acoustic_guitar	C	medium	Afro-Ecuadorian music of the Chota valley with guitar and the bomba drum.
+bomba del chota	hand_percussion	F	medium	Afro-Ecuadorian music of the Chota valley with guitar and the bomba drum.
+bomba del chota	female_vocals	F	medium	Afro-Ecuadorian music of the Chota valley with guitar and the bomba drum.
+bomba del chota	mood_bright	O	medium	Afro-Ecuadorian music of the Chota valley with guitar and the bomba drum.
+bouyon	drum_machine	C	medium	Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bouyon	mood_energetic	C	medium	Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bouyon	synth_bass	F	medium	Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bouyon	syncopation	F	medium	Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bouyon	call_and_response	O	medium	Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bullerengue	female_vocals	C	medium	Afro-Colombian women's song-dance with drums, palmas and call and response.
+bullerengue	time_6_8	F	medium	Afro-Colombian women's song-dance with drums, palmas and call and response.
+bullerengue	handclaps	F	medium	Afro-Colombian women's song-dance with drums, palmas and call and response.
+bullerengue	polyrhythm	O	medium	Afro-Colombian women's song-dance with drums, palmas and call and response.
+burmese classical	harp	C	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burmese classical	gong	C	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burmese classical	improvisation	F	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burmese classical	hand_percussion	F	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burmese classical	female_vocals	F	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burmese classical	gamelan_tuning	X	medium	Burmese court music: saung harp, hsaing waing drum and gong circles;not gamelan tunings.
+burrakatha	male_vocals	C	medium	Telugu narrative performance: storyteller with tambura and two supporting voices.
+burrakatha	spoken_vocal	C	medium	Telugu narrative performance: storyteller with tambura and two supporting voices.
+burrakatha	tanpura	F	medium	Telugu narrative performance: storyteller with tambura and two supporting voices.
+burrakatha	vocal_call_response	F	medium	Telugu narrative performance: storyteller with tambura and two supporting voices.
+burrakatha	mood_theatrical	O	medium	Telugu narrative performance: storyteller with tambura and two supporting voices.
+bélé	call_and_response	C	medium	Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+bélé	female_vocals	C	medium	Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+bélé	time_6_8	F	medium	Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+bélé	drum_solo	F	medium	Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+bélé	polyrhythm	F	medium	Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+ca trù	MB0504	C	high	Vietnamese chamber song: female singer with clappers, three-string lute and praise drum.
+ca trù	melisma	F	high	Vietnamese chamber song: female singer with clappers, three-string lute and praise drum.
+ca trù	tempo_slow	F	high	Vietnamese chamber song: female singer with clappers, three-string lute and praise drum.
+ca trù	free_meter	O	high	Vietnamese chamber song: female singer with clappers, three-string lute and praise drum.
+cabo zouk	time_4_4	C	medium	Cape Verdean zouk: mid-tempo, sensual, Portuguese-Creole vocals.
+cabo zouk	tempo_mid	C	medium	Cape Verdean zouk: mid-tempo, sensual, Portuguese-Creole vocals.
+cabo zouk	electric_bass	F	medium	Cape Verdean zouk: mid-tempo, sensual, Portuguese-Creole vocals.
+cabo zouk	male_vocals	F	medium	Cape Verdean zouk: mid-tempo, sensual, Portuguese-Creole vocals.
+cadence lypso	syncopation	C	medium	Dominica's fusion of cadence and calypso: horns, guitars and drums;steel pans are not typical.
+cadence lypso	electric_guitar	F	medium	Dominica's fusion of cadence and calypso: horns, guitars and drums;steel pans are not typical.
+cadence lypso	horn_section	F	medium	Dominica's fusion of cadence and calypso: horns, guitars and drums;steel pans are not typical.
+cadence lypso	steelpan	X	medium	Dominica's fusion of cadence and calypso: horns, guitars and drums;steel pans are not typical.
+cadence rampa	horn_section	C	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+cadence rampa	syncopation	C	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+cadence rampa	electric_guitar	F	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+cadence rampa	tempo_mid	F	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+cadence rampa	steelpan	X	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+cadence rampa	storytelling	X	medium	Haitian compas-derived dance music;steel pans and calypso storytelling are not typical.
+calipso venezolano	time_2_4	C	medium	Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calipso venezolano	cuatro	F	medium	Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calipso venezolano	guitar	F	medium	Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calipso venezolano	call_and_response	F	medium	Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calipso venezolano	steelpan	X	medium	Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calypso	time_2_4	C	high	Trinidadian topical song with witty storytelling over brass and percussion.
+calypso	horn_section	F	high	Trinidadian topical song with witty storytelling over brass and percussion.
+calypso	syncopation	F	high	Trinidadian topical song with witty storytelling over brass and percussion.
+candombe	drum_solo	C	high	Afro-Uruguayan procession drumming on chico, repique and piano drums.
+candombe	tempo_mid	F	high	Afro-Uruguayan procession drumming on chico, repique and piano drums.
+candombe	mood_energetic	F	high	Afro-Uruguayan procession drumming on chico, repique and piano drums.
+candombe	syncopation	F	high	Afro-Uruguayan procession drumming on chico, repique and piano drums.
+cante alentejano	tempo_slow	C	high	Portuguese polyphonic choral song: slow, a soloist leads and the group answers.
+cante alentejano	drone	C	high	Portuguese polyphonic choral song: slow, a soloist leads and the group answers.
+cante alentejano	vocal_harmonies	F	high	Portuguese polyphonic choral song: slow, a soloist leads and the group answers.
+canto cardenche	male_vocals	C	medium	Three-voice unaccompanied song of northern Mexico.
+canto cardenche	tempo_slow	C	medium	Three-voice unaccompanied song of northern Mexico.
+canto cardenche	mood_melancholic	C	medium	Three-voice unaccompanied song of northern Mexico.
+canto cardenche	close_harmony	F	medium	Three-voice unaccompanied song of northern Mexico.
+cajun	button_accordion	C	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.
+cajun	male_vocals	C	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.
+cajun	time_2_4	F	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.
+cajun	mood_energetic	F	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.
+cajun	triangle	F	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.
+cajun	accordion	X	high	Louisiana French dance music: diatonic accordion, fiddle and triangle;the accordion is the button kind.

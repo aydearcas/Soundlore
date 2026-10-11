@@ -10,9 +10,10 @@ recording_aesthetic | Recording aesthetic |  | Overall character of the recorded
   hi_fi | Polished production | hi-fi; radio-ready | Clean, compressed, competitive sound. | polished production; radio-ready; crisp mix | 
   raw_production | Raw production | demo; garage | Direct sound with little editing. | raw production; garage sound | 
   live_recording | Live recording |  | Concert or live-in-studio take. | live recording; crowd noise | 
-  analog_warmth | Analog warmth | tape saturation |  | warm analog sound; tape saturation | 
+  analog_warmth | Analog warmth |  | The perceived quality; for the process use Tape saturation. | warm analog sound | tape_saturation
   wall_of_sound | Wall of sound |  | Dense layers with heavy reverb; Phil Spector, shoegaze. | wall of sound | dense_texture
   bass_heavy | Bass-heavy mix |  | Bass dominates the mix. | bass-heavy; heavy bass | sub_bass
+  sub_bass | Sub-bass |  | Low frequencies below ~60 Hz, whatever instrument or synth produces them. | heavy sub-bass; deep sub-bass | 
   dry_mix | Dry mix |  | Little reverb, close sound. | dry vocals; intimate mix | 
   field_recording | Field recording |  | Environmental sounds recorded outside the studio. | field recordings; ambient sounds | 
 dynamics_processing | Dynamics processing |  |  |  | 
@@ -36,8 +37,10 @@ modulation_effects | Modulation effects |  |  |  |
   flanger | Flanger |  |  | flanger | 
   phaser | Phaser |  |  | phaser | 
   tremolo_effect | Tremolo effect |  | Periodic volume variation. | tremolo guitar | 
+  leslie | Rotary speaker | Leslie speaker; rotary | The effect of a rotating speaker cabinet, or its simulation; classic with the Hammond organ. | leslie organ; rotary speaker | hammond_organ
 distortion | Distortion |  | Clipping that adds harmonics. | distortion; distorted | 
   overdrive | Overdrive | crunch | Mild tube saturation. | crunchy guitars | 
+  tape_saturation | Tape saturation | tape drive | Soft compression and harmonic distortion from driving analog tape, or its emulation. | tape saturation | 
   fuzz | Fuzz |  | Harsh, square-wave distortion. | fuzz guitar | 
   bitcrusher | Bitcrusher |  | Digital resolution reduction. | bitcrushed | 
   distorted_vocals | Distorted vocals |  |  | distorted vocals | 

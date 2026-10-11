@@ -1,0 +1,254 @@
+{
+ "version": "0.9",
+ "concepts": 959,
+ "facets": 14,
+ "definitions": 959,
+ "wikidata": 651,
+ "cards": [
+  {
+   "uid": "SL000017",
+   "tree": "RHY.01.03.07",
+   "label": "Aksak rhythm",
+   "bt": "Odd meter",
+   "rt": [
+    "9/8 time",
+    "5/8 time"
+   ],
+   "qid": "Q2829148"
+  },
+  {
+   "uid": "SL000040",
+   "tree": "RHY.03.06",
+   "label": "Clave",
+   "bt": "Rhythmic devices",
+   "rt": [
+    "Claves"
+   ],
+   "qid": "Q1099007"
+  },
+  {
+   "uid": "SL000068",
+   "tree": "DRM.01.04.01",
+   "label": "Amen break",
+   "bt": "Breakbeat",
+   "rt": [
+    "Chopped breaks"
+   ],
+   "qid": "Q462074"
+  },
+  {
+   "uid": "SL000100",
+   "tree": "DRM.02.01",
+   "label": "Ghost notes",
+   "bt": "Drum techniques",
+   "rt": [
+    "Purdie shuffle"
+   ],
+   "qid": "Q630079"
+  },
+  {
+   "uid": "SL000141",
+   "tree": "HAR.03.06",
+   "label": "Tritone",
+   "bt": "Harmonic devices",
+   "rt": [
+    "Dissonance"
+   ],
+   "qid": "Q623939"
+  },
+  {
+   "uid": "SL000180",
+   "tree": "SCL.01.05",
+   "label": "Pentatonic scale",
+   "bt": "Scales",
+   "rt": [
+    "Japanese scales"
+   ],
+   "qid": "Q191345"
+  },
+  {
+   "uid": "SL000201",
+   "tree": "SCL.03.02",
+   "label": "Raga",
+   "bt": "Modal and tuning systems",
+   "rt": [
+    "Sitar",
+    "Sarod"
+   ],
+   "qid": "Q216926"
+  },
+  {
+   "uid": "SL000219",
+   "tree": "MEL.02.03.03",
+   "label": "Grace note",
+   "bt": "Ornamentation",
+   "rt": [
+    "Appoggiatura"
+   ],
+   "qid": "Q4334"
+  },
+  {
+   "uid": "SL000251",
+   "tree": "FRM.01.16",
+   "label": "Hook (hip hop)",
+   "bt": "Song sections",
+   "rt": [
+    "Chorus"
+   ],
+   "qid": "Q127124"
+  },
+  {
+   "uid": "SL000290",
+   "tree": "FRM.03.14",
+   "label": "Waltz",
+   "bt": "Compositional forms",
+   "rt": [
+    "3/4 time"
+   ],
+   "qid": "Q8701407"
+  },
+  {
+   "uid": "SL000313",
+   "tree": "FRM.03.36",
+   "label": "Symphony",
+   "bt": "Compositional forms",
+   "rt": [
+    "Orchestra"
+   ],
+   "qid": "Q9734"
+  },
+  {
+   "uid": "SL000334",
+   "tree": "TEX.03.04",
+   "label": "Drone",
+   "bt": "Accompaniment textures",
+   "rt": [
+    "Pedal point",
+    "Bagpipes"
+   ],
+   "qid": "Q893474"
+  },
+  {
+   "uid": "SL000370",
+   "tree": "VOC.02.16",
+   "label": "Melismatic singing",
+   "bt": "Singing techniques",
+   "rt": [
+    "Melisma",
+    "Vocal runs"
+   ],
+   "qid": "Q248255"
+  },
+  {
+   "uid": "SL000412",
+   "tree": "INS.01.01.05",
+   "label": "Electric guitar",
+   "bt": "Guitar",
+   "rt": [
+    "Guitar synthesizer"
+   ],
+   "qid": "Q78987"
+  },
+  {
+   "uid": "SL000427",
+   "tree": "INS.01.10",
+   "label": "Sitar",
+   "bt": "Plucked strings",
+   "rt": [
+    "Raga",
+    "Electric sitar"
+   ],
+   "qid": "Q229205"
+  },
+  {
+   "uid": "SL000833",
+   "tree": "INS.01.27",
+   "label": "Đàn tranh",
+   "bt": "Plucked strings",
+   "rt": [
+    "Guzheng"
+   ],
+   "qid": "Q342234"
+  },
+  {
+   "uid": "SL000878",
+   "tree": "INS.01.43",
+   "label": "Gimbri",
+   "bt": "Plucked strings",
+   "rt": [
+    "Qraqeb"
+   ],
+   "qid": "Q1431454"
+  },
+  {
+   "uid": "SL000785",
+   "tree": "INS.02.11",
+   "label": "Morin khuur",
+   "bt": "Bowed strings",
+   "rt": [
+    "Overtone singing"
+   ],
+   "qid": "Q1129422"
+  },
+  {
+   "uid": "SL000850",
+   "tree": "INS.03.21",
+   "label": "Suona",
+   "bt": "Woodwinds",
+   "rt": [
+    "Piri"
+   ],
+   "qid": "Q2096912"
+  },
+  {
+   "uid": "SL000916",
+   "tree": "INS.03.41",
+   "label": "Shō",
+   "bt": "Woodwinds",
+   "rt": [
+    "Sheng"
+   ],
+   "qid": "Q1975355"
+  },
+  {
+   "uid": "SL000801",
+   "tree": "INS.06.01.02",
+   "label": "String synthesizer",
+   "bt": "Synthesizer",
+   "rt": [
+    "Synth pad"
+   ],
+   "qid": "Q2355465"
+  },
+  {
+   "uid": "SL000519",
+   "tree": "INS.06.06.03",
+   "label": "LinnDrum",
+   "bt": "Drum machine",
+   "rt": [
+    "1980s sound"
+   ],
+   "qid": "Q3241627"
+  },
+  {
+   "uid": "SL000548",
+   "tree": "INS.07.03.13",
+   "label": "Güiro",
+   "bt": "Hand percussion",
+   "rt": [
+    "Güira"
+   ],
+   "qid": "Q2237198"
+  },
+  {
+   "uid": "SL000811",
+   "tree": "INS.07.03.26",
+   "label": "Ghatam",
+   "bt": "Hand percussion",
+   "rt": [
+    "Mridangam"
+   ],
+   "qid": "Q859091"
+  }
+ ]
+}

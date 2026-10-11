@@ -1,0 +1,249 @@
+genre	concept_id	level	confidence	rationale
+dobrado	mood_bright	C	medium	Brazilian band march for civic and religious processions.
+dobrado	trumpet	F	medium	Brazilian band march for civic and religious processions.
+dobrado	trombone	F	medium	Brazilian band march for civic and religious processions.
+dobrado	snare_drum	F	medium	Brazilian band march for civic and religious processions.
+dohori	duet	C	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+dohori	improvisation	C	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+dohori	MB0426	F	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+dohori	tempo_mid	F	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+dohori	female_vocals	F	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+dohori	male_vocals	F	medium	Nepali sung dialogue between groups, improvised to the madal drum.
+doina	improvisation	C	high	Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató;pan flute is only one option.
+doina	melisma	C	high	Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató;pan flute is only one option.
+doina	mood_melancholic	F	high	Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató;pan flute is only one option.
+doina	cimbalom	O	high	Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató;pan flute is only one option.
+doina	pan_flute	X	high	Romanian free-rhythm lament improvisation on violin, voice, flute or tárogató;pan flute is only one option.
+dondang sayang	duet	C	medium	Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dondang sayang	tempo_slow	C	medium	Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dondang sayang	mood_romantic	C	medium	Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dondang sayang	gong	F	medium	Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dondang sayang	accordion	O	medium	Malay-Peranakan love-song exchange of pantun verses with violin and frame drums.
+dongzu dage	choir	C	high	Kam grand song: unaccompanied polyphonic choir with a sustained low part and imitations of nature.
+dongzu dage	drone	C	high	Kam grand song: unaccompanied polyphonic choir with a sustained low part and imitations of nature.
+dongzu dage	female_vocals	F	high	Kam grand song: unaccompanied polyphonic choir with a sustained low part and imitations of nature.
+dongzu dage	mood_bright	F	high	Kam grand song: unaccompanied polyphonic choir with a sustained low part and imitations of nature.
+drum and bugle corps	MB0101	C	medium	Competitive marching ensembles of brass and battery percussion;show music rather than marches.
+drum and bugle corps	MB0439	C	medium	Competitive marching ensembles of brass and battery percussion;show music rather than marches.
+drum and bugle corps	tempo_fast	F	medium	Competitive marching ensembles of brass and battery percussion;show music rather than marches.
+drum and bugle corps	dynamic_contrast	F	medium	Competitive marching ensembles of brass and battery percussion;show music rather than marches.
+drum and bugle corps	march	X	medium	Competitive marching ensembles of brass and battery percussion;show music rather than marches.
+drumline	instrumental_track	C	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	tempo_fast	C	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	cymbals	C	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	syncopation	F	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	flam	F	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	drum_roll	F	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+drumline	brass_band	X	medium	Marching percussion section: snares, tenors, basses and cymbals;brass is absent.
+embolada	pandeiro	C	medium	Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+embolada	male_vocals	C	medium	Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+embolada	duet	C	medium	Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+embolada	tempo_fast	F	medium	Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+embolada	rap	F	medium	Northeastern Brazilian improvised tongue-twisting verse duel with pandeiros.
+fakaseasea	call_and_response	C	low	Tuvaluan seated group dance song, slow and choral.
+fakaseasea	handclaps	F	low	Tuvaluan seated group dance song, slow and choral.
+fakaseasea	tempo_slow	F	low	Tuvaluan seated group dance song, slow and choral.
+famo	male_vocals	C	medium	Basotho accordion music with bass drum and sung or recited lament poetry.
+famo	large_drums	F	medium	Basotho accordion music with bass drum and sung or recited lament poetry.
+famo	storytelling	F	medium	Basotho accordion music with bass drum and sung or recited lament poetry.
+famo	repetition	F	medium	Basotho accordion music with bass drum and sung or recited lament poetry.
+famo	female_vocals	O	medium	Basotho accordion music with bass drum and sung or recited lament poetry.
+fandango	time_6_8	C	medium	Iberian dance in triple time with guitar and castanets.
+fandango	flamenco_guitar	F	medium	Iberian dance in triple time with guitar and castanets.
+fandango	violin	F	medium	Iberian dance in triple time with guitar and castanets.
+fandango caiçara	MB0750	C	medium	Coastal São Paulo and Paraná dance with viola, rabeca and adufo;stamping instead of castanets.
+fandango caiçara	handclaps	F	medium	Coastal São Paulo and Paraná dance with viola, rabeca and adufo;stamping instead of castanets.
+fandango caiçara	tambourine	F	medium	Coastal São Paulo and Paraná dance with viola, rabeca and adufo;stamping instead of castanets.
+fandango caiçara	male_vocals	F	medium	Coastal São Paulo and Paraná dance with viola, rabeca and adufo;stamping instead of castanets.
+fandango caiçara	castanets	X	medium	Coastal São Paulo and Paraná dance with viola, rabeca and adufo;stamping instead of castanets.
+fantezi	male_vocals	C	medium	Turkish popular style close to arabesk, lighter and more pop.
+fantezi	synthesizer	F	medium	Turkish popular style close to arabesk, lighter and more pop.
+fantezi	electric_bass	F	medium	Turkish popular style close to arabesk, lighter and more pop.
+field recording	NO_CHANGE			Already described: environmental recording without music-making.
+fife and drum	fife	C	high	American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+fife and drum	large_drums	C	high	American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+fife and drum	tempo_mid	F	high	American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+fife and drum	piccolo	X	high	American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+fife and drum	brass_band	X	high	American fife and drum corps and Hill Country blues tradition: fifes, snares and bass drum, no brass.
+filipino rondalla	MB0478	C	medium	Philippine plucked-string ensemble of banduria, octavina, laúd, guitar and bass.
+filipino rondalla	MB0033	C	medium	Philippine plucked-string ensemble of banduria, octavina, laúd, guitar and bass.
+filipino rondalla	instrumental_track	F	medium	Philippine plucked-string ensemble of banduria, octavina, laúd, guitar and bass.
+filipino rondalla	tremolo_picking	F	medium	Philippine plucked-string ensemble of banduria, octavina, laúd, guitar and bass.
+fon leb	MB0591	C	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+fon leb	tempo_slow	F	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+fon leb	female_vocals	F	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+fon leb	instrumental_track	F	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+fon leb	heterophony	O	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+fon leb	gamelan_tuning	X	low	Northern Thai court dance music;Thai ensembles do not use gamelan tunings.
+football chant	repetition	C	high	Supporters' chants sung by crowds, often to borrowed tunes.
+football chant	handclaps	F	high	Supporters' chants sung by crowds, often to borrowed tunes.
+football chant	mood_energetic	F	high	Supporters' chants sung by crowds, often to borrowed tunes.
+football chant	anthemic	F	high	Supporters' chants sung by crowds, often to borrowed tunes.
+football chant	snare_drum	O	high	Supporters' chants sung by crowds, often to borrowed tunes.
+frevo	trombone	C	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo	saxophone	C	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo	trumpet	C	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo	instrumental_track	C	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo	syncopation	F	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo	mood_energetic	F	high	Recife carnival music: very fast, syncopated brass and saxophone lines.
+frevo de bloco	female_vocals	C	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de bloco	choir	C	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de bloco	mood_nostalgic	F	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de bloco	flute	F	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de bloco	mandolin	F	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de bloco	tempo_fast	X	medium	Gentler frevo of the carnival blocos: women's choir with strings and woodwinds, moderate tempo.
+frevo de rua	trombone	C	high	Instrumental street frevo for brass and saxophones.
+frevo de rua	saxophone	C	high	Instrumental street frevo for brass and saxophones.
+frevo de rua	instrumental_track	C	high	Instrumental street frevo for brass and saxophones.
+frevo de rua	syncopation	F	high	Instrumental street frevo for brass and saxophones.
+frevo de rua	mood_energetic	F	high	Instrumental street frevo for brass and saxophones.
+frevo elétrico	electric_guitar	C	medium	Frevo played on electric guitars on Salvador's trio elétrico trucks.
+frevo elétrico	mood_energetic	F	medium	Frevo played on electric guitars on Salvador's trio elétrico trucks.
+frevo elétrico	distortion	F	medium	Frevo played on electric guitars on Salvador's trio elétrico trucks.
+frevo-canção	lead_vocal	C	medium	Song form of frevo: a fast brass introduction followed by a sung section.
+frevo-canção	intro	C	medium	Song form of frevo: a fast brass introduction followed by a sung section.
+frevo-canção	trumpet	F	medium	Song form of frevo: a fast brass introduction followed by a sung section.
+frevo-canção	saxophone	F	medium	Song form of frevo: a fast brass introduction followed by a sung section.
+frevo-canção	mood_bright	F	medium	Song form of frevo: a fast brass introduction followed by a sung section.
+fuji	male_vocals	C	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	polyrhythm	C	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	shekere	F	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	agogo	F	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	improvisation	F	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	mood_spiritual	F	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+fuji	synthesizer	O	high	Yoruba popular music from were singing: talking drums, sakara and shekere under declamatory vocals.
+funaná	button_accordion	C	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	male_vocals	C	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	mood_energetic	C	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	time_2_4	F	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	syncopation	F	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	electric_bass	O	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funaná	accordion	X	high	Cape Verdean dance music for gaita (diatonic accordion) and ferrinho iron scraper.
+funeral march	minor_key	C	high	Slow processional march, typically in 4/4 with muffled drums and minor key.
+funeral march	snare_drum	F	high	Slow processional march, typically in 4/4 with muffled drums and minor key.
+funeral march	drum_roll	F	high	Slow processional march, typically in 4/4 with muffled drums and minor key.
+funeral march	time_2_4	X	high	Slow processional march, typically in 4/4 with muffled drums and minor key.
+fungi	ukulele	C	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+fungi	banjo	C	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+fungi	guiro	C	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+fungi	washboard	F	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+fungi	triangle	F	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+fungi	steelpan	X	medium	Virgin Islands scratch-band music: ukulele, banjo, guitar, gourd scraper and washboard;steel pans are not typical.
+gaelic psalm singing	tempo_very_slow	C	high	Hebridean line-out psalmody: a precentor lines out and the congregation answers in slow, ornamented heterophony.
+gaelic psalm singing	ornamentation	F	high	Hebridean line-out psalmody: a precentor lines out and the congregation answers in slow, ornamented heterophony.
+gaelic psalm singing	free_meter	F	high	Hebridean line-out psalmody: a precentor lines out and the congregation answers in slow, ornamented heterophony.
+gagaku	MB0303	C	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	MB0572	C	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	MB0608	C	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	tempo_very_slow	C	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	MB0079	F	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	heterophony	F	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	shakuhachi	X	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagaku	shamisen	X	high	Japanese court music: hichiriki, ryūteki, shō, biwa and koto;shakuhachi and shamisen belong to other genres.
+gagok	female_vocals	C	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	male_vocals	C	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	tempo_very_slow	C	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	gayageum	F	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	MB0266	F	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	MB0174	F	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gagok	MB0293	F	medium	Korean classical art song: very slow, accompanied by a small ensemble.
+gaita zuliana	maracas	C	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	MB0243	C	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	male_vocals	C	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	time_6_8	F	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	mood_bright	F	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	vocal_call_response	F	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+gaita zuliana	protest_lyrics	O	high	Zulian Christmas music: cuatro, furro friction drum, tambora, charrasca and maracas.
+garba	tempo_fast	C	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+garba	mood_energetic	C	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+garba	female_vocals	F	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+garba	accelerando	F	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+garba	dholak	F	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+garba	synthesizer	O	high	Gujarati circle dance for Navaratri: dhol and dholak in 6/8, accelerating.
+ghazal	male_vocals	C	high	Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ghazal	tempo_slow	C	high	Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ghazal	improvisation	F	high	Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ghazal	sarangi	F	high	Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ghazal	string_section	O	high	Urdu poetic song: ornamented vocal line with harmonium, tabla and sarangi.
+ginan	male_vocals	C	low	Ismaili devotional hymns from South Asia.
+ginan	mood_spiritual	F	low	Ismaili devotional hymns from South Asia.
+ginan	raga	F	low	Ismaili devotional hymns from South Asia.
+ginan	tempo_mid	F	low	Ismaili devotional hymns from South Asia.
+ginan	repetition	F	low	Ismaili devotional hymns from South Asia.
+ginan	harmonium	O	low	Ismaili devotional hymns from South Asia.
+gnawa	MB0290	C	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	MB0395	C	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	repetition	C	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	accelerando	F	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	vocal_call_response	F	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	mood_spiritual	F	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gnawa	castanets	X	high	Moroccan trance ritual: gumbri bass lute and iron krakeb clappers, accelerating cycles.
+gondang	polyrhythm	C	medium	Batak ceremonial ensemble: tuned drum sets, gongs and the sarune shawm.
+gondang	mood_spiritual	C	medium	Batak ceremonial ensemble: tuned drum sets, gongs and the sarune shawm.
+gondang	ostinato	F	medium	Batak ceremonial ensemble: tuned drum sets, gongs and the sarune shawm.
+gondang	heterophony	F	medium	Batak ceremonial ensemble: tuned drum sets, gongs and the sarune shawm.
+goombay	large_drums	C	medium	Bahamian drum music on goatskin goombay drums, with rake-and-scrape instruments;steel pans are not typical.
+goombay	handclaps	F	medium	Bahamian drum music on goatskin goombay drums, with rake-and-scrape instruments;steel pans are not typical.
+goombay	mood_bright	F	medium	Bahamian drum music on goatskin goombay drums, with rake-and-scrape instruments;steel pans are not typical.
+goombay	steelpan	X	medium	Bahamian drum music on goatskin goombay drums, with rake-and-scrape instruments;steel pans are not typical.
+griot	ngoni	C	high	West African hereditary praise singers and historians with kora, balafon and ngoni.
+griot	male_vocals	C	high	West African hereditary praise singers and historians with kora, balafon and ngoni.
+griot	improvisation	C	high	West African hereditary praise singers and historians with kora, balafon and ngoni.
+griot	female_vocals	F	high	West African hereditary praise singers and historians with kora, balafon and ngoni.
+griot	repetition	F	high	West African hereditary praise singers and historians with kora, balafon and ngoni.
+grupera	electric_bass	C	medium	Mexican band music of the 1970s–90s: keyboards, electric guitar and bass on cumbia and ballad rhythms.
+grupera	mood_romantic	C	medium	Mexican band music of the 1970s–90s: keyboards, electric guitar and bass on cumbia and ballad rhythms.
+grupera	electric_guitar	F	medium	Mexican band music of the 1970s–90s: keyboards, electric guitar and bass on cumbia and ballad rhythms.
+grupera	male_vocals	F	medium	Mexican band music of the 1970s–90s: keyboards, electric guitar and bass on cumbia and ballad rhythms.
+guaguancó	male_vocals	C	high	Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guaguancó	improvisation	C	high	Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guaguancó	MB0545	F	high	Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guaguancó	claves_instrument	F	high	Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guaguancó	polyrhythm	F	high	Cuban rumba with tumbadora drums, the improvising quinto, clave and catá.
+guarania	tempo_slow	C	high	Paraguayan slow song in 6/8–3/4 with harp and guitars.
+guarania	male_vocals	C	high	Paraguayan slow song in 6/8–3/4 with harp and guitars.
+guarania	duet	F	high	Paraguayan slow song in 6/8–3/4 with harp and guitars.
+guarania	mood_nostalgic	F	high	Paraguayan slow song in 6/8–3/4 with harp and guitars.
+guggenmusik	tempo_mid	C	high	Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+guggenmusik	trumpet	F	high	Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+guggenmusik	trombone	F	high	Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+guggenmusik	sousaphone	F	high	Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+guggenmusik	march	X	high	Swiss carnival bands playing deliberately raucous arrangements of popular tunes.
+gumbe	vocal_call_response	C	medium	Guinea-Bissau dance music with gumbe drums and call and response.
+gumbe	polyrhythm	C	medium	Guinea-Bissau dance music with gumbe drums and call and response.
+gumbe	female_vocals	F	medium	Guinea-Bissau dance music with gumbe drums and call and response.
+gumbe	mood_energetic	F	medium	Guinea-Bissau dance music with gumbe drums and call and response.
+gumbe	acoustic_guitar	O	medium	Guinea-Bissau dance music with gumbe drums and call and response.
+gwo ka	male_vocals	C	high	Guadeloupean drum music on ka drums with lead boula and makè and responsorial singing.
+gwo ka	drum_solo	F	high	Guadeloupean drum music on ka drums with lead boula and makè and responsorial singing.
+gwo ka	mood_spiritual	F	high	Guadeloupean drum music on ka drums with lead boula and makè and responsorial singing.
+gwo ka	vocal_call_response	F	high	Guadeloupean drum music on ka drums with lead boula and makè and responsorial singing.
+għana	male_vocals	C	medium	Maltese sung debate in rhymed improvised verse, with guitars.
+għana	duet	C	medium	Maltese sung debate in rhymed improvised verse, with guitars.
+għana	guitar	F	medium	Maltese sung debate in rhymed improvised verse, with guitars.
+għana	repetition	F	medium	Maltese sung debate in rhymed improvised verse, with guitars.
+habanera	tempo_slow	C	high	Cuban 19th-century song-dance on the habanera rhythm.
+habanera	mood_sensual	F	high	Cuban 19th-century song-dance on the habanera rhythm.
+habanera	mood_romantic	F	high	Cuban 19th-century song-dance on the habanera rhythm.
+habanera	piano	O	high	Cuban 19th-century song-dance on the habanera rhythm.
+haitian vodou drumming	mood_spiritual	C	high	Ritual drumming of Haitian Vodou: rada and petwo drum batteries with bells and songs for the lwa.
+haitian vodou drumming	vocal_call_response	C	high	Ritual drumming of Haitian Vodou: rada and petwo drum batteries with bells and songs for the lwa.
+haitian vodou drumming	drum_solo	F	high	Ritual drumming of Haitian Vodou: rada and petwo drum batteries with bells and songs for the lwa.
+haitian vodou drumming	mood_hypnotic	F	high	Ritual drumming of Haitian Vodou: rada and petwo drum batteries with bells and songs for the lwa.
+hambo	fiddle	C	high	Swedish couple dance in 3/4, mainly played on fiddle;accordion is a later option.
+hambo	instrumental_track	F	high	Swedish couple dance in 3/4, mainly played on fiddle;accordion is a later option.
+hambo	nyckelharpa	F	high	Swedish couple dance in 3/4, mainly played on fiddle;accordion is a later option.
+hambo	mood_bright	F	high	Swedish couple dance in 3/4, mainly played on fiddle;accordion is a later option.
+hambo	accordion	X	high	Swedish couple dance in 3/4, mainly played on fiddle;accordion is a later option.
+heikyoku	MB0301	C	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	male_vocals	C	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	storytelling	C	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	tempo_slow	F	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	free_meter	F	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	koto	X	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	shakuhachi	X	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+heikyoku	shamisen	X	high	Recitation of the Tale of the Heike with biwa;the koto, shakuhachi and shamisen are not used.
+himene tarava	mood_spiritual	C	high	Tahitian polyphonic hymns with a sustained drone and a characteristic final cut-off.
+himene tarava	female_vocals	F	high	Tahitian polyphonic hymns with a sustained drone and a characteristic final cut-off.
+himene tarava	male_vocals	F	high	Tahitian polyphonic hymns with a sustained drone and a characteristic final cut-off.
+himene tarava	drone	F	high	Tahitian polyphonic hymns with a sustained drone and a characteristic final cut-off.

@@ -1,0 +1,7 @@
+{
+ "dump": "2026-10-10 01:14:44.672495+00",
+ "artists_read": 3008890,
+ "artists_with_genres": 214970,
+ "listed_without_genres": 48338,
+ "license": "Derived from the MusicBrainz artist JSON dump. Artist core data: CC0. Artist-genre votes (field g): MusicBrainz genres/tags, CC BY-NC-SA 3.0, https://musicbrainz.org/doc/About/Data_License"
+}

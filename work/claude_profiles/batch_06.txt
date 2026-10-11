@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+nagauta ; high ; C male_vocals mood_theatrical | F mb:nohkan mb:kotsuzumi mb:ōtsuzumi | O | X koto shakuhachi ; Kabuki long song: shamisen, singers and the hayashi of nōkan and drums; no koto or shakuhachi.
+narcocorrido ; medium ; C male_vocals | F tuba mood_dark | O ; Corridos about drug traffickers with norteño or banda accompaniment.
+narodnozabavna glasba ; high ; C | F clarinet trumpet acoustic_guitar vocal_harmonies | O ; Slovenian Oberkrainer folk-pop: button accordion, clarinet, trumpet, guitar and bass.
+nasheed ; high ; C male_vocals | F frame_drum repetition | O ; Islamic devotional song, often unaccompanied or with frame drums only.
+neo kyma ; medium ; C male_vocals female_vocals | F acoustic_guitar mood_introspective | O | X orchestra ; 1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+ngoma ; high ; C polyrhythm | F mood_energetic female_vocals vocal_call_response | O  ; Bantu drum-dance-song complex of East Africa.
+ngâm thơ ; medium ; C free_meter | F female_vocals mb:đàn_nguyệt mood_melancholic | O  ; Vietnamese poetry chanting, free rhythm with optional lute or flute.
+nhạc đỏ ; medium ; C choir mood_triumphant | F orchestra male_vocals | O ; Vietnamese revolutionary songs with march-like choral settings.
+nigun ; high ; C male_vocals repetition | F mood_spiritual free_meter | O ; Hasidic wordless melody, sung repeatedly, often accelerating.
+njuup ; medium ; C sabar polyrhythm | F male_vocals vocal_call_response | O  ; Senegalese percussion style, precursor of mbalax, on sabar drums.
+noh ; high ; C mb:nohkan mb:kotsuzumi mb:ōtsuzumi male_vocals tempo_very_slow | F mood_theatrical chant | O | X koto shakuhachi shamisen ; Nō drama music: chanting chorus with nōkan flute and three drums.
+norteño ; high ; C button_accordion bajo_sexto | F male_vocals double_bass waltz | O | X accordion twelve_string_guitar ; Northern Mexican music led by diatonic accordion and bajo sexto.
+oberek ; high ; C mood_energetic | F violin | O  | X accordion ; Fast Polish triple-time dance led by violin.
+odissi classical ; medium ; C female_vocals | F mb:pakhawaj | O | X tabla ; Classical music of Odisha with mardala/pakhawaj rather than tabla.
+ogene music ; medium ; C male_vocals | F polyrhythm repetition vocal_call_response | O  ; Igbo music built on the ogene iron gong.
+omutibo ; low ; C male_vocals | F fingerpicking mood_playful tempo_mid | O  ; Kenyan Luhya guitar style.
+ondō ; medium ; C male_vocals | F mb:shime-daiko handclaps repetition | O  | X shakuhachi ; Bon dance songs with taiko and shamisen.
+orkes gambus ; medium ; C male_vocals | F darbuka violin mood_romantic | O  ; Indonesian and Malay Arab-influenced ensemble led by the gambus lute.
+paghjella ; high ; C  | F ornamentation mood_spiritual melisma | O  ; Corsican three-voice male polyphony.
+palm-wine ; high ; C fingerpicking male_vocals | F mood_playful tempo_mid | O  ; West African guitar music of the Kru sailors.
+palo de mayo ; medium ; C mood_energetic | F female_vocals male_vocals | O  | X steelpan storytelling offbeat ; Caribbean Nicaraguan maypole dance with drums and guitars; steel pans are not typical.
+pandilla ; low ; C mandolin | F accordion acoustic_guitar female_vocals | O ; Andean dance of Puno.
+pansori ; high ; C mb:buk free_meter | F mood_theatrical raspy_vocals | O | X frame_drum ; Korean epic song for one singer and one buk drummer.
+parang ; high ; C maracas | F violin guitar male_vocals vocal_call_response | O | X glockenspiel orchestra ; Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parlour music ; medium ; C mood_romantic | F female_vocals strophic_form soft_dynamics | O violin ; Domestic 19th-century songs and piano pieces for the home.
+pasillo ; high ; C mood_romantic | F male_vocals duet mb:tiple | O piano ; Andean waltz-derived song of Ecuador and Colombia.
+pasodoble ; high ; C mood_triumphant | F trumpet snare_drum | O castanets ; Spanish march-dance associated with bullfights.
+pep band ; medium ; C mood_energetic | F trumpet trombone drum_kit | O ; Small bands playing at sports events.
+persian classical ; high ; C tar_lute mb:setar santur kamancheh mb:zarb | F free_meter | O | X oud ; Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+pilón ; medium ; C  | F male_vocals tempo_mid | O  ; Cuban dance rhythm imitating rice pounding.
+pinpeat ; high ; C mb:ranat_ek mb:khong_wong_yai | F instrumental_track mood_spiritual tempo_mid | O  | X gamelan_tuning ; Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pipe band music ; high ; C highland_bagpipe | F large_drums mood_triumphant | O  | X bagpipes ; Scottish pipe bands: Highland pipes, snare and tenor drums, bass drum.
+piphat ; high ; C mb:ranat_ek mb:khong_wong_yai mb:pi_nai | F instrumental_track tempo_mid | O  | X gamelan_tuning ; Thai ensemble of xylophones, gong circles, pi oboe and drums.
+pirekua ; medium ; C male_vocals duet | F time_6_8 mood_romantic | O  ; P'urhépecha song of Michoacán in 3/4–6/8 with guitars.
+piyyut ; medium ; C male_vocals | F maqam free_meter melisma | O  ; Jewish liturgical poetry sung in synagogue modes.
+plena ; high ; C pandeiro storytelling | F guiro male_vocals time_2_4 | O  | X frame_drum ; Puerto Rican sung newspaper with panderetas; the specific concept is closer than frame drum.
+polifonia occitana ; medium ; C male_vocals | F drone tambourine | O  ; Occitan polyphonic singing groups.
+polka ; high ; C | F clarinet trumpet | O ; Central European couple dance in 2/4.
+polonaise ; high ; C  | F orchestra piano mood_triumphant tempo_mid | O  | X march ; Polish processional dance in moderate 3/4 with characteristic rhythm.
+powada ; medium ; C male_vocals mood_triumphant | F dholak vocal_call_response tempo_fast | O  ; Marathi heroic ballads with daf and tuntuna.
+production music ; medium ; ; Library music for media; its traits depend on the brief, not the genre.
+pungmul ; high ; C mb:janggu mb:kkwaenggwari mb:buk | F mood_energetic polyrhythm | O ; Korean farmers' percussion music with dance.
+punta ; high ; C mb:garifuna_drum female_vocals | F mood_energetic | O ; Garifuna dance music.
+punto ; high ; C male_vocals | F mb:laúd guiro claves_instrument | O ; Cuban peasant improvised décima singing with tres and laúd.
+pìobaireachd ; high ; C highland_bagpipe instrumental_track | F tempo_slow ornamentation drone | O  | X bagpipes ; Classical music of the Highland bagpipe, theme with variations.
+quan họ ; high ; C duet | F female_vocals male_vocals ornamentation | O ; Vietnamese alternating love-song duets.
+quyi ; medium ; C  | F spoken_vocal mb:sanxian | O  ; Chinese narrative singing and storytelling arts.
+raqs baladi ; high ; C | F mb:kanun violin accordion | O ; Egyptian belly dance music.
+rara ; high ; C  | F vocal_call_response mood_energetic | O  ; Haitian Easter processional music with vaksin bamboo trumpets and drums.
+rasqueado cuiabano ; medium ; C  | F mb:viola_caipira mood_bright | O  ; Mato Grosso dance music.

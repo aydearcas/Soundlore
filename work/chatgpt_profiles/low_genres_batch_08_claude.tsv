@@ -1,0 +1,203 @@
+genre	concept_id	level	confidence	rationale
+talempong	MB0276	C	medium	Minangkabau gong-chime music in interlocking patterns.
+talempong	polyrhythm	C	medium	Minangkabau gong-chime music in interlocking patterns.
+talempong	hocket	F	medium	Minangkabau gong-chime music in interlocking patterns.
+talempong	instrumental_track	F	medium	Minangkabau gong-chime music in interlocking patterns.
+talempong	mood_bright	F	medium	Minangkabau gong-chime music in interlocking patterns.
+talempong	gamelan_tuning	X	medium	Minangkabau gong-chime music in interlocking patterns.
+tamborera	female_vocals	C	medium	Panamanian drum dance with responsorial singing.
+tamborera	mood_energetic	F	medium	Panamanian drum dance with responsorial singing.
+tamborera	vocal_call_response	F	medium	Panamanian drum dance with responsorial singing.
+tamborito	female_vocals	C	high	Panamanian national dance: three drums, handclaps and women's chorus.
+tamborito	handclaps	C	high	Panamanian national dance: three drums, handclaps and women's chorus.
+tamborito	time_2_4	F	high	Panamanian national dance: three drums, handclaps and women's chorus.
+tamborito	mood_bright	F	high	Panamanian national dance: three drums, handclaps and women's chorus.
+taquirari	mood_bright	C	medium	Eastern Bolivian lowland dance with violin, guitar and drums.
+taquirari	violin	F	medium	Eastern Bolivian lowland dance with violin, guitar and drums.
+taquirari	male_vocals	F	medium	Eastern Bolivian lowland dance with violin, guitar and drums.
+taquirari	charango	X	medium	Eastern Bolivian lowland dance with violin, guitar and drums.
+taquirari	pan_flute	X	medium	Eastern Bolivian lowland dance with violin, guitar and drums.
+tarawangsa	MB0334	C	medium	Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tarawangsa	drone	C	medium	Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tarawangsa	mood_spiritual	C	medium	Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tarawangsa	repetition	F	medium	Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tarawangsa	tempo_slow	F	medium	Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tassa	tempo_fast	C	high	Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassa	polyrhythm	C	high	Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassa	cymbals	F	high	Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassa	accelerando	F	high	Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassa	mood_energetic	F	high	Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassu	rap	C	medium	Wolof rhythmic recitation, a precursor of Senegalese rap.
+tassu	female_vocals	F	medium	Wolof rhythmic recitation, a precursor of Senegalese rap.
+tassu	mood_playful	F	medium	Wolof rhythmic recitation, a precursor of Senegalese rap.
+tassu	repetition	F	medium	Wolof rhythmic recitation, a precursor of Senegalese rap.
+tchinkoumé	vocal_call_response	C	low	Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tchinkoumé	mood_spiritual	C	low	Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tchinkoumé	polyrhythm	F	low	Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tchinkoumé	female_vocals	F	low	Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tchinkoumé	large_drums	F	low	Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tembang cianjuran	MB0334	C	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	male_vocals	C	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	female_vocals	C	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	MB0646	F	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	tempo_slow	F	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	melisma	F	high	Sundanese sung poetry with kacapi indung and suling.
+tembang cianjuran	pitched_percussion	X	high	Sundanese sung poetry with kacapi indung and suling.
+thai classical	MB0549	C	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+thai classical	MB0378	C	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+thai classical	MB0505	F	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+thai classical	heterophony	F	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+thai classical	tempo_mid	F	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+thai classical	gamelan_tuning	X	high	Thai court music: xylophones, gong circles, pi oboe;seven-tone equidistant tuning, not gamelan.
+timbila	instrumental_track	C	high	Chopi xylophone orchestras of Mozambique in multi-movement ngodo.
+timbila	mood_energetic	F	high	Chopi xylophone orchestras of Mozambique in multi-movement ngodo.
+timbila	theme_variations	F	high	Chopi xylophone orchestras of Mozambique in multi-movement ngodo.
+timbila	polyrhythm	F	high	Chopi xylophone orchestras of Mozambique in multi-movement ngodo.
+tizita	MB0399	C	high	Ethiopian song of longing in the tizita qenet.
+tizita	male_vocals	C	high	Ethiopian song of longing in the tizita qenet.
+tizita	female_vocals	C	high	Ethiopian song of longing in the tizita qenet.
+tizita	mood_nostalgic	F	high	Ethiopian song of longing in the tizita qenet.
+tizita	tempo_slow	F	high	Ethiopian song of longing in the tizita qenet.
+toada de boi	large_drums	C	medium	Amazonian bumba-meu-boi music with massed drums.
+toada de boi	mood_energetic	F	medium	Amazonian bumba-meu-boi music with massed drums.
+toada de boi	vocal_call_response	F	medium	Amazonian bumba-meu-boi music with massed drums.
+toada de boi	male_vocals	F	medium	Amazonian bumba-meu-boi music with massed drums.
+tonada potosina	female_vocals	C	low	Potosí folk song, typically with charango and voice.
+tonada potosina	violin	F	low	Potosí folk song, typically with charango and voice.
+tonada potosina	mood_melancholic	F	low	Potosí folk song, typically with charango and voice.
+tonada potosina	pan_flute	X	low	Potosí folk song, typically with charango and voice.
+tradi-moderne congolais	male_vocals	C	medium	Congolese pop drawing on traditional rhythms and songs.
+tradi-moderne congolais	polyrhythm	C	medium	Congolese pop drawing on traditional rhythms and songs.
+tradi-moderne congolais	vocal_call_response	F	medium	Congolese pop drawing on traditional rhythms and songs.
+tradi-moderne congolais	mood_energetic	F	medium	Congolese pop drawing on traditional rhythms and songs.
+traditional séga	time_6_8	C	high	Original séga with ravanne frame drums, maravanne and triangle.
+traditional séga	female_vocals	C	high	Original séga with ravanne frame drums, maravanne and triangle.
+traditional séga	triangle	F	high	Original séga with ravanne frame drums, maravanne and triangle.
+traditional séga	mood_energetic	F	high	Original séga with ravanne frame drums, maravanne and triangle.
+traditional séga	accordion	X	high	Original séga with ravanne frame drums, maravanne and triangle.
+trallalero	male_vocals	C	high	Genoese five-part male polyphony with voices imitating instruments, including a falsetto part.
+trallalero	falsetto	C	high	Genoese five-part male polyphony with voices imitating instruments, including a falsetto part.
+trallalero	vocal_harmonies	F	high	Genoese five-part male polyphony with voices imitating instruments, including a falsetto part.
+trallalero	tempo_mid	F	high	Genoese five-part male polyphony with voices imitating instruments, including a falsetto part.
+tsapiky	male_vocals	C	high	Southwestern Malagasy fast guitar dance music.
+tsapiky	electric_bass	F	high	Southwestern Malagasy fast guitar dance music.
+tsapiky	mood_energetic	F	high	Southwestern Malagasy fast guitar dance music.
+tsapiky	syncopation	F	high	Southwestern Malagasy fast guitar dance music.
+tsugaru-jamisen	instrumental_track	C	high	Virtuosic, percussive solo shamisen from Aomori.
+tsugaru-jamisen	solo_performer	C	high	Virtuosic, percussive solo shamisen from Aomori.
+tsugaru-jamisen	mood_energetic	F	high	Virtuosic, percussive solo shamisen from Aomori.
+tsugaru-jamisen	loud_dynamics	F	high	Virtuosic, percussive solo shamisen from Aomori.
+tumba	syncopation	C	medium	Curaçao carnival road-march music with drums and band.
+tumba	mood_energetic	C	medium	Curaçao carnival road-march music with drums and band.
+tumba	horn_section	F	medium	Curaçao carnival road-march music with drums and band.
+tumba	male_vocals	F	medium	Curaçao carnival road-march music with drums and band.
+tumba	tempo_fast	F	medium	Curaçao carnival road-march music with drums and band.
+tumba francesa	female_vocals	C	high	Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumba francesa	large_drums	C	high	Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumba francesa	vocal_call_response	F	high	Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumba francesa	polyrhythm	F	high	Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumba francesa	mood_energetic	F	high	Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumbélé	male_vocals	C	low	Guadeloupean and Martinican dance music related to Congolese guitar styles.
+tumbélé	mood_energetic	F	low	Guadeloupean and Martinican dance music related to Congolese guitar styles.
+turkish classical	MB0345	C	high	Ottoman art music with ney, tanbur, kanun, kemençe and kudüm.
+turkish classical	MB0400	C	high	Ottoman art music with ney, tanbur, kanun, kemençe and kudüm.
+turkish classical	MB0665	F	high	Ottoman art music with ney, tanbur, kanun, kemençe and kudüm.
+turkish classical	MB0145	F	high	Ottoman art music with ney, tanbur, kanun, kemençe and kudüm.
+turntablism	NO_CHANGE			Already described.
+twoubadou	male_vocals	C	medium	Haitian troubadour guitar songs.
+twoubadou	MB0436	F	medium	Haitian troubadour guitar songs.
+twoubadou	maracas	F	medium	Haitian troubadour guitar songs.
+twoubadou	mood_nostalgic	F	medium	Haitian troubadour guitar songs.
+tân cổ giao duyên	female_vocals	C	medium	Vietnamese blend of cải lương vọng cổ and modern song.
+tân cổ giao duyên	male_vocals	C	medium	Vietnamese blend of cải lương vọng cổ and modern song.
+tân cổ giao duyên	MB0747	F	medium	Vietnamese blend of cải lương vọng cổ and modern song.
+tân cổ giao duyên	mood_melancholic	F	medium	Vietnamese blend of cải lương vọng cổ and modern song.
+unyago	female_vocals	C	low	Initiation dances of women of coastal Tanzania, with drums.
+unyago	mood_energetic	F	low	Initiation dances of women of coastal Tanzania, with drums.
+unyago	polyrhythm	F	low	Initiation dances of women of coastal Tanzania, with drums.
+unyago	vocal_call_response	F	low	Initiation dances of women of coastal Tanzania, with drums.
+upopo	female_vocals	C	medium	Ainu seated group singing in rounds, with lid-tapping.
+upopo	repetition	F	medium	Ainu seated group singing in rounds, with lid-tapping.
+upopo	hocket	F	medium	Ainu seated group singing in rounds, with lid-tapping.
+upopo	mood_spiritual	F	medium	Ainu seated group singing in rounds, with lid-tapping.
+urtiin duu	morin_khuur	C	high	Mongolian long song: very long, ornamented notes over free rhythm.
+urtiin duu	female_vocals	C	high	Mongolian long song: very long, ornamented notes over free rhythm.
+urtiin duu	male_vocals	C	high	Mongolian long song: very long, ornamented notes over free rhythm.
+urtiin duu	tempo_very_slow	F	high	Mongolian long song: very long, ornamented notes over free rhythm.
+urtiin duu	ornamentation	F	high	Mongolian long song: very long, ornamented notes over free rhythm.
+urumi melam	mood_spiritual	C	medium	Tamil folk ensemble led by the friction-like urumi drum, for trance rituals.
+urumi melam	MB0457	F	medium	Tamil folk ensemble led by the friction-like urumi drum, for trance rituals.
+urumi melam	accelerando	F	medium	Tamil folk ensemble led by the friction-like urumi drum, for trance rituals.
+uyghur muqam	male_vocals	C	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	MB0665	C	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	MB0207	C	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	MB0270	F	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	daf	F	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	ney	X	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uyghur muqam	oud	X	high	Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uzun hava	male_vocals	C	high	Turkish free-rhythm 'long air', often with bağlama or kaval.
+uzun hava	mood_melancholic	F	high	Turkish free-rhythm 'long air', often with bağlama or kaval.
+uzun hava	improvisation	F	high	Turkish free-rhythm 'long air', often with bağlama or kaval.
+uzun hava	kaval	O	high	Turkish free-rhythm 'long air', often with bağlama or kaval.
+vallenato	button_accordion	C	high	Colombian accordion music with caja and guacharaca.
+vallenato	male_vocals	C	high	Colombian accordion music with caja and guacharaca.
+vallenato	mood_romantic	F	high	Colombian accordion music with caja and guacharaca.
+vallenato	accordion	X	high	Colombian accordion music with caja and guacharaca.
+vals venezolano	hemiola	C	high	Venezuelan waltz with cuatro, guitar or piano.
+vals venezolano	piano	F	high	Venezuelan waltz with cuatro, guitar or piano.
+vals venezolano	mood_romantic	F	high	Venezuelan waltz with cuatro, guitar or piano.
+vals venezolano	mood_nostalgic	F	high	Venezuelan waltz with cuatro, guitar or piano.
+valsa brasileira	mood_romantic	C	medium	Brazilian waltz, sentimental, often in choro instrumentation.
+valsa brasileira	mood_nostalgic	F	medium	Brazilian waltz, sentimental, often in choro instrumentation.
+valsa brasileira	acoustic_guitar	F	medium	Brazilian waltz, sentimental, often in choro instrumentation.
+valsa brasileira	flute	O	medium	Brazilian waltz, sentimental, often in choro instrumentation.
+vanera	button_accordion	C	medium	Gaúcho dance derived from the habanera, led by the gaita.
+vanera	male_vocals	F	medium	Gaúcho dance derived from the habanera, led by the gaita.
+vanera	mood_energetic	F	medium	Gaúcho dance derived from the habanera, led by the gaita.
+vanera	accordion	X	medium	Gaúcho dance derived from the habanera, led by the gaita.
+vedic chant	male_vocals	C	high	Sanskrit Vedic recitation with three pitch accents.
+vedic chant	tempo_slow	F	high	Sanskrit Vedic recitation with three pitch accents.
+verbunkos	cimbalom	C	high	Hungarian recruiting-dance music with slow and fast sections.
+verbunkos	tempo_change	F	high	Hungarian recruiting-dance music with slow and fast sections.
+verbunkos	mood_theatrical	F	high	Hungarian recruiting-dance music with slow and fast sections.
+verbunkos	clarinet	O	high	Hungarian recruiting-dance music with slow and fast sections.
+vietnamese classical	heterophony	C	medium	Umbrella for Vietnamese court and chamber music.
+vietnamese classical	dan_tranh	F	medium	Umbrella for Vietnamese court and chamber music.
+vietnamese classical	MB0808	F	medium	Umbrella for Vietnamese court and chamber music.
+vietnamese classical	tempo_slow	F	medium	Umbrella for Vietnamese court and chamber music.
+villancico	strophic_form	C	medium	Iberian Christmas songs, popular and choral.
+villancico	guitar	F	medium	Iberian Christmas songs, popular and choral.
+villancico	tambourine	F	medium	Iberian Christmas songs, popular and choral.
+villancico	glockenspiel	X	medium	Iberian Christmas songs, popular and choral.
+villancico	orchestra	X	medium	Iberian Christmas songs, popular and choral.
+waka	female_vocals	C	medium	Yoruba Muslim women's song with percussion.
+waka	vocal_call_response	F	medium	Yoruba Muslim women's song with percussion.
+waka	mood_spiritual	F	medium	Yoruba Muslim women's song with percussion.
+waka	accelerando	F	medium	Yoruba Muslim women's song with percussion.
+waltz	orchestra	F	high	Ballroom dance in 3/4.
+waltz	string_section	F	high	Ballroom dance in 3/4.
+waltz	mood_romantic	F	high	Ballroom dance in 3/4.
+waltz	tempo_mid	F	high	Ballroom dance in 3/4.
+wangga	male_vocals	C	high	Western Arnhem Land songs with didgeridoo and clapsticks.
+wangga	MB0144	C	high	Western Arnhem Land songs with didgeridoo and clapsticks.
+wangga	repetition	F	high	Western Arnhem Land songs with didgeridoo and clapsticks.
+wassoulou	MB0340	C	high	Malian music sung by women with kamalen ngoni and calabash.
+wassoulou	repetition	F	high	Malian music sung by women with kamalen ngoni and calabash.
+wassoulou	mood_hypnotic	F	high	Malian music sung by women with kamalen ngoni and calabash.
+wassoulou	kora	X	high	Malian music sung by women with kamalen ngoni and calabash.
+whistling	NO_CHANGE			Already described.
+xẩm	male_vocals	C	medium	Vietnamese blind street singers' music.
+xẩm	MB0808	F	medium	Vietnamese blind street singers' music.
+xẩm	storytelling	F	medium	Vietnamese blind street singers' music.
+xẩm	mood_melancholic	F	medium	Vietnamese blind street singers' music.
+yukar	male_vocals	C	medium	Ainu epic recitation.
+yukar	repetition	F	medium	Ainu epic recitation.
+yukar	free_meter	F	medium	Ainu epic recitation.
+zamacueca	vocal_call_response	F	medium	Peruvian ancestor of the marinera and cueca.
+zamacueca	guitar	F	medium	Peruvian ancestor of the marinera and cueca.
+zamba	bombo_leguero	C	high	Argentine slow 6/8 handkerchief dance.
+zamba	male_vocals	F	high	Argentine slow 6/8 handkerchief dance.
+zamba	tempo_slow	F	high	Argentine slow 6/8 handkerchief dance.
+zemirot	repetition	C	medium	Jewish Sabbath table songs sung together.
+zemirot	male_vocals	F	medium	Jewish Sabbath table songs sung together.
+zemirot	choir	F	medium	Jewish Sabbath table songs sung together.

@@ -1,0 +1,79 @@
+# Soundlore gap review, phase B, batch 1: decision table for approval (2026-10-11). Nothing here is in the thesaurus yet.
+# decision: add | add as narrower | valid alias | related | attribute | already covered | defer | out of scope
+# Scope rule: add when at least one genre profile would use the concept, or when other concepts need it in their definitions.
+# Fill 'approved' with yes / no / change (and a note); the accepted rows get definitions, scope notes, relations and verified Wikidata links.
+candidate	decision	facet	branch	broader	existing	reason	approved
+Pitch, register and range (branch)	add	MEL	new branch	—	—	Home for register and range, which apply to any melodic line; avoids scattering them across VOC and INS.	
+Register	add	MEL	Pitch, register and range	—	—	Low-register riffs, high-register leads and vocal register distinguish many genres.	
+High register	add as narrower	MEL	Pitch, register and range	Register	—	Relative to the voice or instrument; the scope note must say so.	
+Low register	add as narrower	MEL	Pitch, register and range	Register	—	Same; down-tuned metal, sub-heavy electronic, bass voices.	
+Middle register	defer	MEL				Rarely distinguishes genres; the default when nothing is said.	
+Melodic range	add	MEL	Pitch, register and range	—	—	Narrow-range chant and rap-sung hooks versus wide-range operatic and power-metal lines.	
+Tessitura	add	VOC	Voice types	—	Melodic range (related)	Where a part sits most of the time, distinct from its total range; used for voice types.	
+Pitch	attribute					A basic property, not a descriptor a profile would use; the facets already assume it.	
+Intervals (branch)	add	HAR	new branch	—	Tritone (moves here)	Gives intervals a proper home; Tritone now sits under Harmonic devices.	
+Interval	add	HAR	Intervals	—	—	Needed to define scales, chords, contour and the tritone.	
+Melodic interval; Harmonic interval	defer	HAR			Interval	Distinction for teaching, not for telling genres apart.	
+Compound interval; Enharmonic equivalence	defer	HAR				Notation and theory detail.	
+Musical phrase	add	MEL	Melodic elements	—	Anacrusis, cadence (related); FRM (related)	Needed to define cadence, anacrusis, phrasing and period forms.	
+Melodic contour	add	MEL	Melodic devices	—	Conjunct/disjunct motion (related)	Shape of a line; distinguishes chant, lament, anthemic hooks.	
+Ascending/Descending/Arch/Undulating contour	attribute	MEL			Melodic contour	Values of the contour, better said in the scope note and examples.	
+Repeated-note melody	add	MEL	Melodic devices	—	Conjunct motion (related)	Recitation-tone chant, sing-rap hooks, minimalist pop toplines.	
+Melodic climax	defer	MEL				Analysis of single pieces.	
+Motivic development	add as narrower	MEL	Melodic elements	Motif	—	Classical, progressive rock and jazz improvisation develop motifs.	
+Fragmentation; Augmentation; Diminution; Retrograde; Melodic inversion	defer	MEL			Motivic development	Needed later to define serialism and twelve-tone technique (area 4.23); not genre-distinguishing on their own.	
+Transposition	defer	MEL			Modulation (related)	Operation on material; not a genre trait.	
+Functional harmony	add	HAR	Tonality	—	Modality, one-chord harmony (related)	Separates common-practice and pop tonality from modal and static-harmony music.	
+Tonic/Predominant/Dominant function	defer	HAR			Functional harmony	Fine theory; cadences are already defined by their chords.	
+Consonance	add	HAR	Harmonic devices	—	Dissonance (related)	Pair of Dissonance; label "Consonance (harmony)" to keep it apart from the poetic device.	
+Harmonic tension; Harmonic resolution	already covered	HAR			Dissonance, cadences	Described by dissonance, suspensions and cadences.	
+Chord voicing	add	HAR	Chords	—	Slash chord (related)	Spread versus tight voicings mark ambient, jazz and gospel keyboards.	
+Open voicing	add as narrower	HAR	Chords	Chord voicing	—	Wide-spaced chords; ambient, post-rock, film.	
+Close voicing	add as narrower	HAR	Chords	Chord voicing	—	Tight cluster-like voicings; gospel, jazz piano, barbershop.	
+Drop-2 voicing; Drop-3 voicing; Upper-structure triad	defer	HAR			Chord voicing, Jazz harmony	Jazz-specific detail covered by Jazz harmony.	
+Chord inversion	add	HAR	Chords	—	Slash chord (related)	Needed to define slash chords and bass lines that walk through inversions.	
+Root position; First inversion; Second inversion	defer	HAR			Chord inversion	Values of the inversion.	
+Non-chord tone	add	HAR	Harmonic devices	—	Appoggiatura (related)	Needed to define passing tones, suspensions and the appoggiatura.	
+Passing tone	add as narrower	HAR	Harmonic devices	Non-chord tone	Passing chord (related)	Basic melodic-harmonic device.	
+Neighbor tone	add as narrower	HAR	Harmonic devices	Non-chord tone	—	Basic device; also behind mordent and turn.	
+Suspension	add as narrower	HAR	Harmonic devices	Non-chord tone	Suspended chord (related)	Choral, baroque and pop ballads; keeps sus chords and suspensions apart.	
+Retardation; Escape tone; Cambiata	defer	HAR			Non-chord tone	Fine theory.	
+Pulse and subdivision (branch)	add	RHY	new branch	—	—	Pulse, subdivision, tuplets and microtiming do not fit Meter or Rhythmic feel.	
+Pulse	add	RHY	Pulse and subdivision	—	Meter, tempo (related)	Needed to define meter, tempo, free meter and polymeter.	
+Beat subdivision	add	RHY	Pulse and subdivision	—	Straight feel, swing, triplet feel (related)	Needed to define feels; 16th-note versus triplet subdivision separates many styles.	
+Beat hierarchy	already covered	RHY			Meter	In the definition of Meter.	
+Tuplet	add	RHY	Pulse and subdivision	—	Polyrhythm (related)	Needed for triplets and odd groupings in drumming and rap flows.	
+Triplet	add as narrower	RHY	Pulse and subdivision	Tuplet	Triplet feel, triplet flow (related)	Triplet hi-hats in trap, triplet fills in rock and metal.	
+Duplet; Quintuplet; Septuplet	defer	RHY			Tuplet	Rare as genre traits.	
+Additive rhythm	add	RHY	Rhythmic devices	—	Aksak, tresillo (related)	Groupings of 2s and 3s; Balkan, Indian and Afro-Latin rhythm.	
+Euclidean rhythm	defer	RHY			Tresillo, clave (related)	Generative method; revisit with sequencing techniques.	
+Isorhythm; Hypermeter; Polytempo	defer	RHY				Historical or analytical; rare as genre traits.	
+Metric dissonance	already covered	RHY			Hemiola, polymeter, cross-rhythm	Covered by the narrower phenomena.	
+Microtiming	add	RHY	Pulse and subdivision	—	Laid-back feel, swing (related); Quantization later in PRD	Unquantized "drunk" timing of neo-soul and J Dilla beats; groove in funk and jazz.	
+Parallel motion	add	TEX	Counterpoint	—	Harmonized lines, power chord (related)	Organum, planing, power-chord riffs and parallel harmonies.	
+Contrary motion	add	TEX	Counterpoint	—	Voice leading (related)	Counterpoint and classical voice leading.	
+Oblique motion; Similar motion	defer	TEX			Voice leading	Complete the set only if a profile needs them.	
+Invertible counterpoint; Canonic imitation; Stretto	defer	TEX			Imitation, canon, fugue	Covered well enough by Canon and Fugue for now.	
+Homorhythm	add	TEX	Texture	—	Homophony (related)	All parts in the same rhythm: hymns, chorales, gang vocals, unison hits.	
+Pointillistic texture; Stratified texture; Independent layers	defer	TEX				Need observable criteria first.	
+Foreground melody	attribute	TEX				A role of a part, not a property of a piece.	
+Chordal accompaniment	already covered	TEX			Homophony, comping, block chords	Covered.	
+Broken-chord accompaniment	add	TEX	Accompaniment textures	—	Alberti bass (becomes narrower), arpeggio (related)	Fingerpicked and arpeggiated accompaniment in folk, ballads and classical.	
+Melody-and-accompaniment texture	already covered	TEX			Homophony	Homophony is defined as main melody with chordal accompaniment; tighten the definition instead.	
+Accent	add	DYN	Articulation	—	Marcato, sforzando, backbeat (related)	Needed to define marcato, sforzando, backbeat and syncopation.	
+Agogic accent; Portato; Fortepiano; Subito piano; Subito forte	defer	DYN			Accent, dynamics	Fine notation detail.	
+Terraced dynamics	defer	DYN			Dynamic contrast	Close to Dynamic contrast; add if baroque profiles need it.	
+Dynamic shaping; Articulation contrast; Expressive phrasing	out of scope	DYN				Too general to be used consistently.	
+Prosody (branch)	add	LYR	new branch	—	—	Separates how words fit the music from rhetorical devices.	
+Word stress	add	LYR	Prosody	—	Syllabic setting (related)	Fit or clash of stressed syllables and strong beats; rap flow, art song.	
+Alliteration	add	LYR	Lyrical devices	—	Assonance (related)	Rap and hip-hop wordplay.	
+Slant rhyme	add	LYR	Lyrical devices	—	Rhyme scheme (related)	Near rhyme, common in rap and pop.	
+Enjambment	add	LYR	Prosody	—	—	Lines running across bar lines and phrases; rap flows, singer-songwriters.	
+Caesura; Anaphora; Syllabic meter; Accentual meter	defer	LYR			Repetition	Literary detail.	
+First-, second-, third-person narrator; Unreliable narrator	defer	LYR			Storytelling, confessional lyrics	Interpretive; rarely genre-wide.	
+Metaphor; Simile; Irony; Imagery	out of scope	LYR				Present in almost all lyrics; do not tell genres apart.	
+Consonance (poetry)	defer	LYR			Assonance	Add with Alliteration only if profiles need it.	
+Straight-tone singing	add	VOC	Singing techniques	—	Vocal vibrato (related)	Early music, choral and many folk styles sing without vibrato.	
+Nasal vocals	add	VOC	Singing techniques	—	Twang (related)	Nasal resonance beyond country twang (punk, folk, Chinese opera); definition without value judgment.	
+Vocal diction; Vocal onset; Vocal release; Vocal projection; Vocal phrasing	defer	VOC				Technical detail or too general.	
+Time signature	add	RHY	Meter	—	Meter (related; remove the alias)	Notation that represents a meter, not a synonym; placement under Meter as a related entry needs your decision.	

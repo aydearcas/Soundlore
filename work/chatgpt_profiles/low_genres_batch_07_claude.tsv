@@ -1,0 +1,202 @@
+genre	concept_id	level	confidence	rationale
+red song	mood_triumphant	C	medium	Chinese revolutionary songs in choral and march style.
+red song	anthemic	C	medium	Chinese revolutionary songs in choral and march style.
+red song	orchestra	F	medium	Chinese revolutionary songs in choral and march style.
+red song	male_vocals	F	medium	Chinese revolutionary songs in choral and march style.
+red song	female_vocals	F	medium	Chinese revolutionary songs in choral and march style.
+regional mexicano	male_vocals	C	low	Umbrella for Mexican regional styles;subgenres carry the specific resources.
+regional mexicano	trumpet	F	low	Umbrella for Mexican regional styles;subgenres carry the specific resources.
+regional mexicano	violin	F	low	Umbrella for Mexican regional styles;subgenres carry the specific resources.
+repente	male_vocals	C	medium	Brazilian improvised sung duel.
+repente	duet	C	medium	Brazilian improvised sung duel.
+repente	MB0750	F	medium	Brazilian improvised sung duel.
+repente	pandeiro	F	medium	Brazilian improvised sung duel.
+repente	repetition	F	medium	Brazilian improvised sung duel.
+rizitika	male_vocals	C	high	Cretan 'root' songs, unaccompanied, from the White Mountains.
+rizitika	free_meter	F	high	Cretan 'root' songs, unaccompanied, from the White Mountains.
+rizitika	melisma	F	high	Cretan 'root' songs, unaccompanied, from the White Mountains.
+rizitika	mood_melancholic	F	high	Cretan 'root' songs, unaccompanied, from the White Mountains.
+rumba	male_vocals	C	medium	Afro-Cuban rumba complex (guaguancó, yambú, columbia).
+rumba	claves_instrument	F	medium	Afro-Cuban rumba complex (guaguancó, yambú, columbia).
+rumba	improvisation	F	medium	Afro-Cuban rumba complex (guaguancó, yambú, columbia).
+rumba cubana	male_vocals	C	high	Afro-Cuban rumba complex with congas, clave and catá.
+rumba cubana	improvisation	C	high	Afro-Cuban rumba complex with congas, clave and catá.
+rumba cubana	claves_instrument	F	high	Afro-Cuban rumba complex with congas, clave and catá.
+rumba cubana	MB0545	F	high	Afro-Cuban rumba complex with congas, clave and catá.
+rumba cubana	polyrhythm	F	high	Afro-Cuban rumba complex with congas, clave and catá.
+ryūkōka	female_vocals	C	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	male_vocals	C	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	string_section	F	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	mood_nostalgic	F	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	mood_melancholic	F	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	trumpet	O	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	koto	X	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	shakuhachi	X	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+ryūkōka	shamisen	X	high	Japanese popular songs of the 1920s–50s with Western orchestras and yonanuki scales.
+rōkyoku	male_vocals	C	high	Narrative singing with shamisen.
+rōkyoku	mood_theatrical	C	high	Narrative singing with shamisen.
+rōkyoku	spoken_vocal	F	high	Narrative singing with shamisen.
+sa'idi	zurna	C	high	Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+sa'idi	large_drums	C	high	Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+sa'idi	mood_energetic	F	high	Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+sa'idi	male_vocals	F	high	Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+sa'idi	rebab	O	high	Upper Egyptian music: mizmar shawms and tabl baladi drum, sa'idi rhythm.
+salegy	electric_guitar	C	high	Malagasy fast dance music in 6/8.
+salegy	electric_bass	C	high	Malagasy fast dance music in 6/8.
+salegy	time_6_8	F	high	Malagasy fast dance music in 6/8.
+salegy	mood_energetic	F	high	Malagasy fast dance music in 6/8.
+salegy	male_vocals	F	high	Malagasy fast dance music in 6/8.
+saluang klasik	MB0577	C	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	male_vocals	C	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	tempo_slow	C	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	mood_melancholic	F	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	free_meter	F	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	gamelan_tuning	X	medium	Minangkabau bamboo flute music accompanying sung verses.
+saluang klasik	pitched_percussion	X	medium	Minangkabau bamboo flute music accompanying sung verses.
+samri	male_vocals	C	medium	Najdi Saudi group song and dance with frame drums.
+samri	handclaps	F	medium	Najdi Saudi group song and dance with frame drums.
+samri	vocal_call_response	F	medium	Najdi Saudi group song and dance with frame drums.
+samri	tambourine	F	medium	Najdi Saudi group song and dance with frame drums.
+samri	mood_energetic	F	medium	Najdi Saudi group song and dance with frame drums.
+sanjo	instrumental_track	C	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjo	gayageum	C	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjo	MB0322	C	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjo	accelerando	F	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjo	tempo_change	F	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjo	MB0174	F	high	Korean solo instrumental form, slow to fast, with janggu.
+sanjuanito	mood_bright	C	high	Ecuadorian festive dance in 2/4 with pentatonic minor melodies.
+sanjuanito	minor_key	F	high	Ecuadorian festive dance in 2/4 with pentatonic minor melodies.
+sanjuanito	quena	F	high	Ecuadorian festive dance in 2/4 with pentatonic minor melodies.
+sanjuanito	guitar	F	high	Ecuadorian festive dance in 2/4 with pentatonic minor melodies.
+santé engagé	male_vocals	C	medium	Mauritian politically engaged séga songs.
+santé engagé	mood_energetic	F	medium	Mauritian politically engaged séga songs.
+sardana	MB0150	C	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sardana	MB0686	C	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sardana	MB0694	C	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sardana	MB0231	C	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sardana	tempo_mid	F	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sardana	brass	X	high	Catalan circle dance played by the cobla: flabiol, tenoras, tibles and brass.
+sawt	male_vocals	C	medium	Gulf urban song with oud, violin, mirwas drums and claps.
+sawt	handclaps	F	medium	Gulf urban song with oud, violin, mirwas drums and claps.
+sawt	violin	F	medium	Gulf urban song with oud, violin, mirwas drums and claps.
+saya afroboliviana	female_vocals	C	high	Afro-Bolivian music of the Yungas: drums, cuancha scraper and responsorial singing.
+saya afroboliviana	large_drums	F	high	Afro-Bolivian music of the Yungas: drums, cuancha scraper and responsorial singing.
+saya afroboliviana	repetition	F	high	Afro-Bolivian music of the Yungas: drums, cuancha scraper and responsorial singing.
+saya afroboliviana	vocal_call_response	F	high	Afro-Bolivian music of the Yungas: drums, cuancha scraper and responsorial singing.
+schottische	fiddle	F	medium	Couple dance related to the polka, slower.
+schottische	mood_bright	F	medium	Couple dance related to the polka, slower.
+semba	male_vocals	C	high	Angolan urban dance music, ancestor of kizomba.
+semba	electric_bass	F	high	Angolan urban dance music, ancestor of kizomba.
+semba	storytelling	F	high	Angolan urban dance music, ancestor of kizomba.
+semba	mood_energetic	F	high	Angolan urban dance music, ancestor of kizomba.
+shaabi	male_vocals	C	high	Egyptian working-class popular music.
+shaabi	accordion	F	high	Egyptian working-class popular music.
+shaabi	mood_playful	F	high	Egyptian working-class popular music.
+shabad kirtan	male_vocals	C	high	Sikh devotional singing of Gurbani hymns with harmonium and tabla.
+shabad kirtan	raga	F	high	Sikh devotional singing of Gurbani hymns with harmonium and tabla.
+shabad kirtan	repetition	F	high	Sikh devotional singing of Gurbani hymns with harmonium and tabla.
+shashmaqam	male_vocals	C	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	MB0665	C	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	MB0195	C	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	MB0207	F	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	MB0270	F	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	ney	X	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shashmaqam	oud	X	high	Central Asian classical suites with tanbur, dutar, sato, doira and ghijak.
+shima-uta	MB0579	C	high	Okinawan and Amami song with the sanshin.
+shima-uta	female_vocals	F	high	Okinawan and Amami song with the sanshin.
+shima-uta	male_vocals	F	high	Okinawan and Amami song with the sanshin.
+shima-uta	time_2_4	F	high	Okinawan and Amami song with the sanshin.
+shima-uta	shakuhachi	X	high	Okinawan and Amami song with the sanshin.
+shima-uta	shamisen	X	high	Okinawan and Amami song with the sanshin.
+shinkyoku	instrumental_track	C	low	New Japanese compositions for traditional instruments.
+shoor	male_vocals	C	medium	Rhythmic Shi'a eulogy chanting.
+shoor	mood_spiritual	F	medium	Rhythmic Shi'a eulogy chanting.
+shoor	accelerando	F	medium	Rhythmic Shi'a eulogy chanting.
+shoor	repetition	F	medium	Rhythmic Shi'a eulogy chanting.
+shōmyō	male_vocals	C	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	choir	C	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	free_meter	C	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	mood_spiritual	C	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	koto	X	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	shakuhachi	X	high	Japanese Buddhist chant, unaccompanied.
+shōmyō	shamisen	X	high	Japanese Buddhist chant, unaccompanied.
+sierreño	bajo_sexto	C	high	Mexican trio style with twelve-string guitar, bajo sexto and bass.
+sierreño	male_vocals	F	high	Mexican trio style with twelve-string guitar, bajo sexto and bass.
+sigidrigi	male_vocals	C	medium	Fijian string band singing with guitars and ukulele.
+sigidrigi	vocal_harmonies	C	medium	Fijian string band singing with guitars and ukulele.
+sigidrigi	acoustic_guitar	C	medium	Fijian string band singing with guitars and ukulele.
+sigidrigi	ukulele	F	medium	Fijian string band singing with guitars and ukulele.
+sigidrigi	mood_bright	F	medium	Fijian string band singing with guitars and ukulele.
+sigidrigi	hand_percussion	X	medium	Fijian string band singing with guitars and ukulele.
+sikuri	siku	C	high	Andean siku ensembles with bombo drums, interlocking melodies.
+sikuri	large_drums	C	high	Andean siku ensembles with bombo drums, interlocking melodies.
+sikuri	time_2_4	F	high	Andean siku ensembles with bombo drums, interlocking melodies.
+sikuri	mood_bright	F	high	Andean siku ensembles with bombo drums, interlocking melodies.
+sikuri	pan_flute	X	high	Andean siku ensembles with bombo drums, interlocking melodies.
+sinawi	heterophony	F	high	Korean shamanic improvisation ensemble.
+sinawi	MB0518	F	high	Korean shamanic improvisation ensemble.
+sinawi	MB0293	F	high	Korean shamanic improvisation ensemble.
+sizhu music	pipa	F	medium	Chinese silk-and-bamboo ensembles.
+sizhu music	yangqin	F	medium	Chinese silk-and-bamboo ensembles.
+sizhu music	heterophony	F	medium	Chinese silk-and-bamboo ensembles.
+sizhu music	tempo_mid	F	medium	Chinese silk-and-bamboo ensembles.
+skiladiko	male_vocals	C	medium	Greek nightclub laiko with emotional vocals and electric bouzouki.
+skiladiko	electric_guitar	F	medium	Greek nightclub laiko with emotional vocals and electric bouzouki.
+slack-key guitar	instrumental_track	C	high	Hawaiian open-tuned finger-style guitar.
+slack-key guitar	mood_dreamy	F	high	Hawaiian open-tuned finger-style guitar.
+slack-key guitar	tempo_slow	F	high	Hawaiian open-tuned finger-style guitar.
+slow waltz	orchestra	F	high	Ballroom English waltz.
+slow waltz	mood_romantic	F	high	Ballroom English waltz.
+slowed & reverb	NO_CHANGE			Already described by its production treatment.
+son calentano	time_6_8	C	medium	Tierra Caliente son with violin, guitar and tamborita.
+son calentano	guitar	F	medium	Tierra Caliente son with violin, guitar and tamborita.
+son calentano	male_vocals	F	medium	Tierra Caliente son with violin, guitar and tamborita.
+son huasteco	time_6_8	C	high	Son of the Huasteca: violin, jarana huasteca and huapanguera, falsetto breaks.
+son huasteco	improvisation	F	high	Son of the Huasteca: violin, jarana huasteca and huapanguera, falsetto breaks.
+son huasteco	male_vocals	F	high	Son of the Huasteca: violin, jarana huasteca and huapanguera, falsetto breaks.
+son istmeño	time_3_4	C	medium	Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son istmeño	guitar	F	medium	Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son istmeño	male_vocals	F	medium	Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son istmeño	mood_melancholic	F	medium	Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son istmeño	cuatro	X	medium	Zapotec songs of the Isthmus of Tehuantepec, slow and lyrical.
+son jarocho	female_vocals	C	high	Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+son jarocho	male_vocals	C	high	Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+son jarocho	improvisation	F	high	Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+son jarocho	MB0544	F	high	Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+son jarocho	cuatro	X	high	Veracruz son with jaranas, requinto jarocho, harp and tarima zapateado.
+soukous	male_vocals	C	high	Congolese dance music with fast guitar sebene.
+soukous	vocal_harmonies	F	high	Congolese dance music with fast guitar sebene.
+soukous	instrumental_break	F	high	Congolese dance music with fast guitar sebene.
+southeast asian classical	gong	C	medium	Umbrella for court music traditions of Southeast Asia.
+southeast asian classical	heterophony	F	medium	Umbrella for court music traditions of Southeast Asia.
+southeast asian classical	MB0276	F	medium	Umbrella for court music traditions of Southeast Asia.
+southeast asian classical	instrumental_track	F	medium	Umbrella for court music traditions of Southeast Asia.
+spoken word	NO_CHANGE			Already described: speech with sparse accompaniment.
+steel band	instrumental_track	C	high	Trinidadian ensembles of steel pans of all ranges.
+steel band	syncopation	F	high	Trinidadian ensembles of steel pans of all ranges.
+steel band	drum_kit	F	high	Trinidadian ensembles of steel pans of all ranges.
+steel band	mood_bright	F	high	Trinidadian ensembles of steel pans of all ranges.
+steel band	tempo_fast	F	high	Trinidadian ensembles of steel pans of all ranges.
+stotra	male_vocals	C	medium	Sanskrit hymns of praise.
+stotra	tempo_mid	F	medium	Sanskrit hymns of praise.
+stotra	strophic_form	F	medium	Sanskrit hymns of praise.
+séga	time_6_8	C	high	Mauritian and Réunionese dance music with ravanne frame drum, maravanne and triangle.
+séga	female_vocals	C	high	Mauritian and Réunionese dance music with ravanne frame drum, maravanne and triangle.
+séga	triangle	F	high	Mauritian and Réunionese dance music with ravanne frame drum, maravanne and triangle.
+séga	mood_bright	F	high	Mauritian and Réunionese dance music with ravanne frame drum, maravanne and triangle.
+séga tambour	time_6_8	C	medium	Rodrigues séga on goatskin frame drums.
+séga tambour	female_vocals	F	medium	Rodrigues séga on goatskin frame drums.
+séga tambour	mood_energetic	F	medium	Rodrigues séga on goatskin frame drums.
+sōkyoku	female_vocals	C	medium	Koto music.
+sōkyoku	tempo_slow	F	medium	Koto music.
+sōkyoku	instrumental_track	F	medium	Koto music.
+taarab	female_vocals	C	high	Swahili sung poetry with Arab-style orchestra.
+taarab	MB0345	F	high	Swahili sung poetry with Arab-style orchestra.
+taarab	violin	F	high	Swahili sung poetry with Arab-style orchestra.
+taarab	mood_romantic	F	high	Swahili sung poetry with Arab-style orchestra.
+takamba	ngoni	C	medium	Songhai and Tuareg music with the tehardent lute and calabash.
+takamba	male_vocals	C	medium	Songhai and Tuareg music with the tehardent lute and calabash.
+takamba	mood_hypnotic	F	medium	Songhai and Tuareg music with the tehardent lute and calabash.
+takamba	tempo_mid	F	medium	Songhai and Tuareg music with the tehardent lute and calabash.
+takamba	kora	X	medium	Songhai and Tuareg music with the tehardent lute and calabash.
+takamba	balafon	X	medium	Songhai and Tuareg music with the tehardent lute and calabash.

@@ -3,20 +3,29 @@
 
 @ INS | Instrumentation
 plucked_strings | Plucked strings |  |  |  | 
-  acoustic_guitar | Acoustic guitar | steel-string guitar |  | acoustic guitar | 
-  classical_guitar | Classical guitar | nylon-string guitar |  | nylon guitar; spanish guitar | 
-  flamenco_guitar | Flamenco guitar |  |  | flamenco guitar | rasgueado
-  electric_guitar | Electric guitar |  |  | electric guitar | 
-    clean_guitar | Clean electric guitar |  | Undistorted sound. | clean guitar | 
-    distorted_guitar | Distorted guitar |  |  | distorted guitars; heavy guitars | distortion
-  twelve_string_guitar | Twelve-string guitar |  |  | 12-string guitar; jangly guitar | 
-  seven_string_guitar | Extended-range guitar |  | Guitars with added low strings; modern metal. | 7-string guitar; 8-string guitar | drop_tuning
-  pedal_steel | Pedal steel guitar |  |  | pedal steel | 
-  lap_steel | Lap steel / resonator guitar | dobro |  | dobro; lap steel | slide_guitar
+  guitar | Guitar |  | General term; use the narrower terms when the type of guitar is known. | guitar | 
+    acoustic_guitar | Acoustic guitar | steel-string guitar |  | acoustic guitar | 
+    classical_guitar | Classical guitar | nylon-string guitar |  | nylon guitar; spanish guitar | 
+    flamenco_guitar | Flamenco guitar |  |  | flamenco guitar | rasgueado
+    archtop_guitar | Archtop guitar | jazz guitar; hollow-body guitar |  | archtop jazz guitar; hollow-body guitar | 
+    electric_guitar | Electric guitar |  |  | electric guitar | 
+      clean_guitar | Clean electric guitar |  | Undistorted sound. | clean guitar | 
+      distorted_guitar | Distorted guitar |  |  | distorted guitars; heavy guitars | distortion
+      electric_sitar | Electric sitar | Coral sitar | An electric guitar fitted to imitate the sitar, not a sitar. | electric sitar | sitar
+    twelve_string_guitar | Twelve-string guitar |  |  | 12-string guitar; jangly guitar | 
+    seven_string_guitar | Extended-range guitar |  | Guitars with added low strings; modern metal. | 7-string guitar; 8-string guitar | drop_tuning
+    steel_guitar | Steel guitar |  | Guitars played with a steel bar rather than by fretting; general term. |  | slide_guitar
+      pedal_steel | Pedal steel guitar |  |  | pedal steel | 
+      lap_steel | Lap steel guitar | Hawaiian steel guitar | Played flat on the lap or on legs; for resonator instruments use Resonator guitar. | lap steel | slide_guitar
+      resonator_guitar | Resonator guitar | dobro; resophonic guitar | Played lap-style or held like a guitar with a slide. | dobro; resonator guitar | slide_guitar
+    baritone_guitar | Baritone guitar |  | Longer scale and lower tuning than a standard guitar; not the same as an extended-range guitar. | baritone guitar | seven_string_guitar
+    vietnamese_guitar | Vietnamese guitar | scalloped guitar; ghi-ta phím lõm |  | vietnamese scalloped guitar | 
+    viola_caipira | Viola caipira | viola |  | viola caipira | 
   electric_bass | Electric bass | bass guitar |  | bass guitar | 
   fretless_bass | Fretless bass |  |  | fretless bass | 
   double_bass | Double bass | upright bass |  | upright bass | 
   banjo | Banjo |  |  | banjo | 
+    tenor_banjo | Tenor banjo |  |  | tenor banjo | 
   mandolin | Mandolin |  |  | mandolin | 
   ukulele | Ukulele |  |  | ukulele | 
   lute | Lute |  |  | lute | 
@@ -24,34 +33,101 @@ plucked_strings | Plucked strings |  |  |  |
   sitar | Sitar |  |  | sitar | raga
   oud | Oud |  |  | oud | 
   bouzouki | Bouzouki |  |  | bouzouki | 
+    baglamas | Baglamas | Greek baglama |  | baglamas | 
   charango | Charango |  |  | charango | 
   cavaquinho | Cavaquinho |  | Small four-string guitar of samba and choro. | cavaquinho | 
   kora | Kora |  | 21-string harp-lute of the Mandinka griots. | kora | 
-  cuatro | Cuatro / tres | Cuban tres |  | tres cubano | 
+  cuatro | Cuatro |  | The Venezuelan, Puerto Rican and related cuatros; for the Cuban tres use Tres. | cuatro | 
+  tres | Tres | Cuban tres; tres cubano |  | tres cubano | 
   koto | Koto |  |  | koto | 
   shamisen | Shamisen |  |  | shamisen | 
   guzheng | Guzheng |  |  | guzheng | 
   balalaika | Balalaika |  |  | balalaika | 
   saz | Saz | bağlama | Long-necked lute of Turkey and Anatolia. | saz; baglama | 
+  sarod | Sarod |  |  | sarod | raga
+  tanpura | Tanpura | tambura; tanpuri |  | tanpura drone | drone, raga
+  pipa | Pipa |  |  | pipa | 
+  gayageum | Gayageum | kayagum |  | gayageum | guzheng
+  dan_tranh | Đàn tranh | dan tranh |  | dan tranh | guzheng
+  dan_bau | Đàn bầu | dan bau; monochord | One-string zither whose pitch is bent with a flexible rod. | dan bau | 
+  appalachian_dulcimer | Appalachian dulcimer | mountain dulcimer; lap dulcimer | Fretted plucked zither; not the hammered dulcimer. | appalachian dulcimer | 
+  musical_bow | Musical bow |  |  | musical bow | 
+    berimbau | Berimbau |  |  | berimbau | 
+  hammered_dulcimer | Hammered dulcimer |  | Struck with hammers, not plucked; listed here with the other zithers. | hammered dulcimer | 
+    santur | Santur | Persian santur |  | santur | 
+    santoor | Santoor | Indian santoor |  | santoor | raga
+    yangqin | Yangqin |  |  | yangqin | 
+    cimbalom | Cimbalom | cymbalom |  | cimbalom | 
+    khim | Khim |  |  | khim | 
+  bajo_sexto | Bajo sexto |  |  | bajo sexto | button_accordion
+  portuguese_guitar | Portuguese guitar | guitarra portuguesa |  | portuguese guitar | 
+  tar_lute | Tar (lute) | tar | The long-necked lute; the North African frame drum also called tar is a different instrument. | persian tar | 
+  ngoni | Ngoni | ngɔni; n'goni |  | ngoni | 
+    kamale_ngoni | Kamalen ngoni | kamale ngoni |  | kamalen ngoni | 
+  kantele | Kantele |  |  | kantele | 
+  autoharp | Autoharp | chorded zither |  | autoharp | 
+  bandurria | Bandurria | banduria |  | bandurria | 
+  biwa | Biwa |  |  | biwa | pipa
+    heike_biwa | Heike biwa |  |  | heike biwa | 
+  doshpuluur | Doshpuluur | toshpuluur |  | doshpuluur | 
+  dutar | Dutar | dotar |  | dutar | 
+  geomungo | Geomungo | komungo |  | geomungo | guqin
+  gumbri | Gimbri | guembri; sintir |  | gimbri | krakeb
+  guqin | Guqin | qin |  | guqin | 
+  kacapi | Kacapi | kecapi |  | kacapi | 
+  kanun | Qanun | kanun; qanoon |  | qanun | santur
+  krar | Krar | kirar |  | krar | 
+  laud | Laúd |  |  | laud | bandurria
+  octavina | Octavina |  |  | octavina | 
+  sanshin | Sanshin |  |  | sanshin | 
+  sanxian | Sanxian |  |  | sanxian | 
+  setar | Setar |  |  | setar | 
+  tanbur | Tanbur | tanbūr |  | tanbur | 
+  tiple | Tiple |  |  | tiple | tres
+  topshuur | Topshuur | tovshuur |  | topshuur | 
+  dan_nguyet | Đàn nguyệt | đàn kìm; moon lute |  | moon lute | 
 bowed_strings | Bowed strings |  |  |  | 
   violin | Violin |  |  | violin | 
+    electric_violin | Electric violin |  |  | electric violin | 
   fiddle | Fiddle |  | Violin in folk, country and Celtic styles. | fiddle | 
+    hardanger_fiddle | Hardanger fiddle | hardingfele |  | hardanger fiddle | 
+  viola_da_gamba | Viola da gamba | viol; gamba |  | viola da gamba | 
+  sarangi | Sarangi |  |  | sarangi | 
   viola | Viola |  |  | viola | 
   cello | Cello |  |  | cello | 
   string_section | String section | strings |  | strings; lush strings | orchestra
   erhu | Erhu |  |  | erhu | 
   hurdy_gurdy | Hurdy-gurdy |  |  | hurdy-gurdy | drone
   nyckelharpa | Nyckelharpa |  |  |  | 
+  morin_khuur | Morin khuur | horsehead fiddle |  | morin khuur; horsehead fiddle | overtone_singing
+  kamancheh | Kamancheh | kamanche |  | kamancheh | 
+  rebab | Rebab | rebap; rababa | Name shared by several related bowed lutes; use with the tradition in view. | rebab | 
+  classical_kemence | Classical kemençe | armudi kemençe |  | kemence | kamancheh
+  djoza | Joza | djoza; jawza |  | joza | 
+  ghijak | Ghijak | ghichak |  | ghijak | kamancheh
+  haegeum | Haegeum |  |  | haegeum | 
+  igil | Igil |  |  | igil | 
+  saw_duang | Saw duang |  |  | saw duang | 
+  saw_u | Saw u |  |  | saw u | saw_duang
+  dan_nhi | Đàn nhị | đàn cò |  | dan nhi | 
 woodwinds | Woodwinds |  |  |  | 
   flute | Flute |  |  | flute | 
   piccolo | Piccolo |  |  |  | 
   recorder | Recorder |  |  | recorder | 
   tin_whistle | Tin whistle |  |  | tin whistle | 
-  pan_flute | Pan flute | zampoña; siku |  | pan flute | 
+  pan_flute | Pan flute | panpipes |  | pan flute | 
+    siku | Siku | zampoña | Andean panpipes, often split between two players who alternate notes. | siku; andean panpipes | hocket
+  quena | Quena | kena |  | quena | 
+  bansuri | Bansuri |  |  | bansuri | 
+  dizi | Dizi |  |  | dizi | 
+  ocarina | Ocarina |  |  | ocarina | 
+  kaval | Kaval |  |  | kaval | 
+  fife | Fife |  |  | fife | 
   shakuhachi | Shakuhachi |  |  | shakuhachi | 
   ney | Ney |  |  | ney flute | 
   duduk | Duduk |  |  | duduk | 
   clarinet | Clarinet |  |  | clarinet | 
+    bass_clarinet | Bass clarinet |  |  | bass clarinet | 
   oboe | Oboe |  |  | oboe | 
   bassoon | Bassoon |  |  | bassoon | 
   saxophone | Saxophone | saxo |  | saxophone; sax | 
@@ -59,9 +135,39 @@ woodwinds | Woodwinds |  |  |  |
     tenor_sax | Tenor saxophone |  |  | tenor sax | 
     baritone_sax | Baritone saxophone |  |  | baritone sax | 
     soprano_sax | Soprano saxophone |  |  | soprano sax | 
+  zurna | Zurna | surna; sorna |  | zurna | 
+  shawm | Shawm |  |  | shawm | 
+  suona | Suona | laba |  | suona | 
+  sheng | Sheng |  |  | sheng | 
   bagpipes | Bagpipes |  |  | bagpipes | drone
+    highland_bagpipe | Great Highland bagpipe | Scottish bagpipes |  | scottish bagpipes | 
+    uilleann_pipes | Uilleann pipes | Irish pipes |  | uilleann pipes | 
+    gaida | Gaida | gajda |  | gaida | 
+    gaita_gallega | Galician gaita | gaita gallega |  | galician bagpipes | 
   didgeridoo | Didgeridoo |  | Australian Aboriginal drone aerophone. | didgeridoo | drone
   harmonica | Harmonica | harp |  | harmonica; blues harp | 
+  arghul | Arghul | argul |  | arghul | 
+  daegeum | Daegeum | taegum |  | daegeum flute | 
+  flabiol | Flabiol | fluviol |  | flabiol | 
+  hichiriki | Hichiriki |  |  | hichiriki | piri
+  kagurabue | Kagurabue |  |  | kagurabue | 
+  khene | Khaen | khene; khen |  | khaen | sheng
+  ken_bau | Kèn bầu |  |  | ken bau | 
+  mijwiz | Mijwiz |  |  | mijwiz | 
+  nadaswaram | Nadaswaram | nagaswaram |  | nadaswaram | 
+  nohkan | Nōkan | nohkan |  | nokan | 
+  pi_nai | Pi nai |  |  | pi nai | 
+  piri | Piri |  |  | piri | suona
+  ryuteki | Ryūteki |  |  | ryuteki | 
+  saluang | Saluang |  |  | saluang | 
+  shinobue | Shinobue |  |  | shinobue | 
+  sho | Shō |  |  | sho | sheng
+  suling | Suling |  |  | suling | 
+  tenora | Tenora |  |  | tenora | 
+  tible | Tible |  |  | tible | 
+  whistle | Whistle |  |  | whistles | 
+    apito_de_samba | Samba whistle | apito |  | samba whistle | 
+  xiao | Xiao | dongxiao |  | xiao flute | 
 brass | Brass |  |  | brass | 
   trumpet | Trumpet |  |  | trumpet | 
   muted_trumpet | Muted trumpet | harmon mute; wah-wah mute |  | muted trumpet | 
@@ -69,13 +175,18 @@ brass | Brass |  |  | brass |
   cornet | Cornet |  |  | cornet | 
   trombone | Trombone |  |  | trombone | 
   french_horn | French horn |  |  | french horn | 
-  tuba | Tuba | sousaphone |  | tuba; sousaphone | 
+  tuba | Tuba |  |  | tuba | 
+    sousaphone | Sousaphone |  |  | sousaphone | 
+  euphonium | Euphonium |  |  | euphonium | 
   horn_section | Horn section | horns |  | horn section; brass section | brass_stabs
+  bugle | Bugle |  |  | bugle | 
+  mellophone | Mellophone |  |  | mellophone | 
 keyboards | Keyboards |  |  |  | 
   piano | Piano |  |  | piano | 
     grand_piano | Grand piano |  |  | grand piano | 
     honky_tonk_piano | Honky-tonk piano |  |  | honky-tonk piano | 
     prepared_piano | Prepared piano |  |  | prepared piano | 
+    electric_grand | Electric grand piano | Yamaha CP-70 | A piano with strings and pickups; not an electric piano with tines or reeds. | electric grand piano; cp-70 | electric_piano
   electric_piano | Electric piano |  |  | electric piano | 
     rhodes | Rhodes piano | Fender Rhodes |  | rhodes; rhodes piano | 
     wurlitzer | Wurlitzer electric piano |  |  | wurlitzer | 
@@ -83,9 +194,11 @@ keyboards | Keyboards |  |  |  |
     hammond_organ | Hammond organ | B3 |  | hammond organ; b3 organ | leslie
     pipe_organ | Pipe organ |  |  | church organ | 
     combo_organ | Combo organ | Farfisa; Vox Continental | Transistor organ of the 1960s. | farfisa organ | 
+    barrel_organ | Barrel organ | organillo; street organ |  | barrel organ | 
   harpsichord | Harpsichord |  |  | harpsichord | 
   clavinet | Clavinet |  |  | clavinet | 
   accordion | Accordion |  |  | accordion | 
+    button_accordion | Diatonic button accordion | melodeon; button box | Each button gives a different note on the push and on the pull. | button accordion | 
   bandoneon | Bandoneon |  |  | bandoneon | 
   concertina | Concertina |  |  | concertina | 
   harmonium | Harmonium |  |  | harmonium | 
@@ -96,8 +209,10 @@ keyboards | Keyboards |  |  |  |
 electronic_instruments | Electronic instruments |  |  |  | 
   synthesizer | Synthesizer | synth |  | synth; synthesizer | 
     analog_synth | Analog synthesizer |  |  | analog synths | 
+    string_synth | String synthesizer | string machine; string ensemble | Instrument, not the general sound of a string pad. | string machine; solina strings | synth_pad
     modular_synth | Modular synthesizer |  |  | modular synth | 
-    fm_synth | FM synthesis | DX7 |  | fm synth; dx7 | 
+    fm_synth | FM synthesis |  | The method; for the instrument use Yamaha DX7. | fm synth | 
+    dx7 | Yamaha DX7 | DX7 |  | dx7; dx7 electric piano | fm_synth
     synth_pad | Synth pad |  |  | synth pads; lush pads | 
     synth_lead | Synth lead |  |  | synth lead | 
     supersaw | Supersaw |  | Stacked detuned saw waves; trance and EDM. | supersaw | 
@@ -110,6 +225,9 @@ electronic_instruments | Electronic instruments |  |  |  |
     hoover_sound | Hoover sound |  | 90s rave synth sound. | hoover synth; rave stabs | 
     rave_stab | Rave stab | stab | Short, aggressive synth chord. | rave stabs | 
   step_sequencer | Step sequencer |  | Grid-programmed patterns that loop. | sequenced synths | arpeggiator
+  keytar | Keytar |  |  | keytar | ^keyboards, synthesizer
+  wind_synth | Wind synthesizer | EWI; wind controller |  | ewi; wind synth | ^woodwinds, synthesizer
+  guitar_synth | Guitar synthesizer | guitar synth |  | guitar synth | electric_guitar, synthesizer
   drum_machine | Drum machine |  |  | drum machine | 
     tr808 | Roland TR-808 | 808 | Drum machine whose long kick doubles as bass. | 808; 808 bass | 
     tr909 | Roland TR-909 | 909 | Drum machine of house and techno. | 909 drums | 
@@ -131,43 +249,99 @@ percussion | Percussion |  |  | percussion |
   electronic_drums | Electronic drums |  |  | electronic drums | 
   hand_percussion | Hand percussion |  |  |  | 
     congas | Congas |  |  | congas | 
+      quinto | Quinto |  |  | quinto drum | 
     bongos | Bongos |  |  | bongos | 
     timbales | Timbales |  |  | timbales | 
     cajon | Cajón |  |  | cajon | 
     djembe | Djembe |  |  | djembe | 
     darbuka | Darbuka | derbake |  | darbuka | 
-    frame_drum | Frame drum | bodhrán; pandeiro; daf |  | frame drum; bodhran | 
+    frame_drum | Frame drum |  | General term; use the narrower terms for specific frame drums. | frame drum | 
+      bodhran | Bodhrán |  |  | bodhran | 
+      pandeiro | Pandeiro |  |  | pandeiro | 
+      tamborim | Tamborim |  |  | tamborim | bateria
+      daf | Daf | def |  | daf | 
+      riq | Riq | riqq |  | riq | 
+      bendir | Bendir |  |  | bendir | 
+      doyra | Doira | doyra; dayereh |  | doira | 
     tabla | Tabla |  |  | tabla | 
     mridangam | Mridangam |  | Double-headed drum of Carnatic music. | mridangam | 
     talking_drum | Talking drum |  |  | talking drum | 
     tambourine | Tambourine |  |  | tambourine | 
-    shaker | Shaker | maracas |  | shaker; maracas | 
-    guiro | Güiro | guacharaca; güira |  | guiro | 
+    shaker | Shaker |  |  | shaker | 
+      maracas | Maracas |  |  | maracas | 
+      ganza | Ganzá |  |  | ganza | 
+    guiro | Güiro | guacharaca |  | guiro | guira
+    guira | Güira |  | Metal scraper played with a wire brush; not the gourd güiro. | guira | 
     cowbell | Cowbell |  |  | cowbell | 
     claves_instrument | Claves |  |  | claves | clave
     castanets | Castanets |  |  | castanets | 
     handclaps | Handclaps | claps |  | handclaps; claps | 
     finger_snaps | Finger snaps | snaps |  | finger snaps | 
     cuica | Cuíca |  |  | cuica | 
-    surdo | Surdo |  |  | surdo | 
+    surdo | Surdo |  |  | surdo | bateria
+    caixa | Caixa | caixa de guerra |  | caixa | bateria
+    repinique | Repinique | repique |  | repinique | bateria
+    atabaque | Atabaque |  |  | atabaque | 
+    dholak | Dholak |  |  | dholak | 
+    ghatam | Ghatam |  |  | ghatam | mridangam
+    sabar | Sabar |  |  | sabar drums | 
+    wood_block | Wood block |  |  | woodblock | 
+    agogo | Agogô | agogo bells |  | agogo bells | bateria
+    shekere | Shekere | axatse; chekeré |  | shekere | 
+    udu | Udu |  |  | udu drum | 
     washboard | Washboard | frottoir |  | washboard | 
+    afoxe | Afoxé | afuche; cabasa |  | afoxe shaker | 
+    barrel_drum | Barrel drum |  |  | barrel drums | 
+    buk | Buk | puk |  | buk drum | janggu
+    caxixi | Caxixi |  |  | caxixi | 
+    clapstick | Clapsticks | bilma; bimli |  | clapsticks | 
+    friction_drum | Friction drum | furro; cuíca-type drum |  | friction drum | 
+    janggu | Janggu | changgo |  | janggu | 
+    kartal | Kartal | khartal |  | kartal | 
+    kkwaenggwari | Kkwaenggwari |  |  | kkwaenggwari | 
+    kotsuzumi | Kotsuzumi | tsuzumi |  | kotsuzumi | 
+    krakeb | Qraqeb | krakeb; qarqaba |  | qraqeb | 
+    kudum | Kudüm |  |  | kudum | timpani
+    madal | Madal |  |  | madal | 
+    pakhawaj | Pakhawaj | mardala |  | pakhawaj | 
+    phach | Phách |  |  | phach clappers | 
+    quijada | Quijada | jawbone |  | quijada | 
+    ratchet | Ratchet | matraca |  | ratchet | 
+    zarb | Tombak | zarb; tonbak |  | tombak | darbuka
+    otsuzumi | Ōtsuzumi |  |  | otsuzumi | 
   large_drums | Large drums |  |  |  | 
     dhol | Dhol |  | Double-headed drum from Punjab. | dhol | 
     taiko | Taiko |  |  | taiko drums | 
+      shime_daiko | Shime-daiko |  |  | shime-daiko | 
     timpani | Timpani |  |  | timpani | 
+    bombo_leguero | Bombo legüero | bombo |  | bombo leguero | 
+    dunun | Dunun | dundun; doundoun |  | dunun | djembe
+    alfaia | Alfaia |  |  | alfaia drums | 
+    garifuna_drum | Garifuna drums | primero; segunda |  | garifuna drums | 
+    zabumba | Zabumba |  |  | zabumba | 
   pitched_percussion | Pitched percussion |  |  |  | 
     marimba | Marimba |  |  | marimba | 
     vibraphone | Vibraphone |  |  | vibraphone | 
     xylophone | Xylophone |  |  | xylophone | 
+      ranat_ek | Ranat ek |  |  | ranat ek | 
     glockenspiel | Glockenspiel |  |  | glockenspiel | 
     tubular_bells | Tubular bells |  |  | tubular bells | 
     steelpan | Steelpan | steel drum |  | steel drums | 
     kalimba | Kalimba | mbira |  | kalimba | 
     handpan | Handpan | hang |  | handpan | 
-    gamelan_instrument | Gamelan |  | Ensemble of metallophones and gongs from Java and Bali. | gamelan | gamelan_scales
+    gamelan_instrument | Gamelan |  | Ensemble of metallophones and gongs from Java and Bali. | gamelan | gamelan_tuning
     triangle | Triangle |  |  |  | 
     gong | Gong | tam-tam |  | gong | 
     balafon | Balafon |  | African xylophone with gourd resonators. | balafon | 
+    gong_chime | Gong chime | gong circle; kulintang |  | gong chime | 
+      khong_wong_yai | Khong wong yai | gong circle |  | khong wong | 
+    marimbula | Marímbula | rumba box; rhumba box |  | marimbula | kalimba
+  mark_tree | Mark tree | bar chimes; chimes |  | chimes; mark tree | 
+  jaw_harp | Jaw harp | mouth harp; Jew's harp; khomus |  | jaw harp | 
+  anvil | Anvil |  | Struck as a percussion instrument. | anvil; metal percussion | 
+  bell | Bell | bells |  | bells | 
+    gankogui | Gankogui | double bell |  | gankogui bell | 
+    handbell | Handbell | handbells |  | handbells | 
 ensemble | Ensembles |  |  |  | 
   orchestra | Orchestra |  |  | orchestral; full orchestra | symphony
   chamber_orchestra | Chamber orchestra |  |  | chamber orchestra | 
@@ -176,5 +350,8 @@ ensemble | Ensembles |  |  |  |
   brass_band | Brass band |  |  | brass band | 
   power_trio | Power trio |  | Guitar, bass and drums. | power trio | 
   mariachi_ensemble | Mariachi ensemble |  | Trumpets, violins, guitarrón and vihuela. | mariachi | 
+  bateria | Samba bateria | bateria | Percussion section of a samba school. | samba percussion; batucada | samba_beat
+  tamburica_orchestra | Tamburica orchestra | tamburitza orchestra |  | tamburica | 
   rock_band | Rock band |  |  | full band | 
   solo_performer | Solo performer |  |  | solo acoustic | 
+  cobla | Cobla |  |  | cobla | 

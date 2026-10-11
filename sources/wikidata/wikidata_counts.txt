@@ -1,0 +1,88 @@
+Wikidata artists with a MusicBrainz ID and at least 2 sitelinks: 209,606
+Time: 500 s
+
+Sitelinks >= N | artists | with a genre that maps to Soundlore | of those, not yet in the artist layer
+  N >=   2    209,606     91,413     64,045
+  N >=   3    158,904     73,575     49,000
+  N >=   4    128,094     61,187     39,059
+  N >=   5    106,348     51,705     31,753
+  N >=   6     89,889     44,031     26,081
+  N >=   8     67,599     33,425     18,636
+  N >=  10     53,181     26,200     13,845
+  N >=  12     43,404     21,064     10,622
+  N >=  15     32,848     15,441      7,236
+  N >=  20     22,538      9,828      4,162
+  N >=  30     12,084      4,382      1,474
+  N >=  50      4,888      1,280        295
+
+Reference artists (name, sitelinks, in the artist layer now, genres mapped / total, description):
+  Artemas                  13  yes  1/1  British singer-songwriter and record producer
+  Assemblage 23            12  yes  5/5  American band
+  Axolotes Mexicanos        2  no   0/0  Spanish indie pop group
+  Ayreon                   26  yes  2/2  Dutch progressive rock/metal project
+  Caetano Veloso           44  yes  2/2  Brazilian composer, singer, guitarist, writer, and political
+  Camarón de la Isla       39  yes  1/1  Spanish flamenco singer (1950–1992)
+  Covenant                 15  yes  1/1  Swedish electronic band
+  Devin Townsend           35  yes  4/4  Canadian singer, guitarist and record producer
+  Edguy                    29  yes  1/1  German power metal band
+  Extremoduro              15  yes  1/1  Spanish musical group; rock band
+  Haken                    11  yes  2/2  British progressive metal band
+  Héroes del Silencio      21  yes  4/4  Spanish rock band
+  Indochine                25  yes  2/2  French rock and new wave band
+  La La Love You            3  no   1/1  Spanish pop punk band
+  Leprous                  20  yes  1/1  Norwegian progressive metal band
+  Love of Lesbian           9  yes  1/2  Spanish band from Catalonia
+  Mecano                   25  yes  2/2  Spanish musical group
+  Mecano                    1  yes  1/1  
+  Metallica               130  yes  2/2  American heavy metal band
+  Måneskin                 76  yes  2/2  Italian rock band
+  Rammstein                93  yes  3/3  German Neue-Deutsche-Härte; industrial metal band
+  Rosalía                  57  yes  9/10  Spanish singer-songwriter (born 1992)
+  Rosalía                   2  no   0/0  Spanish singer (born 1944)
+  Slowdive                 32  yes  2/2  British shoegaze band
+  Stromae                  66  yes  8/8  Belgian singer and songwriter
+  VNV Nation               25  yes  5/5  UK musical group
+  Vetusta Morla            12  no   1/1  Spanish musical ensemble
+  Artemas                  13  yes  1/1  British singer-songwriter and record producer
+  Assemblage 23            12  yes  5/5  American band
+  Axolotes Mexicanos        2  no   0/0  Spanish indie pop group
+  Ayreon                   26  yes  2/2  Dutch progressive rock/metal project
+  Caetano Veloso           44  yes  2/2  Brazilian composer, singer, guitarist, writer, and political
+  Camarón de la Isla       39  yes  1/1  Spanish flamenco singer (1950–1992)
+  Covenant                 15  yes  1/1  Swedish electronic band
+  Devin Townsend           35  yes  4/4  Canadian singer, guitarist and record producer
+  Edguy                    29  yes  1/1  German power metal band
+  Extremoduro              15  yes  1/1  Spanish musical group; rock band
+  Haken                    11  yes  2/2  British progressive metal band
+  Héroes del Silencio      21  yes  4/4  Spanish rock band
+  Indochine                25  yes  2/2  French rock and new wave band
+  Izal                      6  no   1/1  Spanish band
+  La La Love You            3  no   1/1  Spanish pop punk band
+  Leprous                  20  yes  1/1  Norwegian progressive metal band
+  Love of Lesbian           9  yes  1/2  Spanish band from Catalonia
+  Mecano                   25  yes  2/2  Spanish musical group
+  Mecano                    1  yes  1/1  
+  Metallica               130  yes  2/2  American heavy metal band
+  Måneskin                 76  yes  2/2  Italian rock band
+  Rammstein                93  yes  3/3  German Neue-Deutsche-Härte; industrial metal band
+  Rosalía                  57  yes  9/10  Spanish singer-songwriter (born 1992)
+  Rosalía                   2  no   0/0  Spanish singer (born 1944)
+  Slowdive                 32  yes  2/2  British shoegaze band
+  Stromae                  66  yes  8/8  Belgian singer and songwriter
+  VNV Nation               25  yes  5/5  UK musical group
+  Vetusta Morla            12  no   1/1  Spanish musical ensemble
+  Artemas                  13  yes  1/1  British singer-songwriter and record producer
+  Avantasia                26  yes  4/4  German band
+  Axolotes Mexicanos        2  no   0/0  Spanish indie pop group
+  Caetano Veloso           44  yes  2/2  Brazilian composer, singer, guitarist, writer, and political
+  Héroes del Silencio      21  yes  4/4  Spanish rock band
+  Indochine                25  yes  2/2  French rock and new wave band
+  Leprous                  20  yes  1/1  Norwegian progressive metal band
+  Love of Lesbian           9  yes  1/2  Spanish band from Catalonia
+  Mecano                   25  yes  2/2  Spanish musical group
+  Metallica               130  yes  2/2  American heavy metal band
+  Måneskin                 76  yes  2/2  Italian rock band
+  Rammstein                93  yes  3/3  German Neue-Deutsche-Härte; industrial metal band
+  Rosalía                  57  yes  9/10  Spanish singer-songwriter (born 1992)
+  Slowdive                 32  yes  2/2  British shoegaze band
+  Stromae                  66  yes  8/8  Belgian singer and songwriter

@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+aak ; medium ; C tempo_very_slow mood_spiritual heterophony | F mb:daegeum free_meter | O drone ; Korean Confucian ritual music: very slow, solemn, heterophonic ensemble of bells, stone chimes and winds.
+afoxê ; medium ; C mb:afoxé atabaque agogo vocal_call_response | F mb:ganzá time_2_4 mood_spiritual | O mood_groovy ; Bahian carnival form of Candomblé music: ijexá rhythm on atabaques, agogô and beaded gourds.
+afro-zouk ; medium ; C time_4_4 tempo_mid | F electric_bass clean_guitar male_vocals hook | O synth_pad ; Zouk-derived dance pop: mid-tempo sensual groove with synth and guitar lines.
+agbadza ; medium ; C mb:gankogui vocal_call_response time_12_8 | F polyrhythm mood_energetic | O handclaps ; Ewe social dance: bell timeline, layered drums and call-and-response singing.
+agbekor ; medium ; C mb:gankogui time_12_8 vocal_call_response | F polyrhythm drum_solo mood_energetic | O shaker ; Ewe war dance: bell timeline in 12/8, lead and supporting drums, call-and-response.
+ahwash ; medium ; C chant choir | F bendir time_6_8 handclaps | O polyrhythm ; Amazigh collective dance-song: choral call-and-response over frame drums and claps.
+aleke ; low ; C vocal_call_response tempo_fast | F male_vocals syncopation | O electric_bass ; Maroon dance music of Suriname and French Guiana: drums and responsorial singing.
+algerian chaabi ; medium ; C banjo mb:kanun male_vocals | F oud improvisation melisma | O violin piano ; Algiers urban music: mandole and banjo, qanun, darbuka, melismatic vocals and improvised preludes.
+alloukou ; low ; C vocal_call_response | F polyrhythm talking_drum mood_energetic | O female_vocals ; Bété music of Côte d'Ivoire: drums and responsorial singing.
+apala ; medium ; C male_vocals shekere | F agogo polyrhythm improvisation | O mood_spiritual ; Yoruba Muslim-rooted music: talking drums, shekere and bells under declamatory vocals.
+arabesk ; medium ; C maqam microtonality | F saz oud tempo_slow male_vocals | O synthesizer ; Turkish popular music of longing: Arabic-style strings, saz and melismatic vocals.
+ashkenazi cantorial music ; medium ; C male_vocals free_meter improvisation | F modal_system ornamentation | O choir organ ; Chazzanut: solo cantor improvising florid, unmetered lines on the prayer modes.
+assiko ; low ; C fingerpicking tempo_fast | F acoustic_guitar male_vocals | O percussion ; Cameroonian guitar dance music with bottle or knife percussion.
+baila ; medium ; C time_6_8 mood_playful | F mandolin violin tempo_fast | O congas ; Sri Lankan Portuguese-derived dance song with 6/8 swing and playful lyrics.
+baithak gana ; medium ; C dholak male_vocals | F storytelling mood_spiritual | O mood_romantic ; Indo-Caribbean folk song from Suriname with harmonium, dholak and dhantal.
+baião ; high ; C syncopation time_2_4 | F mb:zabumba male_vocals | O fiddle ; Northeastern Brazilian dance: accordion, zabumba and triangle on the baião rhythm.
+balitaw ; low ; C time_3_4 duet | F mood_romantic female_vocals male_vocals | O guitar ; Visayan courtship song-dance in 3/4 with guitar or banduria.
+ballad ; medium ; C lead_vocal | F verse_chorus_form string_section mood_melancholic | O power_ballad ; Slow sentimental song centered on voice, melody and lyrics.
+bambuco ; medium ; C hemiola mb:tiple | F tres duet | O flute ; Colombian Andean song-dance: 3/4–6/8 hemiola with tiple, guitar and bandola.
+baqashot ; low ; C male_vocals maqam | F free_meter melisma choir | O mood_spiritual ; Sephardic devotional supplications sung through the night in Arabic maqam.
+barbershop ; high ; F tempo_mid | O ritardando ; Unaccompanied four-part close harmony with the melody in the second voice.
+batonebi songs ; low ; F female_vocals repetition | O drone ; Georgian healing songs for the 'batonebi' spirits, sung softly.
+battle record ; medium ; C sample_flip | F vocal_chops breakbeat | O drum_machine ; Records cut for DJ battles: breaks, scratch sentences and samples.
+batucada ; high ; C bateria repinique caixa tamborim agogo | F mb:apito_de_samba cuica tempo_fast mood_energetic | O call_and_response ; Samba percussion ensemble music.
+batuque ; medium ; C female_vocals polyrhythm | F handclaps time_6_8 | O ; Cape Verdean women's circle music: cloth beaten as a drum, call and response.
+beatboxing ; high ; ; Already described by a cappella vocal percussion; nothing reliable to add.
+benga ; medium ; C electric_guitar fingerpicking male_vocals | F mood_energetic vocal_harmonies drum_kit | O ; Kenyan pop: interlocking finger-picked electric guitars and a bouncing bass.
+beni ; medium ; F trumpet call_and_response | O mood_playful ; Brass-band dance competitions of East Africa imitating colonial military bands.
+beompae ; medium ; C male_vocals tempo_very_slow free_meter | F melisma mood_spiritual | O drone gong ; Korean Buddhist chant: slow, unmetered, ornamented solo and group chanting.
+bhajan ; high ; C mb:kartal tabla | F dholak repetition | O sitar flute ; Hindu devotional song: harmonium, tabla or dholak, cymbals and repeated refrains.
+bikutsi ; medium ; C electric_guitar male_vocals | F mood_energetic syncopation drum_kit | O balafon ; Beti dance music of Cameroon: fast 6/8 with guitar lines imitating the balafon.
+bocet ; medium ; C female_vocals free_meter | F mood_melancholic improvisation | O ; Romanian funeral lament, improvised and unaccompanied.
+boduberu ; medium ; C chant accelerando | F male_vocals mood_energetic | O ; Maldivian drumming and chant that accelerates to a frenzy.
+bomba ; high ; C mb:barrel_drum maracas | F female_vocals drum_solo syncopation | O ; Afro-Puerto Rican dance in which the lead drum answers the dancer.
+bomba del chota ; medium ; C acoustic_guitar | F hand_percussion female_vocals | O mood_bright ; Afro-Ecuadorian music of the Chota valley with guitar and the bomba drum.
+bouyon ; medium ; C drum_machine mood_energetic | F synth_bass syncopation | O call_and_response ; Dominican (Dominica) dance music: fast electronic jing ping-derived groove.
+bullerengue ; medium ; C female_vocals | F time_6_8 handclaps | O polyrhythm ; Afro-Colombian women's song-dance with drums, palmas and call and response.
+burmese classical ; medium ; C harp gong | F improvisation hand_percussion female_vocals | O  | X gamelan_tuning ; Burmese court music: saung harp, hsaing waing drum and gong circles; not gamelan tunings.
+burrakatha ; medium ; C male_vocals spoken_vocal | F tanpura vocal_call_response | O mood_theatrical ; Telugu narrative performance: storyteller with tambura and two supporting voices.
+bélé ; medium ; C call_and_response female_vocals | F time_6_8 drum_solo polyrhythm | O  ; Martinican and Caribbean drum dance: bélé drum, ti bwa and responsorial singing.
+ca trù ; high ; C mb:phách | F melisma tempo_slow | O free_meter ; Vietnamese chamber song: female singer with clappers, three-string lute and praise drum.
+cabo zouk ; medium ; C time_4_4 tempo_mid | F electric_bass male_vocals | O ; Cape Verdean zouk: mid-tempo, sensual, Portuguese-Creole vocals.
+cadence lypso ; medium ; C syncopation | F electric_guitar horn_section | O | X steelpan ; Dominica's fusion of cadence and calypso: horns, guitars and drums; steel pans are not typical.
+cadence rampa ; medium ; C horn_section syncopation | F electric_guitar tempo_mid | O | X steelpan storytelling ; Haitian compas-derived dance music; steel pans and calypso storytelling are not typical.
+calipso venezolano ; medium ; C time_2_4 | F cuatro guitar call_and_response | O | X steelpan ; Calypso of El Callao: cuatro, drums and bells in carnival processions.
+calypso ; high ; C time_2_4 | F horn_section syncopation | O ; Trinidadian topical song with witty storytelling over brass and percussion.
+candombe ; high ; C drum_solo | F tempo_mid mood_energetic syncopation | O ; Afro-Uruguayan procession drumming on chico, repique and piano drums.
+cante alentejano ; high ; C tempo_slow drone | F vocal_harmonies | O ; Portuguese polyphonic choral song: slow, a soloist leads and the group answers.
+canto cardenche ; medium ; C male_vocals tempo_slow mood_melancholic | F close_harmony | O ; Three-voice unaccompanied song of northern Mexico.
+cajun ; high ; C button_accordion male_vocals | F time_2_4 mood_energetic triangle | O | X accordion ; Louisiana French dance music: diatonic accordion, fiddle and triangle; the accordion is the button kind.

@@ -194,14 +194,14 @@ phrygian | Frigio |
 lydian | Lidio | 
 mixolydian | Mixolidio | 
 locrian | Locrio | 
-exotic_scale | Escalas no occidentales y exóticas | 
+modal_system | Escalas no occidentales y exóticas | 
 phrygian_dominant | Frigio dominante | escala flamenca
 double_harmonic | Doble armónica | bizantina; árabe
 hungarian_minor | Menor húngara | gitana
 japanese_scales | Escalas japonesas | 
 maqam | Maqam | 
 raga | Raga | 
-gamelan_scales | Pelog y slendro | 
+gamelan_tuning | Pelog y slendro | 
 melodic_element | Elementos melódicos | 
 hook | Gancho | hook melódico
 riff | Riff | 

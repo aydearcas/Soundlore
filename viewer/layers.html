@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+/* Theme: fixed for now. The landing is light; every other page is dark. */
+document.documentElement.dataset.theme='dark';
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map layers – Soundlore</title>
+<meta name="description" content="Two linked layers: the genre map and an instrument map above it, joined by lines from each instrument to the genres that use it. 2D or 3D.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Prototype of the two-layer map planned for artists, tried first with instruments.
+   Lower layer: the genre map. Upper layer: each instrument at the weighted center of the genres that use it.
+   2D (default) shows one layer at a time and keeps the selection when switching; 3D shows both planes with vertical links. */
+:root{
+  --night:#181A3C; --ink:#EEF0FF; --muted:#B9BDE6; --line:rgb(255 255 255 / .18); --chip:rgb(255 255 255 / .08);
+  --panel:#FFFFFF; --pink:#1D2040; --pmuted:#4A5170; --pline:#DDE1EA; --accent:#3A40C8;
+  --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --halo:#181A3C;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--night:#F3F5F9;--ink:#1D2040;--muted:#4A5170;--line:rgb(29 32 64 / .18);--chip:rgb(29 32 64 / .05);--halo:#F3F5F9;color-scheme:light}}
+:root[data-theme="light"]{--night:#F3F5F9;--ink:#1D2040;--muted:#4A5170;--line:rgb(29 32 64 / .18);--chip:rgb(29 32 64 / .05);--halo:#F3F5F9;color-scheme:light}
+.themebtn{min-height:36px;display:inline-flex;align-items:center;gap:6px;padding:0 12px;border-radius:9px;border:1px solid var(--line);background:var(--chip);color:var(--ink);font:500 13px var(--body);cursor:pointer}
+.embed .themebtn{display:none}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;height:100%}
+body{background:var(--night);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;overflow:hidden}
+a{color:inherit}
+button{font:inherit}
+.bar{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:12px 16px;background:linear-gradient(var(--night) 70%,transparent)}
+.brand{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.02em;text-decoration:none;line-height:1}
+.crumb{color:var(--muted);font-size:14px}
+.crumb a{color:var(--muted)}
+.grow{flex:1 1 auto}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--ink);padding:0 12px;min-height:36px;cursor:pointer;font-size:14px}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--night);font-weight:600}
+.seg button:disabled{opacity:.4;cursor:not-allowed}
+.seg button:focus-visible,.chip:focus-visible,.btn:focus-visible,.nb button:focus-visible{outline:2px solid #FFD25C;outline-offset:2px}
+.lbl{font-size:12px;color:var(--muted);margin-right:-8px}
+.search{position:relative}
+.search input{width:min(260px,70vw);min-height:36px;border-radius:9px;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:0 12px;font:inherit;font-size:14px}
+.search input::placeholder{color:var(--muted)}
+.sugg{position:absolute;top:40px;left:0;right:0;background:var(--panel);color:var(--pink);border-radius:9px;box-shadow:0 8px 24px rgb(0 0 0 / .35);overflow:hidden;z-index:8}
+.sugg button{display:flex;width:100%;gap:8px;align-items:center;border:0;background:none;color:inherit;text-align:left;padding:8px 12px;cursor:pointer;font-size:14px}
+.sugg button:hover,.sugg button.on{background:#F0F1FA}
+.sugg small{margin-left:auto;color:var(--pmuted)}
+#stage{position:absolute;inset:0}
+#stage canvas{display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+#stage canvas:active{cursor:grabbing}
+#labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.lab{position:absolute;transform:translate(8px,-50%);font-size:12px;white-space:nowrap;color:var(--ink);text-shadow:0 0 3px var(--halo),0 0 6px var(--halo),0 0 10px var(--halo)}
+.lab.big{font-size:14px;font-weight:600}
+.lab.plane{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tip{position:absolute;z-index:6;pointer-events:none;background:#fff;color:var(--pink);border-radius:8px;padding:6px 10px;font-size:13px;box-shadow:0 6px 18px rgb(0 0 0 / .3);max-width:280px}
+.tip span{display:block;color:var(--pmuted);font-size:12px}
+.panel{position:absolute;z-index:5;left:16px;top:120px;width:300px;max-height:calc(100% - 140px);overflow:auto;background:var(--panel);color:var(--pink);border-radius:12px;padding:14px 16px;box-shadow:0 8px 24px rgb(0 0 0 / .35);display:flex;flex-direction:column;gap:8px}
+.panel .h{display:flex;align-items:flex-start;gap:8px;justify-content:space-between}
+.panel h2{font-family:var(--display);font-size:20px;line-height:1.1;margin:0}
+.panel .kind{font-size:12px;color:var(--pmuted)}
+.panel .kind .sw{margin-right:6px}
+.panel p{margin:0;font-size:14px;color:var(--pmuted)}
+.panel .x{border:1px solid var(--pline);background:#fff;color:var(--pink);border-radius:8px;min-width:32px;min-height:32px;cursor:pointer}
+.nb{display:flex;flex-direction:column}
+.nb button{display:flex;align-items:center;gap:8px;border:0;background:none;color:var(--pink);padding:4px 0;cursor:pointer;text-align:left;min-height:30px;font-size:14px}
+.nb button:hover{color:var(--accent)}
+.nb .w{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--pmuted)}
+.sw{width:10px;height:10px;border-radius:50%;flex:none}
+.sw.ring{box-shadow:0 0 0 2px #fff,0 0 0 3px #9AA0BC}
+.sw.sq{border-radius:2px}
+.loading{position:absolute;z-index:7;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--panel);color:var(--pink);border-radius:10px;padding:10px 16px;font-size:14px;box-shadow:0 8px 24px rgb(0 0 0 / .3)}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;min-height:32px;padding:0 10px;border-radius:8px;border:1px solid var(--pline);color:var(--pink);background:#fff;text-decoration:none;font-size:13px}
+.legend{position:absolute;z-index:4;right:16px;bottom:14px;max-width:min(560px,calc(100% - 32px));display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:0 10px;min-height:30px;cursor:pointer;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--night)}
+.note{font-size:12px;color:var(--muted);text-align:right}
+.tools{position:absolute;z-index:4;right:16px;top:120px;display:flex;flex-direction:column;gap:6px}
+.tools .seg{flex-direction:column}
+.tools .seg button+button{border-left:0;border-top:1px solid var(--line)}
+.toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:9px;padding:6px 10px;cursor:pointer}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:760px){
+  .bar{padding:10px 12px;gap:8px 10px}
+  .panel{left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:42%}
+  .tools{top:auto;bottom:calc(42% + 24px);right:12px}
+  .legend{display:none}
+  .search input{width:calc(100vw - 24px)}
+  .search{flex:1 1 100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* inside the explorer: the explorer's map bar holds the layer, view and search controls */
+.embed .bar{display:none}
+.embed .tools{top:12px;right:12px}
+.embed .panel{top:12px;left:12px;max-height:calc(100% - 24px)}
+.embed .legend{right:12px;bottom:12px}
+.embed .note{display:none}
+@media (max-width:760px){.embed .panel{top:auto}}
+</style>
+<style>
+/* Slim scrollbars that follow the theme */
+*{scrollbar-width:thin;scrollbar-color:var(--sb-thumb,rgb(120 126 160 / .45)) transparent}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--sb-thumb,rgb(120 126 160 / .45));border-radius:10px;border:3px solid transparent;background-clip:content-box}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(120 126 160 / .75)}
+::-webkit-scrollbar-corner{background:transparent}
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="explore.html#map" id="brand" title="Back">Soundlore</a>
+  <span class="crumb"><a href="explore.html#map">Map</a> / Layers <span class="lbl">(prototype)</span></span>
+  <span class="grow"></span>
+  <div class="seg" role="group" aria-label="View"><button type="button" id="v2" aria-pressed="true">2D</button><button type="button" id="v3" aria-pressed="false">3D</button></div>
+  <div class="seg" role="group" aria-label="Layer" id="layerseg"><button type="button" id="lg" aria-pressed="true">Genres</button><button type="button" id="li" aria-pressed="false">Instruments</button><button type="button" id="la" aria-pressed="false">Artists</button></div>
+  <div class="search"><label class="sr" for="q">Find a genre, instrument or artist</label><input id="q" type="search" autocomplete="off" placeholder="Find a genre, instrument or artist"><div class="sugg" id="sugg" hidden></div></div>
+</header>
+<div id="stage"><canvas id="c2" aria-label="Map layer in 2D"></canvas></div>
+<div id="labels" aria-hidden="true"></div>
+<div class="tools" id="tools" hidden>
+  <div class="seg" role="group" aria-label="Camera"><button type="button" data-cam="tilt">Tilt</button><button type="button" data-cam="top">Top</button><button type="button" data-cam="side">Side</button></div>
+  <label class="toggle"><input type="checkbox" id="all"> All links</label>
+</div>
+<div class="tip" id="tip" hidden></div>
+<aside class="panel" id="panel" aria-live="polite" hidden></aside>
+<div class="legend"><div class="chips" id="chips" role="group" aria-label="Show one instrument family"></div><div class="note" id="note"></div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// the title goes back to the page the visitor came from, when it is a Soundlore page
+document.getElementById('brand').addEventListener('click',e=>{try{if(document.referrer&&new URL(document.referrer).origin===location.origin&&history.length>1){e.preventDefault();history.back();}}catch(err){}});
+</script>
+<script>
+'use strict';
+// Genres below; above them one of two layers: instruments or artists. Each upper item sits at the weighted
+// center of its genres. 2D shows one layer at a time and keeps the selection when switching; 3D shows the
+// genre plane and the chosen upper plane, joined by lines.
+// colors follow the theme: night ground (dark) or paper ground (light)
+const PALS={dark:{bg:'#181A3C',dots:['#4C93EB','#E8693A','#25B585','#E0A21A','#E26A97','#4FB04F','#9C92F0','#EE7676','#8B91A6'],br:['#FFD166','#FF9E7A','#8FE3A0','#F7E26B','#9AD1FF','#D2B4FF','#FFA8C5','#E3E6F2'],ring:'#FFFFFF',planeHex:'#FFFFFF',planeA:.035,edgeHex:'#8B91C6',edgeA:.35,lines:{3:'#FFFFFF',2:'#C9CCF2',1:'#8F94C8'}},
+  light:{bg:'#F3F5F9',dots:['#2A78D6','#EB6834','#1BAF7A','#D99500','#E05C93','#138A2E','#6250D6','#D9413F','#8E95A3'],br:['#B98300','#D2552A','#23935A','#9C8A00','#2C7FCC','#8456D1','#CF4680','#5F6584'],ring:'#1D2040',planeHex:'#1D2040',planeA:.045,edgeHex:'#1D2040',edgeA:.28,lines:{3:'#1D2040',2:'#4C5388',1:'#9AA0C4'}}};
+const isDark=()=>{const t=document.documentElement.dataset.theme;return t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;};
+let PAL=isDark()?PALS.dark:PALS.light,NIGHT=PAL.dots,BRANCH=PAL.br;
+function setPal(){PAL=isDark()?PALS.dark:PALS.light;NIGHT=PAL.dots;BRANCH=PAL.br;if(MAP){buildChips();renderPanel();redraw();}}
+addEventListener('themechange',setPal);
+// a color blended with the ground, for the 3D points and lines
+const mix=(hex,a)=>{const h=x=>parseInt(x.slice(1),16),n=h(hex),b=h(PAL.bg),c=[n>>16&255,n>>8&255,n&255],g=[b>>16&255,b>>8&255,b&255];return c.map((v,k)=>(v*a+g[k]*(1-a))/255);};
+const W_NAME={3:'characteristic',2:'frequent',1:'occasional'};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const fmt=n=>n.toLocaleString('en-US');
+
+let MAP,LAY,AD=null,G=[],I=[],A=[],AORD=[],ALOAD=null,PENDING=null;
+// layer: the layer shown in 2D (g, i or a); up: the upper plane in 3D (i or a)
+const S={view:'2d',layer:'g',up:'i',vis:{g:true,i:true,a:false},sel:null,hover:null,branch:null,fam:null,all:false};
+// the artist plane is larger than the genre plane: twice the area in 2D, 1.5 times in 3D
+const A2=Math.SQRT2/0.8,A3=Math.sqrt(1.5);
+const hasGL=typeof THREE!=='undefined'&&(()=>{try{const c=document.createElement('canvas');return !!(window.WebGLRenderingContext&&(c.getContext('webgl')||c.getContext('experimental-webgl')));}catch(e){return false;}})();
+const NAMES={g:'genres',i:'instruments',a:'artists'};
+
+Promise.all([fetch('genre_map.json').then(r=>r.json()),fetch('instrument_layer.json').then(r=>r.json())]).then(([m,l])=>{
+  MAP=m;LAY=l;
+  G=m.points.map((p,i)=>({t:'g',i,name:p[0],x:p[1],y:p[2],fam:p[3],links:[],alinks:[]}));
+  I=l.items.map((a,i)=>({t:'i',i,uid:a[0],name:a[1],br:a[2],x:a[3],y:a[4],ax:a[5],ay:a[6],spread:a[7],links:a[8]}));
+  for(const it of I)for(const [g,w] of it.links)G[g].links.push([it.i,w]);
+  for(const g of G)g.links.sort((a,b)=>b[1]-a[1]);
+  bind();fromHash();
+  if(S.layer==='a'||S.up==='a'||(S.view==='3d'&&S.vis.a)||PENDING)loadArtists().then(()=>{applyPending();setView(S.view);}).catch(()=>{});
+  setView(S.view);segs();note();buildChips();
+  if(S.sel){resize2d();focus2d(S.sel);renderPanel();redraw();}
+}).catch(e=>{document.body.insertAdjacentHTML('beforeend',`<p style="position:absolute;top:80px;left:16px">Could not load the map data: ${esc(e.message)}</p>`);});
+
+// ---------- artists (loaded only when their layer is first shown)
+function loadArtists(){if(ALOAD)return ALOAD;$('#note').textContent='Loading the artists…';showLoading(true);
+  ALOAD=fetch('artists.json').then(r=>{if(!r.ok)throw new Error('artists.json: HTTP '+r.status);return r.json();}).then(d=>{AD=d;
+    const gi=Object.fromEntries(G.map(g=>[g.name,g.i]));
+    for(const r of d.artists){if(r[11]==null)continue;
+      const gs=r[10].map(([k,v])=>[gi[d.genres[k]],v]).filter(x=>x[0]!=null);if(!gs.length)continue;
+      const tw=gs.reduce((s,x)=>s+x[1],0);
+      const a={t:'a',i:A.length,id:r[0],name:r[1],type:d.types[r[2]]||'',area:r[3],cc:r[4],x3:r[11],y3:r[12],x:.5+(r[11]-.5)*A2,y:.5+(r[12]-.5)*A2,fam:r[13]!=null?r[13]:8,spread:r[14],src:r[15]||0,
+        votes:gs,links:gs.map(([g,v])=>[g,v/tw>=.5?3:v/tw>=.2?2:1])};
+      A.push(a);}
+    for(const a of A)a.votes.forEach(([g,v],k)=>G[g].alinks.push([a.i,a.links[k][1],v]));
+    for(const g of G)g.alinks.sort((x,y)=>y[2]-x[2]||x[0]-y[0]);
+    AORD=[...A].sort((x,y)=>x.fam-y.fam);
+    showLoading(false);buildChips();note();}).catch(e=>{showLoading(false);ALOAD=null;$('#note').textContent='The artists could not be loaded: '+e.message;throw e;});
+  return ALOAD;}
+function showLoading(on){let el=$('#loading');if(on&&!el){document.body.insertAdjacentHTML('beforeend','<div id="loading" class="loading">Loading the artists…</div>');}else if(!on&&el)el.remove();}
+function applyPending(){if(!PENDING)return;const a=A.find(x=>x.id===PENDING);PENDING=null;if(a){S.sel={t:'a',i:a.i};renderPanel();if(S.view==='2d'){resize2d();focus2d(S.sel);}redraw();}}
+
+// ---------- selection model
+const arr=t=>t==='g'?G:t==='i'?I:A;
+const item=r=>r?arr(r.t)[r.i]:null;
+// the layer a genre is linked to: the one shown in 2D, else the upper plane
+const otherOfG=()=>S.view==='2d'&&S.layer!=='g'?S.layer:S.up;
+function linked(r){const o=item(r);if(!o)return [];
+  const li=()=>o.links.map(([j,w])=>({t:'i',i:j,w})),la=()=>o.alinks.map(([j,w,v])=>({t:'a',i:j,w,v}));
+  if(r.t==='g'){if(S.view==='3d')return [...(S.vis.i?li():[]),...(S.vis.a?la():[])];return otherOfG()==='i'?li():la();}
+  if(r.t==='a')return o.links.map(([g,w],k)=>({t:'g',i:g,w,v:o.votes[k][1]}));
+  return o.links.map(([g,w])=>({t:'g',i:g,w}));}
+function visible(o){return o.t==='i'?S.branch===null||o.br===S.branch:o.t==='a'?S.fam===null||o.fam===S.fam:true;}
+function select(r,{focus=true}={}){S.sel=r;S.hover=null;
+  writeHash();
+  if(r&&S.view==='2d'&&focus)focus2d(r);
+  renderPanel();redraw();}
+// address: #[embed/][3d/][li/ | la/ | ua/](g/<genre> | i/<SL id> | a/<MBID>)
+//   embed: shown inside the explorer's map, which owns the layer and view switches
+//   3d: the 3D view; li / la: instruments / artists shown in 2D; ua: artists as the upper plane in 3D
+const EMBED=/^#embed(\/|$)/.test(location.hash);
+if(EMBED)document.documentElement.classList.add('embed');
+function selKey(r){return r?`${r.t}/${encodeURIComponent(r.t==='g'?G[r.i].name:r.t==='i'?I[r.i].uid:A[r.i].id)}`:'';}
+function writeHash(){const sel=selKey(S.sel);
+  const vl=['g','i','a'].filter(t=>S.vis[t]).join('');const flag=S.view==='3d'?(vl==='gi'?'':'v'+vl):(S.layer==='i'?'li':S.layer==='a'?'la':'');
+  const parts=[EMBED?'embed':'',S.view==='3d'?'3d':'',flag,sel].filter(Boolean);
+  history.replaceState(null,'',parts.length?'#'+parts.join('/'):location.pathname+location.search);}
+function parseHash(){let parts=decodeURIComponent(location.hash.slice(1)).split('/');const o={view:'2d',layer:'g',up:null,vis:null,sel:null,pending:null};
+  while(parts.length&&(['embed','3d','li','la','ua'].includes(parts[0])||/^v[gia]+$/.test(parts[0]))){const f=parts.shift();if(f==='3d')o.view='3d';if(f==='li'){o.layer='i';o.up='i';}if(f==='la'){o.layer='a';o.up='a';}
+    if(f==='ua')o.vis={g:true,i:false,a:true};if(/^v[gia]+$/.test(f))o.vis={g:f.includes('g'),i:f.includes('i'),a:f.includes('a')};}
+  const t=parts[0],k=parts.slice(1).join('/');
+  if(t==='g'){const g=G.find(x=>x.name===k);if(g)o.sel={t:'g',i:g.i};}
+  if(t==='i'){const it=I.find(x=>x.uid===k);if(it){o.sel={t:'i',i:it.i};if(o.view==='2d')o.layer='i';o.up='i';}}
+  if(t==='a'){if(o.view==='2d')o.layer='a';o.up='a';const a=A.find(x=>x.id===k);if(a)o.sel={t:'a',i:a.i};else o.pending=k;}
+  return o;}
+function fromHash(){const o=parseHash();S.view=o.view;S.layer=o.layer;if(o.up)S.up=o.up;if(o.vis)S.vis=o.vis;if(o.sel)S.sel=o.sel;PENDING=o.pending;}
+// the explorer drives the embedded view by changing the address
+addEventListener('hashchange',()=>{if(!MAP)return;const o=parseHash();
+  const go=()=>{S.layer=o.layer;if(o.up)S.up=o.up;if(o.vis)S.vis=o.vis;S.view=o.view;setView(o.view);segs();buildChips();note();
+    const sel=o.sel||(o.pending?(()=>{const a=A.find(x=>x.id===o.pending);return a?{t:'a',i:a.i}:null;})():null);
+    const same=(a,b)=>(!a&&!b)||(a&&b&&a.t===b.t&&a.i===b.i);if(!same(sel,S.sel))select(sel);centerOnArtists();redraw();};
+  if((o.layer==='a'||o.up==='a'||(o.vis&&o.vis.a)||o.pending)&&!AD)loadArtists().then(go);else go();});
+// find from the explorer's search box: the best match on the visible layers
+window.slFind=function(q){q=norm(String(q||'').trim());if(!q)return null;
+  const pool=S.view==='3d'?[...(S.vis.i?I:[]),...(S.vis.a?A:[]),...G]:S.layer==='g'?G:[...arr(S.layer),...G];
+  const hit=pool.find(x=>norm(x.name)===q)||pool.find(x=>norm(x.name).startsWith(q))||pool.find(x=>norm(x.name).includes(q));
+  if(hit){if(S.view==='2d')setLayer(hit.t);select({t:hit.t,i:hit.i});}return hit?hit.name:null;};
+window.slSelected=()=>{const r=S.sel;if(!r)return null;const o=item(r);return {t:r.t,name:o.name,uid:r.t==='i'?o.uid:null,id:r.t==='a'?o.id:null};};
+
+const spreadText=(o,what)=>o.spread==null?'':o.spread<0.03?`Its genres sit close together on the map: a focused ${what}.`:o.spread<0.12?'Its genres spread over part of the map.':`Its genres are spread across the map: a genre-crossing ${what}.`;
+const swOf=o=>o.t==='g'?`<span class="sw" style="background:${NIGHT[o.fam]}"></span>`:o.t==='i'?`<span class="sw ring" style="background:${BRANCH[o.br]}"></span>`:`<span class="sw sq" style="background:${NIGHT[o.fam]}"></span>`;
+function renderPanel(){const p=$('#panel');const o=item(S.sel);if(!o){p.hidden=true;return;}
+  const L=linked(S.sel);const t=S.sel.t;const other=t==='g'?(S.view==='3d'?['i','a'].filter(x=>S.vis[x]).map(x=>NAMES[x]).join(' and ')||'items':NAMES[otherOfG()]):'genres';
+  const head=t==='g'?`<div class="kind">${swOf(o)} Genre · ${esc(MAP.families[o.fam])}</div><h2>${esc(o.name)}</h2>`
+    :t==='i'?`<div class="kind">${swOf(o)} Instrument · ${esc(LAY.branches[o.br])}</div><h2>${esc(o.name)}</h2>`
+    :`<div class="kind">${swOf(o)} ${esc([o.type||'Artist',o.area].filter(Boolean).join(' · '))}</div><h2>${esc(o.name)}</h2>`;
+  const nI=L.filter(l=>l.t==='i').length,nA=L.filter(l=>l.t==='a').length;
+  const desc=t==='g'&&S.view==='3d'?`<p>${[S.vis.i?`${nI} instrument${nI===1?'':'s'}`:'',S.vis.a?(AD?`${fmt(nA)} artist${nA===1?'':'s'}`:'artists loading'):''].filter(Boolean).join(' · ')||'Show the instruments or the artists to see what it links to.'}</p>`:t==='g'?`<p>${L.length?(otherOfG()==='i'?`Uses ${L.length} instrument${L.length>1?'s':''} of the thesaurus.`:`${fmt(L.length)} artist${L.length>1?'s have':' has'} it among their genres.`):otherOfG()==='a'&&!AD?'Loading the artists…':otherOfG()==='i'?'Its profile names no instrument.':'No artist in the selection has this genre.'}</p>`
+    :t==='i'?`<p>Used by ${L.length} genre${L.length>1?'s':''}. ${spreadText(o,'instrument')}</p>`
+    :`<p>${L.length} genre${L.length>1?'s':''}${o.src?' from Wikidata':', from MusicBrainz votes'}. ${spreadText(o,'artist')}</p>`;
+  const wcol=l=>l.t==='a'?(l.v!=null?`${l.v} vote${l.v>1?'s':''}`:''):t==='a'?(o.src?'Wikidata':`${l.v} vote${l.v>1?'s':''}`):W_NAME[l.w];
+  const rows=L.slice(0,60).map(l=>{const x=item(l);return `<button type="button" data-t="${l.t}" data-i="${l.i}">${swOf(x)}<span>${esc(x.name)}</span><span class="w">${wcol(l)}</span></button>`;}).join('');
+  const more=L.length>60?`<p>and ${fmt(L.length-60)} more.</p>`:'';
+  const links=t==='g'?`<a class="btn" target="_top" href="explore.html#genres/${encodeURIComponent(o.name)}">Genre record</a>${otherOfG()==='a'&&L.length?`<a class="btn" target="_top" href="explore.html#artists/genre/${encodeURIComponent(o.name)}">All its artists</a>`:''}`
+    :t==='i'?`<a class="btn" target="_top" href="thesaurus.html#${o.uid}">Thesaurus</a><a class="btn" target="_top" href="explore.html#concepts/${o.uid}">Explorer</a>`
+    :`<a class="btn" target="_top" href="explore.html#artists/${o.id}">Artist record</a><a class="btn" target="_blank" rel="noopener" href="https://musicbrainz.org/artist/${o.id}">MusicBrainz</a>`;
+  p.innerHTML=`<div class="h"><div>${head}</div><button class="x" type="button" id="px" aria-label="Clear selection">×</button></div>${desc}<div class="links">${links}</div>${L.length?`<div class="kind">Linked ${other}, strongest first</div><div class="nb">${rows}</div>${more}`:''}`;
+  p.hidden=false;
+  $('#px').onclick=()=>select(null);
+  p.querySelectorAll('.nb button').forEach(b=>b.onclick=()=>{const r={t:b.dataset.t,i:+b.dataset.i};if(S.view==='2d')setLayer(r.t);select(r);});
+}
+
+// legend chips filter the upper layer: instrument families or artist genre families
+function chipLayer(){return S.view==='3d'?(S.vis.a&&!S.vis.i?'a':'i'):S.layer==='g'?S.up:S.layer;}
+function buildChips(){const t=chipLayer();
+  if(t==='a'){$('#chips').innerHTML=MAP.families.map((b,i)=>`<button class="chip" type="button" data-b="${i}" aria-pressed="${S.fam===i}"><span class="sw sq" style="background:${NIGHT[i]}"></span>${esc(b)}</button>`).join('');$('#chips').setAttribute('aria-label','Show the artists of one family');}
+  else{$('#chips').innerHTML=LAY.branches.map((b,i)=>`<button class="chip" type="button" data-b="${i}" aria-pressed="${S.branch===i}"><span class="sw ring" style="background:${BRANCH[i]}"></span>${esc(b)}</button>`).join('');$('#chips').setAttribute('aria-label','Show one instrument family');}
+  $('#chips').querySelectorAll('.chip').forEach(c=>c.onclick=()=>{const b=+c.dataset.b;if(t==='a')S.fam=S.fam===b?null:b;else S.branch=S.branch===b?null:b;
+    $('#chips').querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',+x.dataset.b===(t==='a'?S.fam:S.branch)));redraw();});
+}
+function note(){const n=$('#note');
+  if(S.view==='2d')n.textContent=S.layer==='g'?`${fmt(G.length)} genres. Select one to see its ${NAMES[S.up]}.`:S.layer==='i'?`${I.length} instruments, each at the weighted center of the genres that use it.`:AD?`${fmt(A.length)} artists, each at the vote-weighted center of its genres.`:'Loading the artists…';
+  else n.textContent='Drag to rotate, right-drag or Shift-drag to pan, wheel or pinch to zoom.';}
+
+// ---------- search (standalone page)
+function bindSearch(){const q=$('#q'),sg=$('#sugg');let hits=[],on=0;
+  const show=()=>{const v=norm(q.value.trim());if(!v){sg.hidden=true;return;}
+    const up=S.view==='3d'?S.up:S.layer==='g'?S.up:S.layer;
+    const a=[...arr(up).filter(x=>norm(x.name).includes(v)).slice(0,5),...G.filter(x=>norm(x.name).includes(v)).slice(0,7)];
+    hits=a;on=0;sg.innerHTML=a.map((x,k)=>`<button type="button" data-k="${k}" class="${k===0?'on':''}">${swOf(x)}${esc(x.name)}<small>${x.t==='g'?'genre':x.t==='i'?'instrument':'artist'}</small></button>`).join('')||'<button type="button" disabled>No match</button>';
+    sg.hidden=false;sg.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>pick(+b.dataset.k));};
+  const pick=k=>{const x=hits[k];if(!x)return;sg.hidden=true;q.value='';if(S.view==='2d')setLayer(x.t);select({t:x.t,i:x.i});};
+  q.addEventListener('input',show);
+  q.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();on=(on+(e.key==='ArrowDown'?1:-1)+hits.length)%Math.max(1,hits.length);sg.querySelectorAll('[data-k]').forEach((b,k)=>b.classList.toggle('on',k===on));}
+    else if(e.key==='Enter'){pick(on);}else if(e.key==='Escape'){sg.hidden=true;}});
+  document.addEventListener('click',e=>{if(!e.target.closest('.search'))sg.hidden=true;});
+}
+
+// ---------- view switching
+function bind(){
+  $('#v2').onclick=()=>setView('2d');$('#v3').onclick=()=>setView('3d');
+  if(!hasGL){$('#v3').disabled=true;$('#v3').title='3D needs WebGL, which this browser does not offer';}
+  $('#lg').onclick=()=>setLayer('g',true);$('#li').onclick=()=>setLayer('i',true);$('#la').onclick=()=>setLayer('a',true);
+  $('#all').onchange=e=>{S.all=e.target.checked;redraw();};
+  document.querySelectorAll('[data-cam]').forEach(b=>b.onclick=()=>camPreset(b.dataset.cam,true));
+  addEventListener('keydown',e=>{if(e.key==='Escape'&&S.sel&&document.activeElement.tagName!=='INPUT')select(null);});
+  bindSearch();
+  new ResizeObserver(()=>{resize2d();resize3d();redraw();}).observe($('#stage'));
+}
+function segs(){$('#v2').setAttribute('aria-pressed',S.view==='2d');$('#v3').setAttribute('aria-pressed',S.view==='3d');
+  for(const [id,t] of [['#lg','g'],['#li','i'],['#la','a']])$(id).setAttribute('aria-pressed',S.view==='3d'?!!S.vis[t]:S.layer===t);}
+function setView(v){if(v==='3d'&&!hasGL)v='2d';S.view=v;segs();$('#tools').hidden=v!=='3d';if(v==='3d'&&S.vis.a&&!AD)loadArtists().then(()=>{renderPanel();redraw();}).catch(()=>{});
+  $('#c2').style.display=v==='2d'?'block':'none';
+  if(v==='3d'){init3d();R3.canvas.style.display='block';resize3d();}else if(R3.canvas)R3.canvas.style.display='none';
+  $('#tip').hidden=true;note();buildChips();renderPanel();redraw();if(MAP)writeHash();}
+function setLayer(t,fromClick){
+  if(S.view==='3d'){if(!fromClick){if(!S.vis[t]){S.vis[t]=true;}else return;}else{const n={...S.vis,[t]:!S.vis[t]};if(!n.g&&!n.i&&!n.a)return;S.vis=n;}}
+  else{if(S.layer===t)return;S.layer=t;if(t!=='g')S.up=t;}
+  const apply=()=>{segs();note();buildChips();renderPanel();
+    // the artist plane is larger than the genre frame: center on the selected genre's artists
+    centerOnArtists();redraw();writeHash();};
+  if((t==='a'||(S.view==='3d'&&S.vis.a))&&!AD){apply();loadArtists().then(apply).catch(()=>{});}else apply();}
+function centerOnArtists(){if(S.view==='2d'&&S.layer==='a'&&AD&&S.sel&&S.sel.t==='g'){const L=G[S.sel.i].alinks.slice(0,60).map(l=>A[l[0]]);if(L.length){const cx=L.reduce((s,o)=>s+o.x,0)/L.length,cy=L.reduce((s,o)=>s+o.y,0)/L.length;focus2d({_o:{x:cx,y:cy}});}}}
+function redraw(){if(!MAP)return;if(S.view==='2d')draw2d();else draw3d();}
+
+// ---------- 2D
+const V2={k:1,x:0,y:0,W:0,H:0,ctx:null};const PAD=30;
+function resize2d(){const c=$('#c2');const r=$('#stage').getBoundingClientRect(),d=devicePixelRatio||1;V2.W=r.width;V2.H=r.height;c.width=r.width*d;c.height=r.height*d;V2.ctx=c.getContext('2d');V2.ctx.setTransform(d,0,0,d,0,0);}
+const top2=()=>EMBED?16:Math.min(110,V2.H*.16);
+function scr(x,y){const t=top2();return [(PAD+x*(V2.W-2*PAD))*V2.k+V2.x,(t+y*(V2.H-t-PAD))*V2.k+V2.y];}
+function focus2d(r){const o=r&&r._o?r._o:item(r);if(!o)return;const k=Math.max(V2.k,1.8);const t=top2();V2.k=k;V2.x=V2.W/2-(PAD+o.x*(V2.W-2*PAD))*k;V2.y=(V2.H+t)/2-(t+o.y*(V2.H-t-PAD))*k;}
+function draw2d(){const c=V2.ctx;if(!c)return;c.clearRect(0,0,V2.W,V2.H);
+  const lt=S.layer,lay=lt==='a'?AORD:arr(lt);const sel=S.sel;const hot=new Map();
+  if(sel){if(sel.t===lt)hot.set(sel.i,4);for(const l of linked(sel))if(l.t===lt)hot.set(l.i,l.w);}
+  const r0=lt==='g'?Math.max(2.2,Math.min(6,2.4*Math.sqrt(V2.k))):lt==='i'?Math.max(3.5,Math.min(8,4*Math.sqrt(V2.k))):Math.max(1.1,Math.min(4,1.2*Math.sqrt(V2.k)));
+  const dimmed=o=>(sel&&!hot.has(o.i))||!visible(o);
+  if(lt==='a'){ // many points: small squares, one fill color at a time
+    for(const pass of [true,false]){let col=null;c.globalAlpha=pass?(sel?.1:.18):.9;
+      for(const o of lay){if(dimmed(o)!==pass)continue;const [x,y]=scr(o.x,o.y);if(x<-4||y<-4||x>V2.W+4||y>V2.H+4)continue;
+        const cc=NIGHT[o.fam];if(cc!==col){c.fillStyle=cc;col=cc;}const r=hot.get(o.i)===4?r0+3:r0;c.fillRect(x-r,y-r,2*r,2*r);}}
+    if(sel&&sel.t==='a'){const o=A[sel.i];const [x,y]=scr(o.x,o.y);c.globalAlpha=1;c.lineWidth=2;c.strokeStyle=PAL.ring;c.strokeRect(x-r0-5,y-r0-5,2*r0+10,2*r0+10);}
+  }else for(const pass of [true,false])for(const o of lay){if(dimmed(o)!==pass)continue;const [x,y]=scr(o.x,o.y);if(x<-12||y<-12||x>V2.W+12||y>V2.H+12)continue;
+    c.globalAlpha=pass?(sel?.12:.2):.95;const col=o.t==='g'?NIGHT[o.fam]:BRANCH[o.br];
+    const r=o.t==='g'?r0:r0*(hot.get(o.i)===4?1.5:1);c.fillStyle=col;c.beginPath();c.arc(x,y,hot.get(o.i)===4?r+2:r,0,6.283);c.fill();
+    if(o.t==='i'){c.lineWidth=1.2;c.strokeStyle=PAL.ring;c.globalAlpha=pass?.15:.8;c.stroke();}}
+  c.globalAlpha=1;
+  // labels (a grid keeps them from piling up)
+  const L=$('#labels');let h='';const used=new Set();
+  const lab=(o,big)=>{const [x,y]=scr(o.x,o.y);if(x<0||y<0||x>V2.W||y>V2.H)return'';const key=Math.round(x/110)+','+Math.round(y/18);if(!big&&used.has(key))return'';used.add(key);return `<div class="lab ${big?'big':''}" style="left:${x}px;top:${y}px">${esc(o.name)}</div>`;};
+  if(sel){if(sel.t===lt)h+=lab(item(sel),true);
+    linked(sel).filter(l=>l.t===lt).slice(0,14).forEach(l=>h+=lab(item(l),false));
+    if(sel.t!==lt){const n=linked(sel).filter(l=>l.t===lt).length;h+=`<div class="lab plane" style="left:16px;top:${top2()+4}px;transform:none">${fmt(n)} ${lt==='g'?(sel.t==='a'?'genres of':'genres use'):lt==='i'?'instruments in':'artists with'} ${esc(item(sel).name)}</div>`;}}
+  else if(lt==='i'&&V2.k>=1.6){for(const o of I)if(visible(o))h+=lab(o,false);}
+  else if(lt==='a'&&V2.k>=2.2){let n=0;for(const o of A){if(!visible(o))continue;const s=lab(o,false);if(s){h+=s;if(++n>=90)break;}}}
+  L.innerHTML=h;
+}
+function pick2d(mx,my){const lay=arr(S.layer);let best=null,bd=(S.layer==='a'?9:14)**2;for(const o of lay){if(!visible(o))continue;const [x,y]=scr(o.x,o.y);const d=(x-mx)**2+(y-my)**2;if(d<bd){bd=d;best=o;}}return best;}
+(function bind2d(){const c=$('#c2');let drag=null,moved=false;const pts=new Map();let pinch=null;
+  c.addEventListener('pointerdown',e=>{c.setPointerCapture(e.pointerId);pts.set(e.pointerId,[e.offsetX,e.offsetY]);moved=false;drag=[e.offsetX,e.offsetY,V2.x,V2.y];
+    if(pts.size===2){const [a,b]=[...pts.values()];pinch={d:Math.hypot(a[0]-b[0],a[1]-b[1]),k:V2.k,cx:(a[0]+b[0])/2,cy:(a[1]+b[1])/2,x:V2.x,y:V2.y};}});
+  c.addEventListener('pointermove',e=>{if(pts.has(e.pointerId))pts.set(e.pointerId,[e.offsetX,e.offsetY]);
+    if(pinch&&pts.size===2){const [a,b]=[...pts.values()];const k=Math.max(.6,Math.min(30,pinch.k*Math.hypot(a[0]-b[0],a[1]-b[1])/pinch.d));V2.x=pinch.cx-(pinch.cx-pinch.x)*k/pinch.k;V2.y=pinch.cy-(pinch.cy-pinch.y)*k/pinch.k;V2.k=k;moved=true;draw2d();return;}
+    if(drag&&pts.size===1){const dx=e.offsetX-drag[0],dy=e.offsetY-drag[1];if(Math.abs(dx)+Math.abs(dy)>3)moved=true;if(moved){V2.x=drag[2]+dx;V2.y=drag[3]+dy;draw2d();}return;}
+    const o=pick2d(e.offsetX,e.offsetY);tip(o,e.clientX,e.clientY);});
+  const up=e=>{pts.delete(e.pointerId);if(pts.size<2)pinch=null;if(drag&&!moved&&pts.size===0){const o=pick2d(e.offsetX,e.offsetY);select(o?{t:o.t,i:o.i}:null,{focus:false});}if(!pts.size)drag=null;};
+  c.addEventListener('pointerup',up);c.addEventListener('pointercancel',up);c.addEventListener('pointerleave',()=>$('#tip').hidden=true);
+  c.addEventListener('wheel',e=>{e.preventDefault();const f=Math.exp(-e.deltaY*.0015),k=Math.max(.6,Math.min(30,V2.k*f));V2.x=e.offsetX-(e.offsetX-V2.x)*k/V2.k;V2.y=e.offsetY-(e.offsetY-V2.y)*k/V2.k;V2.k=k;draw2d();},{passive:false});
+})();
+function tip(o,cx,cy){const t=$('#tip');if(!o){t.hidden=true;return;}
+  t.innerHTML=`${esc(o.name)}<span>${o.t==='g'?`Genre · ${esc(MAP.families[o.fam])} · ${o.links.length} instruments${AD?` · ${fmt(o.alinks.length)} artists`:''}`:o.t==='i'?`${esc(LAY.branches[o.br])} · ${o.links.length} genres`:`${esc([o.type||'Artist',o.area].filter(Boolean).join(' · '))} · ${G[o.links[0][0]].name}${o.links.length>1?` and ${o.links.length-1} more`:''}`}</span>`;
+  t.hidden=false;const r=t.getBoundingClientRect();t.style.left=Math.min(innerWidth-r.width-8,cx+14)+'px';t.style.top=Math.min(innerHeight-r.height-8,cy+14)+'px';}
+
+// ---------- 3D (three.js r128 from cdnjs)
+// Planes from top to bottom: instruments (+HY), genres (0), artists (-HY, 1.5 times the area). Any of them can be hidden.
+const R3={};const SZ=10,HY=3.6,MAXL=600;
+const LY={i:HY,g:0,a:-HY};
+const P3=o=>o.t==='a'?[(o.x3-.5)*SZ*A3,LY.a,(o.y3-.5)*SZ*A3]:[(o.x-.5)*SZ,LY[o.t],(o.y-.5)*SZ];
+function spriteTex(ring){const c=document.createElement('canvas');c.width=c.height=64;const g=c.getContext('2d');
+  g.beginPath();g.arc(32,32,ring?24:28,0,6.283);g.fillStyle='#fff';g.fill();
+  if(ring){g.lineWidth=6;g.strokeStyle='rgba(255,255,255,1)';g.beginPath();g.arc(32,32,28,0,6.283);g.stroke();g.globalCompositeOperation='destination-out';g.lineWidth=3;g.beginPath();g.arc(32,32,24.5,0,6.283);g.stroke();}
+  return new THREE.CanvasTexture(c);}
+function cloud(arr,size,ring,at=.3){const pos=new Float32Array(arr.length*3),col=new Float32Array(arr.length*3);arr.forEach((o,k)=>{pos.set(P3(o),k*3);});
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));g.setAttribute('color',new THREE.BufferAttribute(col,3));
+  const m=new THREE.PointsMaterial({size,vertexColors:true,map:spriteTex(ring),transparent:true,alphaTest:at,depthWrite:false,sizeAttenuation:true});const p=new THREE.Points(g,m);R3.sc.add(p);return p;}
+function init3d(){if(R3.r)return;
+  const r=new THREE.WebGLRenderer({antialias:true,alpha:false});r.setClearColor(new THREE.Color(PAL.bg));r.setPixelRatio(Math.min(2,devicePixelRatio||1));
+  R3.r=r;R3.canvas=r.domElement;R3.canvas.setAttribute('aria-label','3D view: instruments above, genres in the middle, artists below, joined by lines');$('#stage').appendChild(R3.canvas);
+  const sc=new THREE.Scene();R3.sc=sc;R3.cam=new THREE.PerspectiveCamera(45,1,.1,200);
+  R3.orb={th:-.6,ph:1.12,d:21,tx:0,ty:0,tz:0};R3.planes={};
+  for(const t of ['i','g','a']){const side=SZ*1.04*(t==='a'?A3:1);const g=new THREE.PlaneGeometry(side,side);g.rotateX(-Math.PI/2);
+    const m=new THREE.Mesh(g,new THREE.MeshBasicMaterial({color:new THREE.Color(PAL.planeHex),transparent:true,opacity:PAL.planeA,depthWrite:false,side:THREE.DoubleSide}));m.position.y=LY[t];sc.add(m);
+    const e=new THREE.LineSegments(new THREE.EdgesGeometry(g),new THREE.LineBasicMaterial({color:new THREE.Color(PAL.edgeHex),transparent:true,opacity:PAL.edgeA}));e.position.y=LY[t];sc.add(e);R3.planes[t]=[m,e];}
+  R3.pts={g:cloud(G,.17,false),i:cloud(I,.34,true)};
+  R3.lines=new THREE.LineSegments(new THREE.BufferGeometry(),new THREE.LineBasicMaterial({vertexColors:true,transparent:true,opacity:.6,depthWrite:false}));sc.add(R3.lines);
+  bind3d();camPreset('tilt',false);
+}
+function artCloud(){if(!AD)return null;if(!R3.pts.a)R3.pts.a=cloud(A,.07,false,.02);return R3.pts.a;}
+function resize3d(){if(!R3.r)return;const r=$('#stage').getBoundingClientRect();R3.r.setSize(r.width,r.height,false);R3.canvas.style.width=r.width+'px';R3.canvas.style.height=r.height+'px';R3.cam.aspect=r.width/Math.max(1,r.height);R3.cam.updateProjectionMatrix();}
+function camApply(){const o=R3.orb;const c=R3.cam;c.position.set(o.tx+o.d*Math.sin(o.ph)*Math.sin(o.th),o.ty+o.d*Math.cos(o.ph),o.tz+o.d*Math.sin(o.ph)*Math.cos(o.th));c.lookAt(o.tx,o.ty,o.tz);c.updateMatrixWorld();
+  R3.pm=new THREE.Matrix4().multiplyMatrices(c.projectionMatrix,c.matrixWorldInverse).elements;}
+function camPreset(k,anim){const o=R3.orb;const tgt=k==='top'?{th:0,ph:.0001,d:18,tx:0,ty:0,tz:0}:k==='side'?{th:0,ph:Math.PI/2-.04,d:21,tx:0,ty:0,tz:0}:{th:-.6,ph:1.12,d:21,tx:0,ty:0,tz:0};
+  document.querySelectorAll('[data-cam]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.cam===k));
+  const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!anim||still){Object.assign(o,tgt);draw3d();return;}
+  const s={...o},t0=performance.now();const step=now=>{const p=Math.min(1,(now-t0)/600),e=p<.5?2*p*p:1-(-2*p+2)**2/2;for(const k2 in tgt)o[k2]=s[k2]+(tgt[k2]-s[k2])*e;draw3d();if(p<1)requestAnimationFrame(step);};requestAnimationFrame(step);}
+const shown3=r=>r&&S.vis[r.t]&&(r.t!=='a'||AD);
+function hot3d(){const hot={g:new Map(),i:new Map(),a:new Map()};
+  for(const r of [S.sel,S.hover].filter(shown3)){hot[r.t].set(r.i,4);for(const l of linked(r)){if(!S.vis[l.t])continue;const m=hot[l.t];m.set(l.i,Math.max(l.w,m.get(l.i)||0));}}
+  return [hot,[S.sel,S.hover].some(shown3)];}
+function colors3d(){const [hot,any]=hot3d();
+  for(const [t,[m,e]] of Object.entries(R3.planes)){m.visible=e.visible=!!S.vis[t]&&(t!=='a'||!!AD);}
+  R3.pts.g.visible=S.vis.g;R3.pts.i.visible=S.vis.i;
+  const gc=R3.pts.g.geometry.attributes.color;G.forEach((o,k)=>{const a=!any?.85:hot.g.has(o.i)?1:.14;gc.array.set(mix(NIGHT[o.fam],a),k*3);});gc.needsUpdate=true;
+  const ic=R3.pts.i.geometry.attributes.color;I.forEach((o,k)=>{const vis=visible(o);const a=!vis?.12:!any?.95:hot.i.has(o.i)?1:.18;ic.array.set(mix(BRANCH[o.br],a),k*3);});ic.needsUpdate=true;
+  if(R3.hotA){R3.sc.remove(R3.hotA);R3.hotA.geometry.dispose();R3.hotA=null;}
+  const ac=S.vis.a?artCloud():null;if(R3.pts.a)R3.pts.a.visible=!!ac;if(!ac)return;
+  // many artists: the whole cloud is drawn faint, the highlighted ones again on top
+  ac.material.opacity=any?.18:.85;const cc=ac.geometry.attributes.color;
+  A.forEach((o,k)=>cc.array.set(mix(NIGHT[o.fam],visible(o)?1:.15),k*3));cc.needsUpdate=true;
+  const h=[...hot.a.keys()].slice(0,MAXL+1).map(i=>A[i]).filter(visible);
+  if(h.length){R3.hotA=cloud(h,.13,false);const hc=R3.hotA.geometry.attributes.color;h.forEach((o,k)=>hc.array.set(mix(NIGHT[o.fam],1),k*3));hc.needsUpdate=true;}}
+function lines3d(){const segs=[];
+  const add=(o,g,w,a)=>{segs.push(P3(o),P3(G[g]),mix(PAL.lines[w],a));};
+  if(S.vis.g){
+    if(S.all){for(const t of ['i','a']){if(!S.vis[t]||(t==='a'&&!AD))continue;let n=0;for(const o of arr(t)){if(!visible(o))continue;for(const [g,w] of o.links)add(o,g,w,.35);if(t==='a'&&++n>=3000)break;}}}
+    for(const r of [S.sel,S.hover].filter(shown3)){
+      if(r.t!=='g'){const o=item(r);for(const [g,w] of o.links)add(o,g,w,1);}
+      else{const n={i:0,a:0};for(const l of linked(r)){if(!S.vis[l.t])continue;const o=item(l);if(!visible(o))continue;if(++n[l.t]>MAXL)continue;add(o,r.i,l.w,1);}}}}
+  const n=segs.length/3,pos=new Float32Array(n*6),col=new Float32Array(n*6);
+  for(let k=0;k<n;k++){pos.set(segs[k*3],k*6);pos.set(segs[k*3+1],k*6+3);col.set(segs[k*3+2],k*6);col.set(segs[k*3+2],k*6+3);}
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));g.setAttribute('color',new THREE.BufferAttribute(col,3));
+  R3.lines.geometry.dispose();R3.lines.geometry=g;}
+// fast projection with the combined camera matrix (no object per point)
+function proj(x,y,z){const e=R3.pm,W=R3.W3,H=R3.H3;const w=e[3]*x+e[7]*y+e[11]*z+e[15];if(w<=0)return [0,0,2];
+  return [((e[0]*x+e[4]*y+e[8]*z+e[12])/w+1)/2*W,(1-(e[1]*x+e[5]*y+e[9]*z+e[13])/w)/2*H,(e[2]*x+e[6]*y+e[10]*z+e[14])/w];}
+function draw3d(){if(!R3.r)return;const rr=$('#stage').getBoundingClientRect();R3.W3=rr.width;R3.H3=rr.height;
+  R3.r.setClearColor(new THREE.Color(PAL.bg));for(const [m,e] of Object.values(R3.planes)){m.material.color.set(PAL.planeHex);m.material.opacity=PAL.planeA;e.material.color.set(PAL.edgeHex);e.material.opacity=PAL.edgeA;}
+  camApply();colors3d();lines3d();R3.r.render(R3.sc,R3.cam);labels3d();}
+function labels3d(){let h='';const L=$('#labels');
+  const lab=(o,big)=>{const [x,y,z]=proj(...P3(o));if(z>1)return'';return `<div class="lab ${big?'big':''}" style="left:${x}px;top:${y}px">${esc(o.name)}</div>`;};
+  // plane names at the left-most corner of each visible plane
+  const corner=t=>{const c=SZ*.52*(t==='a'?A3:1),y=LY[t];return [[-c,y,-c],[c,y,-c],[c,y,c],[-c,y,c]].map(p=>proj(...p)).filter(p=>p[2]<=1).sort((a,b)=>a[0]-b[0])[0];};
+  for(const [t,name] of [['i','Instruments'],['g','Genres'],['a','Artists']]){if(!S.vis[t])continue;const p=corner(t);if(p)h+=`<div class="lab plane" style="left:${p[0]}px;top:${p[1]}px">${name}${t==='a'&&!AD?' (loading)':''}</div>`;}
+  if(shown3(S.sel)){h+=lab(item(S.sel),true);linked(S.sel).filter(l=>S.vis[l.t]&&visible(item(l))).slice(0,10).forEach(l=>h+=lab(item(l),false));}
+  if(shown3(S.hover)&&!(S.sel&&S.hover.t===S.sel.t&&S.hover.i===S.sel.i))h+=lab(item(S.hover),true);
+  L.innerHTML=h;}
+function pick3d(mx,my){if(!R3.pm)return null;let best=null,bd;
+  const test=o=>{const [x,y,z]=proj(...P3(o));if(z>1)return;const d=(x-mx)**2+(y-my)**2;if(d<bd){bd=d;best=o;}};
+  bd=12*12;if(S.vis.i)for(const o of I)if(visible(o))test(o);if(best)return best;
+  bd=8*8;if(S.vis.g)for(const o of G)test(o);if(best)return best;
+  bd=7*7;if(S.vis.a&&AD)for(const o of A)if(visible(o))test(o);return best;}
+function bind3d(){const c=R3.canvas;const pts=new Map();let drag=null,moved=false,pinch=null,raf=0;
+  c.addEventListener('contextmenu',e=>e.preventDefault());
+  c.addEventListener('pointerdown',e=>{c.setPointerCapture(e.pointerId);pts.set(e.pointerId,[e.offsetX,e.offsetY]);moved=false;
+    drag={x:e.offsetX,y:e.offsetY,pan:e.button===2||e.shiftKey,o:{...R3.orb}};
+    if(pts.size===2){const [a,b]=[...pts.values()];pinch={d:Math.hypot(a[0]-b[0],a[1]-b[1]),d0:R3.orb.d};}});
+  c.addEventListener('pointermove',e=>{if(pts.has(e.pointerId))pts.set(e.pointerId,[e.offsetX,e.offsetY]);const o=R3.orb;
+    if(pinch&&pts.size===2){const [a,b]=[...pts.values()];o.d=Math.max(5,Math.min(45,pinch.d0*pinch.d/Math.max(1,Math.hypot(a[0]-b[0],a[1]-b[1]))));moved=true;draw3d();return;}
+    if(drag&&pts.size===1){const dx=e.offsetX-drag.x,dy=e.offsetY-drag.y;if(Math.abs(dx)+Math.abs(dy)>3)moved=true;if(!moved)return;
+      if(drag.pan){const s=o.d/600;o.tx=drag.o.tx-(dx*Math.cos(o.th)+dy*Math.sin(o.th)*Math.cos(o.ph))*s;o.tz=drag.o.tz-(-dx*Math.sin(o.th)+dy*Math.cos(o.th)*Math.cos(o.ph))*s;}
+      else{o.th=drag.o.th-dx*.006;o.ph=Math.max(.0001,Math.min(Math.PI/2-.02,drag.o.ph-dy*.006));}
+      document.querySelectorAll('[data-cam]').forEach(b=>b.setAttribute('aria-pressed','false'));draw3d();return;}
+    const mx=e.offsetX,my=e.offsetY,cx=e.clientX,cy=e.clientY;if(raf)return;
+    raf=requestAnimationFrame(()=>{raf=0;const p=pick3d(mx,my);const h=p?{t:p.t,i:p.i}:null;
+      if((h&&(!S.hover||S.hover.t!==h.t||S.hover.i!==h.i))||(!h&&S.hover)){S.hover=h;draw3d();}tip(p,cx,cy);});});
+  const up=e=>{pts.delete(e.pointerId);if(pts.size<2)pinch=null;if(drag&&!moved&&pts.size===0){const p=pick3d(e.offsetX,e.offsetY);select(p?{t:p.t,i:p.i}:null);}if(!pts.size)drag=null;};
+  c.addEventListener('pointerup',up);c.addEventListener('pointercancel',up);
+  c.addEventListener('pointerleave',()=>{$('#tip').hidden=true;if(S.hover){S.hover=null;draw3d();}});
+  c.addEventListener('wheel',e=>{e.preventDefault();R3.orb.d=Math.max(5,Math.min(45,R3.orb.d*Math.exp(e.deltaY*.0012)));draw3d();},{passive:false});
+}
+</script>
+
+</body>
+</html>

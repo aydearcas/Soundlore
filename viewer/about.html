@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+/* Theme: fixed for now. The landing is light; every other page is dark. */
+document.documentElement.dataset.theme='dark';
+</script>
+<style>
+/* Slim scrollbars that follow the theme */
+*{scrollbar-width:thin;scrollbar-color:var(--sb-thumb,rgb(120 126 160 / .45)) transparent}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--sb-thumb,rgb(120 126 160 / .45));border-radius:10px;border:3px solid transparent;background-clip:content-box}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(120 126 160 / .75)}
+::-webkit-scrollbar-corner{background:transparent}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About – Soundlore</title>
+<meta name="description" content="What Soundlore is, how its concepts, genre profiles, temperature and map were built, where the data comes from, and its limits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F5F6F9; --panel:#FFFFFF; --ink:#1D2040; --muted:#4A5170; --line:#DDE1EA; --line-soft:#EEF0F5;
+  --accent:#23277F; --accent-soft:#E9EAFB; --link:#3A40C8; --link-hover:#23277F; --hover:#F0F1FA; --rule:#B8322B; --code-bg:#EEF0F5;
+  --t0:#4B7BD8; --t1:#45A7B8; --t2:#D9A83A; --t3:#E3702F; --t4:#D23A3A;
+  --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#15172E; --panel:#1F2342; --ink:#E8EAF7; --muted:#A9AECB; --line:#343A66; --line-soft:#2A2F55;
+  --accent:#A9AFFF; --accent-soft:#2D3263; --link:#A9AFFF; --link-hover:#FFFFFF; --hover:#272B50; --rule:#E2665D; --code-bg:#2A2F55;
+  --t0:#6F9CF0; --t1:#5FC3D2; --t2:#E8BD55; --t3:#F08A4C; --t4:#F05A5A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#15172E; --panel:#1F2342; --ink:#E8EAF7; --muted:#A9AECB; --line:#343A66; --line-soft:#2A2F55;
+  --accent:#A9AFFF; --accent-soft:#2D3263; --link:#A9AFFF; --link-hover:#FFFFFF; --hover:#272B50; --rule:#E2665D; --code-bg:#2A2F55;
+  --t0:#6F9CF0; --t1:#5FC3D2; --t2:#E8BD55; --t3:#F08A4C; --t4:#F05A5A; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-padding-top:90px}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6}
+a{color:var(--link)} a:hover{color:var(--link-hover)}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+code,.mono{font-family:var(--mono);font-size:.88em}
+code{background:var(--code-bg);border-radius:4px;padding:1px 5px}
+
+.top{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;--tb-line:var(--line);--tb-ink:var(--muted);--tb-hover:var(--hover)}
+@media (max-width:820px){.top{position:static}}
+.top-in{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding:12px clamp(16px,2.2vw,32px);max-width:1840px;margin:0 auto}
+.top .search{flex:1 1 220px;max-width:380px;min-width:0;display:flex;align-items:center;gap:10px;background:var(--ground,transparent);border:1px solid var(--line);border-radius:10px;padding:0 14px;min-height:44px;margin:0}
+.top .search:focus-within{border-color:var(--accent)}
+.top .search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;color:var(--ink);outline:none;min-height:42px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.brand{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.02em;color:var(--ink);text-decoration:none;line-height:1}
+.nav{display:flex;gap:2px;flex-wrap:wrap;flex:1}
+.nav a{padding:8px 13px;border-radius:8px;color:var(--muted);font-weight:500;text-decoration:none;min-height:40px;display:inline-flex;align-items:center;font-size:15px}
+.nav a:hover{background:var(--hover);color:var(--ink)}
+.nav a[aria-current="page"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.nav .sep{width:1px;background:var(--line);margin:6px 6px}
+.themebtn{min-height:40px;min-width:40px;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 12px;border-radius:8px;border:1px solid var(--tb-line);background:transparent;color:var(--tb-ink);font:500 13px var(--body);cursor:pointer}
+.themebtn:hover{background:var(--tb-hover)}
+
+.layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,760px);gap:56px;padding:40px clamp(16px,2.2vw,32px) 80px;max-width:1180px;margin:0 auto;align-items:start}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+.toc{position:sticky;top:96px;font-size:14.5px}
+@media (max-width:900px){.toc{position:static}}
+.toc h2{font-family:var(--body);font-size:13px;font-weight:600;color:var(--muted);margin:0 0 8px}
+.toc ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.toc a{display:block;padding:5px 0 5px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none}
+.toc a:hover{color:var(--ink)}
+.toc a.on{border-left-color:var(--accent);color:var(--ink);font-weight:600}
+
+article{min-width:0}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.015em}
+h1{font-weight:800;font-size:clamp(40px,5vw,64px);line-height:1;letter-spacing:-.03em}
+.lede{font-size:20px;line-height:1.55;margin:18px 0 0;max-width:62ch}
+section{margin-top:56px;padding-top:28px;border-top:2px solid var(--rule)}
+section:first-of-type{border-top-color:var(--line)}
+h2{font-weight:750;font-size:30px;line-height:1.1}
+h3{font-weight:700;font-size:20px;margin-top:30px}
+p{margin:12px 0 0;max-width:68ch}
+ul,ol.steps{margin:12px 0 0;padding-left:1.3em;max-width:68ch}
+li{margin:6px 0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:26px}
+.facts div{background:var(--panel);padding:14px 16px}
+.facts b{display:block;font-family:var(--display);font-size:30px;font-weight:800;line-height:1.1}
+.facts span{font-size:14px;color:var(--muted)}
+.tbl{overflow-x:auto;margin-top:16px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:10px 14px 10px 0;border-bottom:1px solid var(--line)}
+th{font-size:13.5px;color:var(--muted);font-weight:600}
+td:first-child{white-space:nowrap}
+.tbl.wrap td:first-child{white-space:normal;width:34%}
+.tbl.wrap td a{overflow-wrap:anywhere}
+@media (max-width:560px){.tbl.wrap table,.tbl.wrap tbody,.tbl.wrap tr,.tbl.wrap td{display:block;width:auto}.tbl.wrap thead{display:none}.tbl.wrap td{border:0;padding:2px 0}.tbl.wrap td:first-child{font-weight:600;padding-top:12px;width:auto}.tbl.wrap tr{border-bottom:1px solid var(--line);padding-bottom:10px}}
+.formula{margin:16px 0 0;padding:16px 18px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-family:var(--mono);font-size:14px;line-height:1.7;overflow-x:auto}
+.scale{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.scale span{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:999px;background:var(--panel);border:1px solid var(--line);font-size:14px}
+.scale i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.example{margin-top:16px;padding:16px 18px;border-left:3px solid var(--accent);background:var(--panel);border-radius:0 10px 10px 0;max-width:68ch}
+.example p:first-child{margin-top:0}
+.note{font-size:14.5px;color:var(--muted)}
+.author{font-size:17px;padding:12px 16px;border:1px solid var(--line);border-radius:10px;background:var(--panel);display:inline-block}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="index.html">Soundlore</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="explore.html#concepts">Concepts</a>
+      <a href="explore.html#genres">Genres</a>
+      <a href="explore.html#artists">Artists</a>
+      <a href="explore.html#map">Map</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a href="thesaurus.html">Thesaurus</a>
+      <a href="about.html" aria-current="page">About</a>
+    </nav>
+    <form class="search" role="search" action="explore.html" onsubmit="event.preventDefault();const v=this.q.value.trim();if(v)location.href='explore.html'+(document.documentElement.dataset.theme?'?t='+document.documentElement.dataset.theme:'')+'#search/'+encodeURIComponent(v);">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="color:var(--muted)"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <label class="sr" for="q">Search all of Soundlore</label>
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="Search Soundlore: concepts, genres, artists">
+    </form>
+    </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#project">The project</a></li>
+      <li><a href="#concepts">How the concepts were built</a></li>
+      <li><a href="#genres">How the genres were profiled</a></li>
+      <li><a href="#temperature">How temperature works</a></li>
+      <li><a href="#map">How the map is drawn</a></li>
+      <li><a href="#layers">The layers view</a></li>
+      <li><a href="#artists">How artists are linked</a></li>
+      <li><a href="#provenance">Who made what</a></li>
+      <li><a href="#data">Data and code</a></li>
+      <li><a href="#sources">Sources and credits</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#limits">Limits</a></li>
+    </ol>
+  </nav>
+
+  <article>
+    <h1>About Soundlore</h1>
+    <p class="lede">Soundlore describes music by what it is made of. It names the musical resources a song can use, from a blast beat to a Dorian melody or a wall of sound, and records which of them define each genre. From that, it measures how close two genres are.</p>
+
+    <div class="facts" aria-label="Soundlore in numbers">
+      <div><b data-n="concepts">959</b><span>musical concepts</span></div>
+      <div><b data-n="facets">14</b><span>facets</span></div>
+      <div><b>2,212</b><span>MusicBrainz genres</span></div>
+      <div><b>2,186</b><span>genre profiles</span></div>
+      <div><b data-n="wikidata">651</b><span>Wikidata links</span></div>
+      <div><b data-n="artists">48,127</b><span>MusicBrainz artists</span></div>
+    </div>
+
+    <section id="project">
+      <h2>The project</h2>
+      <p>Soundlore started as a map of musical concepts: a structured vocabulary for the rhythms, harmonies, forms, voices, instruments, techniques and production choices that make up a piece of music. It then grew to cover genres, and later artists. Today it has two connected vocabularies, organized the way libraries and medical databases organize knowledge, and a layer of artists linked to them:</p>
+      <ul>
+        <li><b>Concepts</b>: a thesaurus of musical resources, in the style of MeSH (the thesaurus used to index the medical literature) and modeled with SKOS, the W3C standard for thesauri.</li>
+        <li><b>Genres</b>: every genre in MusicBrainz, with its subgenres, fusions and influences.</li>
+        <li><b>Artists</b>, outside the thesaurus: MusicBrainz artists linked to the genres the community has voted for them.</li>
+      </ul>
+      <p>The bridge between them is each genre's <b>profile</b>: the resources that are characteristic, frequent or occasional in it. Everything else, from the prompt drafts to the temperature and the map, is computed from those profiles.</p>
+      <p>It also works as a tool for writing prompts for AI music generators: every concept lists the words that describe it in a prompt, with an estimate of how reliably generators follow them, and every genre has a prompt draft built from its profile.</p>
+      <p>The site has four parts: the <a href="explore.html">explorer</a> for browsing concepts, genres and artists; the genre <a href="explore.html#map">map</a>; the <a href="layers.html">layers view</a>, which joins the genre map to a second plane of instruments, in 2D or 3D; and the <a href="thesaurus.html">thesaurus</a>, which shows the full record of every concept and exports it as SKOS. Every method on this page is computed by scripts from the files listed in <a href="#data">Data and code</a>, so each result can be reproduced and checked.</p>
+    </section>
+
+    <section id="concepts">
+      <h2>How the concepts were built</h2>
+      <p>The concept taxonomy is original work. It was designed to cover what a listener, a musician or a prompt writer would use to describe a piece of music, in fourteen facets:</p>
+      <div class="tbl"><table>
+        <thead><tr><th scope="col">Code</th><th scope="col">Facet</th><th scope="col">Code</th><th scope="col">Facet</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">RHY</td><td>Rhythm, meter and tempo</td><td class="mono">INS</td><td>Instrumentation</td></tr>
+          <tr><td class="mono">DRM</td><td>Drums and percussion patterns</td><td class="mono">TEC</td><td>Instrumental techniques</td></tr>
+          <tr><td class="mono">HAR</td><td>Harmony and tonality</td><td class="mono">PRD</td><td>Production and sound</td></tr>
+          <tr><td class="mono">SCL</td><td>Scales and modes</td><td class="mono">DYN</td><td>Dynamics and articulation</td></tr>
+          <tr><td class="mono">MEL</td><td>Melody and motif</td><td class="mono">LYR</td><td>Lyrics and prosody</td></tr>
+          <tr><td class="mono">FRM</td><td>Form and structure</td><td class="mono">MOO</td><td>Mood and character</td></tr>
+          <tr><td class="mono">TEX</td><td>Texture and counterpoint</td><td class="mono">VOC</td><td>Voice and vocal technique</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Hierarchy and relations</h3>
+      <ul>
+        <li>Within each facet, concepts form a hierarchy of broader and narrower terms (up to three levels below the facet), as in MeSH: <i>Drum patterns</i> is broader than <i>Blast beat</i>.</li>
+        <li>A concept can sit in more than one place when it genuinely belongs to two branches (polyhierarchy). <i>Mixed meter</i>, for example, is under both <i>Meter</i> and <i>Odd meter</i>.</li>
+        <li>Related terms link concepts that are associated but not hierarchical, such as <i>Blast beat</i> and <i>Very fast tempo</i>. The links are made symmetric automatically.</li>
+        <li>Every place in the hierarchy gets a tree number (<span class="mono">DRM.01.13</span>), which shows the position and can change when the tree is reorganized.</li>
+      </ul>
+      <p>The form facet closely follows the musical form terms of the Library of Congress Genre/Form Terms (LCGFT), and the instrument facet those of the Library of Congress Medium of Performance Thesaurus (LCMPT). A formal crosswalk to their identifiers has not been made yet.</p>
+
+      <h3>The record of each concept</h3>
+      <ul>
+        <li><b>Identifier.</b> A permanent ID such as <span class="mono">SL000081</span>, like the MeSH Unique ID. It never changes when a concept is renamed or moved, and it is never reused.</li>
+        <li><b>Preferred term and entry terms.</b> The name used in Soundlore, plus synonyms that searches also find.</li>
+        <li><b>Definition.</b> What the concept is, in one or two sentences. All 959 are first drafts written with AI assistants (766 with ChatGPT, 193 with Claude, as recorded in each record) and are marked as drafts until reviewed.</li>
+        <li><b>Scope note.</b> How the term is used here: typical genres and boundaries with neighboring concepts. Written separately from the definition, as MeSH does.</li>
+        <li><b>Prompt terms.</b> The words that tend to work in a style prompt for that resource, and, for song sections, the structure tags that go in the lyrics, such as <code>[Breakdown]</code>.</li>
+        <li><b>Prompt adherence.</b> An estimate of how reliably music generators follow the term: high for timbre, instruments and production; low for meter, counterpoint or modulation. It is set per facet with some exceptions and has not been tested yet.</li>
+        <li><b>Wikidata link.</b> The equivalent Wikidata item, with the type of match (exact, close, broader, narrower or related) and its English Wikipedia article.</li>
+        <li><b>MusicBrainz instrument.</b> For instruments, the equivalent MusicBrainz instrument, with the same types of match.</li>
+      </ul>
+
+      <h3>Checking the links</h3>
+      <p>The Wikidata links were checked against the Wikidata and English Wikipedia APIs. For the first 463, a script (<code>check_links.py</code>) confirmed that the item exists and is not a redirect, a disambiguation page or a list; that it has an English Wikipedia article; and that the article points back to the same item. The links added later were checked by hand against the same APIs (label, description and article), and those taken from MusicBrainz say so in the source file. Each pair was then read to decide the type of match. Of the 651 links, 601 are exact, 33 close, 13 broader, 1 narrower and 3 related; 308 concepts have no good equivalent yet.</p>
+
+      <h3>Facet descriptions</h3>
+      <p>Each facet page in the thesaurus opens with a one-sentence summary and a short article on what the facet covers, how its branches are organized and where neighboring topics belong. The articles were drafted with ChatGPT and checked against the concepts they describe.</p>
+
+      <h3>Instruments from MusicBrainz</h3>
+      <p>The instrument facet was checked against the MusicBrainz instrument list (about a thousand instruments, CC0). Matches went by shared Wikidata item first and by name after that, reviewed by hand; 320 instrument concepts now carry their MusicBrainz identifier. MusicBrainz also guided the hierarchy (steel guitars, hammered dulcimers) and the choice of new instruments. Soundlore adds an instrument only when it helps describe genres, so it does not copy the whole catalog.</p>
+    </section>
+
+    <section id="genres">
+      <h2>How the genres were profiled</h2>
+      <p>The genre list and its relations come from MusicBrainz, downloaded on 10 October 2026 through its public API (the list of genres) and each genre's page (its relations). Soundlore keeps:</p>
+      <ul>
+        <li>subgenre of and subgenres, which act as broader and narrower terms;</li>
+        <li>fusion of and fusion genres;</li>
+        <li>influenced by and influenced;</li>
+        <li>the Wikidata item, the area of origin and links to other databases (RateYourMusic, Discogs, AllMusic).</li>
+      </ul>
+      <h3>Profiles</h3>
+      <p>Each genre's profile lists the concepts it uses at three levels: <b>characteristic</b> (defines the genre), <b>frequent</b> (common but not defining) and <b>occasional</b>. The profiles were written with AI assistants from general musical knowledge, not from the analysis of recordings or a review of the literature, and no expert has reviewed them systematically yet. They were made in two passes:</p>
+      <ol class="steps">
+        <li><b>Core genres</b> (713): profiled one by one in more detail, with priority on rock, metal and electronic music. High confidence.</li>
+        <li><b>The rest</b> (1,473): lighter profiles that usually inherit from the parent genre and add their own traits. Medium confidence with at least six resources (1,425 genres), low with fewer (48). The thinnest profiles (407, mostly little-documented regional traditions) were completed by Claude in a second pass in October 2026, choosing from the existing concepts (93 MusicBrainz instruments were added as concepts because these profiles needed them) and giving a confidence and a reason for every change; the pass also removed inherited traits that did not apply (Thai classical music no longer inherits gamelan tunings, for example). After it, the 24 control pairs still passed and 96% of the ten closest neighbors of the other genres stayed the same.</li>
+      </ol>
+      <p>When a genre inherits a profile and also has characteristic resources of its own, the inherited ones drop one level (characteristic becomes frequent, frequent becomes occasional). That way a subgenre does not carry its parent's generic traits as defining. The 26 entries that are not music (audio drama, ASMR, stand-up comedy, nature sounds) have no profile.</p>
+      <h3>Prompt drafts</h3>
+      <p>The prompt draft of a genre takes its characteristic and then its frequent resources, leaves out those with low expected adherence and the lyric resources, orders each group from the rarest to the most common, and joins their first prompt terms after the genre name, up to eleven. It is a starting point to edit, not a finished prompt.</p>
+    </section>
+
+    <section id="temperature">
+      <h2>How temperature works</h2>
+      <p>Temperature measures how close two genres are, from 0 to 100. It combines what the genres are made of with where they sit in the MusicBrainz family tree.</p>
+      <div class="formula">temperature = 100 × (0.7 × profile affinity + 0.3 × tree proximity)</div>
+      <h3>Profile affinity (70%)</h3>
+      <p>Each profile becomes a vector with one weight per concept: the level (characteristic 3, frequent 2, occasional 1) multiplied by how rare the concept is across all genres (its inverse document frequency, IDF). The rarity weight is <code>ln((N + 1) / (n + 1)) + 0.05</code>, where N is the number of profiled genres (2,186) and n the number that use the concept. Affinity is the cosine similarity between the two vectors. Because of the rarity weight, sharing a <i>blast beat</i> counts far more than sharing <i>4/4 time</i>, which almost every genre has.</p>
+      <h3>Tree proximity (30%)</h3>
+      <p>Proximity is the shortest path between the two genres in the MusicBrainz relations. A subgenre or fusion step counts as 1 and an influence step as 1.5. Proximity is <code>max(0, 1 − distance / 4)</code>: one step scores 0.75, two steps 0.5, three 0.25, and four or more 0. Paths are searched up to a distance of 4.5.</p>
+      <p>Genres without a profile (only the non-musical entries) are compared by tree proximity alone, with a 15% discount, and are marked as tree distance only.</p>
+      <h3>Scale</h3>
+      <div class="scale" aria-label="Temperature scale">
+        <span><i style="background:var(--t4)"></i>Scorching, 80 or more</span>
+        <span><i style="background:var(--t3)"></i>Hot, 60 to 79</span>
+        <span><i style="background:var(--t2)"></i>Warm, 40 to 59</span>
+        <span><i style="background:var(--t1)"></i>Cool, 20 to 39</span>
+        <span><i style="background:var(--t0)"></i>Cold, under 20</span>
+      </div>
+      <p>For every genre, Soundlore keeps its 25 closest genres with a temperature of at least 5 (the explorer shows the first 20). Each neighbor lists up to six shared resources, those with the highest product of the two levels and the rarity weight, so a temperature can always be explained.</p>
+      <div class="example">
+        <p><b>Example.</b> <a href="explore.html#genres/shoegaze">Shoegaze</a> and <a href="explore.html#genres/doomgaze">doomgaze</a> score 78 (hot): they share a wall of sound, breathy vocals, a dreamy mood, reverb and distortion, and are one influence step apart.</p>
+      </div>
+      <h3>Validation</h3>
+      <p>The build checks 24 control pairs: 16 that should come out close, such as synthwave and outrun or thrash metal and speed metal, and 8 that should come out far apart, such as black metal and bossa nova or ambient and grindcore. All 24 pass in the current version.</p>
+    </section>
+
+    <section id="map">
+      <h2>How the map is drawn</h2>
+      <p>The map places every profiled genre in two dimensions with t-SNE, a method that keeps similar items close together. It uses the same weighted profile vectors as the temperature, normalized, with cosine distance (scikit-learn; perplexity 35, PCA initialization, 1,500 iterations, fixed random seed 7, so the map comes out the same on every build). A genre that lands far outside the rest (outside the 0.5–99.5 percentile box plus a 5% margin, such as whistling or white voice) is moved next to its closest genre by temperature, and the map is then scaled so that the 0.5–99.5 percentile range fills a 0–1 square; without this, two isolated genres squeezed all the others into a corner. Genres with identical profiles would land on the same spot, so they are fanned out on a small spiral and any two points closer than 0.0085 are pushed apart, moving them as little as possible. Distances on the map are approximate; the exact closeness between two genres is their temperature.</p>
+      <p>The colors show nine families. Each of the first eight has a list of anchor genres (for Metal: metal, heavy metal, black metal, death metal, doom metal, thrash metal, metalcore and grindcore; the lists are in <code>build_map.py</code>). Each genre takes the family of the nearest anchor found walking up its MusicBrainz tree through <i>subgenre of</i> and <i>fusion of</i>; any genre whose name ends in “metal” goes to Metal. Genres with no anchor take the most common family among their ten closest neighbors with a temperature of 40 or more, and the rest go to <i>Classical, traditional &amp; other</i>. Families are for orientation only and do not affect any calculation.</p>
+    </section>
+
+    <section id="layers">
+      <h2>The layers view</h2>
+      <p>The <a href="explore.html#map">map</a> can show a second map above the genre map: switch the layer in its toolbar, or open the 3D view. Its first layer is the instruments: each Instrumentation concept used by at least one genre profile sits at the weighted center of the genres that use it (characteristic 3, frequent 2, occasional 1). Averages crowd toward the middle of the map, so the layer is stretched about its center until its 1st–99th percentile range spans the plane (what is left of a point stays left of it), and overlapping instruments are nudged apart with a spring back to that position. Its <i>spread</i> is the weighted mean distance of those genres from the center: a small spread means a focused instrument, a large one an instrument found across the map. The second layer is the artists, placed as described under <a href="#artists">How artists are linked</a>. In 2D one layer is shown at a time, and selecting an item highlights what it is linked to on the other layer (a genre shows its instruments or its artists). The artist plane is larger than the genre plane (twice the area in 2D, one and a half times in 3D), so that crowded scenes have room. In 3D the planes are stacked, instruments above, genres in the middle and artists below, and each one can be switched on or off; lines join each instrument or artist to its genres, and for a genre with many artists they go to its 600 best-voted ones.</p>
+    </section>
+
+    <section id="artists">
+      <h2>How artists are linked</h2>
+      <p>Artists are not part of the thesaurus. They come from the MusicBrainz artist dump (<span data-n="artistdump">2026-10-10</span>), where the community votes genres for each artist. Of about three million artists, 214,970 have at least one genre vote; many of those votes are a single tag left by one person. Soundlore keeps an artist when its best-voted genre has at least two votes, or when it has a Wikidata item and its genre votes add up to at least two (48,127 artists). Within each artist, genres with less than a quarter of the top votes are left out, as stray tags.</p>
+      <p>Those votes leave out many well-known artists, above all outside English-language music: Vetusta Morla or La La Love You had no genre vote at all. So artists without enough votes are also taken from <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> when they are documented enough: their item has a MusicBrainz identifier, at least three sitelinks (pages about them in Wikipedia and other Wikimedia projects, a measure that does not depend on the language) and a genre (P136) that matches a Soundlore genre, either directly or one or two steps up the Wikidata class tree. That adds 47,800 artists, for <span data-n="artists">95,927</span> in all. Their genres have no votes, so each one counts the same, and their records say that the genres come from Wikidata.</p>
+      <p>The dump is read as a stream by a script (<code>filter_artists.py</code>) that keeps, for each artist with genre votes, its name, type, area, dates, Wikidata item and votes; nothing else is taken. At most eight genres are kept per artist. Everything else is derived from those links:</p>
+      <ul>
+        <li><b>Resources.</b> The profiles of its genres, mixed by votes (characteristic 3, frequent 2, occasional 1, each genre weighted by its share of the votes). A mixed score of 1.8 or more is shown as characteristic, 0.9 as frequent and 0.4 as occasional. They describe its genres, not its own recordings.</li>
+        <li><b>Prompt draft.</b> Its two best-voted genres, then the resources chosen as for a genre's prompt draft. It never includes the artist's name.</li>
+        <li><b>Place on the map.</b> The vote-weighted center of its genres, with the layer stretched like the instrument layer so that it fills the plane. Artists with the same genres share a center, so they are laid out around it on a sunflower spiral (even density, best-documented artists in the middle): a crowded center becomes a disc whose size shows how many artists it holds. An artist whose genres are close together is focused; one whose genres are far apart crosses genres.</li>
+        <li><b>Similar artists.</b> <code>0.6 × cosine of the resource mixes (with the rarity weight of temperature) + 0.4 × cosine of the genre votes</code>, from 0 to 100; twelve per artist, only above 20. Two thirds of the places (eight) go to the best-documented artists among the close matches (a similarity of at least 0.6 and within 0.12 of the best one), so that reference artists appear and not only little-known ones with identical genres; the other four go to the closest remaining matches. Every artist of a genre can be listed from the Artists tab.</li>
+        <li><b>Order of the list and relevance.</b> The votes of an artist's five best genres, each counted up to 20, or 1.5 times its Wikidata sitelinks (up to 100) when that is higher; then its total votes. The cap keeps a few heavily fan-voted or self-tagged entries from leading the list, and the sitelinks give weight to artists who are well documented but little tagged. The same measure decides which artists fill the eight relevant places among similar artists.</li>
+      </ul>
+      <p>The votes reflect what MusicBrainz users have tagged, not a complete or balanced catalog: well-documented scenes have many artists, and some artists carry fan or self-promotional votes.</p>
+    </section>
+
+    <section id="provenance">
+      <h2>Who made what</h2>
+      <p class="author"><b>General Orchestrator:</b> aydearcas · <a href="https://github.com/aydearcas" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/aydearcas/" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p>Soundlore is directed by its General Orchestrator, who sets the scope, takes the design decisions and reviews the results, with the help of two AI assistants, Claude (Anthropic) and ChatGPT (OpenAI). This table says where each part comes from and how far it has been checked.</p>
+      <div class="tbl wrap"><table>
+        <thead><tr><th scope="col">Part</th><th scope="col">Origin</th><th scope="col">Checked</th></tr></thead>
+        <tbody>
+          <tr><td>Scope, design decisions, thresholds and review</td><td>The General Orchestrator (aydearcas)</td><td>Each decision is recorded in the project notes and the README</td></tr>
+          <tr><td>Concept taxonomy: facets, hierarchy, entry terms, scope notes, prompt terms</td><td>Original, written with AI assistance; form and instrument facets modeled on LCGFT and LCMPT</td><td>Structure validated by the build; content not yet reviewed by experts</td></tr>
+          <tr><td>Definitions</td><td>Drafted with ChatGPT (766) and Claude (193)</td><td>Drafts, not yet reviewed</td></tr>
+          <tr><td>Facet descriptions</td><td>Drafted with ChatGPT</td><td>Checked against the concepts they describe; two articles rewritten</td></tr>
+          <tr><td>Prompt adherence levels</td><td>Estimated per facet, with exceptions</td><td>Not tested</td></tr>
+          <tr><td>Wikidata links of concepts</td><td>Proposed with AI assistance and from MusicBrainz</td><td>Every link verified against the Wikidata and Wikipedia APIs; match type decided by reading each pair</td></tr>
+          <tr><td>MusicBrainz instrument links</td><td>Shared Wikidata item, then name</td><td>Name matches reviewed by hand</td></tr>
+          <tr><td>Genres and their relations</td><td>MusicBrainz, as published</td><td>Not edited</td></tr>
+          <tr><td>Genre profiles</td><td>Written with AI assistance from general musical knowledge; the 407 thinnest completed by Claude with a reason for each change</td><td>24 control pairs; no systematic expert review yet</td></tr>
+          <tr><td>Temperature, map, families, layers</td><td>Computed by the build scripts</td><td>Reproducible from the files</td></tr>
+          <tr><td>Artists and their genres</td><td>MusicBrainz artist dump and community votes, as published; for 47,800 artists, Wikidata sitelinks and genres</td><td>Selected and computed by script with thresholds chosen by the General Orchestrator; votes and Wikidata genres not edited</td></tr>
+          <tr><td>Code: build scripts and site</td><td>Written with Claude</td><td>Build validations; manual testing</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="data">
+      <h2>Data and code</h2>
+      <p>The site reads plain files that can be downloaded and reused under the <a href="#license">license</a> of each part:</p>
+      <div class="tbl wrap"><table>
+        <thead><tr><th scope="col">File</th><th scope="col">Contents</th></tr></thead>
+        <tbody>
+          <tr><td><a href="soundlore.ttl">soundlore.ttl</a>, <a href="soundlore.jsonld">soundlore.jsonld</a></td><td>The concept thesaurus in SKOS (Turtle and JSON-LD)</td></tr>
+          <tr><td><a href="concepts.json">concepts.json</a></td><td>Every concept record, with facets and facet descriptions</td></tr>
+          <tr><td><a href="genres.json">genres.json</a></td><td>Every genre: MusicBrainz identifier, relations, Wikidata item, profile and confidence</td></tr>
+          <tr><td><a href="genres_by_concept.json">genres_by_concept.json</a>, <a href="idf.json">idf.json</a></td><td>Which genres use each concept, at which level; the rarity weight of each concept</td></tr>
+          <tr><td><a href="temperature_viewer.json">temperature_viewer.json</a></td><td>The 20 closest genres of each genre, with temperature, tree distance and shared resources</td></tr>
+          <tr><td><a href="genre_map.json">genre_map.json</a>, <a href="instrument_layer.json">instrument_layer.json</a></td><td>Map coordinates and families; the instrument layer with its genre links</td></tr>
+          <tr><td><a href="artists.json">artists.json</a>, <a href="artist_neighbors.json">artist_neighbors.json</a></td><td>The artists with their genre votes and map positions; their similar artists (CC BY-NC-SA 3.0)</td></tr>
+        </tbody>
+      </table></div>
+      <p>They are generated, in this order, by the build scripts: <code>build_concepts.py</code> (concepts, identifiers, definitions, links), <code>export_skos.py</code>, <code>build_genres.py</code> (profiles, temperature), <code>verify.py</code> (control pairs), <code>build_map.py</code>, <code>build_layers.py</code> and <code>build_artists.py</code>, after <code>fetch_wikidata_artists.py</code> has queried Wikidata and <code>filter_artists.py</code> has read the MusicBrainz dump. The editable sources are plain text: one line per concept, one line per genre profile. The project README documents every format and parameter.</p>
+    </section>
+
+    <section id="sources">
+      <h2>Sources and credits</h2>
+      <div class="tbl"><table>
+        <thead><tr><th scope="col">Source</th><th scope="col">Used for</th><th scope="col">License</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://musicbrainz.org/genres" target="_blank" rel="noopener">MusicBrainz</a></td><td>The list of genres and their subgenre, fusion and influence relations, areas of origin and links to other databases (API, 10 October 2026); the instrument list, its hierarchy and identifiers (JSON dump of 10 October 2026).</td><td>CC0</td></tr>
+          <tr><td><a href="https://musicbrainz.org/doc/MusicBrainz_Database/Download" target="_blank" rel="noopener">MusicBrainz artists</a></td><td>Artist names, types, areas, dates and Wikidata items (CC0), and the community genre votes that link artists to genres (CC BY-NC-SA 3.0), from the JSON dump of 10 October 2026.</td><td>CC0 and CC BY-NC-SA 3.0</td></tr>
+          <tr><td><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a></td><td>Equivalent items for concepts (each one verified) and for genres (as listed in MusicBrainz); for artists, sitelinks and genres (P136), queried on 11 October 2026.</td><td>CC0</td></tr>
+          <tr><td><a href="https://en.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a></td><td>Links to the English article of each linked concept. No Wikipedia text is reproduced.</td><td>Linked only</td></tr>
+          <tr><td><a href="https://id.loc.gov/authorities/genreForms.html" target="_blank" rel="noopener">LCGFT</a> and <a href="https://id.loc.gov/authorities/performanceMediums.html" target="_blank" rel="noopener">LCMPT</a></td><td>Reference vocabularies for the form and instrument facets (Library of Congress).</td><td>Model only</td></tr>
+          <tr><td><a href="https://www.nlm.nih.gov/mesh/" target="_blank" rel="noopener">MeSH</a></td><td>Model for the structure: descriptors, entry terms, scope notes, tree numbers and unique IDs (U.S. National Library of Medicine).</td><td>Model only</td></tr>
+          <tr><td><a href="https://www.w3.org/2004/02/skos/" target="_blank" rel="noopener">SKOS</a></td><td>Data model and export format (W3C).</td><td>Standard</td></tr>
+          <tr><td>RateYourMusic, Discogs, AllMusic</td><td>Linked from genre records, as listed in MusicBrainz.</td><td>Linked only</td></tr>
+          <tr><td>Claude and ChatGPT</td><td>AI assistants used during development: drafting the concepts, definitions, facet descriptions and genre profiles, writing the build scripts and the site, and checking the Wikidata links. See <a href="#provenance">Who made what</a>.</td><td>Tools</td></tr>
+          <tr><td><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></td><td>Bricolage Grotesque, Instrument Sans and IBM Plex Mono.</td><td>SIL OFL</td></tr>
+        </tbody>
+      </table></div>
+      <p>Thanks to the MusicBrainz and Wikidata communities, whose open data makes this project possible.</p>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <div class="tbl wrap"><table>
+        <thead><tr><th scope="col">Part</th><th scope="col">License</th></tr></thead>
+        <tbody>
+          <tr><td>Code: build scripts and the site</td><td><a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL-3.0</a></td></tr>
+          <tr><td>Soundlore data: concepts, definitions, facet descriptions, genre profiles, temperature, map, instrument layer</td><td><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></td></tr>
+          <tr><td>MusicBrainz core data: genres, instruments, artists</td><td><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></td></tr>
+          <tr><td>Artist–genre links from MusicBrainz votes and what is derived from them: artist profiles, positions and similar artists (<code>artists.json</code>, <code>artist_neighbors.json</code>). The links taken from Wikidata are CC0, but they are kept in the same files</td><td><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noopener">CC BY-NC-SA 3.0</a>, from <a href="https://musicbrainz.org/doc/About/Data_License" target="_blank" rel="noopener">MusicBrainz</a>. Non-commercial use, with attribution, under the same license.</td></tr>
+        </tbody>
+      </table></div>
+      <p>The artist files are kept apart from the rest of the data so that their license does not extend to it.</p>
+    </section>
+
+    <section id="limits">
+      <h2>Limits</h2>
+      <ul>
+        <li>The genre profiles come from general musical knowledge, not from analysis of recordings. They have not had a systematic expert review yet, and low-confidence profiles are thin.</li>
+        <li>The map is a projection: two genres can look close on it and still have a low temperature, and the other way round.</li>
+        <li>The definitions are drafts, and the prompt adherence levels are estimates that have not been tested.</li>
+        <li>Temperature depends on the profiles: where a profile is wrong or sparse, its neighbors are less reliable.</li>
+        <li>Artists added from Wikidata have unweighted genres, often broad ones (rock, pop), so their resources and similar artists are less precise than those of artists with MusicBrainz votes.</li>
+        <li>Artist descriptions are inherited from their genres: two artists with the same genres look the same, however different their records are.</li>
+        <li>Some concepts have no Wikidata equivalent, and some links are close rather than exact matches; the match type is shown on each record.</li>
+      </ul>
+      <p class="note">Version <span data-n="version">0.9</span>. Corrections and suggestions are welcome.</p>
+    </section>
+  </article>
+</div>
+
+<script>
+'use strict';
+fetch('artists_stats.json').then(r=>r.json()).then(s=>{const f=(k,v)=>document.querySelectorAll(`[data-n="${k}"]`).forEach(e=>e.textContent=v);if(s.artists)f('artists',s.artists.toLocaleString('en-US'));if(s.dump)f('artistdump',String(s.dump).slice(0,10));}).catch(()=>{});
+fetch('stats.json').then(r=>r.json()).then(s=>{for(const k of ['concepts','facets','wikidata','version']){const el=document.querySelector(`[data-n="${k}"]`);if(el&&s[k]!=null)el.textContent=typeof s[k]==='number'?s[k].toLocaleString('en-US'):s[k];}}).catch(()=>{});
+// highlight the section being read
+const links=[...document.querySelectorAll('.toc a')];
+const io=new IntersectionObserver(es=>{for(const e of es)if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));}},{rootMargin:'-20% 0px -70% 0px'});
+document.querySelectorAll('article section').forEach(s=>io.observe(s));
+</script>
+
+</body>
+</html>

@@ -28,7 +28,7 @@ FAMILIES = [
 ]
 OTHER = "Classical, traditional & other"
 
-def spread(Y, dmin=0.0065, iters=60):
+def spread(Y, dmin=0.0085, iters=80):
     """Separate overlapping points so every genre stays clickable.
 
     Genres with identical profiles land on the same spot: first fan them out on a small
@@ -64,6 +64,38 @@ def spread(Y, dmin=0.0065, iters=60):
                         Y[i] -= push; Y[j] += push; moved += 1
         if not moved: break
     return (Y - Y.min(0)) / (Y.max(0) - Y.min(0))
+
+def pull_outliers(Y, pts, T, lo=0.5, hi=99.5, margin=0.05):
+    """Bring isolated genres next to their closest genre.
+
+    A few genres with a very unusual profile (whistling, white voice) land far from everything else,
+    and scaling the map to its extremes then squeezes all the other genres into a small part of it.
+    A genre outside the 0.5-99.5 percentile box (plus a 5% margin) is moved next to its hottest
+    neighbor inside the box, keeping the direction it came from.
+    """
+    Y = Y.copy()
+    a, b = np.percentile(Y, lo, axis=0), np.percentile(Y, hi, axis=0)
+    m = (b - a) * margin
+    out = ((Y < a - m) | (Y > b + m)).any(axis=1)
+    row = {g["key"]: r for r, g in enumerate(pts)}
+    step = float(np.linalg.norm(b - a)) * 0.012
+    moved = []
+    for r in np.where(out)[0]:
+        key = pts[r]["key"]
+        tgt = next((row[n["name"]] for n in T.get(key, []) if n["name"] in row and not out[row[n["name"]]]), None)
+        if tgt is None:  # no hot neighbor inside the box: the nearest genre inside it on the map
+            inside = np.where(~out)[0]
+            tgt = int(inside[np.argmin(np.linalg.norm(Y[inside] - Y[r], axis=1))])
+        v = Y[r] - Y[tgt]; n = float(np.linalg.norm(v)) or 1.0
+        Y[r] = Y[tgt] + v / n * step
+        moved.append(f"{key} -> next to {pts[tgt]['key']}")
+    print(f"isolated genres moved next to their hottest neighbor ({len(moved)}):", "; ".join(moved))
+    return Y
+
+def robust_scale(Y, lo=0.5, hi=99.5):
+    """Scale each axis so that the 0.5-99.5 percentile range fills the map; clip the rest to the edge."""
+    a, b = np.percentile(Y, lo, axis=0), np.percentile(Y, hi, axis=0)
+    return np.clip((Y - a) / (b - a), -0.01, 1.01)
 
 def main():
     G = json.load(open(os.path.join(B, "genres.json"), encoding="utf-8"))
@@ -108,7 +140,8 @@ def main():
                 X[r, ci[c]] = w * idf[c]
     X /= np.linalg.norm(X, axis=1, keepdims=True)
     Y = TSNE(n_components=2, metric="cosine", perplexity=35, init="pca", random_state=7, max_iter=1500).fit_transform(X)
-    Y = (Y - Y.min(0)) / (Y.max(0) - Y.min(0))  # normalize to 0..1
+    Y = pull_outliers(Y, pts, T)
+    Y = robust_scale(Y)
     Y = spread(Y)
 
     points = [[g["key"], round(float(Y[r, 0]), 4), round(float(Y[r, 1]), 4),

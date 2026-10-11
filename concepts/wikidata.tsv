@@ -1,0 +1,654 @@
+# Wikidata links, keyed by the stable identifier. match: SKOS mapping of the concept to the item (exact | close | broad | narrow | related).
+# enwiki is the English Wikipedia article linked from the item. checked: date of the last verification with build/check_links.py.
+uid	slug	qid	match	enwiki	checked	note
+SL000001	meter	Q630649	exact	Metre (music)	2026-10-10	
+SL000017	aksak	Q2829148	exact	Aksak	2026-10-10	
+SL000019	free_meter	Q5500333	exact	Free time (music)	2026-10-10	
+SL000020	hemiola	Q1430673	exact	Hemiola	2026-10-10	
+SL000024	swing	Q14867674	exact	Swing time	2026-10-10	
+SL000027	half_time	Q5641839	exact	Half-time (music)	2026-10-10	
+SL000032	syncopation	Q319526	exact	Syncopation	2026-10-10	
+SL000036	polyrhythm	Q747529	exact	Polyrhythm	2026-10-10	
+SL000039	cross_rhythm	Q1141117	exact	Cross-beat	2026-10-10	
+SL000040	clave	Q1099007	exact	Clave (rhythm)	2026-10-10	
+SL000044	tresillo	Q65089548	exact	Tresillo (rhythm)	2026-10-10	
+SL000046	stop_time	Q7619688	exact	Stop-time	2026-10-10	
+SL000048	metric_modulation	Q6824327	exact	Metric modulation	2026-10-10	
+SL000049	anacrusis	Q637371	exact	Anacrusis	2026-10-10	
+SL000051	tempo	Q189214	exact	Tempo	2026-10-10	
+SL000060	rubato	Q1063336	exact	Tempo rubato	2026-10-10	
+SL000061	fermata	Q830328	exact	Fermata	2026-10-10	
+SL000063	drum_pattern	Q5309082	close	Drum beat	2026-10-10	
+SL000065	four_on_the_floor	Q1029197	exact	Four on the floor (music)	2026-10-10	
+SL000067	breakbeat	Q663519	exact	Breakbeat	2026-10-10	
+SL000068	amen_break	Q462074	exact	Amen break	2026-10-10	
+SL000071	boom_bap	Q529742	exact	Boom bap	2026-10-10	
+SL000075	dembow	Q117824251	exact	Dembow beat	2026-10-10	
+SL000076	one_drop	Q838318	exact	One drop rhythm	2026-10-10	
+SL000079	d_beat	Q1151260	exact	D-beat	2026-10-10	
+SL000081	blast_beat	Q882054	exact	Blast beat	2026-10-10	
+SL000083	gallop	Q5519136	close	Heavy metal gallop	2026-10-10	
+SL000084	motorik	Q1949856	exact	Motorik	2026-10-10	
+SL000089	samba_beat	Q19816	close	Batucada	2026-10-10	
+SL000092	tumbao	Q3542002	exact	Tumbao	2026-10-10	
+SL000096	dancehall_riddim	Q852209	broad	Riddim	2026-10-10	
+SL000100	ghost_notes	Q630079	exact	Ghost note	2026-10-10	
+SL000101	drum_fill	Q1414142	broad	Fill (music)	2026-10-10	
+SL000102	drum_roll	Q665888	exact	Drum roll	2026-10-10	
+SL000107	drum_solo	Q4176760	exact	Drum solo	2026-10-10	
+SL000108	linear_drumming	Q55648054	exact	Linear drumming	2026-10-10	
+SL000110	tonality	Q192822	exact	Tonality	2026-10-10	
+SL000113	modality	Q731978	close	Mode (music)	2026-10-10	
+SL000114	atonality	Q211745	exact	Atonality	2026-10-10	
+SL000115	polytonality	Q1358845	exact	Polytonality	2026-10-10	
+SL000116	microtonality	Q1045756	exact	Microtonality	2026-10-10	
+SL000117	chord	Q170439	exact	Chord (music)	2026-10-10	
+SL000118	triad	Q944899	exact	Triad (music)	2026-10-10	
+SL000119	power_chord	Q1130936	exact	Power chord	2026-10-10	
+SL000120	seventh_chord	Q1021249	exact	Seventh chord	2026-10-10	
+SL000121	major_seventh	Q2667928	exact	Major seventh chord	2026-10-10	
+SL000122	minor_seventh	Q2560176	exact	Minor seventh chord	2026-10-10	
+SL000123	dominant_seventh	Q920305	exact	Dominant seventh chord	2026-10-10	
+SL000124	half_diminished	Q2857025	exact	Half-diminished seventh chord	2026-10-10	
+SL000125	extended_chord	Q5421879	exact	Extended chord	2026-10-10	
+SL000126	suspended_chord	Q7649192	exact	Suspended chord	2026-10-10	
+SL000127	add_chord	Q381065	exact	Added tone chord	2026-10-10	
+SL000129	augmented_chord	Q332992	exact	Augmented triad	2026-10-10	
+SL000130	altered_chord	Q207116	exact	Altered chord	2026-10-10	
+SL000131	slash_chord	Q1279242	exact	Slash chord	2026-10-10	
+SL000133	cluster	Q1103530	exact	Tone cluster	2026-10-10	
+SL000134	neapolitan_chord	Q775369	exact	Neapolitan chord	2026-10-10	
+SL000136	modal_mixture	Q2822789	exact	Borrowed chord	2026-10-10	
+SL000138	tritone_substitution	Q1564817	exact	Tritone substitution	2026-10-10	
+SL000139	chromatic_mediant	Q584920	exact	Chromatic mediant	2026-10-10	
+SL000140	picardy_third	Q938888	exact	Picardy third	2026-10-10	
+SL000141	tritone	Q623939	exact	Tritone	2026-10-10	
+SL000143	pedal_point	Q1414254	exact	Pedal point	2026-10-10	
+SL000145	harmonic_rhythm	Q4886329	exact	Harmonic rhythm	2026-10-10	
+SL000146	jazz_harmony	Q389278	exact	Jazz harmony	2026-10-10	
+SL000147	passing_chord	Q7142665	exact	Passing chord	2026-10-10	
+SL000150	chord_progression	Q1326471	exact	Chord progression	2026-10-10	
+SL000151	axis_progression	Q3146453	exact	I–V–vi–IV progression	2026-10-10	
+SL000152	fifties_progression	Q3146459	exact	'50s progression	2026-10-10	
+SL000153	ii_v_i	Q1653785	exact	Ii–V–I progression	2026-10-10	
+SL000154	twelve_bar_blues	Q2089987	exact	Twelve-bar blues	2026-10-10	
+SL000155	andalusian_cadence	Q488411	exact	Andalusian cadence	2026-10-10	
+SL000158	royal_road	Q105200713	exact	Royal road progression	2026-10-10	
+SL000163	minor_plagal_cadence	Q141485368	exact	Minor plagal cadence	2026-10-10	
+SL000164	cadence	Q14088448	exact	Cadence	2026-10-10	
+SL000166	plagal_cadence	Q3847950	exact	Plagal cadence	2026-10-10	
+SL000169	backdoor_cadence	Q4839601	close	Backdoor progression	2026-10-10	
+SL000170	modulation	Q750240	exact	Modulation (music)	2026-10-10	
+SL000175	scale	Q179651	exact	Scale (music)	2026-10-10	
+SL000176	major_scale	Q190812	exact	Major scale	2026-10-10	
+SL000178	harmonic_minor	Q2621436	exact	Harmonic minor scale	2026-10-10	
+SL000180	pentatonic	Q191345	exact	Pentatonic scale	2026-10-10	
+SL000183	blues_scale	Q304144	exact	Blues scale	2026-10-10	
+SL000184	whole_tone_scale	Q844877	exact	Whole-tone scale	2026-10-10	
+SL000185	octatonic_scale	Q1325245	exact	Octatonic scale	2026-10-10	
+SL000186	chromatic_scale	Q202021	exact	Chromatic scale	2026-10-10	
+SL000187	bebop_scale	Q679474	exact	Bebop scale	2026-10-10	
+SL000188	altered_scale	Q438325	exact	Altered scale	2026-10-10	
+SL000189	mode	Q731978	exact	Mode (music)	2026-10-10	
+SL000190	dorian	Q960729	exact	Dorian mode	2026-10-10	
+SL000191	phrygian	Q1342409	exact	Phrygian mode	2026-10-10	
+SL000192	lydian	Q686115	exact	Lydian mode	2026-10-10	
+SL000193	mixolydian	Q321814	exact	Mixolydian mode	2026-10-10	
+SL000194	locrian	Q749541	exact	Locrian mode	2026-10-10	
+SL000196	phrygian_dominant	Q64924	exact	Phrygian dominant scale	2026-10-10	
+SL000197	double_harmonic	Q5300035	exact	Double harmonic scale	2026-10-10	
+SL000198	hungarian_minor	Q5942920	exact	Hungarian minor scale	2026-10-10	
+SL000199	japanese_scales	Q1683319	exact	Japanese musical scales	2026-10-10	
+SL000200	maqam	Q12826678	narrow	Arabic maqam	2026-10-10	Wikidata item covers the Arabic maqam only; the concept also covers Turkish and Persian modal systems
+SL000201	raga	Q216926	exact	Raga	2026-10-10	
+SL000204	hook	Q127124	exact	Hook (music)	2026-10-10	
+SL000206	motif	Q908349	exact	Motif (music)	2026-10-10	
+SL000207	leitmotiv	Q221117	exact	Leitmotif	2026-10-10	
+SL000208	ostinato	Q216745	exact	Ostinato	2026-10-10	
+SL000209	countermelody	Q2995870	exact	Counter-melody	2026-10-10	
+SL000211	arpeggio	Q506986	exact	Arpeggio	2026-10-10	
+SL000212	melodic_sequence	Q913721	exact	Sequence (music)	2026-10-10	
+SL000214	chromaticism	Q2458157	exact	Chromaticism	2026-10-10	
+SL000215	blue_note	Q151992	exact	Blue note	2026-10-10	
+SL000216	ornamentation	Q739589	exact	Ornament (music)	2026-10-10	
+SL000217	trill	Q75859	exact	Trill (music)	2026-10-10	
+SL000218	mordent	Q48811	exact	Mordent	2026-10-10	
+SL000219	grace_note	Q4334	exact	Grace note	2026-10-10	
+SL000221	glissando	Q471744	exact	Glissando	2026-10-10	
+SL000222	melisma	Q248255	exact	Melisma	2026-10-10	
+SL000227	improvisation	Q1049625	exact	Musical improvisation	2026-10-10	
+SL000231	intro	Q3800792	exact	Introduction (music)	2026-10-10	
+SL000235	post_chorus	Q96399858	exact	Post-chorus	2026-10-10	
+SL000236	refrain	Q191609	exact	Refrain	2026-10-10	
+SL000237	bridge	Q1109478	exact	Bridge (music)	2026-10-10	
+SL000239	instrumental_break	Q903577	close	Break (music)	2026-10-10	
+SL000240	solo_section	Q270827	close	Solo (music)	2026-10-10	
+SL000241	guitar_solo	Q2446979	exact	Guitar solo	2026-10-10	
+SL000243	piano_solo	Q10349334	exact	Piano solo	2026-10-10	
+SL000249	drop	Q5308387	exact	Drop (music)	2026-10-10	
+SL000251	hook_section	Q127124	broad	Hook (music)	2026-10-10	
+SL000252	skit	Q2292588	close	Hip-hop skit	2026-10-10	
+SL000255	turnaround	Q1503097	exact	Turnaround (music)	2026-10-10	
+SL000258	fade_out	Q848346	broad	Fade (audio engineering)	2026-10-10	
+SL000260	false_ending	Q5432700	exact	False ending	2026-10-10	
+SL000261	a_cappella_section	Q185298	broad	A cappella	2026-10-10	
+SL000263	song_form	Q7561199	close	Song structure	2026-10-10	
+SL000264	verse_chorus_form	Q2616514	exact	Verse–chorus form	2026-10-10	
+SL000265	aaba_form	Q4346887	close	Thirty-two bar form	2026-10-10	
+SL000266	strophic_form	Q2707253	exact	Strophic form	2026-10-10	
+SL000267	through_composed	Q1267056	exact	Through-composed music	2026-10-10	
+SL000268	binary_form	Q1193859	exact	Binary form	2026-10-10	
+SL000269	ternary_form	Q1195015	exact	Ternary form	2026-10-10	
+SL000273	medley	Q13582719	exact	Medley (music)	2026-10-10	
+SL000274	reprise	Q5190550	exact	Reprise	2026-10-10	
+SL000275	segue	Q2308722	exact	Segue	2026-10-10	
+SL000276	composition_form	Q862597	broad	Musical form	2026-10-10	
+SL000277	fugue	Q181014	exact	Fugue	2026-10-10	
+SL000278	canon	Q53831	exact	Canon (music)	2026-10-10	
+SL000279	round	Q1145381	exact	Round (music)	2026-10-10	
+SL000280	invention	Q1061398	exact	Invention (musical composition)	2026-10-10	
+SL000281	sonata_form	Q212044	exact	Sonata form	2026-10-10	
+SL000282	theme_variations	Q214981	exact	Variation (music)	2026-10-10	
+SL000283	passacaglia	Q752329	exact	Passacaglia	2026-10-10	
+SL000284	rondo	Q13323	exact	Rondo	2026-10-10	
+SL000285	toccata	Q140544	exact	Toccata	2026-10-10	
+SL000286	prelude	Q212148	exact	Prelude (music)	2026-10-10	
+SL000287	etude	Q207841	exact	Étude	2026-10-10	
+SL000288	nocturne	Q194172	exact	Nocturne	2026-10-10	
+SL000289	march	Q211025	exact	March (music)	2026-10-10	
+SL000290	waltz	Q8701407	exact	Waltz (music)	2026-10-10	
+SL000291	minuet	Q205734	exact	Minuet	2026-10-10	
+SL000292	scherzo	Q209534	exact	Scherzo	2026-10-10	
+SL000293	aria	Q178122	exact	Aria	2026-10-10	
+SL000294	recitative	Q202534	exact	Recitative	2026-10-10	
+SL000295	chorale	Q724473	exact	Chorale	2026-10-10	
+SL000296	motet	Q188285	exact	Motet	2026-10-10	
+SL000297	madrigal	Q193217	exact	Madrigal	2026-10-10	
+SL000298	mass	Q217295	exact	Mass (music)	2026-10-10	
+SL000299	requiem	Q51616	exact	Requiem	2026-10-10	
+SL000300	hymn	Q484692	exact	Hymn	2026-10-10	
+SL000301	anthem	Q541947	exact	Anthem	2026-10-10	
+SL000302	lullaby	Q193605	exact	Lullaby	2026-10-10	
+SL000303	lament	Q1471717	exact	Lament	2026-10-10	
+SL000304	serenade	Q215911	exact	Serenade	2026-10-10	
+SL000305	ballad_form	Q182659	close	Ballad	2026-10-10	
+SL000307	rhapsody	Q464769	exact	Rhapsody (music)	2026-10-10	
+SL000308	fantasia	Q836571	exact	Fantasia (musical form)	2026-10-10	
+SL000309	cadenza	Q1069389	exact	Cadenza	2026-10-10	
+SL000310	overture	Q202287	exact	Overture	2026-10-10	
+SL000311	suite	Q203005	exact	Suite (music)	2026-10-10	
+SL000312	concerto	Q9748	exact	Concerto	2026-10-10	
+SL000313	symphony	Q9734	exact	Symphony	2026-10-10	
+SL000314	cantata	Q174873	exact	Cantata	2026-10-10	
+SL000315	oratorio	Q85477	exact	Oratorio	2026-10-10	
+SL000316	opera	Q1344	exact	Opera	2026-10-10	
+SL000317	jazz_standard	Q591990	exact	Jazz standard	2026-10-10	
+SL000318	texture	Q325944	exact	Texture (music)	2026-10-10	
+SL000319	monophony	Q1137211	exact	Monophony	2026-10-10	
+SL000320	homophony	Q207349	exact	Homophony	2026-10-10	
+SL000321	polyphony	Q179465	exact	Polyphony	2026-10-10	
+SL000322	heterophony	Q630161	exact	Heterophony	2026-10-10	
+SL000323	unison	Q176224	exact	Unison	2026-10-10	
+SL000326	counterpoint	Q186393	exact	Counterpoint	2026-10-10	
+SL000327	imitation	Q1049742	exact	Imitation (music)	2026-10-10	
+SL000328	voice_leading	Q2027877	exact	Voice leading	2026-10-10	
+SL000329	hocket	Q994621	exact	Hocket	2026-10-10	
+SL000330	accompaniment_texture	Q504514	broad	Accompaniment	2026-10-10	
+SL000331	comping	Q5156381	exact	Comping (jazz)	2026-10-10	
+SL000332	alberti_bass	Q568203	exact	Alberti bass	2026-10-10	
+SL000334	drone	Q893474	exact	Drone (sound)	2026-10-10	
+SL000335	call_and_response	Q1027114	exact	Call and response (music)	2026-10-10	
+SL000338	voice_type	Q1063547	exact	Voice type	2026-10-10	
+SL000341	duet	Q109940	exact	Duet	2026-10-10	
+SL000342	soprano	Q30903	exact	Soprano	2026-10-10	
+SL000343	mezzo_soprano	Q186506	exact	Mezzo-soprano	2026-10-10	
+SL000344	contralto	Q37137	exact	Contralto	2026-10-10	
+SL000345	countertenor	Q223166	exact	Countertenor	2026-10-10	
+SL000346	tenor	Q27914	exact	Tenor	2026-10-10	
+SL000347	baritone_voice	Q31687	exact	Baritone	2026-10-10	
+SL000348	bass_voice	Q27911	exact	Bass (voice type)	2026-10-10	
+SL000350	choir	Q131186	exact	Choir	2026-10-10	
+SL000353	chant	Q1553339	exact	Chant	2026-10-10	
+SL000355	chest_voice	Q1196883	exact	Chest voice	2026-10-10	
+SL000356	head_voice	Q593068	exact	Head voice	2026-10-10	
+SL000357	falsetto	Q193935	exact	Falsetto	2026-10-10	
+SL000358	belting	Q816208	exact	Belting (music)	2026-10-10	
+SL000361	breathy_vocals	Q3328163	exact	Breathy voice	2026-10-10	
+SL000362	whisper	Q1434962	close	Whispering	2026-10-10	
+SL000363	vocal_fry	Q1616186	exact	Vocal fry register	2026-10-10	
+SL000366	yodel	Q41923	exact	Yodeling	2026-10-10	
+SL000367	vocal_hiccup	Q65090286	exact	Vocal hiccup	2026-10-10	
+SL000368	crooning	Q1141016	close	Crooner	2026-10-10	
+SL000370	melismatic_singing	Q248255	close	Melisma	2026-10-10	
+SL000371	vocal_runs	Q248255	close	Melisma	2026-10-10	
+SL000372	cante_jondo	Q2338544	exact	Cante jondo	2026-10-10	
+SL000373	overtone_singing	Q691771	exact	Overtone singing	2026-10-10	
+SL000374	humming	Q2922301	exact	Humming	2026-10-10	
+SL000375	whistling	Q864184	exact	Whistling	2026-10-10	
+SL000377	scat	Q623202	exact	Scat singing	2026-10-10	
+SL000378	ululation	Q2096095	exact	Ululation	2026-10-10	
+SL000380	growl	Q335499	exact	Death growl	2026-10-10	
+SL000381	scream	Q1206488	exact	Screaming in music	2026-10-10	
+SL000389	spoken_word	Q1428637	exact	Spoken word	2026-10-10	
+SL000390	sprechgesang	Q1500983	exact	Sprechgesang	2026-10-10	
+SL000391	rap	Q6010	exact	Rapping	2026-10-10	
+SL000396	mumble_rap	Q30638997	close	Mumble rap	2026-10-10	
+SL000397	toasting	Q1369991	exact	Toasting (Jamaican music)	2026-10-10	
+SL000398	beatbox	Q213608	exact	Beatboxing	2026-10-10	
+SL000400	lead_vocal	Q1045845	close	Lead vocalist	2026-10-10	
+SL000401	backing_vocals	Q798487	close	Backing vocalist	2026-10-10	
+SL000402	vocal_harmonies	Q7939193	exact	Vocal harmony	2026-10-10	
+SL000404	double_tracked_vocals	Q5300113	broad	Double tracking	2026-10-10	
+SL000406	a_cappella	Q185298	exact	A cappella	2026-10-10	
+SL000407	vocal_call_response	Q1027114	broad	Call and response (music)	2026-10-10	
+SL000408	plucked_strings	Q230262	exact	Plucked string instrument	2026-10-10	
+SL000409	acoustic_guitar	Q31561	exact	Acoustic guitar	2026-10-10	
+SL000410	classical_guitar	Q719120	exact	Classical guitar	2026-10-10	
+SL000411	flamenco_guitar	Q930531	exact	Flamenco guitar	2026-10-10	
+SL000412	electric_guitar	Q78987	exact	Electric guitar	2026-10-10	
+SL000415	twelve_string_guitar	Q678090	exact	Twelve-string guitar	2026-10-10	
+SL000417	pedal_steel	Q587027	exact	Pedal steel guitar	2026-10-10	
+SL000419	electric_bass	Q46185	exact	Bass guitar	2026-10-10	
+SL000420	fretless_bass	Q932855	exact	Fretless bass	2026-10-10	
+SL000421	double_bass	Q80019	exact	Double bass	2026-10-10	
+SL000422	banjo	Q258896	exact	Banjo	2026-10-10	
+SL000423	mandolin	Q302497	exact	Mandolin	2026-10-10	
+SL000424	ukulele	Q61285	exact	Ukulele	2026-10-10	
+SL000425	lute	Q180733	exact	Lute	2026-10-10	
+SL000426	harp	Q47369	exact	Harp	2026-10-10	
+SL000427	sitar	Q229205	exact	Sitar	2026-10-10	
+SL000428	oud	Q191000	exact	Oud	2026-10-10	
+SL000429	bouzouki	Q322675	exact	Bouzouki	2026-10-10	
+SL000430	charango	Q468776	exact	Charango	2026-10-10	
+SL000431	cavaquinho	Q1051805	exact	Cavaquinho	2026-10-10	
+SL000432	kora	Q585969	exact	Kora (instrument)	2026-10-10	
+SL000434	koto	Q289037	exact	Koto (instrument)	2026-10-10	
+SL000435	shamisen	Q241337	exact	Shamisen	2026-10-10	
+SL000436	guzheng	Q726303	exact	Guzheng	2026-10-10	
+SL000437	balalaika	Q178389	exact	Balalaika	2026-10-10	
+SL000438	saz	Q717773	close	Bağlama	2026-10-10	
+SL000439	bowed_strings	Q192096	exact	Bowed string instrument	2026-10-10	
+SL000440	violin	Q8355	exact	Violin	2026-10-10	
+SL000441	fiddle	Q510487	exact	Fiddle	2026-10-10	
+SL000442	viola	Q80284	exact	Viola	2026-10-10	
+SL000443	cello	Q8371	exact	Cello	2026-10-10	
+SL000444	string_section	Q2997126	exact	String section	2026-10-10	
+SL000445	erhu	Q726306	exact	Erhu	2026-10-10	
+SL000446	hurdy_gurdy	Q207821	exact	Hurdy-gurdy	2026-10-10	
+SL000447	nyckelharpa	Q182718	exact	Nyckelharpa	2026-10-10	
+SL000448	woodwinds	Q181247	exact	Woodwind instrument	2026-10-10	
+SL000449	flute	Q11405	exact	Flute	2026-10-10	
+SL000450	piccolo	Q83509	exact	Piccolo	2026-10-10	
+SL000451	recorder	Q187851	exact	Recorder (musical instrument)	2026-10-10	
+SL000452	tin_whistle	Q615403	exact	Tin whistle	2026-10-10	
+SL000453	pan_flute	Q218802	exact	Pan flute	2026-10-10	
+SL000454	shakuhachi	Q524526	exact	Shakuhachi	2026-10-10	
+SL000455	ney	Q743836	exact	Ney	2026-10-10	
+SL000456	duduk	Q737917	exact	Duduk	2026-10-10	
+SL000457	clarinet	Q8343	exact	Clarinet	2026-10-10	
+SL000458	oboe	Q8377	exact	Oboe	2026-10-10	
+SL000459	bassoon	Q159998	exact	Bassoon	2026-10-10	
+SL000460	saxophone	Q9798	exact	Saxophone	2026-10-10	
+SL000461	alto_sax	Q445275	exact	Alto saxophone	2026-10-10	
+SL000462	tenor_sax	Q1414932	exact	Tenor saxophone	2026-10-10	
+SL000463	baritone_sax	Q808218	exact	Baritone saxophone	2026-10-10	
+SL000464	soprano_sax	Q1463985	exact	Soprano saxophone	2026-10-10	
+SL000465	bagpipes	Q8347	exact	Bagpipes	2026-10-10	
+SL000466	didgeridoo	Q189388	exact	Didgeridoo	2026-10-10	
+SL000467	harmonica	Q51290	exact	Harmonica	2026-10-10	
+SL000468	brass	Q180744	exact	Brass instrument	2026-10-10	
+SL000469	trumpet	Q8338	exact	Trumpet	2026-10-10	
+SL000471	flugelhorn	Q382616	exact	Flugelhorn	2026-10-10	
+SL000472	cornet	Q202027	exact	Cornet	2026-10-10	
+SL000473	trombone	Q8350	exact	Trombone	2026-10-10	
+SL000474	french_horn	Q163759	exact	French horn	2026-10-10	
+SL000475	tuba	Q131168	exact	Tuba	2026-10-10	
+SL000476	horn_section	Q2902628	exact	Horn section	2026-10-10	
+SL000477	keyboards	Q52954	exact	Keyboard instrument	2026-10-10	
+SL000478	piano	Q5994	exact	Piano	2026-10-10	
+SL000481	prepared_piano	Q754186	exact	Prepared piano	2026-10-10	
+SL000482	electric_piano	Q1136507	exact	Electric piano	2026-10-10	
+SL000483	rhodes	Q743659	exact	Rhodes piano	2026-10-10	
+SL000484	wurlitzer	Q1759986	exact	Wurlitzer electronic piano	2026-10-10	
+SL000485	organ	Q1444	exact	Organ (music)	2026-10-10	
+SL000486	hammond_organ	Q105891	exact	Hammond organ	2026-10-10	
+SL000487	pipe_organ	Q281460	exact	Pipe organ	2026-10-10	
+SL000488	combo_organ	Q5150931	exact	Combo organ	2026-10-10	
+SL000489	harpsichord	Q81982	exact	Harpsichord	2026-10-10	
+SL000490	clavinet	Q1099153	exact	Clavinet	2026-10-10	
+SL000491	accordion	Q79838	exact	Accordion	2026-10-10	
+SL000492	bandoneon	Q215032	exact	Bandoneon	2026-10-10	
+SL000493	concertina	Q593050	exact	Concertina	2026-10-10	
+SL000494	harmonium	Q12460259	close	Pump organ	2026-10-10	
+SL000495	celesta	Q320341	exact	Celesta	2026-10-10	
+SL000496	mellotron	Q212483	exact	Mellotron	2026-10-10	
+SL000497	melodica	Q512191	exact	Melodica	2026-10-10	
+SL000498	toy_piano	Q1300012	exact	Toy piano	2026-10-10	
+SL000499	electronic_instruments	Q1327500	exact	Electronic musical instrument	2026-10-10	
+SL000500	synthesizer	Q163829	exact	Synthesizer	2026-10-10	
+SL000501	analog_synth	Q3268757	exact	Analog synthesizer	2026-10-10	
+SL000502	modular_synth	Q391640	exact	Modular synthesizer	2026-10-10	
+SL000503	fm_synth	Q1141651	exact	Frequency modulation synthesis	2026-10-10	
+SL000513	hoover_sound	Q1627515	exact	Hoover sound	2026-10-10	
+SL000516	drum_machine	Q831698	exact	Drum machine	2026-10-10	
+SL000517	tr808	Q1414221	exact	Roland TR-808	2026-10-10	
+SL000518	tr909	Q978134	exact	Roland TR-909	2026-10-10	
+SL000519	linndrum	Q3241627	exact	LinnDrum	2026-10-10	
+SL000520	sampler_instrument	Q320002	exact	Sampler (musical instrument)	2026-10-10	
+SL000521	theremin	Q207691	exact	Theremin	2026-10-10	
+SL000522	vocoder_instrument	Q908562	exact	Vocoder	2026-10-10	
+SL000523	talk_box	Q1778683	exact	Talk box	2026-10-10	
+SL000524	chiptune_chip	Q1418253	close	Sound chip	2026-10-10	
+SL000527	percussion	Q133163	exact	Percussion instrument	2026-10-10	
+SL000528	drum_kit	Q128309	exact	Drum kit	2026-10-10	
+SL000529	kick_drum	Q211028	exact	Bass drum	2026-10-10	
+SL000530	snare_drum	Q208421	exact	Snare drum	2026-10-10	
+SL000531	hi_hat	Q963334	exact	Hi-hat	2026-10-10	
+SL000532	cymbals	Q190172	exact	Cymbal	2026-10-10	
+SL000533	toms	Q849349	exact	Tom drum	2026-10-10	
+SL000534	electronic_drums	Q1327480	exact	Electronic drum	2026-10-10	
+SL000535	hand_percussion	Q13635637	related	Hand percussion	2026-10-10	Wikipedia article is a list article, not a concept article
+SL000536	congas	Q270200	exact	Conga	2026-10-10	
+SL000537	bongos	Q243998	exact	Bongo drum	2026-10-10	
+SL000538	timbales	Q379248	exact	Timbales	2026-10-10	
+SL000539	cajon	Q748455	exact	Cajón	2026-10-10	
+SL000540	djembe	Q537750	exact	Djembe	2026-10-10	
+SL000541	darbuka	Q13219842	exact	Goblet drum	2026-10-10	
+SL000542	frame_drum	Q1283177	exact	Frame drum	2026-10-10	
+SL000543	tabla	Q213100	exact	Tabla	2026-10-10	
+SL000544	mridangam	Q744831	exact	Mridangam	2026-10-10	
+SL000545	talking_drum	Q1321104	exact	Talking drum	2026-10-10	
+SL000546	tambourine	Q193666	exact	Tambourine	2026-10-10	
+SL000547	shaker	Q2276536	exact	Shaker (musical instrument)	2026-10-10	
+SL000548	guiro	Q2237198	exact	Güiro	2026-10-10	
+SL000549	cowbell	Q775570	exact	Cowbell (instrument)	2026-10-10	
+SL000550	claves_instrument	Q850118	exact	Claves	2026-10-10	
+SL000551	castanets	Q183932	exact	Castanets	2026-10-10	
+SL000552	handclaps	Q1322478	close	Clapping	2026-10-10	
+SL000553	finger_snaps	Q3269139	exact	Finger snapping	2026-10-10	
+SL000554	cuica	Q176926	exact	Cuíca	2026-10-10	
+SL000555	surdo	Q940274	exact	Surdo	2026-10-10	
+SL000556	washboard	Q21607265	exact	Washboard (musical instrument)	2026-10-10	
+SL000558	dhol	Q1207707	exact	Dhol	2026-10-10	
+SL000559	taiko	Q221769	exact	Taiko	2026-10-10	
+SL000560	timpani	Q189737	exact	Timpani	2026-10-10	
+SL000561	pitched_percussion	Q7198871	exact	Pitched percussion instrument	2026-10-10	
+SL000562	marimba	Q220971	exact	Marimba	2026-10-10	
+SL000563	vibraphone	Q206987	exact	Vibraphone	2026-10-10	
+SL000564	xylophone	Q165666	exact	Xylophone	2026-10-10	
+SL000565	glockenspiel	Q626035	exact	Glockenspiel	2026-10-10	
+SL000566	tubular_bells	Q178812	exact	Tubular bells	2026-10-10	
+SL000567	steelpan	Q6610630	exact	Steelpan	2026-10-10	
+SL000569	handpan	Q5647544	exact	Handpan	2026-10-10	
+SL000571	triangle	Q201735	exact	Triangle (musical instrument)	2026-10-10	
+SL000572	gong	Q208320	exact	Gong	2026-10-10	
+SL000573	balafon	Q789141	exact	Balafon	2026-10-10	
+SL000574	ensemble	Q2088357	exact	Musical ensemble	2026-10-10	
+SL000575	orchestra	Q42998	exact	Orchestra	2026-10-10	
+SL000577	string_quartet	Q207338	exact	String quartet	2026-10-10	
+SL000578	big_band	Q207378	exact	Big band	2026-10-10	
+SL000579	brass_band	Q3244156	exact	Brass band	2026-10-10	
+SL000580	power_trio	Q2016626	exact	Power trio	2026-10-10	
+SL000581	mariachi_ensemble	Q464129	close	Mariachi	2026-10-10	
+SL000582	rock_band	Q127334927	close	Band (rock and pop)	2026-10-10	
+SL000585	palm_muting	Q1471452	exact	Palm mute	2026-10-10	
+SL000589	alternate_picking	Q685431	exact	Alternate picking	2026-10-10	
+SL000590	sweep_picking	Q667704	exact	Sweep picking	2026-10-10	
+SL000591	tapping	Q203598	exact	Tapping	2026-10-10	
+SL000593	string_bending	Q25303634	exact	String bending	2026-10-10	
+SL000594	whammy	Q154398	exact	Vibrato systems for guitar	2026-10-10	
+SL000597	slide_guitar	Q428152	exact	Slide guitar	2026-10-10	
+SL000598	fingerpicking	Q1140333	exact	Fingerstyle guitar	2026-10-10	
+SL000600	strumming	Q2911978	exact	Strum	2026-10-10	
+SL000601	rasgueado	Q1753335	exact	Rasgueado	2026-10-10	
+SL000605	skank_guitar	Q3486134	exact	Ska stroke	2026-10-10	
+SL000606	jangle	Q109587074	exact	Jangle	2026-10-10	
+SL000607	shred	Q646424	exact	Shred guitar	2026-10-10	
+SL000609	feedback	Q716215	broad	Audio feedback	2026-10-10	
+SL000614	slap_bass	Q1364980	broad	Slapping (music)	2026-10-10	
+SL000618	sub_bass	Q848412	exact	Sub-bass	2026-10-10	
+SL000621	stride_piano	Q181897	exact	Stride (music)	2026-10-10	
+SL000624	block_chords	Q884690	exact	Block chord	2026-10-10	
+SL000626	leslie	Q1820781	exact	Leslie speaker	2026-10-10	
+SL000628	pizzicato	Q213460	exact	Pizzicato	2026-10-10	
+SL000632	col_legno	Q1107565	exact	Col legno	2026-10-10	
+SL000633	double_stops	Q1242951	exact	Double stop	2026-10-10	
+SL000637	flutter_tongue	Q1427420	exact	Flutter-tonguing	2026-10-10	
+SL000640	circular_breathing	Q205870	exact	Circular breathing	2026-10-10	
+SL000642	scratching	Q1413166	exact	Scratching	2026-10-10	
+SL000643	beat_juggling	Q4876977	exact	Beat juggling	2026-10-10	
+SL000645	lo_fi	Q1507298	exact	Lo-fi music	2026-10-10	
+SL000647	tape_hiss	Q4993663	exact	Tape hiss	2026-10-10	
+SL000648	bedroom_production	Q60749416	exact	Bedroom production	2026-10-10	
+SL000653	wall_of_sound	Q1856554	exact	Wall of Sound	2026-10-10	
+SL000656	field_recording	Q360982	exact	Field recording	2026-10-10	
+SL000658	compression	Q18433212	exact	Dynamic range compression	2026-10-10	
+SL000660	limiting	Q1613840	close	Limiter	2026-10-10	
+SL000666	gated_reverb	Q5527047	exact	Gated reverb	2026-10-10	
+SL000668	delay	Q3021489	exact	Delay (audio effect)	2026-10-10	
+SL000672	stereo_panning	Q1524510	exact	Panning (audio)	2026-10-10	
+SL000674	chorus_effect	Q1076641	exact	Chorus (audio effect)	2026-10-10	
+SL000675	flanger	Q1323480	exact	Flanging	2026-10-10	
+SL000676	phaser	Q1551588	exact	Phaser (effect)	2026-10-10	
+SL000678	distortion	Q899871	exact	Distortion (music)	2026-10-10	
+SL000681	bitcrusher	Q878778	exact	Bitcrusher	2026-10-10	
+SL000683	filter_effects	Q4819865	close	Audio filter	2026-10-10	
+SL000686	wah_wah	Q264300	exact	Wah-wah pedal	2026-10-10	
+SL000687	envelope_filter	Q4412658	exact	Auto-wah	2026-10-10	
+SL000689	autotune	Q784762	exact	AutoTune	2026-10-10	
+SL000690	pitch_shift	Q60630	exact	Pitch shifting	2026-10-10	
+SL000694	octaver	Q931470	exact	Octave effect	2026-10-10	
+SL000696	reverse	Q7318272	close	Reverse tape effects	2026-10-10	
+SL000697	stutter	Q7629188	exact	Stutter edit	2026-10-10	
+SL000699	time_stretch	Q1295260	exact	Audio time stretching and pitch scaling	2026-10-10	
+SL000700	sampling	Q596446	exact	Sampling (music)	2026-10-10	
+SL000701	loop	Q1758908	exact	Loop (music)	2026-10-10	
+SL000704	sound_design	Q1937950	exact	Sound design	2026-10-10	
+SL000708	braam	Q106956697	exact	BRAAAM	2026-10-10	
+SL000719	dynamics	Q113558	exact	Dynamics (music)	2026-10-10	
+SL000727	articulation	Q372923	exact	Articulation (music)	2026-10-10	
+SL000728	staccato	Q466944	exact	Staccato	2026-10-10	
+SL000729	legato	Q649116	exact	Legato	2026-10-10	
+SL000730	marcato	Q2524785	exact	Marcato	2026-10-10	
+SL000731	tenuto	Q1542153	exact	Tenuto	2026-10-10	
+SL000733	rhyme_scheme	Q3264652	exact	Rhyme scheme	2026-10-10	
+SL000734	internal_rhyme	Q2098331	exact	Internal rhyme	2026-10-10	
+SL000736	assonance	Q191092	exact	Assonance	2026-10-10	
+SL000737	repetition	Q1274479	close	Repetition (rhetorical device)	2026-10-10	
+SL000738	storytelling	Q989963	broad	Storytelling	2026-10-10	
+SL000739	punchline	Q671054	close	Punch line	2026-10-10	
+SL000740	double_entendre	Q2030511	exact	Double entendre	2026-10-10	
+SL000741	title_drop	Q7810271	exact	Title drop	2026-10-10	
+SL000742	vocables	Q17154352	exact	Non-lexical vocables in music	2026-10-10	
+SL000743	onomatopoeia	Q170239	exact	Onomatopoeia	2026-10-10	
+SL000744	code_switching	Q255615	close	Code-switching	2026-10-10	
+SL000748	instrumental_track	Q639197	exact	Instrumental	2026-10-10	
+SL000771	mood_groovy	Q1501482	related	Groove (music)	2026-10-10	Wikidata item is the rhythmic groove, not the mood
+SL000773	guitar	Q6607	exact	Guitar	2026-10-11	from MusicBrainz
+SL000774	archtop_guitar	Q3392409	exact	Archtop guitar	2026-10-11	from MusicBrainz
+SL000775	electric_sitar	Q11877740	exact	Electric sitar	2026-10-11	from MusicBrainz
+SL000776	baritone_guitar	Q64038	exact	Baritone guitar	2026-10-11	from MusicBrainz
+SL000777	tenor_banjo	Q2755228	exact	Tenor banjo	2026-10-11	from MusicBrainz
+SL000778	bajo_sexto	Q804161	exact	Bajo sexto	2026-10-11	from MusicBrainz
+SL000779	portuguese_guitar	Q585289	exact	Portuguese guitar	2026-10-11	from MusicBrainz
+SL000780	tar_lute	Q546936	exact	Tar (string instrument)	2026-10-11	from MusicBrainz
+SL000781	ngoni	Q1703491	exact	Ngoni (instrument)	2026-10-11	from MusicBrainz
+SL000782	kantele	Q145840	exact	Kantele	2026-10-11	from MusicBrainz
+SL000783	autoharp	Q370915	exact	Autoharp	2026-10-11	from MusicBrainz
+SL000784	electric_violin	Q685663	exact	Electric violin	2026-10-11	from MusicBrainz
+SL000785	morin_khuur	Q1129422	exact	Morin khuur	2026-10-11	from MusicBrainz
+SL000786	kamancheh	Q290951	exact	Kamancheh	2026-10-11	from MusicBrainz
+SL000787	rebab	Q623509	exact	Rebab	2026-10-11	from MusicBrainz
+SL000788	siku	Q905244	exact	Siku (instrument)	2026-10-11	from MusicBrainz
+SL000789	quena	Q841005	exact	Quena	2026-10-11	from MusicBrainz
+SL000790	kaval	Q178374	exact	Kaval	2026-10-11	from MusicBrainz
+SL000791	fife	Q2255516	exact	Fife (instrument)	2026-10-11	from MusicBrainz
+SL000792	zurna	Q230471	exact	Zurna	2026-10-11	from MusicBrainz
+SL000793	shawm	Q677921	exact	Shawm	2026-10-11	from MusicBrainz
+SL000794	highland_bagpipe	Q2164192	exact	Great Highland bagpipe	2026-10-11	from MusicBrainz
+SL000795	uilleann_pipes	Q543833	exact	Uilleann pipes	2026-10-11	from MusicBrainz
+SL000796	gaida	Q1422412	exact		2026-10-11	from MusicBrainz
+SL000797	sousaphone	Q499387	exact	Sousaphone	2026-10-11	from MusicBrainz
+SL000798	euphonium	Q495529	exact	Euphonium	2026-10-11	from MusicBrainz
+SL000799	electric_grand	Q5357606	exact	Electric grand piano	2026-10-11	from MusicBrainz
+SL000800	button_accordion	Q379269	exact	Diatonic button accordion	2026-10-11	from MusicBrainz
+SL000801	string_synth	Q2355465	exact		2026-10-11	from MusicBrainz
+SL000802	keytar	Q1112687	exact	Keytar	2026-10-11	from MusicBrainz
+SL000803	wind_synth	Q882090	exact	Wind controller	2026-10-11	from MusicBrainz
+SL000804	guitar_synth	Q1527709	exact	Guitar synthesizer	2026-10-11	from MusicBrainz
+SL000805	maracas	Q39777	exact	Maraca	2026-10-11	from MusicBrainz
+SL000806	guira	Q1540998	exact	Güira	2026-10-11	from MusicBrainz
+SL000807	caixa	Q16535112	exact		2026-10-11	from MusicBrainz
+SL000808	repinique	Q255273	exact	Repinique	2026-10-11	from MusicBrainz
+SL000809	atabaque	Q614158	exact	Atabaque	2026-10-11	from MusicBrainz
+SL000810	dholak	Q936590	exact	Dholak	2026-10-11	from MusicBrainz
+SL000811	ghatam	Q859091	exact	Ghatam	2026-10-11	from MusicBrainz
+SL000812	sabar	Q747604	exact	Sabar	2026-10-11	from MusicBrainz
+SL000813	wood_block	Q957212	exact	Woodblock (instrument)	2026-10-11	from MusicBrainz
+SL000814	bombo_leguero	Q891935	exact	Bombo legüero	2026-10-11	from MusicBrainz
+SL000815	dunun	Q3511343	exact	Dunun	2026-10-11	from MusicBrainz
+SL000816	mark_tree	Q66553333	exact	Mark tree	2026-10-11	from MusicBrainz
+SL000817	anvil	Q16632086	exact		2026-10-11	from MusicBrainz
+SL000819	tamburica_orchestra	Q1423158	related	Tamburica	2026-10-11	from MusicBrainz; item is the instrument family, not the ensemble
+SL000479	grand_piano	Q1148709	exact	Grand piano	2026-10-11	from MusicBrainz
+SL000526	turntables	Q16973802	close	Direct-drive turntable	2026-10-11	from MusicBrainz; item is the direct-drive turntable
+SL000570	gamelan_instrument	Q194492	exact	Gamelan	2026-10-11	from MusicBrainz
+SL000827	portamento	Q263934	exact	Portamento	2026-10-11	
+SL000824	ground_bass	Q810543	exact		2026-10-11	basso ostinato; Q16640199 (ground bass) looks like a duplicate item
+SL000825	acciaccatura	Q2696129	exact		2026-10-11	
+SL000826	appoggiatura	Q1757335	exact	Appoggiatura	2026-10-11	
+SL000822	pelog	Q1094781	exact	Pelog	2026-10-11	
+SL000823	slendro	Q431434	exact	Slendro	2026-10-11	
+SL000863	hammer_on	Q1504942	exact	Hammer-on	2026-10-11	
+SL000864	pull_off	Q2704379	exact	Pull-off	2026-10-11	
+SL000865	spiccato	Q2617171	exact	Spiccato	2026-10-11	
+SL000854	pandeiro	Q1437089	exact	Pandeiro	2026-10-11	
+SL000852	dx7	Q139300	exact	Yamaha DX7	2026-10-11	
+SL000828	steel_guitar	Q2617520	exact	Steel guitar	2026-10-11	from MusicBrainz
+SL000418	lap_steel	Q644440	exact	Lap steel guitar	2026-10-11	from MusicBrainz
+SL000820	resonator_guitar	Q1051615	exact	Resonator guitar	2026-10-11	from MusicBrainz
+SL000821	tres	Q139727	exact	Tres (instrument)	2026-10-11	from MusicBrainz
+SL000433	cuatro	Q507102	exact	Cuatro (instrument)	2026-10-11	from MusicBrainz
+SL000849	bass_clarinet	Q8345	exact	Bass clarinet	2026-10-11	from MusicBrainz
+SL000844	viola_da_gamba	Q40125	exact	Viol	2026-10-11	from MusicBrainz
+SL000843	hardanger_fiddle	Q178933	exact	Hardanger fiddle	2026-10-11	from MusicBrainz
+SL000845	sarangi	Q608650	exact	Sarangi	2026-10-11	from MusicBrainz
+SL000829	sarod	Q687406	exact	Sarod	2026-10-11	from MusicBrainz
+SL000839	santur	Q504847	exact	Santur	2026-10-11	from MusicBrainz
+SL000840	santoor	Q2912399	exact	Santoor	2026-10-11	from MusicBrainz
+SL000831	pipa	Q6685124	exact	Pipa	2026-10-11	from MusicBrainz
+SL000841	yangqin	Q877239	exact	Yangqin	2026-10-11	from MusicBrainz
+SL000846	bansuri	Q960389	exact	Bansuri	2026-10-11	from MusicBrainz
+SL000847	dizi	Q1146067	exact	Dizi (instrument)	2026-10-11	from MusicBrainz
+SL000850	suona	Q2096912	exact	Suona	2026-10-11	from MusicBrainz
+SL000851	sheng	Q849052	exact	Sheng (instrument)	2026-10-11	from MusicBrainz
+SL000832	gayageum	Q717407	exact	Gayageum	2026-10-11	from MusicBrainz
+SL000834	dan_bau	Q342244	exact	Đàn bầu	2026-10-11	from MusicBrainz
+SL000833	dan_tranh	Q342234	exact	Đàn tranh	2026-10-11	from MusicBrainz
+SL000830	tanpura	Q1164636	exact	Tanpura	2026-10-11	from MusicBrainz
+SL000861	udu	Q1500255	exact	Udu	2026-10-11	from MusicBrainz
+SL000860	shekere	Q1043002	exact	Shekere	2026-10-11	from MusicBrainz
+SL000859	agogo	Q395212	exact	Agogô	2026-10-11	from MusicBrainz
+SL000853	bodhran	Q244976	exact	Bodhrán	2026-10-11	from MusicBrainz
+SL000837	berimbau	Q748187	exact	Berimbau	2026-10-11	from MusicBrainz
+SL000842	cimbalom	Q8374	exact	Cimbalom	2026-10-11	from MusicBrainz
+SL000838	hammered_dulcimer	Q1588017	exact	Hammered dulcimer	2026-10-11	from MusicBrainz
+SL000835	appalachian_dulcimer	Q2145031	exact	Appalachian dulcimer	2026-10-11	from MusicBrainz
+SL000862	jaw_harp	Q185003	exact	Jew's harp	2026-10-11	from MusicBrainz
+SL000836	musical_bow	Q1630744	exact	Musical bow	2026-10-11	from MusicBrainz
+SL000848	ocarina	Q187780	exact	Ocarina	2026-10-11	from MusicBrainz
+SL000856	daf	Q11084057	exact	Daf	2026-10-11	from MusicBrainz
+SL000857	riq	Q17057067	exact	Riq	2026-10-11	from MusicBrainz
+SL000858	bendir	Q816793	exact	Bendir	2026-10-11	from MusicBrainz
+SL000855	tamborim	Q1751598	exact	Tamborim	2026-10-11	from MusicBrainz
+SL000929	afoxe	Q16058159	exact	Afoxé (musical instrument)	2026-10-11	from MusicBrainz
+SL000949	alfaia	Q503646	exact	Alfaia	2026-10-11	from MusicBrainz
+SL000921	apito_de_samba	Q1483670	exact	Apito	2026-10-11	from MusicBrainz
+SL000901	arghul	Q646920	exact	Arghul	2026-10-11	from MusicBrainz
+SL000869	baglamas	Q528239	exact	Baglamas	2026-10-11	from MusicBrainz
+SL000872	bandurria	Q370534	exact	Bandurria	2026-10-11	from MusicBrainz
+SL000930	barrel_drum	Q4863335	exact	Barrel drum	2026-10-11	from MusicBrainz
+SL000925	barrel_organ	Q752638	exact	Barrel organ	2026-10-11	from MusicBrainz
+SL000873	biwa	Q829729	exact	Biwa	2026-10-11	from MusicBrainz
+SL000923	bugle	Q1628293	exact	Bugle	2026-10-11	from MusicBrainz
+SL000931	buk	Q2754430	exact	Buk (drum)	2026-10-11	from MusicBrainz
+SL000932	caxixi	Q1542137	exact	Caxixi	2026-10-11	from MusicBrainz
+SL000933	clapstick	Q1095097	exact	Clapstick	2026-10-11	from MusicBrainz
+SL000892	classical_kemence	Q10259047	exact	Classical kemençe	2026-10-11	from MusicBrainz
+SL000959	cobla	Q2989770	exact	Cobla	2026-10-11	from MusicBrainz
+SL000902	daegeum	Q706424	exact	Daegeum	2026-10-11	from MusicBrainz
+SL000893	djoza	Q3033074	exact		2026-10-11	from MusicBrainz
+SL000875	doshpuluur	Q5299280	exact	Doshpuluur	2026-10-11	from MusicBrainz
+SL000927	doyra	Q3038392	close	Dayereh	2026-10-11	from MusicBrainz; item is the Persian dayereh
+SL000876	dutar	Q1143814	exact	Dutar	2026-10-11	from MusicBrainz
+SL000903	flabiol	Q1901997	exact	Flabiol	2026-10-11	from MusicBrainz
+SL000934	friction_drum	Q583827	exact	Friction drum	2026-10-11	from MusicBrainz
+SL000900	gaita_gallega	Q1820831	exact	Galician gaita	2026-10-11	from MusicBrainz
+SL000957	gankogui	Q1493573	exact		2026-10-11	from MusicBrainz
+SL000928	ganza	Q3095230	exact	Ganzá	2026-10-11	from MusicBrainz
+SL000950	garifuna_drum	Q5523319	exact		2026-10-11	from MusicBrainz
+SL000877	geomungo	Q713298	exact	Geomungo	2026-10-11	from MusicBrainz
+SL000894	ghijak	Q4138014	exact	Ghijak	2026-10-11	from MusicBrainz
+SL000953	gong_chime	Q5581711	exact	Gong chime	2026-10-11	from MusicBrainz
+SL000878	gumbri	Q1431454	exact	Sintir	2026-10-11	from MusicBrainz
+SL000879	guqin	Q723720	exact	Guqin	2026-10-11	from MusicBrainz
+SL000895	haegeum	Q706025	exact	Haegeum	2026-10-11	from MusicBrainz
+SL000958	handbell	Q871633	exact	Handbell	2026-10-11	from MusicBrainz
+SL000904	hichiriki	Q425748	exact	Hichiriki	2026-10-11	from MusicBrainz
+SL000896	igil	Q1572629	exact	Igil	2026-10-11	from MusicBrainz
+SL000935	janggu	Q1062015	exact	Janggu	2026-10-11	from MusicBrainz
+SL000880	kacapi	Q1823485	exact	Kacapi	2026-10-11	from MusicBrainz
+SL000905	kagurabue	Q1059131	exact	Kagurabue	2026-10-11	from MusicBrainz
+SL000871	kamale_ngoni	Q29918192	exact		2026-10-11	from MusicBrainz
+SL000881	kanun	Q904646	exact	Qanun (instrument)	2026-10-11	from MusicBrainz
+SL000936	kartal	Q3193614	exact	Khartal	2026-10-11	from MusicBrainz
+SL000906	khene	Q1740479	exact	Khaen	2026-10-11	from MusicBrainz
+SL000870	khim	Q13417190	exact	Khim	2026-10-11	from MusicBrainz
+SL000954	khong_wong_yai	Q4924951	exact	Khong wong yai	2026-10-11	from MusicBrainz
+SL000937	kkwaenggwari	Q843271	exact	Kkwaenggwari	2026-10-11	from MusicBrainz
+SL000938	kotsuzumi	Q120585	broad	Tsuzumi	2026-10-11	from MusicBrainz; Wikidata item is the tsuzumi in general
+SL000939	krakeb	Q1371129	exact	Krakeb	2026-10-11	from MusicBrainz
+SL000882	krar	Q1786674	exact	Krar	2026-10-11	from MusicBrainz
+SL000940	kudum	Q6441836	exact	Kudüm	2026-10-11	from MusicBrainz
+SL000907	ken_bau	Q1128412	exact	Kèn bầu	2026-10-11	from MusicBrainz
+SL000883	laud	Q1809626	exact	Laúd	2026-10-11	from MusicBrainz
+SL000941	madal	Q6726202	exact	Madal	2026-10-11	from MusicBrainz
+SL000955	marimbula	Q16257797	exact	Marímbula	2026-10-11	from MusicBrainz
+SL000924	mellophone	Q1474853	exact	Mellophone	2026-10-11	from MusicBrainz
+SL000908	mijwiz	Q1247912	exact	Mijwiz	2026-10-11	from MusicBrainz
+SL000909	nadaswaram	Q1611652	exact	Nadaswaram	2026-10-11	from MusicBrainz
+SL000910	nohkan	Q1058772	exact	Nohkan	2026-10-11	from MusicBrainz
+SL000884	octavina	Q492055	exact	Octavina	2026-10-11	from MusicBrainz
+SL000942	pakhawaj	Q2046658	exact	Pakhavaj	2026-10-11	from MusicBrainz
+SL000943	phach	Q7189851	exact	Phách	2026-10-11	from MusicBrainz
+SL000911	pi_nai	Q16304285	exact		2026-10-11	from MusicBrainz
+SL000912	piri	Q1195575	exact	Piri (instrument)	2026-10-11	from MusicBrainz
+SL000944	quijada	Q1394579	exact	Jawbone (instrument)	2026-10-11	from MusicBrainz
+SL000926	quinto	Q7379154	exact	Quinto (drum)	2026-10-11	from MusicBrainz
+SL000952	ranat_ek	Q6585156	exact	Ranat ek	2026-10-11	from MusicBrainz
+SL000945	ratchet	Q954753	exact	Ratchet (instrument)	2026-10-11	from MusicBrainz
+SL000913	ryuteki	Q1760249	exact	Ryūteki	2026-10-11	from MusicBrainz
+SL000914	saluang	Q1862242	exact	Saluang	2026-10-11	from MusicBrainz
+SL000885	sanshin	Q2709639	exact	Sanshin	2026-10-11	from MusicBrainz
+SL000886	sanxian	Q1860805	exact	Sanxian	2026-10-11	from MusicBrainz
+SL000897	saw_duang	Q6682188	exact	Saw duang	2026-10-11	from MusicBrainz
+SL000898	saw_u	Q644562	exact	Saw u	2026-10-11	from MusicBrainz
+SL000887	setar	Q1544746	exact	Setar	2026-10-11	from MusicBrainz
+SL000948	shime_daiko	Q4148082	exact	Shime-daiko	2026-10-11	from MusicBrainz
+SL000915	shinobue	Q3100072	exact	Shinobue	2026-10-11	from MusicBrainz
+SL000916	sho	Q1975355	exact	Shō (instrument)	2026-10-11	from MusicBrainz
+SL000917	suling	Q2997443	exact	Suling	2026-10-11	from MusicBrainz
+SL000888	tanbur	Q3424319	exact	Tanbur	2026-10-11	from MusicBrainz
+SL000918	tenora	Q1328415	exact		2026-10-11	from MusicBrainz
+SL000919	tible	Q1755559	close		2026-10-11	from MusicBrainz; item is the Catalan shawm in general
+SL000889	tiple	Q2300910	exact	Tiple	2026-10-11	from MusicBrainz
+SL000890	topshuur	Q4460933	exact	Tovshuur	2026-10-11	from MusicBrainz
+SL000867	vietnamese_guitar	Q5616842	exact	Guitar phím lõm	2026-10-11	from MusicBrainz
+SL000868	viola_caipira	Q7933058	exact	Caipira viola	2026-10-11	from MusicBrainz
+SL000920	whistle	Q204917	exact	Whistle	2026-10-11	from MusicBrainz
+SL000922	xiao	Q1394795	exact	Xiao (flute)	2026-10-11	from MusicBrainz
+SL000951	zabumba	Q139132	exact	Zabumba	2026-10-11	from MusicBrainz
+SL000946	zarb	Q3574843	exact	Tombak	2026-10-11	from MusicBrainz
+SL000891	dan_nguyet	Q8079924	exact	Đàn nguyệt	2026-10-11	from MusicBrainz
+SL000899	dan_nhi	Q8079925	exact	Đàn nhị	2026-10-11	from MusicBrainz
+SL000947	otsuzumi	Q8081782	exact	Ōtsuzumi	2026-10-11	from MusicBrainz

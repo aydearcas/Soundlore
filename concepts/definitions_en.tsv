@@ -1,0 +1,962 @@
+# English definitions, one per concept, keyed by the stable identifier. The slug column is for readability; the build checks it.
+# source: where the text came from. status: draft (unreviewed) | reviewed.
+uid	slug	definition	source	status
+SL000001	meter	The recurring organization of musical beats into groups, usually represented by a time signature and patterns of strong and weak beats.	chatgpt-2026-10	draft
+SL000002	simple_meter	A meter in which each main beat normally divides into two equal parts, as in 2/4, 3/4, or 4/4.	chatgpt-2026-10	draft
+SL000003	time_2_4	A time signature with two quarter-note beats per bar, often heard in marches, polkas, and other duple-meter music.	chatgpt-2026-10	draft
+SL000004	time_3_4	A time signature with three quarter-note beats per bar, commonly associated with waltzes and other triple-meter music.	chatgpt-2026-10	draft
+SL000005	time_4_4	A time signature with four quarter-note beats per bar, widely used in popular music and also called common time.	chatgpt-2026-10	draft
+SL000006	compound_meter	A meter in which each main beat normally divides into three equal parts, as in 6/8, 9/8, or 12/8.	chatgpt-2026-10	draft
+SL000007	time_6_8	A time signature usually felt as two dotted-quarter-note beats per bar, each divided into three eighth notes.	chatgpt-2026-10	draft
+SL000008	time_9_8	A time signature containing nine eighth notes per bar, usually grouped into three beats but sometimes organized asymmetrically.	chatgpt-2026-10	draft
+SL000009	time_12_8	A time signature usually felt as four dotted-quarter-note beats per bar, each divided into three eighth notes.	chatgpt-2026-10	draft
+SL000010	odd_meter	A meter whose subdivisions form unequal beat groups, such as 2+3 or 2+2+3, rather than a regular duple or triple pattern.	chatgpt-2026-10	draft
+SL000011	time_5_4	A time signature containing five quarter notes per bar, often grouped as three plus two or two plus three.	chatgpt-2026-10	draft
+SL000012	time_5_8	A time signature containing five eighth notes per bar, commonly grouped as two plus three or three plus two.	chatgpt-2026-10	draft
+SL000013	time_7_8	A time signature containing seven eighth notes per bar, commonly arranged in unequal groups such as 2+2+3.	chatgpt-2026-10	draft
+SL000014	time_7_4	A time signature containing seven quarter notes per bar, often grouped into smaller units such as four plus three.	chatgpt-2026-10	draft
+SL000015	time_11_8	A time signature containing eleven eighth notes per bar, typically organized into unequal groups of two and three.	chatgpt-2026-10	draft
+SL000016	time_13_8	A time signature containing thirteen eighth notes per bar, typically organized into an asymmetrical sequence of smaller beat groups.	chatgpt-2026-10	draft
+SL000017	aksak	An asymmetrical rhythmic organization built from unequal short and long beat units, particularly associated with Turkish and Balkan traditions.	chatgpt-2026-10	draft
+SL000018	mixed_meter	The use of changing time signatures within a piece or passage, producing successive bars with different beat groupings.	chatgpt-2026-10	draft
+SL000019	free_meter	Music without a consistently recurring metrical pattern; timing may instead follow melodic phrasing, text, or expressive needs.	chatgpt-2026-10	draft
+SL000020	hemiola	A rhythmic or metrical effect in which a span normally grouped in twos is heard in threes, or vice versa, often creating a 3:2 relationship.	chatgpt-2026-10	draft
+SL000021	polymeter	The simultaneous use of different metrical groupings in separate musical parts, often over a shared underlying pulse.	chatgpt-2026-10	draft
+SL000022	rhythmic_feel	The perceived character of a rhythm, shaped by subdivision, accent, timing, and the placement of notes around the beat.	chatgpt-2026-10	draft
+SL000023	straight_feel	A rhythmic feel in which equal written subdivisions are performed with approximately equal durations rather than a swing pattern.	chatgpt-2026-10	draft
+SL000024	swing	A rhythmic feel with unequal subdivisions and flexible timing, often giving paired eighth notes a long-short character.	chatgpt-2026-10	draft
+SL000025	shuffle	A repeated long-short subdivision pattern, commonly based on triplets and widely used in blues, boogie-woogie, and related styles.	chatgpt-2026-10	draft
+SL000026	triplet_feel	A rhythmic feel in which the beat is regularly divided into three parts, whether all three subdivisions are sounded or not.	chatgpt-2026-10	draft
+SL000027	half_time	A rhythmic feel that makes the music seem slower by placing major accents at half their usual rate without necessarily changing the tempo.	chatgpt-2026-10	draft
+SL000028	double_time	A rhythmic feel that makes the music seem faster by doubling the rate of prominent subdivisions or accents without necessarily changing the tempo.	chatgpt-2026-10	draft
+SL000029	laid_back	A timing approach in which notes sit slightly behind the expected beat, creating a relaxed or spacious groove.	chatgpt-2026-10	draft
+SL000030	driving_feel	A rhythm with persistent forward momentum, created through strong pulse, repeated accents, or assertive placement of notes.	chatgpt-2026-10	draft
+SL000031	rhythmic_device	A compositional or performance technique that shapes rhythmic organization, accent, repetition, or the relationship between musical parts.	chatgpt-2026-10	draft
+SL000032	syncopation	The emphasis of normally weak beats or subdivisions, or the displacement of accents away from the expected metrical pattern.	chatgpt-2026-10	draft
+SL000033	anticipation	A note or chord sounded before its expected rhythmic or harmonic position, creating a sense of forward motion.	chatgpt-2026-10	draft
+SL000034	offbeat	A beat or subdivision outside the main metrical accents, often emphasized to create rhythmic contrast or syncopation.	chatgpt-2026-10	draft
+SL000035	backbeat	A strong accent on the second and fourth beats of a four-beat bar, commonly played on the snare drum in popular music.	chatgpt-2026-10	draft
+SL000036	polyrhythm	The simultaneous use of contrasting rhythmic divisions, such as three evenly spaced notes against two over the same duration.	chatgpt-2026-10	draft
+SL000037	three_against_two	A polyrhythm in which three evenly spaced events occur against two evenly spaced events within the same time span.	chatgpt-2026-10	draft
+SL000038	four_against_three	A polyrhythm in which four evenly spaced events occur against three evenly spaced events within the same time span.	chatgpt-2026-10	draft
+SL000039	cross_rhythm	A sustained rhythmic relationship in which one pattern conflicts with the main beat grouping, often serving as a structural feature.	chatgpt-2026-10	draft
+SL000040	clave	A recurring guide pattern that organizes rhythmic relationships in Afro-Cuban music, commonly expressed as five strokes across two measures.	chatgpt-2026-10	draft
+SL000041	son_clave	A five-stroke Afro-Cuban clave pattern with three strokes in one measure and two in the other, played in either 3-2 or 2-3 orientation.	chatgpt-2026-10	draft
+SL000042	rumba_clave	An Afro-Cuban clave pattern related to son clave, with a different placement of the final stroke on its three-stroke side.	chatgpt-2026-10	draft
+SL000043	bossa_clave	A two-measure rhythmic pattern used in some bossa nova accompaniment, related to clave but not universally required by the style.	chatgpt-2026-10	draft
+SL000044	tresillo	A three-attack rhythm often represented as 3+3+2 subdivisions within an eight-unit cycle, common in Afro-Latin music and popular styles.	chatgpt-2026-10	draft
+SL000045	habanera_rhythm	A characteristic four-attack rhythm, commonly represented as 3+1+2+2 subdivisions, associated with the habanera and related dance traditions.	chatgpt-2026-10	draft
+SL000046	stop_time	An accompaniment pattern of isolated ensemble accents separated by silence, leaving space for a singer or soloist.	chatgpt-2026-10	draft
+SL000047	rhythmic_displacement	The shifting of a rhythmic figure to a different position relative to the beat while preserving its internal pattern.	chatgpt-2026-10	draft
+SL000048	metric_modulation	A tempo change established through a proportional relationship between rhythmic values in the old and new tempos.	chatgpt-2026-10	draft
+SL000049	anacrusis	One or more pickup notes that precede the first strong beat of a phrase or complete measure.	chatgpt-2026-10	draft
+SL000050	hits	Short, coordinated accents played by several instruments together to emphasize a rhythmic point or transition.	chatgpt-2026-10	draft
+SL000051	tempo	The speed of the musical pulse, usually indicated by a verbal marking or a number of beats per minute.	chatgpt-2026-10	draft
+SL000052	tempo_very_slow	A very slow musical pulse; Soundlore uses roughly below 60 BPM as a descriptive guide rather than a universal boundary.	chatgpt-2026-10	draft
+SL000053	tempo_slow	A slow musical pulse; Soundlore uses roughly 60-80 BPM as a descriptive guide, with perceived speed also depending on meter and subdivision.	chatgpt-2026-10	draft
+SL000054	tempo_mid	A moderate musical pulse; Soundlore uses roughly 85-110 BPM as a descriptive guide rather than a fixed musical category.	chatgpt-2026-10	draft
+SL000055	tempo_fast	A fast musical pulse; Soundlore uses roughly 115-150 BPM as a descriptive guide, with perceived speed varying by musical context.	chatgpt-2026-10	draft
+SL000056	tempo_very_fast	A very fast musical pulse; Soundlore uses roughly above 160 BPM as a descriptive guide rather than a universal boundary.	chatgpt-2026-10	draft
+SL000057	tempo_change	A change in the speed of the musical pulse, either gradual or sudden, within a piece or passage.	chatgpt-2026-10	draft
+SL000058	accelerando	A gradual increase in tempo, making the musical pulse progressively faster.	chatgpt-2026-10	draft
+SL000059	ritardando	A gradual decrease in tempo, often used to relax a phrase or prepare a musical ending.	chatgpt-2026-10	draft
+SL000060	rubato	Expressive flexibility in timing, allowing notes or phrases to stretch and compress around the underlying pulse.	chatgpt-2026-10	draft
+SL000061	fermata	A notation indicating that a note, chord, or rest should be held longer than its written duration.	chatgpt-2026-10	draft
+SL000062	tempo_switch	An abrupt change from one tempo to another, usually at a section boundary or other clear structural point.	chatgpt-2026-10	draft
+SL000063	drum_pattern	A recurring arrangement of drum or percussion sounds that establishes a groove, rhythmic feel, or stylistic identity.	chatgpt-2026-10	draft
+SL000064	rock_beat	A common rock groove combining a steady cymbal subdivision with kick-drum support and snare accents on beats two and four.	chatgpt-2026-10	draft
+SL000065	four_on_the_floor	A drum pattern with a kick-drum hit on every quarter-note beat in 4/4, especially common in disco, house, and dance music.	chatgpt-2026-10	draft
+SL000066	stomp_clap	A percussion groove built from emphatic foot-stomp or kick-like sounds alternating with handclaps.	chatgpt-2026-10	draft
+SL000067	breakbeat	A drum groove derived from or resembling a percussion break, often syncopated and used as a sampled or programmed rhythmic foundation.	chatgpt-2026-10	draft
+SL000068	amen_break	The widely sampled drum break from the Winstons' recording of "Amen, Brother", influential in jungle, drum and bass, and other electronic styles.	chatgpt-2026-10	draft
+SL000069	chopped_breaks	Sampled drum breaks cut into smaller fragments and rearranged to create new rhythms, accents, or rapid variations.	chatgpt-2026-10	draft
+SL000070	two_step_beat	A syncopated garage-style groove that omits some regular four-on-the-floor kick hits while retaining a strong dance pulse.	chatgpt-2026-10	draft
+SL000071	boom_bap	A hip-hop production and drum style emphasizing prominent kick and snare sounds, often built from sampled breaks.	chatgpt-2026-10	draft
+SL000072	trap_beat	A programmed groove typically combining deep 808-style bass, a sparse snare or clap pattern, and rapid or rolling hi-hats.	chatgpt-2026-10	draft
+SL000073	trap_hihats	Rapid hi-hat patterns using rolls, short subdivisions, and triplets to add movement and detail to trap-style beats.	chatgpt-2026-10	draft
+SL000074	drill_beat	A drill-style groove often featuring displaced snare accents, syncopated hi-hats, and sliding bass, with regional variations.	chatgpt-2026-10	draft
+SL000075	dembow	A repeating rhythmic pattern central to reggaeton and related styles, rooted in dancehall and characterized by a syncopated kick-and-snare relationship.	chatgpt-2026-10	draft
+SL000076	one_drop	A reggae drum pattern emphasizing the third beat of a four-beat bar while typically leaving the first beat without a kick accent.	chatgpt-2026-10	draft
+SL000077	steppers	A reggae drum pattern with a kick on each quarter-note beat, often combined with offbeat accompaniment and dub production.	chatgpt-2026-10	draft
+SL000078	rockers_beat	A reggae drum approach with more active kick patterns than one drop, supporting a steady groove and syncopated accompaniment.	chatgpt-2026-10	draft
+SL000079	d_beat	A fast punk drum pattern associated with Discharge, defined by a driving, asymmetrical kick-and-snare cycle.	chatgpt-2026-10	draft
+SL000080	skank_beat	A fast drum pattern that alternates kick and snare accents, commonly used in punk and extreme metal.	chatgpt-2026-10	draft
+SL000081	blast_beat	A very rapid drum pattern combining repeated snare, kick, and cymbal strokes, commonly heard in grindcore and extreme metal.	chatgpt-2026-10	draft
+SL000082	double_kick	Drumming that uses two bass drums or a double pedal to produce rapid, repeated, or interlocking kick-drum strokes.	chatgpt-2026-10	draft
+SL000083	gallop	A repeated rhythmic figure commonly played as an eighth note followed by two sixteenth notes, especially on guitar or bass drum.	chatgpt-2026-10	draft
+SL000084	motorik	A steady, repetitive 4/4 drum groove with persistent forward motion, strongly associated with krautrock.	chatgpt-2026-10	draft
+SL000085	train_beat	A snare-driven groove whose repeated accents suggest the motion of a train, common in country and rockabilly.	chatgpt-2026-10	draft
+SL000086	purdie_shuffle	A half-time shuffle associated with Bernard Purdie, combining a strong backbeat with shuffled subdivisions and quiet ghost notes.	chatgpt-2026-10	draft
+SL000087	second_line	A New Orleans parade-derived rhythmic feel with syncopated accents, layered percussion, and a buoyant marching groove.	chatgpt-2026-10	draft
+SL000088	bossa_nova_beat	A restrained Brazilian groove combining bass accents and syncopated upper voices or percussion, often adapted from samba accompaniment.	chatgpt-2026-10	draft
+SL000089	samba_beat	An interlocking samba percussion groove in which low drum pulses support syncopated patterns played by higher-pitched instruments.	chatgpt-2026-10	draft
+SL000090	baiao_beat	A northeastern Brazilian dance rhythm commonly articulated by zabumba, triangle, and other instruments in a syncopated duple groove.	chatgpt-2026-10	draft
+SL000091	cumbia_beat	A cumbia groove built from a repeating duple pulse and interlocking percussion patterns, with instrumentation varying by region.	chatgpt-2026-10	draft
+SL000092	tumbao	A repeating syncopated accompaniment pattern, especially for bass or congas, used in Cuban music and salsa.	chatgpt-2026-10	draft
+SL000093	afrobeat_drums	Layered, syncopated drumming that combines funk-like grooves with West African rhythmic approaches, closely associated with Afrobeat.	chatgpt-2026-10	draft
+SL000094	jersey_club_beat	A fast club groove using distinctive clustered kick patterns, chopped vocals, and repeated samples associated with Jersey club.	chatgpt-2026-10	draft
+SL000095	footwork_beat	A fast, highly syncopated electronic groove, often around 160 BPM, designed for footwork dance and rapid rhythmic interplay.	chatgpt-2026-10	draft
+SL000096	dancehall_riddim	A reusable instrumental backing track or rhythmic foundation over which multiple dancehall performers can record different songs.	chatgpt-2026-10	draft
+SL000097	tamborzao	A percussion pattern associated with Brazilian funk carioca, combining repeated low and high drum sounds in a syncopated groove.	chatgpt-2026-10	draft
+SL000098	log_drum_groove	A rhythmic bass pattern built from the pitched, percussive log-drum sound associated with amapiano production.	chatgpt-2026-10	draft
+SL000099	drum_technique	A method of playing drums or percussion that shapes articulation, sound, coordination, or rhythmic complexity.	chatgpt-2026-10	draft
+SL000100	ghost_notes	Very quiet drum strokes placed between stronger accents to add movement, texture, and rhythmic nuance.	chatgpt-2026-10	draft
+SL000101	drum_fill	A short drum phrase that interrupts or embellishes the main groove, often leading into a new section.	chatgpt-2026-10	draft
+SL000102	drum_roll	A rapid succession of drum strokes that creates a sustained or nearly continuous sound.	chatgpt-2026-10	draft
+SL000103	snare_build	A repeated snare pattern that becomes denser, faster, or louder to build tension before a transition or drop.	chatgpt-2026-10	draft
+SL000104	flam	A drum rudiment consisting of a soft grace stroke immediately followed by a stronger stroke, producing a thickened attack.	chatgpt-2026-10	draft
+SL000105	cross_stick	A drumming technique in which a stick rests across the drumhead and strikes the rim, producing a short, woody click.	chatgpt-2026-10	draft
+SL000106	tribal_toms	A production or arrangement descriptor for repetitive tom-drum patterns with a strong percussive pulse; it does not identify a specific cultural tradition.	chatgpt-2026-10	draft
+SL000107	drum_solo	A passage in which drums become the principal musical focus, often highlighting rhythmic invention and performance technique.	chatgpt-2026-10	draft
+SL000108	linear_drumming	A drumming approach in which successive notes are distributed across instruments without simultaneous strikes.	chatgpt-2026-10	draft
+SL000109	brushes	A percussion technique using brushes instead of regular sticks to produce softer taps, swishes, and continuous textured sounds.	chatgpt-2026-10	draft
+SL000110	tonality	The organization of musical pitches around a central note or chord, with relationships that create stability, motion, and resolution.	chatgpt-2026-10	draft
+SL000111	major_key	A tonal organization centered on a major tonic chord and major-scale relationships; its expressive character depends on context.	chatgpt-2026-10	draft
+SL000112	minor_key	A tonal organization centered on a minor tonic chord, often drawing on natural, harmonic, and melodic minor resources.	chatgpt-2026-10	draft
+SL000113	modality	The use of a mode as a basis for melody or harmony, often without the dominant-to-tonic priorities of functional major-minor tonality.	chatgpt-2026-10	draft
+SL000114	atonality	Music that avoids establishing a stable tonal center or the conventional hierarchy of pitches found in tonal music.	chatgpt-2026-10	draft
+SL000115	polytonality	The simultaneous use of two or more distinct tonal centers or keys in different musical layers.	chatgpt-2026-10	draft
+SL000116	microtonality	The use of pitch intervals or tuning systems that differ from the standard twelve equal divisions of the octave.	chatgpt-2026-10	draft
+SL000117	chord	A combination of pitches heard as a harmonic unit, sounded together or implied through successive notes.	chatgpt-2026-10	draft
+SL000118	triad	A three-note chord consisting of a root, third, and fifth, conventionally described as major, minor, diminished, or augmented.	chatgpt-2026-10	draft
+SL000119	power_chord	A chord voicing built mainly from a root and perfect fifth, often doubled at the octave and lacking a third.	chatgpt-2026-10	draft
+SL000120	seventh_chord	A chord formed from a triad plus a seventh above its root, creating several common major, minor, and dominant types.	chatgpt-2026-10	draft
+SL000121	major_seventh	A chord combining a major triad with a major seventh above the root.	chatgpt-2026-10	draft
+SL000122	minor_seventh	A chord combining a minor triad with a minor seventh above the root.	chatgpt-2026-10	draft
+SL000123	dominant_seventh	A chord combining a major triad with a minor seventh, often used to create harmonic tension or a blues color.	chatgpt-2026-10	draft
+SL000124	half_diminished	A chord combining a diminished triad with a minor seventh, also written as a minor seventh chord with a flattened fifth.	chatgpt-2026-10	draft
+SL000125	extended_chord	A chord that includes or implies tones beyond the seventh, such as ninths, elevenths, or thirteenths.	chatgpt-2026-10	draft
+SL000126	suspended_chord	A chord in which the third is replaced by a second or fourth, producing a sound that can suggest delayed resolution.	chatgpt-2026-10	draft
+SL000127	add_chord	A chord with an added color tone, such as a second, sixth, or ninth, without necessarily including a seventh.	chatgpt-2026-10	draft
+SL000128	diminished_chord	A chord built around a minor third and diminished fifth, sometimes extended with further minor thirds.	chatgpt-2026-10	draft
+SL000129	augmented_chord	A triad consisting of a root, major third, and augmented fifth, dividing the octave into equal major-third intervals.	chatgpt-2026-10	draft
+SL000130	altered_chord	A chord containing chromatically modified tones, commonly altered fifths or ninths in dominant harmony.	chatgpt-2026-10	draft
+SL000131	slash_chord	A chord symbol that specifies a bass note after a slash, which may be a chord tone or an independent added pitch.	chatgpt-2026-10	draft
+SL000132	quartal_harmony	Harmony constructed mainly from stacked fourths rather than the thirds typical of triadic harmony.	chatgpt-2026-10	draft
+SL000133	cluster	A dense chord formed from closely adjacent pitches, often producing a compact, dissonant sound mass.	chatgpt-2026-10	draft
+SL000134	neapolitan_chord	A major chord built on the lowered second scale degree, commonly used in first inversion before a dominant harmony.	chatgpt-2026-10	draft
+SL000135	harmonic_device	A compositional technique that shapes chord relationships, harmonic color, voice leading, or tonal tension.	chatgpt-2026-10	draft
+SL000136	modal_mixture	The use of chords or pitches borrowed from a parallel mode, such as minor-mode harmonies within a major-key passage.	chatgpt-2026-10	draft
+SL000137	secondary_dominant	A dominant-function chord that temporarily points toward a chord other than the main tonic.	chatgpt-2026-10	draft
+SL000138	tritone_substitution	The replacement of a dominant seventh chord by another dominant seventh chord whose root lies a tritone away.	chatgpt-2026-10	draft
+SL000139	chromatic_mediant	A chromatic relationship between chords or tonal centers a major or minor third apart, often involving notes outside the prevailing key.	chatgpt-2026-10	draft
+SL000140	picardy_third	A major tonic chord used at the end of a passage or piece otherwise set in a minor key or mode.	chatgpt-2026-10	draft
+SL000141	tritone	An interval spanning three whole tones, equivalent in equal temperament to an augmented fourth or diminished fifth.	chatgpt-2026-10	draft
+SL000142	dissonance	A relationship between pitches that creates perceived tension or instability, with its meaning depending on musical style and context.	chatgpt-2026-10	draft
+SL000143	pedal_point	A sustained or repeated pitch that remains in one part while the surrounding harmonies change.	chatgpt-2026-10	draft
+SL000144	reharmonization	The replacement or modification of chords supporting a melody while retaining much of the melodic material.	chatgpt-2026-10	draft
+SL000145	harmonic_rhythm	The rate and pattern at which harmonies change within a musical passage.	chatgpt-2026-10	draft
+SL000146	jazz_harmony	Harmonic practices associated with jazz, including extended chords, chromatic voice leading, substitutions, and flexible treatment of dissonance.	chatgpt-2026-10	draft
+SL000147	passing_chord	A brief chord used to connect more stable harmonies through smooth bass movement or voice leading.	chatgpt-2026-10	draft
+SL000148	chromatic_bass_line	A bass line that descends through semitone steps, often supporting changing harmonies or a sustained upper structure.	chatgpt-2026-10	draft
+SL000149	line_cliche	A familiar voice-leading pattern in which one note moves chromatically while much of the surrounding harmony stays fixed.	chatgpt-2026-10	draft
+SL000150	chord_progression	An ordered sequence of chords that provides harmonic movement and structure within a piece or passage.	chatgpt-2026-10	draft
+SL000151	axis_progression	A four-chord major-key progression moving from tonic to dominant, relative minor, and subdominant, widely used in popular music.	chatgpt-2026-10	draft
+SL000152	fifties_progression	A progression moving from tonic to relative minor, subdominant, and dominant, strongly associated with doo-wop and early popular music.	chatgpt-2026-10	draft
+SL000153	ii_v_i	A progression from the supertonic chord through the dominant to the tonic, central to much jazz harmony.	chatgpt-2026-10	draft
+SL000154	twelve_bar_blues	A twelve-measure blues framework organized around tonic, subdominant, and dominant harmonies, with many rhythmic and harmonic variants.	chatgpt-2026-10	draft
+SL000155	andalusian_cadence	A descending four-chord pattern commonly represented as i-bVII-bVI-V in a minor-key interpretation, associated with flamenco and other styles.	chatgpt-2026-10	draft
+SL000156	circle_progression	A chord sequence whose roots move mainly by descending fifths or ascending fourths, often creating a strong sense of harmonic direction.	chatgpt-2026-10	draft
+SL000157	pachelbel_progression	The eight-chord sequence associated with Pachelbel's Canon, commonly represented in major keys as I-V-vi-iii-IV-I-IV-V.	chatgpt-2026-10	draft
+SL000158	royal_road	A progression commonly represented as IV-V-iii-vi in a major key, associated with Japanese popular music and anime songs.	chatgpt-2026-10	draft
+SL000159	epic_minor_progression	A minor-key four-chord loop moving i-VI-III-VII, often used for broad, dramatic effects in rock, electronic music, and soundtrack-style arrangements.	chatgpt-2026-10	draft
+SL000160	mixolydian_vamp	A repeating I-bVII-IV chord pattern that draws on Mixolydian-scale relationships and is common in rock-oriented harmony.	chatgpt-2026-10	draft
+SL000161	vamp	A short musical phrase or chord pattern repeated for an extended period as accompaniment or a basis for improvisation.	chatgpt-2026-10	draft
+SL000162	one_chord	A passage whose harmonic foundation remains on one chord, with interest supplied by rhythm, melody, timbre, or changing voicings.	chatgpt-2026-10	draft
+SL000163	minor_plagal_cadence	A movement from the minor subdominant to a major tonic, producing a characteristic borrowed-chord resolution.	chatgpt-2026-10	draft
+SL000164	cadence	A melodic or harmonic gesture that marks a point of arrival, pause, or closure in a musical phrase.	chatgpt-2026-10	draft
+SL000165	authentic_cadence	A cadence moving from dominant harmony to tonic harmony, with its strength depending on voicing, melody, and metric placement.	chatgpt-2026-10	draft
+SL000166	plagal_cadence	A cadence moving from subdominant harmony to tonic harmony, often described as an IV-I or "Amen" close.	chatgpt-2026-10	draft
+SL000167	half_cadence	A phrase ending on dominant harmony, usually creating an open or expectant sense rather than full resolution.	chatgpt-2026-10	draft
+SL000168	deceptive_cadence	A cadence in which an expected dominant-to-tonic resolution is redirected to another chord, commonly the submediant.	chatgpt-2026-10	draft
+SL000169	backdoor_cadence	A jazz-oriented resolution approaching the tonic through a dominant seventh chord on the flattened seventh scale degree, often preceded by iv.	chatgpt-2026-10	draft
+SL000170	modulation	A change from one tonal center or key to another within a piece or passage.	chatgpt-2026-10	draft
+SL000171	truck_driver_modulation	An abrupt upward key change, often by a semitone or whole tone near a final chorus, used to increase intensity.	chatgpt-2026-10	draft
+SL000172	pivot_modulation	A key change that uses a chord shared by the old and new keys as a connecting harmonic pivot.	chatgpt-2026-10	draft
+SL000173	direct_modulation	A sudden change of key without a connecting pivot chord or extended harmonic preparation.	chatgpt-2026-10	draft
+SL000174	parallel_key_shift	A change between major and minor keys that share the same tonic, such as C major and C minor.	chatgpt-2026-10	draft
+SL000175	scale	An ordered collection of pitches used as a basis for melody, harmony, or musical organization.	chatgpt-2026-10	draft
+SL000176	major_scale	A seven-note diatonic scale with the interval pattern whole-whole-half-whole-whole-whole-half from its tonic.	chatgpt-2026-10	draft
+SL000177	natural_minor	A seven-note scale with the interval pattern whole-half-whole-whole-half-whole-whole, equivalent to the Aeolian mode.	chatgpt-2026-10	draft
+SL000178	harmonic_minor	A minor scale with a raised seventh degree, creating a leading tone and an augmented second between the sixth and seventh degrees.	chatgpt-2026-10	draft
+SL000179	melodic_minor	A minor scale conventionally using raised sixth and seventh degrees when ascending; jazz practice often retains this form in both directions.	chatgpt-2026-10	draft
+SL000180	pentatonic	A scale containing five distinct pitches within an octave, found in many musical traditions and several different interval patterns.	chatgpt-2026-10	draft
+SL000181	major_pentatonic	A five-note scale corresponding to degrees 1, 2, 3, 5, and 6 of the major scale.	chatgpt-2026-10	draft
+SL000182	minor_pentatonic	A five-note scale corresponding to degrees 1, b3, 4, 5, and b7, widely used in blues and rock improvisation.	chatgpt-2026-10	draft
+SL000183	blues_scale	A scale commonly formed by adding a chromatic blue note to a pentatonic collection, with several major and minor variants.	chatgpt-2026-10	draft
+SL000184	whole_tone_scale	A six-note scale in which each neighboring pitch is separated by a whole tone, producing a symmetrical pitch collection.	chatgpt-2026-10	draft
+SL000185	octatonic_scale	An eight-note symmetrical scale alternating whole tones and semitones, also called the diminished scale in jazz contexts.	chatgpt-2026-10	draft
+SL000186	chromatic_scale	A scale comprising all twelve semitone-separated pitch classes of the standard equal-tempered octave.	chatgpt-2026-10	draft
+SL000187	bebop_scale	An eight-note scale created by adding a chromatic passing tone to a seven-note scale, often used to align chord tones with strong beats.	chatgpt-2026-10	draft
+SL000188	altered_scale	A seven-note scale used over altered dominant chords, equivalent to the seventh mode of the ascending melodic minor scale.	chatgpt-2026-10	draft
+SL000189	mode	A pitch framework defined by its interval pattern and tonal center; in Western theory, modes often refer to rotations of a diatonic scale.	chatgpt-2026-10	draft
+SL000190	dorian	A minor-type diatonic mode with a major sixth and minor seventh, corresponding to 1, 2, b3, 4, 5, 6, b7.	chatgpt-2026-10	draft
+SL000191	phrygian	A minor-type diatonic mode with a lowered second degree, corresponding to 1, b2, b3, 4, 5, b6, b7.	chatgpt-2026-10	draft
+SL000192	lydian	A major-type diatonic mode with a raised fourth degree, corresponding to 1, 2, 3, #4, 5, 6, 7.	chatgpt-2026-10	draft
+SL000193	mixolydian	A major-type diatonic mode with a lowered seventh degree, corresponding to 1, 2, 3, 4, 5, 6, b7.	chatgpt-2026-10	draft
+SL000194	locrian	A diatonic mode with a lowered second and fifth, corresponding to 1, b2, b3, 4, b5, b6, b7.	chatgpt-2026-10	draft
+SL000195	modal_system	A grouping for frameworks of particular musical traditions that organize pitch beyond a scale, through hierarchies of degrees, characteristic phrases, ornament, intonation or ensemble tuning.	claude-2026-10	draft
+SL000196	phrygian_dominant	A scale with degrees 1, b2, 3, 4, 5, b6, b7, equivalent to the fifth mode of harmonic minor.	chatgpt-2026-10	draft
+SL000197	double_harmonic	A seven-note scale with lowered second and sixth degrees relative to major, producing two augmented-second intervals.	chatgpt-2026-10	draft
+SL000198	hungarian_minor	A minor scale with raised fourth and seventh degrees, corresponding to 1, 2, b3, #4, 5, b6, 7.	chatgpt-2026-10	draft
+SL000199	japanese_scales	Scale resources associated with Japanese traditions, including several pentatonic patterns whose intervals and uses vary by repertory.	chatgpt-2026-10	draft
+SL000200	maqam	A modal framework in Arabic music governing pitch relationships, melodic movement, and expression; related systems also exist in neighboring traditions.	chatgpt-2026-10	draft
+SL000201	raga	A melodic framework in Indian classical music defined by characteristic pitches, movements, phrases, and expressive conventions, rather than a scale alone.	chatgpt-2026-10	draft
+SL000202	gamelan_tuning	The tuning systems of Indonesian gamelan, slendro and pelog, whose interval sizes vary from one ensemble to another.	claude-2026-10	draft
+SL000203	melodic_element	A recognizable unit of melodic material, such as a motif, riff, or phrase, that helps shape a composition.	chatgpt-2026-10	draft
+SL000204	hook	A memorable musical or lyrical idea designed to attract attention and remain recognizable after listening.	chatgpt-2026-10	draft
+SL000205	riff	A short, recurring instrumental figure that provides rhythmic, melodic, or harmonic identity to a piece.	chatgpt-2026-10	draft
+SL000206	motif	A brief musical idea that can be repeated, varied, or developed to help unify a composition.	chatgpt-2026-10	draft
+SL000207	leitmotiv	A recurring musical idea associated with a character, place, object, or dramatic concept.	chatgpt-2026-10	draft
+SL000208	ostinato	A musical pattern repeated persistently, often providing a stable foundation beneath changing material.	chatgpt-2026-10	draft
+SL000209	countermelody	A secondary melodic line that complements or contrasts with the principal melody.	chatgpt-2026-10	draft
+SL000210	topline	The principal vocal melody, often written together with lyrics over an existing instrumental backing track.	chatgpt-2026-10	draft
+SL000211	arpeggio	The notes of a chord played successively rather than simultaneously, often in an ascending or descending pattern.	chatgpt-2026-10	draft
+SL000212	melodic_sequence	The repetition of a melodic idea at a different pitch level, preserving much of its interval or rhythmic shape.	chatgpt-2026-10	draft
+SL000213	melodic_device	A technique used to shape, vary, decorate, or connect melodic material.	chatgpt-2026-10	draft
+SL000214	chromaticism	The use of pitches outside a prevailing diatonic scale, often involving semitone motion or altered harmonies.	chatgpt-2026-10	draft
+SL000215	blue_note	A pitch inflection associated with blues expression, often involving flexible or lowered versions of the third, fifth, or seventh scale degree.	chatgpt-2026-10	draft
+SL000216	ornamentation	Decorative notes or gestures that embellish a melody without replacing its main structural pitches.	chatgpt-2026-10	draft
+SL000217	trill	A rapid alternation between a principal note and a nearby pitch, usually a scale step above it.	chatgpt-2026-10	draft
+SL000218	mordent	A short ornament that moves from a principal note to a neighboring note and quickly returns.	chatgpt-2026-10	draft
+SL000219	grace_note	A brief ornamental note whose timing is understood in relation to an adjacent principal note rather than as a fully independent rhythmic value.	chatgpt-2026-10	draft
+SL000220	turn	An ornament that circles a principal pitch by visiting upper and lower neighboring notes.	chatgpt-2026-10	draft
+SL000221	glissando	A movement between pitches by sliding continuously or passing rapidly through intervening notes, depending on the instrument.	chatgpt-2026-10	draft
+SL000222	melisma	The singing of several notes on a single syllable of text.	chatgpt-2026-10	draft
+SL000223	syllabic_melody	A vocal setting in which each syllable is generally assigned one note rather than a sequence of notes.	chatgpt-2026-10	draft
+SL000224	conjunct_motion	Melodic movement mainly by neighboring scale steps rather than wide intervals.	chatgpt-2026-10	draft
+SL000225	disjunct_motion	Melodic movement characterized by leaps larger than a scale step.	chatgpt-2026-10	draft
+SL000226	octave_doubling	The performance of the same melodic line at pitch levels one or more octaves apart.	chatgpt-2026-10	draft
+SL000227	improvisation	The creation or substantial shaping of music during performance rather than following a completely fixed written part.	chatgpt-2026-10	draft
+SL000228	modal_improvisation	Improvisation organized around a mode or limited set of modal harmonies, allowing melodic exploration over relatively stable accompaniment.	chatgpt-2026-10	draft
+SL000229	trading_fours	An improvisational exchange in which performers alternate four-measure phrases, commonly between soloists and a drummer in jazz.	chatgpt-2026-10	draft
+SL000230	song_section	A distinct part of a song, identified by its musical material, lyrical role, or position within the arrangement.	chatgpt-2026-10	draft
+SL000231	intro	An opening passage that establishes atmosphere, rhythm, or musical material before the main body of a piece.	chatgpt-2026-10	draft
+SL000232	verse	A recurring song section whose music is often similar each time while its lyrics develop or change.	chatgpt-2026-10	draft
+SL000233	pre_chorus	A section between verse and chorus that prepares the chorus through rising tension, contrasting material, or transitional harmony.	chatgpt-2026-10	draft
+SL000234	chorus	A recurring central section of a song, usually carrying its main hook and relatively stable lyrics.	chatgpt-2026-10	draft
+SL000235	post_chorus	A section immediately after the chorus that extends its energy or presents an additional hook.	chatgpt-2026-10	draft
+SL000236	refrain	A recurring line or musical passage, often returning within or at the end of successive verses.	chatgpt-2026-10	draft
+SL000237	bridge	A contrasting song section that departs from established verse or chorus material before returning to it.	chatgpt-2026-10	draft
+SL000238	interlude	A short passage inserted between larger sections, often instrumental or transitional in character.	chatgpt-2026-10	draft
+SL000239	instrumental_break	A passage in which instruments take over while the principal vocal part pauses.	chatgpt-2026-10	draft
+SL000240	solo_section	A passage that foregrounds one performer or instrument, often for melodic invention, improvisation, or technical display.	chatgpt-2026-10	draft
+SL000241	guitar_solo	A passage featuring guitar as the principal melodic voice, whether improvised, composed, acoustic, or electric.	chatgpt-2026-10	draft
+SL000242	sax_solo	A passage in which saxophone takes the leading melodic role, often supported by a rhythm section or ensemble.	chatgpt-2026-10	draft
+SL000243	piano_solo	A passage featuring piano in the leading role, either unaccompanied or supported by other instruments.	chatgpt-2026-10	draft
+SL000244	synth_solo	A passage foregrounding a synthesizer lead, often using distinctive timbres, pitch bends, or melodic runs.	chatgpt-2026-10	draft
+SL000245	bass_solo	A passage featuring bass as the main musical voice, emphasizing melodic, rhythmic, or harmonic possibilities beyond accompaniment.	chatgpt-2026-10	draft
+SL000246	breakdown_metal	A heavy, rhythmically focused section in metal or hardcore, often using slower-feeling grooves, rests, and repeated low-register riffs.	chatgpt-2026-10	draft
+SL000247	breakdown_edm	A lower-intensity section in electronic dance music that reduces or removes the main beat before rebuilding energy.	chatgpt-2026-10	draft
+SL000248	build_up	A passage that increases tension through rising intensity, added layers, repetition, or denser rhythmic activity before a release.	chatgpt-2026-10	draft
+SL000249	drop	A high-impact section in electronic dance music where the principal beat, bass, or hook enters or returns after a buildup or break.	chatgpt-2026-10	draft
+SL000250	beat_switch	A deliberate change of the underlying beat or production within a track, often marking a new section or expressive direction.	chatgpt-2026-10	draft
+SL000251	hook_section	The recurring hook section of a hip-hop track, often functioning as a chorus between verses.	chatgpt-2026-10	draft
+SL000252	skit	A brief spoken scene, comic passage, or narrative vignette included within a song or between tracks on an album.	chatgpt-2026-10	draft
+SL000253	spoken_intro	A spoken opening that introduces a track, establishes a narrative, or sets an atmosphere before the main musical section.	chatgpt-2026-10	draft
+SL000254	final_chorus	The last occurrence of a song's chorus, often varied or intensified to provide a climactic finish.	chatgpt-2026-10	draft
+SL000255	turnaround	A short harmonic passage that leads from the end of a section back to its beginning or into the next repetition.	chatgpt-2026-10	draft
+SL000256	tag	A short ending extension that repeats or varies a final phrase, line, or chord pattern.	chatgpt-2026-10	draft
+SL000257	outro	The closing section of a piece, providing a final statement, resolution, or gradual departure from the main material.	chatgpt-2026-10	draft
+SL000258	fade_out	A recording or performance ending in which the sound level gradually decreases until it becomes inaudible.	chatgpt-2026-10	draft
+SL000259	cold_ending	A clear, abrupt ending achieved through a final note, chord, hit, or cutoff rather than a gradual fade.	chatgpt-2026-10	draft
+SL000260	false_ending	A moment that appears to end the music before it resumes, creating surprise or renewed momentum.	chatgpt-2026-10	draft
+SL000261	a_cappella_section	A passage performed by voices without instrumental accompaniment, even if the surrounding music uses instruments.	chatgpt-2026-10	draft
+SL000262	silence_break	A deliberate interruption of all sounding parts, used to create tension, emphasis, or a sharp structural contrast.	chatgpt-2026-10	draft
+SL000263	song_form	The overall organization of a song into repeated and contrasting sections, such as verses, choruses, and bridges.	chatgpt-2026-10	draft
+SL000264	verse_chorus_form	A song structure built around alternating verses and recurring choruses, sometimes including an introduction, bridge, and outro.	chatgpt-2026-10	draft
+SL000265	aaba_form	A four-section form in which two related A sections are followed by a contrasting B section and a return of A.	chatgpt-2026-10	draft
+SL000266	strophic_form	A form that uses the same music for successive verses or stanzas of text.	chatgpt-2026-10	draft
+SL000267	through_composed	A form in which new musical material follows the text or narrative instead of relying on a regularly repeating sectional pattern.	chatgpt-2026-10	draft
+SL000268	binary_form	A musical form organized into two principal sections, often labeled A and B and commonly repeated.	chatgpt-2026-10	draft
+SL000269	ternary_form	A three-part form with an opening section, contrasting middle section, and return of the opening material.	chatgpt-2026-10	draft
+SL000270	edm_arrangement	A dance-oriented arrangement that organizes energy through introductions, buildups, drops, breakdowns, and an ending; exact sequences vary.	chatgpt-2026-10	draft
+SL000271	multi_part_suite	An extended composition joining several contrasting sections or movements into a larger continuous or linked work.	chatgpt-2026-10	draft
+SL000272	loop_based_form	A structure created by repeating musical loops while adding, removing, or transforming layers over time.	chatgpt-2026-10	draft
+SL000273	medley	A piece or performance that joins recognizable portions of several existing songs or compositions.	chatgpt-2026-10	draft
+SL000274	reprise	A return of previously heard musical material, often later in a composition, performance, or album.	chatgpt-2026-10	draft
+SL000275	segue	A transition from one musical passage or track into another without a significant break.	chatgpt-2026-10	draft
+SL000276	composition_form	A recognized framework or type of composition associated with particular structural, performance, or historical conventions.	chatgpt-2026-10	draft
+SL000277	fugue	A contrapuntal composition in which a principal subject enters successively in different voices and is developed through imitation.	chatgpt-2026-10	draft
+SL000278	canon	A contrapuntal technique in which one part strictly follows another after a delay, sometimes at a different pitch level.	chatgpt-2026-10	draft
+SL000279	round	A repeating canon in which several performers begin the same melody at different times, usually at the same pitch level.	chatgpt-2026-10	draft
+SL000280	invention	A short contrapuntal keyboard composition, commonly in two parts, that develops a small amount of musical material.	chatgpt-2026-10	draft
+SL000281	sonata_form	A large-scale form typically involving exposition, development, and recapitulation, with thematic and tonal contrasts shaping its design.	chatgpt-2026-10	draft
+SL000282	theme_variations	A form presenting a theme followed by successive versions that alter its melody, harmony, rhythm, texture, or instrumentation.	chatgpt-2026-10	draft
+SL000283	passacaglia	A composition built from continuing variations over a recurring bass line or harmonic pattern.	chatgpt-2026-10	draft
+SL000284	rondo	A form in which a recurring principal section alternates with contrasting episodes.	chatgpt-2026-10	draft
+SL000285	toccata	A composition emphasizing fluency, rapid passagework, or touch, most often associated with keyboard instruments.	chatgpt-2026-10	draft
+SL000286	prelude	A short introductory piece or an independent composition, often freely structured and designed to establish a musical mood.	chatgpt-2026-10	draft
+SL000287	etude	A composition designed to develop or demonstrate a particular performance technique, sometimes also intended for concert presentation.	chatgpt-2026-10	draft
+SL000288	nocturne	A composition associated with nighttime atmosphere, often lyrical and especially common in the piano repertory.	chatgpt-2026-10	draft
+SL000289	march	A composition with a regular walking or marching pulse, commonly in duple meter and often associated with ceremonial or military use.	chatgpt-2026-10	draft
+SL000290	waltz	A dance or composition in triple meter, typically with a strong first beat and lighter accompanying beats.	chatgpt-2026-10	draft
+SL000291	minuet	A courtly dance and musical form in triple meter, later used as a movement in instrumental works.	chatgpt-2026-10	draft
+SL000292	scherzo	A lively, often playful or sharply contrasting movement, frequently in triple meter and commonly found in larger instrumental works.	chatgpt-2026-10	draft
+SL000293	aria	A self-contained vocal piece for a solo singer, often expressing emotion within an opera, oratorio, or cantata.	chatgpt-2026-10	draft
+SL000294	recitative	A vocal style that follows the inflections and rhythm of speech to convey dialogue or advance a dramatic narrative.	chatgpt-2026-10	draft
+SL000295	chorale	A hymn tune associated with Protestant, especially Lutheran, worship, or a composition based on such a tune.	chatgpt-2026-10	draft
+SL000296	motet	A vocal composition, often sacred and polyphonic, whose musical form and text conventions vary across historical periods.	chatgpt-2026-10	draft
+SL000297	madrigal	A secular vocal composition, especially associated with Renaissance and early Baroque traditions, often using expressive musical treatment of poetry.	chatgpt-2026-10	draft
+SL000298	mass	A musical setting of texts from the Christian Mass, especially its Ordinary, written for voices with or without instruments.	chatgpt-2026-10	draft
+SL000299	requiem	A musical setting of the Mass for the dead, or a composition inspired by its texts and memorial function.	chatgpt-2026-10	draft
+SL000300	hymn	A song of praise or devotion, commonly intended for communal singing in a religious setting.	chatgpt-2026-10	draft
+SL000301	anthem	A song or choral work serving a communal, ceremonial, religious, or symbolic purpose; the term has several historical meanings.	chatgpt-2026-10	draft
+SL000302	lullaby	A gentle song or instrumental piece intended to soothe, especially to help a child fall asleep.	chatgpt-2026-10	draft
+SL000303	lament	A musical expression of grief, mourning, loss, or complaint, found in many vocal and instrumental traditions.	chatgpt-2026-10	draft
+SL000304	serenade	A composition traditionally associated with evening performance or an affectionate address, later also used for multi-movement instrumental works.	chatgpt-2026-10	draft
+SL000305	ballad_form	A song type associated with storytelling or, in modern popular music, a lyrical and often slower-paced expression of emotion.	chatgpt-2026-10	draft
+SL000306	power_ballad	A popular-music ballad that develops from a restrained opening into an intense arrangement with prominent drums and amplified instruments.	chatgpt-2026-10	draft
+SL000307	rhapsody	A freely organized, often contrasting or episodic composition with an expressive or improvisatory character.	chatgpt-2026-10	draft
+SL000308	fantasia	A composition with a free or imaginative structure, often drawing on improvisatory gestures or loosely connected musical ideas.	chatgpt-2026-10	draft
+SL000309	cadenza	A featured solo passage, often virtuosic and rhythmically flexible, inserted into or near the close of a larger movement.	chatgpt-2026-10	draft
+SL000310	overture	An instrumental opening to an opera, play, or other larger work, also used for independent concert pieces.	chatgpt-2026-10	draft
+SL000311	suite	A collection of related movements or pieces presented as a larger work, historically often based on a sequence of dances.	chatgpt-2026-10	draft
+SL000312	concerto	A composition that features one or more soloists in a prominent relationship with an orchestra or other ensemble.	chatgpt-2026-10	draft
+SL000313	symphony	An extended orchestral composition, commonly organized into several movements with contrasting tempos and characters.	chatgpt-2026-10	draft
+SL000314	cantata	A vocal composition in several sections or movements, typically involving soloists, choir, and instrumental accompaniment.	chatgpt-2026-10	draft
+SL000315	oratorio	A substantial dramatic work for voices and instruments, usually performed without the staging, costumes, or acting of an opera.	chatgpt-2026-10	draft
+SL000316	opera	A theatrical work in which music and singing play a central role in presenting characters and drama, sometimes alongside spoken dialogue.	chatgpt-2026-10	draft
+SL000317	jazz_standard	A composition widely recognized and repeatedly performed in the jazz repertory, often used as a framework for improvisation.	chatgpt-2026-10	draft
+SL000318	texture	The way melodic, harmonic, and rhythmic parts combine, including their density, independence, and relationships.	chatgpt-2026-10	draft
+SL000319	monophony	A texture consisting of one melodic line without independent harmonic accompaniment, whether performed by one or several musicians.	chatgpt-2026-10	draft
+SL000320	homophony	A texture in which parts move together harmonically or a principal melody is supported by chordal accompaniment.	chatgpt-2026-10	draft
+SL000321	polyphony	A texture containing two or more simultaneously sounding melodic parts with some degree of independence.	chatgpt-2026-10	draft
+SL000322	heterophony	A texture in which performers simultaneously produce different versions or embellishments of the same underlying melody.	chatgpt-2026-10	draft
+SL000323	unison	The simultaneous performance of the same pitch or melodic line by multiple voices or instruments.	chatgpt-2026-10	draft
+SL000324	sparse_texture	A musical texture with relatively few simultaneous sounds, leaving audible space between or around its parts.	chatgpt-2026-10	draft
+SL000325	dense_texture	A musical texture containing many simultaneous or closely packed layers, voices, or events.	chatgpt-2026-10	draft
+SL000326	counterpoint	The combination of independent melodic lines according to relationships of rhythm, pitch, consonance, and voice leading.	chatgpt-2026-10	draft
+SL000327	imitation	The repetition of a musical idea in another voice or part, often beginning at a different time or pitch.	chatgpt-2026-10	draft
+SL000328	voice_leading	The movement of individual musical lines from one note or chord to the next, shaping continuity and harmonic connection.	chatgpt-2026-10	draft
+SL000329	hocket	A technique in which a melodic or rhythmic line is distributed between parts through alternating notes and rests.	chatgpt-2026-10	draft
+SL000330	accompaniment_texture	A pattern or arrangement that supports a principal melody through chords, bass movement, rhythmic figures, or sustained sounds.	chatgpt-2026-10	draft
+SL000331	comping	Rhythmic and harmonic accompaniment, especially in jazz, using chords and figures that respond to or support a soloist.	chatgpt-2026-10	draft
+SL000332	alberti_bass	A repeated broken-chord accompaniment pattern, commonly ordered lowest-highest-middle-highest.	chatgpt-2026-10	draft
+SL000333	harmonized_lines	Melodic lines performed together at different pitches, often maintaining parallel or coordinated harmonic intervals.	chatgpt-2026-10	draft
+SL000334	drone	A sustained or regularly repeated pitch or chord that provides a stable foundation beneath changing musical material.	chatgpt-2026-10	draft
+SL000335	call_and_response	A musical exchange in which one phrase is answered by another performer, group, or instrumental part.	chatgpt-2026-10	draft
+SL000336	antiphony	Alternating musical passages between two performers or groups, often choirs, in a responsive or spatially separated arrangement.	chatgpt-2026-10	draft
+SL000337	layering	The combination or progressive addition of musical parts to build texture, intensity, or contrast.	chatgpt-2026-10	draft
+SL000338	voice_type	A category describing a singing voice by range, tessitura, timbre, or performance role.	chatgpt-2026-10	draft
+SL000339	male_vocals	Vocals performed by male singers; the descriptor does not specify a particular pitch range, technique, or timbre.	chatgpt-2026-10	draft
+SL000340	female_vocals	Vocals performed by female singers; the descriptor does not specify a particular pitch range, technique, or timbre.	chatgpt-2026-10	draft
+SL000341	duet	A performance or composition for two principal performers; here, it describes two vocalists singing together or in alternation.	chatgpt-2026-10	draft
+SL000342	soprano	A high singing voice type, with classifications determined by comfortable range, timbre, and repertoire rather than pitch limits alone.	chatgpt-2026-10	draft
+SL000343	mezzo_soprano	A voice type between soprano and contralto, often characterized by a comparatively warm middle register.	chatgpt-2026-10	draft
+SL000344	contralto	A low voice type conventionally classified among female singing voices, known for a rich lower register.	chatgpt-2026-10	draft
+SL000345	countertenor	A voice type conventionally associated with male singers performing in an alto or similar high range, often using a developed head or falsetto register.	chatgpt-2026-10	draft
+SL000346	tenor	A relatively high voice type conventionally classified among male singing voices.	chatgpt-2026-10	draft
+SL000347	baritone_voice	A voice type conventionally positioned between tenor and bass, often with a strong middle and lower register.	chatgpt-2026-10	draft
+SL000348	bass_voice	A low voice type conventionally classified among male singing voices.	chatgpt-2026-10	draft
+SL000349	child_voice	A singing voice associated with a child before or during vocal maturation; its range and timbre vary by singer.	chatgpt-2026-10	draft
+SL000350	choir	An organized group of singers performing together, commonly divided into coordinated vocal parts.	chatgpt-2026-10	draft
+SL000351	gospel_choir	A choir performing gospel-oriented music, often using expressive harmonies, rhythmic emphasis, and exchanges between soloist and ensemble.	chatgpt-2026-10	draft
+SL000352	gang_vocals	A group vocal sound created by several performers shouting or singing together, often loosely in unison.	chatgpt-2026-10	draft
+SL000353	chant	A vocal delivery based on repeated or sustained melodic formulas, often with a narrow pitch range and ritual or communal function.	chatgpt-2026-10	draft
+SL000354	singing_technique	A method of coordinating breath, phonation, resonance, and articulation to produce a particular sung sound.	chatgpt-2026-10	draft
+SL000355	chest_voice	A vocal-register and resonance term commonly used for a full, speech-like singing quality, especially in lower and middle ranges.	chatgpt-2026-10	draft
+SL000356	head_voice	A vocal-register and resonance term commonly used for a lighter or higher singing quality; its precise meaning varies among teaching traditions.	chatgpt-2026-10	draft
+SL000357	falsetto	A vocal production commonly associated with a light upper register and relatively thin vocal-fold vibration, often contrasting with a fuller modal voice.	chatgpt-2026-10	draft
+SL000358	belting	A powerful, speech-like singing quality used at relatively high pitches, shaped by specific resonance and vocal coordination.	chatgpt-2026-10	draft
+SL000359	mixed_voice	A pedagogical term for vocal coordination that combines or balances qualities associated with chest and head registers.	chatgpt-2026-10	draft
+SL000360	vocal_vibrato	A regular oscillation around a sung pitch, contributing to vocal color, expressiveness, and sustained-note shaping.	chatgpt-2026-10	draft
+SL000361	breathy_vocals	A vocal sound with audible airflow alongside the pitched tone, producing a soft or airy quality.	chatgpt-2026-10	draft
+SL000362	whisper	A vocal sound produced with turbulent airflow rather than the regular vocal-fold vibration of ordinary voiced speech or singing.	chatgpt-2026-10	draft
+SL000363	vocal_fry	A low, creaky vocal register characterized by irregular, relatively slow vocal-fold pulses.	chatgpt-2026-10	draft
+SL000364	raspy_vocals	A vocal timbre with audible roughness or distortion; several different vocal mechanisms can produce this quality.	chatgpt-2026-10	draft
+SL000365	twang	A bright, concentrated vocal quality associated with particular resonance adjustments, often heard in country and other contemporary styles.	chatgpt-2026-10	draft
+SL000366	yodel	A singing technique involving rapid alternation between contrasting vocal registers, often across wide pitch intervals.	chatgpt-2026-10	draft
+SL000367	vocal_hiccup	A brief catch, break, or clipped transition in the voice used as an expressive effect, especially in rockabilly-oriented singing.	chatgpt-2026-10	draft
+SL000368	crooning	A restrained, intimate singing style associated with microphone use and smooth phrasing rather than forceful acoustic projection.	chatgpt-2026-10	draft
+SL000369	operatic	A singing approach associated with opera, emphasizing sustained breath support, resonance, expressive phrasing, and projection.	chatgpt-2026-10	draft
+SL000370	melismatic_singing	A vocal style that frequently places multiple notes on individual syllables of text.	chatgpt-2026-10	draft
+SL000371	vocal_runs	Rapid sequences of sung notes used to embellish a syllable or phrase, often featuring scales, arpeggios, or patterned turns.	chatgpt-2026-10	draft
+SL000372	cante_jondo	A category of flamenco singing associated with profound expression and particular traditional styles; its meaning extends beyond a single vocal technique.	chatgpt-2026-10	draft
+SL000373	overtone_singing	A vocal technique that emphasizes selected overtones so that a sustained fundamental and a higher melodic tone can be heard together.	chatgpt-2026-10	draft
+SL000374	humming	Vocalizing with the mouth closed or nearly closed, creating a resonant tone without articulated lyrics.	chatgpt-2026-10	draft
+SL000375	whistling	Producing pitched sounds by directing air through a small opening, allowing melodies to be performed without vocal-fold phonation.	chatgpt-2026-10	draft
+SL000376	vocalise	A vocal exercise or composition sung on vowels or other nonlexical sounds rather than a conventional text.	chatgpt-2026-10	draft
+SL000377	scat	A jazz vocal approach using improvised syllables and melodic phrases in place of fixed lyrics.	chatgpt-2026-10	draft
+SL000378	ululation	A high, wavering vocal sound produced through rapid tongue or mouth movement, used in celebration, ritual, or expressive performance in several traditions.	chatgpt-2026-10	draft
+SL000379	harsh_vocals	A broad descriptor for rough, distorted, or aggressively textured vocal techniques, especially in metal and hardcore.	chatgpt-2026-10	draft
+SL000380	growl	A low, rough or guttural vocal sound commonly associated with death metal and related styles.	chatgpt-2026-10	draft
+SL000381	scream	A forceful, rough, often high-intensity vocal sound used as an expressive technique in several rock and metal styles.	chatgpt-2026-10	draft
+SL000382	fry_scream	A distorted scream described in contemporary vocal practice as using fry-like coordination; terminology and underlying mechanisms vary.	chatgpt-2026-10	draft
+SL000383	false_chord	A harsh vocal technique commonly described as involving the false vocal folds or other supraglottic structures; the term refers to folds, not musical chords.	chatgpt-2026-10	draft
+SL000384	high_shriek	A piercing, high-register harsh vocal sound often associated with black metal.	chatgpt-2026-10	draft
+SL000385	pig_squeal	A harsh vocal effect with a strongly resonant, squealing quality, commonly heard in some deathcore and brutal death metal.	chatgpt-2026-10	draft
+SL000386	clean_vocals	Sung vocals without the deliberately harsh distortion associated with growls or screams; the term is especially common in metal.	chatgpt-2026-10	draft
+SL000387	shout	A forceful vocal delivery resembling shouted speech, emphasizing intensity and rhythmic attack more than sustained melodic precision.	chatgpt-2026-10	draft
+SL000388	spoken_vocal	A vocal delivery centered on speech-like articulation and rhythm rather than conventional sustained singing.	chatgpt-2026-10	draft
+SL000389	spoken_word	Spoken text presented as a performance, here used with or within music rather than primarily sung.	chatgpt-2026-10	draft
+SL000390	sprechgesang	A family of vocal approaches between speech and song, in which pitch and spoken inflection are combined in varying proportions.	chatgpt-2026-10	draft
+SL000391	rap	A rhythmic vocal delivery organized through phrasing, rhyme, accent, and verbal flow, often performed over a beat.	chatgpt-2026-10	draft
+SL000392	flow	The rhythmic organization and delivery of rap, including syllable placement, accents, phrasing, and interaction with the beat.	chatgpt-2026-10	draft
+SL000393	double_time_rap	A rap delivery using approximately twice the perceived rate of syllables or rhythmic activity relative to the underlying groove.	chatgpt-2026-10	draft
+SL000394	triplet_flow	A rap delivery that organizes syllables into three-part subdivisions or repeating triplet-based rhythmic patterns.	chatgpt-2026-10	draft
+SL000395	melodic_rap	A vocal approach combining rap phrasing with pronounced melodic pitches or sung passages.	chatgpt-2026-10	draft
+SL000396	mumble_rap	A loosely defined delivery descriptor for relaxed or indistinct articulation in some contemporary rap; usage is contested and stylistically broad.	chatgpt-2026-10	draft
+SL000397	toasting	A Jamaican vocal practice of rhythmic speech, chanting, or melodic interjections over a riddim, influential in later rap and dancehall.	chatgpt-2026-10	draft
+SL000398	beatbox	The imitation or creation of percussion and other musical sounds using the mouth, lips, tongue, and voice.	chatgpt-2026-10	draft
+SL000399	vocal_arrangement	The organization of lead and supporting voices, including their harmonies, entries, textures, and relationships.	chatgpt-2026-10	draft
+SL000400	lead_vocal	The principal sung or spoken vocal part that carries the main melody, text, or narrative of a recording or performance.	chatgpt-2026-10	draft
+SL000401	backing_vocals	Vocal parts that support the lead through harmony, responses, repeated phrases, or additional texture.	chatgpt-2026-10	draft
+SL000402	vocal_harmonies	Two or more vocal parts sounding together at different pitches to create chordal or contrapuntal relationships.	chatgpt-2026-10	draft
+SL000403	close_harmony	A vocal arrangement in which chord tones are placed relatively close together, often within a compact register.	chatgpt-2026-10	draft
+SL000404	double_tracked_vocals	A vocal sound created by recording and combining two performances of the same part, adding thickness and small timing or pitch differences.	chatgpt-2026-10	draft
+SL000405	ad_libs	Short vocal additions, responses, or embellishments that supplement the principal part, whether improvised or planned.	chatgpt-2026-10	draft
+SL000406	a_cappella	Vocal music performed without instrumental accompaniment, although voices may imitate instrumental or percussion sounds.	chatgpt-2026-10	draft
+SL000407	vocal_call_response	A vocal exchange in which a soloist or group presents a phrase and another voice or group answers it.	chatgpt-2026-10	draft
+SL000408	plucked_strings	String instruments whose sound is primarily initiated by plucking, whether with fingers, a plectrum, or another mechanism.	chatgpt-2026-10	draft
+SL000409	acoustic_guitar	A guitar whose hollow body projects string vibrations acoustically, with steel-string and nylon-string designs among its common types.	chatgpt-2026-10	draft
+SL000410	classical_guitar	A nylon-string acoustic guitar associated with classical repertory and fingerstyle playing, typically using a wide fingerboard.	chatgpt-2026-10	draft
+SL000411	flamenco_guitar	A guitar built and played for flamenco, typically favoring a quick response, bright attack, and techniques such as rasgueado and picado.	chatgpt-2026-10	draft
+SL000412	electric_guitar	A guitar whose string vibrations are converted into electrical signals by pickups, allowing amplification and extensive sound processing.	chatgpt-2026-10	draft
+SL000413	clean_guitar	An electric-guitar sound with little audible clipping or distortion, preserving a relatively clear attack and pitch definition.	chatgpt-2026-10	draft
+SL000414	distorted_guitar	A guitar sound altered by clipping or saturation, adding harmonics, sustain, compression, and a rougher timbre.	chatgpt-2026-10	draft
+SL000415	twelve_string_guitar	A guitar with six paired courses of strings, commonly combining unison and octave pairs for a rich, shimmering sound.	chatgpt-2026-10	draft
+SL000416	seven_string_guitar	A guitar with additional strings or an expanded pitch range beyond the common six-string design; this concept includes seven-string and other extended-range instruments.	chatgpt-2026-10	draft
+SL000417	pedal_steel	A steel guitar played horizontally, with pedals and knee levers that change string pitches while a bar stops the strings.	chatgpt-2026-10	draft
+SL000418	lap_steel	A steel guitar played horizontally on the lap or on legs, with a steel bar sliding along the strings, typical of Hawaiian and steel-guitar gospel music.	claude-2026-10	draft
+SL000419	electric_bass	A low-register amplified string instrument, commonly played with fingers or a pick to provide rhythmic and harmonic support.	chatgpt-2026-10	draft
+SL000420	fretless_bass	A bass instrument without fixed frets, allowing continuous pitch movement and flexible intonation along the fingerboard.	chatgpt-2026-10	draft
+SL000421	double_bass	A large, low-register bowed string instrument, also widely plucked in jazz and other styles to provide bass lines.	chatgpt-2026-10	draft
+SL000422	banjo	A plucked string instrument with strings stretched over a membrane-covered resonating body, producing a bright, percussive sound.	chatgpt-2026-10	draft
+SL000423	mandolin	A small plucked lute-family instrument, commonly with four paired string courses tuned in fifths.	chatgpt-2026-10	draft
+SL000424	ukulele	A small plucked string instrument associated with Hawai'i, usually having four strings and a bright, compact sound.	chatgpt-2026-10	draft
+SL000425	lute	A family of plucked string instruments with a neck and resonating body, including the European lute and related regional instruments.	chatgpt-2026-10	draft
+SL000426	harp	A plucked string instrument with strings running at an angle to its soundboard, typically offering separate strings for different pitches.	chatgpt-2026-10	draft
+SL000427	sitar	A long-necked plucked string instrument associated with Hindustani music, featuring movable frets and sympathetic strings.	chatgpt-2026-10	draft
+SL000428	oud	A short-necked, fretless plucked lute widely used in Middle Eastern and neighboring musical traditions.	chatgpt-2026-10	draft
+SL000429	bouzouki	A long-necked plucked string instrument associated with Greek music, with related adaptations used in other traditions.	chatgpt-2026-10	draft
+SL000430	charango	A small Andean plucked string instrument, commonly with five paired string courses and a bright upper-register sound.	chatgpt-2026-10	draft
+SL000431	cavaquinho	A small four-string plucked instrument used in Portuguese and Brazilian traditions, especially as rhythmic accompaniment in samba and choro.	chatgpt-2026-10	draft
+SL000432	kora	A West African plucked bridge-harp, commonly with twenty-one strings, associated with Mandinka and related hereditary musician traditions.	chatgpt-2026-10	draft
+SL000433	cuatro	A small four- or five-course guitar-like instrument of Venezuela, Puerto Rico and the Caribbean, with tunings and string layouts that vary by country.	claude-2026-10	draft
+SL000434	koto	A Japanese plucked zither with movable bridges, traditionally played with finger picks.	chatgpt-2026-10	draft
+SL000435	shamisen	A Japanese three-string plucked instrument with a skin-covered body, commonly played using a large plectrum.	chatgpt-2026-10	draft
+SL000436	guzheng	A Chinese plucked zither with movable bridges, allowing melodic playing, pitch bends, and resonant accompaniment.	chatgpt-2026-10	draft
+SL000437	balalaika	A Russian plucked string instrument with a triangular body, commonly built in several sizes for ensemble use.	chatgpt-2026-10	draft
+SL000438	saz	A name applied to long-necked plucked lutes in Turkish and related traditions, especially instruments of the bağlama family.	chatgpt-2026-10	draft
+SL000439	bowed_strings	String instruments primarily sounded by drawing a bow across their strings, producing sustained tones and varied articulations.	chatgpt-2026-10	draft
+SL000440	violin	A high-register bowed string instrument, usually with four strings tuned in fifths, used in classical, folk, and many other styles.	chatgpt-2026-10	draft
+SL000441	fiddle	A name for the violin in many folk and popular traditions, emphasizing repertory and playing style rather than a separate basic instrument design.	chatgpt-2026-10	draft
+SL000442	viola	A bowed string instrument larger and lower-pitched than the violin, typically tuned C-G-D-A.	chatgpt-2026-10	draft
+SL000443	cello	A bowed string instrument played upright between the knees, with a resonant range extending from bass to high melodic registers.	chatgpt-2026-10	draft
+SL000444	string_section	A group of bowed string players within an ensemble, commonly including violins, violas, cellos, and double basses.	chatgpt-2026-10	draft
+SL000445	erhu	A Chinese two-string bowed fiddle, typically played vertically with the bow hair passing between its strings.	chatgpt-2026-10	draft
+SL000446	hurdy_gurdy	A string instrument sounded by a crank-driven wheel, with a keyboard changing melody pitches and additional strings often providing drones.	chatgpt-2026-10	draft
+SL000447	nyckelharpa	A Swedish bowed keyed fiddle in which keys stop the melody strings and sympathetic strings add resonance.	chatgpt-2026-10	draft
+SL000448	woodwinds	A family of wind instruments that generate sound through an edge or reed, regardless of whether their bodies are made of wood or metal.	chatgpt-2026-10	draft
+SL000449	flute	A wind instrument sounded by directing air across an edge or opening, including transverse and end-blown designs.	chatgpt-2026-10	draft
+SL000450	piccolo	A small transverse flute that typically sounds an octave above the concert flute, producing a bright, penetrating upper register.	chatgpt-2026-10	draft
+SL000451	recorder	A duct flute with a whistle-like mouthpiece and finger holes, built in several sizes and commonly used in early music and education.	chatgpt-2026-10	draft
+SL000452	tin_whistle	A small six-hole duct flute associated particularly with Irish and other folk traditions.	chatgpt-2026-10	draft
+SL000453	pan_flute	A wind instrument made from a row or bundle of pipes of different lengths, each producing a different pitch.	chatgpt-2026-10	draft
+SL000454	shakuhachi	A Japanese end-blown bamboo flute known for breathy tone colors and flexible pitch and articulation.	chatgpt-2026-10	draft
+SL000455	ney	An end-blown reed flute used in several Middle Eastern traditions, with regional differences in construction and playing technique.	chatgpt-2026-10	draft
+SL000456	duduk	An Armenian double-reed wind instrument with a warm, resonant tone, often made from apricot wood.	chatgpt-2026-10	draft
+SL000457	clarinet	A single-reed woodwind instrument with a cylindrical bore, built in several sizes and valued for its wide range and contrasting registers.	chatgpt-2026-10	draft
+SL000458	oboe	A double-reed woodwind instrument with a conical bore and a clear, focused tone.	chatgpt-2026-10	draft
+SL000459	bassoon	A low-register double-reed woodwind instrument with a folded conical bore and a distinctive resonant timbre.	chatgpt-2026-10	draft
+SL000460	saxophone	A single-reed woodwind instrument with a conical metal body, built in a family of sizes and widely used in jazz and popular music.	chatgpt-2026-10	draft
+SL000461	alto_sax	A saxophone pitched in E-flat, occupying a middle-to-high register within the saxophone family.	chatgpt-2026-10	draft
+SL000462	tenor_sax	A saxophone pitched in B-flat, larger and lower in register than the alto saxophone.	chatgpt-2026-10	draft
+SL000463	baritone_sax	A low-register saxophone pitched in E-flat, commonly providing bass support or a robust solo voice in ensembles.	chatgpt-2026-10	draft
+SL000464	soprano_sax	A high-register saxophone pitched in B-flat, commonly built in straight or curved forms.	chatgpt-2026-10	draft
+SL000465	bagpipes	A family of reed instruments supplied with continuous air from a bag, often combining a melody chanter with one or more drones.	chatgpt-2026-10	draft
+SL000466	didgeridoo	A long drone aerophone developed in Aboriginal Australian traditions, played through lip vibration and often circular breathing.	chatgpt-2026-10	draft
+SL000467	harmonica	A free-reed mouth instrument sounded by blowing and drawing air, with pitch and expression shaped by breath and mouth position.	chatgpt-2026-10	draft
+SL000468	brass	A family of wind instruments sounded by vibrating the player's lips into a mouthpiece, regardless of the material used for the body.	chatgpt-2026-10	draft
+SL000469	trumpet	A high-register brass instrument, commonly using three valves to change the effective tube length and pitch.	chatgpt-2026-10	draft
+SL000470	muted_trumpet	A trumpet sound altered by a mute placed in or near the bell, changing tone color, projection, and sometimes dynamic response.	chatgpt-2026-10	draft
+SL000471	flugelhorn	A valved brass instrument similar in range to the trumpet but with a more conical bore and typically mellower tone.	chatgpt-2026-10	draft
+SL000472	cornet	A valved brass instrument related to the trumpet, generally with a more conical bore and compact tubing.	chatgpt-2026-10	draft
+SL000473	trombone	A brass instrument commonly using a movable slide to change pitch, enabling continuous glissandos and flexible intonation.	chatgpt-2026-10	draft
+SL000474	french_horn	A brass instrument with coiled tubing and a flared bell, known for a rounded tone and wide range.	chatgpt-2026-10	draft
+SL000475	tuba	A large, low-register valved brass instrument that often provides bass support in orchestras and wind ensembles.	chatgpt-2026-10	draft
+SL000476	horn_section	A coordinated group of brass and sometimes woodwind players providing riffs, chords, accents, or melodic lines.	chatgpt-2026-10	draft
+SL000477	keyboards	Instruments played through a keyboard, encompassing acoustic, electromechanical, and electronic sound-production systems.	chatgpt-2026-10	draft
+SL000478	piano	A keyboard instrument in which hammers strike strings, allowing changes in loudness through the player's touch.	chatgpt-2026-10	draft
+SL000479	grand_piano	A piano with strings and soundboard arranged horizontally, typically offering a responsive action and broad dynamic range.	chatgpt-2026-10	draft
+SL000480	honky_tonk_piano	A piano sound associated with honky-tonk settings, often featuring bright attack and slightly detuned or deliberately rough tuning.	chatgpt-2026-10	draft
+SL000481	prepared_piano	A piano whose sound is altered by placing objects on or between its strings, creating unusual pitches, timbres, and percussion-like effects.	chatgpt-2026-10	draft
+SL000482	electric_piano	A keyboard instrument whose struck mechanical elements are amplified electrically, distinct from a purely electronic or sampled digital piano.	chatgpt-2026-10	draft
+SL000483	rhodes	An electromechanical electric piano using hammer-struck metal tines and pickups, known for a bell-like attack and warm sustain.	chatgpt-2026-10	draft
+SL000484	wurlitzer	An electromechanical electric piano using struck reeds, known for a compact design and a tone that can become gritty under strong playing.	chatgpt-2026-10	draft
+SL000485	organ	A keyboard instrument producing sustained tones through pipes, reeds, electronic circuits, or digital sound generation.	chatgpt-2026-10	draft
+SL000486	hammond_organ	An electric organ originally using rotating tonewheels, commonly associated with drawbar tone shaping and rotary-speaker effects.	chatgpt-2026-10	draft
+SL000487	pipe_organ	A keyboard instrument that directs pressurized air into sets of pipes, selected through stops to combine contrasting tone colors.	chatgpt-2026-10	draft
+SL000488	combo_organ	A portable electronic organ associated with popular music, especially 1960s rock, using transistor-based sound generation.	chatgpt-2026-10	draft
+SL000489	harpsichord	A keyboard instrument whose strings are plucked mechanically, producing a clear attack with limited touch-controlled dynamics.	chatgpt-2026-10	draft
+SL000490	clavinet	An amplified keyboard instrument with hammer-struck strings, known for its sharp, percussive sound in funk and related styles.	chatgpt-2026-10	draft
+SL000491	accordion	A bellows-driven free-reed instrument with keys or buttons for melody and, in many designs, bass and chord accompaniment.	chatgpt-2026-10	draft
+SL000492	bandoneon	A button-operated free-reed instrument of the concertina family, strongly associated with Argentine and Uruguayan tango.	chatgpt-2026-10	draft
+SL000493	concertina	A compact bellows-driven free-reed instrument with buttons at both ends, made in several systems and traditions.	chatgpt-2026-10	draft
+SL000494	harmonium	A free-reed keyboard instrument supplied with air by bellows, widely used in South Asian and other musical traditions.	chatgpt-2026-10	draft
+SL000495	celesta	A keyboard instrument whose hammers strike metal plates, producing a soft, bell-like tone.	chatgpt-2026-10	draft
+SL000496	mellotron	A keyboard instrument that plays prerecorded sounds from strips of magnetic tape, historically used for orchestral and choral textures.	chatgpt-2026-10	draft
+SL000497	melodica	A small free-reed keyboard instrument sounded by blowing air through a mouthpiece or tube.	chatgpt-2026-10	draft
+SL000498	toy_piano	A small keyboard instrument that commonly strikes metal rods rather than strings, producing a bright, delicate tone.	chatgpt-2026-10	draft
+SL000499	electronic_instruments	Instruments that generate or substantially produce musical sound through electronic circuitry or digital processing.	chatgpt-2026-10	draft
+SL000500	synthesizer	An electronic instrument that creates and shapes sound through oscillators or other sound sources, modulation, and processing.	chatgpt-2026-10	draft
+SL000501	analog_synth	A synthesizer using analog electronic circuits to generate and shape sound, often through oscillators, filters, and amplifiers.	chatgpt-2026-10	draft
+SL000502	modular_synth	A synthesizer assembled from separate sound-generating and processing modules connected through patch cables or equivalent routing.	chatgpt-2026-10	draft
+SL000503	fm_synth	A synthesis method in which one oscillator modulates the frequency of another, producing complex spectra and distinctive bell-like or metallic timbres.	claude-2026-10	draft
+SL000504	synth_pad	A sustained synthesizer sound used to provide harmonic support or atmosphere, often with a soft attack and slowly evolving texture.	chatgpt-2026-10	draft
+SL000505	synth_lead	A synthesizer sound used for a foreground melody, hook, or solo, usually designed for clear musical presence.	chatgpt-2026-10	draft
+SL000506	supersaw	A synthesizer timbre created by combining multiple detuned sawtooth waves for a wide, dense sound associated with trance and other dance styles.	chatgpt-2026-10	draft
+SL000507	arpeggiator	A device or function that converts held notes into a repeating sequence of individual pitches according to a selected pattern.	chatgpt-2026-10	draft
+SL000508	synth_bass	A low-register sound generated by a synthesizer, used for bass lines, sustained foundations, or rhythmic low-frequency patterns.	chatgpt-2026-10	draft
+SL000509	acid_bass	A resonant, often sliding bass sound associated with the Roland TB-303 and acid house or techno.	chatgpt-2026-10	draft
+SL000510	reese_bass	A dense, moving bass timbre created through detuned oscillators and processing, widely used in jungle and drum and bass.	chatgpt-2026-10	draft
+SL000511	reverse_bass	A bass sound with a swelling or reversed-envelope character, often placed between kick hits in hardstyle-oriented production.	chatgpt-2026-10	draft
+SL000512	wobble_bass	A bass sound whose tone or level changes rhythmically through modulation, especially filter movement controlled by a low-frequency oscillator.	chatgpt-2026-10	draft
+SL000513	hoover_sound	A thick, animated synthesizer timbre associated with early rave music, typically combining detuned waves, pitch movement, and modulation.	chatgpt-2026-10	draft
+SL000514	rave_stab	A short, emphatic synthesized or sampled chord used as a rhythmic accent in rave-oriented electronic music.	chatgpt-2026-10	draft
+SL000515	step_sequencer	A sequencing device or interface that stores musical events in discrete steps and plays them in a repeating pattern.	chatgpt-2026-10	draft
+SL000516	drum_machine	An electronic instrument or software system that programs and plays percussion patterns using synthesized or sampled sounds.	chatgpt-2026-10	draft
+SL000517	tr808	A Roland drum machine introduced in 1980, known for synthesized percussion and a resonant kick sound that also functions as bass in many productions.	chatgpt-2026-10	draft
+SL000518	tr909	A Roland drum machine combining synthesized and sampled percussion, influential in house, techno, and other dance music.	chatgpt-2026-10	draft
+SL000519	linndrum	A sampled drum machine associated with 1980s popular music, using digitally stored recordings of acoustic percussion.	chatgpt-2026-10	draft
+SL000520	sampler_instrument	An electronic instrument that records, stores, and plays back sound samples, often allowing pitch changes, editing, and keyboard control.	chatgpt-2026-10	draft
+SL000521	theremin	An electronic instrument played without physical contact, using hand position near antennas to control pitch and volume.	chatgpt-2026-10	draft
+SL000522	vocoder_instrument	A system that uses the spectral characteristics of one sound, often speech, to shape another sound such as a synthesizer tone.	chatgpt-2026-10	draft
+SL000523	talk_box	A device that sends an instrument's sound into the performer's mouth through a tube, allowing mouth shapes to alter its timbre.	chatgpt-2026-10	draft
+SL000524	chiptune_chip	A sound-generating integrated circuit associated with computers or game consoles, producing characteristic electronic tones and noise.	chatgpt-2026-10	draft
+SL000525	log_drum	Here, a synthesized percussive bass timbre associated with amapiano, distinct from the acoustic wooden instruments also called log drums.	chatgpt-2026-10	draft
+SL000526	turntables	Record players used as performance instruments for playback manipulation, scratching, mixing, and rhythmic recombination.	chatgpt-2026-10	draft
+SL000527	percussion	Instruments sounded through striking, shaking, scraping, or related actions, providing rhythm, pitch, or sound color.	chatgpt-2026-10	draft
+SL000528	drum_kit	A collection of drums and cymbals arranged for one performer, commonly including kick, snare, toms, and hi-hat.	chatgpt-2026-10	draft
+SL000529	kick_drum	A low-pitched drum in a kit, usually struck by a pedal-operated beater to provide the main bass pulse.	chatgpt-2026-10	draft
+SL000530	snare_drum	A drum fitted with vibrating snares against a head, producing a sharp, rattling attack.	chatgpt-2026-10	draft
+SL000531	hi_hat	A pair of cymbals mounted on a stand and controlled by a foot pedal, played closed, open, or through pedal action.	chatgpt-2026-10	draft
+SL000532	cymbals	Metal percussion instruments producing ringing or noisy sounds when struck or brought together, with many sizes and functions.	chatgpt-2026-10	draft
+SL000533	toms	Drums without snares, commonly used in a kit for fills, melodic contours, and contrasting rhythmic accents.	chatgpt-2026-10	draft
+SL000534	electronic_drums	A percussion system using pads or triggers to control synthesized or sampled drum sounds.	chatgpt-2026-10	draft
+SL000535	hand_percussion	Percussion instruments played directly with the hands or held while shaken, scraped, or struck.	chatgpt-2026-10	draft
+SL000536	congas	Tall, usually single-headed hand drums associated with Afro-Cuban music, played in contrasting tones and interlocking patterns.	chatgpt-2026-10	draft
+SL000537	bongos	A joined pair of small, single-headed drums, commonly played with the fingers and hands in Cuban and other styles.	chatgpt-2026-10	draft
+SL000538	timbales	A pair of shallow, metal-shell drums played with sticks, often combined with cowbells and used in Latin dance ensembles.	chatgpt-2026-10	draft
+SL000539	cajon	A box-shaped percussion instrument sounded by striking its surfaces, originally associated with Afro-Peruvian traditions and later widely adopted elsewhere.	chatgpt-2026-10	draft
+SL000540	djembe	A rope-tuned goblet-shaped hand drum associated with West African traditions, capable of distinct bass, tone, and slap sounds.	chatgpt-2026-10	draft
+SL000541	darbuka	A goblet-shaped hand drum used in Middle Eastern, North African, and neighboring traditions, producing contrasting bass and high tones.	chatgpt-2026-10	draft
+SL000542	frame_drum	A drum whose shell is relatively shallow compared with the diameter of its head, found in many musical traditions.	chatgpt-2026-10	draft
+SL000543	tabla	A pair of tuned hand drums used particularly in Hindustani music, with contrasting sizes and a wide vocabulary of strokes.	chatgpt-2026-10	draft
+SL000544	mridangam	A double-headed barrel drum central to Carnatic music, played with the hands to articulate complex rhythmic patterns.	chatgpt-2026-10	draft
+SL000545	talking_drum	A pressure-controlled drum whose pitch can change during playing, allowing contours that can resemble speech in several West African traditions.	chatgpt-2026-10	draft
+SL000546	tambourine	A handheld frame instrument with jingles, often also fitted with a drumhead, sounded by striking, shaking, or rubbing.	chatgpt-2026-10	draft
+SL000547	shaker	A percussion instrument that produces rhythmic sound through shaking, usually by moving loose material inside a container.	chatgpt-2026-10	draft
+SL000548	guiro	A ridged scraper associated with Latin American music, sounded by drawing a stick across its grooves.	chatgpt-2026-10	draft
+SL000549	cowbell	A metal percussion instrument struck with a stick, often providing repeated timekeeping or syncopated patterns.	chatgpt-2026-10	draft
+SL000550	claves_instrument	A pair of wooden sticks struck together to produce a clear, penetrating click, commonly used to articulate clave patterns.	chatgpt-2026-10	draft
+SL000551	castanets	A pair or set of small concave percussion pieces clicked together, particularly associated with Spanish dance traditions.	chatgpt-2026-10	draft
+SL000552	handclaps	Percussive sounds produced by striking the hands together, used for rhythmic accents, accompaniment, or communal participation.	chatgpt-2026-10	draft
+SL000553	finger_snaps	Percussive clicks created by snapping a finger against the palm, often used as light rhythmic accompaniment.	chatgpt-2026-10	draft
+SL000554	cuica	A Brazilian friction drum whose internal rod is rubbed to vary its distinctive squealing pitch and timbre.	chatgpt-2026-10	draft
+SL000555	surdo	A large, low-pitched Brazilian drum used to anchor the pulse in samba and related ensembles.	chatgpt-2026-10	draft
+SL000556	washboard	A ridged surface used as a percussion instrument by scraping or tapping, often with thimbles or other small implements.	chatgpt-2026-10	draft
+SL000557	large_drums	A practical grouping of larger drums used for strong low-frequency pulses, ensemble support, or ceremonial impact.	chatgpt-2026-10	draft
+SL000558	dhol	A family of double-headed drums used across South Asian traditions, often played with sticks for dance and ceremonial music.	chatgpt-2026-10	draft
+SL000559	taiko	A Japanese term for drums and, in common international usage, ensembles or performance traditions built around them.	chatgpt-2026-10	draft
+SL000560	timpani	Tuned kettle drums whose pitches can be adjusted through tension mechanisms, commonly used in orchestral music.	chatgpt-2026-10	draft
+SL000561	pitched_percussion	Percussion instruments designed to produce recognizable musical pitches, allowing melodies, harmonies, or tuned accompaniment.	chatgpt-2026-10	draft
+SL000562	marimba	A tuned percussion instrument with wooden bars and resonators, played with mallets for melody, harmony, or rhythmic patterns.	chatgpt-2026-10	draft
+SL000563	vibraphone	A mallet instrument with metal bars, sustain control, and rotating resonator mechanisms that can create a pulsating effect.	chatgpt-2026-10	draft
+SL000564	xylophone	A tuned percussion instrument with wooden bars, typically producing a bright, short sound when struck with mallets.	chatgpt-2026-10	draft
+SL000565	glockenspiel	A tuned percussion instrument with metal bars, producing a bright, bell-like tone in a high register.	chatgpt-2026-10	draft
+SL000566	tubular_bells	A set of tuned metal tubes struck to produce bell-like pitches, commonly used in orchestral and ensemble music.	chatgpt-2026-10	draft
+SL000567	steelpan	A tuned percussion instrument developed in Trinidad and Tobago, formed from a steel surface divided into distinct pitch areas.	chatgpt-2026-10	draft
+SL000568	kalimba	A lamellophone with tuned metal tongues plucked by the thumbs or fingers, related to several African instrument traditions.	chatgpt-2026-10	draft
+SL000569	handpan	A tuned steel percussion instrument played with the hands, producing resonant notes from shaped tone fields around its surface.	chatgpt-2026-10	draft
+SL000570	gamelan_instrument	An Indonesian ensemble tradition centered on tuned percussion such as metallophones and gongs, often joined by drums, strings, or voices.	chatgpt-2026-10	draft
+SL000571	triangle	A metal percussion instrument bent into a triangular shape and struck with a beater to produce a bright ringing sound.	chatgpt-2026-10	draft
+SL000572	gong	A metal percussion instrument, often circular, that produces resonant tones or complex sound masses when struck.	chatgpt-2026-10	draft
+SL000573	balafon	A West African wooden-bar percussion instrument, commonly using gourd resonators and played with mallets.	chatgpt-2026-10	draft
+SL000574	ensemble	A group of performers making music together, ranging from small chamber groups to large orchestras or bands.	chatgpt-2026-10	draft
+SL000575	orchestra	A large instrumental ensemble typically combining strings, woodwinds, brass, and percussion, though its makeup varies by repertory.	chatgpt-2026-10	draft
+SL000576	chamber_orchestra	A smaller orchestra intended for chamber-scale repertory or performance spaces, usually with fewer players per part.	chatgpt-2026-10	draft
+SL000577	string_quartet	An ensemble of two violins, viola, and cello, or a composition written for this combination.	chatgpt-2026-10	draft
+SL000578	big_band	A large jazz ensemble typically organized into saxophone, trumpet, trombone, and rhythm sections.	chatgpt-2026-10	draft
+SL000579	brass_band	An ensemble centered on brass instruments, often with percussion; instrumentation and repertory vary among regional traditions.	chatgpt-2026-10	draft
+SL000580	power_trio	A three-piece rock ensemble typically consisting of guitar, bass, and drums, with one or more members also singing.	chatgpt-2026-10	draft
+SL000581	mariachi_ensemble	A Mexican ensemble tradition commonly combining violins, trumpets, guitars, vihuela, and guitarrón, with instrumentation varying historically.	chatgpt-2026-10	draft
+SL000582	rock_band	An ensemble performing rock-oriented music, commonly built around guitars, bass, drums, and vocals, sometimes with keyboards or other instruments.	chatgpt-2026-10	draft
+SL000583	solo_performer	A musician performing alone, possibly singing, playing an instrument, or combining several musical roles.	chatgpt-2026-10	draft
+SL000584	guitar_technique	A method of playing guitar that shapes note production, articulation, rhythm, pitch, or tone color.	chatgpt-2026-10	draft
+SL000585	palm_muting	A guitar or bass technique in which the picking-hand palm lightly damps the strings near the bridge, shortening and darkening their sound.	chatgpt-2026-10	draft
+SL000586	chugging	Repeated low-register, often palm-muted guitar figures that create a heavy, percussive pulse.	chatgpt-2026-10	draft
+SL000587	djent_technique	Guitar riffing characterized by tightly muted, low-register attacks and syncopated accents, often played on extended-range instruments.	chatgpt-2026-10	draft
+SL000588	tremolo_picking	Rapid repeated picking of a note or small figure, usually through alternating strokes, to create a sustained or intensely articulated sound.	chatgpt-2026-10	draft
+SL000589	alternate_picking	A picking technique that alternates downstrokes and upstrokes for successive notes.	chatgpt-2026-10	draft
+SL000590	sweep_picking	A picking technique that moves across several strings in one coordinated stroke while the fretting hand articulates separate notes.	chatgpt-2026-10	draft
+SL000591	tapping	A string-instrument technique that sounds notes by striking the fingerboard with fingers rather than plucking every note.	chatgpt-2026-10	draft
+SL000592	legato_guitar	A guitar approach connecting notes through hammer-ons, pull-offs, slides, or related techniques to reduce separate picked attacks.	chatgpt-2026-10	draft
+SL000593	string_bending	A technique that raises a string's pitch by pushing or pulling it sideways, allowing expressive transitions and inflections.	chatgpt-2026-10	draft
+SL000594	whammy	A guitar vibrato-system lever used to change string tension, enabling pitch dips, rises, and vibrato effects.	chatgpt-2026-10	draft
+SL000595	pinch_harmonics	A technique that combines a picked attack with brief finger or thumb contact to emphasize a high harmonic of the string.	chatgpt-2026-10	draft
+SL000596	natural_harmonics	Tones produced by lightly touching a vibrating string at a nodal point, suppressing some partials and emphasizing a harmonic.	chatgpt-2026-10	draft
+SL000597	slide_guitar	A guitar technique using a slide or bar against the strings to create continuous pitch movement and sustained notes.	chatgpt-2026-10	draft
+SL000598	fingerpicking	A guitar or related string technique using individual fingers to pluck separate strings or coordinated patterns.	chatgpt-2026-10	draft
+SL000599	travis_picking	A fingerpicking style in which the thumb maintains an alternating bass pattern while other fingers play melody or accompaniment.	chatgpt-2026-10	draft
+SL000600	strumming	Sounding several strings in a coordinated sweeping motion, usually to articulate chords or rhythmic accompaniment.	chatgpt-2026-10	draft
+SL000601	rasgueado	A flamenco guitar strumming technique using coordinated finger strokes to create rapid, strongly articulated chord patterns.	chatgpt-2026-10	draft
+SL000602	picado	A flamenco guitar technique for clear, rapid single-note passages, usually played with alternating fingers.	chatgpt-2026-10	draft
+SL000603	chicken_picking	A country-oriented picking approach using crisp attacks, muted notes, and plucked accents to create a clucking, percussive sound.	chatgpt-2026-10	draft
+SL000604	funk_scratch	Percussive guitar strumming across muted strings, used to create rhythmic subdivisions and syncopated texture.	chatgpt-2026-10	draft
+SL000605	skank_guitar	Short offbeat guitar chords that provide rhythmic punctuation in ska, reggae, and related styles.	chatgpt-2026-10	draft
+SL000606	jangle	A bright, ringing guitar sound produced through clear attacks, sustained open strings, and often arpeggiated chords or twelve-string instruments.	chatgpt-2026-10	draft
+SL000607	shred	A virtuosic guitar approach emphasizing speed, precise articulation, and demanding techniques such as rapid picking, legato, and tapping.	chatgpt-2026-10	draft
+SL000608	neoclassical_shred	Virtuosic guitar playing drawing on classical-style sequences, arpeggios, and harmonic-minor or related pitch resources.	chatgpt-2026-10	draft
+SL000609	feedback	A sustained or growing sound created when an amplified guitar signal re-enters the pickup or instrument and forms a feedback loop.	chatgpt-2026-10	draft
+SL000610	drop_tuning	A guitar or bass tuning in which the lowest string is lowered relative to the other strings, changing low-register range and chord shapes.	chatgpt-2026-10	draft
+SL000611	open_tuning	A tuning in which the unstopped strings form a chord, facilitating drones, slide playing, and alternative chord voicings.	chatgpt-2026-10	draft
+SL000612	chord_melody	A guitar arrangement or playing style that combines a melody with its supporting chords in the same part.	chatgpt-2026-10	draft
+SL000613	bass_technique	A method of playing bass that shapes articulation, pitch, rhythmic function, or tone color.	chatgpt-2026-10	draft
+SL000614	slap_bass	A bass technique combining struck strings and often plucked pops for a bright, percussive sound; execution differs between electric and upright bass.	chatgpt-2026-10	draft
+SL000615	walking_bass	A moving bass line, commonly in regular quarter notes, that outlines harmonies while connecting them smoothly.	chatgpt-2026-10	draft
+SL000616	octave_bass	A bass pattern alternating or combining pitches one octave apart, often used to create rhythmic drive in dance-oriented music.	chatgpt-2026-10	draft
+SL000617	picked_bass	Bass playing with a plectrum, often producing a clear attack and consistent articulation.	chatgpt-2026-10	draft
+SL000618	sub_bass	Very low-frequency sound, commonly below about 60 Hz, perceived as deep bass and often felt physically as well as heard.	chatgpt-2026-10	draft
+SL000619	bass_slides	Continuous pitch movement between bass notes, produced by sliding along a string or using electronic pitch glide.	chatgpt-2026-10	draft
+SL000620	keyboard_technique	A method of keyboard playing that shapes accompaniment, voicing, articulation, coordination, or melodic delivery.	chatgpt-2026-10	draft
+SL000621	stride_piano	A jazz piano style in which the left hand alternates low bass notes with higher chords while the right hand plays melody or improvisation.	chatgpt-2026-10	draft
+SL000622	boogie_woogie_bass	A repeated left-hand piano bass pattern supporting a blues-based groove, often using rolling or broken-chord figures.	chatgpt-2026-10	draft
+SL000623	montuno	A repeating, syncopated accompaniment figure, especially on piano, associated with Cuban music and salsa.	chatgpt-2026-10	draft
+SL000624	block_chords	A harmonization technique in which several notes move together rhythmically, often placing a chord beneath each melody note.	chatgpt-2026-10	draft
+SL000625	piano_glissando	A rapid sweep across successive piano keys, creating a continuous-looking gesture from discrete pitches.	chatgpt-2026-10	draft
+SL000626	leslie	The sound of a loudspeaker cabinet with a rotating horn and drum, or a simulation of it, which produces shifting volume, pitch and space; strongly associated with the Hammond organ.	claude-2026-10	draft
+SL000627	bowed_technique	A method of playing bowed string instruments that changes articulation, timbre, sustain, or the number of sounding strings.	chatgpt-2026-10	draft
+SL000628	pizzicato	A technique in which strings normally played with a bow are plucked instead.	chatgpt-2026-10	draft
+SL000629	string_tremolo	Rapid repeated bow strokes on a pitch or figure, producing a sustained, agitated, or shimmering string texture.	chatgpt-2026-10	draft
+SL000630	staccato_strings	Short, separated notes on bowed string instruments, produced through bowing and release techniques appropriate to the passage.	chatgpt-2026-10	draft
+SL000631	legato_strings	Smoothly connected notes on bowed string instruments, with transitions shaped to minimize audible separation.	chatgpt-2026-10	draft
+SL000632	col_legno	A string technique using the wooden part of the bow against the strings, either striking them or drawing it across them.	chatgpt-2026-10	draft
+SL000633	double_stops	The simultaneous sounding of two strings on a bowed string instrument, creating intervals or supporting harmonies.	chatgpt-2026-10	draft
+SL000634	string_swells	Sustained string sounds that gradually increase or decrease in intensity, often through bow pressure, speed, or ensemble dynamics.	chatgpt-2026-10	draft
+SL000635	wind_technique	A performance method on wind instruments that shapes breath, articulation, pitch, resonance, or tone color.	chatgpt-2026-10	draft
+SL000636	sax_growl	A rough saxophone effect often produced by vocalizing while playing, causing the sung tone to interact with the instrument's sound.	chatgpt-2026-10	draft
+SL000637	flutter_tongue	A wind-instrument technique using rapid tongue or throat vibration to create a rolling or fluttering tone.	chatgpt-2026-10	draft
+SL000638	brass_stabs	Short, emphatic brass notes or chords used to punctuate a groove, phrase, or transition.	chatgpt-2026-10	draft
+SL000639	brass_falls	Brass gestures that trail downward as falls or upward as doits, usually at the end of a note and with flexible pitch contour.	chatgpt-2026-10	draft
+SL000640	circular_breathing	A wind-playing technique that maintains airflow to an instrument while inhaling through the nose using air stored in the cheeks.	chatgpt-2026-10	draft
+SL000641	dj_technique	A method of manipulating recordings during performance, including mixing, scratching, and rhythmic recombination.	chatgpt-2026-10	draft
+SL000642	scratching	The rhythmic manipulation of a record or equivalent digital playback by moving it backward and forward to reshape the sound.	chatgpt-2026-10	draft
+SL000643	beat_juggling	A DJ technique that rearranges short recorded passages through repeated playback and switching, often between two copies of a record.	chatgpt-2026-10	draft
+SL000644	recording_aesthetic	The overall sonic character of a recording, shaped by production choices, technology, performance, and intentional imperfections.	chatgpt-2026-10	draft
+SL000645	lo_fi	A recording aesthetic that retains or emphasizes imperfections such as noise, limited bandwidth, distortion, or rough performance texture.	chatgpt-2026-10	draft
+SL000646	vinyl_crackle	Short clicks and crackling noise associated with record playback, sometimes added deliberately as a textural effect.	chatgpt-2026-10	draft
+SL000647	tape_hiss	Broadband background noise associated with magnetic-tape recording, sometimes retained or recreated for atmosphere.	chatgpt-2026-10	draft
+SL000648	bedroom_production	Music production carried out in a small personal space, often using accessible recording tools and an informal working process.	chatgpt-2026-10	draft
+SL000649	hi_fi	A polished production aesthetic emphasizing controlled recording, editing, balance, and clarity; it does not require a particular loudness or dynamic range.	chatgpt-2026-10	draft
+SL000650	raw_production	A recording aesthetic that preserves directness, performance irregularities, and relatively limited editing or processing.	chatgpt-2026-10	draft
+SL000651	live_recording	A recording made during a performance or simultaneous ensemble session, retaining aspects of real-time interaction and the performance setting.	chatgpt-2026-10	draft
+SL000652	analog_warmth	A subjective descriptor for tonal qualities associated with some analog equipment, often involving gentle saturation, rounded transients, or spectral coloration.	chatgpt-2026-10	draft
+SL000653	wall_of_sound	A dense, layered production sound associated with Phil Spector's method and, more broadly, heavily blended arrangements or effects-rich textures.	chatgpt-2026-10	draft
+SL000654	bass_heavy	A mix in which low-frequency elements are particularly prominent relative to the rest of the spectrum.	chatgpt-2026-10	draft
+SL000655	dry_mix	A mix using little audible reverberation or echo, creating a close, relatively direct presentation of sounds.	chatgpt-2026-10	draft
+SL000656	field_recording	The recording of sounds outside a conventional studio, including environments, everyday activity, and music in its original setting.	chatgpt-2026-10	draft
+SL000657	dynamics_processing	Audio processing that changes signal level over time, including compression, limiting, expansion, and gating.	chatgpt-2026-10	draft
+SL000658	compression	Processing that reduces differences between louder and quieter signal levels according to selected threshold, ratio, and timing settings.	chatgpt-2026-10	draft
+SL000659	sidechain	Compression whose gain reduction is controlled by a separate signal or filtered detector input, often used to make one part yield to another.	chatgpt-2026-10	draft
+SL000660	limiting	Dynamic processing that strongly restricts peaks above a threshold, commonly used to control maximum output level.	chatgpt-2026-10	draft
+SL000661	spatial_effects	Audio effects that create or modify perceived distance, room ambience, direction, or width.	chatgpt-2026-10	draft
+SL000662	reverb	The dense persistence of sound after its source stops, caused naturally by reflections or recreated through audio processing.	chatgpt-2026-10	draft
+SL000663	hall_reverb	A reverberation sound modeled on a large hall, typically providing an extended decay and spacious ambience.	chatgpt-2026-10	draft
+SL000664	plate_reverb	A reverberation effect created by vibrating a metal plate or digitally modeling that behavior, often producing a smooth, dense tail.	chatgpt-2026-10	draft
+SL000665	spring_reverb	A reverberation effect created through vibrating springs or their simulation, known for a distinctive metallic or splashy character.	chatgpt-2026-10	draft
+SL000666	gated_reverb	A reverberation effect abruptly shortened by a gate or similar processing, producing a large ambience followed by a sharp cutoff.	chatgpt-2026-10	draft
+SL000667	shimmer_reverb	A reverberation effect combined with pitch-shifted feedback, often adding sustained upper-octave layers to the decay.	chatgpt-2026-10	draft
+SL000668	delay	An effect that repeats a sound after a chosen time interval, with timing and feedback controlling the rhythmic or spatial result.	chatgpt-2026-10	draft
+SL000669	tape_delay	A delay effect produced by recording and replaying sound on moving magnetic tape, or by digitally modeling its characteristic behavior.	chatgpt-2026-10	draft
+SL000670	slapback	A short, usually single audible echo that thickens a sound without creating a long chain of repetitions.	chatgpt-2026-10	draft
+SL000671	dub_echo	Echo processing associated with dub, often using live changes in feedback, timing, and filtering to transform a recording.	chatgpt-2026-10	draft
+SL000672	stereo_panning	The placement or movement of a sound between channels to create an apparent position within the stereo image.	chatgpt-2026-10	draft
+SL000673	modulation_effects	Effects that vary a sound parameter over time, often cyclically, to create motion, doubling, or changing tone color.	chatgpt-2026-10	draft
+SL000674	chorus_effect	An effect that combines a signal with slightly delayed and pitch-varied copies to suggest multiple performers or a broader sound.	chatgpt-2026-10	draft
+SL000675	flanger	An effect that mixes a signal with a very short, changing delay, producing moving comb-filter peaks and notches.	chatgpt-2026-10	draft
+SL000676	phaser	An effect that combines a signal with phase-shifted copies, creating moving frequency notches and a sweeping timbre.	chatgpt-2026-10	draft
+SL000677	tremolo_effect	A periodic variation in sound level, distinct from vibrato, which varies pitch.	chatgpt-2026-10	draft
+SL000678	distortion	A deliberate or incidental alteration of a signal that changes its waveform and often adds harmonics through clipping or saturation.	chatgpt-2026-10	draft
+SL000679	overdrive	A form of distortion associated with driving an amplifier or modeled circuit beyond its clean range, often producing comparatively soft clipping.	chatgpt-2026-10	draft
+SL000680	fuzz	A strong distortion effect that produces a thick, buzzy, or sharply clipped tone, commonly used with electric guitar.	chatgpt-2026-10	draft
+SL000681	bitcrusher	A digital effect that reduces bit depth, sample rate, or both to introduce quantization noise and other coarse digital artifacts.	chatgpt-2026-10	draft
+SL000682	distorted_vocals	Vocals processed or captured with deliberate clipping, saturation, or other distortion to add grit, density, or aggression.	chatgpt-2026-10	draft
+SL000683	filter_effects	Audio effects that reshape the frequency spectrum by emphasizing, attenuating, or removing selected frequency regions.	chatgpt-2026-10	draft
+SL000684	filter_sweep	A gradual change in a filter's cutoff or other setting, creating a moving change in brightness or spectral emphasis.	chatgpt-2026-10	draft
+SL000685	resonant_filter	A filter that emphasizes frequencies near its cutoff, creating a pronounced peak that can sound ringing or sharply colored.	chatgpt-2026-10	draft
+SL000686	wah_wah	A filter-based effect whose moving frequency emphasis produces a vowel-like sound, often controlled by a foot pedal.	chatgpt-2026-10	draft
+SL000687	envelope_filter	A filter whose behavior responds to the changing level or envelope of the input signal, producing touch-sensitive tonal movement.	chatgpt-2026-10	draft
+SL000688	pitch_effects	Audio processes that alter, correct, or multiply pitch, including pitch shifting, harmonization, and pitch correction.	chatgpt-2026-10	draft
+SL000689	autotune	Pitch-correction processing associated with the Auto-Tune product and similar tools, used subtly for tuning or audibly as a stylized effect.	chatgpt-2026-10	draft
+SL000690	pitch_shift	Processing that moves a sound to a different pitch, ideally without requiring a corresponding change in duration.	chatgpt-2026-10	draft
+SL000691	pitched_up_vocals	Vocals shifted to a higher pitch for a lighter, smaller, or stylized sound; the resulting timbre depends on formant treatment.	chatgpt-2026-10	draft
+SL000692	slowed_reverb	A production treatment that slows a recording and adds reverberation, often lowering pitch when playback speed is reduced; it is distinct from chopped-and-screwed editing.	chatgpt-2026-10	draft
+SL000693	harmonizer	A pitch-processing effect that adds one or more shifted copies of a sound to create harmonies or thicker textures.	chatgpt-2026-10	draft
+SL000694	octaver	A pitch effect that adds a copy of a sound one or more octaves above or below the original.	chatgpt-2026-10	draft
+SL000695	time_effects	Audio processes that change playback direction, timing, repetition, or duration to reshape musical material.	chatgpt-2026-10	draft
+SL000696	reverse	Playback of recorded sound backward, reversing its attacks, decays, and internal sequence.	chatgpt-2026-10	draft
+SL000697	stutter	Rapid repetition of a short audio fragment, producing a chopped or interrupted rhythmic effect.	chatgpt-2026-10	draft
+SL000698	tape_stop	An effect that slows playback toward a halt, often lowering pitch and imitating a stopping tape machine or turntable.	chatgpt-2026-10	draft
+SL000699	time_stretch	Processing that changes an audio recording's duration, ideally while preserving its original pitch.	chatgpt-2026-10	draft
+SL000700	sampling	The use of recorded sound fragments as musical material, often through editing, repetition, pitch changes, or recombination.	chatgpt-2026-10	draft
+SL000701	loop	A recorded or programmed musical passage repeated cyclically to create accompaniment, texture, or a structural foundation.	chatgpt-2026-10	draft
+SL000702	vocal_chops	Short vocal fragments edited and rearranged as rhythmic or melodic material, often treated like an instrument.	chatgpt-2026-10	draft
+SL000703	sample_flip	A creative transformation of a sample through editing, rearrangement, pitch changes, or processing to give it a new musical role.	chatgpt-2026-10	draft
+SL000704	sound_design	The deliberate creation and shaping of sounds, including timbres, textures, effects, and transitions that serve a musical or dramatic purpose.	chatgpt-2026-10	draft
+SL000705	riser	A transition sound that increases in pitch, intensity, density, or brightness to build anticipation.	chatgpt-2026-10	draft
+SL000706	downlifter	A transition sound that falls in pitch, intensity, or brightness, often following a climax or introducing a new section.	chatgpt-2026-10	draft
+SL000707	impact	A short, forceful sound used to emphasize a section entry, edit, or dramatic event, often combining low-frequency and noisy layers.	chatgpt-2026-10	draft
+SL000708	braam	A loud, low, often brass-like or heavily processed cinematic sound used for dramatic emphasis in trailers and soundtrack-oriented music.	chatgpt-2026-10	draft
+SL000709	sub_drop	A low-frequency sound that descends in pitch, often used to mark a transition or add weight to a section.	chatgpt-2026-10	draft
+SL000710	ambient_texture	A sustained or evolving background sound that establishes space, atmosphere, or continuity rather than a clear foreground melody.	chatgpt-2026-10	draft
+SL000711	era_aesthetic	A production descriptor referring to sonic traits associated with a historical period, while recognizing that each period contains many different styles.	chatgpt-2026-10	draft
+SL000712	sound_50s	A production aesthetic referencing selected 1950s recording traits, such as prominent live ensembles, restrained editing, and period-specific studio ambience.	chatgpt-2026-10	draft
+SL000713	sound_60s	A production aesthetic referencing selected 1960s recording traits, such as tape-based tracking, distinctive room or plate reverberation, and experimental studio layering.	chatgpt-2026-10	draft
+SL000714	sound_70s	A production aesthetic referencing selected 1970s recording traits, such as analog multitracking, distinctive drum-room sounds, and warm electric instrumentation.	chatgpt-2026-10	draft
+SL000715	sound_80s	A production aesthetic referencing selected 1980s traits, often including drum machines, synthesizers, digital reverberation, and strongly processed drums.	chatgpt-2026-10	draft
+SL000716	sound_90s	A production aesthetic referencing selected 1990s traits, such as sample-based production, prominent alternative-rock guitars, or early digital processing, depending on style.	chatgpt-2026-10	draft
+SL000717	sound_2000s	A production aesthetic referencing selected 2000s traits, often involving computer-based editing, tightly controlled dynamics, and increasingly digital production workflows.	chatgpt-2026-10	draft
+SL000718	modern_sound	A contemporary production aesthetic associated with current recording, editing, and mixing practices; its meaning changes over time and across styles.	chatgpt-2026-10	draft
+SL000719	dynamics	The relative loudness and intensity of musical sounds, including contrasts and changes within a phrase or piece.	chatgpt-2026-10	draft
+SL000720	soft_dynamics	Playing or singing at a comparatively quiet level, with its expressive effect depending on timbre, context, and contrast.	chatgpt-2026-10	draft
+SL000721	loud_dynamics	Playing or singing at a comparatively strong level, often creating emphasis or intensity without necessarily implying distortion.	chatgpt-2026-10	draft
+SL000722	crescendo	A gradual increase in musical loudness or intensity over a passage.	chatgpt-2026-10	draft
+SL000723	decrescendo	A gradual decrease in musical loudness or intensity over a passage.	chatgpt-2026-10	draft
+SL000724	sforzando	A sudden, forceful emphasis on a note or chord, usually understood in relation to the surrounding dynamic level.	chatgpt-2026-10	draft
+SL000725	dynamic_contrast	A marked difference in loudness or intensity between musical passages, parts, or successive events.	chatgpt-2026-10	draft
+SL000726	slow_burn	A gradual accumulation of intensity across an extended passage or piece, achieved through dynamics, layering, pacing, or harmonic tension.	chatgpt-2026-10	draft
+SL000727	articulation	The way notes begin, end, and connect, shaping their attack, duration, separation, and expressive character.	chatgpt-2026-10	draft
+SL000728	staccato	An articulation in which notes are shortened and separated from one another.	chatgpt-2026-10	draft
+SL000729	legato	An articulation in which successive notes are smoothly connected with minimal separation.	chatgpt-2026-10	draft
+SL000730	marcato	An articulation indicating clear emphasis or marked attack, giving notes a more pronounced presence.	chatgpt-2026-10	draft
+SL000731	tenuto	A marking indicating that a note should be sustained for its full value, sometimes with additional emphasis depending on context.	chatgpt-2026-10	draft
+SL000732	lyric_device	A writing technique that shapes the sound, structure, imagery, or meaning of song lyrics.	chatgpt-2026-10	draft
+SL000733	rhyme_scheme	The organized pattern of rhyming line endings in lyrics or verse, often represented by letters such as ABAB or AABB.	chatgpt-2026-10	draft
+SL000734	internal_rhyme	Rhyme occurring within a line or between internal positions in neighboring lines rather than only at line endings.	chatgpt-2026-10	draft
+SL000735	multisyllabic_rhyme	A rhyme extending across more than one syllable, often used to create elaborate sound patterns in rap and other lyrics.	chatgpt-2026-10	draft
+SL000736	assonance	The repetition of similar vowel sounds in nearby words, creating sonic cohesion without requiring full rhyme.	chatgpt-2026-10	draft
+SL000737	repetition	The deliberate recurrence of words, lines, or phrases to emphasize an idea, establish rhythm, or create a memorable hook.	chatgpt-2026-10	draft
+SL000738	storytelling	Lyrics that develop events, characters, or a narrative perspective, whether through a clear sequence or fragmented scenes.	chatgpt-2026-10	draft
+SL000739	punchline	A concluding or emphatic line that delivers a joke, surprise, verbal twist, or pointed comparison, especially in rap.	chatgpt-2026-10	draft
+SL000740	double_entendre	A word or phrase that supports two interpretations, often combining an ordinary meaning with a humorous, suggestive, or hidden one.	chatgpt-2026-10	draft
+SL000741	title_drop	The inclusion of a work's title within its lyrics, often at a memorable or structurally prominent moment.	chatgpt-2026-10	draft
+SL000742	vocables	Sung syllables without a conventional lexical meaning, used for melody, rhythm, expression, or vocal texture.	chatgpt-2026-10	draft
+SL000743	onomatopoeia	The use of words or vocal sounds that imitate the noises they describe.	chatgpt-2026-10	draft
+SL000744	code_switching	The alternation between languages or language varieties within lyrics or vocal performance.	chatgpt-2026-10	draft
+SL000745	protest_lyrics	Lyrics that criticize, challenge, or mobilize around social or political conditions, often expressing demands or collective concerns.	chatgpt-2026-10	draft
+SL000746	confessional_lyrics	Lyrics presenting intimate personal feelings, experiences, or self-examination, often through a first-person perspective.	chatgpt-2026-10	draft
+SL000747	abstract_lyrics	Lyrics that emphasize imagery, ambiguity, association, or sound rather than a straightforward narrative or explicit literal message.	chatgpt-2026-10	draft
+SL000748	instrumental_track	A musical piece or recording presented without a principal sung or spoken vocal part, though incidental nonverbal vocal sounds may sometimes appear.	chatgpt-2026-10	draft
+SL000749	mood	A descriptor of a music passage's perceived emotional or expressive character, shaped by sound, context, and individual interpretation.	chatgpt-2026-10	draft
+SL000750	mood_bright	A perceived cheerful or light musical character, often suggested by buoyant rhythm, clear timbres, or lively phrasing rather than any single technical feature.	chatgpt-2026-10	draft
+SL000751	mood_uplifting	A musical character perceived as encouraging, hopeful, or elevating, often supported by rising energy and a sense of release.	chatgpt-2026-10	draft
+SL000752	mood_melancholic	A musical character perceived as wistful, sorrowful, or gently sad, without requiring a particular key or tempo.	chatgpt-2026-10	draft
+SL000753	mood_nostalgic	A musical character that evokes memory, longing, or a sense of the past through style, timbre, melody, or personal association.	chatgpt-2026-10	draft
+SL000754	mood_dark	A musical character perceived as shadowed, somber, or heavy, shaped by timbre, harmony, register, and context.	chatgpt-2026-10	draft
+SL000755	mood_ominous	A musical character that suggests approaching danger or unease, often through tension, unresolved motion, or restrained intensity.	chatgpt-2026-10	draft
+SL000756	mood_aggressive	A musical character emphasizing force, confrontation, or abrasive energy through performance, rhythm, dynamics, or timbre.	chatgpt-2026-10	draft
+SL000757	mood_energetic	A musical character perceived as active and vigorous, supported by rhythmic drive, strong attacks, or sustained intensity.	chatgpt-2026-10	draft
+SL000758	mood_chill	A relaxed, low-pressure musical character, often using restrained dynamics, unhurried pacing, and soft or spacious textures.	chatgpt-2026-10	draft
+SL000759	mood_dreamy	A floating or imagined musical character, often suggested by blurred attacks, sustained textures, spacious effects, or gentle melodic movement.	chatgpt-2026-10	draft
+SL000760	mood_hypnotic	A musical character that encourages sustained absorption through repetition, steady pulse, gradual change, or immersive texture.	chatgpt-2026-10	draft
+SL000761	mood_epic	A musical character suggesting large scale, grandeur, or dramatic stakes, often created through broad gestures and accumulating intensity.	chatgpt-2026-10	draft
+SL000762	anthemic	A bold, memorable musical character suited to collective participation, often using strong hooks and emphatic recurring phrases.	chatgpt-2026-10	draft
+SL000763	mood_romantic	A musical character associated with affection, intimacy, or emotional longing, distinct from the historical Romantic period.	chatgpt-2026-10	draft
+SL000764	mood_sensual	A musical character perceived as physically intimate or seductive, often through smooth phrasing, tactile timbres, or a relaxed groove.	chatgpt-2026-10	draft
+SL000765	mood_playful	A light, mischievous, or humorous musical character, often created through unexpected gestures, buoyant rhythms, or contrasting sounds.	chatgpt-2026-10	draft
+SL000766	mood_theatrical	A musical character emphasizing dramatic presentation, heightened expression, or staged contrasts.	chatgpt-2026-10	draft
+SL000767	mood_mysterious	A musical character that suggests uncertainty or hidden meaning through ambiguous harmony, unusual timbres, or incomplete resolution.	chatgpt-2026-10	draft
+SL000768	mood_introspective	A musical character perceived as inward-looking or reflective, often supported by restrained delivery and space for detailed expression.	chatgpt-2026-10	draft
+SL000769	mood_triumphant	A musical character suggesting achievement, victory, or confident arrival, often using strong accents and a sense of resolution.	chatgpt-2026-10	draft
+SL000770	mood_spiritual	A musical character associated with contemplation, transcendence, or sacred experience, without implying one particular religious tradition.	chatgpt-2026-10	draft
+SL000771	mood_groovy	A musical character centered on an engaging rhythmic feel that invites bodily movement, often through coordinated accents and timing.	chatgpt-2026-10	draft
+SL000772	mood_raw	A musical character perceived as unpolished, direct, or emotionally exposed, often retaining rough timbres and performance irregularities.	chatgpt-2026-10	draft
+SL000773	guitar	A fretted plucked string instrument with a long neck and a flat-fronted body, usually with six strings, in acoustic and electric forms.	claude-2026-10	draft
+SL000774	archtop_guitar	A steel-string guitar with an arched top and f-holes, often fitted with pickups, long the standard rhythm and solo guitar of swing and jazz.	claude-2026-10	draft
+SL000775	electric_sitar	An electric guitar with a special buzzing bridge, and often sympathetic strings, built to imitate the timbre of the sitar.	claude-2026-10	draft
+SL000776	baritone_guitar	A guitar with a longer scale tuned lower than a standard guitar, typically a fourth or a fifth below.	claude-2026-10	draft
+SL000777	tenor_banjo	A four-string banjo with a short neck, usually tuned in fifths, used for chordal rhythm in early jazz and for melody in Irish traditional music.	claude-2026-10	draft
+SL000778	bajo_sexto	A large Mexican guitar with six double courses of strings, providing bass and harmony in norteño and Tejano music.	claude-2026-10	draft
+SL000779	portuguese_guitar	A pear-shaped plucked string instrument with six double courses of steel strings, the lead instrument of fado.	claude-2026-10	draft
+SL000780	tar_lute	A long-necked lute with a double-bowl body covered by a thin membrane, central to the classical music of Iran and Azerbaijan.	claude-2026-10	draft
+SL000781	ngoni	A West African plucked lute with a wooden body covered in skin, played by griots and in Malian popular music.	claude-2026-10	draft
+SL000782	kantele	A Finnish and Karelian plucked zither, from small five-string instruments to large concert models with many strings.	claude-2026-10	draft
+SL000783	autoharp	A zither fitted with chord bars that damp all strings except those of the selected chord, so that strumming sounds a single chord.	claude-2026-10	draft
+SL000784	electric_violin	A violin with pickups, often with a solid or skeletal body, played through amplification and effects.	claude-2026-10	draft
+SL000785	morin_khuur	A Mongolian two-string bowed instrument with a trapezoidal body and a scroll carved as a horse's head.	claude-2026-10	draft
+SL000786	kamancheh	A spike fiddle of Iran and neighboring regions, with a small round body covered in skin, held upright and bowed.	claude-2026-10	draft
+SL000787	rebab	A name for several bowed lutes with few strings and often a skin-covered body, found from North Africa and the Middle East to Indonesia.	claude-2026-10	draft
+SL000788	siku	Andean panpipes in two rows of tubes, traditionally divided between two players who alternate notes to form one melody.	claude-2026-10	draft
+SL000789	quena	An Andean end-blown flute of cane or wood with a notch cut into the blowing end.	claude-2026-10	draft
+SL000790	kaval	A chromatic end-blown flute of the Balkans and Anatolia, held obliquely and known for its breathy tone.	claude-2026-10	draft
+SL000791	fife	A small, high-pitched transverse flute, usually without keys, played with drums in military and folk music.	claude-2026-10	draft
+SL000792	zurna	A loud conical double-reed wind instrument of Turkey, the Balkans, the Middle East and Central Asia, usually paired with a large drum.	claude-2026-10	draft
+SL000793	shawm	A loud conical double-reed wind instrument of medieval and Renaissance Europe, a forerunner of the oboe.	claude-2026-10	draft
+SL000794	highland_bagpipe	The Scottish bagpipe, blown by mouth, with a chanter of nine notes and three drones.	claude-2026-10	draft
+SL000795	uilleann_pipes	The Irish bagpipe, filled by a bellows under the arm, with a chanter of about two octaves, drones and keyed regulators that can add chords.	claude-2026-10	draft
+SL000796	gaida	A bagpipe of the Balkans and southeastern Europe, made of goat or sheep skin, with one chanter and one drone.	claude-2026-10	draft
+SL000797	sousaphone	A tuba built to wrap around the player's body, with a large forward-facing bell, used in marching bands and New Orleans brass bands.	claude-2026-10	draft
+SL000798	euphonium	A conical valved brass instrument in the tenor-baritone range, prominent in brass bands and wind bands.	claude-2026-10	draft
+SL000799	electric_grand	A grand-piano-like instrument with strings and hammers whose sound is captured by pickups, made portable for stage use.	claude-2026-10	draft
+SL000800	button_accordion	An accordion with buttons instead of a piano keyboard, in which each button usually gives one note when the bellows open and another when they close.	claude-2026-10	draft
+SL000801	string_synth	An electronic keyboard, mainly of the 1970s and 1980s, built to imitate an orchestral string section, usually with an ensemble or chorus effect.	claude-2026-10	draft
+SL000802	keytar	A keyboard, usually a synthesizer or controller, worn with a shoulder strap and played standing like a guitar.	claude-2026-10	draft
+SL000803	wind_synth	An electronic controller played like a wind instrument, whose breath and key sensors drive a synthesizer.	claude-2026-10	draft
+SL000804	guitar_synth	A system that converts the playing of a guitar into control signals for a synthesizer, usually through a pickup with one output per string.	claude-2026-10	draft
+SL000805	maracas	A pair of rattles, traditionally gourds filled with seeds, shaken in Latin American and Caribbean music.	claude-2026-10	draft
+SL000806	guira	A metal scraper with a perforated or ridged surface, played with a stiff brush, characteristic of Dominican merengue and bachata.	claude-2026-10	draft
+SL000807	caixa	The Brazilian snare drum, played with sticks in samba and maracatu.	claude-2026-10	draft
+SL000808	repinique	A high-pitched two-headed Brazilian drum whose player leads calls and breaks in a samba percussion section.	claude-2026-10	draft
+SL000809	atabaque	A tall Afro-Brazilian hand drum, used in Candomblé ceremonies and in capoeira.	claude-2026-10	draft
+SL000810	dholak	A two-headed barrel drum of South Asia played with the hands, used in folk music, qawwali, bhangra and film songs.	claude-2026-10	draft
+SL000811	ghatam	A clay pot played with the fingers, palms and wrists as a percussion instrument in South Indian classical music.	claude-2026-10	draft
+SL000812	sabar	A Senegalese drum played with one hand and one stick, central to Wolof music and mbalax.	claude-2026-10	draft
+SL000813	wood_block	A hollow block of wood struck with a stick or mallet, giving a short, dry, high-pitched knock.	claude-2026-10	draft
+SL000814	bombo_leguero	An Argentine bass drum with a wooden shell and hide heads, struck on the head and the rim in Andean and Argentine folk music.	claude-2026-10	draft
+SL000815	dunun	West African cylindrical bass drums played with sticks, often with an attached bell, that form the base of djembe ensembles.	claude-2026-10	draft
+SL000816	mark_tree	A row of hanging metal rods of graded length that sound a shimmering cascade when swept with the hand or a stick.	claude-2026-10	draft
+SL000817	anvil	A blacksmith's anvil, or a steel bar substituting for one, struck as a percussion instrument.	claude-2026-10	draft
+SL000818	bateria	The percussion section of a samba school, combining surdos, snare drums, repiniques, tamborims, cuícas and other instruments.	claude-2026-10	draft
+SL000819	tamburica_orchestra	An ensemble of long-necked plucked tamburica instruments of different sizes, traditional in Croatia, Serbia and Hungary.	claude-2026-10	draft
+SL000822	pelog	A gamelan tuning of seven tones per octave with unequal intervals, from which pieces usually draw five-tone subsets.	claude-2026-10	draft
+SL000823	slendro	A gamelan tuning of five tones per octave with intervals of roughly equal size.	claude-2026-10	draft
+SL000824	ground_bass	A short bass line repeated many times while the upper parts vary above it.	claude-2026-10	draft
+SL000825	acciaccatura	A grace note played as quickly as possible, almost together with the main note it precedes.	claude-2026-10	draft
+SL000826	appoggiatura	A non-chord note that falls on the beat and resolves by step to a chord note; as an ornament, it takes part of the main note's value.	claude-2026-10	draft
+SL000827	portamento	A smooth, continuous glide from one note to the next used as an expressive connection, as in singing, bowed strings or a synthesizer's glide setting.	claude-2026-10	draft
+SL000828	steel_guitar	A guitar played with a steel bar pressed on the strings instead of fretting, giving sliding pitches and sustained tones.	claude-2026-10	draft
+SL000829	sarod	A fretless plucked lute of Hindustani music with a skin-covered body, a metal fingerboard and sympathetic strings.	claude-2026-10	draft
+SL000830	tanpura	A long-necked fretless lute whose open strings are plucked in a continuous cycle to provide the drone in Indian classical music.	claude-2026-10	draft
+SL000831	pipa	A Chinese pear-shaped plucked lute with four strings and many frets, played with the fingernails or picks.	claude-2026-10	draft
+SL000832	gayageum	A Korean plucked zither with movable bridges, traditionally with twelve silk strings.	claude-2026-10	draft
+SL000833	dan_tranh	A Vietnamese plucked zither with movable bridges and steel strings.	claude-2026-10	draft
+SL000834	dan_bau	A Vietnamese one-string zither whose harmonics are bent in pitch with a flexible rod.	claude-2026-10	draft
+SL000835	appalachian_dulcimer	A fretted zither of the Appalachian region, usually with three or four strings, played on the lap by plucking or strumming.	claude-2026-10	draft
+SL000836	musical_bow	A string instrument made of a bent stick and a single string, often with a gourd or the player's mouth as resonator.	claude-2026-10	draft
+SL000837	berimbau	A Brazilian musical bow with a gourd resonator, struck with a stick, that leads the music of capoeira.	claude-2026-10	draft
+SL000838	hammered_dulcimer	A zither with strings stretched over a trapezoidal soundboard and struck with small hammers.	claude-2026-10	draft
+SL000839	santur	The hammered dulcimer of Iran and Iraq, with many courses of metal strings struck with light hammers.	claude-2026-10	draft
+SL000840	santoor	The Indian hammered dulcimer, adapted from the Kashmiri santoor for Hindustani classical music.	claude-2026-10	draft
+SL000841	yangqin	The Chinese hammered dulcimer, struck with bamboo beaters.	claude-2026-10	draft
+SL000842	cimbalom	A large hammered dulcimer of Central and Eastern Europe, the concert form having legs and a damper pedal, prominent in Hungarian and Romani music.	claude-2026-10	draft
+SL000843	hardanger_fiddle	A Norwegian folk fiddle with sympathetic strings under the fingerboard and a decorated body.	claude-2026-10	draft
+SL000844	viola_da_gamba	A fretted bowed string instrument of the Renaissance and Baroque, held between or on the legs and bowed underhand.	claude-2026-10	draft
+SL000845	sarangi	A short-necked bowed lute of North India and Pakistan with a skin-covered body and many sympathetic strings.	claude-2026-10	draft
+SL000846	bansuri	A bamboo transverse flute of North India, used in classical, folk and film music.	claude-2026-10	draft
+SL000847	dizi	A Chinese transverse flute whose buzzing membrane over an extra hole gives a bright, reedy tone.	claude-2026-10	draft
+SL000848	ocarina	A vessel flute, usually of clay, with finger holes on a closed, rounded body.	claude-2026-10	draft
+SL000849	bass_clarinet	A clarinet pitched an octave below the B-flat clarinet, with an upturned bell and a dark, rich low register.	claude-2026-10	draft
+SL000850	suona	A loud Chinese double-reed wind instrument with a conical wooden body and a metal bell.	claude-2026-10	draft
+SL000851	sheng	A Chinese free-reed mouth organ with vertical pipes, able to play chords.	claude-2026-10	draft
+SL000852	dx7	A digital synthesizer released by Yamaha in 1983 that made FM synthesis widespread, known for electric piano, bell and bass sounds.	claude-2026-10	draft
+SL000853	bodhran	An Irish frame drum held upright and struck with a double-ended stick, the other hand pressing the skin to change pitch and tone.	claude-2026-10	draft
+SL000854	pandeiro	A Brazilian frame drum with metal jingles, played with the hand and fingers in samba, choro and capoeira.	claude-2026-10	draft
+SL000855	tamborim	A small Brazilian frame drum without jingles, struck with a stick in samba.	claude-2026-10	draft
+SL000856	daf	A large frame drum of Iran, Kurdistan and neighboring regions, often with metal rings inside the frame.	claude-2026-10	draft
+SL000857	riq	An Arabic frame drum with pairs of metal jingles, used in classical ensembles.	claude-2026-10	draft
+SL000858	bendir	A North African frame drum without jingles, usually with a snare string under the skin that adds a buzz.	claude-2026-10	draft
+SL000859	agogo	A double or multiple bell of West African origin, struck with a stick, used in samba and Afro-Brazilian music.	claude-2026-10	draft
+SL000860	shekere	A dried gourd covered with a net of beads or seeds, shaken and struck, from West Africa.	claude-2026-10	draft
+SL000861	udu	A clay pot drum of Nigerian origin with a side hole, played with the hands to produce deep, liquid tones.	claude-2026-10	draft
+SL000862	jaw_harp	A small instrument with a flexible tongue held against the open mouth and plucked, the mouth shaping its overtones.	claude-2026-10	draft
+SL000863	hammer_on	A guitar technique in which a fretting finger strikes the string firmly enough to sound a higher note without picking it.	claude-2026-10	draft
+SL000864	pull_off	A guitar technique in which a fretting finger is pulled off the string, plucking it slightly to sound a lower note.	claude-2026-10	draft
+SL000865	spiccato	A bow stroke in which the bow bounces off the string, producing short, light notes.	claude-2026-10	draft
+SL000866	tape_saturation	The soft compression and harmonic distortion that occur when analog tape is recorded at high levels, or a digital emulation of it.	claude-2026-10	draft
+SL000820	resonator_guitar	A guitar with one or more metal resonator cones that amplify the strings acoustically, played with a slide or lap-style with a steel.	claude-2026-10	draft
+SL000821	tres	The Cuban three-course guitar, with doubled strings, whose syncopated melodic patterns are central to son and related styles.	claude-2026-10	draft
+SL000929	afoxe	A Brazilian gourd rattle covered with a net of beads, shaken or twisted against the palm.	claude-2026-10	draft
+SL000949	alfaia	A large rope-tuned Brazilian bass drum played with sticks, the core of maracatu.	claude-2026-10	draft
+SL000921	apito_de_samba	A loud whistle with several tones used by the director of a samba percussion section to give cues.	claude-2026-10	draft
+SL000901	arghul	An Egyptian double clarinet of cane with one melody pipe and one longer drone pipe, played with circular breathing.	claude-2026-10	draft
+SL000869	baglamas	A small Greek long-necked lute, an octave above the bouzouki, used in rebetiko and laiko.	claude-2026-10	draft
+SL000872	bandurria	A Spanish and Filipino plucked instrument with six double courses, played with a plectrum, often in tremolo.	claude-2026-10	draft
+SL000930	barrel_drum	A drum with a barrel-shaped body, played with the hands or sticks, such as the drums of Puerto Rican bomba.	claude-2026-10	draft
+SL000925	barrel_organ	A mechanical organ in which a hand-turned pinned barrel plays the tunes, typical of street music.	claude-2026-10	draft
+SL000956	bell	A hollow, usually metal idiophone struck or shaken to ring, from handbells and cowbell-like timeline bells to church bells.	claude-2026-10	draft
+SL000873	biwa	A Japanese short-necked fretted lute played with a large plectrum, used in court music and narrative song.	claude-2026-10	draft
+SL000923	bugle	A valveless brass instrument that plays only natural harmonics, used for military calls and in drum and bugle corps.	claude-2026-10	draft
+SL000931	buk	A Korean barrel drum played with a stick and the hand, the accompaniment of pansori and part of pungmul.	claude-2026-10	draft
+SL000932	caxixi	A small Brazilian woven basket rattle, often played together with the berimbau.	claude-2026-10	draft
+SL000933	clapstick	A pair of wooden sticks struck together to keep the beat in Aboriginal Australian song.	claude-2026-10	draft
+SL000892	classical_kemence	A small pear-shaped three-string bowed lute of Ottoman classical music, held upright on the knee.	claude-2026-10	draft
+SL000959	cobla	The Catalan wind band of eleven players (flabiol and tabor, tibles, tenoras, brass and double bass) that accompanies the sardana.	claude-2026-10	draft
+SL000902	daegeum	A large Korean bamboo transverse flute with a buzzing membrane, used in court and folk music.	claude-2026-10	draft
+SL000893	djoza	An Iraqi spike fiddle with a coconut-shell body, part of the chalghi ensemble of Iraqi maqam.	claude-2026-10	draft
+SL000875	doshpuluur	A Tuvan long-necked lute with two or three strings, plucked or strummed to accompany throat singing.	claude-2026-10	draft
+SL000927	doyra	A Central Asian frame drum with metal rings inside the frame, used in Uzbek and Tajik music.	claude-2026-10	draft
+SL000876	dutar	A long-necked two-string lute of Iran and Central Asia.	claude-2026-10	draft
+SL000903	flabiol	A small Catalan duct flute played with one hand while the other beats a small drum, opening the sardana.	claude-2026-10	draft
+SL000934	friction_drum	A drum sounded by rubbing a stick or cord attached to the skin, producing a grunting or moaning tone.	claude-2026-10	draft
+SL000900	gaita_gallega	The bagpipe of Galicia, mouth-blown, with a conical chanter and one to three drones.	claude-2026-10	draft
+SL000957	gankogui	A West African double iron bell that plays the timeline pattern in Ewe drumming.	claude-2026-10	draft
+SL000928	ganza	A Brazilian tube shaker of metal or woven material filled with seeds or beads.	claude-2026-10	draft
+SL000950	garifuna_drum	The paired hardwood drums of Garifuna music, the lead primero and the bass segunda, played with the hands.	claude-2026-10	draft
+SL000877	geomungo	A Korean six-string zither with frets, plucked with a bamboo stick.	claude-2026-10	draft
+SL000894	ghijak	A Central Asian spike fiddle with a round body, used in Uzbek, Tajik, Uyghur and Turkmen music.	claude-2026-10	draft
+SL000953	gong_chime	A set of tuned bossed gongs laid in a row or circle and struck with mallets to play melodies, typical of Southeast Asia.	claude-2026-10	draft
+SL000878	gumbri	A three-string bass lute with a camel-skin body, the central instrument of Gnawa music.	claude-2026-10	draft
+SL000879	guqin	A Chinese seven-string fretless zither, the instrument of the scholar class, played with harmonics and slides.	claude-2026-10	draft
+SL000895	haegeum	A Korean two-string fiddle bowed between the strings, used in court and folk music.	claude-2026-10	draft
+SL000958	handbell	A bell with a handle, rung by swinging, played in tuned sets by handbell choirs.	claude-2026-10	draft
+SL000874	heike_biwa	The biwa used to accompany the chanted Tale of the Heike.	claude-2026-10	draft
+SL000904	hichiriki	A short Japanese double-reed pipe with a penetrating tone that carries the melody in gagaku.	claude-2026-10	draft
+SL000896	igil	A Tuvan two-string bowed instrument held upright, often accompanying throat singing.	claude-2026-10	draft
+SL000935	janggu	A Korean hourglass drum with two heads of different pitch, played with a stick and a mallet or the hand.	claude-2026-10	draft
+SL000880	kacapi	A Sundanese boat-shaped or box zither with many strings, accompanying sung poetry and suling.	claude-2026-10	draft
+SL000905	kagurabue	A Japanese six-hole bamboo transverse flute used in Shinto kagura music.	claude-2026-10	draft
+SL000871	kamale_ngoni	A Malian harp-lute with six to twelve strings, derived from the hunter's harp, central to Wassoulou music.	claude-2026-10	draft
+SL000881	kanun	A trapezoidal plucked zither of the Arab and Turkish world, with small levers to adjust microtonal tuning.	claude-2026-10	draft
+SL000936	kartal	Indian wooden clappers with small jingles, played in pairs in devotional music.	claude-2026-10	draft
+SL000906	khene	A Lao and northeast Thai free-reed mouth organ of bamboo pipes in two rows, played with chords and drones.	claude-2026-10	draft
+SL000870	khim	The hammered dulcimer of Thailand and Cambodia, struck with soft bamboo beaters.	claude-2026-10	draft
+SL000954	khong_wong_yai	A Thai circle of sixteen tuned gongs that plays the main melody of the piphat ensemble.	claude-2026-10	draft
+SL000937	kkwaenggwari	A small flat Korean brass gong struck with a wooden mallet; it leads the pungmul percussion band.	claude-2026-10	draft
+SL000938	kotsuzumi	A Japanese hourglass drum held on the shoulder, whose pitch is changed by squeezing the cords; used in noh and kabuki.	claude-2026-10	draft
+SL000939	krakeb	Pairs of large iron castanets played in triplet patterns in Moroccan Gnawa music.	claude-2026-10	draft
+SL000882	krar	A five- or six-string bowl lyre of Ethiopia and Eritrea, plucked or strummed.	claude-2026-10	draft
+SL000940	kudum	A pair of small Turkish kettledrums that keep the rhythmic cycle in Ottoman classical and Sufi music.	claude-2026-10	draft
+SL000907	ken_bau	A Vietnamese double-reed wind instrument with a gourd-shaped bell, used in court and theater music.	claude-2026-10	draft
+SL000883	laud	A Spanish and Cuban plucked instrument with six double courses, played with a plectrum.	claude-2026-10	draft
+SL000941	madal	A Nepali two-headed cylindrical hand drum, the basic rhythm instrument of Nepali folk music.	claude-2026-10	draft
+SL000955	marimbula	A large Caribbean box with plucked metal tongues that supplies the bass in son, mento and related music.	claude-2026-10	draft
+SL000924	mellophone	A forward-belled valved brass instrument in the horn range, used in marching bands and drum corps.	claude-2026-10	draft
+SL000908	mijwiz	A Levantine double clarinet of two cane pipes played together with circular breathing, the lead of dabke.	claude-2026-10	draft
+SL000909	nadaswaram	A long South Indian double-reed wind instrument, played with the thavil drum in temples and weddings.	claude-2026-10	draft
+SL000910	nohkan	The high, piercing Japanese transverse flute of noh and kabuki.	claude-2026-10	draft
+SL000884	octavina	A Philippine guitar-shaped instrument with fourteen strings in courses, the tenor of the rondalla.	claude-2026-10	draft
+SL000942	pakhawaj	A two-headed barrel drum of North India, the accompanying drum of dhrupad and Odissi music.	claude-2026-10	draft
+SL000943	phach	Vietnamese bamboo or wooden clappers that keep the beat in ca trù and other traditional music.	claude-2026-10	draft
+SL000911	pi_nai	A Thai quadruple-reed oboe with a bulging body that leads the piphat ensemble.	claude-2026-10	draft
+SL000912	piri	A Korean cylindrical double-reed pipe with a large reed, leading court and folk ensembles.	claude-2026-10	draft
+SL000944	quijada	A donkey or horse jawbone whose loose teeth rattle when struck or scraped, used in Afro-Latin American music.	claude-2026-10	draft
+SL000926	quinto	The smallest and highest conga drum, which improvises in rumba.	claude-2026-10	draft
+SL000952	ranat_ek	A Thai boat-shaped xylophone with twenty-one bars that leads ensemble melodies with fast octaves.	claude-2026-10	draft
+SL000945	ratchet	A noise-maker in which a cogwheel turns against a wooden tongue, producing a loud clatter.	claude-2026-10	draft
+SL000913	ryuteki	The Japanese bamboo transverse flute of gagaku.	claude-2026-10	draft
+SL000914	saluang	A Minangkabau bamboo end-blown flute played with circular breathing to accompany sung verses.	claude-2026-10	draft
+SL000885	sanshin	The Okinawan three-string lute with a snakeskin body.	claude-2026-10	draft
+SL000886	sanxian	A Chinese long-necked fretless lute with three strings and a snakeskin body.	claude-2026-10	draft
+SL000897	saw_duang	A high-pitched Thai two-string fiddle with a hardwood tube body.	claude-2026-10	draft
+SL000898	saw_u	A low-pitched Thai two-string fiddle with a coconut-shell body.	claude-2026-10	draft
+SL000887	setar	A Persian long-necked lute with four strings, plucked with the index fingernail; intimate and soft.	claude-2026-10	draft
+SL000948	shime_daiko	A small high-pitched Japanese drum with rope-tensioned heads, used in festivals, kabuki and folk music.	claude-2026-10	draft
+SL000915	shinobue	A Japanese high bamboo transverse flute used in festival and folk music.	claude-2026-10	draft
+SL000916	sho	A Japanese free-reed mouth organ of seventeen bamboo pipes that plays sustained clusters in gagaku.	claude-2026-10	draft
+SL000917	suling	An Indonesian bamboo ring flute, used in gamelan, kacapi suling and popular music.	claude-2026-10	draft
+SL000888	tanbur	A family of long-necked fretted lutes of Turkey, Iran and Central Asia.	claude-2026-10	draft
+SL000918	tenora	A Catalan tenor shawm with keys and a metal bell, the lyrical lead voice of the cobla.	claude-2026-10	draft
+SL000919	tible	A Catalan treble shawm with keys, used in the cobla.	claude-2026-10	draft
+SL000889	tiple	A small Colombian guitar with twelve strings in four triple courses, the core of Andean Colombian music.	claude-2026-10	draft
+SL000890	topshuur	A two-string lute of the Altai and western Mongolia, accompanying epic singing.	claude-2026-10	draft
+SL000867	vietnamese_guitar	A guitar with scalloped frets that allow pitch bends and ornaments, the lead of cải lương.	claude-2026-10	draft
+SL000868	viola_caipira	A Brazilian ten-string guitar in five courses, the instrument of rural music of the center-south and the northeast.	claude-2026-10	draft
+SL000920	whistle	A simple duct-blown wind instrument giving one or a few shrill tones, used for signals and as percussion.	claude-2026-10	draft
+SL000922	xiao	A Chinese end-blown bamboo flute with a soft, breathy tone.	claude-2026-10	draft
+SL000951	zabumba	A Brazilian bass drum struck with a mallet on top and a thin stick underneath, the drum of forró and baião.	claude-2026-10	draft
+SL000946	zarb	The Persian goblet drum, played with the fingers in classical and popular music.	claude-2026-10	draft
+SL000891	dan_nguyet	A Vietnamese two-string moon-shaped lute with high frets.	claude-2026-10	draft
+SL000899	dan_nhi	A Vietnamese two-string fiddle with a small tube body.	claude-2026-10	draft
+SL000947	otsuzumi	A Japanese hourglass drum held on the hip, struck for a dry, cracking sound in noh and kabuki.	claude-2026-10	draft

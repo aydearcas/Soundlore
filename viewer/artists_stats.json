@@ -1,0 +1,22 @@
+{
+ "artists": 95927,
+ "read": 263308,
+ "dump": "2026-10-10 01:14:44.672495+00",
+ "min_votes": 2,
+ "wd_total": 2,
+ "rel": 0.25,
+ "on_map": 95827,
+ "links": 206965,
+ "genres_with_artists": 1580,
+ "from_wikidata": 47800,
+ "wd_sitelinks": 3,
+ "types": {
+  "Person": 61171,
+  "Group": 33653,
+  "Choir": 47,
+  "Orchestra": 365,
+  "Other": 63,
+  "Character": 71,
+  "unknown": 557
+ }
+}

@@ -35,7 +35,7 @@ singing_technique | Singing techniques |  | Techniques of sung vocal production.
   crooning | Crooning |  | Soft singing close to the microphone. | crooner vocals | 
   operatic | Operatic singing | bel canto | Classical technique projecting without a microphone. | operatic vocals | opera
   melismatic_singing | Melismatic singing |  | Style rich in melismas. |  | melisma
-  vocal_runs | Vocal runs |  | Fast passages of notes on one syllable; R&B and gospel. | vocal runs | melisma
+  vocal_runs | Vocal runs |  | Fast passages of notes on one syllable; R&B and gospel. | vocal runs | ^melisma, melismatic_singing
   cante_jondo | Cante jondo |  | Melismatic, raw flamenco singing. | flamenco vocals | 
   overtone_singing | Overtone singing | throat singing; khöömei | One voice producing a note and its overtones at once. | throat singing | 
   humming | Humming |  | Singing with the mouth closed. | humming | 

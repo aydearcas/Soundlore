@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+honkyoku ; high ; C instrumental_track free_meter mood_spiritual solo_performer | F tempo_very_slow ornamentation | O | X koto shamisen ; Zen solo shakuhachi repertoire: unmetered, meditative, for shakuhachi alone.
+huapango ; high ; C time_6_8 male_vocals | F improvisation mood_bright | O | X hemiola ; Huasteca son: violin, jarana and huapanguera guitar, falsetto breaks; sesquialtera is implied by the meter.
+huaylarsh ; medium ; C mood_bright | F violin saxophone | O ; Central Peruvian harvest dance with violins and later saxophones and clarinets.
+huayno ; high ; C female_vocals | F quena mandolin violin | O accordion ; Andean song-dance in 2/4 with a short-long rhythm, pentatonic melodies and high female voices.
+huayno con arpa ; medium ; C female_vocals violin | F quena | O ; Huayno led by the Andean harp, often with violins.
+humppa ; high ; C double_bass | F trumpet electric_guitar male_vocals | O ; Finnish fast foxtrot-polka dance music with accordion and double bass.
+hyangak ; medium ; C tempo_slow heterophony | F gayageum mb:geomungo mb:daegeum mb:piri | O ; Native Korean court music: slow, heterophonic strings and winds.
+hát tuồng ; medium ; C mood_theatrical | F mb:kèn_bầu large_drums male_vocals female_vocals | O  ; Vietnamese classical opera with oboe, drums and gongs.
+iavnana ; medium ; C female_vocals | F repetition drone | O ; Georgian lullaby and healing song addressed to the iavnana spirits.
+indian classical ; high ; C tanpura | F sitar sarangi bansuri ornamentation | O tempo_change ; Hindustani and Carnatic art music: raga melody over tanpura drone with tabla or mridangam and improvisation.
+instrumental ; high ; ; A general label for music without vocals; nothing more can be said about the genre as a whole.
+iraqi maqam ; high ; C male_vocals santur mb:djoza | F riq darbuka free_meter | O | X ney oud ; Iraqi maqam is sung with the chalghi ensemble of santur, joza, darbuka and riq; ney and oud are not core.
+isicathamiya ; high ; C male_vocals bass_voice | F tempo_slow vocal_harmonies | O mood_spiritual ; Zulu a cappella male choral style with soft, close harmony and stepping.
+islamic modal music ; medium ; C free_meter | F mb:kanun riq | O ; Art music of the Arab, Turkish and Persian worlds based on modal systems, improvisation and ornament.
+izlan ; medium ; C chant choir | F bendir handclaps female_vocals | O  | X frame_drum ; Amazigh song of the Atlas; the drum is the bendir.
+japanese classical ; medium ; C instrumental_track | F tempo_slow heterophony | O ; Umbrella for Japanese traditional art music.
+jeongak ; medium ; C tempo_slow heterophony | F mb:daegeum mb:piri mb:haegeum gayageum mb:janggu | O ; Korean court and literati music: slow, heterophonic winds and strings.
+jiangnan sizhu ; high ; C yangqin pipa heterophony dizi | F instrumental_track tempo_mid | O | X flute ; Shanghai silk-and-bamboo ensemble: erhu, dizi, pipa, yangqin and sanxian in heterophony.
+jit ; medium ; C male_vocals syncopation | F electric_bass drum_kit mood_energetic | O ; Zimbabwean fast guitar dance music.
+jiuta ; medium ; C female_vocals tempo_slow | F | O ; Japanese chamber song with shamisen, often with koto and shakuhachi.
+joik ; high ; C male_vocals female_vocals repetition | F vocables free_meter | O drum_kit ; Sámi chant evoking a person, animal or place, with vocables and short repeated melodies.
+jongo ; medium ; C atabaque vocal_call_response | F mood_spiritual mb:caxixi handclaps | O  | X hand_percussion ; Afro-Brazilian circle dance of the southeast with tambu and candongueiro drums and riddling songs.
+jota ; high ; C male_vocals | F mb:bandurria tambourine | O ; Spanish triple-time dance song with guitars, bandurrias and castanets.
+junkanoo ; high ; C large_drums | F mb:whistle mb:bell trumpet | O ; Bahamian street parade music: goatskin drums, cowbells, whistles and horns.
+jùjú ; high ; C male_vocals vocal_call_response | F agogo synthesizer | O ; Nigerian Yoruba popular music: multiple guitars, talking drums and pedal steel.
+jōruri ; high ; C male_vocals mood_theatrical | F spoken_vocal | O  | X koto shakuhachi ; Narrative chanting with shamisen for puppet theater.
+kacapi suling ; high ; C mb:kacapi mb:suling tempo_slow | F instrumental_track mood_introspective mood_melancholic | O  | X pitched_percussion ; Sundanese chamber music in Sundanese laras (pelog, salendro, sorog) of kacapi zither and suling flute.
+kadodi ; medium ; C polyrhythm mood_energetic | F vocal_call_response large_drums | O male_vocals ; Bagisu circumcision ceremony music with drums and dance.
+kadongo kamu ; medium ; C male_vocals | F mood_introspective fingerpicking | O mood_playful ; Ugandan acoustic guitar singer-songwriter storytelling.
+kagura ; medium ; C mb:shinobue mood_spiritual | F mb:shime-daiko mb:kagurabue | O ; Shinto ritual music: transverse flute, drums and bells.
+kai ; medium ; C male_vocals | F mb:topshuur storytelling free_meter | O  ; Altai throat-sung epic recitation with topshuur.
+kalindula ; medium ; C male_vocals | F tempo_mid mood_energetic drum_kit | O  ; Zambian popular music with guitars and the kalindula bass.
+kaseko (Suriname) ; medium ; C tempo_fast | F snare_drum trumpet call_and_response | O ; Surinamese Afro-Creole dance music from brass bands and skratyi drums.
+kasékò (Guiana) ; medium ; C polyrhythm tempo_fast | F vocal_call_response mood_energetic | O  ; Creole drum dance of French Guiana.
+kecak ; high ; C hocket mood_hypnotic | F mood_theatrical vocables | O ; Balinese 'monkey chant': massed male chorus interlocking 'cak' syllables around a narrator.
+keroncong ; medium ; C mood_nostalgic tempo_slow | F female_vocals cello violin flute | O ; Indonesian Portuguese-derived ensemble music: cuk and cak ukuleles, guitar, cello pizzicato, violin and flute.
+kete ; medium ; C instrumental_track | F polyrhythm mood_energetic drum_solo | O  ; Asante court drum ensemble music.
+khrueang sai ; medium ; C mb:saw_duang mb:saw_u mb:khim | F heterophony instrumental_track tempo_mid | O  | X gamelan_tuning pitched_percussion ; Thai string ensemble: two-string fiddles, jakhe zither, khim and flute.
+kidumbak ; medium ; C violin | F double_bass female_vocals mood_energetic | O  ; Zanzibari small-ensemble taarab with violin, tea-chest bass and drums.
+kilapanga ; low ; C male_vocals | F | O ; Angolan semba-related guitar dance.
+kirtan ; high ; C repetition | F mb:kartal dholak tabla | O ; Devotional call-and-response chanting of divine names, accelerating.
+klapa ; high ; C tempo_slow mood_romantic | F vocal_harmonies | O  ; Dalmatian a cappella close-harmony singing of small male groups.
+koplo ; medium ; C drum_machine | F female_vocals synthesizer | O | X tabla ; Fast East Javanese dangdut with kendang patterns, often electronic.
+korean classical ; medium ; C heterophony | F tempo_slow gayageum mb:daegeum mb:piri | O ; Umbrella for Korean court and literati music.
+kouta ; medium ; C female_vocals | F tempo_slow mood_sensual | O ; Short Edo-period songs with plucked shamisen.
+krakowiak ; high ; C syncopation | F violin accordion mood_energetic | O ; Polish fast syncopated dance from the Kraków region.
+kujawiak ; high ; C  | F violin mood_melancholic | O  ; Polish slow lyrical triple-time dance.
+kulintang ; high ; C mb:gong-chime gong | F polyrhythm instrumental_track female_vocals | O  | X gamelan_tuning ; Gong-chime music of the southern Philippines and Borneo: kulintang, agung and dabakan.
+kumi-daiko ; high ; C instrumental_track | F mood_energetic flute drum_solo | O ; Ensemble taiko drumming.
+kumiuta ; medium ; C female_vocals | F tempo_slow | O ; Koto song cycles of sōkyoku.

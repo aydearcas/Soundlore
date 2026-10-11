@@ -4,6 +4,7 @@ Syntax:
   genre = C ... | F ... | O ...   characteristic / frequent / occasional resources
   @other genre                    inherit that genre's profile
   genre += ...                    add resources to an existing profile
+  genre += X a b                  remove resources (after inheritance), e.g. an inherited trait that is wrong
   genre = NONMUSICAL              mark an entry that is not music
 """
 import json, glob, os, sys
@@ -30,7 +31,7 @@ def load_raw():
                 if not part:
                     continue
                 lvl, *toks = part.split()
-                assert lvl in W, f"{f}:{ln} unknown level {lvl}"
+                assert lvl in W or lvl == "X", f"{f}:{ln} unknown level {lvl}"
                 entries.append((lvl, " ".join(toks)))
             if add:
                 assert name in raw, f"{f}:{ln} '+=' on a profile that does not exist: {name}"
@@ -71,7 +72,7 @@ def resolve(concept_ids):
                 elif kind == "?@":
                     errors.append(f"{src} [{g}] unknown inherited genre: @{tok}")
                 else:
-                    items.append((kind, tok, W[lvl]))
+                    items.append((kind, tok, W.get(lvl, 0)))
         parsed[g] = items
     cache = {}
     def prof(g, stack=()):
@@ -89,8 +90,11 @@ def resolve(concept_ids):
                     wi = max(1, wc - 1) if own_c else wc
                     p[c] = max(p.get(c, 0), wi)
         for kind, tok, w in parsed[g]:
-            if kind == "c":
+            if kind == "c" and w:
                 p[tok] = w  # explicit level wins
+        for kind, tok, w in parsed[g]:
+            if kind == "c" and not w:
+                p.pop(tok, None)  # X: removed, also for genres that inherit from this one
         cache[g] = p
         return p
     return {g: prof(g) for g in parsed}, errors

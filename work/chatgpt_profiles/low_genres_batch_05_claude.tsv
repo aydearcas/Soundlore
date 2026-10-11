@@ -1,0 +1,213 @@
+genre	concept_id	level	confidence	rationale
+kundiman	time_3_4	C	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	tempo_slow	C	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	female_vocals	F	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	male_vocals	F	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	piano	F	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	minor_key	F	high	Filipino art and love song in triple time, often moving from minor to major.
+kundiman	string_section	O	high	Filipino art and love song in triple time, often moving from minor to major.
+kwassa kwassa	male_vocals	C	medium	Congolese soukous dance style of the late 1980s.
+kwassa kwassa	vocal_harmonies	F	medium	Congolese soukous dance style of the late 1980s.
+kwassa kwassa	instrumental_break	F	medium	Congolese soukous dance style of the late 1980s.
+laiko	male_vocals	C	high	Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+laiko	MB0030	F	high	Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+laiko	time_9_8	F	high	Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+laiko	accordion	F	high	Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+laiko	synthesizer	O	high	Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+langgam jawa	female_vocals	C	medium	Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+langgam jawa	tempo_slow	C	medium	Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+langgam jawa	mood_nostalgic	F	medium	Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+langgam jawa	flute	F	medium	Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+langgam jawa	cuatro	X	medium	Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+latin	NO_CHANGE			A broad umbrella;its subgenres carry the specific resources.
+lavani	female_vocals	C	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+lavani	dholak	C	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+lavani	harmonium	F	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+lavani	mood_sensual	F	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+lavani	mood_theatrical	F	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+lavani	MB0346	F	high	Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+liscio	clarinet	F	high	Romagna ballroom dance music: waltz, mazurka and polka with accordion, clarinet and violin.
+liscio	saxophone	F	high	Romagna ballroom dance music: waltz, mazurka and polka with accordion, clarinet and violin.
+liscio	violin	F	high	Romagna ballroom dance music: waltz, mazurka and polka with accordion, clarinet and violin.
+liscio	mood_bright	F	high	Romagna ballroom dance music: waltz, mazurka and polka with accordion, clarinet and violin.
+liwa	zurna	C	medium	Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+liwa	male_vocals	C	medium	Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+liwa	mood_hypnotic	C	medium	Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+liwa	large_drums	F	medium	Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+liwa	polyrhythm	F	medium	Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+luk thung	female_vocals	C	high	Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+luk thung	male_vocals	C	high	Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+luk thung	mood_melancholic	C	high	Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+luk thung	horn_section	F	high	Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+luk thung	electric_bass	F	high	Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+lullaby	female_vocals	C	high	Songs to put children to sleep;slow and repetitive, in any meter.
+lullaby	repetition	C	high	Songs to put children to sleep;slow and repetitive, in any meter.
+lullaby	mood_dreamy	F	high	Songs to put children to sleep;slow and repetitive, in any meter.
+lullaby	time_3_4	X	high	Songs to put children to sleep;slow and repetitive, in any meter.
+lundu	time_2_4	C	medium	Afro-Brazilian song-dance of the colonial era, ancestor of the maxixe and samba.
+lundu	mood_playful	F	medium	Afro-Brazilian song-dance of the colonial era, ancestor of the maxixe and samba.
+maddahi	male_vocals	C	medium	Iranian religious eulogy singing for Shi'a ceremonies.
+maddahi	mood_spiritual	F	medium	Iranian religious eulogy singing for Shi'a ceremonies.
+maddahi	repetition	F	medium	Iranian religious eulogy singing for Shi'a ceremonies.
+maddahi	free_meter	F	medium	Iranian religious eulogy singing for Shi'a ceremonies.
+mahori	MB0549	C	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+mahori	MB0378	C	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+mahori	MB0591	F	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+mahori	female_vocals	F	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+mahori	heterophony	F	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+mahori	gamelan_tuning	X	medium	Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+maloya	time_6_8	C	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	shaker	C	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	musical_bow	C	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	male_vocals	F	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	mood_spiritual	F	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	protest_lyrics	F	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya	triangle	O	high	Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya électronique	time_6_8	C	medium	Electronic productions on maloya rhythms.
+maloya électronique	drum_machine	F	medium	Electronic productions on maloya rhythms.
+maloya électronique	shaker	F	medium	Electronic productions on maloya rhythms.
+maloya élektrik	time_6_8	C	medium	Electrified maloya with rock instruments.
+maloya élektrik	electric_bass	F	medium	Electrified maloya with rock instruments.
+maloya élektrik	drum_kit	F	medium	Electrified maloya with rock instruments.
+maloya élektrik	shaker	F	medium	Electrified maloya with rock instruments.
+mangambeu	male_vocals	C	low	Bamiléké dance rhythm of western Cameroon adapted to guitar bands.
+mangambeu	electric_bass	F	low	Bamiléké dance rhythm of western Cameroon adapted to guitar bands.
+mangambeu	mood_energetic	F	low	Bamiléké dance rhythm of western Cameroon adapted to guitar bands.
+mantra	tempo_slow	F	medium	Repeated sacred syllables or verses chanted for meditation and ritual.
+mantra	male_vocals	F	medium	Repeated sacred syllables or verses chanted for meditation and ritual.
+mantra	harmonium	O	medium	Repeated sacred syllables or verses chanted for meditation and ritual.
+maracatu	caixa	C	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+maracatu	MB0010	C	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+maracatu	agogo	C	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+maracatu	vocal_call_response	F	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+maracatu	mood_energetic	F	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+maracatu	shaker	O	high	Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+march	tempo_mid	C	high	Music for marching in strong duple meter, with strains and a trio section.
+march	snare_drum	F	high	Music for marching in strong duple meter, with strains and a trio section.
+march	trumpet	F	high	Music for marching in strong duple meter, with strains and a trio section.
+march	trombone	F	high	Music for marching in strong duple meter, with strains and a trio section.
+march	piccolo	O	high	Music for marching in strong duple meter, with strains and a trio section.
+marching band	trumpet	F	high	Bands of brass, woodwinds and percussion playing while marching.
+marching band	sousaphone	F	high	Bands of brass, woodwinds and percussion playing while marching.
+marching band	tempo_mid	F	high	Bands of brass, woodwinds and percussion playing while marching.
+marching band	cymbals	F	high	Bands of brass, woodwinds and percussion playing while marching.
+marrabenta	mood_bright	C	high	Mozambican urban dance music from Maputo with guitars.
+marrabenta	tempo_fast	C	high	Mozambican urban dance music from Maputo with guitars.
+marrabenta	male_vocals	F	high	Mozambican urban dance music from Maputo with guitars.
+marrabenta	electric_bass	F	high	Mozambican urban dance music from Maputo with guitars.
+marrabenta	drum_kit	F	high	Mozambican urban dance music from Maputo with guitars.
+maskanda	fingerpicking	C	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+maskanda	male_vocals	C	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+maskanda	concertina	F	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+maskanda	electric_bass	F	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+maskanda	spoken_vocal	F	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+maskanda	violin	O	high	Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+mataali	polyrhythm	C	low	Ugandan drum dance music.
+mataali	vocal_call_response	F	low	Ugandan drum dance music.
+mataali	mood_energetic	F	low	Ugandan drum dance music.
+mataali	large_drums	F	low	Ugandan drum dance music.
+mataali	male_vocals	F	low	Ugandan drum dance music.
+mazurka	violin	F	high	Polish dance in triple time with accents on the second or third beat.
+mazurka	mood_energetic	F	high	Polish dance in triple time with accents on the second or third beat.
+mazurka	piano	O	high	Polish dance in triple time with accents on the second or third beat.
+mbube	male_vocals	C	high	Zulu male choral style with a loud, powerful sound and a falsetto lead.
+mbube	bass_voice	C	high	Zulu male choral style with a loud, powerful sound and a falsetto lead.
+mbube	falsetto	F	high	Zulu male choral style with a loud, powerful sound and a falsetto lead.
+mbube	loud_dynamics	F	high	Zulu male choral style with a loud, powerful sound and a falsetto lead.
+mchiriku	female_vocals	C	medium	Dar es Salaam street music with Casio keyboards and drums at very fast tempo.
+mchiriku	male_vocals	C	medium	Dar es Salaam street music with Casio keyboards and drums at very fast tempo.
+mchiriku	mood_energetic	F	medium	Dar es Salaam street music with Casio keyboards and drums at very fast tempo.
+meiji shinkyoku	instrumental_track	C	low	New compositions for Japanese instruments of the Meiji era.
+mento	MB0436	C	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+mento	male_vocals	C	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+mento	double_entendre	F	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+mento	maracas	F	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+mento	time_4_4	F	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+mento	clarinet	O	high	Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+menzuma	male_vocals	C	medium	Ethiopian Muslim devotional song, often in Amharic or Oromo.
+menzuma	mood_spiritual	F	medium	Ethiopian Muslim devotional song, often in Amharic or Oromo.
+menzuma	vocal_call_response	F	medium	Ethiopian Muslim devotional song, often in Amharic or Oromo.
+menzuma	repetition	F	medium	Ethiopian Muslim devotional song, often in Amharic or Oromo.
+menzuma	handclaps	O	medium	Ethiopian Muslim devotional song, often in Amharic or Oromo.
+meyxana	male_vocals	C	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+meyxana	rap	C	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+meyxana	duet	F	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+meyxana	repetition	F	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+meyxana	mood_playful	F	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+meyxana	synthesizer	O	medium	Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+min'yō	male_vocals	C	high	Japanese folk song with shamisen, flute and drums;shakuhachi appears only in some regions.
+min'yō	female_vocals	C	high	Japanese folk song with shamisen, flute and drums;shakuhachi appears only in some regions.
+min'yō	MB0607	F	high	Japanese folk song with shamisen, flute and drums;shakuhachi appears only in some regions.
+min'yō	MB0606	F	high	Japanese folk song with shamisen, flute and drums;shakuhachi appears only in some regions.
+min'yō	shakuhachi	X	high	Japanese folk song with shamisen, flute and drums;shakuhachi appears only in some regions.
+mor lam	MB0373	C	high	Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam	repetition	C	high	Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam	female_vocals	F	high	Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam	male_vocals	F	high	Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam	storytelling	F	high	Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam sing	MB0373	C	high	Modernized fast mor lam with electric band and drum machine.
+mor lam sing	electric_bass	C	high	Modernized fast mor lam with electric band and drum machine.
+mor lam sing	mood_energetic	F	high	Modernized fast mor lam with electric band and drum machine.
+mor lam sing	female_vocals	F	high	Modernized fast mor lam with electric band and drum machine.
+morenada	tempo_slow	C	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morenada	trumpet	C	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morenada	tuba	C	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morenada	MB0552	F	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morenada	mood_theatrical	F	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morenada	march	X	high	Bolivian carnival dance with heavy brass bands and matraca ratchets;slow, heavy step.
+morna	tempo_slow	C	high	Cape Verdean melancholic song of saudade.
+morna	female_vocals	F	high	Cape Verdean melancholic song of saudade.
+morna	violin	F	high	Cape Verdean melancholic song of saudade.
+morna	piano	O	high	Cape Verdean melancholic song of saudade.
+moroccan chaabi	male_vocals	C	medium	Moroccan popular party music with violin, darbuka and keyboard.
+moroccan chaabi	bendir	F	medium	Moroccan popular party music with violin, darbuka and keyboard.
+moroccan chaabi	mood_energetic	F	medium	Moroccan popular party music with violin, darbuka and keyboard.
+moutya	large_drums	C	medium	Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+moutya	female_vocals	F	medium	Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+moutya	mood_energetic	F	medium	Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+moutya	polyrhythm	F	medium	Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+moutya	accordion	X	medium	Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+movimiento alterado	tuba	F	medium	Narco-corrido trend with violent storytelling, tuba and accordion.
+movimiento alterado	male_vocals	F	medium	Narco-corrido trend with violent storytelling, tuba and accordion.
+mugham	tar_lute	C	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugham	kamancheh	C	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugham	daf	F	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugham	male_vocals	F	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugham	ney	X	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugham	oud	X	high	Azerbaijani mugham: singer with tar, kamancha and daf;ney and oud are not core.
+mugithi	male_vocals	C	medium	Kenyan Kikuyu one-man guitar music.
+mugithi	storytelling	F	medium	Kenyan Kikuyu one-man guitar music.
+mugithi	mood_playful	F	medium	Kenyan Kikuyu one-man guitar music.
+muiñeira	MB0251	C	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muiñeira	snare_drum	F	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muiñeira	tambourine	F	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muiñeira	mood_bright	F	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muiñeira	bagpipes	X	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muiñeira	frame_drum	X	high	Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muliza	violin	F	low	Central Peruvian carnival song.
+muliza	mood_bright	F	low	Central Peruvian carnival song.
+musette	mood_nostalgic	F	high	Parisian bal-musette accordion music;its waltz is inherited.
+musette	swing	F	high	Parisian bal-musette accordion music;its waltz is inherited.
+musette	mood_romantic	F	high	Parisian bal-musette accordion music;its waltz is inherited.
+musette	time_3_4	X	high	Parisian bal-musette accordion music;its waltz is inherited.
+muziki wa dansi	male_vocals	C	high	Tanzanian dance band music with guitars and brass.
+muziki wa dansi	horn_section	F	high	Tanzanian dance band music with guitars and brass.
+méringue	male_vocals	C	medium	Haitian méringue, guitar-based song-dance.
+méringue	maracas	F	medium	Haitian méringue, guitar-based song-dance.
+méringue	mood_playful	F	medium	Haitian méringue, guitar-based song-dance.
+méringue	time_2_4	F	medium	Haitian méringue, guitar-based song-dance.
+música festera	trumpet	F	medium	Spanish Moros y Cristianos festival band music (pasodobles, marches).
+música festera	trombone	F	medium	Spanish Moros y Cristianos festival band music (pasodobles, marches).
+música festera	mood_bright	F	medium	Spanish Moros y Cristianos festival band music (pasodobles, marches).
+música típica chilena	harp	F	medium	Chilean folk music: cueca and tonada with guitar, harp and tambourine.
+música típica chilena	accordion	F	medium	Chilean folk music: cueca and tonada with guitar, harp and tambourine.
+música típica chilena	tambourine	F	medium	Chilean folk music: cueca and tonada with guitar, harp and tambourine.
+mūsīqā lubnāniyya	male_vocals	C	medium	Lebanese art and popular music.
+mūsīqā lubnāniyya	female_vocals	C	medium	Lebanese art and popular music.
+mūsīqā lubnāniyya	MB0345	F	medium	Lebanese art and popular music.
+mūsīqā lubnāniyya	violin	F	medium	Lebanese art and popular music.
+mūsīqā lubnāniyya	darbuka	F	medium	Lebanese art and popular music.
+nagara naam	mood_spiritual	C	low	Assamese devotional chant with nagara drums.
+nagara naam	vocal_call_response	F	low	Assamese devotional chant with nagara drums.
+nagara naam	accelerando	F	low	Assamese devotional chant with nagara drums.
+nagara naam	male_vocals	F	low	Assamese devotional chant with nagara drums.

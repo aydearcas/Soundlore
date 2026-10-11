@@ -1,0 +1,10 @@
+# Split of SL000418 (lap_steel) on 2026-10-11. Kept: SL000418 lap_steel. New: SL000820 resonator_guitar
+# Review each reference and reassign it by hand where it meant one of the new concepts. Fill in 'decision'.
+kind	where	content	decision
+entry terms	05_instruments.txt:19	Hawaiian steel guitar	kept (dobro moved to resonator_guitar)
+prompt terms	05_instruments.txt:19	lap steel	kept
+own relations	05_instruments.txt:19	slide_guitar	kept; resonator_guitar also related to slide_guitar
+genre profile	profiles_10_extended_a.txt:9	ambient americana	keep lap_steel (lap steel playing)
+genre profile	profiles_11_extended_b.txt:173	sacred steel	keep lap_steel (sacred steel is played on lap and pedal steel)
+genre profile	profiles_11_extended_b.txt:285	hapa haole	keep lap_steel (Hawaiian steel guitar)
+side table	definitions_en.tsv:421	A grouping covering lap steel and resonator guitars, two distinct instrument types often u	definition rewritten for the lap steel only

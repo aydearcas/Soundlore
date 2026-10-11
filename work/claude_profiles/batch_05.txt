@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+kundiman ; high ; C time_3_4 tempo_slow | F female_vocals male_vocals piano minor_key | O string_section ; Filipino art and love song in triple time, often moving from minor to major.
+kwassa kwassa ; medium ; C male_vocals | F vocal_harmonies instrumental_break | O ; Congolese soukous dance style of the late 1980s.
+laiko ; high ; C male_vocals | F mb:baglamas time_9_8 accordion | O synthesizer ; Greek urban popular song with bouzouki, baglamas and dance rhythms such as zeibekiko.
+langgam jawa ; medium ; C female_vocals tempo_slow | F mood_nostalgic flute | O | X cuatro ; Keroncong adapted to Javanese pentatonic melody and gamelan-like textures.
+latin ; low ; ; A broad umbrella; its subgenres carry the specific resources.
+lavani ; high ; C female_vocals dholak | F harmonium mood_sensual mood_theatrical mb:kartal | O ; Marathi theatrical song-dance with dholki, ghungroo bells and harmonium.
+liscio ; high ; C | F clarinet saxophone violin mood_bright | O ; Romagna ballroom dance music: waltz, mazurka and polka with accordion, clarinet and violin.
+liwa ; medium ; C zurna male_vocals mood_hypnotic | F large_drums polyrhythm | O ; Gulf dance music of East African origin: the surnay shawm leads large drums and chorus.
+luk thung ; high ; C female_vocals male_vocals mood_melancholic | F horn_section electric_bass | O ; Thai country song: ornamented vibrato vocals over brass, keyboards and rural rhythms.
+lullaby ; high ; C female_vocals repetition | F mood_dreamy | O | X time_3_4 ; Songs to put children to sleep; slow and repetitive, in any meter.
+lundu ; medium ; C time_2_4 | F mood_playful | O  ; Afro-Brazilian song-dance of the colonial era, ancestor of the maxixe and samba.
+maddahi ; medium ; C male_vocals | F mood_spiritual repetition free_meter | O  ; Iranian religious eulogy singing for Shi'a ceremonies.
+mahori ; medium ; C mb:ranat_ek mb:khong_wong_yai | F mb:saw_duang female_vocals heterophony | O | X gamelan_tuning ; Thai and Cambodian court ensemble mixing strings, xylophones, gong circles and voice.
+maloya ; high ; C time_6_8 shaker musical_bow | F male_vocals mood_spiritual protest_lyrics | O triangle ; Réunion music of slave descent: roulèr drum, kayamb rattle and bobre bow under call and response.
+maloya électronique ; medium ; C time_6_8 | F drum_machine shaker | O ; Electronic productions on maloya rhythms.
+maloya élektrik ; medium ; C time_6_8 | F electric_bass drum_kit shaker | O ; Electrified maloya with rock instruments.
+mangambeu ; low ; C male_vocals | F electric_bass mood_energetic | O  ; Bamiléké dance rhythm of western Cameroon adapted to guitar bands.
+mantra ; medium ; C | F tempo_slow male_vocals | O harmonium ; Repeated sacred syllables or verses chanted for meditation and ritual.
+maracatu ; high ; C caixa mb:alfaia agogo | F vocal_call_response mood_energetic | O shaker ; Pernambuco processional music: alfaia bass drums, caixas, gonguê bell and chant.
+march ; high ; C tempo_mid | F snare_drum trumpet trombone | O piccolo ; Music for marching in strong duple meter, with strains and a trio section.
+marching band ; high ; C | F trumpet sousaphone tempo_mid cymbals | O ; Bands of brass, woodwinds and percussion playing while marching.
+marrabenta ; high ; C mood_bright tempo_fast | F male_vocals electric_bass drum_kit | O ; Mozambican urban dance music from Maputo with guitars.
+maskanda ; high ; C fingerpicking male_vocals | F concertina electric_bass spoken_vocal | O violin ; Zulu guitar music with a fast picked intro (izihlabo) and praise-poetry sections.
+mataali ; low ; C polyrhythm | F vocal_call_response mood_energetic large_drums male_vocals | O  ; Ugandan drum dance music.
+mazurka ; high ; C  | F violin mood_energetic | O piano ; Polish dance in triple time with accents on the second or third beat.
+mbube ; high ; C male_vocals bass_voice | F falsetto loud_dynamics | O ; Zulu male choral style with a loud, powerful sound and a falsetto lead.
+mchiriku ; medium ; C female_vocals male_vocals | F mood_energetic | O ; Dar es Salaam street music with Casio keyboards and drums at very fast tempo.
+meiji shinkyoku ; low ; C instrumental_track | F  | O  ; New compositions for Japanese instruments of the Meiji era.
+mento ; high ; C mb:marímbula male_vocals | F double_entendre maracas time_4_4 | O clarinet ; Jamaican folk-pop before ska: banjo, guitar, rhumba box and bawdy humor.
+menzuma ; medium ; C male_vocals | F mood_spiritual vocal_call_response repetition | O handclaps ; Ethiopian Muslim devotional song, often in Amharic or Oromo.
+meyxana ; medium ; C male_vocals rap | F duet repetition mood_playful | O synthesizer ; Azerbaijani improvised rhymed verse duel, spoken-sung over a beat.
+min'yō ; high ; C male_vocals female_vocals | F mb:shinobue mb:shime-daiko | O | X shakuhachi ; Japanese folk song with shamisen, flute and drums; shakuhachi appears only in some regions.
+mor lam ; high ; C mb:khene repetition | F female_vocals male_vocals storytelling | O ; Lao and Isan sung poetry accompanied by the khaen mouth organ.
+mor lam sing ; high ; C mb:khene electric_bass | F mood_energetic female_vocals | O ; Modernized fast mor lam with electric band and drum machine.
+morenada ; high ; C tempo_slow trumpet tuba | F mb:ratchet mood_theatrical | O | X march ; Bolivian carnival dance with heavy brass bands and matraca ratchets; slow, heavy step.
+morna ; high ; C tempo_slow | F female_vocals violin | O piano ; Cape Verdean melancholic song of saudade.
+moroccan chaabi ; medium ; C male_vocals | F bendir mood_energetic | O ; Moroccan popular party music with violin, darbuka and keyboard.
+moutya ; medium ; C large_drums | F female_vocals mood_energetic polyrhythm | O  | X accordion ; Seychellois drum dance: goatskin drums heated by fire, sung in Creole.
+movimiento alterado ; medium ; C | F tuba male_vocals | O ; Narco-corrido trend with violent storytelling, tuba and accordion.
+mugham ; high ; C tar_lute kamancheh | F daf male_vocals | O | X ney oud ; Azerbaijani mugham: singer with tar, kamancha and daf; ney and oud are not core.
+mugithi ; medium ; C male_vocals | F storytelling mood_playful | O  ; Kenyan Kikuyu one-man guitar music.
+muiñeira ; high ; C mb:gaita_gallega | F snare_drum tambourine mood_bright | O  | X bagpipes frame_drum ; Galician dance in 6/8 led by the gaita with tamboril, bombo and pandeireta.
+muliza ; low ; C | F violin mood_bright | O ; Central Peruvian carnival song.
+musette ; high ; C  | F mood_nostalgic swing mood_romantic | O  | X time_3_4 ; Parisian bal-musette accordion music; its waltz is inherited.
+muziki wa dansi ; high ; C male_vocals | F horn_section | O ; Tanzanian dance band music with guitars and brass.
+méringue ; medium ; C male_vocals | F maracas mood_playful time_2_4 | O  ; Haitian méringue, guitar-based song-dance.
+música festera ; medium ; C | F trumpet trombone mood_bright | O ; Spanish Moros y Cristianos festival band music (pasodobles, marches).
+música típica chilena ; medium ; C | F harp accordion tambourine | O ; Chilean folk music: cueca and tonada with guitar, harp and tambourine.
+mūsīqā lubnāniyya ; medium ; C male_vocals female_vocals | F mb:kanun violin darbuka | O ; Lebanese art and popular music.
+nagara naam ; low ; C mood_spiritual | F vocal_call_response accelerando male_vocals | O  ; Assamese devotional chant with nagara drums.

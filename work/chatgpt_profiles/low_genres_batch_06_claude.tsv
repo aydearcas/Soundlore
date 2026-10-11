@@ -1,0 +1,216 @@
+genre	concept_id	level	confidence	rationale
+nagauta	male_vocals	C	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	mood_theatrical	C	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	MB0468	F	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	MB0394	F	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	MB0815	F	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	koto	X	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+nagauta	shakuhachi	X	high	Kabuki long song: shamisen, singers and the hayashi of nōkan and drums;no koto or shakuhachi.
+narcocorrido	male_vocals	C	medium	Corridos about drug traffickers with norteño or banda accompaniment.
+narcocorrido	tuba	F	medium	Corridos about drug traffickers with norteño or banda accompaniment.
+narcocorrido	mood_dark	F	medium	Corridos about drug traffickers with norteño or banda accompaniment.
+narodnozabavna glasba	clarinet	F	high	Slovenian Oberkrainer folk-pop: button accordion, clarinet, trumpet, guitar and bass.
+narodnozabavna glasba	trumpet	F	high	Slovenian Oberkrainer folk-pop: button accordion, clarinet, trumpet, guitar and bass.
+narodnozabavna glasba	acoustic_guitar	F	high	Slovenian Oberkrainer folk-pop: button accordion, clarinet, trumpet, guitar and bass.
+narodnozabavna glasba	vocal_harmonies	F	high	Slovenian Oberkrainer folk-pop: button accordion, clarinet, trumpet, guitar and bass.
+nasheed	male_vocals	C	high	Islamic devotional song, often unaccompanied or with frame drums only.
+nasheed	frame_drum	F	high	Islamic devotional song, often unaccompanied or with frame drums only.
+nasheed	repetition	F	high	Islamic devotional song, often unaccompanied or with frame drums only.
+neo kyma	male_vocals	C	medium	1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+neo kyma	female_vocals	C	medium	1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+neo kyma	acoustic_guitar	F	medium	1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+neo kyma	mood_introspective	F	medium	1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+neo kyma	orchestra	X	medium	1960s Greek 'new wave' boîte song: guitar and voice, intimate.
+ngoma	polyrhythm	C	high	Bantu drum-dance-song complex of East Africa.
+ngoma	mood_energetic	F	high	Bantu drum-dance-song complex of East Africa.
+ngoma	female_vocals	F	high	Bantu drum-dance-song complex of East Africa.
+ngoma	vocal_call_response	F	high	Bantu drum-dance-song complex of East Africa.
+ngâm thơ	free_meter	C	medium	Vietnamese poetry chanting, free rhythm with optional lute or flute.
+ngâm thơ	female_vocals	F	medium	Vietnamese poetry chanting, free rhythm with optional lute or flute.
+ngâm thơ	MB0807	F	medium	Vietnamese poetry chanting, free rhythm with optional lute or flute.
+ngâm thơ	mood_melancholic	F	medium	Vietnamese poetry chanting, free rhythm with optional lute or flute.
+nhạc đỏ	choir	C	medium	Vietnamese revolutionary songs with march-like choral settings.
+nhạc đỏ	mood_triumphant	C	medium	Vietnamese revolutionary songs with march-like choral settings.
+nhạc đỏ	orchestra	F	medium	Vietnamese revolutionary songs with march-like choral settings.
+nhạc đỏ	male_vocals	F	medium	Vietnamese revolutionary songs with march-like choral settings.
+nigun	male_vocals	C	high	Hasidic wordless melody, sung repeatedly, often accelerating.
+nigun	repetition	C	high	Hasidic wordless melody, sung repeatedly, often accelerating.
+nigun	mood_spiritual	F	high	Hasidic wordless melody, sung repeatedly, often accelerating.
+nigun	free_meter	F	high	Hasidic wordless melody, sung repeatedly, often accelerating.
+njuup	sabar	C	medium	Senegalese percussion style, precursor of mbalax, on sabar drums.
+njuup	polyrhythm	C	medium	Senegalese percussion style, precursor of mbalax, on sabar drums.
+njuup	male_vocals	F	medium	Senegalese percussion style, precursor of mbalax, on sabar drums.
+njuup	vocal_call_response	F	medium	Senegalese percussion style, precursor of mbalax, on sabar drums.
+noh	MB0468	C	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	MB0394	C	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	MB0815	C	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	male_vocals	C	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	tempo_very_slow	C	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	mood_theatrical	F	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	chant	F	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	koto	X	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	shakuhachi	X	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+noh	shamisen	X	high	Nō drama music: chanting chorus with nōkan flute and three drums.
+norteño	button_accordion	C	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	bajo_sexto	C	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	male_vocals	F	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	double_bass	F	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	waltz	F	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	accordion	X	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+norteño	twelve_string_guitar	X	high	Northern Mexican music led by diatonic accordion and bajo sexto.
+oberek	mood_energetic	C	high	Fast Polish triple-time dance led by violin.
+oberek	violin	F	high	Fast Polish triple-time dance led by violin.
+oberek	accordion	X	high	Fast Polish triple-time dance led by violin.
+odissi classical	female_vocals	C	medium	Classical music of Odisha with mardala/pakhawaj rather than tabla.
+odissi classical	MB0495	F	medium	Classical music of Odisha with mardala/pakhawaj rather than tabla.
+odissi classical	tabla	X	medium	Classical music of Odisha with mardala/pakhawaj rather than tabla.
+ogene music	male_vocals	C	medium	Igbo music built on the ogene iron gong.
+ogene music	polyrhythm	F	medium	Igbo music built on the ogene iron gong.
+ogene music	repetition	F	medium	Igbo music built on the ogene iron gong.
+ogene music	vocal_call_response	F	medium	Igbo music built on the ogene iron gong.
+omutibo	male_vocals	C	low	Kenyan Luhya guitar style.
+omutibo	fingerpicking	F	low	Kenyan Luhya guitar style.
+omutibo	mood_playful	F	low	Kenyan Luhya guitar style.
+omutibo	tempo_mid	F	low	Kenyan Luhya guitar style.
+ondō	male_vocals	C	medium	Bon dance songs with taiko and shamisen.
+ondō	MB0606	F	medium	Bon dance songs with taiko and shamisen.
+ondō	handclaps	F	medium	Bon dance songs with taiko and shamisen.
+ondō	repetition	F	medium	Bon dance songs with taiko and shamisen.
+ondō	shakuhachi	X	medium	Bon dance songs with taiko and shamisen.
+orkes gambus	male_vocals	C	medium	Indonesian and Malay Arab-influenced ensemble led by the gambus lute.
+orkes gambus	darbuka	F	medium	Indonesian and Malay Arab-influenced ensemble led by the gambus lute.
+orkes gambus	violin	F	medium	Indonesian and Malay Arab-influenced ensemble led by the gambus lute.
+orkes gambus	mood_romantic	F	medium	Indonesian and Malay Arab-influenced ensemble led by the gambus lute.
+paghjella	ornamentation	F	high	Corsican three-voice male polyphony.
+paghjella	mood_spiritual	F	high	Corsican three-voice male polyphony.
+paghjella	melisma	F	high	Corsican three-voice male polyphony.
+palm-wine	fingerpicking	C	high	West African guitar music of the Kru sailors.
+palm-wine	male_vocals	C	high	West African guitar music of the Kru sailors.
+palm-wine	mood_playful	F	high	West African guitar music of the Kru sailors.
+palm-wine	tempo_mid	F	high	West African guitar music of the Kru sailors.
+palo de mayo	mood_energetic	C	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+palo de mayo	female_vocals	F	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+palo de mayo	male_vocals	F	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+palo de mayo	steelpan	X	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+palo de mayo	storytelling	X	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+palo de mayo	offbeat	X	medium	Caribbean Nicaraguan maypole dance with drums and guitars;steel pans are not typical.
+pandilla	mandolin	C	low	Andean dance of Puno.
+pandilla	accordion	F	low	Andean dance of Puno.
+pandilla	acoustic_guitar	F	low	Andean dance of Puno.
+pandilla	female_vocals	F	low	Andean dance of Puno.
+pansori	MB0103	C	high	Korean epic song for one singer and one buk drummer.
+pansori	free_meter	C	high	Korean epic song for one singer and one buk drummer.
+pansori	mood_theatrical	F	high	Korean epic song for one singer and one buk drummer.
+pansori	raspy_vocals	F	high	Korean epic song for one singer and one buk drummer.
+pansori	frame_drum	X	high	Korean epic song for one singer and one buk drummer.
+parang	maracas	C	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	violin	F	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	guitar	F	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	male_vocals	F	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	vocal_call_response	F	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	glockenspiel	X	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parang	orchestra	X	high	Trinidadian Christmas music in Spanish: cuatro, guitar, maracas and violin.
+parlour music	mood_romantic	C	medium	Domestic 19th-century songs and piano pieces for the home.
+parlour music	female_vocals	F	medium	Domestic 19th-century songs and piano pieces for the home.
+parlour music	strophic_form	F	medium	Domestic 19th-century songs and piano pieces for the home.
+parlour music	soft_dynamics	F	medium	Domestic 19th-century songs and piano pieces for the home.
+parlour music	violin	O	medium	Domestic 19th-century songs and piano pieces for the home.
+pasillo	mood_romantic	C	high	Andean waltz-derived song of Ecuador and Colombia.
+pasillo	male_vocals	F	high	Andean waltz-derived song of Ecuador and Colombia.
+pasillo	duet	F	high	Andean waltz-derived song of Ecuador and Colombia.
+pasillo	MB0696	F	high	Andean waltz-derived song of Ecuador and Colombia.
+pasillo	piano	O	high	Andean waltz-derived song of Ecuador and Colombia.
+pasodoble	mood_triumphant	C	high	Spanish march-dance associated with bullfights.
+pasodoble	trumpet	F	high	Spanish march-dance associated with bullfights.
+pasodoble	snare_drum	F	high	Spanish march-dance associated with bullfights.
+pasodoble	castanets	O	high	Spanish march-dance associated with bullfights.
+pep band	mood_energetic	C	medium	Small bands playing at sports events.
+pep band	trumpet	F	medium	Small bands playing at sports events.
+pep band	trombone	F	medium	Small bands playing at sports events.
+pep band	drum_kit	F	medium	Small bands playing at sports events.
+persian classical	tar_lute	C	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	MB0602	C	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	santur	C	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	kamancheh	C	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	MB0795	C	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	free_meter	F	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+persian classical	oud	X	high	Radif-based Persian art music on tar, setar, santur, kamancheh and tombak.
+pilón	male_vocals	F	medium	Cuban dance rhythm imitating rice pounding.
+pilón	tempo_mid	F	medium	Cuban dance rhythm imitating rice pounding.
+pinpeat	MB0549	C	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pinpeat	MB0378	C	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pinpeat	instrumental_track	F	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pinpeat	mood_spiritual	F	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pinpeat	tempo_mid	F	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pinpeat	gamelan_tuning	X	high	Cambodian court and temple ensemble of xylophones, gong circles, oboe and drums.
+pipe band music	highland_bagpipe	C	high	Scottish pipe bands: Highland pipes, snare and tenor drums, bass drum.
+pipe band music	large_drums	F	high	Scottish pipe bands: Highland pipes, snare and tenor drums, bass drum.
+pipe band music	mood_triumphant	F	high	Scottish pipe bands: Highland pipes, snare and tenor drums, bass drum.
+pipe band music	bagpipes	X	high	Scottish pipe bands: Highland pipes, snare and tenor drums, bass drum.
+piphat	MB0549	C	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+piphat	MB0378	C	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+piphat	MB0505	C	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+piphat	instrumental_track	F	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+piphat	tempo_mid	F	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+piphat	gamelan_tuning	X	high	Thai ensemble of xylophones, gong circles, pi oboe and drums.
+pirekua	male_vocals	C	medium	P'urhépecha song of Michoacán in 3/4–6/8 with guitars.
+pirekua	duet	C	medium	P'urhépecha song of Michoacán in 3/4–6/8 with guitars.
+pirekua	time_6_8	F	medium	P'urhépecha song of Michoacán in 3/4–6/8 with guitars.
+pirekua	mood_romantic	F	medium	P'urhépecha song of Michoacán in 3/4–6/8 with guitars.
+piyyut	male_vocals	C	medium	Jewish liturgical poetry sung in synagogue modes.
+piyyut	maqam	F	medium	Jewish liturgical poetry sung in synagogue modes.
+piyyut	free_meter	F	medium	Jewish liturgical poetry sung in synagogue modes.
+piyyut	melisma	F	medium	Jewish liturgical poetry sung in synagogue modes.
+plena	pandeiro	C	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+plena	storytelling	C	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+plena	guiro	F	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+plena	male_vocals	F	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+plena	time_2_4	F	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+plena	frame_drum	X	high	Puerto Rican sung newspaper with panderetas;the specific concept is closer than frame drum.
+polifonia occitana	male_vocals	C	medium	Occitan polyphonic singing groups.
+polifonia occitana	drone	F	medium	Occitan polyphonic singing groups.
+polifonia occitana	tambourine	F	medium	Occitan polyphonic singing groups.
+polka	clarinet	F	high	Central European couple dance in 2/4.
+polka	trumpet	F	high	Central European couple dance in 2/4.
+polonaise	orchestra	F	high	Polish processional dance in moderate 3/4 with characteristic rhythm.
+polonaise	piano	F	high	Polish processional dance in moderate 3/4 with characteristic rhythm.
+polonaise	mood_triumphant	F	high	Polish processional dance in moderate 3/4 with characteristic rhythm.
+polonaise	tempo_mid	F	high	Polish processional dance in moderate 3/4 with characteristic rhythm.
+polonaise	march	X	high	Polish processional dance in moderate 3/4 with characteristic rhythm.
+powada	male_vocals	C	medium	Marathi heroic ballads with daf and tuntuna.
+powada	mood_triumphant	C	medium	Marathi heroic ballads with daf and tuntuna.
+powada	dholak	F	medium	Marathi heroic ballads with daf and tuntuna.
+powada	vocal_call_response	F	medium	Marathi heroic ballads with daf and tuntuna.
+powada	tempo_fast	F	medium	Marathi heroic ballads with daf and tuntuna.
+production music	NO_CHANGE			Library music for media;its traits depend on the brief, not the genre.
+pungmul	MB0322	C	high	Korean farmers' percussion music with dance.
+pungmul	MB0385	C	high	Korean farmers' percussion music with dance.
+pungmul	MB0103	C	high	Korean farmers' percussion music with dance.
+pungmul	mood_energetic	F	high	Korean farmers' percussion music with dance.
+pungmul	polyrhythm	F	high	Korean farmers' percussion music with dance.
+punta	MB0258	C	high	Garifuna dance music.
+punta	female_vocals	C	high	Garifuna dance music.
+punta	mood_energetic	F	high	Garifuna dance music.
+punto	male_vocals	C	high	Cuban peasant improvised décima singing with tres and laúd.
+punto	MB0415	F	high	Cuban peasant improvised décima singing with tres and laúd.
+punto	guiro	F	high	Cuban peasant improvised décima singing with tres and laúd.
+punto	claves_instrument	F	high	Cuban peasant improvised décima singing with tres and laúd.
+pìobaireachd	highland_bagpipe	C	high	Classical music of the Highland bagpipe, theme with variations.
+pìobaireachd	instrumental_track	C	high	Classical music of the Highland bagpipe, theme with variations.
+pìobaireachd	tempo_slow	F	high	Classical music of the Highland bagpipe, theme with variations.
+pìobaireachd	ornamentation	F	high	Classical music of the Highland bagpipe, theme with variations.
+pìobaireachd	drone	F	high	Classical music of the Highland bagpipe, theme with variations.
+pìobaireachd	bagpipes	X	high	Classical music of the Highland bagpipe, theme with variations.
+quan họ	duet	C	high	Vietnamese alternating love-song duets.
+quan họ	female_vocals	F	high	Vietnamese alternating love-song duets.
+quan họ	male_vocals	F	high	Vietnamese alternating love-song duets.
+quan họ	ornamentation	F	high	Vietnamese alternating love-song duets.
+quyi	spoken_vocal	F	medium	Chinese narrative singing and storytelling arts.
+quyi	MB0580	F	medium	Chinese narrative singing and storytelling arts.
+raqs baladi	MB0345	F	high	Egyptian belly dance music.
+raqs baladi	violin	F	high	Egyptian belly dance music.
+raqs baladi	accordion	F	high	Egyptian belly dance music.
+rara	vocal_call_response	F	high	Haitian Easter processional music with vaksin bamboo trumpets and drums.
+rara	mood_energetic	F	high	Haitian Easter processional music with vaksin bamboo trumpets and drums.
+rasqueado cuiabano	MB0750	F	medium	Mato Grosso dance music.
+rasqueado cuiabano	mood_bright	F	medium	Mato Grosso dance music.

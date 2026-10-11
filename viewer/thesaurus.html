@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+/* Theme: fixed for now. The landing is light; every other page is dark. */
+document.documentElement.dataset.theme='dark';
+</script>
+<style>
+/* Slim scrollbars that follow the theme */
+*{scrollbar-width:thin;scrollbar-color:var(--sb-thumb,rgb(120 126 160 / .45)) transparent}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--sb-thumb,rgb(120 126 160 / .45));border-radius:10px;border:3px solid transparent;background-clip:content-box}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(120 126 160 / .75)}
+::-webkit-scrollbar-corner{background:transparent}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soundlore thesaurus</title>
+<meta name="description" content="The Soundlore thesaurus: 819 musical concepts with stable identifiers, definitions, scope notes, hierarchy, related terms and Wikidata links, exportable as SKOS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Soundlore thesaurus. Catalog-card identity: card-stock ground, white record sheet with a red rule,
+   identifiers and tree numbers in mono. Three panes on wide screens: tree | record | use & export. */
+:root{
+  --ground:#E4EAEC; --ground-2:#D6DEE1; --panel:#F2F5F6; --sheet:#FFFFFF; --ink:#1D2040; --muted:#4A5170;
+  --line:#C3CDD2; --line-soft:#DDE3E6; --rule:#B8322B; --link:#2F35A8; --link-hover:#1D2040;
+  --head:#1D2040; --head-ink:#EEF0FF; --head-muted:#C9CDF8; --head-active:#33376A;
+  --sel:#1D2040; --sel-ink:#FFFFFF; --hover:#E3E8EE; --code-bg:#1D2040; --code-ink:#E3E6FF; --badge:#E9EAFB;
+  --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#15172E; --ground-2:#1B1E3A; --panel:#1C1F3D; --sheet:#23274A; --ink:#E8EAF7; --muted:#A9AECB;
+  --line:#3A3F6E; --line-soft:#30355E; --rule:#E2665D; --link:#A9AFFF; --link-hover:#FFFFFF;
+  --head:#262A55; --head-ink:#F2F3FF; --head-muted:#C3C7F2; --head-active:#3A3F78;
+  --sel:#A9AFFF; --sel-ink:#15172E; --hover:#2A2E56; --code-bg:#121429; --code-ink:#E3E6FF; --badge:#30355E; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#15172E; --ground-2:#1B1E3A; --panel:#1C1F3D; --sheet:#23274A; --ink:#E8EAF7; --muted:#A9AECB;
+  --line:#3A3F6E; --line-soft:#30355E; --rule:#E2665D; --link:#A9AFFF; --link-hover:#FFFFFF;
+  --head:#262A55; --head-ink:#F2F3FF; --head-muted:#C3C7F2; --head-active:#3A3F78;
+  --sel:#A9AFFF; --sel-ink:#15172E; --hover:#2A2E56; --code-bg:#121429; --code-ink:#E3E6FF; --badge:#30355E; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-padding-top:16px}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+a{color:var(--link)} a:hover{color:var(--link-hover)}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.mono{font-family:var(--mono)}
+
+/* header */
+.top{background:var(--head);color:var(--head-ink)}
+.top-in{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding:12px clamp(16px,2.4vw,32px);max-width:1760px;margin:0 auto}
+.top{--tb-line:rgb(255 255 255 / .3);--tb-ink:#fff;--tb-hover:var(--head-active)}
+.themebtn{min-height:40px;min-width:40px;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 12px;border-radius:8px;border:1px solid var(--tb-line);background:transparent;color:var(--tb-ink);font:500 13px var(--body);cursor:pointer}
+.themebtn:hover{background:var(--tb-hover)}
+.themebtn svg{flex:none}
+.brand{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.02em;color:#fff;text-decoration:none;line-height:1}
+.brand small{font-family:var(--body);font-weight:500;font-size:14px;letter-spacing:0;color:var(--head-muted);margin-left:10px}
+.nav{display:flex;gap:2px;flex-wrap:wrap}
+.nav a{padding:8px 13px;border-radius:8px;color:var(--head-muted);font-weight:500;text-decoration:none}
+.nav a:hover{color:#fff;background:var(--head-active)}
+.nav a[aria-current="page"]{background:var(--head-active);color:#fff;font-weight:600}
+.search{flex:1 1 320px;display:flex;align-items:center;gap:10px;background:#fff;border-radius:10px;padding:0 6px 0 14px;min-height:44px;color:#1D2040}
+.search svg{flex:none}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;color:#1D2040;outline:none;min-height:42px}
+.search{min-width:0}
+@media (max-width:560px){.search{flex-basis:100%}.search label.opt .long{display:none}}
+.search label.opt{display:flex;align-items:center;gap:6px;font-size:13px;color:#4A5170;white-space:nowrap;padding:0 8px;cursor:pointer}
+.az{background:var(--ground-2);border-bottom:1px solid var(--line)}
+.az-in{display:flex;flex-wrap:wrap;gap:2px;padding:8px clamp(16px,2.4vw,32px);max-width:1760px;margin:0 auto;align-items:center}
+.az a{min-width:30px;min-height:30px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500;font-size:14px}
+.az a:hover{background:var(--hover)}
+.az a[aria-current="true"]{background:var(--sel);color:var(--sel-ink)}
+.az .lbl{font-size:13px;color:var(--muted);margin-right:8px}
+
+/* layout */
+@media (max-width:820px){.top{position:static}}
+.layout{display:grid;grid-template-columns:minmax(240px,320px) minmax(0,1fr) minmax(280px,360px);gap:24px;padding:24px clamp(16px,2.4vw,32px) 56px;max-width:1760px;margin:0 auto;align-items:start}
+@media (max-width:1180px){.layout{grid-template-columns:minmax(220px,290px) minmax(0,1fr)}.side{grid-column:2}}
+@media (max-width:820px){.layout{grid-template-columns:minmax(0,1fr)}.side{grid-column:auto}}
+
+/* tree */
+.treebox{background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:14px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}
+.treebox>summary{display:none}
+@media (max-width:820px){.treebox{position:static;max-height:none}.treebox>summary{display:flex;justify-content:space-between;padding:12px 16px;font-weight:600;cursor:pointer;min-height:44px;align-items:center}}
+.tree ul{list-style:none;margin:0;padding:0}
+.tree li>.n{display:flex;align-items:baseline;gap:4px;padding:4px 12px 4px calc(6px + var(--d,0)*16px)}
+.tree li>.n:hover{background:var(--hover)}
+.tree .tw{flex:none;width:22px;height:22px;border:0;background:none;color:var(--muted);cursor:pointer;padding:0;font-size:12px;border-radius:4px;align-self:center}
+.tree .tw:hover{color:var(--ink);background:var(--line-soft)}
+.tree .tw.leaf{visibility:hidden}
+.tree .n a{flex:1;min-width:0;color:var(--ink);text-decoration:none}
+.tree .n .code{font-family:var(--mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
+.tree .fac>.n{font-weight:600;padding-top:8px;padding-bottom:8px}
+.tree .fac>.n a{font-family:var(--display);font-size:15px}
+.tree .n.sel{background:var(--sel)}
+.tree .n.sel a,.tree .n.sel .code,.tree .n.sel .tw{color:var(--sel-ink)}
+.tree .n.on-path a{font-weight:600}
+
+/* record sheet */
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:4px;padding:clamp(20px,2.4vw,30px) clamp(20px,3vw,40px) 32px;box-shadow:0 1px 0 var(--line),0 12px 28px rgb(29 32 64 / .07);min-width:0}
+.cardhead{display:flex;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;font-family:var(--mono);font-size:14px;color:var(--muted);border-bottom:2px solid var(--rule);padding-bottom:9px}
+.crumbs{margin-top:14px;font-size:14px;color:var(--muted)}
+.crumbs a{color:var(--muted)} .crumbs a:hover{color:var(--link)}
+.crumbs .sep{margin:0 6px;opacity:.7}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,4vw,52px);line-height:1.04;letter-spacing:-.025em;margin:4px 0 0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:700;font-size:20px;margin:0}
+.def{font-size:18px;line-height:1.55;max-width:68ch;margin:12px 0 0}
+.article{max-width:68ch;margin:18px 0 6px}
+.article p{font-size:16px;line-height:1.65;margin:0 0 12px}
+.badge{display:inline-block;font:600 12px var(--body);color:var(--muted);background:var(--badge);border-radius:999px;padding:1px 9px;margin-left:8px;vertical-align:2px;white-space:nowrap}
+.fields{margin:26px 0 0;display:grid;grid-template-columns:minmax(120px,190px) minmax(0,1fr);border-top:1px solid var(--line-soft)}
+.fields dt{padding:10px 16px 10px 0;border-bottom:1px solid var(--line-soft);font-weight:600;color:var(--muted)}
+.fields dd{margin:0;padding:10px 0;border-bottom:1px solid var(--line-soft);min-width:0;max-width:72ch}
+@media (max-width:560px){.fields{grid-template-columns:1fr}.fields dt{border-bottom:0;padding-bottom:0}}
+.list-inline{display:flex;flex-wrap:wrap;gap:4px 14px}
+.none{color:var(--muted)}
+.pt{font-family:var(--mono);font-size:14px;background:var(--panel);border:1px solid var(--line-soft);border-radius:5px;padding:1px 7px}
+.sub{font-size:14px;color:var(--muted)}
+.loc{margin-top:28px}
+.loc h2{margin-bottom:8px}
+.loc ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+.loc li{display:flex;gap:10px;align-items:baseline;padding:3px 0 3px calc(var(--d,0)*20px)}
+.loc li .code{font-family:var(--mono);font-size:12px;color:var(--muted);min-width:8.5em}
+.loc li.me{font-weight:600}
+.loc li.me a{color:var(--ink);text-decoration:none}
+.loc + .loc{margin-top:18px}
+
+/* side panels */
+.side{display:flex;flex-direction:column;gap:18px;min-width:0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.box p{margin:0}
+.btn{min-height:40px;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 14px;border-radius:8px;border:1px solid var(--ink);background:transparent;color:var(--ink);font:600 14px var(--body);cursor:pointer;text-decoration:none}
+.btn:hover{background:var(--ink);color:var(--sheet)}
+.btn.solid{background:var(--ink);color:var(--sheet)}
+.btn.solid:hover{background:var(--link);border-color:var(--link);color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.perma{font-family:var(--mono);font-size:13px;background:var(--sheet);border:1px solid var(--line);border-radius:6px;padding:7px 10px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1 1 160px}
+pre.code{margin:0;padding:12px 14px;background:var(--code-bg);color:var(--code-ink);border-radius:8px;font-family:var(--mono);font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-word;max-height:360px;overflow:auto}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--muted);font:500 13px var(--body);padding:6px 12px;cursor:pointer;min-height:32px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--sheet)}
+.usage{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14.5px}
+.usage b{font-family:var(--mono);font-weight:500;text-align:right}
+
+/* listings */
+.listing{margin-top:18px;columns:2 300px;column-gap:40px}
+.listing .it{break-inside:avoid;padding:6px 0;border-bottom:1px solid var(--line-soft)}
+.listing .it .meta{font-size:13px;color:var(--muted)}
+.results .it{padding:12px 0;border-bottom:1px solid var(--line-soft)}
+.results .it a.t{font-weight:600;font-size:16px}
+.results .it .meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 14px;margin-top:2px}
+.results .it p{margin:4px 0 0;max-width:72ch;font-size:14.5px}
+mark{background:#FFE08A;color:#1D2040;border-radius:2px;padding:0 1px}
+.tablewrap{overflow-x:auto;margin-top:18px}
+@media (max-width:560px){.facets th:nth-child(3),.facets td:nth-child(3){display:none}}
+.facets{width:100%;border-collapse:collapse;margin-top:18px;font-size:15px}
+.facets th,.facets td{text-align:left;padding:10px 12px 10px 0;border-bottom:1px solid var(--line-soft);vertical-align:top}
+.facets th{font-size:13px;color:var(--muted);font-weight:600}
+.facets td.num{font-family:var(--mono);font-size:13px;text-align:right;color:var(--muted)}
+.facets .code{font-family:var(--mono);font-size:13px}
+.lede{font-size:17px;max-width:70ch;margin:10px 0 0}
+.empty{color:var(--muted);padding:24px 0}
+.loading{color:var(--muted);padding:40px 0}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="index.html">Soundlore<small>Thesaurus</small></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="explore.html#concepts">Concepts</a>
+      <a href="explore.html#genres">Genres</a>
+      <a href="explore.html#artists">Artists</a>
+      <a href="explore.html#map">Map</a>
+      <a href="thesaurus.html" aria-current="page">Thesaurus</a>
+      <a href="about.html">About</a>
+    </nav>
+    <form class="search" role="search" id="sform">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4A5170" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <label class="sr" for="q">Search the thesaurus</label>
+      <input id="q" type="search" autocomplete="off" placeholder="Search terms, entry terms or IDs, like blast beat or SL000081">
+      <label class="opt"><input type="checkbox" id="qdef"> <span>def<span class="long">initions</span></span></label>
+    </form>
+    </div>
+</header>
+<nav class="az" aria-label="A to Z index"><div class="az-in" id="az"><span class="lbl">A–Z</span></div></nav>
+
+<div class="layout">
+  <details class="treebox" id="treebox" open>
+    <summary>Browse the hierarchy</summary>
+    <nav class="tree" id="tree" aria-label="Concept hierarchy"></nav>
+  </details>
+  <main id="main" class="sheet" tabindex="-1"><div class="loading">Loading the thesaurus…</div></main>
+  <aside class="side" id="side" aria-label="Use and export"></aside>
+</div>
+
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/\p{M}/gu,'').replace(/[–—‐-]/g,'-');
+const ADH={high:'High',medium:'Medium',low:'Low'};
+const MBMATCH={exact:'exact match',close:'close match',broad:'the MusicBrainz instrument is broader',narrow:'the MusicBrainz instrument is narrower',related:'related, not equivalent'};
+const MATCH={exact:'exact match',close:'close match',broad:'the Wikidata item is broader',narrow:'the Wikidata item is narrower',related:'related, not equivalent'};
+const SKOSM={exact:'exactMatch',close:'closeMatch',broad:'broadMatch',narrow:'narrowMatch',related:'relatedMatch'};
+let D,C,FAC,BY_UID,BY_SLUG,KIDS={},TERMS=[],GBC=null,OPEN={},CUR=null,FMT='ttl';
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+async function loadJson(f){const r=await fetch(f);if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return r.json();}
+
+async function init(){
+  D=await loadJson('concepts.json');
+  C=D.concepts;FAC=D.facets;
+  BY_UID=Object.fromEntries(C.map(c=>[c.uid,c]));BY_SLUG=Object.fromEntries(C.map(c=>[c.id,c]));
+  for(const c of C){const p=c.broader[0];if(p)(KIDS[p]=KIDS[p]||[]).push(c.id);}
+  // entry vocabulary for search and the A–Z index: preferred terms and entry terms
+  for(const c of C){TERMS.push({t:c.label,c,pref:true});for(const s of c.synonyms)TERMS.push({t:s,c,pref:false});}
+  TERMS.forEach(x=>x.n=norm(x.t));
+  TERMS.sort((a,b)=>a.n.localeCompare(b.n,'en'));
+  OPEN=store.get('sl-th-open',{});
+  const narrow=matchMedia('(max-width:820px)');$('#treebox').open=!narrow.matches;
+  narrow.addEventListener('change',e=>{if(!e.matches)$('#treebox').open=true;});
+  buildAZ();
+  route();
+  window.addEventListener('hashchange',route);
+  loadJson('genres_by_concept.json').then(g=>{GBC=g;if(CUR)renderSide(CUR)}).catch(()=>{});
+}
+
+// ---------- routing: #SL000081 · #facet/DRM · #az/B · #search/term · (empty) home
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(/^sl\d{1,6}$/i.test(h)){const u='SL'+h.slice(2).padStart(6,'0');if(BY_UID[u]){if(u!==h)history.replaceState(null,'','#'+u);return showConcept(BY_UID[u]);}}
+  if(BY_SLUG[h]){history.replaceState(null,'','#'+BY_SLUG[h].uid);return showConcept(BY_SLUG[h]);} // links from older versions used slugs
+  if(h.startsWith('facet/')&&FAC.some(f=>f.code===h.slice(6)))return showFacet(h.slice(6));
+  if(h.startsWith('az/'))return showAZ(h.slice(3).toUpperCase());
+  if(h.startsWith('search/')){const q=h.slice(7);if($('#q').value!==q)$('#q').value=q;return showSearch(q);}
+  if(h&&!h.startsWith('search'))return showMissing(h);
+  return showHome();
+}
+function go(hash){if(location.hash==='#'+hash)route();else location.hash=hash;}
+function setMain(html,title){
+  const M=$('#main');M.innerHTML=html;document.title=title?`${title} – Soundlore thesaurus`:'Soundlore thesaurus';
+  window.scrollTo({top:0});
+}
+function markAZ(L){document.querySelectorAll('#az a').forEach(a=>a.setAttribute('aria-current',a.dataset.l===L?'true':'false'));}
+
+// ---------- helpers
+const facetOf=code=>FAC.find(f=>f.code===code);
+const link=c=>`<a href="#${c.uid}">${esc(c.label)}</a>`;
+const linkSlug=id=>BY_SLUG[id]?link(BY_SLUG[id]):esc(id);
+function pathOf(c){const out=[];let x=c;const seen=new Set();while(x&&!seen.has(x.id)){seen.add(x.id);out.unshift(x);x=BY_SLUG[x.broader[0]];}return out;}
+function treeOrderKey(t){return t.split('.').map((p,i)=>i?p.padStart(3,'0'):p).join('.');}
+
+// ---------- tree navigation
+function renderTree(){
+  const sel=CUR?CUR.id:null, path=new Set(CUR?pathOf(CUR).map(x=>x.id):[]);
+  let h='<ul>';
+  for(const f of FAC){
+    const fo=OPEN['F:'+f.code]===true||(OPEN['F:'+f.code]!==false&&!!CUR&&CUR.facet===f.code);
+    const roots=C.filter(c=>c.facet===f.code&&!c.broader.length);
+    h+=`<li class="fac"><div class="n" style="--d:0"><button class="tw" data-t="F:${f.code}" aria-expanded="${!!fo}" aria-label="${fo?'Collapse':'Expand'} ${esc(f.label)}">${fo?'▾':'▸'}</button><a href="#facet/${f.code}">${esc(f.label)}</a><span class="code">${f.code}</span></div>`;
+    if(fo){h+='<ul>';for(const r of roots)h+=node(r,1,sel,path);h+='</ul>';}
+    h+='</li>';
+  }
+  $('#tree').innerHTML=h+'</ul>';
+  $('#tree').querySelectorAll('.tw[data-t]').forEach(b=>b.onclick=()=>{const k=b.dataset.t;OPEN[k]=!(b.getAttribute('aria-expanded')==='true');store.set('sl-th-open',OPEN);renderTree();const nb=$(`#tree .tw[data-t="${CSS.escape(k)}"]`);if(nb)nb.focus();});
+  const s=$('#tree .n.sel');if(s){const box=$('#treebox');const r=s.getBoundingClientRect(),br=box.getBoundingClientRect();if(r.top<br.top||r.bottom>br.bottom)box.scrollTop+=r.top-br.top-box.clientHeight/2;}
+}
+function node(c,d,sel,path){
+  const kids=KIDS[c.id]||[];const open=OPEN[c.id]===true||(OPEN[c.id]!==false&&path.has(c.id)&&c.id!==sel);
+  let h=`<li><div class="n${c.id===sel?' sel':''}${path.has(c.id)&&c.id!==sel?' on-path':''}" style="--d:${d}"><button class="tw${kids.length?'':' leaf'}" data-t="${c.id}" aria-expanded="${!!open}" ${kids.length?'':'tabindex="-1" aria-hidden="true"'} aria-label="${open?'Collapse':'Expand'} ${esc(c.label)}">${open?'▾':'▸'}</button><a href="#${c.uid}"${c.id===sel?' aria-current="page"':''}>${esc(c.label)}</a><span class="code">${esc(c.tree[0].split('.').slice(1).join('.'))}</span></div>`;
+  if(open&&kids.length){h+='<ul>';for(const k of kids)h+=node(BY_SLUG[k],d+1,sel,path);h+='</ul>';}
+  return h+'</li>';
+}
+
+// ---------- concept record
+function showConcept(c){
+  CUR=c;markAZ(null);
+  const f=facetOf(c.facet),p=pathOf(c);
+  const crumbs=`<div class="crumbs"><a href="#facet/${f.code}">${esc(f.label)}</a>${p.slice(0,-1).map(x=>`<span class="sep">/</span>${link(x)}`).join('')}</div>`;
+  const lst=(ids)=>ids.length?`<span class="list-inline">${ids.map(linkSlug).join('')}</span>`:'<span class="none">None</span>';
+  const w=c.wikidata;
+  const rows=[
+    ['Unique ID',`<span class="mono">${c.uid}</span>`],
+    [c.tree.length>1?'Tree numbers':'Tree number',`<span class="list-inline mono">${c.tree.map(x=>`<span>${esc(x)}</span>`).join('')}</span>`],
+    ['Entry terms',c.synonyms.length?`<span class="list-inline">${c.synonyms.map(s=>`<span>${esc(s)}</span>`).join('')}</span>`:'<span class="none">None</span>'],
+    ['Scope note',c.note?esc(c.note):'<span class="none">None</span>'],
+    ['Broader',lst(c.broader)],
+    ['Narrower',lst(c.narrower)],
+    ['Related',lst(c.related)],
+    ['Prompt terms',c.prompt_terms.length?`<span class="list-inline">${c.prompt_terms.map(s=>`<span class="pt">${esc(s)}</span>`).join('')}</span>`:'<span class="none">None</span>'],
+  ];
+  if(c.prompt_tags.length)rows.push(['Structure tags',`<span class="list-inline">${c.prompt_tags.map(s=>`<span class="pt">${esc(s)}</span>`).join('')}</span> <div class="sub">Placed in the lyrics, not in the style prompt.</div>`]);
+  rows.push(['Prompt adherence',`${ADH[c.prompt_adherence_expected]} <span class="sub">(estimated${c.prompt_adherence_tested?`; tested: ${esc(c.prompt_adherence_tested)}`:', not yet tested'})</span>`]);
+  rows.push(['Wikidata',w?`<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.qid)}</a> <span class="sub">${esc(MATCH[w.match])}${w.checked?`; checked ${esc(w.checked)}`:''}</span>`:'<span class="none">No equivalent item yet</span>']);
+  if(c.facet==='INS'||c.musicbrainz)rows.push(['MusicBrainz',c.musicbrainz?`<a href="${esc(c.musicbrainz.url)}" target="_blank" rel="noopener">${esc(c.musicbrainz.name)}</a> <span class="sub">${esc(MBMATCH[c.musicbrainz.match])}</span>`:'<span class="none">No equivalent instrument</span>']);
+  if(w&&w.enwiki_url)rows.push(['Wikipedia',`<a href="${esc(w.enwiki_url)}" target="_blank" rel="noopener">${esc(w.enwiki)}</a>`]);
+  rows.push(['Facet',`<a href="#facet/${f.code}">${esc(f.label)}</a> <span class="mono sub">${f.code}</span>`]);
+  if(c.definition)rows.push(['Definition status',c.definition_status==='draft'?'Draft, not yet reviewed':'Reviewed']);
+  setMain(`<article aria-labelledby="ttl">
+    <div class="cardhead"><span>${c.uid}</span><span>${c.tree.map(esc).join('  ')}</span></div>
+    ${crumbs}
+    <h1 id="ttl">${esc(c.label)}</h1>
+    ${c.definition?`<p class="def">${esc(c.definition)}${c.definition_status==='draft'?'<span class="badge" title="Draft definition, not yet reviewed">draft</span>':''}</p>`:'<p class="def none">No definition yet.</p>'}
+    <dl class="fields">${rows.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
+    ${c.tree.map((t,i)=>locationBlock(c,i)).join('')}
+  </article>`,`${c.label} (${c.uid})`);
+  renderTree();renderSide(c);
+}
+// Tree location: the path to the root, the concept's siblings, and its children (like MeSH tree view)
+function locationBlock(c,i){
+  const parentId=c.broader[i]||null;const parent=parentId?BY_SLUG[parentId]:null;
+  const anc=parent?pathOf(parent):[];
+  const sibs=parent?parent.narrower.map(id=>BY_SLUG[id]):C.filter(x=>x.facet===c.facet&&!x.broader.length);
+  const pre=c.tree[i].split('.').slice(0,-1).join('.'),depth=c.tree[i].split('.').length;
+  const num=x=>x.tree.find(t=>t.startsWith(pre+'.')&&t.split('.').length===depth)||x.tree[0];
+  const f=facetOf(c.facet);
+  let rows=`<li style="--d:0"><span class="code">${f.code}</span><a href="#facet/${f.code}">${esc(f.label)}</a></li>`;
+  anc.forEach((a,k)=>rows+=`<li style="--d:${k+1}"><span class="code">${esc(a.tree[0])}</span>${link(a)}</li>`);
+  const d=anc.length+1;
+  sibs.sort((a,b)=>treeOrderKey(num(a)).localeCompare(treeOrderKey(num(b))));
+  for(const s of sibs){
+    rows+=`<li style="--d:${d}" class="${s.id===c.id?'me':''}"><span class="code">${esc(num(s))}</span>${s.id===c.id?`<a href="#${s.uid}" aria-current="page">${esc(s.label)}</a>`:link(s)}${(KIDS[s.id]||[]).length&&s.id!==c.id?` <span class="sub">+${s.narrower.length}</span>`:''}</li>`;
+    if(s.id===c.id)for(const k of c.narrower){const kc=BY_SLUG[k];rows+=`<li style="--d:${d+1}"><span class="code">${esc(kc.tree.find(t=>t.startsWith(c.tree[i]+'.'))||kc.tree[0])}</span>${link(kc)}</li>`;}
+  }
+  return `<section class="loc"><h2>${c.tree.length>1?`Tree location ${i+1} of ${c.tree.length}`:'Tree location'}</h2><ul>${rows}</ul></section>`;
+}
+
+// ---------- side panels: genre usage, permalink, SKOS
+function renderSide(c){
+  const S=$('#side');if(!c){S.innerHTML=downloadsBox();bindSide();return;}
+  const u=GBC?GBC[c.id]:null;
+  const n=k=>u?u[k].length:0;
+  const usage=!GBC?'<p class="sub">Loading genre data…</p>':u?`<div class="usage"><b>${n('characteristic')}</b><span>genres where it is characteristic</span><b>${n('frequent')}</b><span>where it is frequent</span><b>${n('occasional')}</b><span>where it is occasional</span></div><a href="explore.html#concepts/${c.uid}">See these genres</a>`:'<p>No genre profile uses this concept yet.</p>';
+  const url=location.href.split('#')[0]+'#'+c.uid;
+  S.innerHTML=`<section class="box"><h2>Used in genres</h2>${usage}</section>
+  <section class="box"><h2>Link and export</h2>
+    <div class="row"><span class="perma" title="${esc(url)}">thesaurus.html#${c.uid}</span><button class="btn" id="cpl" type="button">Copy link</button></div>
+    <div class="row" style="justify-content:space-between"><span class="sub">This record as SKOS</span><span class="seg" role="group" aria-label="Format"><button type="button" data-f="ttl" aria-pressed="${FMT==='ttl'}">Turtle</button><button type="button" data-f="jsonld" aria-pressed="${FMT==='jsonld'}">JSON-LD</button></span></div>
+    <pre class="code" id="rdf" tabindex="0" aria-label="SKOS record">${esc(FMT==='ttl'?toTurtle(c):toJsonLd(c))}</pre>
+    <div class="row"><button class="btn" id="cpr" type="button">Copy record</button></div>
+  </section>${downloadsBox()}`;
+  $('#cpl').onclick=e=>copy(url,e.target,'Copy link');
+  $('#cpr').onclick=e=>copy($('#rdf').textContent,e.target,'Copy record');
+  S.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{FMT=b.dataset.f;renderSide(c);});
+  bindSide();
+}
+function downloadsBox(){return `<section class="box"><h2>Download the thesaurus</h2><p class="sub">All ${C.length} concepts and ${FAC.length} facets as SKOS. Concept URIs use the prefix <span class="mono">${esc(D.scheme.base_uri)}</span>.</p><div class="row"><a class="btn solid" href="soundlore.ttl" download target="_blank" rel="noopener">Turtle (.ttl)</a><a class="btn" href="soundlore.jsonld" download target="_blank" rel="noopener">JSON-LD</a></div></section>`;}
+function bindSide(){}
+async function copy(text,btn,label){try{await navigator.clipboard.writeText(text);btn.textContent='Copied';}catch(e){btn.textContent='Copy failed: select the text';}setTimeout(()=>btn.textContent=label,1800);}
+const lit=s=>'"'+String(s).replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\n/g,'\\n')+'"';
+function toTurtle(c){
+  const L=[`sl:${c.uid} a skos:Concept`,`skos:prefLabel ${lit(c.label)}@en`,`skos:notation ${lit(c.uid)}^^slv:UniqueID`,...c.tree.map(t=>`skos:notation ${lit(t)}^^slv:TreeNumber`)];
+  if(c.synonyms.length)L.push('skos:altLabel '+c.synonyms.map(s=>lit(s)+'@en').join(', '));
+  if(c.definition)L.push(`skos:definition ${lit(c.definition)}@en`);
+  if(c.note)L.push(`skos:scopeNote ${lit(c.note)}@en`);
+  for(const r of ['broader','narrower','related'])if(c[r].length)L.push(`skos:${r} `+c[r].map(x=>'sl:'+BY_SLUG[x].uid).join(', '));
+  if(c.wikidata)L.push(`skos:${SKOSM[c.wikidata.match]} wd:${c.wikidata.qid}`);
+  if(c.musicbrainz)L.push(`skos:${SKOSM[c.musicbrainz.match]} <${c.musicbrainz.url}>`);
+  if(c.prompt_terms.length)L.push('slv:promptTerm '+c.prompt_terms.map(lit).join(', '));
+  return `@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix wd: <http://www.wikidata.org/entity/> .\n@prefix sl: <${D.scheme.base_uri}> .\n@prefix slv: <${D.scheme.base_uri}vocab:> .\n\n`+L.join(' ;\n  ')+' .';
+}
+function toJsonLd(c){
+  const o={'@context':{skos:'http://www.w3.org/2004/02/skos/core#',sl:D.scheme.base_uri,wd:'http://www.wikidata.org/entity/'},'@id':'sl:'+c.uid,'@type':'skos:Concept','skos:prefLabel':{'@value':c.label,'@language':'en'},'skos:notation':[c.uid,...c.tree]};
+  if(c.synonyms.length)o['skos:altLabel']=c.synonyms.map(s=>({'@value':s,'@language':'en'}));
+  if(c.definition)o['skos:definition']={'@value':c.definition,'@language':'en'};
+  if(c.note)o['skos:scopeNote']={'@value':c.note,'@language':'en'};
+  for(const r of ['broader','narrower','related'])if(c[r].length)o['skos:'+r]=c[r].map(x=>({'@id':'sl:'+BY_SLUG[x].uid}));
+  for(const [m,id] of [c.wikidata&&[c.wikidata.match,'wd:'+c.wikidata.qid],c.musicbrainz&&[c.musicbrainz.match,c.musicbrainz.url]].filter(Boolean)){const k='skos:'+SKOSM[m];o[k]=o[k]?[].concat(o[k],{'@id':id}):{'@id':id};}
+  return JSON.stringify(o,null,1);
+}
+
+// ---------- facet page
+// facet article: paragraphs; *Name* links to a branch of this facet or to another facet, otherwise italic
+function facetArticle(f){
+  const own=new Map(C.filter(c=>c.facet===f.code).map(c=>[c.label.toLowerCase(),c]));
+  const fac=new Map(FAC.map(x=>[x.label.toLowerCase(),x]));
+  return f.article.split(/\n\n+/).map(p=>'<p>'+esc(p).replace(/\*([^*]+)\*/g,(m,t)=>{
+    const k=t.toLowerCase();
+    if(own.has(k))return link(own.get(k));
+    if(fac.has(k))return `<a href="#facet/${fac.get(k).code}">${t}</a>`;
+    return `<em>${t}</em>`;})+'</p>').join('');
+}
+function showFacet(code){
+  CUR=null;markAZ(null);const f=facetOf(code);const all=C.filter(c=>c.facet===code);const roots=all.filter(c=>!c.broader.length);
+  OPEN['F:'+code]=true;
+  setMain(`<div class="cardhead"><span>${code}</span><span>${all.length} concepts</span></div>
+    <div class="crumbs"><a href="thesaurus.html">Thesaurus</a></div>
+    <h1>${esc(f.label)}</h1>
+    ${f.summary?`<p class="def">${esc(f.summary)}</p>`:''}
+    ${f.article?`<section class="article" aria-label="About this facet">${facetArticle(f)}</section>`:''}
+    <section class="loc"><h2>Main branches</h2>
+    <div class="results">${roots.map(r=>`<div class="it"><a class="t" href="#${r.uid}">${esc(r.label)}</a><div class="meta"><span class="mono">${r.uid}</span><span class="mono">${esc(r.tree[0])}</span><span>${r.narrower.length} narrower</span></div>${r.definition?`<p>${esc(r.definition)}</p>`:''}</div>`).join('')}</div></section>`,f.label);
+  renderTree();renderSide(null);
+}
+
+// ---------- A–Z index
+function buildAZ(){
+  const have=new Set(TERMS.map(x=>/[a-z]/.test(x.n[0])?x.n[0].toUpperCase():'#'));
+  const letters=[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'].filter(l=>have.has(l));if(have.has('#'))letters.push('#');
+  $('#az').insertAdjacentHTML('beforeend',letters.map(l=>`<a href="#az/${l==='#'?'0-9':l}" data-l="${l}" aria-label="Terms starting with ${l==='#'?'a digit or symbol':l}">${l}</a>`).join(''));
+}
+function showAZ(L){
+  CUR=null;const key=L==='0-9'?'#':L;markAZ(key);
+  const items=TERMS.filter(x=>key==='#'?!/[a-z]/.test(x.n[0]):x.n[0]===L.toLowerCase());
+  setMain(`<div class="cardhead"><span>Index</span><span>${items.length} terms</span></div>
+    <h1>${key==='#'?'Digits and symbols':esc(L)}</h1>
+    <p class="lede sub">Preferred terms link to their record. Entry terms point to the preferred term to use.</p>
+    <div class="listing">${items.map(x=>x.pref?`<div class="it"><a href="#${x.c.uid}"><b>${esc(x.t)}</b></a> <span class="meta mono">${x.c.uid}</span></div>`:`<div class="it">${esc(x.t)} <span class="meta">see</span> <a href="#${x.c.uid}">${esc(x.c.label)}</a></div>`).join('')||'<p class="empty">No terms start with this letter.</p>'}</div>`,`Index ${key}`);
+  renderTree();renderSide(null);
+}
+
+// ---------- search
+function search(q,withDefs){
+  const n=norm(q.trim());if(!n)return[];
+  const sl=n.match(/^sl0*(\d{1,6})$/);
+  if(sl){const c=BY_UID['SL'+sl[1].padStart(6,'0')];return c?[{c,score:1000,via:null}]:[];}
+  const best=new Map();
+  const put=(c,score,via)=>{const b=best.get(c.id);if(!b||b.score<score)best.set(c.id,{c,score,via});};
+  const words=n.split(/\s+/);
+  for(const x of TERMS){
+    let s=0;
+    if(x.n===n)s=100;else if(x.n.startsWith(n))s=80;else if(x.n.split(/[\s\/(),-]+/).some(w=>w.startsWith(n)))s=65;else if(x.n.includes(n))s=50;else if(words.length>1&&words.every(w=>x.n.includes(w)))s=40;
+    if(s)put(x.c,s+(x.pref?2:0),x.pref?null:x.t);
+  }
+  for(const c of C){
+    if(c.tree.some(t=>t.toLowerCase().startsWith(n)))put(c,70,null);
+    if(c.prompt_terms.some(p=>norm(p).includes(n)))put(c,30,'prompt term');
+    if(withDefs&&(norm(c.definition).includes(n)||norm(c.note).includes(n)))put(c,15,'definition');
+  }
+  return [...best.values()].sort((a,b)=>b.score-a.score||a.c.label.localeCompare(b.c.label));
+}
+function hl(text,q){const n=norm(q.trim());if(!n)return esc(text);const i=norm(text).indexOf(n);if(i<0)return esc(text);return esc(text.slice(0,i))+'<mark>'+esc(text.slice(i,i+n.length))+'</mark>'+esc(text.slice(i+n.length));}
+function showSearch(q){
+  CUR=null;markAZ(null);
+  const res=search(q,$('#qdef').checked);
+  setMain(`<div class="cardhead"><span>Search</span><span>${res.length} ${res.length===1?'concept':'concepts'}</span></div>
+    <h1>${q.trim()?`Results for “${esc(q)}”`:'Search'}</h1>
+    ${!res.length?`<p class="empty">No concept matches “${esc(q)}”. Try a shorter word, an entry term, or turn on <i>definitions</i> to search inside definitions and scope notes.</p>`:''}
+    <div class="results">${res.slice(0,200).map(r=>`<div class="it"><a class="t" href="#${r.c.uid}">${hl(r.c.label,q)}</a><div class="meta"><span class="mono">${r.c.uid}</span><span class="mono">${esc(r.c.tree[0])}</span><span>${esc(facetOf(r.c.facet).label)}</span>${r.via&&r.via!=='prompt term'&&r.via!=='definition'?`<span>entry term: ${hl(r.via,q)}</span>`:r.via?`<span>matched in ${r.via}</span>`:''}</div>${r.c.definition?`<p>${hl(r.c.definition,q)}</p>`:''}</div>`).join('')}</div>`,`Search: ${q}`);
+  renderTree();renderSide(null);
+}
+let qt;
+$('#q').addEventListener('input',e=>{clearTimeout(qt);qt=setTimeout(()=>{const v=e.target.value;if(v.trim())history.replaceState(null,'','#search/'+encodeURIComponent(v));showSearch(v);},160);});
+$('#qdef').addEventListener('change',()=>{const v=$('#q').value;if(v.trim())showSearch(v);});
+$('#sform').addEventListener('submit',e=>{e.preventDefault();const v=$('#q').value;const r=search(v,$('#qdef').checked);if(r.length&&(r.length===1||r[0].score>=100))go(r[0].c.uid);else go('search/'+encodeURIComponent(v));});
+
+// ---------- home
+function showHome(){
+  CUR=null;markAZ(null);
+  const nDef=C.filter(c=>c.definition).length,nWd=C.filter(c=>c.wikidata).length;
+  setMain(`<div class="cardhead"><span>Soundlore thesaurus</span><span>version ${esc(D.scheme.version)}</span></div>
+    <h1>Thesaurus of musical resources</h1>
+    <p class="lede">${C.length} concepts that describe how music is made: rhythm, harmony, form, voice, instruments, techniques, production and mood. Each concept has a permanent identifier, a definition, a scope note, its place in the hierarchy, related terms and, where one exists, a Wikidata link. ${nDef} have a definition and ${nWd} a Wikidata link.</p>
+    <p class="lede">Search above, browse the hierarchy, or open a letter in the A–Z index. Every record has its own address, like <a href="#SL000081">thesaurus.html#SL000081</a>.</p>
+    <div class="tablewrap"><table class="facets" style="margin-top:0"><caption class="sr">Facets</caption><thead><tr><th scope="col">Code</th><th scope="col">Facet</th><th scope="col">Main branches</th><th scope="col" style="text-align:right">Concepts</th></tr></thead><tbody>
+    ${FAC.map(f=>{const all=C.filter(c=>c.facet===f.code);const roots=all.filter(c=>!c.broader.length);return `<tr><td class="code">${f.code}</td><td><a href="#facet/${f.code}"><b>${esc(f.label)}</b></a>${f.summary?`<div class="sub">${esc(f.summary)}</div>`:''}</td><td>${roots.map(link).join(', ')}</td><td class="num">${all.length}</td></tr>`}).join('')}
+    </tbody></table></div>`,'');
+  renderTree();renderSide(null);
+}
+function showMissing(h){CUR=null;setMain(`<div class="cardhead"><span>Not found</span><span></span></div><h1>No record at “${esc(h)}”</h1><p class="lede">Identifiers look like <a href="#SL000081">SL000081</a>. Search for the term above, or start from the <a href="thesaurus.html">thesaurus home</a>.</p>`,'Not found');renderTree();renderSide(null);}
+
+init().catch(e=>{console.error(e);$('#main').innerHTML='<p class="empty">The thesaurus data could not be loaded. Open this page from the published site or a local web server, not as a file.</p>';});
+</script>
+
+</body>
+</html>

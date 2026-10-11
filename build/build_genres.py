@@ -1,4 +1,4 @@
-"""Build the genre thesaurus, the concept→genres index and the temperature between genres.
+"""Soundlore: build the genre thesaurus, the concept→genres index and the temperature between genres.
 
 Input:  sources/musicbrainz_genres.json, genres/core.txt, genres/profiles_*.txt, build/concepts.json
 Output: build/genres.json, build/temperature.json, build/temperature_viewer.json,

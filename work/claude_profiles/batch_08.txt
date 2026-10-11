@@ -1,0 +1,51 @@
+# genre ; confidence ; C ... | F ... | O ... | X ... ; rationale
+talempong ; medium ; C mb:gong-chime polyrhythm | F hocket instrumental_track mood_bright | O  | X gamelan_tuning ; Minangkabau gong-chime music in interlocking patterns.
+tamborera ; medium ; C female_vocals | F mood_energetic vocal_call_response | O  ; Panamanian drum dance with responsorial singing.
+tamborito ; high ; C female_vocals handclaps | F time_2_4 mood_bright | O ; Panamanian national dance: three drums, handclaps and women's chorus.
+taquirari ; medium ; C mood_bright | F violin male_vocals | O  | X charango pan_flute ; Eastern Bolivian lowland dance with violin, guitar and drums.
+tarawangsa ; medium ; C mb:kacapi drone mood_spiritual | F repetition tempo_slow | O ; Sundanese ritual music of the bowed tarawangsa and jentreng zither.
+tassa ; high ; C tempo_fast polyrhythm | F cymbals accelerando mood_energetic | O  ; Indo-Trinidadian kettle-drum ensemble with bass drum and jhanj cymbals.
+tassu ; medium ; C rap | F female_vocals mood_playful repetition | O  ; Wolof rhythmic recitation, a precursor of Senegalese rap.
+tchinkoumé ; low ; C vocal_call_response mood_spiritual | F polyrhythm female_vocals large_drums | O  ; Funeral music of the Fon of Benin, with water drums and responsorial singing.
+tembang cianjuran ; high ; C mb:kacapi male_vocals female_vocals | F mb:suling tempo_slow melisma | O | X pitched_percussion ; Sundanese sung poetry with kacapi indung and suling.
+thai classical ; high ; C mb:ranat_ek mb:khong_wong_yai | F mb:pi_nai heterophony tempo_mid | O  | X gamelan_tuning ; Thai court music: xylophones, gong circles, pi oboe; seven-tone equidistant tuning, not gamelan.
+timbila ; high ; C instrumental_track | F mood_energetic theme_variations polyrhythm | O  ; Chopi xylophone orchestras of Mozambique in multi-movement ngodo.
+tizita ; high ; C mb:krar male_vocals female_vocals | F mood_nostalgic tempo_slow | O ; Ethiopian song of longing in the tizita qenet.
+toada de boi ; medium ; C large_drums | F mood_energetic vocal_call_response male_vocals | O  ; Amazonian bumba-meu-boi music with massed drums.
+tonada potosina ; low ; C female_vocals | F violin mood_melancholic | O | X pan_flute ; Potosí folk song, typically with charango and voice.
+tradi-moderne congolais ; medium ; C male_vocals polyrhythm | F vocal_call_response mood_energetic | O ; Congolese pop drawing on traditional rhythms and songs.
+traditional séga ; high ; C time_6_8 female_vocals | F triangle mood_energetic | O  | X accordion ; Original séga with ravanne frame drums, maravanne and triangle.
+trallalero ; high ; C male_vocals falsetto | F vocal_harmonies tempo_mid | O ; Genoese five-part male polyphony with voices imitating instruments, including a falsetto part.
+tsapiky ; high ; C male_vocals | F electric_bass mood_energetic syncopation | O  ; Southwestern Malagasy fast guitar dance music.
+tsugaru-jamisen ; high ; C instrumental_track solo_performer | F mood_energetic loud_dynamics | O ; Virtuosic, percussive solo shamisen from Aomori.
+tumba ; medium ; C syncopation mood_energetic | F horn_section male_vocals tempo_fast | O  ; Curaçao carnival road-march music with drums and band.
+tumba francesa ; high ; C female_vocals large_drums | F vocal_call_response polyrhythm mood_energetic | O  ; Haitian-Cuban dance society music with large drums, catá and responsorial singing.
+tumbélé ; low ; C male_vocals | F mood_energetic | O ; Guadeloupean and Martinican dance music related to Congolese guitar styles.
+turkish classical ; high ; C mb:kanun mb:kudüm | F mb:tanbur mb:classical_kemençe | O ; Ottoman art music with ney, tanbur, kanun, kemençe and kudüm.
+turntablism ; high ; ; Already described.
+twoubadou ; medium ; C male_vocals | F mb:marímbula maracas mood_nostalgic | O  ; Haitian troubadour guitar songs.
+tân cổ giao duyên ; medium ; C female_vocals male_vocals | F mb:Vietnamese_guitar mood_melancholic | O  ; Vietnamese blend of cải lương vọng cổ and modern song.
+unyago ; low ; C female_vocals | F mood_energetic polyrhythm vocal_call_response | O  ; Initiation dances of women of coastal Tanzania, with drums.
+upopo ; medium ; C female_vocals | F repetition hocket mood_spiritual | O  ; Ainu seated group singing in rounds, with lid-tapping.
+urtiin duu ; high ; C morin_khuur female_vocals male_vocals | F tempo_very_slow ornamentation | O ; Mongolian long song: very long, ornamented notes over free rhythm.
+urumi melam ; medium ; C mood_spiritual | F mb:nadaswaram accelerando | O  ; Tamil folk ensemble led by the friction-like urumi drum, for trance rituals.
+uyghur muqam ; high ; C male_vocals mb:tanbur mb:dutar | F mb:ghijak daf | O | X ney oud ; Uyghur suites of sung and instrumental sections with satar, tanbur, dutar and dap.
+uzun hava ; high ; C male_vocals | F mood_melancholic improvisation | O kaval ; Turkish free-rhythm 'long air', often with bağlama or kaval.
+vallenato ; high ; C button_accordion male_vocals | F mood_romantic | O | X accordion ; Colombian accordion music with caja and guacharaca.
+vals venezolano ; high ; C hemiola | F piano mood_romantic mood_nostalgic | O  ; Venezuelan waltz with cuatro, guitar or piano.
+valsa brasileira ; medium ; C mood_romantic | F mood_nostalgic acoustic_guitar | O flute ; Brazilian waltz, sentimental, often in choro instrumentation.
+vanera ; medium ; C button_accordion | F male_vocals mood_energetic | O  | X accordion ; Gaúcho dance derived from the habanera, led by the gaita.
+vedic chant ; high ; C male_vocals | F tempo_slow | O ; Sanskrit Vedic recitation with three pitch accents.
+verbunkos ; high ; C cimbalom | F tempo_change mood_theatrical | O clarinet ; Hungarian recruiting-dance music with slow and fast sections.
+vietnamese classical ; medium ; C heterophony | F dan_tranh mb:đàn_nhị tempo_slow | O  ; Umbrella for Vietnamese court and chamber music.
+villancico ; medium ; C strophic_form | F guitar tambourine | O  | X glockenspiel orchestra ; Iberian Christmas songs, popular and choral.
+waka ; medium ; C female_vocals | F vocal_call_response mood_spiritual accelerando | O  ; Yoruba Muslim women's song with percussion.
+waltz ; high ; C  | F orchestra string_section mood_romantic tempo_mid | O  ; Ballroom dance in 3/4.
+wangga ; high ; C male_vocals mb:clapstick | F repetition | O  ; Western Arnhem Land songs with didgeridoo and clapsticks.
+wassoulou ; high ; C mb:kamale_ngɔni | F repetition mood_hypnotic | O  | X kora ; Malian music sung by women with kamalen ngoni and calabash.
+whistling ; high ; ; Already described.
+xẩm ; medium ; C male_vocals | F mb:đàn_nhị storytelling mood_melancholic | O  ; Vietnamese blind street singers' music.
+yukar ; medium ; C male_vocals | F repetition free_meter | O  ; Ainu epic recitation.
+zamacueca ; medium ; C  | F vocal_call_response guitar | O  ; Peruvian ancestor of the marinera and cueca.
+zamba ; high ; C bombo_leguero | F male_vocals tempo_slow | O ; Argentine slow 6/8 handkerchief dance.
+zemirot ; medium ; C repetition | F male_vocals choir | O  ; Jewish Sabbath table songs sung together.

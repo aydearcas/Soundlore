@@ -1,0 +1,25 @@
+genre	concept_id	level	confidence	rationale
+zinli	vocal_call_response	C	low	Fon funeral music of Abomey with the zinli water-jar drum.
+zinli	mood_spiritual	C	low	Fon funeral music of Abomey with the zinli water-jar drum.
+zinli	polyrhythm	F	low	Fon funeral music of Abomey with the zinli water-jar drum.
+zinli	male_vocals	F	low	Fon funeral music of Abomey with the zinli water-jar drum.
+zoblazo	male_vocals	C	medium	Ivorian dance music;dancers wave white handkerchiefs.
+zoblazo	handclaps	F	medium	Ivorian dance music;dancers wave white handkerchiefs.
+zoblazo	mood_energetic	F	medium	Ivorian dance music;dancers wave white handkerchiefs.
+zouglou	male_vocals	C	high	Ivorian student-born social commentary music.
+zouglou	vocal_harmonies	C	high	Ivorian student-born social commentary music.
+zouglou	protest_lyrics	F	high	Ivorian student-born social commentary music.
+zouglou	storytelling	F	high	Ivorian student-born social commentary music.
+zouk	electric_guitar	F	high	Antillean dance music of Kassav' and successors.
+zouk	horn_section	F	high	Antillean dance music of Kassav' and successors.
+zouk	male_vocals	F	high	Antillean dance music of Kassav' and successors.
+zouk	female_vocals	F	high	Antillean dance music of Kassav' and successors.
+éntekhno	male_vocals	C	high	Greek 'art song': poetry set to orchestral and bouzouki arrangements.
+éntekhno	mood_introspective	F	high	Greek 'art song': poetry set to orchestral and bouzouki arrangements.
+éntekhno	string_section	F	high	Greek 'art song': poetry set to orchestral and bouzouki arrangements.
+čalgija	MB0345	F	high	Macedonian urban ensemble.
+čalgija	darbuka	F	high	Macedonian urban ensemble.
+čalgija	oud	F	high	Macedonian urban ensemble.
+ʻōteʻa	large_drums	F	high	Tahitian drum dance with toere slit drums.
+ʻōteʻa	polyrhythm	F	high	Tahitian drum dance with toere slit drums.
+ʻōteʻa	mood_energetic	F	high	Tahitian drum dance with toere slit drums.
