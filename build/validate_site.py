@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGES = ('index.html', 'explore.html', 'layers.html', 'thesaurus.html', 'about.html')
 ASSETS = ('concepts.json', 'genres.json', 'temperature_viewer.json', 'genres_by_concept.json', 'idf.json',
           'genre_map.json', 'instrument_layer.json', 'stats.json', 'artists.json', 'artist_neighbors.json',
-          'artists_stats.json', 'soundlore.jsonld', 'soundlore.ttl')
+          'artists_stats.json', 'soundlore.jsonld', 'soundlore.ttl', 'og-image.jpg')
 LEVELS = ('characteristic', 'frequent', 'occasional')
 
 

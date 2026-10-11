@@ -1,8 +1,85 @@
-# Soundlore — v0.10
+<p align="center">
+  <a href="https://aydearcas.github.io/Soundlore/"><img src="docs/images/landing.jpg" alt="Soundlore: the landing page, with the genre map on a turning plate and the headline “Every genre, mapped by what it’s made of.”" width="100%"></a>
+</p>
 
-**Site:** https://aydearcas.github.io/Soundlore/ · **General Orchestrator:** aydearcas ([GitHub](https://github.com/aydearcas), [LinkedIn](https://www.linkedin.com/in/aydearcas/))
+<h1 align="center">Soundlore</h1>
 
-> The site is in `viewer/`. On every push to `main`, the GitHub Actions workflow `.github/workflows/pages.yml` runs `build/package.py`, which validates the site and copies it to `dist/`, and publishes it to GitHub Pages. See `PUBLISHING.md`. Generated files in `build/` are not committed: run the build to recreate them. The 1.7 GB MusicBrainz artist dump is not committed either; its extract (`sources/musicbrainz/artist_genres_extract.jsonl.gz`) is.
+<p align="center"><b>An open atlas of music: every genre, mapped by what it’s made of.</b></p>
+
+<p align="center">
+  <a href="https://aydearcas.github.io/Soundlore/"><b>Open Soundlore →</b></a> ·
+  <a href="https://aydearcas.github.io/Soundlore/explore.html#map-3d-artists">3D map</a> ·
+  <a href="https://aydearcas.github.io/Soundlore/explore.html#genres">Genres</a> ·
+  <a href="https://aydearcas.github.io/Soundlore/explore.html#artists">Artists</a> ·
+  <a href="https://aydearcas.github.io/Soundlore/thesaurus.html">Thesaurus</a> ·
+  <a href="https://aydearcas.github.io/Soundlore/about.html">How it works</a>
+</p>
+
+<p align="center">2,186 genres · 95,927 artists · 959 musical concepts · 14 facets · free and open data</p>
+
+---
+
+## What is Soundlore?
+
+Soundlore describes music by **what it is made of**: the rhythms, instruments, voices, harmonies, production techniques and moods that a song can use. It records which of those resources define each musical genre and, from that, measures how close two genres are. The result is a map you can explore, in 2D or in 3D, where genres that sound alike sit near each other and every artist is placed among the genres they play.
+
+It is built for curious listeners, musicians, students, music teachers and researchers, and for anyone who writes prompts for AI music generators and wants the right words for a sound.
+
+No account, no installation: it runs in the browser, on a computer or a phone.
+
+## What you can do
+
+- **Fly through the map of genres in 3D.** Genres sit on one plane and almost 96,000 artists on another, joined by lines. Zoom in (up to 70×) and the names of the artists appear; double-click any point to fly to it.
+- **Open any genre** to see what it is made of (characteristic, frequent and occasional resources), its closest genres with a 0–100 “temperature”, its best-known artists, where it comes from and a ready-to-edit **prompt draft** for music generators.
+- **Look up an artist** to see their genres, what those genres are made of and similar artists.
+- **Browse the thesaurus**: 959 musical concepts, from *blast beat* to *Dorian mode* or *wall of sound*, each with a definition, its place in the hierarchy, related terms and a Wikidata link.
+- **Search everything at once** (genres, artists and concepts) from the box at the top of every page.
+- **Share any view**: every genre, artist, concept and map view has its own address.
+
+<p align="center">
+  <img src="docs/images/map-3d-zoom.jpg" alt="The 3D map zoomed in on the artist layer: artist names such as Björk, Massive Attack, Depeche Mode and The Cure appear among coloured points" width="100%">
+  <br><sub>Zoomed into the artist layer of the 3D map: names appear as you get closer.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/images/genre.jpg" alt="The record of the genre shoegaze: its characteristic resources (breathy vocals, distortion, dreamy, reverb, wall of sound), a prompt draft and its closest genres" width="100%">
+  <br><sub>A genre record: what shoegaze is made of, a prompt draft and its closest genres.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/images/phones.jpg" alt="Soundlore on a phone: the landing page, the 2D genre map and the 3D map with genres and artists" width="80%">
+  <br><sub>Designed for phones too, with a bottom tab bar and a full-screen map.</sub>
+</p>
+
+## How it works, in short
+
+1. **Concepts.** A thesaurus of 959 musical resources in 14 facets (rhythm, harmony, form, voice, instruments, production, mood…), each with a stable identifier (`SL000081`), a definition and links to Wikidata.
+2. **Genre profiles.** Each of the 2,186 profiled MusicBrainz genres lists which of those resources are characteristic, frequent or occasional in it.
+3. **Temperature.** Two genres are “hot” (close) when they share resources, especially rare ones, and when they are near each other in the MusicBrainz genre tree.
+4. **The map.** Genres are placed so that hot pairs sit close together; artists are placed at the centre of their genres, weighted by the MusicBrainz community’s votes or, for some, by their Wikidata genres.
+
+The [About page](https://aydearcas.github.io/Soundlore/about.html) explains each step in detail, with its sources and limits.
+
+## Status
+
+Soundlore is a work in progress (v0.11). The definitions and many genre profiles are drafts written with the help of AI assistants and still need expert review; the [Limits](https://aydearcas.github.io/Soundlore/about.html#limits) section on the About page lists what to keep in mind. Corrections and suggestions are welcome through [GitHub issues](https://github.com/aydearcas/Soundlore/issues).
+
+## Data, license and credits
+
+- **Code** (build scripts and site): [AGPL-3.0](LICENSE).
+- **Soundlore’s own data** (concepts, definitions, genre profiles, temperature, map): CC0, free for any use.
+- **MusicBrainz and Wikidata core data**: CC0. **Artist–genre links derived from MusicBrainz votes**: CC BY-NC-SA 3.0, kept in separate files. Details in [License](#license) and [DATA-LICENSE.md](DATA-LICENSE.md).
+- Genres, artists and instruments come from [MusicBrainz](https://musicbrainz.org/) and [Wikidata](https://www.wikidata.org/); thanks to both communities.
+
+**General Orchestrator:** aydearcas ([GitHub](https://github.com/aydearcas), [LinkedIn](https://www.linkedin.com/in/aydearcas/)), with Claude (Anthropic) and ChatGPT (OpenAI) as AI assistants.
+
+---
+
+# Technical documentation
+
+Everything below is for people who want to rebuild the data, change the site or reuse the files.
+
+> The site is in `viewer/`. On every push to `main`, the GitHub Actions workflow `.github/workflows/pages.yml` runs `build/package.py`, which validates the site and copies it to `dist/`, and publishes it to GitHub Pages. Generated files in `build/` are not committed: run the build to recreate them. The 1.7 GB MusicBrainz artist dump is not committed either; its extract (`sources/musicbrainz/artist_genres_extract.jsonl.gz`) is.
 
 Soundlore is both a visualization tool and a library of musical lore, genres, artists and resources plus concepts organized as a thesaurus (SKOS model, MeSH style), with two connected vocabularies:
 
@@ -46,10 +123,12 @@ The bridge between them is each genre's **profile**: which resources are charact
 | `build/genres_by_concept.json` | Inverted index: which genres use each resource |
 | `build/genre_map.json` | 2D coordinates and family of every profiled genre, for the map view |
 | `build/stats.json` | Counts and sample records for the landing page |
-| `viewer/index.html` | Landing page: two doors, to the explorer and to the thesaurus |
+| `viewer/index.html` | Landing page: two doors, to the explorer (3D map) and to the thesaurus |
+| `viewer/og-image.jpg` | Preview image shown when a link to the site is shared |
+| `docs/images/` | Screenshots used in this README and `social-preview.jpg` for the repository's social preview |
 | `viewer/explore.html` | Explorer: concepts, genres (profiles, prompt drafts, temperature) and the genre map |
 | `viewer/thesaurus.html` | Thesaurus: MeSH-style concept records, A–Z index, search, SKOS export |
-| `viewer/layers.html` | Prototype of the two-layer map: genres below, instruments above, linked; 2D (default) or 3D |
+| `viewer/layers.html` | The layered map: instruments, genres and artists, linked; 2D or 3D |
 | `build/build_layers.py` | Builds `instrument_layer.json` for that view |
 | `build/filter_artists.py` | Streams `artist.tar.xz` (no decompression to disk) and keeps the artists with genre votes; `build/run_filter_artists.bat` runs it on Windows with a double click |
 | `build/build_artists.py` | Selects the artists, places them on the map and computes similar artists: `build/artists.json`, `build/artist_neighbors.json`, `build/artists_stats.json` (needs `numpy`) |
@@ -63,13 +142,13 @@ Four static pages in `viewer/`, with no framework and no build step. Each page l
 
 | Page | Addresses | Contents |
 |---|---|---|
-| `index.html` | | Landing page. The left two thirds show the genre map: clicking it opens the explorer's map, and buttons open the 3D view and the layers view; links below go to the genre list and the artists. The right third shows catalog cards and opens the thesaurus. They stack on phones. |
+| `index.html` | | Landing page. The left two thirds are a cover: the genre map drawn as a slowly turning plate, the headline, the figures and a ticker of genre names; the main button and the map open the 3D view with genres and artists (`explore.html#map-3d-artists`), other buttons the 2D map and the genre list. The right third shows catalog cards and opens the thesaurus. They stack on phones. |
 | `explore.html` | `#concepts/SL000081`, `#genres/shoegaze`, `#artists/<MBID>`, `#artists/genre/shoegaze`, `#map/shoegaze`, `#map-instruments`, `#map-3d/shoegaze`, `#search/<text>` | Concepts tab (tree, definition, prompt terms, genres that use the concept), Genres tab (profile, prompt draft, the genre's most voted artists, relations, closest genres, mini-map), Artists tab (list with family and genre filters; record with voted genres, the resources of those genres, prompt draft, similar artists and a mini-map joining the artist to its genres) and the map. The header search looks across concepts, genres and artists (`#search/<text>` lists everything); each list has its own filter box above it. The map card has one toolbar for the layer (genres or instruments), the view (2D or 3D), a find box and full screen; the instrument layer and the 3D view are `layers.html` embedded in the card. |
-| `layers.html` | `#g/shoegaze`, `#i/SL000127`, `#3d`, `#3d/g/shoegaze`, `#embed/…` | Two linked layers, genres and instruments, in 2D or 3D (three.js r128 from cdnjs). `#embed/…` hides its header when the explorer embeds it; standalone, the title goes back to the previous page. |
+| `layers.html` | `#g/shoegaze`, `#i/SL000127`, `#3d`, `#3d/g/shoegaze`, `#embed/…` | Linked layers (genres, instruments, artists) in 2D or 3D (three.js r128 from cdnjs). In 3D the wheel or a pinch zooms toward the cursor up to 70×, the names of genres and artists in view appear close up, double-click flies to a point, and a camera dock has Tilt / Top / Side views, zoom buttons and reset. `#embed/…` hides its header when the explorer embeds it; standalone, the title goes back to the previous page. |
 | `thesaurus.html` | `#SL000081`, `#facet/DRM`, `#az/B`, `#search/growl` | One record per concept, modeled on the MeSH Browser: identifier, tree numbers, entry terms, definition, scope note, broader / narrower / related terms, prompt data, Wikidata and Wikipedia, tree location. A–Z index of preferred and entry terms, search (terms, entry terms, IDs, tree numbers, optionally definitions), facet pages, and SKOS for each record and for the whole thesaurus. Old slug addresses (`#blast_beat`) redirect to the identifier. |
 | `about.html` | `#concepts`, `#temperature`, `#artists`, `#license`… | What Soundlore is, how the concepts, genre profiles, temperature, map and artists were built, sources and credits, license, and limits. |
 
-The pages share one visual system: Bricolage Grotesque for headings, Instrument Sans for text and IBM Plex Mono only for identifiers and tree numbers; a night blue ground for the map, card stock with a red rule for the thesaurus. Light and dark themes follow the system setting; a button in the header switches them and remembers the choice in the browser.
+The pages share one visual system: Bricolage Grotesque for headings, Instrument Sans for text and IBM Plex Mono only for identifiers and tree numbers; a night blue ground for the map, card stock with a red rule for the thesaurus. The themes are fixed for now: the landing has a light door and a night door, the other pages are dark. On phones the explorer, thesaurus and About share a compact header (brand and search) and a bottom tab bar. Every page carries Open Graph tags with `og-image.jpg`, so shared links show a preview image.
 
 To view the site locally, serve the folder (the pages fetch their data): `python -m http.server 8000 --directory viewer`, then open `http://localhost:8000/`.
 
