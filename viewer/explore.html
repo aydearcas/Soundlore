@@ -15,7 +15,8 @@ document.documentElement.dataset.theme='dark';
 ::-webkit-scrollbar-thumb:hover{background-color:rgb(120 126 160 / .75)}
 ::-webkit-scrollbar-corner{background:transparent}
 </style>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#181A3C">
 <title>Explore genres and concepts – Soundlore</title>
 <meta name="description" content="Explore 2,186 musical genres and 959 musical concepts: genre profiles, closest genres by temperature, prompt drafts and a 2D genre map.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +30,7 @@ document.documentElement.dataset.theme='dark';
   --night:#EEF1F6; --night-ink:#1D2040; --night-muted:#4A5170; --mt-bg:rgb(29 32 64 / .06); --mt-line:rgb(29 32 64 / .2); --mt-ink:#1D2040; --dash:#B9C0D0; --hover:#F0F1FA;
   --t0:#4B7BD8; --t1:#45A7B8; --t2:#D9A83A; --t3:#E3702F; --t4:#D23A3A;
   --f1:#2A78D6;--f2:#EB6834;--f3:#1BAF7A;--f4:#D99500;--f5:#E05C93;--f6:#138A2E;--f7:#6250D6;--f8:#D9413F;--f9:#8E95A3;
+  --glass:rgb(255 255 255 / .92);--glass-ink:#1D2040;--glass-muted:#4A5170;--glass-line:rgb(29 32 64 / .12);--glass-tag:#23277F;--glass-tagink:#fff;--map-bg:var(--night);
   --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
   --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
@@ -38,12 +40,12 @@ document.documentElement.dataset.theme='dark';
   --night:#181A3C; --night-ink:#EEF0FF; --night-muted:#B9BDE6; --mt-bg:rgb(255 255 255 / .1); --mt-line:rgb(255 255 255 / .25); --mt-ink:#FFFFFF; --ground:#15172E; --panel:#1F2342; --ink:#E8EAF7; --muted:#A9AECB; --line:#343A66; --line-soft:#2A2F55;
   --accent:#A9AFFF; --accent-soft:#2D3263; --link:#A9AFFF; --link-hover:#FFFFFF; --chip-ink:#15172E; --dash:#454B7E; --hover:#272B50;
   --t0:#6F9CF0; --t1:#5FC3D2; --t2:#E8BD55; --t3:#F08A4C; --t4:#F05A5A;
-  --f1:#4C93EB;--f2:#E8693A;--f3:#25B585;--f4:#E0A21A;--f5:#E26A97;--f6:#4FB04F;--f7:#9C92F0;--f8:#EE7676;--f9:#8B91A6;color-scheme:dark}}
+  --f1:#4C93EB;--f2:#E8693A;--f3:#25B585;--f4:#E0A21A;--f5:#E26A97;--f6:#4FB04F;--f7:#9C92F0;--f8:#EE7676;--f9:#8B91A6;--glass:rgb(20 22 52 / .86);--glass-ink:#EEF0FF;--glass-muted:#AEB3DD;--glass-line:rgb(255 255 255 / .14);--glass-tag:#3A3F8F;--glass-tagink:#fff;--map-bg:radial-gradient(120% 95% at 50% 32%,#242870 0%,#181A3C 50%,#0E0F27 100%);color-scheme:dark}}
 :root[data-theme="dark"]{
   --night:#181A3C; --night-ink:#EEF0FF; --night-muted:#B9BDE6; --mt-bg:rgb(255 255 255 / .1); --mt-line:rgb(255 255 255 / .25); --mt-ink:#FFFFFF; --ground:#15172E; --panel:#1F2342; --ink:#E8EAF7; --muted:#A9AECB; --line:#343A66; --line-soft:#2A2F55;
   --accent:#A9AFFF; --accent-soft:#2D3263; --link:#A9AFFF; --link-hover:#FFFFFF; --chip-ink:#15172E; --dash:#454B7E; --hover:#272B50;
   --t0:#6F9CF0; --t1:#5FC3D2; --t2:#E8BD55; --t3:#F08A4C; --t4:#F05A5A;
-  --f1:#4C93EB;--f2:#E8693A;--f3:#25B585;--f4:#E0A21A;--f5:#E26A97;--f6:#4FB04F;--f7:#9C92F0;--f8:#EE7676;--f9:#8B91A6;color-scheme:dark}
+  --f1:#4C93EB;--f2:#E8693A;--f3:#25B585;--f4:#E0A21A;--f5:#E26A97;--f6:#4FB04F;--f7:#9C92F0;--f8:#EE7676;--f9:#8B91A6;--glass:rgb(20 22 52 / .86);--glass-ink:#EEF0FF;--glass-muted:#AEB3DD;--glass-line:rgb(255 255 255 / .14);--glass-tag:#3A3F8F;--glass-tagink:#fff;--map-bg:radial-gradient(120% 95% at 50% 32%,#242870 0%,#181A3C 50%,#0E0F27 100%);color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
@@ -211,7 +213,7 @@ h1,h2,h3{font-family:var(--display);margin:0}
 .gfilter input:focus{border-color:var(--accent);outline:none}
 /* map */
 .mapcard{padding:0;overflow:hidden;background:var(--night);border:0}
-.mapwrap{position:relative;height:calc(100vh - 210px);min-height:480px}
+.mapwrap{position:relative;height:calc(100vh - 210px);min-height:480px;background:var(--map-bg)}
 #cv{display:block;touch-action:none;cursor:grab;width:100%;height:100%}#cv:active{cursor:grabbing}
 .mtools{position:absolute;top:12px;right:12px;display:flex;gap:4px}
 .mapcard{display:flex;flex-direction:column}
@@ -234,20 +236,70 @@ h1,h2,h3{font-family:var(--display);margin:0}
 .mapcard:fullscreen .mapnote,.mapcard.expanded .mapnote{display:none}
 .mapcard .mapnote{margin:0;padding:8px 16px 10px;background:var(--panel);border-top:1px solid var(--line)}
 @media (max-width:640px){.mfull span{display:none}.mfind{order:5;flex-basis:100%;max-width:none}}
-.mtools .btn{background:var(--mt-bg);border-color:var(--mt-line);color:var(--mt-ink);min-width:36px}
+.mtools{background:var(--glass);border:1px solid var(--glass-line);border-radius:12px;padding:4px;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 14px 40px -12px rgb(0 0 0 / .55)}
+.mtools .btn{background:transparent;border-color:transparent;color:var(--glass-ink);min-width:36px;min-height:34px}
 .mtools .btn:hover{background:var(--mt-line);color:var(--mt-ink)}
 .mtools .btn[aria-pressed="true"]{background:var(--mt-ink);color:var(--night)}
-.tip{position:absolute;pointer-events:none;background:#fff;color:#1D2040;border-radius:8px;padding:7px 10px;font-size:13px;display:flex;flex-direction:column;gap:1px;max-width:300px;box-shadow:0 6px 18px rgb(0 0 0 / .3)}
-.tip span{color:#4A5170}
-.mpanel{position:absolute;left:12px;top:12px;width:280px;max-height:calc(100% - 24px);overflow:auto;background:#fff;color:#1D2040;border-radius:10px;padding:14px 16px;box-shadow:0 6px 18px rgb(0 0 0 / .3);display:flex;flex-direction:column;gap:8px}
+.tip{position:absolute;pointer-events:none;background:var(--glass);color:var(--glass-ink);border:1px solid var(--glass-line);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:10px;padding:8px 11px;font-size:13px;display:flex;flex-direction:column;gap:1px;max-width:300px;box-shadow:0 14px 40px -10px rgb(0 0 0 / .55)}
+.tip span{color:var(--glass-muted)}
+.mpanel{position:absolute;left:12px;top:12px;width:300px;max-height:calc(100% - 24px);overflow:auto;background:var(--glass);color:var(--glass-ink);border:1px solid var(--glass-line);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2);border-radius:14px;padding:14px 16px;box-shadow:0 18px 50px -12px rgb(0 0 0 / .6);display:flex;flex-direction:column;gap:9px}
+.mpanel .k{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--glass-muted)}
 .mpanel .h{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.mpanel .h b{font-family:var(--display);font-size:18px}
+.mpanel .h b{font-family:var(--display);font-size:21px;font-weight:800;letter-spacing:-.02em;line-height:1.05}
 .mpanel .nb{display:flex;flex-direction:column}
-.mpanel .nb button{display:flex;align-items:center;gap:8px;border:0;background:none;color:#1D2040;font:inherit;font-size:14px;padding:4px 0;cursor:pointer;text-align:left;min-height:30px}
-.mpanel .nb button:hover{color:#3A40C8}
-.mpanel .nb .val{margin-left:auto;font-family:var(--mono);font-size:12px;color:#4A5170}
-.mpanel .btn{color:#1D2040;background:#fff;border-color:#DDE1EA}
+.mpanel .nb button{display:flex;align-items:center;gap:8px;border:0;background:none;color:var(--glass-ink);font:inherit;font-size:14px;padding:4px 0;cursor:pointer;text-align:left;min-height:30px}
+.mpanel .nb button:hover{color:var(--accent)}
+.mpanel .nb .val{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--glass-muted)}
+.mpanel .btn{color:var(--glass-ink);background:transparent;border-color:var(--glass-line)}
+.mpanel .btn:hover{border-color:var(--accent);color:var(--accent)}
 .mapnote{font-size:13px;color:var(--muted);margin:10px 2px 0}
+:root{--navbg:color-mix(in srgb,var(--panel) 88%,transparent);--navline:var(--line);--navink:var(--muted);--navon:var(--accent);--navpill:var(--accent-soft)}
+
+/* phones: one compact header row (brand + search) and a bottom tab bar */
+.nav .ni{display:none}
+@media (max-width:820px){
+  .top{position:sticky!important;top:0;z-index:30}
+  .top-in{flex-wrap:nowrap!important;gap:12px!important;padding:9px 14px!important}
+  .brand{font-size:21px!important;flex:none}
+  .brand small{display:none}
+  .top .search,.top-in>.search{flex:1 1 auto!important;min-height:40px!important;max-width:none!important;padding:0 10px 0 12px!important;margin:0}
+  .top .search input,.top-in>.search input{min-height:38px!important;font-size:16px!important}
+  .nav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));gap:0!important;padding:5px 4px calc(5px + env(safe-area-inset-bottom));background:var(--navbg);border-top:1px solid var(--navline);-webkit-backdrop-filter:blur(18px) saturate(1.3);backdrop-filter:blur(18px) saturate(1.3);flex:none!important}
+  .nav .sep{display:none}
+  .nav a{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:3px 0!important;min-height:54px;font-size:10.5px!important;font-weight:500!important;letter-spacing:.01em;border-radius:12px;background:none!important;color:var(--navink)!important}
+  .nav .ni{display:block;width:48px;height:30px;padding:5px 13px;border-radius:999px;transition:background .2s}
+  .nav a[aria-current="page"]{color:var(--navon)!important;font-weight:600!important}
+  .nav a[aria-current="page"] .ni{background:var(--navpill)}
+  body{padding-bottom:calc(68px + env(safe-area-inset-bottom))}
+}
+
+@media (max-width:820px){
+  #main{scroll-margin-top:70px}
+  .gs{position:fixed;left:8px;right:8px;top:62px;max-height:calc(100dvh - 150px)}
+  .layout{padding:14px 14px 28px;gap:16px}
+  .rec{padding:20px 18px;gap:20px}
+  .rec h1{font-size:clamp(32px,9vw,44px)}
+  .lede{font-size:16.5px}
+  .card{border-radius:16px}
+  .list{max-height:44vh;border-radius:14px}
+  .row{padding:9px 14px;font-size:15px}
+  .chip{min-height:34px}
+  .tiers>span{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+  .layout.mapmode{padding:0;gap:0}
+  .mapcard{border-radius:0!important}
+  .mbar{gap:8px;padding:8px 10px;flex-wrap:wrap}
+  .mbar .mlabel{display:none}
+  .mbar .mgroup{gap:0}
+  .mseg button{padding:0 10px;min-height:36px;font-size:13.5px}
+  .mseg button svg{display:none}
+  .mfull{min-height:36px;min-width:38px;padding:0 9px;margin-left:auto}
+  .mfind{order:5;flex:1 1 100%;max-width:none;min-height:38px}
+  .mapchips{padding:8px 10px}
+  .mapwrap{height:calc(100dvh - 228px - env(safe-area-inset-bottom));min-height:360px}
+  .mapcard .mapnote{display:none}
+  .mtools{top:8px;right:8px}
+  .mpanel{left:8px;right:8px;top:auto;bottom:8px;width:auto;max-height:48%}
+}
 </style>
 </head>
 <body>
@@ -255,13 +307,13 @@ h1,h2,h3{font-family:var(--display);margin:0}
   <div class="top-in">
     <a class="brand" href="index.html">Soundlore</a>
     <nav class="nav" aria-label="Sections">
-      <a href="#concepts" data-tab="c">Concepts</a>
-      <a href="#genres" data-tab="g">Genres</a>
-      <a href="#artists" data-tab="a">Artists</a>
-      <a href="#map" data-tab="m">Map</a>
+      <a href="#concepts" data-tab="c"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><span>Concepts</span></a>
+      <a href="#genres" data-tab="g"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/></svg><span>Genres</span></a>
+      <a href="#artists" data-tab="a"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>Artists</span></a>
+      <a href="#map" data-tab="m"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span>Map</span></a>
       <span class="sep" aria-hidden="true"></span>
-      <a href="thesaurus.html">Thesaurus</a>
-      <a href="about.html">About</a>
+      <a href="thesaurus.html"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19M9 7h6"/></svg><span>Thesaurus</span></a>
+      <a href="about.html"><svg class="ni" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span>About</span></a>
     </nav>
     <div class="search" role="search">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="color:var(--muted)"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
@@ -700,7 +752,7 @@ function applyMapMode(first){
   $('#mchips').hidden=!nat;$('#cv').hidden=!nat;$('#mtools').hidden=!nat;if(!nat){$('#mpanel').hidden=true;$('#tip').hidden=true;}
   const ly=MV.layer;
   $('#mq').placeholder=nat?'Find a genre on the map':three?'Find a genre, instrument or artist':ly==='a'?'Find an artist or a genre':'Find an instrument or a genre';
-  $('#mnote').textContent=nat?'Closer genres have more similar profiles. Click a genre to see its ten closest neighbors.':three?'Instruments above, genres in the middle, artists below: switch each plane on or off in Layers. Drag to rotate, right-drag or Shift-drag to pan, wheel or pinch to zoom.':ly==='a'?'Each artist sits at the vote-weighted center of its genres. Click one to see its genres; click a genre on the genre layer to see its artists here.':'Each instrument sits at the weighted center of the genres that use it. Click one to see its genres.';
+  $('#mnote').textContent=nat?'Closer genres have more similar profiles. Click a genre to see its ten closest neighbors.':three?'Instruments above, genres in the middle, artists below: switch each plane on or off in Layers. Scroll or pinch to zoom toward the cursor, up to 70×, and the names of the artists appear; double-click a point to fly to it.':ly==='a'?'Each artist sits at the vote-weighted center of its genres. Click one to see its genres; click a genre on the genre layer to see its artists here.':'Each instrument sits at the weighted center of the genres that use it. Click one to see its genres.';
   const L=$('#lay');L.hidden=nat;
   if(!nat){const k=MV.selKey;const sel=k?(/^SL\d+$/i.test(k)?'i/'+k.toUpperCase():ISMBID(k)?'a/'+k:'g/'+encodeURIComponent(k)):'';
     const h='#embed'+(three?'/3d/v'+visL():(ly==='i'?'/li':ly==='a'?'/la':''))+(sel?'/'+sel:'');
@@ -772,8 +824,8 @@ function mapPick(k){MV.pick=k;const P=$('#mpanel');
   if(!k){P.hidden=true;MV.selKey=null;if(native())history.replaceState(null,'',mapHash());mapDraw();return;}
   const g=GK[k],p=MV.by[k],nb=(T[k]||[]).slice(0,10);S.genre=k;save();MV.selKey=k;history.replaceState(null,'',mapHash());
   P.hidden=false;P.innerHTML=`<div class="h"><b>${esc(k)}</b><button class="btn" id="mpclose" type="button" aria-label="Close">×</button></div>
-    <span style="font-size:13px;color:#4A5170">${esc(MAP.families[p[3]])}</span>
-    ${g&&g.profile?`<div class="tags">${g.profile.characteristic.slice(0,6).map(c=>`<span class="tag c" style="background:#23277F;border-color:#23277F;color:#fff">${esc(CI[c]?.label||c)}</span>`).join('')}</div>`:''}
+    <span class="k"><span class="sw" style="background:${MP().dots[p[3]]};margin-right:6px;vertical-align:0"></span>${esc(MAP.families[p[3]])}</span>
+    ${g&&g.profile?`<div class="tags">${g.profile.characteristic.slice(0,6).map(c=>`<span class="tag c" style="background:var(--glass-tag);border-color:var(--glass-tag);color:var(--glass-tagink)">${esc(CI[c]?.label||c)}</span>`).join('')}</div>`:''}
     <div class="nb">${nb.map(n=>`<button data-k="${esc(n[0])}" type="button"><span class="sw" style="background:var(${tvar(n[1])})"></span>${esc(n[0])}<span class="val">${n[1].toFixed(0)}</span></button>`).join('')}</div>
     <a class="btn" href="#genres/${encodeURIComponent(k)}">Open the genre record</a>`;
   $('#mpclose').onclick=()=>mapPick(null);
@@ -781,7 +833,7 @@ function mapPick(k){MV.pick=k;const P=$('#mpanel');
   mapDraw();}
 function mapChooser(list){MV.pick=null;const P=$('#mpanel');P.hidden=false;
   P.innerHTML=`<div class="h"><b>${list.length} genres here</b><button class="btn" id="mpclose" type="button" aria-label="Close">×</button></div>
-    <span style="font-size:13px;color:#4A5170">These genres have identical or near-identical profiles. Pick one, or zoom in to separate them.</span>
+    <span style="font-size:13px;color:var(--glass-muted)">These genres have identical or near-identical profiles. Pick one, or zoom in to separate them.</span>
     <div class="nb">${list.map(p=>`<button data-k="${esc(p[0])}" type="button"><span class="sw" style="background:${NIGHT[p[3]]}"></span>${esc(p[0])}</button>`).join('')}</div>
     <button class="btn" id="mpzoom" type="button">Zoom in here</button>`;
   $('#mpclose').onclick=()=>mapPick(null);
@@ -791,6 +843,7 @@ function mapChooser(list){MV.pick=null;const P=$('#mpanel');P.hidden=false;
 function mapFocus(k){const p=MV.by[k];if(!p)return;MV.view.k=Math.max(MV.view.k,3);MV.view.x=0;MV.view.y=0;const [x,y]=toScreen(p[1],p[2]);MV.view.x=MV.W/2-x;MV.view.y=MV.H/2-y;mapPick(k);}
 
 window.addEventListener('themechange',()=>{syncLayTheme();if(S.tab==='m')mapDraw();else if(S.tab==='g'&&$('#mini'))render();});
+if(matchMedia('(max-width:820px)').matches)$('#q').placeholder='Search genres, artists, concepts';
 need('concepts').then(route).catch(fail);
 </script>
 
